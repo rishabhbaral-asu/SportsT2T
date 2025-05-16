@@ -1,0 +1,18 @@
+Analyzing the snippets for Player21:
+- "Player21(Away Team) commits a foul, giving Player7(Home Team) a free kick on the right wing, ." -> Counts as 1 Foul because the snippet explicitly states Player21 committed a foul.
+- "Player21(Away Team)'s shot from outside the box is blocked after being assisted by Player26(Away Team) with a headed pass." -> Counts as 1 Shot because the snippet explicitly states Player21's shot was blocked.
+- "Player21(Away Team) earns a free kick on the left side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player21 earned a free kick.
+- "Player21(Away Team)'s left footed shot from the left side of the box, assisted by Player29(Away Team) with a headed pass following a corner kick, misses to the right for the Away Team." -> Counts as 1 Shot because the snippet explicitly states Player21's shot missed to the right.
+- "Player21(Away Team) earns a free kick on the left wing after being fouled by Player7(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player21 earned a free kick.
+- "Player21(Away Team) commits a foul, allowing Player7(Home Team) to win a free kick on the right wing, This leads to a set piece opportunity for their team." -> Counts as 1 Foul because the snippet explicitly states Player21 committed a foul.
+- "Player21(Away Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player21 received a yellow card for a rough tackle, which is a foul.
+- "Player21(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player21 committed a foul.
+- "Player21(Away Team) has committed a hand ball." -> Counts as 1 Foul because the snippet explicitly states Player21 has committed a hand ball.
+- "Player21(Away Team) has been given a second yellow card for handling the ball." -> Counts as 1 Yellow Card, 1 Foul, and 1 Red Card because the snippet explicitly states Player21 has been given a second yellow card for handling the ball, resulting in a red card.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 2     | 0     | 0       | 2          | 5     | 2            | 1         | 0        |
+```

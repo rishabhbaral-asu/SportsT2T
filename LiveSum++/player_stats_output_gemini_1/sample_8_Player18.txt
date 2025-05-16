@@ -1,0 +1,12 @@
+Analyzing the snippets for Player18:
+- "Player18(Home Team) attempts a through ball, but Player11(Home Team) is offside." -> Counts as 0 Offsides because Player11 is offside and not Player18.
+- "Player18(Home Team)'s left footed shot from the center of the box is blocked after being assisted by Player3(Home Team) with a cross, resulting in a corner kick for the Home Team." -> Counts as 1 Shot because the snippet explicitly states Player18's shot was blocked.
+- "Player18(Home Team)'s shot from outside the box is blocked with Player3(Home Team) providing the assist." -> Counts as 1 Shot because the snippet explicitly states Player18's shot was blocked.
+- "Player18(Home Team) from the Home Team attempted a through ball to Player11(Home Team), but Player11(Home Team) was offside." -> Counts as 0 Offsides because Player11 is offside and not Player18.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player18 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

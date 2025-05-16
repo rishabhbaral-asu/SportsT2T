@@ -1,0 +1,11 @@
+Analyzing the snippets for Player4:
+- "Player4(Home Team) attempts a through ball, but Player9(Home Team) is caught offside." -> No countable event because Player9 is caught offside, not Player4.
+- "Player4(Home Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player4 received a yellow card for a rough tackle, which is a foul.
+- "Player4(Home Team)'s shot from distance is blocked with the help of Player10(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player4 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 1     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

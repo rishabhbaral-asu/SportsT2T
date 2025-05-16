@@ -1,0 +1,18 @@
+Analyzing the snippets for Player29:
+- "Player29(Away Team)'s shot from the left side is saved by the goalkeeper with an assist from Player23(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot.
+- "Player29(Away Team)'s shot from outside the box is saved by the goalkeeper with the help of Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot.
+- "Player29(Away Team) misses a shot from a tough angle on the right, with an assist from Player20(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player29 missed a shot.
+- "Player29(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a foul.
+- "Player29(Away Team)'s shot from the left side is blocked with the help of Player25(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot.
+- "Player29(Away Team)'s long-range free kick with his right foot narrowly misses to the right." -> Counts as 1 Shot and 1 Free Kick because the snippet explicitly states Player29 took a free kick, and it was a shot.
+- "Player29(Away Team)'s left footed shot from the left side of the box narrowly misses to the right with an assist from Player28(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot.
+- "Player29(Away Team)'s right-footed shot from the left side of the box hits the right post, with an assist from Player23(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot.
+- "Player29(Away Team)'s shot from the center of the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot.
+- "Player29(Away Team) commits a foul, causing a delay in the match as Player1(Home Team) is injured, ." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 7     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

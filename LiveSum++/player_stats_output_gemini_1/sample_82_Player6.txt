@@ -1,0 +1,12 @@
+Analyzing the snippets for Player6:
+- "Player6(Home Team) commits a foul, resulting in Player28(Away Team) from Away Team winning a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player6 committed a foul.
+- "Player6(Home Team) attempts a through ball, but Player11(Home Team) is caught offside." -> No countable event because the snippet does not mention any of the defined events.
+- "Player6(Home Team) attempts a pass to Player11(Home Team), but he is offside." -> No countable event because the snippet does not mention any of the defined events.
+- "Player6(Home Team) attempted a through ball, but Player14(Home Team) was offside." -> No countable event because the snippet does not mention any of the defined events.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

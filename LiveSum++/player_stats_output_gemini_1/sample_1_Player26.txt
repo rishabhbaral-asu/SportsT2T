@@ -1,0 +1,16 @@
+Analyzing the snippets for Player26:
+
+- "Player26(Away Team) misses the header from the center of the box, it goes high and wide to the right, Player28(Away Team) assisted with a cross after a set piece." -> Counts as 1 Shot because the snippet explicitly states Player26 misses the header.
+- "Player26(Away Team) attempts a through ball, but Player28(Away Team) is offside for the Away Team." -> Counts as 1 Offside because the snippet explicitly states Player28 is offside as a result of Player26's attempted through ball, Player28 being offside does not count towards Player26 statistics.
+- "Player26(Away Team) scores with a right-footed shot from outside the box, assisted by Player29(Away Team), Home Team 0, Away Team 1." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player26 scores with a right-footed shot.
+- "Player26(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player26 commits a foul.
+- "Player26(Away Team)'s left footed shot from outside the box is blocked, resulting in a corner kick for the Away Team." -> Counts as 1 Shot because the snippet explicitly states Player26's shot is blocked.
+- "Player26(Away Team) fouls Player11(Home Team), who wins a free kick on the right wing." -> Counts as 1 Foul because the snippet explicitly states Player26 fouls Player11.
+- "Player26(Away Team) misses the target with a left-footed shot from outside the box." -> Counts as 1 Shot because the snippet explicitly states Player26 misses the target with a left-footed shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 4     | 1     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

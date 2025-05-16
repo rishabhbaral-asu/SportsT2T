@@ -1,0 +1,12 @@
+Analyzing the snippets for Player7:
+- "Player7(Home Team)'s left-footed shot from long range, with an assist from Player8(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player7 took a shot.
+- "Player7(Home Team)'s shot from the right side of the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player7 took a shot.
+- "Player7(Home Team) misses the target with a left-footed shot from outside the box, assisted by Player10(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player7 took a shot.
+- "Player7(Home Team) attempts a through ball to Player9(Home Team), but Player9(Home Team) is offside." -> Counts as 0 because the snippet does not explicitly state that Player7 was offside.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 3     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,19 @@
+Analyzing the snippets for Player24:
+
+- "Player24(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player24 committed a foul.
+- "Player24(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player24 earned a free kick.
+- "Player24(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player24 earned a free kick.
+- "Player24(Away Team) scores with a penalty kick to give the Away Team a 1-0 lead over the Home Team." -> Counts as 1 Goal, 1 Shot, and 1 Free Kick because the snippet explicitly states Player24 scored with a penalty kick, which counts as both a goal and a shot, and a free kick.
+- "Player24(Away Team) commits a foul, resulting in Player6(Home Team) winning a free kick in the attacking half, The foul by Player24(Away Team) awards Player6(Home Team) a free kick in the attacking half." -> Counts as 1 Foul because the snippet explicitly states Player24 committed a foul.
+- "Player24(Away Team) receives a yellow card for a harsh tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player24 received a yellow card for a harsh tackle, which is also a foul.
+- "Player24(Away Team) scores a penalty with a right footed shot to the bottom right corner, making it Home Team 0, Away Team 2." -> Counts as 1 Goal, 1 Shot, and 1 Free Kick because the snippet explicitly states Player24 scored a penalty, which counts as both a goal and a shot, and a free kick.
+- "Player24(Away Team)'s attempt from outside the box is blocked with the help of Player25(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player24's attempt.
+- "Player24(Away Team) misses the target with a high and wide shot from outside the box after a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player24 misses the target with a shot.
+- "Player24(Away Team) misses the penalty, hitting the left post with a right-footed shot, The score remains Home Team 0, Away Team 2." -> Counts as 1 Shot and 1 Free Kick because the snippet explicitly states Player24 misses the penalty, which counts as a shot and a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 5     | 2     | 0       | 4          | 3     | 1            | 0         | 0        |
+```

@@ -1,0 +1,12 @@
+Analyzing the snippets for Player6:
+
+- "Player6(Home Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player6 earned a free kick.
+- "Player6(Home Team)'s header from the center of the box is blocked with an assist from Player6(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player6's header was blocked (an attempt on goal). It does not count as an assist because Player6 cannot assist themself, and the 'assist from Player6' is contradictory within the same clause describing the blocked shot.
+- "Player6(Home Team) misses a header from close range to the left after being assisted by Player8(Home Team) with a cross following a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player6 missed a header (an attempt on goal).
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 2     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

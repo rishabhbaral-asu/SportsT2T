@@ -1,0 +1,11 @@
+Analyzing the snippets for Player16:
+- "Player16(Home Team) scores with a left-footed shot from the center of the box, assisted by Player3(Home Team) with a cross, The score is now Home Team 1, Away Team 0." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player16 scores with a shot.
+- "Player16(Home Team)'s left footed shot from the left side of the box goes over the crossbar, with an assist from Player4(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player16 took a shot.
+- "Player16(Home Team)'s attempt from outside the box with their right foot goes high and wide to the right, assisted by Player3(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player16 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player16 | 3     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

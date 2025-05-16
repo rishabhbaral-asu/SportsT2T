@@ -1,0 +1,12 @@
+Analyzing the snippets for Player21:
+- "Player21(Away Team) misses a left-footed shot from outside the box to the right, with an assist from Player28(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player21 misses a shot.
+- "Player21(Away Team) fouls Player10(Home Team), who wins a free kick on the right wing." -> Counts as 1 Foul because the snippet explicitly states Player21 committed a foul.
+- "Player21(Away Team) receives a yellow card for a foul." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player21 received a yellow card for a foul.
+- "Player21(Away Team) fouls Player2(Home Team), who earns a free kick on the right wing." -> Counts as 1 Foul because the snippet explicitly states Player21 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 1     | 0     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

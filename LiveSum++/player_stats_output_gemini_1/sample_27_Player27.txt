@@ -1,0 +1,18 @@
+Analyzing the snippets for Player27:
+- "Player27(Away Team)'s shot from outside the box narrowly misses to the right with an assist from Player28(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
+- "Player27(Away Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player27 earned a free kick.
+- "Player27(Away Team)'s shot from the center of the box is saved in the bottom right corner with an assist from Player28(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
+- "Player27(Away Team)'s right footed shot from the left side of the box hits the right post, assisted by Player28(Away Team) after a fast break." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
+- "Player27(Away Team) is currently sidelined due to an injury, causing a delay in the match." -> No countable event because the snippet does not mention any of the defined events.
+- "Player27(Away Team)'s shot from the left side of the box is blocked with the help of Player19(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
+- "Player27(Away Team)'s right footed shot from outside the box hits the crossbar on a direct free kick." -> Counts as 1 Shot and 1 Free Kick because the snippet explicitly states Player27 took a shot on a direct free kick.
+- "Player27(Away Team)'s header from the center of the box is saved by the goalkeeper after an assist from Player28(Away Team) with a cross, resulting in a corner kick for the Away Team." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
+- "Player27(Away Team)'s shot from outside the box is blocked with the help of Player28(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
+- "Player27(Away Team) has been sent off for getting into a fight." -> Counts as 1 Red Card and 1 Foul because the snippet explicitly states Player27 was sent off for getting into a fight.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 7     | 0     | 0       | 2          | 1     | 0            | 1         | 0        |
+```

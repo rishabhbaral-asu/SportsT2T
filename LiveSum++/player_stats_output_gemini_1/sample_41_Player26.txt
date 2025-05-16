@@ -1,0 +1,18 @@
+Analyzing the snippets for Player26:
+
+- "Player26(Away Team) commits a foul on Player8(Home Team), resulting in a free kick for the attacking team, This sets up a good scoring opportunity." -> Counts as 1 Foul because the snippet explicitly states Player26 committed a foul.
+- "Player26(Away Team) from Player4(Home Team) wins a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player26 wins a free kick.
+- "Player26(Away Team) commits a foul on Player8(Home Team), resulting in a free kick for Player8(Home Team)'s team in their own half." -> Counts as 1 Foul because the snippet explicitly states Player26 committed a foul.
+- "Player26(Away Team) commits a foul on Player9(Home Team), resulting in a free kick awarded to the attacking team." -> Counts as 1 Foul because the snippet explicitly states Player26 committed a foul.
+- "Player26(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player26 committed a foul.
+- "Player26(Away Team) attempts a through ball to Player28(Away Team), who is caught offside." -> No countable event because the snippet does not explicitly state that Player26 is offside, even though his teammate is.
+- "Player26(Away Team) attempts a through ball to Player29(Away Team), who is caught offside." -> No countable event because the snippet does not explicitly state that Player26 is offside, even though his teammate is.
+- "Player26(Away Team) earns a free kick in their own half following a foul by Player9(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player26 earns a free kick.
+- "Player26(Away Team) from Player4(Home Team) attempted a left-footed shot from outside the box, but it went high and wide to the left." -> Counts as 1 Shot because the snippet explicitly states Player26 attempted a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 1     | 0     | 0       | 2          | 4     | 0            | 0         | 0        |
+```

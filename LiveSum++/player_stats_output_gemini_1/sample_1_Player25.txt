@@ -1,0 +1,13 @@
+Analyzing the snippets for Player25:
+- "Player25(Away Team)'s shot from outside the box is saved in the bottom right corner with an assist from Player29(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player25's shot was saved.
+- "Player25(Away Team) has given away a penalty with a foul in the box." -> Counts as 1 Foul because the snippet explicitly states Player25 has given away a penalty with a foul.
+- "Player25(Away Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player25 received a yellow card for a rough tackle, which constitutes a foul.
+- "Player25(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player25 committed a foul.
+- "Player25(Away Team) receives his second yellow card for a reckless challenge." -> Counts as 1 Yellow Card, 1 Foul and 1 Red Card because the snippet explicitly states Player25 received his second yellow card for a reckless challenge, which results in a red card.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 0     | 0       | 0          | 4     | 2            | 1         | 0        |
+```

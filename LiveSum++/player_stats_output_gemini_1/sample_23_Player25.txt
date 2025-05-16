@@ -1,0 +1,13 @@
+Analyzing the snippets for Player25:
+
+- "Player25(Away Team) commits a foul, resulting in Player2(Home Team) winning a free kick in their defensive half." -> Counts as 1 Foul because the snippet explicitly states Player25 committed a foul.
+- "Player25(Away Team) misses a header to the right from the center of the box after a cross from Player29(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player25 misses a header, which is a shot attempt.
+- "Player25(Away Team)'s header from the center of the box is saved by the goalkeeper after a cross from Player28(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player25 had a header that was saved by the goalkeeper, which is a shot attempt.
+- "Player25(Away Team)'s header from the center of the box, assisted by Player29(Away Team), goes high and wide to the left, resulting in a missed attempt, This leads to Player8(Home Team) winning a free kick in the defensive half." -> Counts as 1 Shot because the snippet explicitly states Player25 had a header that goes high and wide, which is a shot attempt.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 3     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

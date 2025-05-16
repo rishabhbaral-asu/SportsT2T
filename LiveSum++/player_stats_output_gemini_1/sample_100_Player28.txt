@@ -1,0 +1,15 @@
+Analyzing the snippets for Player28:
+
+- "Player28(Away Team) commits a foul, resulting in Player2(Home Team) winning a free kick in their defensive half, The referee awards Player2(Home Team) a free kick in the defensive half after Player28(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+- "Player28(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+- "Player28(Away Team) attempts a through ball to Player27(Away Team), who is caught offside." -> No countable event because the snippet does not mention any of the defined events.
+- "Player28(Away Team) is currently delayed in the match due to an injury." -> No countable event because the snippet does not mention any of the defined events.
+- "Player28(Away Team) commits a foul, resulting in Player6(Home Team) winning a free kick on the left wing, ." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+- "Player28(Away Team) commits a foul, resulting in Player5(Home Team) winning a free kick in their own defensive half, ." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 0     | 0     | 0       | 0          | 4     | 0            | 0         | 0        |
+```

@@ -1,0 +1,14 @@
+Analyzing the snippets for Player20:
+- "Player20(Away Team)'s shot from the center of the box is blocked by the defense, resulting in a corner kick for the Away Team after an assist from Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player20's shot was blocked.
+- "Player20(Away Team) commits a foul, leading to Player11(Home Team) winning a free kick in the attacking half, ." -> Counts as 1 Foul because the snippet explicitly states Player20 committed a foul.
+- "Player20(Away Team) commits a foul, resulting in Player11(Home Team) winning a free kick on the left wing, ." -> Counts as 1 Foul because the snippet explicitly states Player20 committed a foul.
+- "Player20(Away Team), but he is offside." -> Counts as 1 Offside because the snippet explicitly states Player20 is offside.
+- "Player20(Away Team) earns a free kick in his own half after being fouled by Player11(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player20 earned a free kick.
+- "Player20(Away Team) is causing a delay in the match due to an injury." -> No countable event because the snippet does not mention any of the defined events.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 1     | 0     | 0       | 1          | 2     | 0            | 0         | 1        |
+```

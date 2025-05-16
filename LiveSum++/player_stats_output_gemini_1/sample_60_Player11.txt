@@ -1,0 +1,18 @@
+Analyzing the snippets for Player11:
+- "Player11(Home Team) attempts a through ball, but Player9(Home Team) is offside for the Home Team." -> No countable event because the snippet does not explicitly state Player11 took a shot, scored a goal, provided an assist, committed a foul, received a card, or was offside. It states that Player9 is offside.
+- "Player11(Home Team) is awarded a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player11 earned a free kick.
+- "Player11(Home Team) commits a foul on Player28(Away Team), who earns a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player11 committed a foul.
+- "Player11(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player11 committed a foul.
+- "Player11(Home Team) receives a yellow card." -> Counts as 1 Yellow Card because the snippet explicitly states Player11 received a yellow card.
+- "Player11(Home Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player11 earned a free kick.
+- "Player11(Home Team)'s left-footed shot from outside the box in the middle of the goal." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team)'s shot from outside the box is blocked after being assisted by Player14(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team) has committed a foul." -> Counts as 1 Foul because the snippet explicitly states Player11 committed a foul.
+- "Player11(Home Team)'s left footed shot from the right side of the box, assisted by Player14(Home Team), is saved in the bottom right corner after the Home Team obtains a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 3     | 0     | 0       | 2          | 3     | 1            | 0         | 0        |
+```

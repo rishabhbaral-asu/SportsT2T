@@ -1,0 +1,13 @@
+Analyzing the snippets for Player23:
+
+- "Player23(Away Team) commits a foul on Player9(Home Team), who is awarded a free kick in their defensive half, The foul was committed by Player23(Away Team), resulting in a free kick for Player9(Home Team) in their defensive half." -> Counts as 1 Foul because the snippet explicitly states Player23 committed a foul.
+- "Player23(Away Team) commits a foul, resulting in Player3(Home Team) being awarded a free kick in their defensive half." -> Counts as 1 Foul because the snippet explicitly states Player23 committed a foul.
+- "Player23(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player23 earned a free kick.
+- "Player23(Away Team) earns a free kick on the left side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player23 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 0     | 0     | 0       | 2          | 2     | 0            | 0         | 0        |
+```

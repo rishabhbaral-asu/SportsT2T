@@ -1,0 +1,13 @@
+Analyzing the snippets for Player23:
+- "Player23(Away Team) just missed the goal with a close shot from the center of the box, assisted by Player29(Away Team) with a cross after a set piece." -> Counts as 1 Shot because the snippet explicitly states Player23 missed the goal with a shot.
+- "Player23(Away Team) commits a foul as Player7(Home Team)'s right footed shot from outside the box, assisted by Player8(Home Team), is blocked." -> Counts as 1 Foul because the snippet explicitly states Player23 committed a foul.
+- "Player23(Away Team) has been cautioned with a yellow card." -> Counts as 1 Yellow Card because the snippet explicitly states Player23 received a yellow card.
+- "Player23(Away Team)'s header from the middle of the box was blocked after receiving a cross from Player32(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player23's header was blocked.
+- "Player23(Away Team) misses a header to the left from the centre of the box after being assisted by Player29(Away Team) with a cross following a corner kick for the Away Team." -> Counts as 1 Shot because the snippet explicitly states Player23 misses a header.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 3     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

@@ -1,0 +1,14 @@
+Analyzing the snippets for Player32:
+- "Player32(Away Team)'s shot from the center of the box is saved by the goalkeeper in the bottom right corner, after a headed pass from Player35(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player32 took a shot.
+- "Player32(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player32 committed a foul.
+- "Player32(Away Team) from the Away Team earns a penalty after being fouled in the box." -> Counts as 1 Free Kick because the snippet explicitly states Player32 earned a penalty.
+- "Player32(Away Team) scores from the penalty spot with a right-footed shot to the top right corner." -> Counts as 1 Goal, 1 Shot, and 1 Free Kick because the snippet explicitly states Player32 scored from the penalty spot (which is also a shot and a free kick).
+- "Player32(Away Team)'s shot from the center of the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player32 took a shot.
+- "Player32(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player32 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player32 | 3     | 1     | 0       | 2          | 2     | 0            | 0         | 0        |
+```

@@ -1,0 +1,15 @@
+Analyzing the snippets for Player11:
+- "Player11(Home Team) wins a free kick in the defensive half after Player28(Away Team)'s left footed shot from outside the box is blocked by the opposition." -> Counts as 1 Free Kick because the snippet explicitly states Player11 wins a free kick.
+- "Player11(Home Team) commits a foul on Player25(Away Team), resulting in a free kick for his team in their defensive half, Valencia wins a free kick after the foul by Player11(Home Team) in the defensive half." -> Counts as 1 Foul because the snippet explicitly states Player11 commits a foul.
+- "Player11(Home Team) committed a foul, resulting in Player20(Away Team) winning a free kick in the opponent's half." -> Counts as 1 Foul because the snippet explicitly states Player11 committed a foul.
+- "Player11(Home Team) earns a free kick on the left wing after being fouled by Player25(Away Team), Valencia commits the foul." -> Counts as 1 Free Kick because the snippet explicitly states Player11 earns a free kick.
+- "Player11(Home Team)'s shot from the center of the box is blocked with his right foot, assisted by Player10(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11's shot.
+- "Player11(Home Team) earns a free kick in their own half after a foul by Player25(Away Team), Valencia gives away a free kick to Player11(Home Team) in the defensive half." -> Counts as 1 Free Kick because the snippet explicitly states Player11 earns a free kick.
+- "Player11(Home Team) earns a free kick in a dangerous position." -> Counts as 1 Free Kick because the snippet explicitly states Player11 earns a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 1     | 0     | 0       | 4          | 2     | 0            | 0         | 0        |
+```

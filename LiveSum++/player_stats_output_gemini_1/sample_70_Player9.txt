@@ -1,0 +1,13 @@
+Analyzing the snippets for Player9:
+- "Player9(Home Team) misses the header from the center of the box to the right, assisted by Player10(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 misses a header, which is an attempt on goal.
+- "Player9(Home Team) misses the header to the left from the center of the box after a cross from Player4(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 misses a header, which is an attempt on goal.
+- "Player9(Home Team)'s shot from the left side is stopped in the bottom left corner, with an assist from Player8(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 took a shot.
+- "Player9(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player9 committed a foul.
+- "Player9(Home Team) committed a hand ball." -> Counts as 1 Foul because the snippet explicitly states Player9 committed a hand ball, which is considered a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 3     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

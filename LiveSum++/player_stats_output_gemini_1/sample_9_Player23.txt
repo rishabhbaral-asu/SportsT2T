@@ -1,0 +1,11 @@
+Analyzing the snippets for Player23:
+- "Player23(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player23 earned a free kick.
+- "Player23(Away Team) attempts a through ball, but Player27(Away Team) is caught offside." -> No event counted for Player23. The snippet states that Player27 is offside, not Player23.
+- "Player23(Away Team) attempts a through ball, but Player28(Away Team) is offside for the Away Team." -> No event counted for Player23. The snippet states that Player28 is offside, not Player23.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

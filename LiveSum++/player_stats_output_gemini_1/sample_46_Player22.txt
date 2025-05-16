@@ -1,0 +1,15 @@
+Analyzing the snippets for Player22:
+- "Player22(Away Team) has committed a hand ball." -> Counts as 1 Foul because the snippet explicitly states Player22 committed a hand ball.
+- "Player22(Away Team)'s long-range left-footed shot from the left wing is saved in the center of the goal, with an assist from Player29(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player22 took a shot.
+- "Player22(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player22 commits a foul.
+- "Player22(Away Team) attempts a through ball, but Player25(Away Team) is offside for the Away Team." -> No countable event because the snippet does not explicitly state that Player22 was offside.
+- "Player22(Away Team) has committed a hand ball." -> Counts as 1 Foul because the snippet explicitly states Player22 committed a hand ball.
+- "Player22(Away Team) has been cautioned with a yellow card for handling the ball." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player22 received a yellow card for handling the ball.
+- "Player22(Away Team) attempts a through ball, but Player29(Away Team) is caught offside." -> No countable event because the snippet does not explicitly state that Player22 was offside.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 1     | 0     | 0       | 0          | 4     | 1            | 0         | 0        |
+```

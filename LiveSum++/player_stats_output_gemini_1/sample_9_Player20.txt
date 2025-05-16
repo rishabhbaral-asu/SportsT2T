@@ -1,0 +1,13 @@
+Analyzing the snippets for Player20:
+
+- "Player20(Away Team)'s attempt from outside the box on a direct free kick is too high, after Player27(Away Team) wins a free kick on the right wing." -> Counts as 1 Shot and 1 Free Kick because the snippet explicitly states Player20 took an attempt on goal from a direct free kick.
+- "Player20(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player20 committed a foul.
+- "Player20(Away Team) attempts a through ball to Player29(Away Team), who is caught offside." -> No countable event because the target player did not commit an offside.
+- "Player20(Away Team) commits a foul, resulting in Player11(Home Team) being awarded a free kick in their defensive half, This leads to a set piece opportunity for Player11(Home Team)'s team." -> Counts as 1 Foul because the snippet explicitly states Player20 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 1     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

@@ -1,0 +1,16 @@
+Analyzing the snippets for Player25:
+
+- "Player25(Away Team) takes a shot with his right foot from outside the box, but it hits the crossbar, Player28(Away Team) provided the assist." -> Counts as 1 Shot because the snippet explicitly states Player25 takes a shot.
+- "Player25(Away Team) narrowly misses hitting the left post with a right-footed shot from outside the box on a direct free kick, while Player27(Away Team)'s header from the center of the box, assisted by Player20(Away Team) with a cross, also misses to the right." -> Counts as 1 Shot and 1 Free Kick because the snippet explicitly states Player25 takes a shot from a direct free kick.
+- "Player25(Away Team)'s shot from outside the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player25's shot is blocked.
+- "Player25(Away Team) receives a yellow card." -> Counts as 1 Yellow Card because the snippet explicitly states Player25 receives a yellow card.
+- "Player25(Away Team)'s shot from the center of the box was blocked with the help of Player21(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player25's shot was blocked.
+- "Player25(Away Team) commits a foul, resulting in Player2(Home Team) winning a free kick in their defensive half." -> Counts as 1 Foul because the snippet explicitly states Player25 commits a foul.
+- "Player25(Away Team)'s right footed shot from the center of the box is blocked and Player32(Away Team)'s header from the same area is saved in the bottom right corner." -> Counts as 1 Shot because the snippet explicitly states Player25's shot is blocked.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 5     | 0     | 0       | 1          | 1     | 1            | 0         | 0        |
+```

@@ -1,0 +1,15 @@
+Analyzing the snippets for Player27:
+
+- "Player27(Away Team)'s attempt from outside the box was just a bit too high." -> Counts as 1 Shot because the snippet explicitly states Player27 made an attempt.
+- "Player27(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player27 committed a foul.
+- "Player27(Away Team) scores with a header from the center of the box, assisted by Player26(Away Team) after a set piece, The score is now tied at 2-2 between the Home Team and the Away Team." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player27 scored.
+- "Player27(Away Team)'s shot from outside the box with their right foot is saved in the bottom left corner, with an assist from Player25(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 made a shot.
+- "Player27(Away Team) is fouled in the box by Player5(Home Team)." -> No countable event because the snippet does not mention any of the defined events.
+- "Player27(Away Team) scores from the penalty spot with a right-footed shot to the bottom left corner, making it 3-3 for the Home Team against the Away Team." -> Counts as 1 Shot, 1 Goal, and 1 Free Kick because the snippet explicitly states Player27 scored from the penalty spot. Scoring is counted as a shot, and a penalty is counted as a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 4     | 2     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

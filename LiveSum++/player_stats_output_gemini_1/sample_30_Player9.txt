@@ -1,0 +1,12 @@
+Analyzing the snippets for Player9:
+- "Player9(Home Team) misses the goal with a shot from the center of the box, assisted by Player3(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 misses the goal with a shot.
+- "Player9(Home Team)'s shot with his right foot from the right side of the box was saved in the center of the goal, with an assist from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 took a shot that was saved.
+- "Player9(Home Team) misses the goal with a right-footed shot from the center of the box, assisted by Player2(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 misses the goal with a shot.
+- "Player9(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player9 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 3     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

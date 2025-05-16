@@ -1,0 +1,12 @@
+Analyzing the snippets for Player4:
+
+- "Player4(Home Team) of the Home Team attempts a through ball, but Player9(Home Team) is offside." -> Counts as 0 Offside because Player9 is offside, not Player4.
+- "Player4(Home Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player4 earned a free kick.
+- "Player4(Home Team) scoring a left-footed shot from the center of the box to the bottom right corner, assisted by Player14(Home Team), The score now stands at Home Team 3, Away Team 1." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player4 scored a goal and shot the ball.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 1     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

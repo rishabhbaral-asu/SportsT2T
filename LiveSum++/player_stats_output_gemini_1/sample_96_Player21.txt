@@ -1,0 +1,11 @@
+Analyzing the snippets for Player21:
+- "Player21(Away Team) attempts a pass to Player16(Home Team), but Player29(Away Team) is caught in an offside position." -> No countable event because Player21 did not commit the offside, Player29 did.
+- "Player21(Away Team) has given away a penalty for handball in the box committed against Player16(Home Team)." -> Counts as 1 Foul because the snippet explicitly states Player21 committed a handball, which is a foul.
+- "Player21(Away Team) has been sent off with a red card." -> Counts as 1 Red Card because the snippet explicitly states Player21 received a red card.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 0     | 0     | 0       | 0          | 1     | 0            | 1         | 0        |
+```

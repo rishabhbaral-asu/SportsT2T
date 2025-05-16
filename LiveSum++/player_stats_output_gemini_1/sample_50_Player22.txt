@@ -1,0 +1,14 @@
+Analyzing the snippets for Player22:
+
+- "Player22(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player22 committed a foul.
+- "Player22(Away Team) misses the target with a right-footed shot from outside the box, assisted by Player25(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player22 took a shot.
+- "Player22(Away Team)'s right footed shot from outside the box is denied by a block." -> Counts as 1 Shot because the snippet explicitly states Player22 took a shot which was blocked.
+- "Player22(Away Team) commits a foul, resulting in Player2(Home Team) being awarded a free kick in the attacking half." -> Counts as 1 Foul because the snippet explicitly states Player22 committed a foul.
+- "Player22(Away Team)'s right-footed shot from outside the box is blocked, while Player30(Away Team)'s attempt from the center of the box is saved in the center of the goal." -> Counts as 1 Shot because the snippet explicitly states Player22 took a shot which was blocked.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 3     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

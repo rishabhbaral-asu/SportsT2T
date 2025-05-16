@@ -1,0 +1,14 @@
+Analyzing the snippets for Player31:
+
+- "Player31(Away Team) earns a free kick on the left wing after a foul by Player2(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player31 earned a free kick.
+- "Player31(Away Team)'s left footed shot from outside the box narrowly misses to the right." -> Counts as 1 Shot because the snippet explicitly states Player31 took a shot.
+- "Player31(Away Team) earns a free kick on the right side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player31 earned a free kick.
+- "Player31(Away Team) of the Away Team attempts a pass, but Player28(Away Team) is caught offside." -> No countable event because Player31 did not commit an offside. The snippet indicates Player28 was offside, not Player31.
+- "Player31(Away Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player31 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player31 | 1     | 0     | 0       | 3          | 0     | 0            | 0         | 0        |
+```

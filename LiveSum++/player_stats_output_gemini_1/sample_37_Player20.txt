@@ -1,0 +1,11 @@
+Analyzing the snippets for Player20:
+- "Player20(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player20 committed a foul.
+- "Player20(Away Team) assists Player35(Away Team) with a left footed shot from outside the box, but the attempt is blocked, resulting in a corner kick for the Away Team." -> Counts as 1 Assist because the snippet explicitly states Player20 assisted Player35.
+- "Player20(Away Team)'s right footed shot from outside the box is blocked with assistance from Player35(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player20's shot was blocked.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 1     | 0     | 1       | 0          | 1     | 0            | 0         | 0        |
+```

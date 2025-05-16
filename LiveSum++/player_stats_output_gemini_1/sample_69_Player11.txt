@@ -1,0 +1,17 @@
+Analyzing the snippets for Player11:
+- "Player11(Home Team)'s shot from outside the box is saved in the top center of the goal, with an assist from Player3(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player11 earned a free kick.
+- "Player11(Home Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player11 earned a free kick.
+- "Player11(Home Team)'s shot from the center of the box, set up by Player7(Home Team) with a through pass from Player14(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team) is currently delayed in the match due to an injury." -> No countable event because the snippet does not mention any of the defined events.
+- "Player11(Home Team)'s shot from outside the box is saved in the bottom left corner with an assist from Player10(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team) hand passes to Player14(Home Team), but Player29(Away Team)'s attempt with his right foot from outside the box on a direct free kick goes over the goal." -> No countable event because the snippet does not mention any of the defined events for Player11.
+- "Player11(Home Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player11 earned a free kick.
+- "Player11(Home Team) commits a foul, resulting in Player24(Away Team) being awarded a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player11 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 3     | 0     | 0       | 3          | 1     | 0            | 0         | 0        |
+```

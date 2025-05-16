@@ -1,0 +1,13 @@
+Analyzing the snippets for Player4:
+
+- "Player4(Home Team) receives a yellow card." -> Counts as 1 Yellow Card because the snippet explicitly states Player4 received a yellow card.
+- "Player4(Home Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player4 earned a free kick.
+- "Player4(Home Team)'s shot from outside the box is saved in the bottom right corner with an assist from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player4 took a shot.
+- "Player4(Home Team)'s left footed shot from the left side of the box goes high and wide to the left after a headed pass from Player13(Home Team), Attempt missed." -> Counts as 1 Shot because the snippet explicitly states Player4 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 2     | 0     | 0       | 1          | 0     | 1            | 0         | 0        |
+```

@@ -1,0 +1,14 @@
+Analyzing the snippets for Player20:
+
+- "Player20(Away Team) misses the target with a high and wide shot from outside the box, assisted by Cheick Player22(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player20 took a shot.
+- "Player20(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player20 earned a free kick.
+- "Player20(Away Team)'s shot from outside the box is blocked with assistance from Cheick Player22(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player20 took a shot.
+- "Player20(Away Team) commits a foul as Player27(Away Team)'s attempt from outside the box is blocked by the defense, with an assist from Player28(Away Team)." -> Counts as 1 Foul because the snippet explicitly states Player20 committed a foul.
+- "Player20(Away Team) attempts a through ball to Player34(Away Team), who is caught offside." -> No event is counted because it states Player34 is offside.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

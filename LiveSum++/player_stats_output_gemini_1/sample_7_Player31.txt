@@ -1,0 +1,12 @@
+Analyzing the snippets for Player31:
+
+- "Player31(Away Team) attempts a through ball, but Player27(Away Team) is caught offside." -> Counts as 0 Offsides because although Player27 is offside, Player31 is not explicitly mentioned as being offside.
+- "Player31(Away Team) commits a foul on Player7(Home Team), who then earns a free kick in the attacking half, This results in a set-piece opportunity for the attacking team." -> Counts as 1 Foul because the snippet explicitly states Player31 committed a foul.
+- "Player31(Away Team) has been cautioned with a yellow card for a reckless challenge." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player31 received a yellow card for a reckless challenge, which is a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player31 | 0     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

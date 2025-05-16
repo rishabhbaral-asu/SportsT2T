@@ -1,0 +1,13 @@
+Analyzing the snippets for Player23:
+
+- "Player23(Away Team) is currently delayed in the match due to an injury." -> No countable event because the snippet does not mention any of the defined events.
+- "Player23(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player23 committed a foul.
+- "Player23(Away Team) commits a foul, resulting in Player11(Home Team) winning a free kick in the attacking half, The foul by Player23(Away Team) sees Player11(Home Team) earn a free kick in the attacking half." -> Counts as 1 Foul because the snippet explicitly states Player23 committed a foul.
+- "Player23(Away Team) commits a foul on Player9(Home Team), resulting in a free kick for the attacking team." -> Counts as 1 Foul because the snippet explicitly states Player23 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 0     | 0     | 0       | 0          | 3     | 0            | 0         | 0        |
+```

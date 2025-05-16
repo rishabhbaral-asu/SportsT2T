@@ -1,0 +1,14 @@
+Analyzing the snippets for Player28:
+
+- "Player28(Away Team) misses a close shot to the right after receiving a through ball from Player25(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28 missed a shot.
+- "Player28(Away Team) earns a free kick on the right side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player28 earned a free kick.
+- "Player28(Away Team)'s left footed shot from the center of the box narrowly misses to the right with an assist from Player29(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28 took a shot.
+- "Player28(Away Team) is fouled in the box." -> Counts as 0 because although Player28 is mentioned as being fouled, this context does not add to any of the defined events.
+- "Player28(Away Team)'s left footed shot from outside the box goes wide to the right, with an assist from Player32(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 3     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,12 @@
+Analyzing the snippets for Player21:
+- "Player21(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player21 committed a foul.
+- "Player21(Away Team)'s shot from outside the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player21's shot was blocked.
+- "Player21(Away Team) attempts a pass to Player14(Home Team), but Player33(Away Team) is offside." -> No countable event because Player21 did not commit a foul, did not take a shot, did not score a goal, did not provide an assist and was not in an offside position.
+- "Player21(Away Team) fouls Player13(Home Team), who wins a free kick in their defensive half." -> Counts as 1 Foul because the snippet explicitly states Player21 fouled Player13.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

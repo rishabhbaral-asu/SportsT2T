@@ -1,0 +1,14 @@
+Analyzing the snippets for Player8:
+- "Player8(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player8 committed a foul.
+- "Player8(Home Team) scoring a close-range goal with their left foot into the top right corner, assisted by Player7(Home Team)." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player8 scored a goal.
+- "Player8(Home Team)'s shot from outside the box, assisted by Player4(Home Team), goes high and wide to the right." -> Counts as 1 Shot because the snippet explicitly states Player8 took a shot.
+- "Player8(Home Team) from the center of the box, assisted by Player9(Home Team)." -> No countable event because the snippet does not mention any of the defined events.
+- "Player8(Home Team) is currently sidelined due to an injury, causing a delay in the match." -> No countable event because the snippet does not mention any of the defined events.
+- "Player8(Home Team)'s left-footed shot from the left side of the box was blocked." -> Counts as 1 Shot because the snippet explicitly states Player8 took a shot that was blocked.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 3     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

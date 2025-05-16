@@ -1,0 +1,16 @@
+Analyzing the snippets for Player25:
+- "Player25(Away Team) commits a foul on Player11(Home Team), resulting in a free kick being awarded to Player11(Home Team) on the left wing." -> Counts as 1 Foul because the snippet explicitly states Player25 committed a foul.
+- "Player25(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player25 committed a foul.
+- "Player25(Away Team)'s left footed shot from the left side of the box is blocked with an assist from Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player25 took a shot.
+- "Player25(Away Team) commits a foul on Player11(Home Team), who earns a free kick on the left wing, This results in a set piece opportunity for Player11(Home Team)'s team." -> Counts as 1 Foul because the snippet explicitly states Player25 committed a foul.
+- "Player25(Away Team) earns a free kick on the right side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player25 earned a free kick.
+- "Player25(Away Team) attempted a left-footed shot from the right side of the box but it was blocked, assisted by Player20(Away Team), while Player26(Away Team)'s left-footed shot from outside the box narrowly missed to the right." -> Counts as 1 Shot because the snippet explicitly states Player25 attempted a shot.
+- "Player25(Away Team)'s header from the center of the box hits the right post, assisted by Player34(Away Team)'s cross." -> Counts as 1 Shot because the snippet explicitly states Player25's header hit the right post, meaning they took a shot.
+- "Player25(Away Team)'s attempt from the right side is blocked, resulting in a corner kick for the Away Team." -> Counts as 1 Shot because the snippet explicitly states Player25 attempted a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 4     | 0     | 0       | 1          | 3     | 0            | 0         | 0        |
+```

@@ -1,0 +1,12 @@
+Analyzing the snippets for Player28:
+- "Player28(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+- "Player28(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+- "Player28(Away Team) attempts a pass to Player33(Away Team), but he is offside." -> No countable event because the snippet does not mention any of the defined events for Player28. The offside is attributed to Player33, not Player28.
+- "Player28(Away Team) misses the target with a left-footed shot from the center of the box after a set piece." -> Counts as 1 Shot because the snippet explicitly states Player28 misses the target with a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

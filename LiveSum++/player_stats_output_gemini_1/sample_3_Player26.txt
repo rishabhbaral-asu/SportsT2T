@@ -1,0 +1,14 @@
+Analyzing the snippets for Player26:
+- "Player26(Away Team) attempts a shot with his right foot from the center of the box, but it goes wide to the left with an assist from Player23(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player26 attempts a shot.
+- "Player26(Away Team)'s right footed shot from outside the box is blocked, resulting in a corner kick for the Away Team." -> Counts as 1 Shot because the snippet explicitly states Player26's shot is blocked.
+- "Player26(Away Team) earns a free kick on the left wing following a foul by Player8(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player26 earns a free kick.
+- "Player26(Away Team)'s shot from outside the box is saved in the center of the goal, with an assist from Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player26's shot is saved.
+- "Player26(Away Team) was temporarily sidelined due to an injury, but now the delay is over and they are ready to resume play." -> No countable event because the snippet does not mention any of the defined events.
+- "Player26(Away Team)'s shot from outside the box is saved in the center of the goal after a headed pass from Player23(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player26's shot is saved.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 4     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

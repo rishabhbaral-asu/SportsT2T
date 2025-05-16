@@ -1,0 +1,17 @@
+Analyzing the snippets for Player27:
+
+- "Player27(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player27 committed a foul.
+- "Player27(Away Team) of the Away Team draws a penalty in the penalty area, with Player8(Home Team) conceding the foul." -> Counts as 1 Free Kick because the snippet explicitly states Player27 drew a penalty.
+- "Player27(Away Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player27 earned a free kick.
+- "Player27(Away Team) missed a close-range header that was too high, assisted by Player25(Away Team) with a cross after a corner, following a foul by Player27(Away Team)." -> Counts as 1 Shot and 1 Foul because the snippet explicitly states Player27 missed a header (shot) and committed a foul.
+- "Player27(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player27 earned a free kick.
+- "Player27(Away Team) commits a foul, resulting in Player6(Home Team) earning a free kick in their own defensive half, This leads to a set piece opportunity for Player6(Home Team)." -> Counts as 1 Foul because the snippet explicitly states Player27 committed a foul.
+- "Player27(Away Team)'s close-range header in the top right corner, with an assist from Player22(Away Team)'s cross." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player27 made a header into the top right corner.
+- "Player27(Away Team)'s header from the center of the box was just too high, assisted by Player34(Away Team)'s cross after a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player27 made a header.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 4     | 1     | 0       | 3          | 3     | 0            | 0         | 0        |
+```

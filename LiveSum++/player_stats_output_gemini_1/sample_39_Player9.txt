@@ -1,0 +1,12 @@
+Analyzing the snippets for Player9:
+- "Player9(Home Team) misses the goal with a shot from the center of the box, assisted by Player10(Home Team)'s cross." -> Counts as 1 Shot because the snippet explicitly states Player9 missed the goal with a shot.
+- "Player9(Home Team) from the Home Team attempted a pass to Player7(Home Team), but Player7(Home Team) was offside." -> No countable event because it doesn't explicitly state Player9 was offside.
+- "Player9(Home Team)'s shot from outside the box is saved in the bottom left corner with assistance from Player18(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9's shot was saved.
+- "Player9(Home Team) handles the ball." -> Counts as 1 Foul because handling the ball is considered a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

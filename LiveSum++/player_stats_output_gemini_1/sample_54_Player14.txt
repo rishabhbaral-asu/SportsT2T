@@ -1,0 +1,12 @@
+Analyzing the snippets for Player14:
+- "Player14(Home Team) earns a free kick in the opponent's territory." -> Counts as 1 Free Kick because the snippet explicitly states Player14 earned a free kick.
+- "Player14(Home Team) scores with a header from the center of the box, assisted by Player11(Home Team) with a cross, The score is now tied at 1-1 between the Home Team and the Away Team." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player14 scored a goal.
+- "Player14(Home Team) has been booked for celebrating too much." -> Counts as 1 Yellow Card because the snippet explicitly states Player14 has been booked (received a yellow card).
+- "Player14(Home Team)'s left footed shot from a tough angle on the left side was blocked with the help of Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player14 took a shot that was blocked.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player14 | 2     | 1     | 0       | 1          | 0     | 1            | 0         | 0        |
+```

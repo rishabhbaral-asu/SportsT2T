@@ -1,0 +1,12 @@
+Analyzing the snippets for Player11:
+- "Player11(Home Team)'s left-footed shot from the left side of the box is saved in the center of the goal with an assist from Player10(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player11 committed a foul.
+- "Player11(Home Team) attempts a through ball, but Player9(Home Team) is offside for the Home Team." -> No countable event because the snippet does not explicitly state that Player11 is offside, rather Player9 is.
+- "Player11(Home Team), thanks to a great assist from Player14(Home Team)." -> No countable event because the snippet does not explicitly mention any of the defined events for Player11.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```
