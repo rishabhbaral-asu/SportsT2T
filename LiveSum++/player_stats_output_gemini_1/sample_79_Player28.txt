@@ -1,12 +1,13 @@
 Analyzing the snippets for Player28:
+
 - "Player28(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player28 earned a free kick.
 - "Player28(Away Team) earns a free kick on the left side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player28 earned a free kick.
 - "Player28(Away Team)'s shot from outside the box is saved in the center of the goal after an assist from Player26(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28 took a shot.
-- "Player28(Away Team)'s left-footed shot from the center of the box, assisted by Player25(Away Team) with a cross, missed to the left, while Player27(Away Team)'s right-footed shot from the center was saved in the bottom left corner with an assist from Player28(Away Team)." -> Counts as 1 Shot and 1 Assist because the snippet explicitly states Player28 took a shot and assisted another player.
-- "Player28(Away Team)'s header from the center of the box is blocked after being assisted by Player29(Away Team) with a cross." -> Counts as 1 Shot because the snippet explicitly states Player28 took a header.
+- "Player28(Away Team)'s left-footed shot from the center of the box, assisted by Player25(Away Team) with a cross, missed to the left, while Player27(Away Team)'s right-footed shot from the center was saved in the bottom left corner with an assist from Player28(Away Team)." -> Counts as 1 Shot and 1 Assist because the snippet explicitly states Player28 took a shot that missed and that Player28 assisted Player27.
+- "Player28(Away Team)'s header from the center of the box is blocked after being assisted by Player29(Away Team) with a cross." -> Counts as 1 Shot because the snippet explicitly states Player28 attempted a header on goal.
 - "Player28(Away Team)'s left footed shot from the left side of the box narrowly misses to the left, with an assist from Player29(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28 took a shot.
 - "Player28(Away Team) earns a free kick on the right side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player28 earned a free kick.
-- "Player28(Away Team) misses a header to the right from the center of the box after a cross from Player21(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28 took a header.
+- "Player28(Away Team) misses a header to the right from the center of the box after a cross from Player21(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28 attempted a header on goal.
 
 Final Summary Table:
 ```markdown

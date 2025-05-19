@@ -1,16 +1,14 @@
 Analyzing the snippets for Player22:
+
 - "Player22(Away Team) is awarded a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player22 is awarded a free kick.
-- "Player22(Away Team) attempts a through ball, but Player28(Away Team) is offside for the Away Team." -> No event counted as Player22 is not mentioned as being offside.
-- "Player22(Away Team)'s attempt from outside the box is blocked with the help of Player25(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player22's attempt from outside the box is blocked.
-- "Player22(Away Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player22 earns a free kick.
-- "Player22(Away Team) commits a foul, resulting in Player9(Home Team) winning a free kick in their own defensive half, This leads to a free kick for Player9(Home Team) in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player22 committed a foul.
-- "Player22(Away Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player22 received a yellow card for a rough tackle, which is a foul.
-- "Player22(Away Team)'s shot from the center of the box, after a set piece, narrowly misses to the right." -> Counts as 1 Shot because the snippet explicitly states Player22's shot from the center of the box narrowly misses.
-- "Player22(Away Team) of the Away Team attempts a through ball, but Player24(Away Team) is offside." -> No event counted as Player22 is not mentioned as being offside.
+- "Player22(Away Team) commits a foul, resulting in Player9(Home Team) winning a free kick in their own defensive half, This leads to a free kick for Player9(Home Team) in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player22 commits a foul.
+- "Player22(Away Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player22 receives a yellow card for a rough tackle, which is a foul.
+- "Player22(Away Team)'s attempt from outside the box is blocked with the help of Player25(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player22 made an attempt from outside the box.
+- "Player22(Away Team)'s shot from the center of the box, after a set piece, narrowly misses to the right." -> Counts as 1 Shot because the snippet explicitly states Player22 took a shot from the center of the box.
 
 Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player22 | 2     | 0     | 0       | 2          | 2     | 1            | 0         | 0        |
+| Player22 | 2     | 0     | 0       | 1          | 2     | 1            | 0         | 0        |
 ```

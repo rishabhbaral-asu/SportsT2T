@@ -1,15 +1,15 @@
 Analyzing the snippets for Player11:
-- "Player11(Home Team)'s shot from outside the box is blocked with the help of Player9(Home Team)." -> Counts as 1 Shot because the snippet explicitly states "Player11(Home Team)'s shot".
-- "Player11(Home Team)'s shot from outside the box, assisted by Player10(Home Team)." -> Counts as 1 Shot because the snippet explicitly states "Player11(Home Team)'s shot".
-- "Player11(Home Team)'s shot from a tough angle on the right narrowly misses the top right corner, with an assist from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states "Player11(Home Team)'s shot".
-- "Player11(Home Team)'s shot from outside the box narrowly misses to the right with an assist from Player14(Home Team)." -> Counts as 1 Shot because the snippet explicitly states "Player11(Home Team)'s shot".
-- "Player11(Home Team) attempts to pass to Player16(Home Team), but Player2(Home Team) is offside." -> Counts as 1 Offside because the snippet mentions that Player2 is offside, not Player11. Therefore, no offside should be counted for Player11.
-- "Player11(Home Team)'s left footed shot from the left side of the box just missed high, with an assist from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states "Player11(Home Team)'s left footed shot".
-- "Player11(Home Team)'s shot from the left side of the box is saved in the center of the goal." -> Counts as 1 Shot because the snippet explicitly states "Player11(Home Team)'s shot".
+- "Player11(Home Team)'s shot from outside the box is blocked with the help of Player9(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team)'s shot from outside the box, assisted by Player10(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team)'s shot from a tough angle on the right narrowly misses the top right corner, with an assist from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team)'s shot from outside the box narrowly misses to the right with an assist from Player14(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team) attempts to pass to Player16(Home Team), but Player2(Home Team) is offside." -> Counts as 1 Offside because the snippet explicitly states Player2 is offside. **NOTE: This does NOT count as an offside for Player11.**
+- "Player11(Home Team)'s left footed shot from the left side of the box just missed high, with an assist from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team)'s shot from the left side of the box is saved in the center of the goal." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
 
 Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player11 | 5     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+| Player11 | 6     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
 ```

@@ -1,14 +1,13 @@
 Analyzing the snippets for Player28:
-
 - "Player28(Away Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player28 earned a free kick.
-- "Player28(Away Team) scores with a left-footed free kick to the top right corner, giving the Away Team a 1-0 lead over the Home Team." -> Counts as 1 Shot, 1 Goal, and 1 Free Kick because the snippet explicitly states Player28 scored a goal and that it was from a free kick.
-- "Player28(Away Team) scores with a right-footed shot from a tough angle, assisted by Player25(Away Team) after a fast break, Home Team now trails 1-3 against Away Team." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player28 scored a goal with a shot.
+- "Player28(Away Team) scores with a left-footed free kick to the top right corner, giving the Away Team a 1-0 lead over the Home Team." -> Counts as 1 Shot, 1 Goal and 1 Free Kick because the snippet explicitly states Player28 scored with a free kick.
+- "Player28(Away Team) scores with a right-footed shot from a tough angle, assisted by Player25(Away Team) after a fast break, Home Team now trails 1-3 against Away Team." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player28 scored a goal.
 - "Player28(Away Team) receives a yellow card for celebrating too much." -> Counts as 1 Yellow Card because the snippet explicitly states Player28 received a yellow card.
-- "Player28(Away Team) scores from the penalty spot with a left-footed shot into the bottom right corner." -> Counts as 1 Shot, 1 Goal, and 1 Free Kick because the snippet explicitly states Player28 scored a goal from the penalty spot.
+- "Player28(Away Team) scores from the penalty spot with a left-footed shot into the bottom right corner." -> Counts as 1 Shot, 1 Goal, and 1 Free Kick because the snippet explicitly states Player28 scored from the penalty spot, and any goal from a penalty spot is counted as a Free Kick.
 
 Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player28 | 4     | 3     | 0       | 3          | 0     | 1            | 0         | 0        |
+| Player28 | 3     | 3     | 0       | 3          | 0     | 1            | 0         | 0        |
 ```

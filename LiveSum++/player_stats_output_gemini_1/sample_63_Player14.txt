@@ -1,9 +1,10 @@
 Analyzing the snippets for Player14:
-* "- Player14(Home Team)'s long-range effort, resulting in a corner kick for the Home Team." -> Counts as 1 Shot because the snippet explicitly states Player14 had a "long-range effort" which is an attempt on goal.
+- "Player10(Home Team)'s right-footed shot from outside the box into the bottom right corner, assisted by Player14(Home Team)." -> Counts as 1 Assist because the snippet explicitly states Player14 assisted Player10's goal.
+- "Player14(Home Team)'s long-range effort, resulting in a corner kick for the Home Team." -> Counts as 1 Shot because the snippet explicitly states Player14 made a long-range effort (shot).
 
 Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player14 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+| Player14 | 1     | 0     | 1       | 0          | 0     | 0            | 0         | 0        |
 ```

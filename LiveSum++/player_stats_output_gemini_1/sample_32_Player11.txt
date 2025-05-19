@@ -1,13 +1,14 @@
 Analyzing the snippets for Player11:
-- "Player11(Home Team), and Player9(Home Team)'s header from the center is saved in the goal." -> Counts as 1 Shot because the snippet explicitly states Player11's header from the center is saved in the goal.
-- "Player11(Home Team) has committed a handball." -> Counts as 1 Foul because the snippet explicitly states Player11 has committed a handball.
-- "Player11(Home Team) attempts a pass to Player10(Home Team), but Player10(Home Team) is offside." -> No countable event because the snippet does not mention any of the defined events.
+
+- "Player11(Home Team), and Player9(Home Team)'s header from the center is saved in the goal." -> No event is counted because the description does not specify that the action belongs explicitly to Player11. It is being shared as a collective action.
+- "Player11(Home Team) has committed a handball." -> Counts as 1 Foul because the snippet explicitly states Player11 committed a handball.
+- "Player11(Home Team) attempts a pass to Player10(Home Team), but Player10(Home Team) is offside." -> No event is counted because Player11 did not commit the offside.
 - "Player11(Home Team) earns a free kick on the left wing as Player28(Away Team) is down with an injury, causing a delay in the match." -> Counts as 1 Free Kick because the snippet explicitly states Player11 earned a free kick.
-- "Player11(Home Team) scores a goal with a right-footed shot from outside the box, assisted by Player10(Home Team), The Home Team now leads 2-0 against the Away Team." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player11 scores a goal.
+- "Player11(Home Team) scores a goal with a right-footed shot from outside the box, assisted by Player10(Home Team), The Home Team now leads 2-0 against the Away Team." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player11 scored a goal.
 
 Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player11 | 2     | 1     | 0       | 1          | 1     | 0            | 0         | 0        |
+| Player11 | 1     | 1     | 0       | 1          | 1     | 0            | 0         | 0        |
 ```

@@ -1,6 +1,22 @@
-Analyzing the snippets for Player14:
-- "Player14(Home Team) commits a foul, resulting in Player27(Away Team) winning a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player14 committed a foul.
-- "Player14(Home Team) commits a foul, resulting in Player35(Away Team) winning a free kick in their defensive half, This leads to a set piece opportunity for Player35(Away Team)." -> Counts as 1 Foul because the snippet explicitly states Player14 committed a foul.
+Okay, let's analyze the commentary snippets for Player14.
+
+**Player Name:** Player14
+
+**Commentary Snippets:**
+- Player14(Home Team) commits a foul, resulting in Player27(Away Team) winning a free kick in their own defensive half.
+- Player14(Home Team) commits a foul, resulting in Player35(Away Team) winning a free kick in their defensive half, This leads to a set piece opportunity for Player35(Away Team).
+
+**Step-by-step analysis:**
+
+1.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+2.  **Analyze Snippet 1:** "Player14(Home Team) commits a foul, resulting in Player27(Away Team) winning a free kick in their own defensive half."
+    *   Fouls: The snippet explicitly states "Player14 commits a foul". Increment Fouls by 1. Fouls = 1.
+
+3.  **Analyze Snippet 2:** "Player14(Home Team) commits a foul, resulting in Player35(Away Team) winning a free kick in their defensive half, This leads to a set piece opportunity for Player35(Away Team)."
+    *   Fouls: The snippet explicitly states "Player14 commits a foul". Increment Fouls by 1. Fouls = 2.
+
+4. **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 2, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
 
 Final Summary Table:
 ```markdown

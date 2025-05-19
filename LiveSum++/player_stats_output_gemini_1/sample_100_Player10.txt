@@ -1,17 +1,17 @@
 Analyzing the snippets for Player10:
 - "Player10(Home Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player10 earned a free kick.
-- "Player10(Home Team)'s shot from outside the box is blocked after an assist from Player4(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player10 took a shot.
-- "Player10(Home Team)'s left footed shot from outside the box was off target, with an assist from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player10 took a shot.
+- "Player10(Home Team)'s shot from outside the box is blocked after an assist from Player4(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player10's shot.
+- "Player10(Home Team)'s left footed shot from outside the box was off target, with an assist from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player10's shot.
 - "Player10(Home Team) from the Home Team is caught offside after Player1(Home Team) attempts a through ball." -> Counts as 1 Offside because the snippet explicitly states Player10 is offside.
-- "Player10(Home Team)'s left footed shot from the right side of the box into the top left corner, with an assist from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player10 took a shot.
-- "Player10(Home Team) assists Player9(Home Team) with a right-footed shot from the right side of the six-yard box, but it is saved in the bottom right corner, resulting in a corner kick for the Home Team." -> Counts as 1 Assist because the snippet explicitly states Player10 provided an assist.
-- "Player10(Home Team)'s header from the center of the box is saved by the goalkeeper after a cross from Player8(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player10 took a shot (header).
-- "Player10(Home Team)'s right footed shot from outside the box hits the crossbar, with an assist from Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player10 took a shot.
-- "Player10(Home Team)'s left footed shot from the right side of the box goes wide to the left." -> Counts as 1 Shot because the snippet explicitly states Player10 took a shot.
+- "Player10(Home Team)'s left footed shot from the right side of the box into the top left corner, with an assist from Player7(Home Team)." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player10's shot resulted in a goal.
+- "Player10(Home Team) assists Player9(Home Team) with a right-footed shot from the right side of the six-yard box, but it is saved in the bottom right corner, resulting in a corner kick for the Home Team." -> Counts as 1 Assist because the snippet explicitly states Player10 assisted Player9.
+- "Player10(Home Team)'s header from the center of the box is saved by the goalkeeper after a cross from Player8(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player10's header.
+- "Player10(Home Team)'s right footed shot from outside the box hits the crossbar, with an assist from Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player10's shot.
+- "Player10(Home Team)'s left footed shot from the right side of the box goes wide to the left." -> Counts as 1 Shot because the snippet explicitly states Player10's shot.
 
 Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player10 | 6     | 0     | 1       | 1          | 0     | 0            | 0         | 1        |
+| Player10 | 6     | 1     | 1       | 1          | 0     | 0            | 0         | 1        |
 ```

@@ -1,16 +1,16 @@
 Analyzing the snippets for Player9:
-- "Player9(Home Team) attempts a through ball, but Player11(Home Team) is caught offside." -> Counts as 1 Offsides because the snippet explicitly states Player11 is caught offside, but NOT Player9.
+- "Player9(Home Team) attempts a through ball, but Player11(Home Team) is caught offside." -> Counts as 1 Offsides because the snippet explicitly states Player11 is offside after Player9 attempts a through ball.
 - "Player9(Home Team) has committed a hand ball." -> Counts as 1 Foul because the snippet explicitly states Player9 committed a hand ball.
 - "Player9(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player9 commits a foul.
 - "Player9(Home Team) commits a foul on Player20(Away Team), who wins a free kick in their defensive half." -> Counts as 1 Foul because the snippet explicitly states Player9 commits a foul.
 - "Player9(Home Team)'s header from the center of the box hits the bar, assisted by Player15(Home Team) with a cross." -> Counts as 1 Shot because the snippet explicitly states Player9's header hits the bar.
-- "Player9(Home Team)'s header from the center of the box, assisted by Player15(Home Team) following a corner kick, narrowly misses to the left." -> Counts as 1 Shot because the snippet explicitly states Player9's header misses to the left.
+- "Player9(Home Team)'s header from the center of the box, assisted by Player15(Home Team) following a corner kick, narrowly misses to the left." -> Counts as 1 Shot because the snippet explicitly states Player9's header misses the target.
 - "Player9(Home Team) misses the target with a high shot from the center of the box, after receiving a headed pass from Player5(Home Team) off a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player9 misses the target with a shot.
-- "Player9(Home Team)'s header from the center of the box was close but missed to the left, assisted by Player15(Home Team) with a cross after a corner." -> Counts as 1 Shot because the snippet explicitly states Player9's header missed to the left.
+- "Player9(Home Team)'s header from the center of the box was close but missed to the left, assisted by Player15(Home Team) with a cross after a corner." -> Counts as 1 Shot because the snippet explicitly states Player9's header missed the target.
 
 Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player9 | 4     | 0     | 0       | 0          | 3     | 0            | 0         | 0        |
+| Player9 | 4     | 0     | 0       | 0          | 3     | 0            | 0         | 1        |
 ```

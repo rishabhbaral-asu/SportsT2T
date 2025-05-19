@@ -5,11 +5,11 @@ Analyzing the snippets for Player27:
 - "Player27(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player27 committed a foul.
 - "Player27(Away Team)'s shot from the center of the box is saved by the goalkeeper after a through ball from Player20(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
 - "Player27(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player27 committed a foul.
-- "Player27(Away Team)'s attempt from outside the box is blocked by the defender." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
-- "Player27(Away Team)'s left-footed shot from the center of the box into the bottom right corner, with an assist from Player28(Away Team)." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player27 scored a goal with a shot.
+- "Player27(Away Team)'s attempt from outside the box is blocked by the defender." -> Counts as 1 Shot because the snippet explicitly states Player27 attempted a shot.
+- "Player27(Away Team)'s left-footed shot from the center of the box into the bottom right corner, with an assist from Player28(Away Team)." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player27 took a shot and scored a goal.
 - "Player27(Away Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player27 earned a free kick.
 - "Player27(Away Team)'s powerful shot from long range is blocked by the goalkeeper with Player36(Away Team) providing the assist." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
-- "Player27(Away Team) from the center of the box, assisted by Player23(Away Team) after a quick break." -> Counts as 1 Shot because the snippet implies Player27 took a shot, though it doesn't use the word "shot", the context implies a shot was taken.
+- "Player27(Away Team) from the center of the box, assisted by Player23(Away Team) after a quick break." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
 
 Final Summary Table:
 ```markdown

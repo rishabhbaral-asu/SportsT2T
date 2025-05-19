@@ -1,10 +1,9 @@
 Analyzing the snippets for Player26:
-
 - "Player26(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player26 committed a foul.
 - "Player26(Away Team) commits a foul on Player8(Home Team), resulting in a free kick for Player8(Home Team) in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player26 committed a foul.
 - "Player26(Away Team) receives a yellow card for a foul on Player35(Away Team)." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player26 received a yellow card for a foul.
-- "Player26(Away Team) scores with a left-footed shot from the edge of the box, assisted by Player28(Away Team), hits the bar." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player26 scored a goal.
-- "Player26(Away Team) has been fouled by Player35(Away Team) with a handball." -> Counts as 0 because the snippet does not state Player26 took any action.
+- "Player26(Away Team) scores with a left-footed shot from the edge of the box, assisted by Player28(Away Team), hits the bar." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player26 scores.
+- "Player26(Away Team) has been fouled by Player35(Away Team) with a handball." -> Counts as 0 because it explicitly mentions that Player26 was fouled, not that he committed the foul.
 
 Final Summary Table:
 ```markdown

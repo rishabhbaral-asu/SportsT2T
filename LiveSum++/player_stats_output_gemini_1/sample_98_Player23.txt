@@ -1,10 +1,10 @@
 Analyzing the snippets for Player23:
-- "Player23(Away Team) attempts a through pass, but Player27(Away Team) is flagged for offside." -> Counts as 1 Offside because the snippet explicitly states that Player27 is flagged for offside and the passage is about Player23.
-- "Player23(Away Team) commits a foul, resulting in Player17(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player17(Home Team)'s team." -> Counts as 1 Foul because the snippet explicitly states that Player23 committed a foul.
+- "Player23(Away Team) attempts a through pass, but Player27(Away Team) is flagged for offside." -> Counts as 1 Offside because the snippet explicitly states Player27 is offside, but the action is ambiguously performed by Player23.
+- "Player23(Away Team) commits a foul, resulting in Player17(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player17(Home Team)'s team." -> Counts as 1 Foul because the snippet explicitly states Player23 committed a foul.
 
 Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player23 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 1        |
+| Player23 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
 ```

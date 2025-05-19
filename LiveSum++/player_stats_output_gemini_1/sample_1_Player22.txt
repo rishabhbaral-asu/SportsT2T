@@ -1,9 +1,42 @@
-Analyzing the snippets for Player22:
+Okay, I'm ready to process the soccer commentary snippets and generate the player statistics table.
 
-- "Player22(Away Team)'s header from the center of the box is saved in the top center of the goal with an assist from Player24(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player22 took a header which was saved.
-- "Player22(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player22 committed a foul.
+**1. Identify Target Player:**
 
-Final Summary Table:
+The target player is Player22.
+
+**2. Initialize Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player22(Away Team)'s header from the center of the box is saved in the top center of the goal with an assist from Player24(Away Team)."
+    *   This snippet mentions a "header" by Player22 that was "saved". This implies a shot attempt on goal. Therefore, increment Shots by 1.
+    *   The snippet explicitly says the Player22's header was saved, meaning no goals were scored. Goal count remains 0.
+    *   The snippet also mentions "assist from Player24," which means Player22 did not provide an assist, therefore assists count remains at 0.
+*   **Snippet 2:** "Player22(Away Team) commits a foul."
+    *   This snippet clearly states that Player22 committed a foul. Increment Fouls by 1.
+
+**4. Final Counts:**
+
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**5. Final Summary Table:**
+
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
