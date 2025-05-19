@@ -1,9 +1,9 @@
 Analyzing the snippets for Player10:
-- "Player10(Home Team) is fouled in the box." -> Counts as 0 Free Kicks because while Player10 was fouled, it does not mean he took a free kick.
-- "Player10(Home Team) scores with a left-footed shot from the center of the box, assisted by Player6(Home Team) with a header after a corner kick, Home Team leads 2-0 against Away Team." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player10 scored.
-- "Player10(Home Team)'s shot from the right side of the box is saved in the center of the goal after being set up by Player9(Home Team)'s header." -> Counts as 1 Shot because the snippet explicitly states Player10's shot was saved.
+- "Player10(Home Team) is fouled in the box." -> Counts as 0 Free Kicks because the snippet only indicates that Player10 was fouled, not that he took a free kick as a result.
+- "Player10(Home Team) scores with a left-footed shot from the center of the box, assisted by Player6(Home Team) with a header after a corner kick, Home Team leads 2-0 against Away Team." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player10 scored a goal.
+- "Player10(Home Team)'s shot from the right side of the box is saved in the center of the goal after being set up by Player9(Home Team)'s header." -> Counts as 1 Shot because the snippet explicitly states Player10 took a shot.
 - "Player10(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player10 committed a foul.
-- "Player10(Home Team) strikes the right post with a shot from outside the box, assisted by Player14(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player10 struck the right post with a shot.
+- "Player10(Home Team) strikes the right post with a shot from outside the box, assisted by Player14(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player10 took a shot.
 - "Player10(Home Team) commits a foul, resulting in Player24(Away Team) winning a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player10 committed a foul.
 - "Player10(Home Team) is being delayed in the match due to an injury." -> No countable event because the snippet does not mention any of the defined events.
 

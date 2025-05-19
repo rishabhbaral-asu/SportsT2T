@@ -3,7 +3,7 @@ Analyzing the snippets for Player14:
 - "Player14(Home Team) is fouled by Player16(Home Team), resulting in Player31(Away Team) winning a free kick in the attacking half, ." -> Counts as 1 Free Kick because the snippet explicitly states Player14 was fouled.
 - "Player14(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player14 committed a foul.
 - "Player14(Home Team) commits a foul on Player26(Away Team), resulting in Player13(Home Team) winning a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player14 committed a foul.
-- "Player14(Home Team) attempts a pass to Player16(Home Team), but Player15(Home Team) is caught offside." -> No event counted. The snippet does not mention any events explicitly attributed to Player14.
+- "Player14(Home Team) attempts a pass to Player16(Home Team), but Player15(Home Team) is caught offside." -> No countable event because the snippet does not mention any of the defined events that Player14 is directly involved in.
 
 Final Summary Table:
 ```markdown

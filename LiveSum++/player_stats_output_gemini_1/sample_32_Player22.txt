@@ -1,7 +1,6 @@
 Analyzing the snippets for Player22:
-
-- "Player22(Away Team) attempts a through ball, but Player27(Away Team) is offside for the Away Team." -> Counts as 0 Offsides because Player27 is the one offside and not Player22.
-- "Player22(Away Team)'s left footed shot from outside the box is blocked, resulting in a free kick for Player22(Away Team) in the attacking half." -> Counts as 1 Shot and 1 Free Kick because Player22's shot was blocked and Player22 wins a free kick as a result.
+- "Player22(Away Team) attempts a through ball, but Player27(Away Team) is offside for the Away Team." -> No countable event because the snippet does not mention any of the defined events for Player22.
+- "Player22(Away Team)'s left footed shot from outside the box is blocked, resulting in a free kick for Player22(Away Team) in the attacking half." -> Counts as 1 Shot and 1 Free Kick because the snippet explicitly states Player22 took a shot that was blocked, and the blocked shot resulted in a free kick for Player22.
 
 Final Summary Table:
 ```markdown

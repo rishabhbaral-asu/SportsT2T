@@ -1,9 +1,10 @@
 Analyzing the snippets for Player22:
-- "Player22(Away Team) from the Away Team has scored an own goal, giving the Home Team a 1-0 lead." -> Counts as 1 Goal because the snippet explicitly states Player22 scored a goal. Counts as 1 Shot because the snippet explicitly states Player22 scored a goal.
+
+- "Player22(Away Team) from the Away Team has scored an own goal, giving the Home Team a 1-0 lead." -> No countable event because the snippet states Player22 scored an own goal. An own goal does not count as a goal for the player in question.
 
 Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player22 | 1     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+| Player22 | 0     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
 ```

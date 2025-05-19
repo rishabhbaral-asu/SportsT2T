@@ -1,12 +1,13 @@
 Analyzing the snippets for Player14:
-- "Player14(Home Team) misses the target with a left-footed shot from the right side of the box, after being set up by Player9(Home Team) during a quick counterattack." -> Counts as 1 Shot because the snippet explicitly states "Player14(Home Team) misses the target with a left-footed shot".
-- "Player14(Home Team) scores with a right-footed shot from the center of the box, assisted by Player4(Home Team), Home Team leads 4-1 against Away Team." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states "Player14(Home Team) scores with a right-footed shot".
-- "Player14(Home Team) fouls Player28(Away Team), resulting in a free kick in the defensive half." -> Counts as 1 Foul because the snippet explicitly states "Player14(Home Team) fouls Player28(Away Team)".
-- "Player14(Home Team)'s shot from outside the box is blocked." -> Counts as 1 Shot because the snippet explicitly states "Player14(Home Team)'s shot from outside the box is blocked".
+- "Player14(Home Team) misses the target with a left-footed shot from the right side of the box, after being set up by Player9(Home Team) during a quick counterattack." -> Counts as 1 Shot because the snippet explicitly states Player14 misses the target with a shot.
+- "Player14(Home Team) scores with a right-footed shot from the center of the box, assisted by Player4(Home Team), Home Team leads 4-1 against Away Team." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player14 scores with a shot.
+- "Player14(Home Team) fouls Player28(Away Team), resulting in a free kick in the defensive half." -> Counts as 1 Foul because the snippet explicitly states Player14 committed a foul.
+- "Player14(Home Team)'s shot from outside the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player14's shot is blocked.
+- "Player10(Home Team)'s right-footed shot from outside the box into the bottom right corner, assisted by Player14(Home Team)." -> Counts as 1 Assist because the snippet explicitly states Player14 assisted Player10's goal.
 
 Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player14 | 3     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+| Player14 | 3     | 1     | 1       | 0          | 1     | 0            | 0         | 0        |
 ```

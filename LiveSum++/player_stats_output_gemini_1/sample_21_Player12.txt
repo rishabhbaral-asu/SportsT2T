@@ -1,7 +1,7 @@
 Analyzing the snippets for Player12:
-- "Player12(Home Team) attempts a through ball, but Player11(Home Team) is offside." -> Counts as 0 Offsides because Player11 is mentioned offside, not Player12.
-- "Player12(Home Team)'s left footed shot from outside the box was saved in the bottom right corner with an assist from Player13(Home Team)." -> Counts as 1 Shot because the snippet explicitly states that Player12 took a shot.
-- "Player12(Home Team)'s attempt from outside the box is blocked with the help of Player3(Home Team)." -> Counts as 1 Shot because the snippet explicitly states that Player12 took a shot.
+- "Player12(Home Team) attempts a through ball, but Player11(Home Team) is offside." -> Counts as 0 Offside because Player11 is explicitly the player offside, not Player12.
+- "Player12(Home Team)'s left footed shot from outside the box was saved in the bottom right corner with an assist from Player13(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player12 took a shot.
+- "Player12(Home Team)'s attempt from outside the box is blocked with the help of Player3(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player12 took a shot (attempt).
 
 Final Summary Table:
 ```markdown

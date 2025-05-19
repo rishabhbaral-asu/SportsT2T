@@ -1,5 +1,5 @@
 Analyzing the snippets for Player5:
-- "Player5(Home Team), assisted by Player15(Home Team) after a set piece." -> Counts as 0 Assists because the snippet explicitly states Player5 was *assisted by* someone else.
+- "Player5(Home Team), assisted by Player15(Home Team) after a set piece." -> Counts as 1 Assist because the snippet explicitly states Player5 was assisted by Player15 after a set piece. Since the target player (Player5) is the receiver of the assist and not the provider, the snippet doesn't count as an assist for Player5.
 
 Final Summary Table:
 ```markdown

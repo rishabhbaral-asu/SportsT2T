@@ -1,19 +1,19 @@
 Analyzing the snippets for Player9:
-- "Player9(Home Team)'s header from the center of the box misses to the left, assisted by Player7(Home Team) with a cross." -> Counts as 1 Shot because the snippet explicitly states Player9's header misses to the left.
-- "Player9(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player9 commits a foul.
-- "Player9(Home Team) commits a foul, resulting in Player25(Away Team) being awarded a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player9 commits a foul.
-- "Player9(Home Team)'s left footed shot from outside the box was close, but missed to the right with an assist from Player1(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9's shot missed to the right.
-- "Player9(Home Team)'s header is saved by the goalkeeper after receiving a cross from Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9's header is saved by the goalkeeper.
-- "Player9(Home Team)'s left footed shot from outside the box is saved in the bottom left corner, resulting in a corner kick for the Home Team." -> Counts as 1 Shot because the snippet explicitly states Player9's shot is saved.
-- "Player9(Home Team) misses a header to the left from the center of the box after being assisted by Player7(Home Team) with a cross from a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player9 misses a header.
-- "Player9(Home Team) missed the header from the left side of the six yard box, it was too high and went wide to the left, The cross was provided by Player11(Home Team) after a corner." -> Counts as 1 Shot because the snippet explicitly states Player9 missed the header.
-- "Player9(Home Team) misses the target with a high and wide shot from outside the box, after receiving a headed pass from Player8(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 misses the target with a shot.
-- "Player9(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player9 commits a foul.
-- "Player9(Home Team) has been sent off for getting into a fight." -> Counts as 1 Foul and 1 Red Card because the snippet explicitly states Player9 has been sent off for getting into a fight, and getting into a fight is a foul resulting in a red card.
+- "Player9(Home Team)'s header from the center of the box misses to the left, assisted by Player7(Home Team) with a cross." -> Counts as 1 Shot because the snippet explicitly states Player9 made a header.
+- "Player9(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player9 committed a foul.
+- "Player9(Home Team) commits a foul, resulting in Player25(Away Team) being awarded a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player9 committed a foul.
+- "Player9(Home Team)'s left footed shot from outside the box was close, but missed to the right with an assist from Player1(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 took a shot.
+- "Player9(Home Team)'s header is saved by the goalkeeper after receiving a cross from Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 made a header.
+- "Player9(Home Team)'s left footed shot from outside the box is saved in the bottom left corner, resulting in a corner kick for the Home Team." -> Counts as 1 Shot because the snippet explicitly states Player9 took a shot.
+- "Player9(Home Team) misses a header to the left from the center of the box after being assisted by Player7(Home Team) with a cross from a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player9 made a header.
+- "Player9(Home Team) missed the header from the left side of the six yard box, it was too high and went wide to the left, The cross was provided by Player11(Home Team) after a corner." -> Counts as 1 Shot because the snippet explicitly states Player9 missed a header.
+- "Player9(Home Team) misses the target with a high and wide shot from outside the box, after receiving a headed pass from Player8(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 missed a shot.
+- "Player9(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player9 committed a foul.
+- "Player9(Home Team) has been sent off for getting into a fight." -> Counts as 1 Red Card and 1 Foul because the snippet explicitly states Player9 has been sent off for getting into a fight, which is a foul.
 
 Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player9 | 7     | 0     | 0       | 0          | 3     | 0            | 1         | 0        |
+| Player9 | 7     | 0     | 0       | 0          | 4     | 0            | 1         | 0        |
 ```

@@ -1,56 +1,13 @@
-Okay, I will follow the instructions to analyze the commentary snippets for Player10 and generate the final summary table.
+Analyzing the snippets for Player10:
+- "Player10(Home Team) commits a foul on Player23(Away Team), resulting in a free kick awarded in the defensive half." -> Counts as 1 Foul because the snippet explicitly states Player10 committed a foul.
+- "Player10(Home Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player10 earned a free kick.
+- "Player10(Home Team) misses the goal with a left-footed shot from the left side of the six-yard box, assisted by Player6(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player10 missed the goal with a shot.
+- "Player10(Home Team)'s header from the right side of the six-yard box is blocked, with assistance from Player5(Home Team)'s cross." -> Counts as 1 Shot because the snippet explicitly states Player10's header was blocked, and a header is an attempt on goal.
+- "Player10(Home Team) commits a foul, resulting in Player20(Away Team) being awarded a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player10 committed a foul.
+- "Player10(Home Team) misses the target with a shot from the middle of the box, assisted by Player8(Home Team) after a corner." -> Counts as 1 Shot because the snippet explicitly states Player10 missed the target with a shot.
+- "Player10(Home Team) committed a foul." -> Counts as 1 Foul because the snippet explicitly states Player10 committed a foul.
 
-**Step 1: Identify the target player name.**
-
-The target player is Player10.
-
-**Step 2: Initialize counts.**
-
-Shots = 0
-Goals = 0
-Assists = 0
-Free Kicks = 0
-Fouls = 0
-Yellow Cards = 0
-Red Cards = 0
-Offsides = 0
-
-**Step 3: Analyze each snippet and increment counts based on strict criteria.**
-
-*   **Snippet 1:** "Player10(Home Team) commits a foul on Player23(Away Team), resulting in a free kick awarded in the defensive half."
-    *   Fouls: Player10 commits a foul. Increment Fouls to 1.
-
-*   **Snippet 2:** "Player10(Home Team) earns a free kick in the opponent's half."
-    *   Free Kicks: Player10 earns a free kick. Increment Free Kicks to 1.
-
-*   **Snippet 3:** "Player10(Home Team) misses the goal with a left-footed shot from the left side of the six-yard box, assisted by Player6(Home Team)."
-    *   Shots: Player10 misses the goal with a shot. Increment Shots to 1.
-
-*   **Snippet 4:** "Player10(Home Team)'s header from the right side of the six-yard box is blocked, with assistance from Player5(Home Team)'s cross."
-    *   Shots: Player10's header is blocked (attempt on goal). Increment Shots to 2.
-
-*   **Snippet 5:** "Player10(Home Team) commits a foul, resulting in Player20(Away Team) being awarded a free kick in their own defensive half."
-    *   Fouls: Player10 commits a foul. Increment Fouls to 2.
-
-*   **Snippet 6:** "Player10(Home Team) misses the target with a shot from the middle of the box, assisted by Player8(Home Team) after a corner."
-    *   Shots: Player10 misses the target with a shot. Increment Shots to 3.
-
-*   **Snippet 7:** "Player10(Home Team) committed a foul."
-    *   Fouls: Player10 committed a foul. Increment Fouls to 3.
-
-**Updated Counts:**
-
-Shots = 3
-Goals = 0
-Assists = 0
-Free Kicks = 1
-Fouls = 3
-Yellow Cards = 0
-Red Cards = 0
-Offsides = 0
-
-**Final Summary Table:**
-
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

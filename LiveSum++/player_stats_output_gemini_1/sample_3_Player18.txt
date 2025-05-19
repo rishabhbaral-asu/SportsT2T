@@ -1,10 +1,10 @@
 Analyzing the snippets for Player18:
 - "Player18(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player18 committed a foul.
-- "Player18(Home Team)'s shot from the left side of the box was blocked with the help of Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player18's shot was blocked.
-- "Player18(Home Team)'s left footed shot from the left side of the box narrowly misses to the left, with an assist from Player11(Home Team) after a set piece." -> Counts as 1 Shot because the snippet explicitly mentions Player18 took a shot.
-- "Player18(Home Team) of the Home Team attempts a through ball, but Player9(Home Team) is offside." -> Counts as 1 Offside because the snippet explicitly states Player9 is offside.
+- "Player18(Home Team)'s shot from the left side of the box was blocked with the help of Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player18 took a shot.
+- "Player18(Home Team)'s left footed shot from the left side of the box narrowly misses to the left, with an assist from Player11(Home Team) after a set piece." -> Counts as 1 Shot because the snippet explicitly states Player18 took a shot.
+- "Player18(Home Team) of the Home Team attempts a through ball, but Player9(Home Team) is offside." -> No countable event because the snippet does not mention any of the defined events directly performed by Player18. The snippet mentions Player9 is offside, but not Player18.
 - "Player18(Home Team)'s shot from the left side of the box is saved in the bottom left corner after a through ball from Player9(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player18 took a shot.
-- "Player18(Home Team) scores from the penalty spot with a right-footed shot into the bottom right corner." -> Counts as 1 Goal, 1 Shot, and 1 Free Kick because the snippet explicitly states Player18 scored a goal from the penalty spot.
+- "Player18(Home Team) scores from the penalty spot with a right-footed shot into the bottom right corner." -> Counts as 1 Goal, 1 Shot, and 1 Free Kick because the snippet explicitly states Player18 scored a goal from the penalty spot. Scoring a goal counts as a shot, and scoring from a penalty spot means the Player also took a free kick.
 - "Player18(Home Team) successfully earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player18 earned a free kick.
 
 Final Summary Table:

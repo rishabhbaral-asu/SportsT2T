@@ -1,12 +1,13 @@
 Analyzing the snippets for Player4:
-- "Player4(Home Team) of the Home Team attempts a through ball to Player9(Home Team), who is caught offside, resulting in a foul by Player4(Home Team)." -> Counts as 1 Foul because the snippet explicitly states that a foul was committed by Player4.
-- "Player4(Home Team) attempts a through ball, but Player11(Home Team) is caught offside." -> No countable event because it does not mention any of the defined events.
-- "Player4(Home Team)'s attempt from outside the box on a direct free kick goes over the crossbar." -> Counts as 1 Shot and 1 Free Kick because the snippet mentions an attempt on goal from a direct free kick.
-- "Player4(Home Team) from Player4(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states that a foul was committed by Player4.
-- "Player4(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states that a foul was committed by Player4.
-- "Player4(Home Team) from Player4(Home Team)'s team receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player4 received a yellow card for a rough tackle, which is considered a foul.
-- "Player4(Home Team) earns a free kick in their own defensive half after Player22(Away Team) commits a foul." -> Counts as 1 Free Kick because the snippet explicitly states that Player4 earns a free kick.
-- "Player4(Home Team) attempts a through ball, but Player17(Home Team) is caught offside." -> No countable event because it does not mention any of the defined events.
+
+- "Player4(Home Team) of the Home Team attempts a through ball to Player9(Home Team), who is caught offside, resulting in a foul by Player4(Home Team)." -> Counts as 1 Foul because the snippet explicitly states Player4 committed a foul.
+- "Player4(Home Team) attempts a through ball, but Player11(Home Team) is caught offside." -> No countable event because the snippet does not mention any of the defined events.
+- "Player4(Home Team)'s attempt from outside the box on a direct free kick goes over the crossbar." -> Counts as 1 Shot and 1 Free Kick because the snippet explicitly states Player4 took a shot from a direct free kick.
+- "Player4(Home Team) from Player4(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player4 committed a foul.
+- "Player4(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player4 committed a foul.
+- "Player4(Home Team) from Player4(Home Team)'s team receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player4 received a yellow card for a rough tackle, which is a foul.
+- "Player4(Home Team) earns a free kick in their own defensive half after Player22(Away Team) commits a foul." -> Counts as 1 Free Kick because the snippet explicitly states Player4 earned a free kick.
+- "Player4(Home Team) attempts a through ball, but Player17(Home Team) is caught offside." -> No countable event because the snippet does not mention any of the defined events.
 
 Final Summary Table:
 ```markdown

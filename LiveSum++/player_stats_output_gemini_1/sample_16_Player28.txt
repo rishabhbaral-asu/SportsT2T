@@ -1,19 +1,19 @@
 Analyzing the snippets for Player28:
-- "Player28(Away Team)'s header from the center of the box was too high after being assisted by Player29(Away Team) with a cross from a corner." -> Counts as 1 Shot because the snippet explicitly states Player28 attempted a header.
+- "Player28(Away Team)'s header from the center of the box was too high after being assisted by Player29(Away Team) with a cross from a corner." -> Counts as 1 Shot because the snippet explicitly states 'Player28's header'.
 - "Player28(Away Team) earns a free kick on the left side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player28 earned a free kick.
-- "Player28(Away Team) misses the target with a left-footed shot from outside the box, assisted by Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28 attempted a shot.
-- "Player28(Away Team) misses the target with a left-footed shot from the center of the box, going high and wide to the left." -> Counts as 1 Shot because the snippet explicitly states Player28 attempted a shot.
+- "Player28(Away Team) misses the target with a left-footed shot from outside the box, assisted by Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states 'Player28 misses the target with a left-footed shot'.
+- "Player28(Away Team) misses the target with a left-footed shot from the center of the box, going high and wide to the left." -> Counts as 1 Shot because the snippet explicitly states 'Player28 misses the target with a left-footed shot'.
 - "Player28(Away Team) earns a free kick on the left side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player28 earned a free kick.
-- "Player28(Away Team)'s header from the center of the box is saved by the goalkeeper after a cross from Player29(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28 attempted a header.
-- "Player28(Away Team) attempts a through ball, but Player25(Away Team) is caught offside." -> No count because the snippet does not mention Player28 being offside, and only discusses Player28 attempting a through ball.
-- "Player28(Away Team)'s left footed shot from the center of the box is saved in the bottom left corner with an assist from Player29(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28 attempted a shot.
-- "Player28(Away Team) commits a foul, resulting in Player5(Home Team) winning a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
-- "Player28(Away Team)'s shot from the center of the box is saved by the goalkeeper, with an assist from Player32(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28 attempted a shot.
-- "Player28(Away Team) scores with a left footed shot from close range to the bottom right corner after a quick counterattack, Home Team 0, Away Team 2." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player28 scored a goal.
+- "Player28(Away Team)'s header from the center of the box is saved by the goalkeeper after a cross from Player29(Away Team)." -> Counts as 1 Shot because the snippet explicitly states 'Player28's header'.
+- "Player28(Away Team) attempts a through ball, but Player25(Away Team) is caught offside." -> No countable event because Player25 is offside and not the target player Player28.
+- "Player28(Away Team)'s left footed shot from the center of the box is saved in the bottom left corner with an assist from Player29(Away Team)." -> Counts as 1 Shot because the snippet explicitly states 'Player28's left footed shot'.
+- "Player28(Away Team) commits a foul, resulting in Player5(Home Team) winning a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states 'Player28 commits a foul'.
+- "Player28(Away Team)'s shot from the center of the box is saved by the goalkeeper, with an assist from Player32(Away Team)." -> Counts as 1 Shot because the snippet explicitly states 'Player28's shot'.
+- "Player28(Away Team) scores with a left footed shot from close range to the bottom right corner after a quick counterattack, Home Team 0, Away Team 2." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states 'Player28 scores'.
 
 Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player28 | 7     | 1     | 0       | 2          | 1     | 0            | 0         | 0        |
+| Player28 | 6     | 1     | 0       | 2          | 1     | 0            | 0         | 0        |
 ```

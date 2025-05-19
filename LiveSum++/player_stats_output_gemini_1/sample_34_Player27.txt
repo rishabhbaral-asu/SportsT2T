@@ -1,9 +1,10 @@
 Analyzing the snippets for Player27:
-- "Player27(Away Team) strikes the left post with a hard shot from a tough angle on the right, with an assist from Player22(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 strikes the left post with a hard shot.
+
+- "Player27(Away Team) strikes the left post with a hard shot from a tough angle on the right, with an assist from Player22(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 strikes the left post with a shot.
 - "Player27(Away Team) scores with a great shot from a tough angle on the right side, assisted by Player29(Away Team), Home Team is down 0-1 to Away Team." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player27 scores with a great shot.
-- "Player27(Away Team)'s header from the center of the box is saved by the goalkeeper after a cross from Player21(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27's header is saved by the goalkeeper, meaning it was a shot on goal.
-- "Player27(Away Team)'s header from the center of the box is blocked after a cross from Player29(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27's header is blocked, meaning it was a shot on goal.
-- "Player27(Away Team)'s left footed shot from the left side of the box goes over the goal, with an assist from Player25(Away Team)'s headed pass after a corner." -> Counts as 1 Shot because the snippet explicitly states Player27's left footed shot goes over the goal.
+- "Player27(Away Team)'s header from the center of the box is saved by the goalkeeper after a cross from Player21(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27's header is saved.
+- "Player27(Away Team)'s header from the center of the box is blocked after a cross from Player29(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27's header is blocked.
+- "Player27(Away Team)'s left footed shot from the left side of the box goes over the goal, with an assist from Player25(Away Team)'s headed pass after a corner." -> Counts as 1 Shot because the snippet explicitly states Player27's shot goes over the goal.
 - "Player27(Away Team) receives a yellow card." -> Counts as 1 Yellow Card because the snippet explicitly states Player27 receives a yellow card.
 - "Player27(Away Team) is currently experiencing a delay in the match due to an injury." -> No countable event because the snippet does not mention any of the defined events.
 
@@ -11,5 +12,5 @@ Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player27 | 5     | 1     | 0       | 0          | 0     | 1            | 0         | 0        |
+| Player27 | 4     | 1     | 0       | 0          | 0     | 1            | 0         | 0        |
 ```

@@ -3,8 +3,8 @@ Analyzing the snippets for Player5:
 - "Player5(Home Team) commits a foul, resulting in Player27(Away Team) winning a free kick in the attacking half, This leads to a set piece opportunity for the attacking team." -> Counts as 1 Foul because the snippet explicitly states Player5 committed a foul.
 - "Player5(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player5 committed a foul.
 - "Player5(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player5 committed a foul.
-- "Player5(Home Team)'s header from the centre of the box misses to the left after being assisted by Player11(Home Team) with a cross following a corner, while Player8(Home Team)'s header is saved in the top centre of the goal after being assisted by Player5(Home Team)." -> Counts as 1 Shot and 1 Assist because the snippet explicitly states Player5 took a header (attempt on goal) and provided an assist for Player8(Home Team)'s header.
-- "Player5(Home Team) scoring a header from the right side of the six-yard box into the top right corner, assisted by Player4(Home Team) with a cross." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player5 scored a goal with a header.
+- "Player5(Home Team)'s header from the centre of the box misses to the left after being assisted by Player11(Home Team) with a cross following a corner, while Player8(Home Team)'s header is saved in the top centre of the goal after being assisted by Player5(Home Team)." -> Counts as 1 Shot and 1 Assist because the snippet explicitly states Player5 made a header (shot) and assisted Player8.
+- "Player5(Home Team) scoring a header from the right side of the six-yard box into the top right corner, assisted by Player4(Home Team) with a cross." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player5 scored a header (goal and shot).
 
 Final Summary Table:
 ```markdown

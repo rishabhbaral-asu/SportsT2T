@@ -1,19 +1,19 @@
 Analyzing the snippets for Player28:
 
-- "Player28(Away Team) earns a free kick in their own half after a foul by Mile Player8(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player28 earns a free kick.
-- "Player28(Away Team)'s shot from the center of the box is blocked after receiving a headed pass from Player25(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28's shot.
-- "Player28(Away Team) misses the shot from outside the box, with Player27(Away Team) providing the assist with a header." -> Counts as 1 Shot because the snippet explicitly states Player28 misses the shot.
-- "Player28(Away Team) just missed the target with a close-range effort from outside the box, after receiving a headed pass from Player25(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28 just missed the target with a close-range effort.
-- "Player28(Away Team) earns a free kick on the right side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player28 earns a free kick.
-- "Player28(Away Team)'s left footed shot from outside the box narrowly misses to the right with an assist from Player36(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28's left footed shot narrowly misses.
-- "Player28(Away Team) commits a foul on Player4(Home Team), who wins a free kick on the right wing, This results in a set piece opportunity for the team." -> Counts as 1 Foul because the snippet explicitly states Player28 commits a foul.
-- "Player28(Away Team) attempts a through ball to Player25(Away Team), but Player25(Away Team) is offside." -> No countable event because the snippet does not mention any of the defined events directly related to Player28.
-- "Player28(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player28 commits a foul.
-- "Player28(Away Team)'s attempt from long range is blocked by the defense." -> Counts as 1 Shot because the snippet explicitly states Player28's attempt.
+- "Player28(Away Team) earns a free kick in their own half after a foul by Mile Player8(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player28 earned a free kick.
+- "Player28(Away Team)'s shot from the center of the box is blocked after receiving a headed pass from Player25(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28 took a shot.
+- "Player28(Away Team) misses the shot from outside the box, with Player27(Away Team) providing the assist with a header." -> Counts as 1 Shot because the snippet explicitly states Player28 missed the shot.
+- "Player28(Away Team) just missed the target with a close-range effort from outside the box, after receiving a headed pass from Player25(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28 missed the target with a close-range effort.
+- "Player28(Away Team) earns a free kick on the right side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player28 earned a free kick.
+- "Player28(Away Team)'s left footed shot from outside the box narrowly misses to the right with an assist from Player36(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28 took a shot.
+- "Player28(Away Team) commits a foul on Player4(Home Team), who wins a free kick on the right wing, This results in a set piece opportunity for the team." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+- "Player28(Away Team) attempts a through ball to Player25(Away Team), but Player25(Away Team) is offside." -> No event is counted because Player28 is not mentioned as being offside.
+- "Player28(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+- "Player28(Away Team)'s attempt from long range is blocked by the defense." -> Counts as 1 Shot because the snippet explicitly states Player28 took a shot.
 
 Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player28 | 4     | 0     | 0       | 2          | 2     | 0            | 0         | 0        |
+| Player28 | 5     | 0     | 0       | 2          | 2     | 0            | 0         | 0        |
 ```

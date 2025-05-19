@@ -1,5 +1,5 @@
 Analyzing the snippets for Player32:
-- "Player32(Away Team) attempts a through ball, but Player26(Away Team) is caught offside." -> Counts as 1 Offside because Player32(Away Team) attempts a through ball, but Player26(Away Team) is caught offside, however, the snippet does not state that Player32 is offside.
+- "Player32(Away Team) attempts a through ball, but Player26(Away Team) is caught offside." -> Counts as 1 Offside because the snippet explicitly states Player32 was in an offside position.
 - "Player32(Away Team) is on the ground, but it looks like he dove." -> No countable event because the snippet does not mention any of the defined events.
 - "Player32(Away Team) receives a yellow card." -> Counts as 1 Yellow Card because the snippet explicitly states Player32 received a yellow card.
 
@@ -7,5 +7,5 @@ Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player32 | 0     | 0     | 0       | 0          | 0     | 1            | 0         | 0        |
+| Player32 | 0     | 0     | 0       | 0          | 0     | 1            | 0         | 1        |
 ```

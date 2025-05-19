@@ -1,15 +1,15 @@
 Analyzing the snippets for Player7:
-- "Player7(Home Team) is blocked by a defender after an assist from Player8(Home Team)." -> No countable event because the snippet does not mention any of the defined events attributed to Player7.
-- "Player7(Home Team) attempts a through ball to Player9(Home Team) who is caught offside." -> No countable event because the snippet does not mention any of the defined events attributed to Player7.
+- "Player7(Home Team) is blocked by a defender after an assist from Player8(Home Team)." -> No countable event as Player7 did not take a shot or score a goal. Player7 was blocked by a defender and was provided with an assist.
+- "Player7(Home Team) attempts a through ball to Player9(Home Team) who is caught offside." -> No countable event as Player7 did not take a shot or score a goal. Player7 is not mentioned to be offside, so it cannot be counted.
 - "Player7(Home Team) misses the goal with a right-footed shot from the center of the box, after receiving a cross from Player10(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player7 missed the goal with a shot.
-- "Player7(Home Team)'s shot from outside the box is blocked with the help of Player3(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player7's shot was blocked.
-- "Player7(Home Team) attempted a shot with their right foot from outside the box, but it was off-target to the right with an assist from Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player7 attempted a shot.
-- "Player7(Home Team) scores for the Home Team with a right footed shot from a free kick, making it 2-0 against the Away Team." -> Counts as 1 Shot, 1 Goal, and 1 Free Kick because the snippet explicitly states Player7 scored a goal with a shot from a free kick.
-- "Player7(Home Team)'s right footed shot from the left side of the box is blocked, while Player2(Home Team)'s left footed shot from outside the box goes high and wide to the left after a corner." -> Counts as 1 Shot because the snippet explicitly states Player7's shot was blocked.
+- "Player7(Home Team)'s shot from outside the box is blocked with the help of Player3(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player7 took a shot that was blocked.
+- "Player7(Home Team) attempted a shot with their right foot from outside the box, but it was off-target to the right with an assist from Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player7 attempted a shot that was off-target.
+- "Player7(Home Team) scores for the Home Team with a right footed shot from a free kick, making it 2-0 against the Away Team." -> Counts as 1 Goal, 1 Shot, and 1 Free Kick because the snippet explicitly states Player7 scored a goal with a shot from a free kick.
+- "Player7(Home Team)'s right footed shot from the left side of the box is blocked, while Player2(Home Team)'s left footed shot from outside the box goes high and wide to the left after a corner." -> Counts as 1 Shot because the snippet explicitly states Player7 took a shot that was blocked.
 
 Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player7 | 4     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+| Player7 | 5     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
 ```

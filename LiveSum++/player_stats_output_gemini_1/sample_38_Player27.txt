@@ -1,7 +1,7 @@
 Analyzing the snippets for Player27:
 
-- "Player27(Away Team) attempts a through ball to Player29(Away Team), but he is caught offside, resulting in a free kick for Player9(Home Team) in the attacking half for the Away Team." -> Counts as 0 because the snippet does not explicitly state that Player27 took a shot, scored a goal, got an assist, took a free kick, committed a foul, got a yellow/red card, or was offside.
-- "Player27(Away Team) scores for the Away Team with a right footed shot from the center of the box, assisted by Player31(Away Team), The score is Home Team 0, Away Team 2." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player27 scored a goal with a shot.
+- "Player27(Away Team) attempts a through ball to Player29(Away Team), but he is caught offside, resulting in a free kick for Player9(Home Team) in the attacking half for the Away Team." -> Counts as 0 Shots because the snippet describes a through ball attempt, not a shot. Counts as 0 offsides, because Player27 did not get caught offside; Player29 did.
+- "Player27(Away Team) scores for the Away Team with a right footed shot from the center of the box, assisted by Player31(Away Team), The score is Home Team 0, Away Team 2." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player27 scores with a shot.
 
 Final Summary Table:
 ```markdown

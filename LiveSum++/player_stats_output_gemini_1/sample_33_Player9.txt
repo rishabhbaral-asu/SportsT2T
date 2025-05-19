@@ -1,12 +1,12 @@
 Analyzing the snippets for Player9:
 - "Player9(Home Team) earns a free kick on the left side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player9 earned a free kick.
 - "Player9(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player9 committed a foul.
-- "Player9(Home Team)'s left footed shot from the center of the box is saved by the goalkeeper, with an assist from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 took a shot.
+- "Player9(Home Team)'s left footed shot from the center of the box is saved by the goalkeeper, with an assist from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 took a shot that was saved.
 - "Player9(Home Team) commits a foul and Player20(Away Team) is awarded a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player9 committed a foul.
 - "Player9(Home Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player9 earned a free kick.
 - "Player9(Home Team) earns a free kick from the left side." -> Counts as 1 Free Kick because the snippet explicitly states Player9 earned a free kick.
-- "Player9(Home Team) of the Home Team draws a foul in the penalty area resulting in a penalty being conceded by Player23(Away Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player9 draws a foul resulting in a penalty.
-- "Player9(Home Team) scores with a penalty kick to the bottom left corner, making it Home Team 4, Away Team 3." -> Counts as 1 Goal, 1 Shot, and 1 Free Kick because the snippet explicitly states Player9 scored with a penalty kick. Scoring a goal counts as a shot, and taking/scoring a penalty counts as a free kick.
+- "Player9(Home Team) of the Home Team draws a foul in the penalty area resulting in a penalty being conceded by Player23(Away Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player9 earned a penalty (which is a kind of free kick) as a result of being fouled.
+- "Player9(Home Team) scores with a penalty kick to the bottom left corner, making it Home Team 4, Away Team 3." -> Counts as 1 Goal, 1 Shot, and 1 Free Kick because the snippet explicitly states Player9 scored a goal with a penalty kick. Scoring a goal implies a shot, and a penalty kick counts as a free kick.
 - "Player9(Home Team) commits a foul, resulting in Player21(Away Team) being awarded a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player9 committed a foul.
 
 Final Summary Table:
