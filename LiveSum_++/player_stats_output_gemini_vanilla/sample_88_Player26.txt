@@ -1,0 +1,17 @@
+Okay, let's analyze the commentary snippets for Player26.
+
+1.  **Player Name:** Player26
+2.  **Initial Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet Analysis:**
+    *   Snippet 1: "Player26(Away Team)'s shot from the center of the box is saved in the bottom right corner." - The player takes a shot. Increment Shots to 1.
+    *   Snippet 2: "Player26(Away Team) is fouled by Player3(Home Team) in the penalty area." - The player is fouled, meaning they win a free kick (penalty). Increment Free Kicks to 1.
+    *   Snippet 3: "Player26(Away Team) earns a free kick in their own half." - The player earns a free kick. Increment Free Kicks to 2.
+    *   Snippet 4: "Player26(Away Team) earns a free kick in their own half." - The player earns a free kick. Increment Free Kicks to 3.
+    *   Snippet 5: "Player26(Away Team) commits a foul." - The player commits a foul. Increment Fouls to 1.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 1     | 0     | 0       | 3          | 1     | 0            | 0         | 0        |
+```

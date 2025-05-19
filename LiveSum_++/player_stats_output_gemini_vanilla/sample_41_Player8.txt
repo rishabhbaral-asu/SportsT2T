@@ -1,0 +1,52 @@
+Okay, let's analyze the commentary snippets for Player8 and generate the final summary table.
+
+**1. Identify the target player:**
+
+The target player is Player8.
+
+**2. Initialize event counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze each snippet and increment counts:**
+
+*   Snippet 1: "Player8(Home Team) commits a foul."
+    *   Fouls: Increment by 1 (explicitly states Player8 committed a foul). Fouls = 1
+*   Snippet 2: "Player8(Home Team) scoring a close-range goal with their left foot into the top right corner, assisted by Player7(Home Team)."
+    *   Goals: Increment by 1 (explicitly states Player8 scored a goal). Goals = 1
+    *   Shots: Increment by 1 (scoring a goal counts as a shot). Shots = 1
+    *   Assists: No increment. The snippet indicates Player8 was *assisted by* Player7, meaning Player8 did not *give* the assist.
+*   Snippet 3: "Player8(Home Team)'s shot from outside the box, assisted by Player4(Home Team), goes high and wide to the right."
+    *   Shots: Increment by 1 (explicitly states Player8 took a shot). Shots = 2
+    *   Assists: No increment. The snippet indicates Player8 was *assisted by* Player4, meaning Player8 did not *give* the assist.
+*   Snippet 4: "Player8(Home Team) from the center of the box, assisted by Player9(Home Team)."
+    *   No explicit event to count. This does not say Player8 took a shot, scored a goal or made a pass leading to a goal. It just says Player8 is in the center of the box and assisted by Player9.
+*   Snippet 5: "Player8(Home Team) is currently sidelined due to an injury, causing a delay in the match."
+    *   No explicit event to count.
+*   Snippet 6: "Player8(Home Team)'s left-footed shot from the left side of the box was blocked."
+    *   Shots: Increment by 1 (explicitly states Player8 took a shot that was blocked). Shots = 3
+
+**4. Final Counts:**
+
+*   Shots: 3
+*   Goals: 1
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 3     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

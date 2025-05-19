@@ -1,0 +1,29 @@
+Okay, let's process the commentary snippets for Player18.
+
+**Player Name:** Player18
+
+**Commentary Snippets:**
+
+*   "Player18(Home Team)'s left footed shot from the left side of the box misses to the right after an assisted headed pass from Player14(Home Team)."
+*   "Player18(Home Team) commits a foul."
+*   "Player18(Home Team) earns a free kick in the offensive zone after a foul by Player20(Away Team)."
+*   "Player18(Home Team) earns a free kick in the opponent's half after being fouled by Player23(Away Team)."
+
+**Step-by-step Analysis:**
+
+1.  **Shots:** The first snippet mentions "Player18(Home Team)'s left footed shot from the left side of the box misses to the right". This explicitly states Player18 took a shot, so increment the shot count by 1.
+2.  **Goals:** None of the snippets explicitly mention Player18 scoring a goal.
+3.  **Assists:** The first snippet mentions Player18's shot was after an "assisted headed pass from Player14", implying Player18 received the assist, but was not the one *giving* an assist. Hence, Player18 gets 0 assists.
+4.  **Free Kicks:** The third and fourth snippets say "Player18(Home Team) earns a free kick in the offensive zone after a foul by Player20(Away Team)." and "Player18(Home Team) earns a free kick in the opponent's half after being fouled by Player23(Away Team).". This means Player18 *won* two free kicks as a result of being fouled. So, free kicks are incremented by 2.
+5.  **Fouls:** The second snippet states "Player18(Home Team) commits a foul.". This explicitly states that Player18 committed a foul, so increment the foul count by 1.
+6.  **Yellow Cards:** None of the snippets mention Player18 receiving a yellow card.
+7.  **Red Cards:** None of the snippets mention Player18 receiving a red card.
+8.  **Offsides:** None of the snippets mention Player18 being offsides.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player18 | 1     | 0     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

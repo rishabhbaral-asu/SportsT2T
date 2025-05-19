@@ -1,0 +1,45 @@
+Okay, let's analyze the commentary snippets for Player18.
+
+**Player Name:** Player18
+
+**Commentary Snippets:**
+- Player18(Home Team) commits a foul, resulting in Player32(Away Team) being awarded a free kick in their own defensive half.
+- Player18(Home Team) receives a yellow card for a rough tackle.
+
+Here's the step-by-step breakdown:
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1 Analysis:**
+    *   "Player18(Home Team) commits a foul, resulting in Player32(Away Team) being awarded a free kick in their own defensive half."
+    *   This snippet explicitly states that Player18 committed a foul. Increment Fouls by 1.
+    *   The snippet mentions Player32 being awarded a free kick. This does not count as Player18 taking a free kick.
+
+3.  **Snippet 2 Analysis:**
+    *   "Player18(Home Team) receives a yellow card for a rough tackle."
+    *   This snippet explicitly states that Player18 received a yellow card. Increment Yellow Cards by 1.
+
+4. **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player18 | 0     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

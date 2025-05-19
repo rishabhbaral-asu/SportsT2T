@@ -1,0 +1,62 @@
+Okay, let's analyze the commentary snippets for Player4 and compile the statistics.
+
+**1. Player Name:**
+The target player is Player4.
+
+**2. Initialization:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player4(Home Team) commits a foul, awarding Player27(Away Team) a free kick in their own defensive half, ."
+    *   Fouls: Player4 commits a foul. Increment Fouls by 1.
+    *   Free Kicks: The wording "awarding Player27(Away Team) a free kick" means Player4 conceded a free kick so does not count as Player4 taking a free kick.
+
+*   **Snippet 2:** "Player4(Home Team) commits a foul."
+    *   Fouls: Player4 commits a foul. Increment Fouls by 1.
+
+*   **Snippet 3:** "Player4(Home Team) earns a free kick in the opponent's half."
+    *   Free Kicks: Player4 earns a free kick. Increment Free Kicks by 1.
+
+*   **Snippet 4:** "Player4(Home Team) attempts a through ball, but Player11(Home Team) is caught offside."
+    *   No relevant events for Player4.
+
+*   **Snippet 5:** "Player4(Home Team) earns a free kick on the right side of the field."
+    *   Free Kicks: Player4 earns a free kick. Increment Free Kicks by 1.
+
+*   **Snippet 6:** "Player4(Home Team) misses with a left-footed shot from outside the box."
+    *   Shots: Player4 takes a shot. Increment Shots by 1.
+
+*   **Snippet 7:** "Player4(Home Team) fouls Player22(Away Team), resulting in a free kick being awarded in the defensive half."
+    *   Fouls: Player4 fouls Player22. Increment Fouls by 1.
+
+*   **Snippet 8:** "Player4(Home Team) receives a yellow card for a rough tackle."
+    *   Yellow Cards: Player4 receives a yellow card. Increment Yellow Cards by 1.
+    *   Fouls: Since the snippet states "yellow card for a rough tackle" and Player 4 received the yellow card, this is counted as a foul. Increment Fouls by 1.
+
+*   **Snippet 9:** "Player4(Home Team) misses the goal with a shot from outside the box, assisted by Player7(Home Team) from a set piece."
+    *   Shots: Player4 takes a shot. Increment Shots by 1.
+
+**4. Final Counts:**
+Shots = 2
+Goals = 0
+Assists = 0
+Free Kicks = 2
+Fouls = 4
+Yellow Cards = 1
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 2     | 0     | 0       | 2          | 4     | 1            | 0         | 0        |
+```

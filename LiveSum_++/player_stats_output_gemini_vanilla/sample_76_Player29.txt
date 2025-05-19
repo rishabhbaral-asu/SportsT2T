@@ -1,0 +1,53 @@
+Okay, let's analyze the commentary snippets for Player29 and generate the summary table.
+
+1.  **Identify the target player:**
+    The target player is Player29.
+
+2.  **Initialize event counts:**
+    Shots = 0
+    Goals = 0
+    Assists = 0
+    Free Kicks = 0
+    Fouls = 0
+    Yellow Cards = 0
+    Red Cards = 0
+    Offsides = 0
+
+3.  **Analyze each snippet and increment counts:**
+
+    *   **Snippet 1:** "Player29(Away Team) misses the target with a high and wide shot from outside the box, with an assist from Player28(Away Team)."
+        *   Shots += 1 (explicitly mentions "misses the target with a shot")
+        *   Assists += 0 (assisted *by* another player, Player28)
+    *   **Snippet 2:** "Player29(Away Team)'s shot from the left side of the box is blocked after an assist from Player27(Away Team)."
+        *   Shots += 1 (explicitly mentions "shot ... is blocked")
+        *   Assists += 0 (assisted *by* another player, Player27)
+    *   **Snippet 3:** "Player29(Away Team) from the Away Team attempts a through ball, but Player22(Away Team) is offside."
+        *   Offsides += 0 (Player29 did not commit the offside, Player22 did.)
+    *   **Snippet 4:** "Player29(Away Team) scores with a right-footed shot from outside the box, putting the Away Team ahead 1-0 against the Home Team."
+        *   Shots += 1 (explicitly mentions "scores with a shot")
+        *   Goals += 1 (explicitly mentions "scores")
+    *   **Snippet 5:** "Player29(Away Team) commits a foul on Player2(Home Team), who earns a free kick on the right wing."
+        *   Fouls += 1 (explicitly mentions "commits a foul")
+        *   Free Kicks += 0 (Player29 committed the foul, he did not take a free kick.)
+    *   **Snippet 6:** "Player29(Away Team)'s attempt from outside the box is blocked with Player28(Away Team)'s assistance, while Player12(Home Team) wins a free kick on the right wing."
+        *   Shots += 1 (explicitly mentions "attempt from outside the box is blocked")
+        *   Assists += 0 (assisted *by* another player, Player28)
+        *   Free Kicks += 0 (Player29 did not win or take the free kick, another player won it.)
+
+4.  **Compile the final counts:**
+
+    Shots = 4
+    Goals = 1
+    Assists = 0
+    Free Kicks = 0
+    Fouls = 1
+    Yellow Cards = 0
+    Red Cards = 0
+    Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 4     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

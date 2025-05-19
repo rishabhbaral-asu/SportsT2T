@@ -1,0 +1,48 @@
+Okay, let's process the input and generate the final summary table.
+
+**Step-by-step breakdown:**
+
+1.  **Player Identification:** The target player is Player28.
+
+2.  **Initialization:** We initialize all event counts to 0 for Player28.
+
+3.  **Commentary Snippet Analysis:**
+
+    *   **Snippet 1:** "Player28(Away Team) earns a free kick in the opponent's half."
+        *   This snippet explicitly states Player28 *earns* a free kick. This means Player28 wins a free kick. Increment Free Kicks by 1.
+        *   Other counts remain at 0.
+
+    *   **Snippet 2:** "Player28(Away Team) scores with a left-footed free kick to the top right corner, giving the Away Team a 1-0 lead over the Home Team."
+        *   This snippet explicitly states Player28 *scores* a goal. Increment Goals by 1.
+        *   This snippet also explicitly states Player28 scored with a free kick. Increment Free Kicks by 1.
+        *   This also means a shot at goal was made. Increment Shots by 1.
+
+    *   **Snippet 3:** "Player28(Away Team) scores with a right-footed shot from a tough angle, assisted by Player25(Away Team) after a fast break, Home Team now trails 1-3 against Away Team."
+        *   This snippet explicitly states Player28 *scores* a goal. Increment Goals by 1.
+        *   This also means a shot at goal was made. Increment Shots by 1.
+        *   The snippet mentions Player28 was *assisted by* Player25, so Player28's Assist count remains 0.
+
+    *   **Snippet 4:** "Player28(Away Team) receives a yellow card for celebrating too much."
+        *   This snippet explicitly states Player28 receives a *yellow card*. Increment Yellow Cards by 1.
+
+    *   **Snippet 5:** "Player28(Away Team) scores from the penalty spot with a left-footed shot into the bottom right corner."
+        *   This snippet explicitly states Player28 *scores* a goal. Increment Goals by 1.
+        *   This also means a shot at goal was made. Increment Shots by 1.
+        *   Explicitly states Player28 scores from the penalty spot. Increment Free Kicks by 1.
+
+4.  **Final Count:** After analyzing all snippets, we have:
+    *   Shots: 3
+    *   Goals: 3
+    *   Assists: 0
+    *   Free Kicks: 3
+    *   Fouls: 0
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 3     | 3     | 0       | 3          | 0     | 1            | 0         | 0        |
+```

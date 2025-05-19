@@ -1,0 +1,40 @@
+Okay, let's analyze the commentary snippets for Player24 and compile the statistics.
+
+**1. Player Identification:**
+
+The target player is Player24.
+
+**2. Initialization:**
+
+We initialize all event counts to 0 for Player24.
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player24(Away Team) to the top left corner, assisted by Player28(Away Team) from a set piece, The score now stands at Home Team 0, Away Team 1."
+    *   This snippet explicitly states that Player24 scored a goal. Therefore, Goals and Shots are incremented by 1.
+    *   Since Player24 scored, Shots = 1, Goals = 1.
+    *   No assist is credited *to* Player24 here, so Assists remains 0.
+
+*   **Snippet 2:** "Player24(Away Team)'s header from the center of the box, assisted by Player34(Away Team) with a cross, is blocked after the Away Team obtains a corner kick."
+    *   This snippet states that Player24 made a header that was blocked. This is a shot.
+    *   Shots is incremented by 1. Shots = 2
+    *   No assist is credited *to* Player24 here, so Assists remains 0.
+
+**4. Final Counts:**
+
+*   Shots: 2
+*   Goals: 1
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 2     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

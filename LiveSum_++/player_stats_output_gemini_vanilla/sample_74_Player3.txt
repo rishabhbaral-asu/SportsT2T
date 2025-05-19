@@ -1,0 +1,17 @@
+Okay, let's start.
+
+1.  **Player Name:** The target player is Player3.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Commentary Snippets:**
+    *   Snippet 1: "Player3(Home Team) earns a free kick on the left side of the field."
+        *   This snippet explicitly states that Player3 earned a free kick. Therefore, Free Kicks is incremented by 1.
+    *   Snippet 2: "Player3(Home Team) commits a foul, resulting in Player21(Away Team) winning a free kick in their own defensive half."
+        *   This snippet explicitly states that Player3 committed a foul. Therefore, Fouls is incremented by 1.
+4.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

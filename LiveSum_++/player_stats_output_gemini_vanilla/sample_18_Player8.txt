@@ -1,0 +1,56 @@
+Okay, let's analyze the commentary snippets for Player8 and compile the statistics.
+
+**1. Player Name:**
+
+The target player is Player8.
+
+**2. Initialize Counts:**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player8(Home Team) commits a foul."
+    *   Fouls: Increment to 1.
+
+*   **Snippet 2:** "Player8(Home Team) misses the goal with a left-footed shot from the left side of the box, assisted by Player3(Home Team)."
+    *   Shots: Increment to 1.
+    *   Assists: No increment, Player8 *received* the assist, didn't provide one.
+
+*   **Snippet 3:** "Player8(Home Team)'s shot from the right side of the box is blocked."
+    *   Shots: Increment to 2.
+
+*   **Snippet 4:** "Player8(Home Team) commits a foul."
+    *   Fouls: Increment to 2.
+
+*   **Snippet 5:** "Player8(Home Team) commits a foul."
+    *   Fouls: Increment to 3.
+
+*   **Snippet 6:** "Player8(Home Team) handles the ball."
+    *   Fouls: Increment to 4.
+
+**4. Final Counts:**
+
+*   Shots = 2
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 4
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 2     | 0     | 0       | 0          | 4     | 0            | 0         | 0        |
+```

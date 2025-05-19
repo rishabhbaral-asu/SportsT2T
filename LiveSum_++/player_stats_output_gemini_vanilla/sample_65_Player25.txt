@@ -1,0 +1,43 @@
+Okay, let's break down the commentary snippets and compile the statistics for Player25.
+
+**1. Player Name:**
+The target player is Player25.
+
+**2. Initialization:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player25(Away Team) misses a right-footed shot from the right side of the box, assisted by Player28(Away Team), after a set piece situation, as Player29(Away Team) wins a free kick in the attacking half."
+    *   Player25 misses a shot: Shots += 1
+    * Player29 wins a free kick does not count as Player25 taking a free kick.
+*   **Snippet 2:** "Player25(Away Team) commits a foul, resulting in Player11(Home Team) being awarded a free kick in their own defensive half."
+    *   Player25 commits a foul: Fouls += 1
+*   **Snippet 3:** "Player25(Away Team) has been given a yellow card."
+    *   Player25 receives a yellow card: Yellow Cards += 1
+*   **Snippet 4:** "Player25(Away Team)'s attempt from the right side of the box was blocked with an assist from Player29(Away Team), while Player26(Away Team)'s shot from outside the box missed to the right."
+    *   Player25's attempt was blocked: Shots += 1
+
+**4. Final Counts:**
+Shots = 2
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 1
+Yellow Cards = 1
+Red Cards = 0
+Offsides = 0
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 2     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

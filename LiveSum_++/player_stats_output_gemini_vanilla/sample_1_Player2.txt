@@ -1,0 +1,40 @@
+Okay, let's analyze the commentary snippets for Player2 step-by-step and create the final summary table.
+
+1.  **Identify Target Player:** The target player is Player2.
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player2(Home Team) earns a free kick on the right side of the field."
+        *   Player2 earns a free kick. This means he was fouled. Increment Free Kicks by 1.
+    *   **Snippet 2:** "Player2(Home Team) misses a header to the left after a cross from Player6(Home Team), while Player9(Home Team)'s header is saved by the goalkeeper after a cross from Player4(Home Team)."
+        *   Player2 misses a header. Since it's a header, it's considered a shot. Increment Shots by 1.
+    *   **Snippet 3:** "Player2(Home Team) earns a free kick in their own half."
+        *   Player2 earns a free kick. This means he was fouled. Increment Free Kicks by 1.
+
+4. **Final Counts:**
+
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 2
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 1     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,52 @@
+Okay, I'm ready to process the input and generate the requested markdown table.
+
+**Player Name:** Player27
+
+**Commentary Snippets:**
+- Player27(Away Team) commits a foul.
+- Player27(Away Team)'s right-footed shot from the center of the box is saved in the center of the goal, while Player22(Away Team)'s left-footed shot from outside the box misses to the right.
+- Player27(Away Team)'s shot from the right side of the box is saved in the bottom right corner with an assist from Player20(Away Team).
+- Player27(Away Team)'s header from the center of the box, assisted by Player29(Away Team) following a corner, misses to the left with Player20(Away Team) committing a foul.
+- Player27(Away Team) earns a free kick in the opponent's territory.
+- Player27(Away Team) receives a yellow card.
+
+**Reasoning:**
+
+1.  **Player Name:** The target player is Player27.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis and Counting:**
+
+    *   Snippet 1: "Player27(Away Team) commits a foul." - **Fouls** incremented to 1.
+    *   Snippet 2: "Player27(Away Team)'s right-footed shot from the center of the box is saved in the center of the goal, while Player22(Away Team)'s left-footed shot from outside the box misses to the right." - **Shots** incremented to 1.
+    *   Snippet 3: "Player27(Away Team)'s shot from the right side of the box is saved in the bottom right corner with an assist from Player20(Away Team)." - **Shots** incremented to 2.  Note: Player27 was *assisted by* Player20, so no assist for Player27.
+    *   Snippet 4: "Player27(Away Team)'s header from the center of the box, assisted by Player29(Away Team) following a corner, misses to the left with Player20(Away Team) committing a foul." - **Shots** incremented to 3. Note: Player27 was *assisted by* Player29, so no assist for Player27.
+    *   Snippet 5: "Player27(Away Team) earns a free kick in the opponent's territory." - **Free Kicks** incremented to 1.
+    *   Snippet 6: "Player27(Away Team) receives a yellow card." - **Yellow Cards** incremented to 1.
+
+4.  **Final Counts:**
+
+    *   Shots = 3
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 3     | 0     | 0       | 1          | 1     | 1            | 0         | 0        |
+```

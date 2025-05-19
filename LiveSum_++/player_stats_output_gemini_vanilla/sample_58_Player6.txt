@@ -1,0 +1,33 @@
+Okay, let's start by identifying the player name and initializing the counts.
+
+Player Name: Player6
+
+Now, let's initialize the counts for each event to zero.
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Now we analyze the commentary snippets.
+
+Snippet 1: "Player6(Home Team) earns a free kick in their own half."
+
+*   Free Kicks: The snippet says Player6 earns a free kick. This is interpreted as the Player winning a free kick. Count = 1
+
+Snippet 2: "Player6(Home Team) earns a free kick in their own half."
+
+*   Free Kicks: The snippet says Player6 earns a free kick. This is interpreted as the Player winning a free kick. Count = 2
+
+Now we create the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 0     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

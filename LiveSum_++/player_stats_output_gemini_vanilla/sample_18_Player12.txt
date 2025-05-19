@@ -1,0 +1,39 @@
+Okay, let's analyze the commentary snippets for Player12 and generate the requested markdown table.
+
+**Step 1: Identify the target player**
+
+The target player is Player12.
+
+**Step 2: Initialize counts**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**Step 3: Analyze each snippet and increment counts**
+
+*   **Snippet 1:** "Player12(Home Team)'s shot from the center of the box is off target."
+    *   This snippet explicitly states that Player12 took a shot.
+    *   Increment Shots: Shots = 0 + 1 = 1
+
+*   **Snippet 2:** "Player12(Home Team) just committed a hand ball."
+    *   This snippet explicitly states that Player12 committed a handball, which is a foul.
+    *   Increment Fouls: Fouls = 0 + 1 = 1
+
+*   **Snippet 3:** "Player12(Home Team) commits a foul, resulting in Player31(Away Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player31(Away Team)'s team."
+    *   This snippet explicitly states Player12 committed a foul.
+    *   Increment Fouls: Fouls = 1 + 1 = 2
+
+**Step 4: Create the final summary table**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player12 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

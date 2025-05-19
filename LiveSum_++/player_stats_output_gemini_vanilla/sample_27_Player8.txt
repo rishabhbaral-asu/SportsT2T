@@ -1,0 +1,48 @@
+Okay, I'm ready to analyze the commentary snippets and generate the player statistics table.
+
+**Step-by-step breakdown:**
+
+1.  **Identify Target Player:** The target player is Player8.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player8(Home Team) commits a foul, resulting in Player25(Away Team) winning a free kick in the attacking half."
+        *   Player8 commits a foul: Fouls = 1.
+
+    *   **Snippet 2:** "Player8(Home Team) commits a foul."
+        *   Player8 commits a foul: Fouls = 2.
+
+    *   **Snippet 3:** "Player8(Home Team) commits a foul, resulting in Player27(Away Team) being awarded a free kick in their own defensive half."
+        *   Player8 commits a foul: Fouls = 3.
+
+    *   **Snippet 4:** "Player8(Home Team) receives a red card for getting into a fight."
+        *   Player8 receives a red card: Red Cards = 1.
+        *   Player8 committed a foul by getting into a fight: Fouls = 4
+
+4.  **Compile Final Counts:**
+
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 4
+    *   Yellow Cards = 0
+    *   Red Cards = 1
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 0     | 0     | 0       | 0          | 4     | 0            | 1         | 0        |
+```

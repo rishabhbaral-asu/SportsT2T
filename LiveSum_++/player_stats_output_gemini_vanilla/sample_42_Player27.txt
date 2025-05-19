@@ -1,0 +1,39 @@
+Okay, let's analyze the commentary snippets for Player27.
+
+1.  **Player Name:** The target player is Player27.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player27(Away Team) scores with a close-range left-footed shot, assisted by Player29(Away Team), giving the Away Team a 1-0 lead over the Home Team."
+        *   Player27 scores a goal: Goals += 1
+        *   Player27 takes a shot: Shots += 1
+        *   Player27 is assisted by Player29, therefore Player27 does *not* get an assist here.
+    *   **Snippet 2:** "Player27(Away Team) is awarded a free kick in their own defensive half, The Home Team has possession and is given an opportunity to score."
+        *   Player27 is awarded a free kick: Free Kicks += 1
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 1     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

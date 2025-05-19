@@ -1,0 +1,34 @@
+Okay, let's start.
+
+Player Name: Player35
+
+Commentary Snippets:
+- Player35(Away Team) commits a foul.
+- Player35(Away Team)'s shot from the left side was blocked.
+
+Now, let's initialize the counts:
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Analyzing the snippets:
+
+Snippet 1: "Player35(Away Team) commits a foul."
+This explicitly states Player35 committed a foul.
+Increment Fouls: Fouls = 1
+
+Snippet 2: "Player35(Away Team)'s shot from the left side was blocked."
+This explicitly states Player35 took a shot that was blocked.
+Increment Shots: Shots = 1
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player35 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,62 @@
+Okay, let's analyze the commentary snippets for Player27.
+
+**Player Name:** Player27
+
+**Commentary Snippets:**
+- Player27(Away Team) scores with a header from the center of the box to the bottom left corner, assisted by Player21(Away Team) with a cross, The Away Team leads 1-0 against the Home Team.
+- Player27(Away Team) of the Away Team is offside as Player26(Away Team) attempts a through ball.
+- Player27(Away Team) earns a free kick in the opponent's half.
+- Player27(Away Team) earns a free kick in the opponent's half.
+- Player27(Away Team) commits a foul, resulting in Player10(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player10(Home Team)'s team.
+- Player27(Away Team) receives a yellow card for a foul.
+- Player27(Away Team) commits a foul, resulting in Player5(Home Team) winning a free kick in their defensive half, This leads to a set piece opportunity for the team.
+- Player27(Away Team)'s header from the center of the box is saved in the top left corner after a cross from Player31(Away Team).
+
+Here's the step-by-step breakdown:
+
+1.  **Player Name:** Player27
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player27(Away Team) scores with a header from the center of the box to the bottom left corner, assisted by Player21(Away Team) with a cross, The Away Team leads 1-0 against the Home Team."
+        *   Goal: Player27 scores a goal. Increment Goals to 1.
+        *   Shot: Player27 took a shot that resulted in a goal. Increment Shots to 1.
+
+    *   Snippet 2: "Player27(Away Team) of the Away Team is offside as Player26(Away Team) attempts a through ball."
+        *   Offsides: Player27 is offside. Increment Offsides to 1.
+
+    *   Snippet 3: "Player27(Away Team) earns a free kick in the opponent's half."
+        *   Free Kicks: Player27 earns a free kick. Increment Free Kicks to 1.
+
+    *   Snippet 4: "Player27(Away Team) earns a free kick in the opponent's half."
+        *   Free Kicks: Player27 earns a free kick. Increment Free Kicks to 2.
+
+    *   Snippet 5: "Player27(Away Team) commits a foul, resulting in Player10(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player10(Home Team)'s team."
+        *   Fouls: Player27 commits a foul. Increment Fouls to 1.
+
+    *   Snippet 6: "Player27(Away Team) receives a yellow card for a foul."
+        *   Yellow Cards: Player27 receives a yellow card. Increment Yellow Cards to 1.
+        *   Fouls: The snippet mentions that the Yellow Card was given for a foul, so we increment Fouls. Increment Fouls to 2.
+
+    *   Snippet 7: "Player27(Away Team) commits a foul, resulting in Player5(Home Team) winning a free kick in their defensive half, This leads to a set piece opportunity for the team."
+        *   Fouls: Player27 commits a foul. Increment Fouls to 3.
+
+    *   Snippet 8: "Player27(Away Team)'s header from the center of the box is saved in the top left corner after a cross from Player31(Away Team)."
+        *   Shots: Player27's header is saved. Increment Shots to 2.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 2     | 1     | 0       | 2          | 3     | 1            | 0         | 1        |
+```

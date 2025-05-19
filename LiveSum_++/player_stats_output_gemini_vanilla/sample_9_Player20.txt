@@ -1,0 +1,54 @@
+Okay, let's analyze the commentary snippets for Player20 and compile the statistics.
+
+**1. Identify Target Player:**
+
+The target player is Player20.
+
+**2. Initialize Counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player20(Away Team)'s attempt from outside the box on a direct free kick is too high, after Player27(Away Team) wins a free kick on the right wing."
+
+    *   "attempt from outside the box" implies a shot. Increment Shots. Shots = 1
+    *   "direct free kick" indicates Player20 took the free kick. Increment Free Kicks. Free Kicks = 1
+
+*   **Snippet 2:** "Player20(Away Team) commits a foul."
+
+    *   "commits a foul" indicates a foul committed by Player20. Increment Fouls. Fouls = 1
+
+*   **Snippet 3:** "Player20(Away Team) attempts a through ball to Player29(Away Team), who is caught offside."
+
+    *   This snippet mentions Player20 attempting a pass, but it does not lead to a goal therefore it is not an assist. It also mentions Player29 being caught offside, which does not affect Player20's offside count.
+    *   No increments based on this snippet.
+
+*   **Snippet 4:** "Player20(Away Team) commits a foul, resulting in Player11(Home Team) being awarded a free kick in their defensive half, This leads to a set piece opportunity for Player11(Home Team)'s team."
+
+    *   "commits a foul" indicates a foul committed by Player20. Increment Fouls. Fouls = 2
+
+**4. Final Counts:**
+
+Shots = 1
+Goals = 0
+Assists = 0
+Free Kicks = 1
+Fouls = 2
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 1     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

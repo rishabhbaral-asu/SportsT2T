@@ -1,0 +1,48 @@
+Okay, let's analyze the commentary snippets for Player8 and compile the statistics.
+
+**1. Player Name:**
+The target player is Player8.
+
+**2. Initialization:**
+We initialize all event counts to 0 for Player8: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player8(Home Team) commits a foul."
+    *   The snippet explicitly states Player8 committed a foul. Increment Fouls: Fouls = 1.
+
+*   **Snippet 2:** "Player8(Home Team) misses the shot with his left foot from a tough angle and distance on the right side."
+    *   The snippet explicitly states Player8 missed a shot. Increment Shots: Shots = 1.
+
+*   **Snippet 3:** "Player8(Home Team)'s left footed shot from a tough angle and long distance on the right goes high and wide to the left of the goal from a direct free kick."
+    *   The snippet explicitly states Player8 took a shot from a direct free kick. Increment Shots: Shots = 2. Increment Free Kicks: Free Kicks = 1.
+
+*   **Snippet 4:** "Player8(Home Team)'s left footed shot from the left side of the six yard box is blocked by the defense after being assisted by Player7(Home Team) with a cross, resulting in a corner kick for the Home Team."
+    *   The snippet explicitly states Player8 took a shot. Increment Shots: Shots = 3. The snippet indicates Player8 received the assist, not provided one, so assists do not increment.
+
+*   **Snippet 5:** "Player8(Home Team) missed the goal with a high and wide left-footed shot from outside the box."
+    *   The snippet explicitly states Player8 missed a shot. Increment Shots: Shots = 4.
+
+*   **Snippet 6:** "Player8(Home Team)'s shot from outside the box with their left foot is saved in the bottom left corner."
+    *   The snippet explicitly states Player8 took a shot. Increment Shots: Shots = 5.
+
+*   **Snippet 7:** "Player8(Home Team) fouls Player27(Away Team), who wins a free kick on the right wing."
+    *   The snippet explicitly states Player8 committed a foul. Increment Fouls: Fouls = 2. Player8 committing a foul does not mean they take a free kick.
+
+**4. Final Counts:**
+
+*   Shots: 5
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 2
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 5     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

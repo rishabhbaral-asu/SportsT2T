@@ -1,0 +1,55 @@
+Okay, let's break down the task and process the provided input step-by-step.
+
+1.  **Identify Target Player:** The target player is Player28.
+
+2.  **Initialize Counts:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player28(Away Team) commits a foul, resulting in Player2(Home Team) winning a free kick in their defensive half, The referee awards Player2(Home Team) a free kick in the defensive half after Player28(Away Team) commits a foul."
+        *   "Player28(Away Team) commits a foul" - Foul +1
+        *   "Player28(Away Team) commits a foul" - Foul +1
+        *   Total Fouls: 2
+
+    *   **Snippet 2:** "Player28(Away Team) commits a foul."
+        *   "Player28(Away Team) commits a foul" - Foul +1
+        *   Total Fouls: 3
+
+    *   **Snippet 3:** "Player28(Away Team) attempts a through ball to Player27(Away Team), who is caught offside."
+        *   No relevant events.
+
+    *   **Snippet 4:** "Player28(Away Team) is currently delayed in the match due to an injury."
+        *   No relevant events.
+
+    *   **Snippet 5:** "Player28(Away Team) commits a foul, resulting in Player6(Home Team) winning a free kick on the left wing, ."
+        *   "Player28(Away Team) commits a foul" - Foul +1
+        *   Total Fouls: 4
+
+    *   **Snippet 6:** "Player28(Away Team) commits a foul, resulting in Player5(Home Team) winning a free kick in their own defensive half, ."
+        *   "Player28(Away Team) commits a foul" - Foul +1
+        *   Total Fouls: 5
+
+4.  **Final Counts:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 5
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 0     | 0     | 0       | 0          | 5     | 0            | 0         | 0        |
+```

@@ -1,0 +1,40 @@
+Okay, let's start by identifying the target player and initializing the statistics.
+
+Target Player: Player23
+
+Initial Statistics:
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player23(Away Team) commits a foul on Player3(Home Team)."
+This snippet explicitly states that Player23 committed a foul.
+Increment Fouls: Fouls = 0 + 1 = 1
+
+Snippet 2: "Player23(Away Team) of the Away Team misses a header to the right from the center of the box after a corner kick, assisted by Player33(Away Team)."
+This snippet explicitly states that Player23 missed a header. Since a header is an attempt on goal, this is a shot. The fact the header was assisted by Player33 is irrelevant to shots for Player23.
+Increment Shots: Shots = 0 + 1 = 1
+
+Final Statistics:
+Shots: 1
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 1
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

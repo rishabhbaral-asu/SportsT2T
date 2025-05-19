@@ -1,0 +1,38 @@
+Okay, let's break down the commentary snippets and count the events for Player6.
+
+1.  **Player Name:** Player6
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Commentary Snippet Analysis:**
+
+    *   Snippet 1: "Player6(Home Team) is holding up the game due to an injury." - This snippet does not contain any of the keywords. No events are counted.
+
+    *   Snippet 2: "Player6(Home Team)'s shot from the center of the box is blocked." - This snippet contains the keyword "shot." Increment Shots by 1. Shots = 1
+
+    *   Snippet 3: "Player6(Home Team) misses a header from the center of the box, assisted by Player4(Home Team) with a cross after the home team obtains a corner kick." - This snippet contains the keyword "header". Since headers are only counted as a shot if they are explicitly an attempt on goal (which is the case here), increment Shots by 1. Shots = 2
+
+4.  **Final Counts:**
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

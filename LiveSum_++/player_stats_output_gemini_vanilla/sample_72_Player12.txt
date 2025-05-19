@@ -1,0 +1,48 @@
+Okay, let's analyze the commentary snippets for Player12 and compile the statistics.
+
+1.  **Player Name:** `Player12`
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player12(Home Team)'s shot from the center of the box is blocked."
+        *   `shot` keyword found, attributed to Player12.
+        *   Shots = 1
+    *   Snippet 2: "Player12(Home Team) commits a foul, resulting in Player10(Home Team) winning a free kick on the right wing, The referee blows the whistle."
+        *   `foul` keyword found, attributed to Player12.
+        *   Fouls = 1
+    *   Snippet 3: "Player12(Home Team)'s shot from outside the box is blocked and Player10(Home Team)'s shot from the center of the box is saved by the goalkeeper, both assisted by Player10(Home Team) and Player2(Home Team) respectively."
+        *   `shot` keyword found, attributed to Player12.
+        *   Shots = 2
+    *   Snippet 4: "Player12(Home Team) commits a foul."
+        *   `foul` keyword found, attributed to Player12.
+        *   Fouls = 2
+    *   Snippet 5: "Player12(Home Team) receives a yellow card."
+        *   `yellow card` keyword found, attributed to Player12.
+        *   Yellow Cards = 1
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 2
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player12 | 2     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

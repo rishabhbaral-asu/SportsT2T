@@ -1,0 +1,31 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player21 and generate the final summary table.
+
+**Player Name:** Player21
+
+**Commentary Snippets:**
+- Player21(Away Team) earns a free kick in their own half.
+- Player21(Away Team) misses the shot from outside the box with his left foot, it goes over the goal, Player28(Away Team) assisted the play.
+- Player21(Away Team) receives a yellow card.
+
+**Step-by-step analysis:**
+
+1.  **Initialize counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+2.  **Analyze Snippets:**
+    *   Snippet 1: "Player21(Away Team) earns a free kick in their own half."
+        *   The snippet explicitly states Player21 earned a free kick. This means Player21 was fouled or won the free kick. So, increment Free Kicks by 1.
+        *   Free Kicks = 1
+    *   Snippet 2: "Player21(Away Team) misses the shot from outside the box with his left foot, it goes over the goal, Player28(Away Team) assisted the play."
+        *   The snippet mentions "shot" taken by Player21. So, increment Shots by 1.
+        *   Shots = 1
+        *   The snippet specifies that Player28 assisted the play so Player21 doesn't get any assists.
+    *   Snippet 3: "Player21(Away Team) receives a yellow card."
+        *   The snippet mentions "yellow card" received by Player21. So, increment Yellow Cards by 1.
+        *   Yellow Cards = 1
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 1     | 0     | 0       | 1          | 0     | 1            | 0         | 0        |
+```

@@ -1,0 +1,25 @@
+Okay, let's break down the process step by step.
+
+1.  **Identify Target Player:**
+    The target player is Player26.
+
+2.  **Initialize Counts:**
+    Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player26(Away Team) commits a foul on Player11(Home Team), who wins a free kick in the attacking half, This results in a set piece opportunity for the attacking team."
+        *   Fouls: The snippet explicitly states "Player26 commits a foul". Increment Fouls by 1.
+        * Free Kicks: The snippet says Player11 "wins a free kick". This does not count towards Player26 free kicks.
+    *   **Snippet 2:** "Player26(Away Team) fouls Player4(Home Team), resulting in a free kick in the defensive half."
+        *   Fouls: The snippet explicitly states "Player26 fouls Player4". Increment Fouls by 1.
+
+4.  **Compile Final Counts:**
+    Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 2, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 0     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

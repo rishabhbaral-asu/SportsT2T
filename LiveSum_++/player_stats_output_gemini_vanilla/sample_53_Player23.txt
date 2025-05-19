@@ -1,0 +1,52 @@
+Okay, I will follow the instructions to analyze the commentary snippets and generate the player statistics table.
+
+**Player Name:** Player23
+
+**Commentary Snippets:**
+
+*   "Player23(Away Team) commits a foul."
+*   "Player23(Away Team) receives a yellow card for a rough tackle."
+*   "Player23(Away Team) earns a free kick in their own half."
+*   "Player23(Away Team)'s left footed shot from the left side of the box is saved in the bottom right corner, assisted by Player26(Away Team), while Player34(Away Team)'s right footed shot from very close range is blocked."
+
+**Reasoning:**
+
+1.  **Player Identification:** The target player is Player23.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player23(Away Team) commits a foul." - This explicitly states Player23 committed a foul. Increment Fouls by 1. Fouls = 1.
+
+    *   **Snippet 2:** "Player23(Away Team) receives a yellow card for a rough tackle." - This explicitly states Player23 received a yellow card. Increment Yellow Cards by 1. Yellow Cards = 1.
+
+    *   **Snippet 3:** "Player23(Away Team) earns a free kick in their own half." - This explicitly states Player23 earned a free kick. Increment Free Kicks by 1. Free Kicks = 1.
+
+    *   **Snippet 4:** "Player23(Away Team)'s left footed shot from the left side of the box is saved in the bottom right corner, assisted by Player26(Away Team), while Player34(Away Team)'s right footed shot from very close range is blocked." - This explicitly states Player23 took a shot. Increment Shots by 1. Shots = 1.
+
+4.  **Final Counts:**
+
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 1     | 0     | 0       | 1          | 1     | 1            | 0         | 0        |
+```

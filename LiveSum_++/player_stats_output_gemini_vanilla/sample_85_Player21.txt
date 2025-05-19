@@ -1,0 +1,37 @@
+Okay, let's analyze the commentary snippets for Player21 and generate the final summary table.
+
+1.  **Identify Target Player:** The target player is Player21.
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player21(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick on the right wing, It is a set piece opportunity for Player7(Home Team)."
+        *   "commits a foul": This explicitly states Player21 committed a foul. Increment Fouls by 1.
+        * The foul also results in "winning a free kick". But, Player21 did not take a free kick. Thus we do not count free kicks.
+
+4.  **Final Counts:**
+
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

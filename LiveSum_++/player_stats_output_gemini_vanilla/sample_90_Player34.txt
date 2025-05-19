@@ -1,0 +1,15 @@
+Okay, let's start.
+
+1.  **Identify Target Player:** The target player is Player34.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Commentary Snippets:**
+    *   Snippet 1: "Player34(Away Team)'s shot from the left side of the box was saved in the bottom left corner, with an assist from Player26(Away Team)."
+        *   "shot" attributed to Player34. Increment Shots to 1.
+        *   Assist by Player26, so no assist is counted for Player34.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player34 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

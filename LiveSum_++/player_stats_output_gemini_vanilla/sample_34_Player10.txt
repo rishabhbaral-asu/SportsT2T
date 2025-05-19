@@ -1,0 +1,40 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player10 and compile the statistics in a markdown table.
+
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
+    **Input:**
+    * **Player Name:** The name of the single player to track.
+        <PLAYER_NAME>
+        Player10
+        </PLAYER_NAME>
+    * **Commentary Snippets:** A list of commentary text snippets potentially mentioning the player.
+        <PLAYER_COMMENTARY_SNIPPETS>
+        - Player10(Home Team) attempts a pass, but Player5(Home Team) is offside.
+        </PLAYER_COMMENTARY_SNIPPETS>
+
+Here's the step-by-step analysis:
+
+1.  **Player Name:** The target player is Player10.
+2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player10(Home Team) attempts a pass, but Player5(Home Team) is offside."
+        *   Player10 is explicitly mentioned.
+        *   This snippet describes a pass by Player10 that led to Player5 being offside. The pass does *not* directly lead to a goal. Thus, this is **not** an assist. There are no mentions of Shots, Goals, Fouls, Yellow/Red Cards, or Free Kicks in this snippet. The snippet only says that Player5 is offside, not Player10.
+        * The snippet does not contain keywords relating to shots, goals, assists, free kicks, fouls, or cards.
+
+4.  **Final Counts:**
+    * Shots: 0
+    * Goals: 0
+    * Assists: 0
+    * Free Kicks: 0
+    * Fouls: 0
+    * Yellow Cards: 0
+    * Red Cards: 0
+    * Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 0     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

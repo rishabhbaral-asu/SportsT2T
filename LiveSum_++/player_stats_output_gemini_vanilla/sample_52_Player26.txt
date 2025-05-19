@@ -1,0 +1,53 @@
+Okay, let's analyze the commentary snippets for Player26.
+
+1.  **Player Name:** Player26
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player26(Away Team) has committed a hand ball."
+        *   Fouls += 1 (Explicitly states Player26 committed a hand ball)
+
+    *   Snippet 2: "Player26(Away Team)'s shot from outside the box is blocked after being assisted by Player27(Away Team)."
+        *   Shots += 1 (Explicitly states Player26 took a shot)
+
+    *   Snippet 3: "Player26(Away Team) commits a foul, resulting in Player8(Home Team) winning a free kick in the attacking half."
+        *   Fouls += 1 (Explicitly states Player26 committed a foul)
+
+    *   Snippet 4: "Player26(Away Team) earns a free kick in their own half."
+        *   Free Kicks += 1 (Explicitly states Player26 earns a free kick)
+
+    *   Snippet 5: "Player26(Away Team)'s shot from the center of the box is saved by the goalkeeper, assisted by Player27(Away Team), resulting in a corner kick for the Away Team."
+        *   Shots += 1 (Explicitly states Player26 took a shot)
+
+    *   Snippet 6: "Player26(Away Team)'s right footed shot from outside the box was blocked and Player27(Away Team)'s subsequent shot was saved in the center of the goal, both assisted by Player29(Away Team)."
+        *   Shots += 1 (Explicitly states Player26 took a shot)
+
+    *   Snippet 7: "Player26(Away Team) fouls Player6(Home Team), resulting in a free kick on the left wing."
+        *   Fouls += 1 (Explicitly states Player26 fouls Player6)
+
+4.  **Final Counts:**
+    *   Shots = 4
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 3
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 4     | 0     | 0       | 1          | 3     | 0            | 0         | 0        |
+```

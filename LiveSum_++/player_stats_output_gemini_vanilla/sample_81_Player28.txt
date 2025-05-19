@@ -1,0 +1,30 @@
+Okay, let's analyze the commentary snippets for Player28 and compile the statistics.
+
+**Player Name:** Player28
+
+**Commentary Snippets:**
+
+*   "Player28(Away Team)'s right-footed shot from outside the box, assisted by Player27(Away Team) with a headed pass following a corner, is high and wide to the left after Player17(Home Team)'s header is blocked by Player29(Away Team)."
+*   "Player28(Away Team) is causing a delay in the match due to an injury."
+*   "Player28(Away Team) receives a yellow card."
+*   "Player28(Away Team) commits a foul, resulting in Player8(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player8(Home Team)'s team."
+*   "Player28(Away Team) has committed a hand ball."
+
+**Step-by-step Analysis:**
+
+1.  **Shots:** The first snippet mentions "Player28(Away Team)'s right-footed shot from outside the box...is high and wide to the left". This is a shot, so we increment the shot count by 1.
+2.  **Goals:** There are no explicit mentions of "goal" or "scores" attributed to Player28. So, the goal count remains 0.
+3.  **Assists:** The first snippet mentions that Player28's shot was assisted by Player27, so this does not count as an assist for Player28. The assist count remains 0.
+4.  **Free Kicks:** The fourth snippet indicates that Player28 committed a foul, resulting in the opposition winning a free kick, not Player28. The Free Kick count remains 0.
+5.  **Fouls:** The fourth snippet states "Player28(Away Team) commits a foul...". This is a foul committed by Player28, so the foul count is incremented by 1. Additionally, the fifth snippet states "Player28(Away Team) has committed a hand ball." This counts as another foul. So the foul count becomes 2.
+6.  **Yellow Cards:** The third snippet states "Player28(Away Team) receives a yellow card." The yellow card count is incremented by 1.
+7.  **Red Cards:** There are no mentions of red cards for Player28. The red card count remains 0.
+8.  **Offsides:** There are no mentions of offsides for Player28. The offsides count remains 0.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 1     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

@@ -1,0 +1,50 @@
+Okay, let's analyze the commentary snippets for Player27.
+
+1.  **Player Name:** Player27
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player27(Away Team) commits a foul."
+        *   Fouls: Increment by 1. Fouls = 1
+    *   Snippet 2: "Player27(Away Team)'s shot from the right side of the box is blocked after being assisted by Player28(Away Team)."
+        *   Shots: Increment by 1. Shots = 1.
+        *   Assists: No increment. Player27 was assisted.
+    *   Snippet 3: "Player27(Away Team)'s header from the left side of the six yard box is blocked by the defender, assisted by Player23(Away Team) with a headed pass, resulting in a corner kick for the Away Team."
+        *   Shots: Increment by 1. Shots = 2.
+        *   Assists: No increment. Player27 was assisted.
+    *   Snippet 4: "Player27(Away Team) misses the goal with a right-footed shot from the right side of the box, assisted by Player20(Away Team)."
+        *   Shots: Increment by 1. Shots = 3.
+        *   Assists: No increment. Player27 was assisted.
+    *   Snippet 5: "Player27(Away Team) scores with a left-footed shot from the center of the box, assisted by Player25(Away Team) with a through ball, The score is now tied at 1-1 between the Home Team and the Away Team."
+        *   Shots: Increment by 1. Shots = 4.
+        *   Goals: Increment by 1. Goals = 1
+        *   Assists: No increment. Player27 was assisted.
+    *   Snippet 6: "Player27(Away Team) commits a foul, giving Player11(Home Team) a free kick in their own defensive half."
+        *   Fouls: Increment by 1. Fouls = 2
+
+4.  **Final Counts:**
+    *   Shots: 4
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 2
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 4     | 1     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

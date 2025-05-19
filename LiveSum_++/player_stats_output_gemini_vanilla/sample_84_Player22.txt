@@ -1,0 +1,26 @@
+Okay, I will follow the instructions to analyze the commentary snippets for the specified player and generate the final summary table.
+
+**Player Name:** Player22
+
+**Commentary Snippets:**
+
+- Player22(Away Team) commits a foul, resulting in Player4(Home Team) winning a free kick in their own defensive half, The foul by Player22(Away Team) allows Player4(Home Team) to earn a free kick in their defensive half.
+- Player22(Away Team) receives a yellow card for a harsh tackle.
+
+**Step-by-step Analysis:**
+
+1.  **Player Identification:** The target player is Player22.
+2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet 1 Analysis:**
+    *   "Player22(Away Team) commits a foul..." - This explicitly states Player22 committed a foul. Therefore, increment Fouls by 1.
+    * "resulting in Player4(Home Team) winning a free kick in their own defensive half, The foul by Player22(Away Team) allows Player4(Home Team) to earn a free kick in their defensive half." - This snippet implies Player22 caused a free kick to be awarded to the opposing team because of their foul. This is a foul and not a free kick for Player22.
+4.  **Snippet 2 Analysis:**
+    *   "Player22(Away Team) receives a yellow card for a harsh tackle." - This explicitly states Player22 received a yellow card. Therefore, increment Yellow Cards by 1.
+5.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 1, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 0     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

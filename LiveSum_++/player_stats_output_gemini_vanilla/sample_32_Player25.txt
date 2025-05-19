@@ -1,0 +1,45 @@
+Okay, let's start by identifying the player name and initializing the counts.
+
+Player Name: Player25
+
+Now, I will process each commentary snippet and increment the relevant counts for Player25 based on the instructions.
+
+Snippet 1: "Player25(Away Team)'s left footed shot from outside the box goes over the goal, with an assist from Player27(Away Team)."
+
+*   Shots: The snippet explicitly mentions "shot" by Player25. Increment Shots by 1.
+*   Goals: No mention of a goal.
+*   Assists: The snippet mentions Player27 assisted Player25. This does NOT count as an assist *for* Player25.
+*   Free Kicks: No mention of a free kick.
+*   Fouls: No mention of a foul.
+*   Yellow Cards: No mention of a yellow card.
+*   Red Cards: No mention of a red card.
+*   Offsides: No mention of offsides.
+
+Snippet 2: "Player25(Away Team) earns a free kick in their own half."
+
+*   Shots: No mention of a shot.
+*   Goals: No mention of a goal.
+*   Assists: No mention of an assist.
+*   Free Kicks: The snippet explicitly states Player25 "earns a free kick." Increment Free Kicks by 1.
+*   Fouls: No mention of a foul.
+*   Yellow Cards: No mention of a yellow card.
+*   Red Cards: No mention of a red card.
+*   Offsides: No mention of offsides.
+
+Snippet 3: "Player25(Away Team) commits a foul."
+
+*   Shots: No mention of a shot.
+*   Goals: No mention of a goal.
+*   Assists: No mention of an assist.
+*   Free Kicks: No mention of a free kick.
+*   Fouls: The snippet explicitly states Player25 "commits a foul". Increment Fouls by 1.
+*   Yellow Cards: No mention of a yellow card.
+*   Red Cards: No mention of a red card.
+*   Offsides: No mention of offsides.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

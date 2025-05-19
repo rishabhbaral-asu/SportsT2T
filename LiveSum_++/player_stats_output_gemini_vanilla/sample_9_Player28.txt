@@ -1,0 +1,25 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player28 and create the final summary table.
+
+1.  **Identify the target player:** The target player is Player28.
+2.  **Initialize counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze each snippet:**
+
+    *   Snippet 1: "Player28(Away Team) fouls Player8(Home Team), resulting in a free kick awarded to Player8(Home Team) in their own defensive half."
+        *   Player28 commits a foul. Increment Fouls: Fouls = 1.
+    *   Snippet 2: "Player28(Away Team) earns a free kick in the opponent's half."
+        *   Player28 earns a free kick. Increment Free Kicks: Free Kicks = 1.
+    *   Snippet 3: "Player28(Away Team) has committed a hand ball."
+        *   Player28 commits a hand ball, which is a foul. Increment Fouls: Fouls = 2.
+    *   Snippet 4: "Player28(Away Team) commits a foul."
+        *   Player28 commits a foul. Increment Fouls: Fouls = 3.
+    *   Snippet 5: "Player28(Away Team) commits a foul."
+        *   Player28 commits a foul. Increment Fouls: Fouls = 4.
+
+4.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 4, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 0     | 0     | 0       | 1          | 4     | 0            | 0         | 0        |
+```

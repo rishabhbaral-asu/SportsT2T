@@ -1,0 +1,44 @@
+Okay, let's analyze the commentary snippets for Player22 and generate the requested markdown table.
+
+**1. Identify Target Player:**
+
+The target player is Player22.
+
+**2. Initialize Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player22(Away Team) attempts a through ball, but Player28(Away Team) is offside for the Away Team."
+    *   Player22 attempts a through ball, which leads to Player28 being offside. This does not count as an assist.
+    *   Offsides: Player22 did not commit an offside. Player28 did, which is not relevant.
+*   **Snippet 2:** "Player22(Away Team) commits a foul."
+    *   Fouls: Player22 commits a foul. Increment Fouls by 1. Fouls = 1
+*   **Snippet 3:** "Player22(Away Team) earns a free kick in their own defensive half after a foul committed by Player4(Home Team)."
+    *   Free Kicks: Player22 earns a free kick. Increment Free Kicks by 1. Free Kicks = 1
+
+**4. Final Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

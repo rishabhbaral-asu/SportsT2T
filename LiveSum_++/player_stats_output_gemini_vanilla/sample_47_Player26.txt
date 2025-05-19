@@ -1,0 +1,38 @@
+Okay, let's analyze the commentary snippets for Player26.
+
+1.  **Player Name:** Player26
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player26(Away Team) earns a free kick in their own half."
+        *   "earns a free kick" - This implies Player26 was fouled or won a free kick. Increment Free Kicks.
+        *   Free Kicks = 1
+
+    *   Snippet 2: "Player26(Away Team) of the Away Team attempted to pass the ball to Player25(Away Team), but Player25(Away Team) was offside."
+        *   "offside" - This implies Player25 was offside, not Player26. No increment for Offsides for Player26.
+
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

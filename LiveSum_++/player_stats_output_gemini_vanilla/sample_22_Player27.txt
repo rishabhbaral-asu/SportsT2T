@@ -1,0 +1,48 @@
+Okay, let's analyze the commentary snippets for Player27 and generate the final summary table.
+
+**Step 1: Identify the target player name.**
+
+The target player name is Player27.
+
+**Step 2: Initialize counts for all events to 0.**
+
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**Step 3: Analyze each snippet and increment counts based on explicit mentions.**
+
+*   **Snippet 1:** "Player27(Away Team) commits a foul, resulting in Player8(Home Team) winning a free kick in their own defensive half, The foul was committed by Player27(Away Team), leading to Player8(Home Team) being awarded a free kick in their own defensive half."
+
+    *   "commits a foul" - Attributed to Player27. Fouls: 1.
+    *   "foul was committed by Player27" - Attributed to Player27. Fouls: 2.
+    *   Player8 wins a free kick - This is not a free kick taken *by* Player27. It's a result of Player27's foul. Do not count it as a Free Kick for Player27.
+
+*   **Snippet 2:** "Player27(Away Team) commits a foul."
+
+    *   "commits a foul" - Attributed to Player27. Fouls: 3.
+
+**Step 4: Final Counts**
+
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 3
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**Step 5: Create the Final Summary Table.**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 0     | 0     | 0       | 0          | 3     | 0            | 0         | 0        |
+```

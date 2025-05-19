@@ -1,0 +1,48 @@
+Okay, let's analyze the commentary snippets for Player11.
+
+*   **Player Name:** Player11
+
+*   **Initialization:**
+
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+*   **Commentary Snippet Analysis:**
+
+    *   Snippet 1: "Player11(Home Team) is currently sidelined due to an injury, causing a delay in the match." - No relevant events to count.
+
+    *   Snippet 2: "Player11(Home Team)'s left-footed shot from the left side of the box is saved in the bottom right corner after a through ball from Player9(Home Team)." - Contains "shot" explicitly attributed to Player11. Increment Shots.
+
+        *   Shots = 1
+
+    *   Snippet 3: "Player11(Home Team)'s attempt from outside the box is blocked." - Contains "attempt" and "blocked" explicitly attributed to Player11. Increment Shots.
+
+        *   Shots = 2
+
+    *   Snippet 4: "Player11(Home Team)'s attempt at a goal from outside the box with his right foot goes wide to the right, assisted by Player3(Home Team)." - Contains "attempt" and "goal". Increment Shots. Assisted by Player3, so no assists for Player11.
+
+        *   Shots = 3
+
+*   **Final Counts:**
+
+    *   Shots = 3
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 3     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

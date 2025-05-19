@@ -1,0 +1,40 @@
+Okay, let's break down the process step by step to accurately extract the player statistics from the provided commentary snippets.
+
+1.  **Identify Target Player:**
+    The target player is Player20.
+
+2.  **Initialize Counts:**
+    Shots = 0
+    Goals = 0
+    Assists = 0
+    Free Kicks = 0
+    Fouls = 0
+    Yellow Cards = 0
+    Red Cards = 0
+    Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player20(Away Team)'s attempt from the right side of the box misses to the left, despite assistance from Player27(Away Team)."
+        *   "attempt" triggers a Shot. Shots = 1
+
+    *   **Snippet 2:** "Player20(Away Team) attempts a through ball, but Player28(Away Team) is offside for the Away Team."
+        * The action from Player20 resulted in Player28 being offside. Since the action from Player20 didn't lead to a goal or any other scorable events, nothing is added here. However, we can note that Player20 attempted a pass.
+
+4.  **Compile Results:**
+
+    Shots: 1
+    Goals: 0
+    Assists: 0
+    Free Kicks: 0
+    Fouls: 0
+    Yellow Cards: 0
+    Red Cards: 0
+    Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

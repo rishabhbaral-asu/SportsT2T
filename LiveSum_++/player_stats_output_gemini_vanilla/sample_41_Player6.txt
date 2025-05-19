@@ -1,0 +1,28 @@
+Okay, let's analyze the commentary snippets for Player6 and compile the statistics.
+
+**Player Name:** Player6
+
+**Commentary Snippets:**
+
+*   "Player6(Home Team)'s header from the center of the box is saved in the bottom left corner after being assisted by Player10(Home Team), resulting in a corner kick for the Home Team."
+*   "Player6(Home Team) commits a foul."
+*   "Player6(Home Team) earns a free kick in their own half."
+
+**Analysis:**
+
+*   **Shots:** The first snippet mentions "Player6(Home Team)'s header". Since it is explicitly mentioned as a header (attempt on goal), it counts as a shot. Increment Shots to 1.
+*   **Goals:** The first snippet says the header was "saved", so it was not a goal. No goals to count.
+*   **Assists:** The first snippet explicitly mentions that Player6 was *assisted by* Player10. This means Player6 did *not* provide an assist, so Assists remains 0.
+*   **Free Kicks (Taken):** The third snippet states "Player6(Home Team) earns a free kick". Thus, Player6 wins a free kick, increment Free Kicks to 1.
+*   **Fouls (Committed):** The second snippet states "Player6(Home Team) commits a foul." Increment Fouls to 1.
+*   **Yellow Cards:** No mention of yellow cards for Player6.
+*   **Red Cards:** No mention of red cards for Player6.
+*   **Offsides:** No mention of offsides for Player6.
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 1     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

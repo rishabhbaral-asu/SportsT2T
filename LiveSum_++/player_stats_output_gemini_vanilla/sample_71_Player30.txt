@@ -1,0 +1,32 @@
+Okay, let's analyze the commentary snippets for Player30 and compile the statistics.
+
+**Player Name:** Player30
+
+**Commentary Snippets:**
+- Player30(Away Team) is on the ground, but it looks like he took a dive.
+- Player30(Away Team) receives a yellow card.
+
+**Step-by-step analysis:**
+
+1.  **Player Name:** The target player is Player30.
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+3.  **Snippet 1 Analysis:** "Player30(Away Team) is on the ground, but it looks like he took a dive."
+    *   This snippet implies Player30 *might* be trying to deceive the referee but does not explicitly state that Player30 committed a foul, won a free kick, took a shot, or any other defined action. No increments are made.
+4.  **Snippet 2 Analysis:** "Player30(Away Team) receives a yellow card."
+    *   This snippet explicitly states that Player30 received a yellow card.
+    *   Yellow Cards = 1
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player30 | 0     | 0     | 0       | 0          | 0     | 1            | 0         | 0        |
+```

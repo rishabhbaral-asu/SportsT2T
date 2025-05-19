@@ -1,0 +1,47 @@
+Okay, let's analyze the commentary snippets for Player23 and compile the statistics.
+
+**Player Name:** Player23
+
+**Commentary Snippets:**
+
+*   "Player23(Away Team) commits a foul on Player9(Home Team), resulting in a free kick for Player5(Home Team) in their own defensive half."
+*   "Player23(Away Team)'s header from the center of the box is saved by the goalkeeper after a cross from Player28(Away Team)."
+*   "Player23(Away Team) misses a header to the left from the center of the box, assisted by Player22(Away Team) after a corner, while Player3(Home Team) wins a free kick in their own defensive half."
+*   "Player23(Away Team)'s header from the center of the box hits the bar after a cross from Player20(Away Team)."
+
+**Step-by-step Analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1 Analysis:** "Player23(Away Team) commits a foul on Player9(Home Team), resulting in a free kick for Player5(Home Team) in their own defensive half."
+    *   The snippet explicitly states "commits a foul" by Player23.
+    *   Fouls = 1
+
+3.  **Snippet 2 Analysis:** "Player23(Away Team)'s header from the center of the box is saved by the goalkeeper after a cross from Player28(Away Team)."
+    *   The snippet explicitly states "header" by Player23, which is an attempt on goal.
+    *   The shot was saved.
+    *   Shots = 1
+
+4.  **Snippet 3 Analysis:** "Player23(Away Team) misses a header to the left from the center of the box, assisted by Player22(Away Team) after a corner, while Player3(Home Team) wins a free kick in their own defensive half."
+    *   The snippet explicitly states "misses a header" by Player23 which is an attempt on goal.
+    *   Shots = 2
+
+5.  **Snippet 4 Analysis:** "Player23(Away Team)'s header from the center of the box hits the bar after a cross from Player20(Away Team)."
+    *   The snippet explicitly states "header hits the bar" by Player23 which is an attempt on goal.
+    *   Shots = 3
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 3     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

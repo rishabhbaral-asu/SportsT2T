@@ -1,0 +1,62 @@
+Okay, let's analyze the commentary snippets for Player26.
+
+1.  **Player Name:** Player26
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player26(Away Team)'s shot from a tough angle on the right is saved in the bottom right corner, with an assist from Player23(Away Team)."
+        *   Shots: Increment to 1 (explicitly states "shot")
+        *   Goals: No goal mentioned.
+        *   Assists: No assist for Player26 (Player26 was assisted).
+        *   Free Kicks: No free kick event mentioned.
+        *   Fouls: No foul mentioned.
+        *   Yellow Cards: No yellow card mentioned.
+        *   Red Cards: No red card mentioned.
+        *   Offsides: No offside mentioned.
+
+    *   **Snippet 2:** "Player26(Away Team) scores with a right-footed shot from the center of the box, giving the Away Team a 2-0 lead over the Home Team."
+        *   Shots: Increment to 2 (explicitly states "scores with a right-footed shot")
+        *   Goals: Increment to 1 (explicitly states "scores")
+        *   Assists: No assist mentioned.
+        *   Free Kicks: No free kick event mentioned.
+        *   Fouls: No foul mentioned.
+        *   Yellow Cards: No yellow card mentioned.
+        *   Red Cards: No red card mentioned.
+        *   Offsides: No offside mentioned.
+
+    *   **Snippet 3:** "Player26(Away Team) commits a foul, resulting in Player2(Home Team) winning a free kick in their own defensive half."
+        *   Shots: No shot mentioned.
+        *   Goals: No goal mentioned.
+        *   Assists: No assist mentioned.
+        *   Free Kicks: No free kick event mentioned for Player26 *taking* a free kick. Although Player2(Home Team) wins a free kick, this resulted from a foul *committed by Player26* and is therefore irrelevant.
+        *   Fouls: Increment to 1 (explicitly states "commits a foul").
+        *   Yellow Cards: No yellow card mentioned.
+        *   Red Cards: No red card mentioned.
+        *   Offsides: No offside mentioned.
+
+4.  **Final Counts:**
+    *   Shots: 2
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 2     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

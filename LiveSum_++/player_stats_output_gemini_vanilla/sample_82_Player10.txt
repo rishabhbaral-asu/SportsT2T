@@ -1,0 +1,46 @@
+Okay, let's break down the process step by step.
+
+1.  **Player Identification:** The target player is Player10.
+
+2.  **Initialization:** Initialize all event counts to 0 for Player10.
+
+3.  **Commentary Snippet Analysis (applying strict counting):**
+
+    *   **Snippet 1:** "Player10(Home Team) attempts a through ball, but Player11(Home Team) is flagged offside."
+        *   This snippet indicates Player10 attempted a through ball, leading to Player11 being offside. This means Player11 is offsides. Player10 attempted a pass, that does not qualify as Shots, Goals, or Assists as the play did not lead to a score. It does not qualify as a Free Kick or Foul. `Offsides + 1` is not applicable as Player10 is not offside.
+        * Free Kick does not apply since the text does not include foul, penalty, takes the kick, wins a free kick, etc. Player 10 did not take the free kick.
+        * No events triggered for Player10.
+
+    *   **Snippet 2:** "Player10(Home Team)'s header from the center of the box was off target, going high and wide to the right after a cross from Player6(Home Team)."
+        *   Player10 had a header that was off target. This is a shot. Shots + 1
+        * No events triggered for Player10.
+
+    *   **Snippet 3:** "Player10(Home Team)'s header from the center of the box was close but missed to the left, assisted by Player6(Home Team) with a cross."
+        *   Player10 had a header that missed. This is a shot. Shots + 1
+        * No events triggered for Player10.
+
+    *   **Snippet 4:** "Player10(Home Team)'s shot from outside the box is saved in the top center of the goal, with an assist from Player3(Home Team)."
+        *   Player10 had a shot that was saved. This is a shot. Shots + 1
+        * No events triggered for Player10.
+
+    *   **Snippet 5:** "Player10(Home Team)'s header from the center of the box is saved in the bottom right corner after a cross from Player7(Home Team)."
+        *   Player10 had a header that was saved. This is a shot. Shots + 1
+        * No events triggered for Player10.
+
+    *   **Snippet 6:** "Player10(Home Team)'s header from the center of the box narrowly misses to the right, with an assist from Player15(Home Team)'s cross."
+        *   Player10 had a header that narrowly missed. This is a shot. Shots + 1
+        * No events triggered for Player10.
+        * No Free Kicks, Fouls, Yellow Cards, Red Cards or Offsides.
+
+4.  **Final Count:**
+
+    *   Shots: 5
+
+5.  **Summary Table:**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 5     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

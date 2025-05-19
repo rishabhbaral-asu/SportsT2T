@@ -1,0 +1,43 @@
+Okay, I'm ready to process the input and generate the player statistics table.
+
+**1. Identify Target Player:**
+
+The target player name is Player11.
+
+**2. Initialize Counts:**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player11(Home Team)'s shot from the center of the box is blocked with Player9(Home Team)'s assistance."
+    *   The snippet contains "shot" and the action is explicitly attributed to Player11. Therefore, increment 'Shots' by 1.
+
+*   **Snippet 2:** "Player11(Home Team) scores with a left-footed shot from the center of the box to the top left corner, assisted by Player10(Home Team) with a headed pass."
+    *   The snippet contains "scores" and the action is explicitly attributed to Player11. Therefore, increment 'Goals' by 1. Also, the snippet contains "shot" and the action is explicitly attributed to Player11. Therefore, increment 'Shots' by 1.
+
+**4. Final Counts:**
+
+*   Shots = 2
+*   Goals = 1
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

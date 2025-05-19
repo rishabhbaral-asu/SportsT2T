@@ -1,0 +1,26 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player21 and compile the statistics.
+
+**Player Name:** Player21
+
+**Commentary Snippets:**
+
+*   Player21(Away Team) receives a yellow card.
+*   Player21(Away Team) earns a free kick in their own half.
+*   Player21(Away Team) of the Home Team is injured, causing a delay in the match as they obtain a corner kick.
+*   Player21(Away Team) was substituted due to injury once the Away Team had exhausted all their substitutions.
+
+**Analysis:**
+
+1.  **Yellow Cards:** The first snippet explicitly states "Player21(Away Team) receives a yellow card." Therefore, Yellow Cards count is incremented by 1.
+
+2.  **Free Kicks:** The second snippet says "Player21(Away Team) earns a free kick in their own half." This means Player21 won the free kick and a free kick should be added to the total, Free Kick count is incremented by 1.
+
+3.  **Shots, Goals, Assists, Fouls, Red Cards, Offsides:** The other snippets do not explicitly mention any of these actions being performed by Player21. The third snippet is about Player21 being injured, and does not have any reference to shots, goals, assists, fouls, red cards or offsides. The last snippet only indicates the player was substituted.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 0     | 0     | 0       | 1          | 0     | 1            | 0         | 0        |
+```

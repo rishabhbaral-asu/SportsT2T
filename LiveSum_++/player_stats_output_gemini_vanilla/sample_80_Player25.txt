@@ -1,0 +1,85 @@
+Okay, let's break this down step by step.
+
+1.  **Identify the target player:** The target player is Player25.
+
+2.  **Initialize counts:**
+    * Shots: 0
+    * Goals: 0
+    * Assists: 0
+    * Free Kicks: 0
+    * Fouls: 0
+    * Yellow Cards: 0
+    * Red Cards: 0
+    * Offsides: 0
+
+3.  **Analyze each snippet:**
+
+    *   **Snippet 1:** "Player25(Away Team) commits a foul, resulting in Player3(Home Team) winning a free kick on the left wing, ."
+        *   "commits a foul" - Foul count incremented.
+        *   "wins a free kick" - Player25 does not win the free kick. No Free Kick increment.
+        * Fouls: 1
+        * Shots: 0
+        * Goals: 0
+        * Assists: 0
+        * Free Kicks: 0
+        * Yellow Cards: 0
+        * Red Cards: 0
+        * Offsides: 0
+    *   **Snippet 2:** "Player25(Away Team) commits a foul."
+        *   "commits a foul" - Foul count incremented.
+        * Fouls: 2
+        * Shots: 0
+        * Goals: 0
+        * Assists: 0
+        * Free Kicks: 0
+        * Yellow Cards: 0
+        * Red Cards: 0
+        * Offsides: 0
+    *   **Snippet 3:** "Player25(Away Team) receives a yellow card for a rough tackle."
+        *   "receives a yellow card" - Yellow Card count incremented.
+        * Fouls: 2
+        * Shots: 0
+        * Goals: 0
+        * Assists: 0
+        * Free Kicks: 0
+        * Yellow Cards: 1
+        * Red Cards: 0
+        * Offsides: 0
+    *   **Snippet 4:** "Player25(Away Team) commits a foul."
+        *   "commits a foul" - Foul count incremented.
+        * Fouls: 3
+        * Shots: 0
+        * Goals: 0
+        * Assists: 0
+        * Free Kicks: 0
+        * Yellow Cards: 1
+        * Red Cards: 0
+        * Offsides: 0
+    *   **Snippet 5:** "Player25(Away Team)'s right-footed shot from the right side of the box into the bottom right corner."
+        *   "shot" - Shot count incremented.
+        *   "into the bottom right corner" implies a goal was scored. Goal count incremented.
+        * Shots: 1
+        * Goals: 1
+        * Assists: 0
+        * Free Kicks: 0
+        * Yellow Cards: 1
+        * Red Cards: 0
+        * Offsides: 0
+        * Fouls: 3
+
+4.  **Final Counts:**
+    * Shots: 1
+    * Goals: 1
+    * Assists: 0
+    * Free Kicks: 0
+    * Fouls: 3
+    * Yellow Cards: 1
+    * Red Cards: 0
+    * Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 1     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

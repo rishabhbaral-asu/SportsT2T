@@ -1,0 +1,39 @@
+Okay, let's analyze the commentary snippets for Player32.
+
+1.  **Player Name:** Player32
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player32(Away Team)'s attempt from outside the box is saved in the center of the goal, with an assist from Player25(Away Team), while Player25(Away Team)'s shot is too high."
+        *   "attempt" indicates a shot by Player32, so increment Shots to 1.
+        *   The phrase "assist from Player25" indicates that Player32 *received* the assist, so we do not increment the assist count for Player32.
+    *   Snippet 2: "Player32(Away Team) commits a foul."
+        *   "commits a foul" indicates a foul by Player32, so increment Fouls to 1.
+
+4.  **Final Counts:**
+
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player32 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

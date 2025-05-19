@@ -1,0 +1,32 @@
+Okay, let's start by identifying the player and initializing the counts.
+
+Player Name: Player28
+
+Now I will go through each snippet and increment the counts accordingly.
+
+*   **Snippet 1:** "Player28(Away Team) earns a free kick in the opponent's half."
+    *   This indicates Player28 won a free kick. Increment Free Kicks by 1.
+*   **Snippet 2:** "Player28(Away Team) earns a free kick in their own half."
+    *   This indicates Player28 won a free kick. Increment Free Kicks by 1.
+*   **Snippet 3:** "Player28(Away Team)'s shot from outside the box is saved in the middle of the goal with the help of Player29(Away Team)."
+    *   This indicates Player28 took a shot. Increment Shots by 1.
+*   **Snippet 4:** "Player28(Away Team)'s header from the left side of the six-yard box misses to the left, with an assist from Player22(Away Team)."
+    *   This indicates Player28 took a shot (header). Increment Shots by 1. Since Player28 *received* an assist, do not add to Player28's assists.
+
+Final counts:
+
+*   Shots: 2
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 2
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 2     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

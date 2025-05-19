@@ -1,0 +1,76 @@
+Okay, let's analyze the commentary snippets for Player21 and compile the statistics.
+
+**1. Player Name:**
+The player name is Player21.
+
+**2. Initialization:**
+Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player21(Away Team) misses the header to the right after being assisted by Player26(Away Team) with a cross from a corner."
+    *   Shots: Player21 misses a header, which is an attempt on goal. Increment Shots to 1.
+    *   Goals: No goal scored.
+    *   Assists: Player21 was *assisted by* someone else, so NO assist for Player21.
+    *   Free Kicks: No free kick.
+    *   Fouls: No foul.
+    *   Yellow Cards: No yellow card.
+    *   Red Cards: No red card.
+    *   Offsides: No offside.
+
+*   **Snippet 2:** "Player21(Away Team) earns a free kick in their own half."
+    *   Shots: No shot.
+    *   Goals: No goal.
+    *   Assists: No assist.
+    *   Free Kicks: Player21 earns a free kick. Increment Free Kicks to 1.
+    *   Fouls: No foul.
+    *   Yellow Cards: No yellow card.
+    *   Red Cards: No red card.
+    *   Offsides: No offside.
+
+*   **Snippet 3:** "Player21(Away Team) misses a header to the left from the center of the box after a cross from Player26(Away Team) following a corner."
+    *   Shots: Player21 misses a header, which is an attempt on goal. Increment Shots to 2.
+    *   Goals: No goal scored.
+    *   Assists: Player21 was *assisted by* someone else, so NO assist for Player21.
+    *   Free Kicks: No free kick.
+    *   Fouls: No foul.
+    *   Yellow Cards: No yellow card.
+    *   Red Cards: No red card.
+    *   Offsides: No offside.
+
+*   **Snippet 4:** "Player21(Away Team) attempts a pass to Player17(Home Team), but Player22(Away Team) is offside."
+    *   Shots: No shot.
+    *   Goals: No goal.
+    *   Assists: No assist, the pass did not lead to a goal by another player.
+    *   Free Kicks: No free kick.
+    *   Fouls: No foul.
+    *   Yellow Cards: No yellow card.
+    *   Red Cards: No red card.
+    *   Offsides: Player22 is offside, NOT Player21.
+
+*   **Snippet 5:** "Player21(Away Team) commits a foul."
+    *   Shots: No shot.
+    *   Goals: No goal.
+    *   Assists: No assist.
+    *   Free Kicks: No free kick.
+    *   Fouls: Player21 commits a foul. Increment Fouls to 1.
+    *   Yellow Cards: No yellow card.
+    *   Red Cards: No red card.
+    *   Offsides: No offside.
+
+*   **Snippet 6:** "Player21(Away Team) receives a yellow card for fouling Player17(Home Team)."
+    *   Shots: No shot.
+    *   Goals: No goal.
+    *   Assists: No assist.
+    *   Free Kicks: No free kick.
+    *   Fouls: Player21 commits a foul. Increment Fouls to 2.
+    *   Yellow Cards: Player21 receives a yellow card. Increment Yellow Cards to 1.
+    *   Red Cards: No red card.
+    *   Offsides: No offside.
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 2     | 0     | 0       | 1          | 2     | 1            | 0         | 0        |
+```

@@ -1,0 +1,43 @@
+Okay, let's analyze the provided commentary snippets for Player23.
+
+1.  **Player Name:** Player23
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player23(Away Team)'s header from the center of the box is blocked after an assist from Player29(Away Team), resulting in a corner kick for the Away Team."
+        *   "header" implies an attempt on goal. The phrase "is blocked" clarifies it's a shot that didn't result in a goal. This is attributed to Player23.
+        *   Shots += 1
+        *   There is an assist mentioned in the sentence, but it is explicitly by Player29, so no assist is awarded to Player23.
+
+    *   Snippet 2: "Player23(Away Team)'s header from the center of the box, assisted by Player21(Away Team), goes too high after a corner kick."
+        *   "header" implies an attempt on goal and "goes too high" indicates it did not result in a goal. This is attributed to Player23.
+        *   Shots += 1
+        *   There is an assist mentioned in the sentence, and it is explicitly by Player21, so no assist is awarded to Player23.
+
+4.  **Final Counts:**
+
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

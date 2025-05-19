@@ -1,0 +1,43 @@
+Okay, let's analyze the commentary snippets for Player28.
+
+1.  **Player Name:** `Player28`
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player28(Away Team) scores with a left-footed shot from the center of the box, assisted by Player25(Away Team) after a quick break, Home Team 0, Away Team 1."
+        *   `scores`: Increment Goals by 1.
+        *   `shot`: Increment Shots by 1.
+        *   `assisted by Player25`: DO NOT increment assists as Player28 received the assist, not provided it.
+
+    *   **Snippet 2:** "Player28(Away Team) earns a free kick on the left side of the field."
+        *   `earns a free kick`: Increment Free Kicks by 1.
+
+    *   **Snippet 3:** "Player28(Away Team) commits a foul on Player8(Home Team), resulting in a free kick for Player8(Home Team) in their own defensive half."
+        *   `commits a foul`: Increment Fouls by 1.
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 1     | 1     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

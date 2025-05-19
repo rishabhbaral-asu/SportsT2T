@@ -1,0 +1,53 @@
+Okay, I'm ready to process the player commentary snippets and generate the final summary table.
+
+**Step-by-step reasoning:**
+
+1.  **Identify Target Player:** The target player is Player12.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player12(Home Team)'s left-footed shot from the center of the box, assisted by Player3(Home Team)."
+        *   Shots: The snippet explicitly states "shot" by Player12, so increment Shots by 1.
+        *   Goals: No mention of a goal.
+        *   Assists: Player12 was assisted, not providing an assist, so no increment.
+        *   Free Kicks: No mention of a free kick.
+        *   Fouls: No mention of a foul.
+        *   Yellow Cards: No mention of a yellow card.
+        *   Red Cards: No mention of a red card.
+        *   Offsides: No mention of offsides.
+    *   **Snippet 2:** "Player12(Home Team) commits a foul in the attacking half, giving Player1(Home Team) a free kick."
+        *   Shots: No mention of a shot.
+        *   Goals: No mention of a goal.
+        *   Assists: No mention of an assist.
+        *   Free Kicks: No mention of a free kick taken by the target player. Player12 is committing the foul that gives away a free kick not taking one.
+        *   Fouls: The snippet explicitly states "commits a foul" by Player12, so increment Fouls by 1.
+        *   Yellow Cards: No mention of a yellow card.
+        *   Red Cards: No mention of a red card.
+        *   Offsides: No mention of offsides.
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player12 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

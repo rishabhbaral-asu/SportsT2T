@@ -1,0 +1,61 @@
+Okay, let's process the input.
+
+1.  **Player Name:** Player4
+2.  **Initial Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+**Commentary Snippet Analysis:**
+
+*   **Snippet 1:** "Player4(Home Team) misses the goal with a close right-footed shot from outside the box on a direct free kick."
+    *   Shots: Increment by 1 (explicitly states "shot").
+    *   Goals: No increment.
+    *   Assists: No increment.
+    *   Free Kicks: Increment by 1 (explicitly states "direct free kick").
+    *   Fouls: No increment.
+    *   Yellow Cards: No increment.
+    *   Red Cards: No increment.
+    *   Offsides: No increment.
+*   **Snippet 2:** "Player4(Home Team)'s shot from outside the box is blocked with the help of Player9(Home Team)."
+    *   Shots: Increment by 1 (explicitly states "shot").
+    *   Goals: No increment.
+    *   Assists: No increment.
+    *   Free Kicks: No increment.
+    *   Fouls: No increment.
+    *   Yellow Cards: No increment.
+    *   Red Cards: No increment.
+    *   Offsides: No increment.
+*   **Snippet 3:** "Player4(Home Team)'s shot from outside the box with his right foot is saved in the bottom left corner, with an assist from Player9(Home Team)."
+    *   Shots: Increment by 1 (explicitly states "shot").
+    *   Goals: No increment.
+    *   Assists: No increment. Player9 provided the assist.
+    *   Free Kicks: No increment.
+    *   Fouls: No increment.
+    *   Yellow Cards: No increment.
+    *   Red Cards: No increment.
+    *   Offsides: No increment.
+
+*   **Snippet 4:** "Player4(Home Team)'s powerful shot from a tight angle on the left is stopped in the top corner."
+    *   Shots: Increment by 1 (explicitly states "shot").
+    *   Goals: No increment.
+    *   Assists: No increment.
+    *   Free Kicks: No increment.
+    *   Fouls: No increment.
+    *   Yellow Cards: No increment.
+    *   Red Cards: No increment.
+    *   Offsides: No increment.
+
+**Final Tally:**
+Shots: 4
+Goals: 0
+Assists: 0
+Free Kicks: 1
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 4     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,22 @@
+Okay, let's start by extracting the player name from the input. The player name is Player5.
+Now, initialize the counts for all events to 0.
+
+Next, I'll analyze each commentary snippet and increment the counts accordingly, following the given definitions and keywords.
+
+Snippet 1: "Player5(Home Team)'s header from a cross by Player3(Home Team)."
+This mentions a "header", which can be a shot. Since it is Player5's header, it is a shot. Increment Shots by 1.
+
+Snippet 2: "Player5(Home Team) commits a foul."
+This explicitly states that Player5 commits a foul. Increment Fouls by 1.
+
+Snippet 3: "Player5(Home Team)'s shot from the center of the box is saved by the goalkeeper after a cross from Player15(Home Team)."
+This explicitly states that Player5 took a shot, and it was saved. Increment Shots by 1.
+
+Now, let's create the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

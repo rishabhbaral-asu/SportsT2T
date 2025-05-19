@@ -1,0 +1,51 @@
+Okay, let's process the provided input step by step to create the final summary table for Player3.
+
+1. **Identify Target Player:** The target player is Player3.
+
+2. **Initialize Counts:**
+   - Shots = 0
+   - Goals = 0
+   - Assists = 0
+   - Free Kicks = 0
+   - Fouls = 0
+   - Yellow Cards = 0
+   - Red Cards = 0
+   - Offsides = 0
+
+3. **Analyze Commentary Snippets:**
+
+   - **Snippet 1:** "Player3(Home Team) commits a foul."
+     - Fouls += 1
+
+   - **Snippet 2:** "Player3(Home Team) commits a foul."
+     - Fouls += 1
+
+   - **Snippet 3:** "Player3(Home Team)'s left footed shot from the left side of the box is saved in the center of the goal after an assist from Player8(Home Team)."
+     - Shots += 1
+
+   - **Snippet 4:** "Player3(Home Team) misses the header to the right after a cross from Player10(Home Team) during a set piece."
+     - Shots += 1
+
+   - **Snippet 5:** "Player3(Home Team) commits a foul, resulting in Player25(Away Team) winning a free kick in their own defensive half."
+     - Fouls += 1
+
+   - **Snippet 6:** "Player3(Home Team) commits a foul, resulting in Player20(Away Team) being awarded a free kick in their own defensive half."
+     - Fouls += 1
+
+4. **Final Counts:**
+
+   - Shots = 2
+   - Goals = 0
+   - Assists = 0
+   - Free Kicks = 0
+   - Fouls = 4
+   - Yellow Cards = 0
+   - Red Cards = 0
+   - Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 2     | 0     | 0       | 0          | 4     | 0            | 0         | 0        |
+```

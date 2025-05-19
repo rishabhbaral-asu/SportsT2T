@@ -1,0 +1,48 @@
+Okay, let's analyze the commentary snippets for Player6 and compile the statistics.
+
+1.  **Player Name:** Player6
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Commentary Snippet Analysis:**
+
+    *   Snippet 1: "Player6(Home Team) commits a foul."
+        *   Fouls: Increment to 1.
+
+    *   Snippet 2: "Player6(Home Team) attempted a through ball, but Player11(Home Team) was offside."
+        *   This snippet mentions Player6 attempting a through ball that led to Player11 being offside. This doesn't fall under any of our tracked categories. This does not count as an assist for Player6 as it does not directly lead to a goal.
+        *   Offsides: Player11 is offside, not Player6.
+
+    *   Snippet 3: "Player6(Home Team) earns a free kick on the right side of the field."
+        *   Free Kicks: Increment to 1.
+
+    *   Snippet 4: "Player6(Home Team) commits a foul."
+        *   Fouls: Increment to 2.
+
+    *   Snippet 5: "Player6(Home Team) is being delayed in the match due to an injury."
+        *   No event to count.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 2
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 0     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

@@ -1,0 +1,40 @@
+Okay, let's start by identifying the target player and initializing the counts for each event.
+
+**Target Player:** Player11
+
+Now, let's initialize the counts for each event to 0.
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Next, we will analyze each commentary snippet and increment the counts based on the defined keywords and the **Absolute Strict Counting & Unambiguous Attribution** rule.
+
+**Snippet 1:** "Player11(Home Team) commits a foul."
+
+*   This snippet explicitly states that Player11 committed a foul. Therefore, increment the 'Fouls' count by 1.
+    *   Fouls: 1
+
+**Snippet 2:** "Player11(Home Team)'s shot from outside the box is blocked with the help of Player7(Home Team)."
+
+*   This snippet mentions Player11's shot. Therefore, increment the 'Shots' count by 1.
+    *   Shots: 1
+
+**Snippet 3:** "Player11(Home Team) commits a foul."
+
+*   This snippet explicitly states that Player11 committed a foul. Therefore, increment the 'Fouls' count by 1.
+    *   Fouls: 2
+
+Now that we have analyzed all the snippets, let's create the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

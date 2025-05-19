@@ -1,0 +1,49 @@
+Okay, let's analyze the provided commentary snippets for Player8 and generate the final summary table.
+
+**1. Player Name:** Player8
+
+**2. Initialization:**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player8(Home Team) commits a foul."
+    *   The snippet explicitly states Player8 committed a foul.
+    *   Fouls = 1
+
+*   **Snippet 2:** "Player8(Home Team) misses the target with a right-footed shot from outside the box."
+    *   The snippet explicitly states Player8 took a shot.
+    *   Shots = 1
+
+*   **Snippet 3:** "Player8(Home Team) commits a foul, resulting in Player22(Away Team) winning a free kick in their own defensive half."
+    *   The snippet explicitly states Player8 committed a foul.
+    *   Fouls = 2
+
+*   **Snippet 4:** "Player8(Home Team) attempts a through ball, but Player3(Home Team) is offside for the Home Team."
+    *   The snippet explicitly states Player8 attempted a through ball that resulted in Player3 being offside. This does not increment offsides for Player8.
+
+**4. Final Counts:**
+
+*   Shots = 1
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 2
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

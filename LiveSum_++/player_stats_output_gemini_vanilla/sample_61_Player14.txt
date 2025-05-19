@@ -1,0 +1,45 @@
+Okay, let's process the player commentary snippets for Player14.
+
+1.  **Player Name:** Player14
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player14(Home Team) of the Home Team is offside as Player2(Home Team) attempts to pass to Player17(Home Team)."
+        *   Offsides + 1.
+    *   Snippet 2: "Player14(Home Team) commits a foul, resulting in Player22(Away Team) winning a free kick in their own defensive half, ."
+        *   Fouls + 1.
+    *   Snippet 3: "Player14(Home Team) with a dangerous play, resulting in Player24(Away Team) winning a free kick in their defensive half, It was a risky move that gave their opponent a set-piece opportunity."
+        *   Fouls + 1. (Dangerous play is considered a foul)
+    *   Snippet 4: "Player14(Home Team)'s shot from the center of the box is blocked with the help of Player10(Home Team)."
+        *   Shots + 1.
+    *   Snippet 5: "Player14(Home Team) misses the target with a high and wide shot from outside the box."
+        *   Shots + 1.
+    *   Snippet 6: "Player14(Home Team) earns a free kick on the right wing after being fouled by Player23(Away Team)."
+        *   Free Kicks + 1
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 2
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 1
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player14 | 2     | 0     | 0       | 1          | 2     | 0            | 0         | 1        |
+```

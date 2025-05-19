@@ -1,0 +1,73 @@
+Okay, let's break down the process step-by-step.
+
+1.  **Identify Target Player:** The target player is Player8.
+
+2.  **Initialize Counts:** We start with the following counts for Player8:
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player8(Home Team)'s shot from the right side of the box was too high, with an assist from Player11(Home Team)."
+        *   Shots: Increment by 1 (explicitly mentions "shot" by Player8).
+        *   Goals: No goal mentioned.
+        *   Assists: No assist by Player8.
+        *   Free Kicks: No free kick mentioned.
+        *   Fouls: No foul mentioned.
+        *   Yellow Cards: No yellow card mentioned.
+        *   Red Cards: No red card mentioned.
+        *   Offsides: No offside mentioned.
+
+    *   **Snippet 2:** "Player8(Home Team) commits a foul."
+        *   Shots: No shot mentioned.
+        *   Goals: No goal mentioned.
+        *   Assists: No assist mentioned.
+        *   Free Kicks: No free kick mentioned.
+        *   Fouls: Increment by 1 (explicitly mentions "foul" committed by Player8).
+        *   Yellow Cards: No yellow card mentioned.
+        *   Red Cards: No red card mentioned.
+        *   Offsides: No offside mentioned.
+
+    *   **Snippet 3:** "Player8(Home Team) misses the header from the right side of the six yard box, assisted by Player11(Home Team) with a cross after a corner."
+        *   Shots: Increment by 1 (explicitly mentions "header" which is a shot attempt, and it misses, so it counts as a shot).
+        *   Goals: No goal mentioned.
+        *   Assists: No assist by Player8.
+        *   Free Kicks: No free kick mentioned.
+        *   Fouls: No foul mentioned.
+        *   Yellow Cards: No yellow card mentioned.
+        *   Red Cards: No red card mentioned.
+        *   Offsides: No offside mentioned.
+
+    *   **Snippet 4:** "Player8(Home Team)'s left footed shot from outside the box is blocked."
+        *   Shots: Increment by 1 (explicitly mentions "shot" by Player8, and it's blocked).
+        *   Goals: No goal mentioned.
+        *   Assists: No assist mentioned.
+        *   Free Kicks: No free kick mentioned.
+        *   Fouls: No foul mentioned.
+        *   Yellow Cards: No yellow card mentioned.
+        *   Red Cards: No red card mentioned.
+        *   Offsides: No offside mentioned.
+
+4.  **Final Counts:**
+
+    *   Shots: 3
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 3     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,51 @@
+Okay, let's analyze the commentary snippets for Player3 and generate the statistics table.
+
+**Player Name:** Player3
+
+**Commentary Snippets:**
+- Player3(Home Team) earns a free kick on the left side of the field.
+- Player3(Home Team) has given away a penalty in the box with a foul.
+- Player3(Home Team) has been sent off with a red card.
+
+**Step-by-step Analysis:**
+
+1.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player3(Home Team) earns a free kick on the left side of the field."
+        *   Explicitly states Player3 earns a free kick.
+        *   Increment Free Kicks: Free Kicks = 0 + 1 = 1
+
+    *   Snippet 2: "Player3(Home Team) has given away a penalty in the box with a foul."
+        *   Explicitly states Player3 committed a foul.
+        *   Increment Fouls: Fouls = 0 + 1 = 1
+
+    *   Snippet 3: "Player3(Home Team) has been sent off with a red card."
+        *   Explicitly states Player3 received a red card.
+        *   Increment Red Cards: Red Cards = 0 + 1 = 1
+
+3.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 1
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 0     | 0     | 0       | 1          | 1     | 0            | 1         | 0        |
+```

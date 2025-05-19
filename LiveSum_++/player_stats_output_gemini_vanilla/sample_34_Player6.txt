@@ -1,0 +1,45 @@
+Okay, let's analyze the commentary snippets for Player6.
+
+**1. Identify Target Player:**
+The target player is Player6.
+
+**2. Initialize Counts:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze Snippets:**
+
+*   **Snippet 1:** "Player6(Home Team) earns a free kick in their own half after being fouled by Player25(Away Team)."
+    *   This snippet explicitly states Player6 earns a free kick after being fouled.
+    *   Increment Free Kicks: Free Kicks = 1
+
+*   **Snippet 2:** "Player6(Home Team) of the Home Team attempts a through ball, but Player9(Home Team) is flagged for being offside."
+    *   This snippet does not explicitly describe a shot, goal, assist, free kick (taken or won), foul, yellow card, red card, or offside committed by Player6. Player6 only attempts a through ball which is then deemed to lead to an offside committed by Player9.
+    *   No increment.
+
+*   **Snippet 3:** "Player6(Home Team) earns a free kick in their own half."
+    *   This snippet explicitly states Player6 earns a free kick.
+    *   Increment Free Kicks: Free Kicks = 2
+
+**4. Final Counts:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 2
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 0     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

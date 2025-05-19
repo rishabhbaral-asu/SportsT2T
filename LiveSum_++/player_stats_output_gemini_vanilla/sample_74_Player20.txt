@@ -1,0 +1,48 @@
+Okay, let's analyze the commentary snippets for Player20 and generate the summary table.
+
+**1. Identify Target Player:**
+
+The target player is Player20.
+
+**2. Initialize Counts:**
+
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player20(Away Team) commits a foul on Player3(Home Team), resulting in a free kick for Player3(Home Team)'s team in their own half."
+    *   Fouls: Player20 commits a foul, so increment Fouls by 1. Current count: 1
+
+*   **Snippet 2:** "Player20(Away Team) with a risky move."
+    *   No explicit events to count.
+
+*   **Snippet 3:** "Player20(Away Team) commits a foul and Player12(Home Team) is awarded a free kick in their own defensive half."
+    *   Fouls: Player20 commits a foul, so increment Fouls by 1. Current count: 2
+
+*   **Snippet 4:** "Player20(Away Team) attempts a through ball, but Player25(Away Team) is caught offside."
+    *   Offsides: Player25 is offside, this doesn't count as anything for Player20.
+
+**4. Final Counts:**
+
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 2
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 0     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

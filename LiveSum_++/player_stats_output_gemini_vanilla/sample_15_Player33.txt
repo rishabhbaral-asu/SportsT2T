@@ -1,0 +1,44 @@
+Okay, let's analyze the provided commentary snippets for Player33 and generate the final summary table.
+
+**1. Identify Target Player:**
+The target player is Player33.
+
+**2. Initialize Counts:**
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player33(Away Team)'s shot from the right side of the six yard box is saved in the bottom right corner with an assist from Player27(Away Team)."
+    *   This snippet explicitly mentions "Player33's shot", so we increment Shots by 1.
+    *   The snippet also explicitly mentions Player27 providing an assist *to* Player33, not the other way around. Therefore, we do *not* increment the Assists count for Player33.
+
+*   **Snippet 2:** "Player33(Away Team) scores with a left-footed shot from close range into the bottom right corner."
+    *   This snippet explicitly mentions "Player33 scores", so we increment Goals by 1.
+    *   Because the player scores, a shot has occurred. So we increment Shots by one.
+
+**4. Final Counts:**
+
+Shots: 2
+Goals: 1
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**5. Final Summary Table:**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player33 | 2     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

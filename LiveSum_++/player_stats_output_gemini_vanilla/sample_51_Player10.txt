@@ -1,0 +1,56 @@
+Okay, I'm ready to process the commentary snippets and generate the player statistics table.
+
+**1. Identify Target Player:**
+
+The target player is Player10.
+
+**2. Initialize Counts:**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player10(Home Team) commits a foul."
+    *   Fouls: Increment by 1 (Player10 commits a foul).
+*   **Snippet 2:** "Player10(Home Team) earns a free kick on the left side of the field."
+    *   Free Kicks: Increment by 1 (Player10 earns a free kick).
+*   **Snippet 3:** "Player10(Home Team) misses the goal with a right footed shot from the center of the box, assisted by Player4(Home Team)."
+    *   Shots: Increment by 1 (Player10 misses a shot).
+*   **Snippet 4:** "Player10(Home Team)'s shot from the right side of the box was too high, missing the target, Player7(Home Team) provided the assist."
+    *   Shots: Increment by 1 (Player10's shot missed).
+*   **Snippet 5:** "Player10(Home Team)'s shot from the center of the box is saved at the top center of the goal, with an assist from Player7(Home Team)."
+    *   Shots: Increment by 1 (Player10's shot saved).
+*   **Snippet 6:** "Player10(Home Team)'s close-range right-footed shot is saved in the bottom right corner, after a headed pass from Player11(Home Team)."
+    *   Shots: Increment by 1 (Player10's shot saved).
+*   **Snippet 7:** "Player10(Home Team) misses the goal with a right footed shot from outside the box."
+    *   Shots: Increment by 1 (Player10 misses the goal).
+*   **Snippet 8:** "Player10(Home Team)'s header from the center of the box is blocked after being assisted by Player3(Home Team) with a cross, resulting in a delay in the match due to Player28(Away Team)'s injury."
+    *   Shots: Increment by 1 (Player10's header is blocked).
+*   **Snippet 9:** "Player10(Home Team)'s right footed shot from outside the box, assisted by Player4(Home Team), is blocked, as well as Player7(Home Team)'s right footed shot from the centre of the box, assisted by Player3(Home Team) with a cross."
+    *   Shots: Increment by 1 (Player10's shot is blocked).
+
+**4. Compile Final Counts:**
+
+*   Shots: 7
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 7     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

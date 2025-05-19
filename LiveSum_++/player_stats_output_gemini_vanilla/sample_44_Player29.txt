@@ -1,0 +1,54 @@
+Okay, let's analyze the commentary snippets for Player29 and generate the final summary table.
+
+**1. Player Identification:**
+The target player is Player29.
+
+**2. Initialization:**
+We initialize the counts for Player29 as follows:
+* Shots: 0
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 0
+* Yellow Cards: 0
+* Red Cards: 0
+* Offsides: 0
+
+**3. Snippet Analysis and Event Counting:**
+
+*   **Snippet 1:** "Player29(Away Team) commits a foul."
+    *   Fouls: Increment by 1. Fouls = 1
+
+*   **Snippet 2:** "Player29(Away Team) receives a yellow card for a foul on Player17(Home Team)."
+    *   Yellow Cards: Increment by 1. Yellow Cards = 1
+    *   Fouls: Increment by 1. Fouls = 2 (explicitly stated that the yellow card was *for* a foul)
+
+*   **Snippet 3:** "Player29(Away Team) commits a foul."
+    *   Fouls: Increment by 1. Fouls = 3
+
+*   **Snippet 4:** "Player29(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick in their own defensive half."
+    *   Fouls: Increment by 1. Fouls = 4
+
+*   **Snippet 5:** "Player29(Away Team)'s attempt from the center of the box with their left foot was too high, despite the assistance from Player27(Away Team)."
+    *   Shots: Increment by 1. Shots = 1
+
+*   **Snippet 6:** "Player29(Away Team) misses the goal with a left footed shot from outside the box, assisted by Player31(Away Team)."
+    *   Shots: Increment by 1. Shots = 2
+
+**4. Final Counts:**
+
+*   Shots: 2
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 4
+*   Yellow Cards: 1
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 2     | 0     | 0       | 0          | 4     | 1            | 0         | 0        |
+```

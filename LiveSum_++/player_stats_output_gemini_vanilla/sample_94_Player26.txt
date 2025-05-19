@@ -1,0 +1,46 @@
+Okay, let's process the commentary snippets for Player26.
+
+1.  **Player Name:** Player26
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Commentary Analysis:**
+
+    *   Snippet 1: "Player26(Away Team) commits a foul on Player7(Home Team), who earns a free kick on the right wing, ."
+        *   "commits a foul" - Increment Fouls: Fouls = 1
+        *   Player26 commits a foul which results in Player7 earning a free kick. That counts as a free kick earned for Player7 and not as a free kick taken by Player26.
+
+    *   Snippet 2: "Player26(Away Team) from Player4(Home Team) commits a foul."
+        *  "commits a foul" - Increment Fouls: Fouls = 2
+
+    *   Snippet 3: "Player26(Away Team) from Player4(Home Team) wins a free kick in their own half."
+        * "wins a free kick" - Increment Free Kicks: Free Kicks = 1
+
+    *   Snippet 4: "Player26(Away Team) sends a through ball to Player27(Away Team) who is caught offside."
+        *  "Player26...sends a through ball..." - This does not explicitly state it led to a goal, so no assist is recorded.
+        * "caught offside" - Increment Offsides: Offsides = 1
+
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 2
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 1
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 0     | 0     | 0       | 1          | 2     | 0            | 0         | 1        |
+```

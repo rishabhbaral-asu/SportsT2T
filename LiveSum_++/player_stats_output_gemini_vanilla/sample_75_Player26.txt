@@ -1,0 +1,42 @@
+Okay, let's analyze the commentary snippets for Player26.
+
+1.  **Player Name:** Player26
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player26(Away Team) commits a foul on Player7(Home Team), who earns a free kick on the right wing, ."
+        *   Fouls: Player26 commits a foul. Increment Fouls by 1.
+        *   Free Kicks: Player7 wins a free kick as a result of Player26's foul, this does not count towards Player26's free kicks.
+
+    *   Snippet 2: "Player26(Away Team) commits a foul."
+        *   Fouls: Player26 commits a foul. Increment Fouls by 1.
+
+    *   Snippet 3: "Player26(Away Team) from the Away Team attempts a through ball, but Player25(Away Team) is flagged for being offside."
+        *   Offsides: Player25 is flagged offside, not Player26. Player26 is not attempting a shot or free kick.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 2
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 0     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

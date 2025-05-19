@@ -1,0 +1,41 @@
+Okay, I will follow the instructions to analyze the commentary snippets and generate the final summary table.
+
+1.  **Identify the target player name:** The target player is Player6.
+2.  **Initialize counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze each snippet:**
+
+    *   Snippet 1: "Player6(Home Team) commits a foul."
+        *   Fouls: Increment by 1. Fouls = 1
+
+    *   Snippet 2: "Player6(Home Team) misses a header from the left side of the box, with an assist from Player8(Home Team)."
+        *   Shots: Increment by 1. Shots = 1
+        *   Assists: No assist because Player6 received the assist, not provided it.
+
+    *   Snippet 3: "Player6(Home Team)'s shot from the left side of the box is blocked."
+        *   Shots: Increment by 1. Shots = 2
+
+4.  **Final Counts:**
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

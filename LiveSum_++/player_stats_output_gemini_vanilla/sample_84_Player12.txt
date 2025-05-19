@@ -1,0 +1,39 @@
+Okay, let's break down the process step by step.
+
+1.  **Identify Target Player:** The target player is Player12.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player12(Home Team) receives a yellow card for a harsh foul."
+        *   Yellow Cards: The snippet explicitly states Player12 receives a yellow card. Increment Yellow Cards count to 1.
+        *   Fouls: The snippet explicitly states Player12 committed a foul resulting in the yellow card. Increment Fouls count to 1.
+
+    *   Snippet 2: "Player12(Home Team)'s through ball to Jozy Player14(Home Team) is flagged for offside."
+        *   Offsides: The snippet explicitly states Player12 is offside. Increment Offsides count to 1.
+
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 1
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player12 | 0     | 0     | 0       | 0          | 1     | 1            | 0         | 1        |
+```

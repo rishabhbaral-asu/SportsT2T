@@ -1,0 +1,73 @@
+Okay, let's analyze the commentary snippets for Player4 and compile the statistics.
+
+**Step 1: Identify Target Player**
+The target player is Player4.
+
+**Step 2: Initialize Counts**
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**Step 3: Analyze Snippets and Increment Counts**
+
+*   **Snippet 1:** "Player4(Home Team) missed the goal with a high right-footed shot from outside the box, assisted by Player7(Home Team)."
+    *   Shots: Increment by 1 (explicitly mentioned "missed the goal with a...shot")
+    *   Goals: No increment.
+    *   Assists: No increment (Player4 received the assist, did not provide one).
+    *   Free Kicks: No increment.
+    *   Fouls: No increment.
+    *   Yellow Cards: No increment.
+    *   Red Cards: No increment.
+    *   Offsides: No increment.
+
+*   **Snippet 2:** "Player4(Home Team)'s header into the top left corner, assisted by Player9(Home Team) with a cross after a corner kick."
+    *   Shots: Increment by 1 (explicitly mentioned "header into the top left corner" which is a goal attempt).
+    *   Goals: Increment by 1 (explicitly mentioned "goal").
+    *   Assists: No increment (Player4 received the assist, did not provide one).
+    *   Free Kicks: No increment.
+    *   Fouls: No increment.
+    *   Yellow Cards: No increment.
+    *   Red Cards: No increment.
+    *   Offsides: No increment.
+
+*   **Snippet 3:** "Player4(Home Team) commits a foul."
+    *   Shots: No increment.
+    *   Goals: No increment.
+    *   Assists: No increment.
+    *   Free Kicks: No increment.
+    *   Fouls: Increment by 1 (explicitly mentioned "commits a foul").
+    *   Yellow Cards: No increment.
+    *   Red Cards: No increment.
+    *   Offsides: No increment.
+
+*   **Snippet 4:** "Player4(Home Team) commits a foul, resulting in Player25(Away Team) winning a free kick on the left wing, ."
+    *   Shots: No increment.
+    *   Goals: No increment.
+    *   Assists: No increment.
+    *   Free Kicks: No increment.
+    *   Fouls: Increment by 1 (explicitly mentioned "commits a foul").
+    *   Yellow Cards: No increment.
+    *   Red Cards: No increment.
+    *   Offsides: No increment.
+
+**Step 4: Final Counts**
+Shots: 2
+Goals: 1
+Assists: 0
+Free Kicks: 0
+Fouls: 2
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 2     | 1     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

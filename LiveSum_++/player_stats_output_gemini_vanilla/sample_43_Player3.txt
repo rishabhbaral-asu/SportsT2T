@@ -1,0 +1,30 @@
+Okay, let's analyze the commentary snippets for Player3 and compile the statistics.
+
+1.  **Player Name:** The target player is Player3.
+2.  **Initialization:** Initialize all counts to 0: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player3(Home Team) earns a free kick in their own half."
+        *   This snippet indicates Player3 *earned* a free kick.
+        *   Increment Free Kicks: Free Kicks = 1.
+    *   **Snippet 2:** "Player3(Home Team) receives a yellow card for a foul on Player35(Away Team)."
+        *   This snippet indicates Player3 received a yellow card *and* committed a foul.
+        *   Increment Yellow Cards: Yellow Cards = 1.
+        *   Increment Fouls: Fouls = 1.
+    *   **Snippet 3:** "Player3(Home Team) misses the target with a left-footed shot from outside the box on a direct free kick."
+        *   This snippet indicates Player3 took a shot.
+        *   Increment Shots: Shots = 1.
+        *   Since this was a direct free kick it also counts as a Free Kick
+        *   Increment Free Kicks: Free Kicks = 2
+    *   **Snippet 4:** "Player3(Home Team)'s shot from outside the box is blocked."
+        *   This snippet indicates Player3 took a shot.
+        *   Increment Shots: Shots = 2.
+4.  **Final Counts:** Shots = 2, Goals = 0, Assists = 0, Free Kicks = 2, Fouls = 1, Yellow Cards = 1, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 2     | 0     | 0       | 2          | 1     | 1            | 0         | 0        |
+```

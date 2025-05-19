@@ -1,0 +1,28 @@
+Okay, let's start.
+
+First, I identify the player name: Player20.
+
+Then I initialize all counters to 0.
+
+Now I will read each commentary snippet and increment the appropriate counters *only* when the action is explicitly and unambiguously attributed to Player20.
+
+**Snippet 1:** "Player20(Away Team) commits a foul."
+
+*   Fouls: Increment by 1 (explicitly states Player20 commits a foul).
+
+**Snippet 2:** "Player20(Away Team) commits a foul."
+
+*   Fouls: Increment by 1 (explicitly states Player20 commits a foul).
+
+**Snippet 3:** "Player20(Away Team) receives a yellow card for a rough challenge."
+
+*   Yellow Cards: Increment by 1 (explicitly states Player20 received a yellow card).
+
+Now I present the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 0     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

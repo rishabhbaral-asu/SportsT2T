@@ -1,0 +1,49 @@
+Okay, I'm ready to analyze the commentary snippets for Player14 and generate the requested markdown table.
+
+**Here's my step-by-step reasoning:**
+
+1.  **Identify Target Player:** The target player is Player14.
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player14(Home Team) and Player26(Away Team) earn a free kick in their own half after a foul from Player10(Home Team)."
+        *   Player14 earns a free kick. Increment Free Kicks by 1.
+
+    *   **Snippet 2:** "Player14(Home Team) is fouled by Player16(Home Team), resulting in Player31(Away Team) winning a free kick in the attacking half, ."
+        *   Player14 is fouled, resulting in Player31 winning a free kick. The phrase "fouled by" indicates Player14 should be assigned credit for a free kick. Increment Free Kicks by 1.
+
+    *   **Snippet 3:** "Player14(Home Team) commits a foul."
+        *   Player14 commits a foul. Increment Fouls by 1.
+
+    *   **Snippet 4:** "Player14(Home Team) commits a foul on Player26(Away Team), resulting in Player13(Home Team) winning a free kick in their own defensive half."
+        *   Player14 commits a foul. Increment Fouls by 1.
+
+    *   **Snippet 5:** "Player14(Home Team) attempts a pass to Player16(Home Team), but Player15(Home Team) is caught offside."
+        *   Player14 attempts a pass, but Player15 is offside. This does not count as an assist for Player14, nor does it count as Player14 being offside.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 2
+    *   Fouls: 2
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player14 | 0     | 0     | 0       | 2          | 2     | 0            | 0         | 0        |
+```

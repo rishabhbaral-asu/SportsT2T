@@ -1,0 +1,31 @@
+Okay, I will analyze the commentary snippets for Player28, count the occurrences of the specified events, and present the results in a markdown table.
+
+**Player Name:** Player28
+
+**Commentary Snippets:**
+
+*   Player28(Away Team) misses the target with a high and wide shot from the center of the box after a quick counterattack.
+*   Player28(Away Team)'s left footed shot from the left side of the box is blocked after an assist from Player22(Away Team), resulting in a corner kick for the Away Team.
+*   Player28(Away Team) earns a free kick on the left side of the field.
+*   Player28(Away Team) attempts to pass, but Player25(Away Team) is offside.
+*   Player28(Away Team) commits a foul.
+*   Player28(Away Team) commits a foul, resulting in Player3(Home Team) being awarded a free kick in their own defensive half.
+*   Player28(Away Team) receives a yellow card.
+
+**Analysis:**
+
+*   **Shots:** The first snippet states "Player28(Away Team) misses the target with a high and wide shot". The second Snippet states "Player28(Away Team)'s left footed shot from the left side of the box is blocked" So we increment the shots counter by 2.
+*   **Goals:** No snippet explicitly states Player28 scored a goal.
+*   **Assists:** No snippet explicitly states Player28 provided an assist.
+*   **Free Kicks:** The third snippet states "Player28(Away Team) earns a free kick on the left side of the field.". Increment free kicks by 1.
+*   **Fouls:** The fifth snippet states "Player28(Away Team) commits a foul.". The sixth snippet states "Player28(Away Team) commits a foul". Increment fouls by 2.
+*   **Yellow Cards:** The seventh snippet states "Player28(Away Team) receives a yellow card.". Increment yellow cards by 1.
+*   **Red Cards:** No snippet explicitly states Player28 received a red card.
+*   **Offsides:** The fourth snippet states "Player28(Away Team) attempts to pass, but Player25(Away Team) is offside.". Since the offside is Player25, Player28 isn't offside. Offsides is 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 2     | 0     | 0       | 1          | 2     | 1            | 0         | 0        |
+```

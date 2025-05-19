@@ -1,0 +1,30 @@
+Okay, let's analyze the commentary snippets for Player25 and compile the statistics.
+
+**Player Name:** Player25
+
+**Commentary Snippets:**
+- Player25(Away Team) commits a foul.
+- Player25(Away Team) commits a foul.
+- Player25(Away Team) earns a free kick on the right side of the field.
+- Player25(Away Team) commits a foul, resulting in Player12(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player12(Home Team)'s team.
+
+**Step-by-step Analysis:**
+
+1.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+2.  **Snippet 1:** "Player25(Away Team) commits a foul." - This explicitly states Player25 committed a foul. Fouls = 1.
+
+3.  **Snippet 2:** "Player25(Away Team) commits a foul." - This explicitly states Player25 committed a foul. Fouls = 2.
+
+4.  **Snippet 3:** "Player25(Away Team) earns a free kick on the right side of the field." - This explicitly states Player25 earned a free kick, thus free kick is taken by the player. Free Kicks = 1.
+
+5.  **Snippet 4:** "Player25(Away Team) commits a foul, resulting in Player12(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player12(Home Team)'s team." - This explicitly states Player25 committed a foul. Fouls = 3. Player25 committing the foul is the reason for Player12 winning the free kick.
+
+6. **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 3, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 0     | 0     | 0       | 1          | 3     | 0            | 0         | 0        |
+```

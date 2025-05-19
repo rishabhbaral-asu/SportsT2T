@@ -1,0 +1,44 @@
+Okay, let's analyze the commentary snippets for Player32 and generate the summary table.
+
+1.  **Identify Target Player:** The target player is Player32.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player32(Away Team) earns a free kick on the left side."
+        *   This indicates Player32 *earned* a free kick, so it counts as a Free Kick (taken).
+        *   Free Kicks = 1
+
+    *   Snippet 2: "Player32(Away Team) commits a foul."
+        *   This explicitly states Player32 committed a foul.
+        *   Fouls = 1
+
+    *   Snippet 3: "Player32(Away Team) receives a yellow card for a rough tackle."
+        *   This explicitly states Player32 received a yellow card.
+        *   Yellow Cards = 1
+
+4.  **Compile Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player32 | 0     | 0     | 0       | 1          | 1     | 1            | 0         | 0        |
+```

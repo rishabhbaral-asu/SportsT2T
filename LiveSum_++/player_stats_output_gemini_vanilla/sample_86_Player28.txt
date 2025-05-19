@@ -1,0 +1,39 @@
+Okay, let's analyze the commentary snippets for Player28.
+
+1.  **Player Name:** Player28
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player28(Away Team) earns a free kick on the left side of the field."
+        *   Free Kicks: The player "earns a free kick," which means the player wins a free kick due to being fouled. Increment Free Kicks by 1.
+        *   Current Counts: Shots: 0, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+    *   Snippet 2: "Player28(Away Team)'s header from close range narrowly misses to the left after being set up by Player25(Away Team)'s cross."
+        *   Shots: Player28 takes a header which is a shot attempt. Increment Shots by 1.
+        *   Current Counts: Shots: 1, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+    *   Snippet 3: "Player28(Away Team)'s header from the center of the box is blocked after a cross from Player25(Away Team)."
+        *   Shots: Player28 takes a header which is a shot attempt blocked. Increment Shots by 1.
+        *   Current Counts: Shots: 2, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+    *   Snippet 4: "Player28(Away Team) commits a foul."
+        *   Fouls: Player28 commits a foul. Increment Fouls by 1.
+        *   Current Counts: Shots: 2, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 1, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+4.  **Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

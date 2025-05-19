@@ -1,0 +1,46 @@
+Okay, let's analyze the commentary snippets for Player23 and compile the statistics.
+
+**Player Name:** Player23
+
+**Commentary Snippets:**
+
+*   "Player23(Away Team) earns a free kick in their own half after a foul committed by Player10(Home Team)."
+*   "Player23(Away Team) is currently sidelined due to an injury, causing a delay in the match."
+
+**Step-by-step analysis:**
+
+1.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player23(Away Team) earns a free kick in their own half after a foul committed by Player10(Home Team)."
+        *   This snippet explicitly states that Player23 "earns a free kick". This means that Player23 was fouled and wins the free kick. This corresponds to a "Free Kick".
+        *   Free Kicks = Free Kicks + 1 = 1
+
+    *   **Snippet 2:** "Player23(Away Team) is currently sidelined due to an injury, causing a delay in the match."
+        *   This snippet mentions Player23 is injured and sidelined. This does not relate to any of the tracked events.
+
+3.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

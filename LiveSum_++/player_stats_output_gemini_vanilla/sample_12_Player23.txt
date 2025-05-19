@@ -1,0 +1,45 @@
+Okay, let's break down the process step-by-step, focusing on the provided instructions and the importance of strict adherence to the explicit mentions in the commentary snippets.
+
+1.  **Identify Target Player:**
+    The target player is Player23.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player23(Away Team) fouls Player3(Home Team), resulting in a free kick in the defensive half."
+        *   This snippet explicitly states that Player23 committed a foul.
+        *   Increment Fouls: Fouls = 1
+
+    *   **Snippet 2:** "Player23(Away Team) commits a foul, resulting in Player4(Home Team) winning a free kick in their own defensive half."
+        *   This snippet explicitly states that Player23 committed a foul.
+        *   Increment Fouls: Fouls = 2
+
+    *   **Snippet 3:** "Player23(Away Team)'s header from the center of the box is saved at the top center of the goal after a cross from Player21(Away Team)."
+        *   This snippet explicitly states that Player23 had a header that was saved. This implies a shot.
+        *   Increment Shots: Shots = 1
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 2
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

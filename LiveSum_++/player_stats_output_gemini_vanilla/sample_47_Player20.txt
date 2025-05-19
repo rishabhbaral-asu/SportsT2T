@@ -1,0 +1,42 @@
+Okay, let's start.
+
+1.  **Identify Player Name:**
+    The player name is Player20.
+
+2.  **Initialize Counts:**
+    Shots = 0
+    Goals = 0
+    Assists = 0
+    Free Kicks = 0
+    Fouls = 0
+    Yellow Cards = 0
+    Red Cards = 0
+    Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player20(Away Team) commits a foul."
+        *   Fouls: Increment by 1. Fouls = 1
+
+    *   Snippet 2: "Player20(Away Team) commits a foul on Player9(Home Team), resulting in a free kick for the attacking team."
+        *   Fouls: Increment by 1. Fouls = 2
+
+    *   Snippet 3: "Player20(Away Team) commits a foul."
+        *   Fouls: Increment by 1. Fouls = 3
+
+4.  **Final Counts:**
+    Shots = 0
+    Goals = 0
+    Assists = 0
+    Free Kicks = 0
+    Fouls = 3
+    Yellow Cards = 0
+    Red Cards = 0
+    Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 0     | 0     | 0       | 0          | 3     | 0            | 0         | 0        |
+```

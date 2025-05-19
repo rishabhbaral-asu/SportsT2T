@@ -1,0 +1,48 @@
+Okay, let's analyze the commentary snippets for Player2.
+
+1.  **Player Name:** The target player is Player2.
+
+2.  **Initialization:** We initialize the counts for Player2 as follows:
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player2(Home Team) earns a free kick in his own half."
+        *   This snippet indicates Player2 earned a free kick. This means Player2 *wins* the free kick, thus Player2 has taken one Free Kick.
+        *   Free Kicks = 1
+
+    *   **Snippet 2:** "Player2(Home Team) earns a free kick on the right side of the field."
+        *   This snippet indicates Player2 earned a free kick. This means Player2 *wins* the free kick, thus Player2 has taken one Free Kick.
+        *   Free Kicks = 2
+
+    *   **Snippet 3:** "Player2(Home Team) scores a goal."
+        *   This snippet indicates Player2 scored a goal, which also counts as a shot.
+        *   Shots = 1
+        *   Goals = 1
+
+    *   **Snippet 4:** "Player2(Home Team) is injured."
+        *   This snippet provides information of player injury. There is no change in stats.
+
+4.  **Final Counts:** After analyzing all snippets, the final counts for Player2 are:
+    * Shots = 1
+    * Goals = 1
+    * Assists = 0
+    * Free Kicks = 2
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 1     | 1     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

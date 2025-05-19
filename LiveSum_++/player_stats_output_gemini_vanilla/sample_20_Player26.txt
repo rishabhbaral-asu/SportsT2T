@@ -1,0 +1,54 @@
+Okay, let's start by extracting the player name.
+
+Player Name: Player26
+
+Now, let's initialize the counts for all events to 0.
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Now we iterate through the commentary snippets and increment the counts accordingly, adhering to the strict counting rules.
+
+Snippet 1: "Player26(Away Team) earns a free kick in their own half."
+This snippet indicates Player26 earned a free kick.
+Free Kicks += 1
+
+Snippet 2: "Player26(Away Team)'s shot from outside the box with his left foot misses to the left, despite the assist from Player27(Away Team) with a headed pass."
+This snippet indicates Player26 took a shot.
+Shots += 1
+
+Snippet 3: "Player26(Away Team) earns a free kick in the attacking half after a foul by Player16(Home Team)."
+This snippet indicates Player26 earned a free kick.
+Free Kicks += 1
+
+Snippet 4: "Player26(Away Team)'s shot from outside the box narrowly misses to the right with an assist from Player27(Away Team)."
+This snippet indicates Player26 took a shot.
+Shots += 1
+
+Snippet 5: "Player26(Away Team) earns a free kick in the opponent's half."
+This snippet indicates Player26 earned a free kick.
+Free Kicks += 1
+
+Now we have the final counts:
+
+Shots = 2
+Goals = 0
+Assists = 0
+Free Kicks = 3
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 2     | 0     | 0       | 3          | 0     | 0            | 0         | 0        |
+```

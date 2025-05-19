@@ -1,0 +1,21 @@
+Okay, I will follow the instructions meticulously.
+
+1.  **Identify Target Player:** The target player is Player14.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player14(Home Team)'s left footed shot from outside the box was blocked with an assist from Player11(Home Team)."
+        *   Mentions "shot" explicitly attributed to Player14. Increment Shots: Shots = 1.
+        *   Mentions "assist" but Player14 *received* the assist, did not give it. Do not increment assists.
+
+    *   **Snippet 2:** "Player14(Home Team) commits a foul."
+        *   Mentions "foul" explicitly attributed to Player14. Increment Fouls: Fouls = 1.
+
+4.  **Final Counts:** Shots = 1, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player14 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

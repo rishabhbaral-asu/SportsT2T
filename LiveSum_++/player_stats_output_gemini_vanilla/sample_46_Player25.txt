@@ -1,0 +1,26 @@
+Okay, let's analyze the commentary snippets for Player25.
+
+*   **Player Name:** Player25
+*   **Commentary Snippets:**
+    *   "Player25(Away Team)'s left footed shot from the right side of the box is saved in the center of the goal, with an assist from Player28(Away Team)." - This snippet contains one shot for Player25, because they are explicitly mentioned as taking the shot. No goals or assists for Player25 here, because the goal was not scored, and the assist was by another player.
+    *   "Player25(Away Team) scores with a right-footed shot from outside the box, assisted by Player22(Away Team), The score is now tied at 1-1 between the Home Team and the Away Team." - This snippet contains one goal and one shot for Player25. No assist for Player25, as the assist was explicitly provided by Player22.
+    *   "Player25(Away Team) commits a foul, resulting in Player3(Home Team) winning a free kick in their defensive half." - This snippet contains one foul committed by Player25. It does *not* contain a Free Kick (Taken) for Player25, because the player *won* a free kick *for* the opposing team, due to a foul they commited.
+    *   "Player25(Away Team) receives a yellow card for a rough tackle." - This snippet contains one yellow card for Player25. It also describes a foul, since it's a "rough tackle", so we also count one foul.
+
+Calculated Statistics:
+
+*   Shots: 1 (first snippet) + 1 (second snippet) = 2
+*   Goals: 1 (second snippet) = 1
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 1 (third snippet) + 1 (fourth snippet) = 2
+*   Yellow Cards: 1
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 2     | 1     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

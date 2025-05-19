@@ -1,0 +1,41 @@
+Okay, let's start.
+
+1.  **Identify the target player:** The target player is Player27.
+
+2.  **Initialize counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze commentary snippets:**
+
+    *   Snippet 1: "Player27(Away Team) commits a foul."
+        *   Fouls: Increment to 1.
+
+    *   Snippet 2: "Player27(Away Team) commits a foul, resulting in Player6(Home Team) winning a free kick in their own defensive half, This leads to a set piece opportunity for Player6(Home Team)."
+        *   Fouls: Increment to 2.
+
+    *   Snippet 3: "Player27(Away Team) earns a free kick on the right side of the field."
+        *   Free Kicks: Increment to 1.
+
+4.  **Final counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 2
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 0     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

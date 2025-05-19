@@ -1,0 +1,54 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for Player33 and count explicit occurrences of defined events for that player.
+
+**Input:**
+* **Player Name:**
+    <PLAYER_NAME>
+    Player33
+    </PLAYER_NAME>
+* **Commentary Snippets:**
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player33(Away Team) commits a foul, resulting in Player2(Home Team) winning a free kick on the right wing, .
+- Player33(Away Team) receives a yellow card for a rough tackle.
+    </PLAYER_COMMENTARY_SNIPPETS>
+
+**Step-by-step analysis:**
+
+1.  **Identify the target player:** Player33
+
+2.  **Initialize counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze each snippet:**
+
+    *   **Snippet 1:** "Player33(Away Team) commits a foul, resulting in Player2(Home Team) winning a free kick on the right wing, ."
+        *   The snippet explicitly states "Player33 commits a foul". Increment Fouls by 1.
+        *   Player33's foul resulted in Player2 winning a free kick. Since the player did not *take* the free kick, this is counted as a foul.
+
+    *   **Snippet 2:** "Player33(Away Team) receives a yellow card for a rough tackle."
+        *   The snippet explicitly states "Player33 receives a yellow card". Increment Yellow Cards by 1.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player33 | 0     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

@@ -1,0 +1,32 @@
+Okay, let's analyze the commentary snippets for Player2 and generate the final summary table.
+
+**Steps:**
+
+1.  **Identify Target Player:** The target player is Player2.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player2(Home Team) earns a free kick on the right side of the field."
+        *   Player2 earns a free kick. Increment Free Kicks by 1. Free Kicks = 1
+
+    *   **Snippet 2:** "Player2(Home Team) commits a foul."
+        *   Player2 commits a foul. Increment Fouls by 1. Fouls = 1
+
+    *   **Snippet 3:** "Player2(Home Team) receives a yellow card for a harsh foul."
+        *   Player2 receives a yellow card. Increment Yellow Cards by 1. Yellow Cards = 1
+        *   Also, the snippet explicitly states a foul was committed, so increment Fouls by 1. Fouls = 2
+
+    *   **Snippet 4:** "Player2(Home Team) has given away a penalty for handball in the box."
+        *   Player2 has given away a penalty, implying they committed a foul (handball). Increment Fouls by 1. Fouls = 3
+
+    *   **Snippet 5:** "Player2(Home Team) fouls Player29(Away Team) on the left wing, resulting in a free kick being awarded."
+        *   Player2 fouls Player29. Increment Fouls by 1. Fouls = 4
+4.  **Compile Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 4, Yellow Cards = 1, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 0     | 0     | 0       | 1          | 4     | 1            | 0         | 0        |
+```

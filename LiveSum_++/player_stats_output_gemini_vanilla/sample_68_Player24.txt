@@ -1,0 +1,24 @@
+Okay, let's analyze the commentary snippets for Player24 and compile the statistics.
+
+**Player Name:** Player24
+
+**Commentary Snippets:**
+
+*   Player24(Away Team) commits a foul, resulting in Player10(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for the attacking team.
+*   Player24(Away Team) receives a yellow card for a rough tackle.
+*   Player24(Away Team) earns a free kick in their own half.
+
+**Reasoning:**
+
+1.  **Fouls:** The first snippet states "Player24(Away Team) commits a foul...". This is a clear indication of a foul committed by Player24, so we increment the Fouls count by 1.
+2.  **Yellow Cards:** The second snippet states "Player24(Away Team) receives a yellow card...". This clearly indicates a yellow card for Player24, so we increment the Yellow Cards count by 1.
+3.  **Free Kicks:** The first snippet states "Player24(Away Team) commits a foul, resulting in Player10(Home Team) winning a free kick". This does not mean Player24 took a free kick, but rather Player24 conceded one. Therefore, this does not increase the Free Kicks count. The third snippet states "Player24(Away Team) earns a free kick in their own half.". This means Player24 either was fouled, or won the ball, either way, earning their team a free kick to take. This means we increment the Free Kicks count by 1.
+4.  **Shots, Goals, Assists, Red Cards, Offsides:** None of the snippets explicitly mention Player24 taking a shot, scoring a goal, providing an assist, receiving a red card, or being offside. Therefore, these counts remain at 0.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 0     | 0     | 0       | 1          | 1     | 1            | 0         | 0        |
+```

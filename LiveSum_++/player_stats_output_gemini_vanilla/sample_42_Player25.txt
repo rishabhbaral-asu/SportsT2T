@@ -1,0 +1,46 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player25 and generate the summary table.
+
+**Player Name:** Player25
+
+**Commentary Snippets:**
+- Player25(Away Team)'s shot from outside the box narrowly misses to the right with an assist from Player24(Away Team).
+- Player25(Away Team)'s shot from the center of the box is blocked.
+
+**Step-by-step analysis:**
+
+1.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player25(Away Team)'s shot from outside the box narrowly misses to the right with an assist from Player24(Away Team)."
+        *   The snippet explicitly mentions "shot" by Player25. Therefore, Shots += 1.
+        *   The snippet explicitly mentions "assist" but it is from Player24 to Player25, therefore no assist is counted to Player25.
+        *   No goals, free kicks, fouls, yellow cards, red cards, or offsides are mentioned for Player25.
+    *   **Snippet 2:** "Player25(Away Team)'s shot from the center of the box is blocked."
+        *   The snippet explicitly mentions "shot" by Player25. Therefore, Shots += 1.
+        *   No goals, assists, free kicks, fouls, yellow cards, red cards, or offsides are mentioned for Player25.
+
+3.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

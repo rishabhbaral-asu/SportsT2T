@@ -1,0 +1,43 @@
+Okay, let's break down the process step by step to create the player statistics table.
+
+1.  **Identify Target Player:** The target player is Player9.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player9(Home Team) commits a foul."
+        *   Fouls = 1
+    *   **Snippet 2:** "Player9(Home Team) commits a foul."
+        *   Fouls = 2
+    *   **Snippet 3:** "Player9(Home Team)'s right footed shot from outside the box, assisted by Player5(Home Team), is blocked, followed by Player9(Home Team)'s header from the centre of the box missing to the right, assisted by Player8(Home Team) with a cross."
+        *   Shots = 2 (explicitly mentions two shots)
+    *   **Snippet 4:** "Player9(Home Team) commits a foul."
+        *   Fouls = 3
+    *   **Snippet 5:** "Player9(Home Team)'s shot from outside the box is saved in the bottom right corner after an assist from Player16(Home Team)."
+        *   Shots = 3
+
+4.  **Final Counts:**
+    *   Shots = 3
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 3
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 3     | 0     | 0       | 0          | 3     | 0            | 0         | 0        |
+```

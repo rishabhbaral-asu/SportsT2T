@@ -1,0 +1,51 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for Player36 and count explicit occurrences of defined events.
+
+**Input:**
+* **Player Name:**
+    <PLAYER_NAME>
+    Player36
+    </PLAYER_NAME>
+* **Commentary Snippets:**
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player36(Away Team)'s shot from the right side of the box just misses to the right, with an assist from Player21(Away Team)'s cross.
+    </PLAYER_COMMENTARY_SNIPPETS>
+
+**Step-by-step analysis:**
+
+1. **Player Name:** The target player is Player36.
+
+2. **Initialize Counts:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+3. **Analyze Commentary Snippets:**
+    * Snippet 1: "Player36(Away Team)'s shot from the right side of the box just misses to the right, with an assist from Player21(Away Team)'s cross."
+        * The snippet explicitly mentions "Player36's shot". Therefore, Shots count is incremented by 1.
+        * There is no goal.
+        * The snippet mentions Player21 assisting Player36 and not the other way around. Therefore, the assist count is unchanged.
+        * There are no free kicks, fouls, yellow cards, red cards, or offsides mentioned in the snippet.
+
+4. **Final Counts:**
+    * Shots = 1
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player36 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

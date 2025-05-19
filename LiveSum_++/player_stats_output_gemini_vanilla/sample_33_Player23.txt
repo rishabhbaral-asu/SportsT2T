@@ -1,0 +1,85 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for Player23 and count explicit occurrences of defined events.
+
+1.  **Identify Target Player:**
+    *   Player Name: Player23
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player23(Away Team) just missed the goal with a close shot from the center of the box, assisted by Player29(Away Team) with a cross after a set piece."
+        *   Shots: Player23 missed a shot. Shots = 1
+        *   Goals: No goal scored. Goals = 0
+        *   Assists: Player23 was assisted, not providing an assist. Assists = 0
+        *   Free Kicks: Set piece but Player23 did not take the kick. Free Kicks = 0
+        *   Fouls: No foul committed. Fouls = 0
+        *   Yellow Cards: No yellow card. Yellow Cards = 0
+        *   Red Cards: No red card. Red Cards = 0
+        *   Offsides: No offside mentioned. Offsides = 0
+
+    *   Snippet 2: "Player23(Away Team) commits a foul as Player7(Home Team)'s right footed shot from outside the box, assisted by Player8(Home Team), is blocked."
+        *   Shots: No shot by Player23. Shots = 1
+        *   Goals: No goal scored. Goals = 0
+        *   Assists: No assist. Assists = 0
+        *   Free Kicks: No free kick by Player23. Free Kicks = 0
+        *   Fouls: Player23 commits a foul. Fouls = 1
+        *   Yellow Cards: No yellow card. Yellow Cards = 0
+        *   Red Cards: No red card. Red Cards = 0
+        *   Offsides: No offside mentioned. Offsides = 0
+
+    *   Snippet 3: "Player23(Away Team) has been cautioned with a yellow card."
+        *   Shots: No shot. Shots = 1
+        *   Goals: No goal. Goals = 0
+        *   Assists: No assist. Assists = 0
+        *   Free Kicks: No free kick. Free Kicks = 0
+        *   Fouls: No foul. Fouls = 1
+        *   Yellow Cards: Player23 receives a yellow card. Yellow Cards = 1
+        *   Red Cards: No red card. Red Cards = 0
+        *   Offsides: No offside mentioned. Offsides = 0
+
+    * Snippet 4: "Player23(Away Team)'s header from the middle of the box was blocked after receiving a cross from Player32(Away Team)."
+        * Shots: Player23's header was blocked (attempt on goal). Shots = 2
+        * Goals: No goal. Goals = 0
+        * Assists: No assist. Assists = 0
+        * Free Kicks: No free kick. Free Kicks = 0
+        * Fouls: No foul. Fouls = 1
+        * Yellow Cards: No yellow card. Yellow Cards = 1
+        * Red Cards: No red card. Red Cards = 0
+        * Offsides: No offside mentioned. Offsides = 0
+
+    * Snippet 5: "Player23(Away Team) misses a header to the left from the centre of the box after being assisted by Player29(Away Team) with a cross following a corner kick for the Away Team."
+        * Shots: Player23 missed a header. Shots = 3
+        * Goals: No goal. Goals = 0
+        * Assists: No assist. Assists = 0
+        * Free Kicks: No free kick. Free Kicks = 0
+        * Fouls: No foul. Fouls = 1
+        * Yellow Cards: No yellow card. Yellow Cards = 1
+        * Red Cards: No red card. Red Cards = 0
+        * Offsides: No offside mentioned. Offsides = 0
+
+4.  **Final Counts:**
+    *   Shots = 3
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 3     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

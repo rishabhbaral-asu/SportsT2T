@@ -1,0 +1,58 @@
+Okay, let's analyze the commentary snippets for Player10 and compile the statistics.
+
+**Step 1: Identify Target Player**
+
+The target player is Player10.
+
+**Step 2: Initialize Counts**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**Step 3: Analyze Snippets and Increment Counts**
+
+*   **Snippet 1:** "Player10(Home Team) just missed a left-footed shot from outside the box, assisted by Player11(Home Team) with a header."
+    *   Shots: Increment to 1 (explicitly states "shot").
+
+*   **Snippet 2:** "Player10(Home Team)'s shot with his right foot from the left side of the box goes wide to the left after being set up by Player7(Home Team) from a corner kick."
+    *   Shots: Increment to 2 (explicitly states "shot").
+
+*   **Snippet 3:** "Player10(Home Team) earns a free kick in their own half."
+    *   Free Kicks: Increment to 1 ("earns a free kick").
+
+*   **Snippet 4:** "Player10(Home Team) commits a foul, resulting in Player20(Away Team) winning a free kick in their own defensive half, This leads to a set piece opportunity for Player20(Away Team)'s team."
+    *   Fouls: Increment to 1 ("commits a foul").
+
+*   **Snippet 5:** "Player10(Home Team) commits a foul."
+    *   Fouls: Increment to 2 ("commits a foul").
+
+*   **Snippet 6:** "Player10(Home Team)'s shot from outside the box is blocked."
+    *   Shots: Increment to 3 (explicitly states "shot").
+
+*   **Snippet 7:** "Player10(Home Team)'s left footed shot from outside the box is blocked with an assist from Player6(Home Team)."
+    *   Shots: Increment to 4 (explicitly states "shot").
+
+**Step 4: Final Counts**
+
+Shots = 4
+Goals = 0
+Assists = 0
+Free Kicks = 1
+Fouls = 2
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 4     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

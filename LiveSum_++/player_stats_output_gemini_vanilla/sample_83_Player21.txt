@@ -1,0 +1,40 @@
+Okay, let's analyze the commentary snippets for Player21 and generate the summary table.
+
+1.  **Player Name:** `Player21`
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Commentary Snippet Analysis:**
+
+    *   Snippet 1: "Player21(Away Team) attempts a pass to Player34(Away Team), but Player27(Away Team) is offside."
+        *   Player21 attempts a pass, but Player27 is offside. This does not count as an assist because the pass did not directly lead to a goal (it led to an offside). It does not count as a shot or goal because it's a pass not a shot. It does not count as a free kick or foul. It does count as an offside for player27, not player21.
+        *   No events incremented for Player21.
+
+    *   Snippet 2: "Player21(Away Team) earns a free kick in their own half."
+        *   Player21 earns a free kick. This means someone else fouled them, resulting in a free kick *for* Player21's team. Therefore, it counts as a free kick taken by Player21.
+        *   Free Kicks = 1
+
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

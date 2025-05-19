@@ -1,0 +1,52 @@
+Okay, let's start.
+
+1.  **Player Name:** Player11
+
+2.  **Initialization:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+3.  **Commentary Snippet Analysis:**
+
+*   **Snippet 1:** "Player11(Home Team) scored with a left footed shot from the center of the box, hitting the bottom left corner."
+    *   Goal: Player11 scored. Increment Goals by 1.
+    *   Shot: Player11 scored with a shot. Increment Shots by 1.
+
+*   **Snippet 2:** "Player11(Home Team)'s shot from the center of the box is saved by the goalkeeper, with an assist from Player9(Home Team)."
+    *   Shot: Player11's shot was saved. Increment Shots by 1.
+
+*   **Snippet 3:** "Player11(Home Team)'s long range right footed shot from a difficult angle is saved in the top centre of the goal, resulting in a corner kick for the Away Team."
+    *   Shot: Player11's shot was saved. Increment Shots by 1.
+
+*   **Snippet 4:** "Player11(Home Team)'s left footed shot from close range, assisted by Player9(Home Team)."
+    *   Shot: Player11 took a shot. Increment Shots by 1.
+
+*   **Snippet 5:** "Player11(Home Team)'s shot from the right side of the box narrowly misses to the right, with an assist from Player15(Home Team)."
+    *   Shot: Player11's shot missed. Increment Shots by 1.
+
+*   **Snippet 6:** "Player11(Home Team)'s shot from the center of the box is blocked by the defense, resulting in a corner kick for the Away Team."
+    * Shot: Player11's shot was blocked. Increment Shots by 1.
+
+4. **Final Counts:**
+
+*   Shots: 6
+*   Goals: 1
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 6     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

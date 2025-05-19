@@ -1,0 +1,25 @@
+Okay, I understand the objective, the instructions, and the formatting requirements. I will analyze the provided commentary snippets for the specified player and generate the final summary table accordingly, adhering to all rules, especially the "Absolute Strict Counting & Unambiguous Attribution" rule.
+
+**Player Name:**
+Player4
+
+**Commentary Snippets:**
+- Player4(Home Team) commits a foul.
+- Player4(Home Team) commits a foul, resulting in Player36(Away Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player36(Away Team)'s team.
+
+**Reasoning:**
+
+1.  **Player Identification:** The target player is Player4.
+2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet Analysis:**
+    *   **Snippet 1:** "Player4(Home Team) commits a foul." - The snippet explicitly states Player4 committed a foul. Therefore, Fouls is incremented by 1. Fouls = 1.
+    *   **Snippet 2:** "Player4(Home Team) commits a foul, resulting in Player36(Away Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player36(Away Team)'s team." - The snippet explicitly states Player4 committed a foul. Therefore, Fouls is incremented by 1. Fouls = 2.
+
+4.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 2, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 0     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

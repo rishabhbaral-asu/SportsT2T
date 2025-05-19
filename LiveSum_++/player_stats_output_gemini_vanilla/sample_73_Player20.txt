@@ -1,0 +1,44 @@
+Okay, let's analyze the commentary snippets for Player20 and generate the summary table.
+
+**1. Identify Target Player:**
+
+The target player is Player20.
+
+**2. Initialize Counts:**
+
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player20(Away Team) commits a foul, resulting in Player10(Home Team) winning a free kick in the attacking half, ."
+    *   "commits a foul": This explicitly states Player20 committed a foul.
+        *   Increment Fouls: Fouls = 0 + 1 = 1
+*   **Snippet 2:** "Player20(Away Team) from the Away Team has scored an own goal, The Home Team is leading 3-1."
+    * "scored an own goal": Although Player20 scored, it's an own goal. Therefore it does not count as a Goal.
+        * Increment Shots: Shots = 0 + 0 = 0
+        * Increment Goals: Goals = 0 + 0 = 0
+
+**4. Final Counts:**
+
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 1
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,58 @@
+Okay, let's break down the task. I need to extract player statistics from the given commentary snippets, focusing solely on the specified player and using strict counting rules.
+
+**1. Identify Target Player:**
+
+The target player is Player23.
+
+**2. Initialize Counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player23(Away Team) misses the goal with a right footed shot from the center of the box, assisted by Player25(Away Team) with a cross after a corner."
+    *   Shots: Player23 misses a shot. Shots = 1
+    *   Goals: No goal scored by Player23.
+    *   Assists: Player23 did not assist; Player23 *was* assisted by Player25.
+    *   Free Kicks: No free kick explicitly mentioned.
+    *   Fouls: No foul mentioned.
+    *   Yellow Cards: No yellow card.
+    *   Red Cards: No red card.
+    *   Offsides: Not mentioned.
+
+*   **Snippet 2:** "Player23(Away Team) scores with a close-range right-footed shot after a corner, making it Home Team 1, Away Team 5."
+    *   Shots: Player23 scores a goal, which is a shot. Shots = 2
+    *   Goals: Player23 scores a goal. Goals = 1
+    *   Assists: No assist mentioned for Player23.
+    *   Free Kicks: No free kick explicitly mentioned.
+    *   Fouls: No foul mentioned.
+    *   Yellow Cards: No yellow card.
+    *   Red Cards: No red card.
+    *   Offsides: Not mentioned.
+
+**4. Final Counts:**
+
+Shots = 2
+Goals = 1
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**5. Final Summary Table:**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 2     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,40 @@
+Okay, let's analyze the commentary snippets for Player5 and compile the statistics.
+
+**Player Name:** Player5
+
+**Commentary Snippets:**
+
+*   Player5(Home Team) earns a free kick in their own half.
+*   Player5(Home Team) commits a foul, but Player25(Away Team)'s right footed shot from outside the box is saved in the bottom right corner with an assist from Player28(Away Team).
+*   Player5(Home Team) commits a foul.
+*   Player5(Home Team) commits a foul as Player29(Away Team)'s right-footed shot from outside the box goes high and wide to the right, missing the target.
+*   Player5(Home Team) earns a free kick in their own half.
+
+**Step-by-step Analysis:**
+
+1.  **Player Name:** The target player is Player5.
+
+2.  **Initialization:** Initialize all counts to 0: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+3.  **Snippet 1:** "Player5(Home Team) earns a free kick in their own half."
+    *   Free Kicks: Player5 earns a free kick. Increment Free Kicks by 1. Free Kicks = 1.
+
+4.  **Snippet 2:** "Player5(Home Team) commits a foul, but Player25(Away Team)'s right footed shot from outside the box is saved in the bottom right corner with an assist from Player28(Away Team)."
+    *   Fouls: Player5 commits a foul. Increment Fouls by 1. Fouls = 1.
+
+5.  **Snippet 3:** "Player5(Home Team) commits a foul."
+    *   Fouls: Player5 commits a foul. Increment Fouls by 1. Fouls = 2.
+
+6.  **Snippet 4:** "Player5(Home Team) commits a foul as Player29(Away Team)'s right-footed shot from outside the box goes high and wide to the right, missing the target."
+    *   Fouls: Player5 commits a foul. Increment Fouls by 1. Fouls = 3.
+
+7.  **Snippet 5:** "Player5(Home Team) earns a free kick in their own half."
+    *   Free Kicks: Player5 earns a free kick. Increment Free Kicks by 1. Free Kicks = 2.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 0     | 0     | 0       | 2          | 3     | 0            | 0         | 0        |
+```

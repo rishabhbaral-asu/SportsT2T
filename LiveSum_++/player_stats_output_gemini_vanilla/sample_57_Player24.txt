@@ -1,0 +1,36 @@
+Okay, let's break down the commentary and compile the stats for Player24.
+
+1.  **Identify Target Player:** The target player is Player24.
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player24(Away Team) missed a header from the center of the box to the left, assisted by Player20(Away Team) with a cross after a set piece."
+        *   "missed a header": This counts as a shot (attempt on goal). Increment Shots to 1.
+        *   "assisted by Player20": Since Player24 was *assisted by* Player20, we do *not* increment Player24's assist count.
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

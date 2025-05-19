@@ -1,0 +1,39 @@
+Okay, let's analyze the commentary snippets for Player6 and generate the statistics table.
+
+**1. Player Identification:**
+
+The target player is Player6.
+
+**2. Initialization:**
+
+We initialize all event counts to 0 for Player6: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+**3. Snippet Analysis and Event Counting:**
+
+*   **Snippet 1: "Player6(Home Team) earns a free kick in their own half."**
+    *   This snippet explicitly states that Player6 *earns* a free kick. Thus, Free Kicks is incremented by 1.
+
+*   **Snippet 2: "Player6(Home Team)'s header from the center of the box is blocked with an assist from Player6(Home Team)."**
+    *   This snippet indicates Player6 attempted a header, meaning a shot. Shots is incremented by 1. But the snippet also indicates Player6 gives an assist to Player6(Home Team). This does not mean Player6 assisted anyone, and so Assist will not be incremented.
+
+*   **Snippet 3: "Player6(Home Team) misses a header from close range to the left after being assisted by Player8(Home Team) with a cross following a corner kick."**
+    *   This snippet indicates Player6 *misses a header*, meaning a shot. Shots is incremented by 1.
+
+**4. Final Counts:**
+
+*   Shots: 2
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 2     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

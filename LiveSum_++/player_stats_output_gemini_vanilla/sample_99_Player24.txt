@@ -1,0 +1,40 @@
+Okay, I'm ready to process the input and generate the player statistics table.
+
+**Player Name:** Player24
+
+**Commentary Snippets:**
+- Player24(Away Team) misses the header, it was too high, assisted by Player29(Away Team) with a cross after a set piece.
+- Player24(Away Team) from the Away Team has scored an own goal, The Home Team is now leading with a score of 2-1.
+- Player24(Away Team)'s header from the center of the box was too high, missing the goal, The cross was provided by Player29(Away Team).
+
+**Reasoning:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1 Analysis:** "Player24(Away Team) misses the header, it was too high, assisted by Player29(Away Team) with a cross after a set piece."
+    *   "misses the header" implies a shot attempt. Shots = 1.
+    *   No goals, assists, free kicks, fouls, yellow cards, red cards, or offsides are mentioned.
+
+3.  **Snippet 2 Analysis:** "Player24(Away Team) from the Away Team has scored an own goal, The Home Team is now leading with a score of 2-1."
+    *   "scored an own goal" implies a goal (even though it's an own goal). Goals = 1
+    * "scored an own goal" implies also a shot. Shots = 2
+    *   No assists, free kicks, fouls, yellow cards, red cards, or offsides are mentioned.
+
+4.  **Snippet 3 Analysis:** "Player24(Away Team)'s header from the center of the box was too high, missing the goal, The cross was provided by Player29(Away Team)."
+    *   "header ... missing the goal" implies a shot attempt. Shots = 3
+    *   No goals, assists, free kicks, fouls, yellow cards, red cards, or offsides are mentioned.
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 3     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

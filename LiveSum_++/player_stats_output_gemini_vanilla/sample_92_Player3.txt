@@ -1,0 +1,47 @@
+Okay, let's analyze the commentary snippets for Player3 and compile the statistics.
+
+**1. Player Name:**
+
+*   `<PLAYER_NAME>`: Player3
+
+**2. Initialize Counts:**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player3(Home Team) scores with a left-footed penalty kick, putting the Home Team ahead 1-0 against the Away Team."
+    *   Goals: Player3 scores a goal. Increment Goals by 1. Goals = 1
+    *   Shots: Player3 scores a goal, which counts as a shot. Increment Shots by 1. Shots = 1
+    *   Free Kicks: Player3 scores with a penalty kick, which is an explicit mention of a taken penalty/free kick. Increment Free Kicks by 1. Free Kicks = 1
+
+*   **Snippet 2:** "Player3(Home Team) commits a foul, resulting in Player25(Away Team) winning a free kick in the attacking half, This leads to a set piece opportunity for the attacking team."
+    *   Fouls: Player3 commits a foul. Increment Fouls by 1. Fouls = 1
+
+*   **Snippet 3:** "Player3(Home Team) earns a free kick in their own half."
+    *   Free Kicks: Player3 earns a free kick. Increment Free Kicks by 1. Free Kicks = 2
+
+**4. Final Counts:**
+
+*   Shots: 1
+*   Goals: 1
+*   Assists: 0
+*   Free Kicks: 2
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 1     | 1     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

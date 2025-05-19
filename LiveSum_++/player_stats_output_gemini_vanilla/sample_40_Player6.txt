@@ -1,0 +1,42 @@
+Okay, let's analyze the commentary snippets for Player6.
+
+1.  **Player Name:** Player6
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player6(Home Team) of the Home Team attempts a through ball, but Player7(Home Team) is offside."
+        *   This does not contain any of the keywords associated with any of the actions, so we count nothing.
+
+    *   Snippet 2: "Player6(Home Team) of the Home Team attempts a through ball, but Player15(Home Team) is offside."
+        *   This does not contain any of the keywords associated with any of the actions, so we count nothing.
+
+    *   Snippet 3: "Player6(Home Team) earns a free kick in their own half."
+        *   This mentions Player6 earns a free kick. Thus, free kicks is incremented.
+
+4.  **Final Counts:**
+
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,32 @@
+Okay, let's start by identifying the target player and initializing the counts.
+
+Target Player: Player2
+
+Initial Counts:
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player2(Home Team)'s powerful shot from outside the box."
+
+*   This snippet explicitly states Player2 took a shot.
+*   Increment Shots: Shots = 0 + 1 = 1
+
+Snippet 2: "Player2(Home Team)'s shot from outside the box is blocked with the help of Player9(Home Team)."
+
+*   This snippet explicitly states Player2 took a shot, which was blocked.
+*   Increment Shots: Shots = 1 + 1 = 2
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

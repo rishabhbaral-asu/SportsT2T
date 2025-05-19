@@ -1,0 +1,33 @@
+Okay, let's analyze the commentary snippets for Player3 and generate the summary table.
+
+**Steps:**
+
+1.  **Identify Target Player:** The target player is Player3.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Snippets:**
+    *   **Snippet 1:** "Player3(Home Team)'s left footed shot from a tough angle on the left is saved by the goalkeeper in the bottom right corner, after being assisted by Player10(Home Team) with a through ball."
+        *   *Shots:* The snippet explicitly states "Player3(Home Team)'s left footed shot", so increment Shots by 1.
+        *   *Goals:* The shot was saved; hence, no goal.
+        *   *Assists:* Player3 was assisted; hence, no assist for Player3.
+        *   *Free Kicks:* No free kick event.
+        *   *Fouls:* No foul event.
+        *   *Yellow Cards:* No yellow card event.
+        *   *Red Cards:* No red card event.
+        *   *Offsides:* No offside event.
+    *   **Snippet 2:** "Player3(Home Team) earns a free kick in their own half."
+        *   *Shots:* No shot event.
+        *   *Goals:* No goal event.
+        *   *Assists:* No assist event.
+        *   *Free Kicks:* The snippet mentions "Player3(Home Team) earns a free kick", which means Player3 wins the free kick. So increment Free Kicks by 1.
+        *   *Fouls:* No foul event.
+        *   *Yellow Cards:* No yellow card event.
+        *   *Red Cards:* No red card event.
+        *   *Offsides:* No offside event.
+4.  **Final Counts:** Shots = 1, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

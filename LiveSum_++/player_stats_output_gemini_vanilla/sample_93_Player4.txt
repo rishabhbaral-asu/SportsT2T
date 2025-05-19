@@ -1,0 +1,57 @@
+Okay, let's analyze the provided commentary snippets for Player4.
+
+**1. Identify the target player:**
+
+The target player is Player4.
+
+**2. Initialize counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze each snippet:**
+
+*   **Snippet 1:** "Player4(Home Team) scores with a right-footed shot into the bottom left corner from the penalty spot."
+    *   Goal: Increment Goals by 1 (Goal = 1)
+    *   Shot: Increment Shots by 1 (Shots = 1)
+    *   Free Kick: Increment Free Kicks by 1 since the goal was scored from the penalty spot. (Free Kicks = 1)
+
+*   **Snippet 2:** "Player4(Home Team) earns a free kick in the opponent's half."
+    *   Free Kick: Increment Free Kicks by 1 (Free Kicks = 2)
+
+*   **Snippet 3:** "Player4(Home Team) commits a foul."
+    *   Foul: Increment Fouls by 1 (Fouls = 1)
+
+*   **Snippet 4:** "Player4(Home Team) scores with a penalty kick to the bottom left corner, making it Home Team 2, Away Team 0."
+    *   Goal: Increment Goals by 1 (Goals = 2)
+    *   Shot: Increment Shots by 1 (Shots = 2)
+    *   Free Kick: Increment Free Kicks by 1 (Free Kicks = 3) since the goal was scored from the penalty spot.
+
+*   **Snippet 5:** "Player4(Home Team) scores with a great shot from outside the box, assisted by Player10(Home Team) after a set piece, Home Team now leads 3-0."
+    *   Goal: Increment Goals by 1 (Goals = 3)
+    *   Shot: Increment Shots by 1 (Shots = 3)
+    *   Assist: No assist is awarded to player4 in this case, as it states Player4 was *assisted by* Player10, not the other way around.
+
+**4. Final Counts:**
+
+Shots = 3
+Goals = 3
+Assists = 0
+Free Kicks = 3
+Fouls = 1
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 3     | 3     | 0       | 3          | 1     | 0            | 0         | 0        |
+```

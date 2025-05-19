@@ -1,0 +1,20 @@
+Okay, let's break down the task. I need to extract the player name, analyze the commentary snippets for events explicitly attributed to that player, and then present the counts in a markdown table. I will adhere strictly to the provided keywords and avoid any inference.
+
+**Player Name:** Player14
+
+**Commentary Snippets Analysis:**
+
+*   **Snippet 1:** "Player14(Home Team) commits a foul on Player22(Away Team), resulting in a free kick being awarded in the defensive half."
+    *   Fouls: Player14 commits a foul. Count = 1
+*   **Snippet 2:** "Player14(Home Team) commits a foul."
+    *   Fouls: Player14 commits a foul. Count = 1
+*   **Snippet 3:** "Player14(Home Team) receives a yellow card for a rough tackle."
+    *   Yellow Cards: Player14 receives a yellow card. Count = 1
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player14 | 0     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

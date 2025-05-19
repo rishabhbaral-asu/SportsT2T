@@ -1,0 +1,44 @@
+Okay, let's start.
+
+1.  **Identify Target Player:**
+    The target player is Player3.
+
+2.  **Initialize Counts:**
+    Shots = 0
+    Goals = 0
+    Assists = 0
+    Free Kicks = 0
+    Fouls = 0
+    Yellow Cards = 0
+    Red Cards = 0
+    Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player3(Home Team) missed the goal with a high right-footed shot from outside the box, assisted by Player15(Home Team)."
+        *   Shots: The snippet states "Player3 missed the goal with a...shot". Increment Shots by 1.
+        *   Goals: No goal is mentioned.
+        *   Assists: The snippet states Player3 was *assisted by* Player15, so Player3 did not provide an assist.
+        *   Free Kicks: No mention of a free kick taken, won or a penalty.
+        *   Fouls: No foul mentioned.
+        *   Yellow Cards: No yellow card mentioned.
+        *   Red Cards: No red card mentioned.
+        *   Offsides: No offside mentioned.
+
+4. **Compile Final Counts:**
+
+    Shots = 1
+    Goals = 0
+    Assists = 0
+    Free Kicks = 0
+    Fouls = 0
+    Yellow Cards = 0
+    Red Cards = 0
+    Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

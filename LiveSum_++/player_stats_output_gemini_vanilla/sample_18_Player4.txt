@@ -1,0 +1,35 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player4 and generate the summary table.
+
+**Steps:**
+
+1.  **Identify Target Player:** The target player is Player4.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player4(Home Team)'s right footed shot from outside the box is blocked with an assist from Player9(Home Team), resulting in a corner kick for the Home Team."
+        *   Mentions "shot" by Player4. Increment Shots by 1.
+        *   Mentions "assist from Player9" which does *not* count as an assist for Player4.
+        *   No goals are scored.
+
+    *   **Snippet 2:** "Player4(Home Team) earns a free kick on the right side of the field."
+        *   Mentions Player4 "earns a free kick". Increment Free Kicks by 1.
+
+    *   **Snippet 3:** "Player4(Home Team) commits a foul."
+        *   Mentions Player4 "commits a foul". Increment Fouls by 1.
+
+4.  **Compile Results:**
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 1     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,39 @@
+Okay, let's analyze the commentary snippets for Player27 and generate the final summary table.
+
+**Player Name:** Player27
+
+**Commentary Snippets:**
+
+- Player27(Away Team) earns a free kick in the opponent's half.
+- Player27(Away Team) commits a foul.
+- Player27(Away Team) misses a header from the center of the box to the right, assisted by Player21(Away Team) with a cross.
+- Player27(Away Team) receives a yellow card.
+- Player27(Away Team)'s shot from the center of the box is saved by the goalkeeper after receiving a headed pass from Player26(Away Team).
+
+**Analysis:**
+
+1.  **Free Kicks (Taken):** The first snippet states "Player27(Away Team) earns a free kick". This means Player27 *wins* a free kick. So, the count is incremented by 1.
+2.  **Fouls (Committed):** The second snippet states "Player27(Away Team) commits a foul". This means Player27 committed a foul. So, the count is incremented by 1.
+3.  **Shots:** The third snippet says "Player27(Away Team) misses a header from the center of the box...". This is a shot.
+    So shots are incremented by 1.
+4.  **Yellow Cards:** The fourth snippet says "Player27(Away Team) receives a yellow card". This means Player27 received a yellow card. So, the count is incremented by 1.
+5.  **Shots:** The fifth snippet says "Player27(Away Team)'s shot from the center of the box is saved by the goalkeeper...". This is a shot.
+    So shots are incremented by 1.
+
+**Event Counts:**
+
+*   Shots: 2
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks (Taken): 1
+*   Fouls (Committed): 1
+*   Yellow Cards: 1
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 2     | 0     | 0       | 1          | 1     | 1            | 0         | 0        |
+```

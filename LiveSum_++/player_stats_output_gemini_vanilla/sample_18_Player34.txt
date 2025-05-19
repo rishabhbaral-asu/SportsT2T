@@ -1,0 +1,23 @@
+Okay, let's start by identifying the player name and initializing the counts.
+
+Player Name: Player34
+
+Now, let's analyze the commentary snippets and increment the counts based on the instructions.
+
+Commentary Snippet 1: "Player34(Away Team) attempts a through ball, but Player27(Away Team) is caught offside."
+
+*   Offsides: Player34 attempts a through ball, and Player27 is caught offside. This implies Player34 was the passer, and thus this increments the Offsides count for Player34 by 1.
+
+Commentary Snippet 2: "Player34(Away Team)'s left footed shot from outside the box is saved in the center of the goal with an assist from Player25(Away Team)."
+
+*   Shots: The snippet explicitly mentions "Player34's left footed shot". This increments the Shots count by 1.
+*   Assists: The snippet states "with an assist from Player25(Away Team)". Since Player34 *received* the assist, not provided it, this does **NOT** increment the Assists count.
+
+Now, let's construct the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player34 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 1        |
+```

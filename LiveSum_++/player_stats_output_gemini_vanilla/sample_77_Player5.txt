@@ -1,0 +1,39 @@
+Okay, let's break this down step by step.
+
+1.  **Identify Target Player:**
+    The target player is Player5.
+
+2.  **Initialize Counts:**
+    Shots: 0, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player5(Home Team)'s header from the center of the box was close but missed the top left corner, assisted by Player11(Home Team) with a cross after a corner."
+        *   Shots: The snippet explicitly mentions "header" from Player5, which is considered an attempt on goal. Increment Shots to 1.
+        *   Goals: Not mentioned.
+        *   Assists: Not mentioned Player5 provided an assist. Player5 was assisted, so this is not an assist for the target player.
+        *   Free Kicks: Not mentioned.
+        *   Fouls: Not mentioned.
+        *   Yellow Cards: Not mentioned.
+        *   Red Cards: Not mentioned.
+        *   Offsides: Not mentioned.
+
+    *   **Snippet 2:** "Player5(Home Team)'s shot from the center of the box is saved by the goalkeeper after a headed pass from Player10(Home Team)."
+        *   Shots: The snippet explicitly mentions "shot" from Player5. Increment Shots to 2.
+        *   Goals: Not mentioned.
+        *   Assists: Not mentioned Player5 provided an assist. Player5 was passed to, so this is not an assist for the target player.
+        *   Free Kicks: Not mentioned.
+        *   Fouls: Not mentioned.
+        *   Yellow Cards: Not mentioned.
+        *   Red Cards: Not mentioned.
+        *   Offsides: Not mentioned.
+
+4. **Final Counts:**
+    Shots: 2, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

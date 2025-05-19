@@ -1,0 +1,93 @@
+Okay, let's analyze the commentary snippets for Player9 and generate the final summary table.
+
+1.  **Identify the target player:**
+    The target player is Player9.
+
+2.  **Initialize counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze commentary snippets:**
+
+    *   Snippet 1: "Player9(Home Team) misses the header from the center of the box, it goes high and wide to the left, Player11(Home Team) assisted with a cross after a corner."
+        *   Shots: Player9 misses a header. Increment Shots to 1.
+        *   Goals: No goal scored.
+        *   Assists: Player9 did not provide the assist.
+        *   Free Kicks: No free kick event.
+        *   Fouls: No foul event.
+        *   Yellow Cards: No yellow card event.
+        *   Red Cards: No red card event.
+        *   Offsides: No offside event.
+
+    *   Snippet 2: "Player9(Home Team)'s shot from outside the box with his right foot narrowly misses to the right, assisted by Player10(Home Team)."
+        *   Shots: Player9 takes a shot. Increment Shots to 2.
+        *   Goals: No goal scored.
+        *   Assists: Player9 did not provide the assist.
+        *   Free Kicks: No free kick event.
+        *   Fouls: No foul event.
+        *   Yellow Cards: No yellow card event.
+        *   Red Cards: No red card event.
+        *   Offsides: No offside event.
+
+    *   Snippet 3: "Player9(Home Team) earns a free kick in the opponent's half."
+        *   Shots: No shot event.
+        *   Goals: No goal scored.
+        *   Assists: No assist event.
+        *   Free Kicks: Player9 earns a free kick. Increment Free Kicks to 1.
+        *   Fouls: No foul event.
+        *   Yellow Cards: No yellow card event.
+        *   Red Cards: No red card event.
+        *   Offsides: No offside event.
+
+    *   Snippet 4: "Player9(Home Team) misses the target with a left-footed shot from the center of the box, assisted by Player11(Home Team)."
+        *   Shots: Player9 misses a shot. Increment Shots to 3.
+        *   Goals: No goal scored.
+        *   Assists: Player9 did not provide the assist.
+        *   Free Kicks: No free kick event.
+        *   Fouls: No foul event.
+        *   Yellow Cards: No yellow card event.
+        *   Red Cards: No red card event.
+        *   Offsides: No offside event.
+
+    *   Snippet 5: "Player9(Home Team) has committed a hand ball."
+        *   Shots: No shot event.
+        *   Goals: No goal scored.
+        *   Assists: No assist event.
+        *   Free Kicks: No free kick event.
+        *   Fouls: Player9 committed a hand ball, which is a foul. Increment Fouls to 1.
+        *   Yellow Cards: No yellow card event.
+        *   Red Cards: No red card event.
+        *   Offsides: No offside event.
+
+    *   Snippet 6: "Player9(Home Team) receives a yellow card for a rough tackle."
+        *   Shots: No shot event.
+        *   Goals: No goal scored.
+        *   Assists: No assist event.
+        *   Free Kicks: No free kick event.
+        *   Fouls: No foul event. The foul leading to the yellow card was already implicitly part of receiving the card, so we don't double count.
+        *   Yellow Cards: Player9 receives a yellow card. Increment Yellow Cards to 1.
+        *   Red Cards: No red card event.
+        *   Offsides: No offside event.
+
+4.  **Final Counts:**
+    *   Shots = 3
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 3     | 0     | 0       | 1          | 1     | 1            | 0         | 0        |
+```

@@ -1,0 +1,45 @@
+Okay, let's analyze the commentary snippets for Player4.
+
+1.  **Player Name:** Player4
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player4(Home Team) commits a foul, resulting in Player26(Away Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player26(Away Team)'s team."
+        *   Fouls: Player4 commits a foul, so increment Fouls by 1.
+        *   Free Kicks: This snippet does *not* state that Player4 took a free kick, but that Player26 *won* a free kick due to Player4's foul.
+    *   **Snippet 2:** "Player4(Home Team) commits a foul, resulting in Player22(Away Team) winning a free kick in their own defensive half."
+        *   Fouls: Player4 commits a foul, so increment Fouls by 1.
+        *   Free Kicks: This snippet does *not* state that Player4 took a free kick, but that Player22 *won* a free kick due to Player4's foul.
+    *   **Snippet 3:** "Player4(Home Team) commits a foul."
+        *   Fouls: Player4 commits a foul, so increment Fouls by 1.
+    *   **Snippet 4:** "Player4(Home Team)'s shot from outside the box is saved in the bottom left corner with the help of Player11(Home Team)."
+        *   Shots: Player4 takes a shot, so increment Shots by 1.
+    *   **Snippet 5:** "Player4(Home Team)'s shot from the center of the box is blocked with the help of Player14(Home Team)."
+        *   Shots: Player4 takes a shot, so increment Shots by 1.
+
+4.  **Final Counts:**
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 3
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 2     | 0     | 0       | 0          | 3     | 0            | 0         | 0        |
+```

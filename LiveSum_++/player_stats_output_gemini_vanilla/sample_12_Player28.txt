@@ -1,0 +1,20 @@
+Okay, let's break this down step by step.
+
+1.  **Identify Target Player:** The target player is Player28.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player28(Away Team)'s shot from outside the box is saved in the top centre of the goal after being assisted by Player29(Away Team)." -  "shot" is present. Shots = 1, Goals = 0, Assists = 0.
+    *   **Snippet 2:** "Player28(Away Team) commits a foul." - "foul" is present. Fouls = 1.
+    *   **Snippet 3:** "Player28(Away Team) misses the goal with a right-footed shot from the right side of the box, assisted by Player23(Away Team)." - "misses the goal" and "shot" are present. Shots = 2, Goals = 0, Assists = 0.
+    *   **Snippet 4:** "Player28(Away Team)'s shot from outside the box is blocked with Player27(Away Team)'s assistance." - "shot" and "blocked" are present. Shots = 3, Goals = 0, Assists = 0.
+    *   **Snippet 5:** "Player28(Away Team)'s left footed shot from outside the box missed the target, going high and wide to the left." - "shot" and "missed" are present. Shots = 4, Goals = 0, Assists = 0.
+
+4.  **Final Counts:** Shots = 4, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 4     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

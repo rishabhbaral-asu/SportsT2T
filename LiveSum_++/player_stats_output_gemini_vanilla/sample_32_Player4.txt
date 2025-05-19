@@ -1,0 +1,33 @@
+Okay, I'm ready to process the commentary snippets and generate the player statistics table.
+
+**1. Identify Target Player:**
+
+The target player is Player4.
+
+**2. Initialize Counts:**
+
+Shots: 0, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+**3. Analyze Snippets:**
+
+*   **Snippet 1:** "Player4(Home Team) fouls Player28(Away Team), who wins a free kick on the left wing."
+    *   Fouls: Player4 commits a foul. Increment Fouls to 1.
+    *   Free Kicks: Player4 fouls Player28, so Player28 wins a free kick. This doesn't count as a free kick for Player4, since he didn't take the kick.
+*   **Snippet 2:** "Player4(Home Team)'s attempt with his right foot from outside the box is blocked."
+    *   Shots: Player4 attempts a shot which is blocked. Increment Shots to 1.
+*   **Snippet 3:** "Player4(Home Team) earns a free kick in their own half after being fouled by Player27(Away Team)."
+    *   Free Kicks: Player4 earns a free kick. Increment Free Kicks to 1.
+*   **Snippet 4:** "Player4(Home Team) committed a foul."
+    *   Fouls: Player4 committed a foul. Increment Fouls to 2.
+
+**4. Final Counts:**
+
+Shots: 1, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 2, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 1     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

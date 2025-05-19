@@ -1,0 +1,45 @@
+Okay, let's break this down step-by-step.
+
+1.  **Identify Target Player:** The target player is Player25.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1: "Player25(Away Team) commits a foul."**
+        *   The snippet explicitly states that Player25 committed a foul.
+        *   Increment Fouls: Fouls = 1
+
+    *   **Snippet 2: "Player25(Away Team) commits a foul and Player2(Home Team) is awarded a free kick in their own defensive half."**
+        *   The snippet explicitly states that Player25 committed a foul.
+        *   Increment Fouls: Fouls = 2
+
+    *   **Snippet 3: "Player25(Away Team) commits a foul."**
+        *   The snippet explicitly states that Player25 committed a foul.
+        *   Increment Fouls: Fouls = 3
+
+4. **Compile Final Counts:**
+
+* Shots: 0
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 3
+* Yellow Cards: 0
+* Red Cards: 0
+* Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 0     | 0     | 0       | 0          | 3     | 0            | 0         | 0        |
+```

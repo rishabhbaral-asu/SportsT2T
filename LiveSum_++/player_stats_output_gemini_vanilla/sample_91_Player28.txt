@@ -1,0 +1,27 @@
+Okay, let's analyze the commentary snippets for Player28 and create the summary table.
+
+1.  **Player Name:** The target player is Player28.
+2.  **Initialization:** Initialize all event counts to 0 for Player28.
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player28(Away Team)'s left footed shot from the left side of the box is saved by the goalkeeper after receiving a through ball from Player27(Away Team)."
+        *   This snippet explicitly states Player28 took a shot. Therefore, increment Shots by 1. No goal is scored. No foul, free kick, or card is committed. No assist.
+    *   **Snippet 2:** "Player28(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team."
+        *   This snippet says Player28 attempted a through ball, but Player29 was offside. This does not count as an assist as it did not lead to a goal. The snippet describes Player29 being offside, not Player28. Therefore, Offsides remains at 0 for Player28.
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

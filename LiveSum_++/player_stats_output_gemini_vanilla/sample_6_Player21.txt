@@ -1,0 +1,23 @@
+Okay, let's analyze the commentary snippets for Player21.
+
+**Player Name:** Player21
+
+**Commentary Snippets:**
+
+*   "Player21(Away Team) earns a free kick in their defensive half after Player10(Home Team) commits a foul."
+*   "Player21(Away Team) misses the target with a high and wide shot from outside the box, assisted by Player26(Away Team)."
+*   "Player21(Away Team) scores with a powerful right-footed shot from outside the box, bringing the score to Home Team 1, Away Team 3."
+
+**Step-by-step analysis:**
+
+1.  **Free Kicks:** The first snippet states "Player21(Away Team) earns a free kick". This means Player21 won a free kick, so Free Kicks is incremented by 1.
+2.  **Shots:** The second snippet states "Player21(Away Team) misses the target with a high and wide shot from outside the box". Thus, Shots is incremented by 1.
+3.  **Goals:** The third snippet states "Player21(Away Team) scores with a powerful right-footed shot from outside the box". Thus, Goals is incremented by 1. Because a goal counts as a shot, but we already counted it in the previous snippet, shots does not increment here.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 1     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

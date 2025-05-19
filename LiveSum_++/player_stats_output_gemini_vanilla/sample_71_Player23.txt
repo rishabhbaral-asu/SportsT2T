@@ -1,0 +1,45 @@
+Okay, let's analyze the commentary snippets for Player23.
+
+**Player Name:** Player23
+
+**Commentary Snippets:**
+- Player23(Away Team) commits a foul on Player8(Home Team), who earns a free kick on the left wing, The foul was committed by Player23(Away Team), resulting in Player8(Home Team) winning a free kick on the left wing.
+- Player23(Away Team) receives a yellow card for a rough tackle.
+
+**Step-by-step analysis:**
+
+1.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+2.  **Snippet 1 Analysis:**
+    *   "Player23(Away Team) commits a foul on Player8(Home Team), who earns a free kick on the left wing, The foul was committed by Player23(Away Team), resulting in Player8(Home Team) winning a free kick on the left wing."
+        *   The snippet explicitly states "Player23 commits a foul". Increment Fouls by 1.
+        *   The snippet explicitly states "Player8 wins a free kick" *as a result* of the foul committed by Player23. Therefore, Player23 is not taking a free kick, but has committed a foul leading to it.
+
+3.  **Snippet 2 Analysis:**
+    *   "Player23(Away Team) receives a yellow card for a rough tackle."
+        *   The snippet explicitly states "Player23 receives a yellow card". Increment Yellow Cards by 1.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 0     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

@@ -1,0 +1,38 @@
+Okay, let's process the input.
+
+1.  **Player Name:** Player6
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Commentary Snippet Analysis:**
+
+    *   Snippet 1: "Player6(Home Team)'s header from the center of the box just missed the top right corner, with Player10(Home Team) assisting with a cross after a corner kick."
+        *   The snippet explicitly states Player6 had a header that missed the goal. This qualifies as a shot. Shots = 1. Player10 assisted Player6, so no assist for Player6.
+    *   Snippet 2: "Player6(Home Team) commits a foul."
+        *   The snippet explicitly states Player6 committed a foul. Fouls = 1.
+    *   Snippet 3: "Player6(Home Team) commits a foul."
+        *   The snippet explicitly states Player6 committed a foul. Fouls = 2.
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 2
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

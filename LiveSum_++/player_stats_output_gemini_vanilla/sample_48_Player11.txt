@@ -1,0 +1,32 @@
+Okay, I'm ready to process the commentary snippets and generate the player statistics table.
+
+**1. Identify Target Player:**
+The target player is Player11.
+
+**2. Initialize Counts:**
+Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player11(Home Team)'s left-footed shot from the left side of the box is saved in the center of the goal with an assist from Player10(Home Team)."
+    *   The snippet explicitly states "shot" by Player11. Increment Shots: Shots = 1.
+    *   The snippet mentions "assist from Player10". Since Player11 *received* the assist, not provided it, Assists count remains 0.
+
+*   **Snippet 2:** "Player11(Home Team) commits a foul."
+    *   The snippet explicitly states "commits a foul" by Player11. Increment Fouls: Fouls = 1.
+
+*   **Snippet 3:** "Player11(Home Team) attempts a through ball, but Player9(Home Team) is offside for the Home Team."
+    *   The snippet indicates Player9 is offside and is NOT explicitly attributed to Player11. Offsides count remains 0.
+
+*   **Snippet 4:** "Player11(Home Team), thanks to a great assist from Player14(Home Team)."
+    *   Player11 is the recipient of the assist, and didn't give one. Assist count remains 0.
+
+**4. Final Counts:**
+Shots = 1, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,19 @@
+Okay, let's analyze the commentary snippets for Player4 and compile the statistics.
+
+1.  **Player Name:** The target player is Player4.
+2.  **Initialization:** We initialize the counts for Player4 as follows: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet Analysis:**
+    *   **Snippet 1:** "Player4(Home Team) receives a yellow card for a foul on Player35(Away Team)."
+        *   This snippet explicitly states that Player4 receives a yellow card. Increment Yellow Cards by 1.
+        *   The snippet mentions a foul by Player4 on Player35. Increment Fouls by 1.
+    *   **Snippet 2:** "Player4(Home Team) fouls Player22(Away Team), who earns a free kick on the right wing."
+        *   This snippet explicitly states that Player4 committed a foul. Increment Fouls by 1.
+
+4. **Final Counts:** Based on the analysis, the final counts are: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 2, Yellow Cards = 1, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 0     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

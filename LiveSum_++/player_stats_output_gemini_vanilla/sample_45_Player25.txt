@@ -1,0 +1,55 @@
+Okay, let's analyze the commentary snippets for Player25 and generate the final summary table.
+
+**1. Identify Target Player:**
+
+The target player is Player25.
+
+**2. Initialize Counts:**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**3. Analyze Snippets and Increment Counts:**
+
+*   **Snippet 1: "Player25(Away Team) commits a foul."**
+    *   This snippet explicitly states Player25 committed a foul.
+    *   Increment Fouls: Fouls = 1
+
+*   **Snippet 2: "Player25(Away Team)'s shot from outside the box is saved in the bottom left corner with an assist from Player28(Away Team)."**
+    *   This snippet explicitly states Player25 took a shot.
+    *   Increment Shots: Shots = 1
+    *   No assist to player 25 as it was an assist *from* another player.
+
+*   **Snippet 3: "Player25(Away Team)'s shot from outside the box is blocked by the defense, with an assist from Player29(Away Team)."**
+    *   This snippet explicitly states Player25 took a shot.
+    *   Increment Shots: Shots = 2
+    *   No assist to player 25 as it was an assist *from* another player.
+
+*   **Snippet 4: "Player25(Away Team) earns a free kick in the opponent's half."**
+    *   This snippet explicitly states Player25 earned a free kick.
+    *   Increment Free Kicks: Free Kicks = 1
+
+**4. Final Counts:**
+
+*   Shots = 2
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 1
+*   Fouls = 1
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

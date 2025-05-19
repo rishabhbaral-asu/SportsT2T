@@ -1,0 +1,44 @@
+Okay, I'm ready to analyze the commentary snippets for Player29.
+
+**Here's my step-by-step reasoning:**
+
+1.  **Identify Target Player:** The target player is Player29.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player29(Away Team) is causing a delay in the match due to an injury." - This does not contain any of the defined keywords related to shots, goals, assists, free kicks, fouls or cards. No change to the counts.
+
+    *   Snippet 2: "Player29(Away Team) commits a foul." - This explicitly states Player29 committed a foul. Increment Fouls by 1. Fouls = 1
+
+    *   Snippet 3: "Player29(Away Team) misses the target with a right-footed shot from the right side of the box." - This explicitly states Player29 took a shot. Increment Shots by 1. Shots = 1
+
+    *   Snippet 4: "Player29(Away Team) has been booked with a yellow card." - This explicitly states Player29 received a yellow card. Increment Yellow Cards by 1. Yellow Cards = 1
+
+    *   Snippet 5: "Player29(Away Team) commits a foul, resulting in Player2(Home Team) winning a free kick in their defensive half." - This explicitly states Player29 committed a foul. Increment Fouls by 1. Fouls = 2.
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 2
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 1     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

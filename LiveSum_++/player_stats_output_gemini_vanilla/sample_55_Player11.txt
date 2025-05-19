@@ -1,0 +1,40 @@
+Okay, let's analyze the commentary snippets for Player11.
+
+**Player Name:** Player11
+
+**Commentary Snippets:**
+- Player11(Home Team) fouls Player25(Away Team), earning a free kick in their own defensive half.
+
+**Analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet Analysis:**
+    *   "Player11(Home Team) fouls Player25(Away Team), earning a free kick in their own defensive half."
+        *   **Fouls:** The snippet explicitly states "Player11 fouls Player25". Therefore, increment Fouls by 1.
+        *   **Free Kicks:** The snippet explicitly states Player25 earns a free kick as a result of being fouled by Player11. Since Player11 did not take the free kick but rather committed the foul, there's no increment to free kicks for Player11.
+
+3.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

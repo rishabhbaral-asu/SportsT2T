@@ -1,0 +1,36 @@
+Okay, let's analyze the provided commentary snippets for Player8 and generate the final summary table.
+
+**Player Name:** Player8
+
+**Commentary Snippets:**
+- Player8(Home Team) earns a free kick in their own half.
+- Player8(Home Team) commits a foul.
+- Player8(Home Team)'s shot from outside the box is blocked with Player11(Home Team)'s assistance.
+- Player8(Home Team)'s shot from outside the box is blocked with Player10(Home Team)'s assistance.
+- Player8(Home Team) commits a foul.
+
+**Step-by-step Analysis:**
+
+1. **Player8 earns a free kick in their own half:** This indicates Player8 won a free kick due to an opponent's action. Therefore, increment Free Kicks by 1.
+2. **Player8 commits a foul:** This indicates Player8 committed a foul. Increment Fouls by 1.
+3. **Player8's shot from outside the box is blocked with Player11(Home Team)'s assistance:** This indicates Player8 took a shot. Increment Shots by 1. Player11's assistance is irrelevant to Player8's assist count.
+4. **Player8's shot from outside the box is blocked with Player10(Home Team)'s assistance:** This indicates Player8 took a shot. Increment Shots by 1. Player10's assistance is irrelevant to Player8's assist count.
+5. **Player8 commits a foul:** This indicates Player8 committed a foul. Increment Fouls by 1.
+
+**Final Counts:**
+
+*   Shots: 2
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 2
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 2     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

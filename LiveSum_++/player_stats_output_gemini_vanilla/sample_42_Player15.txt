@@ -1,0 +1,40 @@
+Okay, let's start by identifying the target player and initializing the event counts.
+
+Target Player: Player15
+
+Initialized Counts:
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Now, let's analyze the commentary snippets and increment the counts based on the instructions.
+
+Snippet 1: "Player15(Home Team) fouls Player27(Away Team) on the right wing, resulting in a free kick being awarded."
+*   Fouls: Player15 commits a foul, so increment Fouls by 1.
+    Fouls = 1
+
+Snippet 2: "Player15(Home Team) receives a yellow card for a rough tackle."
+*   Yellow Cards: Player15 receives a yellow card, so increment Yellow Cards by 1.
+    Yellow Cards = 1
+
+Final Counts:
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 1
+Yellow Cards: 1
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player15 | 0     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

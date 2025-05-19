@@ -1,0 +1,33 @@
+Okay, let's break this down step by step.
+
+1.  **Player Identification:** The target player is Player10.
+
+2.  **Initialization:** Initialize all event counts to 0 for Player10.
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player10(Home Team) commits a foul on Player21(Away Team), who wins a free kick in the defensive half, This results in a set piece opportunity for their team."
+        *   "commits a foul" indicates a foul committed by Player10. Increment Fouls by 1.
+        * "wins a free kick" indicates a Free Kick as a result of Player10's foul. Increment Free Kicks by 1.
+        * No mention of shots, goals, assists, yellow cards, red cards, or offsides.
+
+    *   **Snippet 2:** "Player10(Home Team) fouls Player28(Away Team) on the left wing, resulting in a free kick being awarded."
+        *   "fouls" indicates a foul committed by Player10. Increment Fouls by 1.
+        * No mention of shots, goals, assists, yellow cards, red cards, or offsides.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 2
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 0     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

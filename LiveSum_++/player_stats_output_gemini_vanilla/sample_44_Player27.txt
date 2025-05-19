@@ -1,0 +1,45 @@
+Okay, let's analyze the commentary snippets for Player27 and compile the statistics.
+
+**1. Identify Target Player:**
+
+The target player is Player27.
+
+**2. Initialize Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze Snippets:**
+
+*   **Snippet 1:** "Player27(Away Team)'s header from the right side of the six yard box is saved in the center of the goal after being assisted by Player28(Away Team) with a cross."
+    *   "header" implies an attempt on goal, so increment Shots.
+    *   Since the header was "saved," there is no goal.
+    *   The snippet indicates Player27 was *assisted by* Player28, so Player27 does NOT receive an assist here.
+
+*   **Snippet 2:** "Player27(Away Team)'s shot from outside the box is saved in the bottom left corner."
+    *   "shot" is explicitly mentioned, so increment Shots.
+    *   Since the shot was "saved," there is no goal.
+
+**4. Compile Final Counts:**
+
+*   Shots: 2
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

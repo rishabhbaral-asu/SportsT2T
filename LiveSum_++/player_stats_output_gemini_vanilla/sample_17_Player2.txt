@@ -1,0 +1,34 @@
+Okay, let's analyze the commentary snippets for Player2 and compile the statistics.
+
+**Player Name:** Player2
+
+**Commentary Snippets:**
+
+*   "Player2(Home Team) earns a free kick in their own half."
+*   "Player2(Home Team) misses with a high right-footed shot from outside the box."
+
+**Step-by-step Analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1: "Player2(Home Team) earns a free kick in their own half."**
+    *   This snippet indicates Player2 was fouled or won a free kick. Therefore, Free Kicks = Free Kicks + 1 = 1
+
+3.  **Snippet 2: "Player2(Home Team) misses with a high right-footed shot from outside the box."**
+    *   This snippet indicates Player2 took a shot. Therefore, Shots = Shots + 1 = 1
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

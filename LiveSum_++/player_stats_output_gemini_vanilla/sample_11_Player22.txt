@@ -1,0 +1,55 @@
+Okay, let's analyze the commentary snippets for Player22 and generate the summary table.
+
+**Player Name:** Player22
+
+**Commentary Snippets:**
+
+*   Player22(Away Team) commits a foul, resulting in Player4(Home Team) winning a free kick in their defensive half.
+*   Player22(Away Team) commits a foul.
+*   Player22(Away Team) attempts a through ball, but Player28(Away Team) is caught offside.
+*   Player22(Away Team) commits a foul.
+
+**Step-by-step analysis:**
+
+1.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+2.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player22(Away Team) commits a foul, resulting in Player4(Home Team) winning a free kick in their defensive half."
+        *   Fouls: Player22 commits a foul is explicitly stated. Increment Fouls to 1.
+        *   Free Kicks: Player22 commits a foul resulting in a free kick, but Player22 does not take a free kick.
+
+    *   **Snippet 2:** "Player22(Away Team) commits a foul."
+        *   Fouls: Player22 commits a foul is explicitly stated. Increment Fouls to 2.
+
+    *   **Snippet 3:** "Player22(Away Team) attempts a through ball, but Player28(Away Team) is caught offside."
+        *   Offsides: Player28 is caught offside, NOT Player22. Thus do not increment Offsides for Player22.
+        *   No other events for Player22 are mentioned.
+
+    *   **Snippet 4:** "Player22(Away Team) commits a foul."
+        *   Fouls: Player22 commits a foul is explicitly stated. Increment Fouls to 3.
+
+3.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 3
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 0     | 0     | 0       | 0          | 3     | 0            | 0         | 0        |
+```

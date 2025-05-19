@@ -1,0 +1,43 @@
+Okay, let's analyze the commentary snippets for Player4 and compile the statistics.
+
+**Step 1: Identify the target player**
+
+The target player is Player4.
+
+**Step 2: Initialize counts**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**Step 3: Analyze each snippet**
+
+*   **Snippet 1:** "Player4(Home Team) misses the goal with a left-footed shot from outside the box after a set piece."
+    *   The snippet explicitly mentions "Player4" missing a shot. Thus, Shots += 1. Since it's a miss, Goals does not increment. Free Kick does not increment as it mentions the shot occurred "after a set piece."
+*   **Snippet 2:** "Player4(Home Team) commits a foul."
+    *   The snippet explicitly mentions "Player4" committing a foul. Thus, Fouls += 1.
+
+**Step 4: Final Counts**
+
+*   Shots = 1
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 1
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**Step 5: Create the Final Summary Table**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,50 @@
+Okay, let's analyze the commentary snippets for Player24.
+
+1.  **Player Name:** The target player is Player24.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player24(Away Team) misses the target with a high and wide shot from outside the box, assisted by Player20(Away Team)."
+        *   Shots: Player24 misses a shot, so increment Shots by 1.
+        *   Goals: No goal scored.
+        *   Assists: Player24 received an assist, but did not *give* one, so no assist is counted.
+    *   Snippet 2: "Player24(Away Team) receives a yellow card for a dangerous tackle."
+        *   Yellow Cards: Player24 receives a yellow card, so increment Yellow Cards by 1.
+        *   Fouls: Player24 made a dangerous tackle, implying a foul, so increment Fouls by 1.
+    *   Snippet 3: "Player24(Away Team) scores with a left footed shot from outside the box to tie the game 2-2, assisted by Player28(Away Team)."
+        *   Goals: Player24 scores a goal, so increment Goals by 1.
+        *   Shots: Player24 scores with a shot, so increment Shots by 1.
+        *   Assists: Player24 received an assist, but did not *give* one, so no assist is counted.
+    *   Snippet 4: "Player24(Away Team)'s shot from the center of the box with his right foot narrowly misses to the left, with an assist from Player29(Away Team)."
+        *   Shots: Player24 misses a shot, so increment Shots by 1.
+        *   Goals: No goal scored.
+        *   Assists: Player24 received an assist, but did not *give* one, so no assist is counted.
+    *   Snippet 5: "Player24(Away Team) commits a foul, resulting in Player8(Home Team) winning a free kick in their own defensive half."
+        *   Fouls: Player24 commits a foul, so increment Fouls by 1.
+
+4.  **Final Counts:**
+    *   Shots: 3
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 2
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 3     | 1     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

@@ -1,0 +1,38 @@
+Okay, I will follow the instructions meticulously.
+
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
+
+**Input:**
+* **Player Name:**
+    <PLAYER_NAME>
+    Player6
+    </PLAYER_NAME>
+* **Commentary Snippets:**
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player6(Home Team)'s shot from the right side of the box is saved in the top right corner, assisted by Player11(Home Team), resulting in a corner kick for the Home Team.
+- Player6(Home Team) earns a free kick in their own half.
+    </PLAYER_COMMENTARY_SNIPPETS>
+
+1.  **Identify the target player name:** The target player is Player6.
+2.  **Initialize counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze snippets:**
+    *   Snippet 1: "Player6(Home Team)'s shot from the right side of the box is saved in the top right corner, assisted by Player11(Home Team), resulting in a corner kick for the Home Team."
+        *   Mentions "shot" by Player6, so Shots = 1.
+        *   Does not mention a goal. Goals = 0.
+        *   Player6 was assisted, not the one assisting, so Assists = 0.
+        *   Does not mention any free kick events. Free Kicks = 0.
+        *   Does not mention any fouls. Fouls = 0.
+        *   Does not mention any cards. Yellow Cards = 0, Red Cards = 0.
+        *   Does not mention offsides. Offsides = 0.
+    *   Snippet 2: "Player6(Home Team) earns a free kick in their own half."
+        *   Mentions "earns a free kick". This counts as Player6 taking a free kick. Free Kicks = 1.
+        *   Does not mention shots, goals, assists, fouls, cards, or offsides.
+
+4.  **Final Counts:** Shots = 1, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

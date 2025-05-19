@@ -1,0 +1,28 @@
+Okay, let's analyze the commentary snippets for Player16 and compile the statistics.
+
+**Player Name:** Player16
+
+**Commentary Snippets:**
+
+*   "Player16(Home Team), but Player9(Home Team) is flagged offside."
+*   "Player16(Home Team) strikes the left post with a shot from the left side of the six yard box using their right foot."
+*   "Player16(Home Team) commits a foul."
+*   "Player16(Home Team) just missed a header from the center of the box to the left, helped by a cross from Player8(Home Team)."
+
+**Step-by-step Analysis:**
+
+1.  **Shots:** The second snippet explicitly states "Player16(Home Team) strikes the left post with a shot...". This clearly indicates a shot attempt by Player16, so increment Shots by 1. The fourth snippet also indicates a shot attempt "Player16(Home Team) just missed a header..." so we increment Shots by 1 again. Total shots = 2
+2.  **Goals:** No snippet explicitly mentions Player16 scoring a goal. Therefore, Goals remains 0.
+3.  **Assists:** The fourth snippet says the header was "helped by a cross from Player8(Home Team)." Since the player was helped or assisted *by* Player8, it does not increment Player16's assists. Therefore, Assists remains 0.
+4.  **Free Kicks:** No snippet explicitly states Player16 took a free kick, penalty kick or was fouled to win a free kick/penalty. Therefore, Free Kicks remains 0.
+5.  **Fouls:** The third snippet states "Player16(Home Team) commits a foul." This clearly indicates a foul committed by Player16, so increment Fouls by 1.
+6.  **Yellow Cards:** No snippet explicitly mentions Player16 receiving a yellow card. Therefore, Yellow Cards remains 0.
+7.  **Red Cards:** No snippet explicitly mentions Player16 receiving a red card. Therefore, Red Cards remains 0.
+8.  **Offsides:** The first snippet says "Player16(Home Team), but Player9(Home Team) is flagged offside". This does not mean Player16 is offside. Therefore, Offsides remains 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player16 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

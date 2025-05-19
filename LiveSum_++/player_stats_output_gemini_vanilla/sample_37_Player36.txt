@@ -1,0 +1,35 @@
+Okay, let's process the player commentary snippets for Player36.
+
+**Player Name:** Player36
+
+**Commentary Snippets:**
+- Player36(Away Team) attempts a through ball, but Player31(Away Team) is caught offside.
+- Player36(Away Team)'s left-footed shot from the center of the box, assisted by Player35(Away Team), is blocked, while Player26(Away Team)'s right-footed shot from outside the box, assisted by Player27(Away Team), misses to the left.
+
+**Reasoning:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1 Analysis:**
+    *   "Player36(Away Team) attempts a through ball, but Player31(Away Team) is caught offside."
+    *   Player36 attempts a through ball which leads to offside on another player. This does not count as a shot, assist, free kick, foul, or offside for Player36.
+
+3.  **Snippet 2 Analysis:**
+    *   "Player36(Away Team)'s left-footed shot from the center of the box, assisted by Player35(Away Team), is blocked, while Player26(Away Team)'s right-footed shot from outside the box, assisted by Player27(Away Team), misses to the left."
+    *   "Player36(Away Team)'s left-footed shot from the center of the box, assisted by Player35(Away Team), is blocked": This mentions Player36 taking a shot that was blocked. So, Shots = 1. The fact that Player35 assisted him does *not* give Player36 an assist.
+    *   "while Player26(Away Team)'s right-footed shot from outside the box, assisted by Player27(Away Team), misses to the left.": This doesn't involve Player36.
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player36 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,49 @@
+Okay, let's analyze the commentary snippets for Player26 and generate the requested markdown table.
+
+**Player Name:** Player26
+
+**Commentary Snippets:**
+
+*   "Player26(Away Team) commits a foul."
+*   "Player26(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team."
+*   "Player26(Away Team) commits a foul, resulting in Player4(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player4(Home Team)'s team."
+*   "Player26(Away Team) receives a yellow card for a rough tackle."
+
+**Step-by-step analysis:**
+
+1.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+2.  **Analyze Snippets:**
+
+    *   **Snippet 1: "Player26(Away Team) commits a foul."**
+        *   Explicitly states Player26 committed a foul.
+        *   Increment Fouls: Fouls = 1
+
+    *   **Snippet 2: "Player26(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team."**
+        *   Player26 attempts a through ball but this doesn't trigger the keywords or event definitions for Shots, Goals, Assists, Free Kicks or Fouls. Offside is attributed to Player29, not Player26.
+        *   No change to counts.
+
+    *   **Snippet 3: "Player26(Away Team) commits a foul, resulting in Player4(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player4(Home Team)'s team."**
+        *   Explicitly states Player26 committed a foul.
+        *   Increment Fouls: Fouls = 2.
+        *   Player4 wins the free kick, so this does not count as a free kick for Player26.
+
+    *   **Snippet 4: "Player26(Away Team) receives a yellow card for a rough tackle."**
+        *   Explicitly states Player26 received a yellow card.
+        *   Increment Yellow Cards: Yellow Cards = 1
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 0     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

@@ -1,0 +1,57 @@
+Okay, let's break this down step by step.
+
+1.  **Player Name:** `Player9`
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Commentary Snippet Analysis:**
+
+    *   Snippet 1: "Player9(Home Team) commits a foul."
+        *   Explicitly states Player9 committed a foul.
+        *   Fouls = 1
+
+    *   Snippet 2: "Player9(Home Team) misses the mark with a left-footed shot from close range after receiving a cross from Player2(Home Team)."
+        *   Explicitly states Player9 missed a shot.
+        *   Shots = 1
+
+    *   Snippet 3: "Player9(Home Team)'s header from close range, assisted by Player3(Home Team), goes high and wide to the right."
+        *   Explicitly states Player9 had a header that went high and wide (a shot).
+        *   Shots = 2
+
+    *   Snippet 4: "Player9(Home Team)'s shot from outside the box is blocked after an assist from Player16(Home Team)."
+        *   Explicitly states Player9's shot was blocked.
+        *   Shots = 3
+
+    *   Snippet 5: "Player9(Home Team) scores for the Home Team, tying the game at 1-1 with a right-footed shot from the left side of the six-yard box, assisted by Player7(Home Team)."
+        *   Explicitly states Player9 scored a goal.
+        *   Shots = 4
+        *   Goals = 1
+
+    *   Snippet 6: "Player9(Home Team)'s header from the center of the box is blocked after a cross from Player18(Home Team)."
+        *   Explicitly states Player9's header was blocked.
+        *   Shots = 5
+
+4.  **Final Counts:**
+    *   Shots = 5
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 5     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

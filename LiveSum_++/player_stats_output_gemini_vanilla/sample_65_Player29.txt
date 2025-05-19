@@ -1,0 +1,47 @@
+Okay, I'm ready to process the player commentary and generate the statistics table.
+
+**1. Identify Target Player:**
+
+The target player is Player29.
+
+**2. Initialize Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player29(Away Team) is causing a delay in the match due to an injury." - No relevant event is mentioned that can be counted.
+*   **Snippet 2:** "Player29(Away Team)'s shot from the center of the box is saved in the top left corner after an assist from Player26(Away Team)." - A shot is taken by Player29. Shots count is incremented. Since the player was assisted, no assist is added.
+    *   Shots: 1
+*   **Snippet 3:** "Player29(Away Team)'s attempt from outside the box narrowly misses the target as the shot goes just over the crossbar." - A shot is taken by Player29. Shots count is incremented.
+    *   Shots: 2
+*   **Snippet 4:** "Player29(Away Team)'s attempt from outside the box is blocked with Player22(Away Team) providing the assist." - A shot is taken by Player29. Shots count is incremented. Since the player was assisted, no assist is added.
+    *   Shots: 3
+*   **Snippet 5:** "Player29(Away Team) commits a foul." - Player29 commits a foul. Fouls count is incremented.
+    *   Fouls: 1
+
+**4. Final Counts:**
+
+*   Shots: 3
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 3     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

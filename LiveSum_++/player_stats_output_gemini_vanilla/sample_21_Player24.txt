@@ -1,0 +1,41 @@
+Okay, let's analyze the commentary snippets for Player24.
+
+1.  **Identify the target player name:** The target player is Player24.
+
+2.  **Initialize counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze each snippet:**
+
+    *   Snippet 1: "Player24(Away Team) scores with a right-footed shot from the center of the box, assisted by Player25(Away Team) after a corner kick, The Away Team now leads 2-0 against the Home Team."
+        *   The snippet explicitly states Player24 scores a goal. Increment Goals and Shots. The assist provided to Player24 does not count as an assist for Player24.
+        *   Shots: 0 + 1 = 1
+        *   Goals: 0 + 1 = 1
+
+    *   Snippet 2: "Player24(Away Team) commits a foul."
+        *   The snippet explicitly states Player24 commits a foul.
+        *   Fouls: 0 + 1 = 1
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 1     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

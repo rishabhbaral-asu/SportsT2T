@@ -1,0 +1,46 @@
+Okay, let's analyze the commentary snippets for Player22 and generate the final summary table.
+
+**Player Name:** Player22
+
+**Commentary Snippets:**
+
+*   "Player22(Away Team) earns a free kick in their own half after being fouled by Player7(Home Team)."
+*   "Player22(Away Team) receives a yellow card."
+*   "Player22(Away Team) earns a free kick in their own half."
+*   "Player22(Away Team) attempts a through ball to Player17(Home Team), who is offside."
+
+**Step-by-step Analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1: "Player22(Away Team) earns a free kick in their own half after being fouled by Player7(Home Team)."**
+    *   Player22 earns a free kick after being fouled. This counts as a Free Kick (taken).
+    *   Free Kicks = 1
+
+3.  **Snippet 2: "Player22(Away Team) receives a yellow card."**
+    *   Player22 receives a yellow card.
+    *   Yellow Cards = 1
+
+4.  **Snippet 3: "Player22(Away Team) earns a free kick in their own half."**
+    *   Player22 earns a free kick. This counts as a Free Kick (taken).
+    *   Free Kicks = 2
+
+5.  **Snippet 4: "Player22(Away Team) attempts a through ball to Player17(Home Team), who is offside."**
+    *   Player17 is offside because of a through ball from Player22. Thus, Player22 is the one who caused an offside.
+    *   Offsides = 1
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 0     | 0     | 0       | 2          | 0     | 1            | 0         | 1        |
+```

@@ -1,0 +1,39 @@
+Okay, let's start by identifying the target player and initializing the event counts.
+
+**1. Identify Target Player:**
+The target player is Player5.
+
+**2. Initialize Event Counts:**
+Shots: 0, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player5(Home Team)'s header from the center of the box is saved by the goalkeeper after an assist from Player7(Home Team) with a cross."
+    *   Shots: The snippet mentions "header from the center of the box is saved by the goalkeeper", so Player5 had a shot. Increment Shots to 1.
+    *   Goals: No goal mentioned.
+    *   Assists: The snippet indicates Player5 was *assisted by* Player7, NOT the other way around. Do not increment Assists.
+    *   Free Kicks: No free kick mentioned.
+    *   Fouls: No foul mentioned.
+    *   Yellow Cards: No yellow card mentioned.
+    *   Red Cards: No red card mentioned.
+    *   Offsides: No offside mentioned.
+
+*   **Snippet 2:** "Player5(Home Team) earns a free kick in their own half."
+    *   Shots: No shot mentioned.
+    *   Goals: No goal mentioned.
+    *   Assists: No assist mentioned.
+    *   Free Kicks: The snippet mentions "Player5 earns a free kick". Increment Free Kicks to 1.
+    *   Fouls: No foul mentioned.
+    *   Yellow Cards: No yellow card mentioned.
+    *   Red Cards: No red card mentioned.
+    *   Offsides: No offside mentioned.
+
+**4. Final Counts:**
+Shots: 1, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

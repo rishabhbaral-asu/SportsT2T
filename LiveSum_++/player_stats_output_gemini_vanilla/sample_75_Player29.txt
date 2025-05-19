@@ -1,0 +1,45 @@
+Okay, let's analyze the commentary snippets for Player29 and compile the statistics.
+
+1.  **Player Name:** Player29
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player29(Away Team) misses the target with a right-footed shot from the left side of the box, assisted by Player21(Away Team)."
+        *   Player29: "misses the target with a right-footed shot" - Increment Shots by 1.
+        *   Assisted by Player21: This does not increment assists for Player29.
+
+    *   Snippet 2: "Player29(Away Team) commits a foul on Player7(Home Team), who earns a free kick in their defensive half."
+        *   Player29: "commits a foul" - Increment Fouls by 1.
+
+    *   Snippet 3: "Player29(Away Team)'s right footed shot from outside the box narrowly misses to the left on a direct free kick."
+        *   Player29: "right footed shot from outside the box narrowly misses to the left on a direct free kick."
+        *   Increment Shots by 1.
+        *   Increment Free Kicks by 1.
+
+4.  **Final Counts:**
+
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

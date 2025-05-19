@@ -1,0 +1,39 @@
+Okay, let's break down the player commentary snippets and count the events for Player14.
+
+**Player Name:** Player14
+
+**Commentary Snippets:**
+
+*   "Player14(Home Team) wins a free kick in the attacking half and Player6(Home Team)'s left footed shot from the center of the box is blocked after being assisted by Player11(Home Team) with a cross."
+    *   Player14 wins a free kick. Increment Free Kicks by 1.
+    *   Player6 has a shot, which is not relevant to Player14.
+
+*   "Player14(Home Team)'s left footed shot from outside the box was blocked with an assist from Player4(Home Team)."
+    *   Player14 has a shot. Increment Shots by 1.
+
+*   "Player14(Home Team)'s shot from the center of the box was blocked by the defense after receiving a cross from Player17(Home Team)."
+    *   Player14 has a shot. Increment Shots by 1.
+
+*   "Player14(Home Team) earns a free kick in the opponent's half."
+    *   Player14 earns a free kick. Increment Free Kicks by 1.
+
+*   "Player14(Home Team) misses the shot with his right foot from a tough angle after a corner kick."
+    *   Player14 misses a shot. Increment Shots by 1.
+
+**Counts:**
+
+*   Shots: 3
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 2
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player14 | 3     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

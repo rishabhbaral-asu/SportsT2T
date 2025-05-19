@@ -1,0 +1,51 @@
+Okay, let's analyze the commentary snippets for Player4.
+
+1.  **Player Name:** Player4
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player4(Home Team)'s left-footed shot from outside the box, assisted by Player9(Home Team), was blocked due to a foul by Player25(Away Team)."
+        *   Shots += 1 (explicitly mentioned "shot")
+
+    *   Snippet 2: "Player4(Home Team) earns a free kick in their own half."
+        *   Free Kicks += 1 (explicitly mentioned "earns a free kick")
+
+    *   Snippet 3: "Player4(Home Team)'s left-footed shot from outside the box into the top right corner, assisted by Player9(Home Team)."
+        *   Shots += 1 (explicitly mentioned "shot")
+        *   Goals += 1 (explicitly mentioned a shot that went into the top right corner, thus a "goal")
+
+    *   Snippet 4: "Player4(Home Team) earns a free kick in their own defensive half."
+        *   Free Kicks += 1 (explicitly mentioned "earns a free kick")
+
+    *   Snippet 5: "Player4(Home Team) earns a free kick in their own half."
+        *   Free Kicks += 1 (explicitly mentioned "earns a free kick")
+
+    *   Snippet 6: "Player4(Home Team) earns a free kick in their own half."
+        *   Free Kicks += 1 (explicitly mentioned "earns a free kick")
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 4
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 2     | 1     | 0       | 4          | 0     | 0            | 0         | 0        |
+```

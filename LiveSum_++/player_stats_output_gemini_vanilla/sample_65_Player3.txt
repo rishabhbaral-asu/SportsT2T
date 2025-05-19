@@ -1,0 +1,40 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
+
+1.  **Identify the target player name:**
+
+    The target player name is Player3.
+
+2.  **Initialize counts:**
+
+    Shots = 0
+    Goals = 0
+    Assists = 0
+    Free Kicks = 0
+    Fouls = 0
+    Yellow Cards = 0
+    Red Cards = 0
+    Offsides = 0
+
+3.  **Analyze each snippet:**
+
+    *   Snippet 1: "Player3(Home Team)'s left footed shot from outside the box was just too high, with an assist from Player7(Home Team)."
+
+        *   Shots: The snippet explicitly states "Player3's left footed shot". Increment Shots. Shots = 1
+        *   Goals: The snippet does not explicitly state "goal" or "scores" related to Player3.
+        *   Assists: The snippet says the shot was "with an assist from Player7". It doesn't say Player3 provided the assist, so do not increment.
+        *   Free Kicks: The snippet does not explicitly state Player3 took a free kick, won a free kick, or was fouled.
+        *   Fouls: The snippet does not explicitly state Player3 committed a foul.
+        *   Yellow Cards: The snippet does not explicitly state Player3 received a yellow card.
+        *   Red Cards: The snippet does not explicitly state Player3 received a red card.
+        *   Offsides: The snippet does not explicitly state Player3 was offsides.
+
+4.  **Compile the final summary table:**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

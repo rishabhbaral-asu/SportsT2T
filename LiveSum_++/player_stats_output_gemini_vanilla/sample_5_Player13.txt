@@ -1,0 +1,50 @@
+Okay, let's break down the process step by step.
+
+1.  **Identify Target Player:** The target player is Player13.
+
+2.  **Initialize Counters:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player13(Home Team) commits a foul, resulting in Player21(Away Team) earning a free kick on the left wing, ."
+        *   Fouls: Player13 commits a foul. Increment Fouls by 1.
+        *   Free Kicks: Player21 earned a free kick as a result of Player13's foul. This does NOT count as a free kick taken by Player13
+
+    *   **Snippet 2:** "Player13(Home Team) commits a foul, resulting in Player21(Away Team) winning a free kick on the left wing, The foul was committed by Player13(Home Team), leading to Player21(Away Team) being awarded a free kick on the left wing."
+        *   Fouls: Player13 commits a foul. Increment Fouls by 1.
+        *   Free Kicks: Player21 won a free kick as a result of Player13's foul. This does NOT count as a free kick taken by Player13
+
+    *   **Snippet 3:** "Player13(Home Team) commits a foul."
+        *   Fouls: Player13 commits a foul. Increment Fouls by 1.
+
+    *   **Snippet 4:** "Player13(Home Team) has given away a penalty in the box with a foul."
+        *   Fouls: Player13 commits a foul (giving away a penalty). Increment Fouls by 1.
+
+    *   **Snippet 5:** "Player13(Home Team) has been given a yellow card for a harsh challenge."
+        *   Yellow Cards: Player13 received a yellow card. Increment Yellow Cards by 1.
+
+4.  **Compile Final Counts:**
+
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 4
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player13 | 0     | 0     | 0       | 0          | 4     | 1            | 0         | 0        |
+```

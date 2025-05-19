@@ -1,0 +1,61 @@
+Okay, let's analyze the commentary snippets for Player18 and generate the final summary table.
+
+**1. Identify the target player:**
+
+The target player is Player18.
+
+**2. Initialize Counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   Snippet 1: "Player18(Home Team) commits a foul."
+    *   Fouls += 1
+
+*   Snippet 2: "Player18(Home Team)'s shot from the left side of the box was blocked with the help of Player11(Home Team)."
+    *   Shots += 1
+
+*   Snippet 3: "Player18(Home Team)'s left footed shot from the left side of the box narrowly misses to the left, with an assist from Player11(Home Team) after a set piece."
+    *   Shots += 1
+    *   Note: Player18 was assisted, so Player18 doesn't get an assist.
+
+*   Snippet 4: "Player18(Home Team) of the Home Team attempts a through ball, but Player9(Home Team) is offside."
+    *   No event to increment.
+
+*   Snippet 5: "Player18(Home Team)'s shot from the left side of the box is saved in the bottom left corner after a through ball from Player9(Home Team)."
+    *   Shots += 1
+
+*   Snippet 6: "Player18(Home Team) scores from the penalty spot with a right-footed shot into the bottom right corner."
+    *   Goals += 1
+    *   Shots += 1
+    *   Free Kicks += 1 (scoring from penalty spot means they took a penalty)
+
+*   Snippet 7: "Player18(Home Team) successfully earns a free kick in their own half."
+    *   Free Kicks += 1
+
+**4. Final Counts:**
+
+Shots = 4
+Goals = 1
+Assists = 0
+Free Kicks = 2
+Fouls = 1
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player18 | 4     | 1     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

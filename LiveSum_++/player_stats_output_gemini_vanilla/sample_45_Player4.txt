@@ -1,0 +1,21 @@
+Okay, I'm ready to analyze the commentary snippets for the specified player and generate the markdown table.
+
+**Step-by-step reasoning:**
+
+1.  **Identify Target Player:** The target player is Player4.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Snippets:**
+    *   **Snippet 1:** "Player4(Home Team) commits a foul."
+        *   The snippet explicitly states that Player4 committed a foul.
+        *   Increment Fouls count: Fouls = 1.
+    *   **Snippet 2:** "Player4(Home Team) concedes a penalty after fouling Player25(Away Team) in the penalty area, resulting in a penalty for the Away Team."
+        *   The snippet explicitly states that Player4 committed a foul, resulting in a penalty.
+        *   Increment Fouls count: Fouls = 2.
+4.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 2, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 0     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

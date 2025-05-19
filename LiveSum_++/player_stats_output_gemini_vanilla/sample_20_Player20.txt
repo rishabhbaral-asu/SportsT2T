@@ -1,0 +1,44 @@
+Okay, let's process the provided inputs step-by-step.
+
+1.  **Player Name:** The target player is Player20.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Commentary Snippet Analysis:**
+
+    *   **Snippet 1:** "Player20(Away Team) attempts a through ball, but Player27(Away Team) is offside for the Away Team."
+        *   This snippet mentions Player20 attempting a through ball but does not explicitly state the ball led to a goal. It results in Player27 being offside. Therefore, there are no shots, goals or assists here. There are also no fouls, yellow cards or red cards. Since Player20 attempts a through ball, that doesn't count as a free kick. Player27 being offside does not count as Player20 being offside.
+        *   No changes to counts.
+
+    *   **Snippet 2:** "Player20(Away Team) commits a foul, resulting in Player10(Home Team) being awarded a free kick in their own defensive half, This leads to a set piece opportunity for Player10(Home Team)."
+        *   This snippet explicitly states "Player20(Away Team) commits a foul".
+        *   Increment Fouls: Fouls = 0 + 1 = 1
+
+    *   **Snippet 3:** "Player20(Away Team) receives a yellow card."
+        *   This snippet explicitly states "Player20(Away Team) receives a yellow card."
+        *   Increment Yellow Cards: Yellow Cards = 0 + 1 = 1
+
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 0     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

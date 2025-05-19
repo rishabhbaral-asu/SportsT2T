@@ -1,0 +1,49 @@
+Okay, let's process the input step-by-step.
+
+1.  **Player Name:** The target player is Player27.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Commentary Analysis:**
+
+    *   Snippet 1: "Player27(Away Team) scores a header from the center of the box to make it Home Team 0, Away Team 2, assisted by Player29(Away Team) with a cross."
+        *   `scores`: Goal = 1
+        *   `header`: Shot = 1 (since it is a header that scores, so a shot)
+        *   Assists = 0 (Player27 received an assist, did not give one)
+
+    *   Snippet 2: "Player27(Away Team) earns a free kick on the left side of the field."
+        *   `earns a free kick`: Free Kicks = 1
+
+    *   Snippet 3: "Player27(Away Team) commits a foul, resulting in Player2(Home Team) being awarded a free kick in their defensive half."
+        *   `commits a foul`: Fouls = 1
+
+    *   Snippet 4: "Player27(Away Team) commits a foul."
+        *   `commits a foul`: Fouls = 1
+
+    *   Snippet 5: "Player27(Away Team) has won a free kick in the attacking half, they are ready to continue."
+        *   `has won a free kick`: Free Kicks = 1
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 2
+    *   Fouls = 2
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 1     | 1     | 0       | 2          | 2     | 0            | 0         | 0        |
+```

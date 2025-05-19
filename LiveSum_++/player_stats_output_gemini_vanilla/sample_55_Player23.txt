@@ -1,0 +1,34 @@
+Okay, I will follow the instructions to analyze the commentary snippets for the specified player and generate the final summary table.
+
+**1. Identify the target player:**
+
+The target player is Player23.
+
+**2. Initialize event counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze commentary snippets:**
+
+*   Snippet 1: "Player23(Away Team)'s shot from outside the box narrowly misses the top left corner after a corner kick."
+    *   The snippet explicitly states "shot" by Player23.
+    *   Increment Shots: Shots = 1
+
+*   Snippet 2: "Player23(Away Team)'s header from the center of the box is saved by the goalkeeper after a cross from Player22(Away Team)."
+    *   The snippet explicitly states "header" by Player23 which is an attempt on goal. Therefore it counts as a Shot.
+    *   Increment Shots: Shots = 2
+
+**4. Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

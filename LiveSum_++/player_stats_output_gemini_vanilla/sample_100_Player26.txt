@@ -1,0 +1,55 @@
+Okay, let's analyze the commentary snippets for Player26 and compile the statistics.
+
+**Player Name:** Player26
+
+**Commentary Snippets:**
+*   "Player26(Away Team) has committed a hand ball."
+*   "Player26(Away Team)'s right footed shot from the center of the box is denied by the crossbar, with an assist from Player32(Away Team)."
+*   "Player26(Away Team) commits a foul, resulting in Luis Player9(Home Team) winning a free kick in the attacking half, Player9(Home Team) earns a free kick after a foul by Player26(Away Team) in the attacking half."
+*   "Player26(Away Team) commits a foul."
+
+**Step-by-step analysis:**
+
+1.  **Player Name:** Player26
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player26(Away Team) has committed a hand ball."
+        *   Fouls: Increment by 1 (explicitly states Player26 committed a hand ball, which is a foul). Fouls = 1
+
+    *   **Snippet 2:** "Player26(Away Team)'s right footed shot from the center of the box is denied by the crossbar, with an assist from Player32(Away Team)."
+        *   Shots: Increment by 1 (explicitly states Player26 took a shot). Shots = 1
+        *   Assists: No increment (Player26 received an assist, didn't give one). Assists = 0
+
+    *   **Snippet 3:** "Player26(Away Team) commits a foul, resulting in Luis Player9(Home Team) winning a free kick in the attacking half, Player9(Home Team) earns a free kick after a foul by Player26(Away Team) in the attacking half."
+        *   Fouls: Increment by 1 (explicitly states Player26 committed a foul). Fouls = 2
+
+    *   **Snippet 4:** "Player26(Away Team) commits a foul."
+        *   Fouls: Increment by 1 (explicitly states Player26 committed a foul). Fouls = 3
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 3
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 1     | 0     | 0       | 0          | 3     | 0            | 0         | 0        |
+```

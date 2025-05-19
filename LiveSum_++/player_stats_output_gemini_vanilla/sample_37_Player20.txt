@@ -1,0 +1,44 @@
+Okay, let's analyze the commentary snippets for Player20 and generate the summary table.
+
+1.  **Identify Target Player:** The target player is Player20.
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player20(Away Team) commits a foul."
+        *   This snippet explicitly states Player20 committed a foul.
+        *   Increment Fouls: Fouls = 1
+
+    *   Snippet 2: "Player20(Away Team) assists Player35(Away Team) with a left footed shot from outside the box, but the attempt is blocked, resulting in a corner kick for the Away Team."
+        *   This snippet explicitly states Player20 provided an assist.
+        *   Increment Assists: Assists = 1
+
+    *   Snippet 3: "Player20(Away Team)'s right footed shot from outside the box is blocked with assistance from Player35(Away Team)."
+        *   This snippet explicitly states Player20 took a shot.
+        *   Increment Shots: Shots = 1
+
+4.  **Compile Final Counts:**
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 1
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 1     | 0     | 1       | 0          | 1     | 0            | 0         | 0        |
+```

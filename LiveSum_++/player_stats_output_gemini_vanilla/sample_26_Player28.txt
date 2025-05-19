@@ -1,0 +1,132 @@
+Okay, let's analyze the commentary snippets for Player28.
+
+1.  **Player Name:** Player28
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player28(Away Team)'s shot from the left side of the box is saved in the bottom left corner, with an assist from Player29(Away Team)."
+        *   Shots += 1 (Explicitly stated "shot")
+        *   No Goal.
+        *   No Assist (Player28 received the assist, did not provide it.)
+        *   No Free Kick.
+        *   No Foul.
+        *   No Yellow Card.
+        *   No Red Card.
+        *   No Offside.
+
+    *   Snippet 2: "Player28(Away Team) scores with a right-footed shot from the center of the box, assisted by Player27(Away Team) with a headed pass, Home Team 0, Away Team 1."
+        *   Shots += 1 (Explicitly stated "shot", and "scores")
+        *   Goals += 1 (Explicitly stated "scores")
+        *   No Assist (Player28 received the assist, did not provide it.)
+        *   No Free Kick.
+        *   No Foul.
+        *   No Yellow Card.
+        *   No Red Card.
+        *   No Offside.
+
+    *   Snippet 3: "Player28(Away Team) commits a foul."
+        *   No Shot.
+        *   No Goal.
+        *   No Assist.
+        *   No Free Kick.
+        *   Fouls += 1 (Explicitly stated "commits a foul")
+        *   No Yellow Card.
+        *   No Red Card.
+        *   No Offside.
+
+    *   Snippet 4: "Player28(Away Team) committed a foul."
+        *   No Shot.
+        *   No Goal.
+        *   No Assist.
+        *   No Free Kick.
+        *   Fouls += 1 (Explicitly stated "committed a foul")
+        *   No Yellow Card.
+        *   No Red Card.
+        *   No Offside.
+
+    *   Snippet 5: "Player28(Away Team) handled the ball."
+        *   No Shot.
+        *   No Goal.
+        *   No Assist.
+        *   No Free Kick.
+        *   Fouls += 1 (Explicitly stated "handled the ball")
+        *   No Yellow Card.
+        *   No Red Card.
+        *   No Offside.
+
+    *   Snippet 6: "Player28(Away Team) misses the target with a shot from the center of the box, assisted by Player20(Away Team) with a cross."
+        *   Shots += 1 (Explicitly stated "misses the target with a shot")
+        *   No Goal.
+        *   No Assist (Player28 received the assist, did not provide it.)
+        *   No Free Kick.
+        *   No Foul.
+        *   No Yellow Card.
+        *   No Red Card.
+        *   No Offside.
+
+    *   Snippet 7: "Player28(Away Team) earns a free kick in the opponent's half."
+        *   No Shot.
+        *   No Goal.
+        *   No Assist.
+        *   Free Kicks += 1 (Explicitly stated "earns a free kick")
+        *   No Foul.
+        *   No Yellow Card.
+        *   No Red Card.
+        *   No Offside.
+
+    *   Snippet 8: "Player28(Away Team)'s attempt from outside the box on a direct free kick is just slightly too high."
+        *   Shots += 1 (Explicitly stated "attempt")
+        *   No Goal.
+        *   No Assist.
+        *   Free Kicks += 1 (Explicitly stated "direct free kick")
+        *   No Foul.
+        *   No Yellow Card.
+        *   No Red Card.
+        *   No Offside.
+
+   * Snippet 9: "Player28(Away Team) commits a foul, resulting in Player8(Home Team) winning a free kick in their own defensive half."
+        *   No Shot.
+        *   No Goal.
+        *   No Assist.
+        *   No Free Kick.
+        *   Fouls += 1 (Explicitly stated "commits a foul")
+        *   No Yellow Card.
+        *   No Red Card.
+        *   No Offside.
+
+    *   Snippet 10: "Player28(Away Team) receives a yellow card."
+        *   No Shot.
+        *   No Goal.
+        *   No Assist.
+        *   No Free Kick.
+        *   No Foul.
+        *   Yellow Cards += 1 (Explicitly stated "receives a yellow card")
+        *   No Red Card.
+        *   No Offside.
+
+4.  **Final Counts:**
+    *   Shots = 4
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 2
+    *   Fouls = 4
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 4     | 1     | 0       | 2          | 4     | 1            | 0         | 0        |
+```

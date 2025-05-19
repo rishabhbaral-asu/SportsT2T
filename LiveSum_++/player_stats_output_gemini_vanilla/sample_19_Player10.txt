@@ -1,0 +1,51 @@
+Okay, let's break this down step by step.
+
+1.  **Player Name:** The target player is Player10.
+
+2.  **Initialization:** We initialize all event counts to 0 for Player10.
+
+3.  **Commentary Snippet Analysis:** We will now analyze each snippet and increment the appropriate counters based on explicit mentions of events performed *by* Player10.
+
+    *   **Snippet 1:** "Player10(Home Team) commits a foul."
+        *   This explicitly states Player10 committed a foul. Increment Fouls by 1.
+
+    *   **Snippet 2:** "Player10(Home Team) receives a yellow card for a harsh foul."
+        *   This explicitly states Player10 received a yellow card. Increment Yellow Cards by 1.
+
+    *   **Snippet 3:** "Player10(Home Team)'s shot with his left foot from the center of the box was saved in the middle of the goal."
+        *   This explicitly states Player10 took a shot. Increment Shots by 1.
+
+    *   **Snippet 4:** "Player10(Home Team) misses with a left-footed shot from the center of the box, aided by Player2(Home Team)."
+        *   This explicitly states Player10 took a shot. Increment Shots by 1.
+
+    *   **Snippet 5:** "Player10(Home Team)'s left footed shot from outside the box goes over the goal."
+        *   This explicitly states Player10 took a shot. Increment Shots by 1.
+
+    *   **Snippet 6:** "Player10(Home Team) commits a foul."
+        *   This explicitly states Player10 committed a foul. Increment Fouls by 1.
+
+    *   **Snippet 7:** "Player10(Home Team) commits a foul."
+        *   This explicitly states Player10 committed a foul. Increment Fouls by 1.
+
+    *   **Snippet 8:** "Player10(Home Team) commits a foul."
+        *   This explicitly states Player10 committed a foul. Increment Fouls by 1.
+
+    *   **Snippet 9:** "Player10(Home Team) commits a foul."
+        *   This explicitly states Player10 committed a foul. Increment Fouls by 1.
+
+4.  **Final Counts:**
+    *   Shots: 3
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 5
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 3     | 0     | 0       | 0          | 5     | 1            | 0         | 0        |
+```

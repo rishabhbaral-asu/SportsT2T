@@ -1,0 +1,46 @@
+Okay, let's analyze the commentary snippets for Player11.
+
+1.  **Player Name:** Player11
+
+2.  **Initialization:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player11(Home Team)'s header from the center of the box was close but missed to the left, assisted by Player7(Home Team) with a cross."
+        *   The snippet explicitly states Player11 took a header (an attempt on goal).
+        *   Shots += 1
+        *   It also states Player11 was assisted by Player7, so Player11 does *not* get an assist.
+
+    *   **Snippet 2:** "Player11(Home Team) of the Home Team attempts to pass the ball to Player9(Home Team), but Player9(Home Team) is offside."
+        *   This snippet explicitly states Player11 attempts a pass but Player9 is offside. This does *not* count as an assist for Player11.
+        *   Offsides += 0 (This is not an offside committed *by* Player11, so it doesn't increment.)
+
+    *   **Snippet 3:** "Player11(Home Team) misses the target with a high and wide shot from outside the box."
+        *   The snippet explicitly states Player11 took a shot.
+        *   Shots += 1
+
+4.  **Final Counts:**
+
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

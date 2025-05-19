@@ -1,0 +1,55 @@
+Okay, let's analyze the commentary snippets for Player2 and generate the statistics table.
+
+**1. Identify Target Player:**
+
+The target player is Player2.
+
+**2. Initialize Counts:**
+
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player2(Home Team)'s shot with his left foot from the right side of the box is saved at the bottom right corner, with an assist from Player5(Home Team)."
+    *   Shots: Increment by 1 (Player2's shot)
+    *   Goals: No goal mentioned.
+    *   Assists: No assist credited *to* Player2, so no increment.
+
+*   **Snippet 2:** "Player2(Home Team) earns a free kick in their own half."
+    *   Free Kicks: Increment by 1 (Player2 earns a free kick, meaning he was fouled)
+
+*   **Snippet 3:** "Player2(Home Team)'s shot from the center of the box with their right foot narrowly misses to the right, assisted by Player7(Home Team)."
+    *   Shots: Increment by 1 (Player2's shot)
+    *   Goals: No goal mentioned.
+    *   Assists: No assist credited *to* Player2, so no increment.
+
+*   **Snippet 4:** "Player2(Home Team) earns a free kick in their own half."
+    *   Free Kicks: Increment by 1 (Player2 earns a free kick, meaning he was fouled)
+
+*   **Snippet 5:** "Player2(Home Team) attempts a through ball, but Player9(Home Team) is flagged for offside."
+    *   Offsides: No offside committed by Player2, but rather committed by Player9, so no increment.
+
+**4. Final Counts:**
+
+Shots: 2
+Goals: 0
+Assists: 0
+Free Kicks: 2
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 2     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,44 @@
+Okay, let's break down the process step-by-step.
+
+1.  **Identify Target Player:** The target player is Player25.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player25(Away Team) earns a free kick in their own half."
+        *   Free Kicks: Player25 earns a free kick. Increment Free Kicks by 1. (Free Kicks = 1)
+    *   Snippet 2: "Player25(Away Team) misses the target with a left-footed shot from distance, as it goes high and wide to the left, with an assist from Player28(Away Team)."
+        *   Shots: Player25 misses the target with a shot. Increment Shots by 1. (Shots = 1)
+    *   Snippet 3: "Player25(Away Team) earns a free kick in their own half."
+        *   Free Kicks: Player25 earns a free kick. Increment Free Kicks by 1. (Free Kicks = 2)
+    *   Snippet 4: "Player25(Away Team) earns a free kick in the opponent's half."
+        *   Free Kicks: Player25 earns a free kick. Increment Free Kicks by 1. (Free Kicks = 3)
+    *   Snippet 5: "Player25(Away Team) just missed the mark with a right footed shot from outside the box, set up by Player21(Away Team)."
+        * Shots: Player25 missed the mark with a shot. Increment Shots by 1. (Shots = 2)
+
+4.  **Compile Final Counts:**
+
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 3
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 2     | 0     | 0       | 3          | 0     | 0            | 0         | 0        |
+```

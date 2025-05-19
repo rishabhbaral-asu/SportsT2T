@@ -1,0 +1,36 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player28 and compile the statistics into a markdown table.
+
+**Player Name:**
+Player28
+
+**Commentary Snippets:**
+
+- Player28(Away Team) commits a foul.
+- Player28(Away Team)'s shot with his left foot from outside the box was close, but missed to the right with an assist from Player25(Away Team).
+- Player28(Away Team) has fallen to the ground, but it looks like he was just trying to deceive the referee.
+- Player28(Away Team) has been given a yellow card.
+- Player28(Away Team) earns a free kick in the opponent's half.
+- Player28(Away Team)'s left footed shot from outside the box is blocked.
+- Player28(Away Team)'s shot with their left foot from the right side of the box in the bottom right corner.
+
+**Reasoning:**
+
+1.  **Player Name:** Player28. I will track stats specifically for this player.
+2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player28(Away Team) commits a foul." - This explicitly states Player28 committed a foul. Fouls = 1.
+    *   **Snippet 2:** "Player28(Away Team)'s shot with his left foot from outside the box was close, but missed to the right with an assist from Player25(Away Team)." - This explicitly states Player28 took a shot. Shots = 1. Since the target player was assisted, no assist is counted.
+    *   **Snippet 3:** "Player28(Away Team) has fallen to the ground, but it looks like he was just trying to deceive the referee." - This does not correspond to any of the tracked events.
+    *   **Snippet 4:** "Player28(Away Team) has been given a yellow card." - This explicitly states Player28 received a yellow card. Yellow Cards = 1.
+    *   **Snippet 5:** "Player28(Away Team) earns a free kick in the opponent's half." - This explicitly states Player28 earned a free kick. Free Kicks = 1.
+    *   **Snippet 6:** "Player28(Away Team)'s left footed shot from outside the box is blocked." - This explicitly states Player28 took a shot. Shots = 2.
+    *   **Snippet 7:** "Player28(Away Team)'s shot with their left foot from the right side of the box in the bottom right corner." - This explicitly states Player28 took a shot. Shots = 3.
+4.  **Final Counts:** Shots = 3, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 1, Yellow Cards = 1, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 3     | 0     | 0       | 1          | 1     | 1            | 0         | 0        |
+```

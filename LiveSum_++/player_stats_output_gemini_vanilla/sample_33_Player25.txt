@@ -1,0 +1,48 @@
+Okay, I'm ready to process the player commentary snippets and generate the summary table.
+
+**Step 1: Identify the target player.**
+
+The target player is Player25.
+
+**Step 2: Initialize event counts.**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**Step 3: Analyze the commentary snippets.**
+
+*   Snippet 1: "Player25(Away Team)'s attempt from outside the box with his right foot narrowly misses to the right, assisted by Player27(Away Team)."
+    *   Shots: The snippet mentions "attempt" by Player25. Increment Shots to 1.
+    *   Goals: The snippet doesn't mention a goal.
+    *   Assists: The snippet says Player25 was "assisted by" someone else. This means Player25 did NOT provide the assist, so Assistants remains 0.
+    *   Free Kicks: The snippet doesn't explicitly mention a free kick.
+    *   Fouls: The snippet doesn't mention a foul.
+    *   Yellow Cards: The snippet doesn't mention a yellow card.
+    *   Red Cards: The snippet doesn't mention a red card.
+    *   Offsides: The snippet doesn't mention offsides.
+
+**Step 4: Final Count**
+
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**Step 5: Create the Final Summary Table.**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

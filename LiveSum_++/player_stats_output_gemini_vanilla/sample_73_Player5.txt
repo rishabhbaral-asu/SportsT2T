@@ -1,0 +1,81 @@
+Okay, let's analyze the commentary snippets for Player5.
+
+**1. Player Identification:**
+The target player is Player5.
+
+**2. Initialization:**
+We initialize the counts for Player5:
+* Shots = 0
+* Goals = 0
+* Assists = 0
+* Free Kicks = 0
+* Fouls = 0
+* Yellow Cards = 0
+* Red Cards = 0
+* Offsides = 0
+
+**3. Snippet Analysis and Counting:**
+
+*   **Snippet 1:** "Player5(Home Team) earns a free kick in their own half following a foul by Player28(Away Team)."
+    *   Player5 earns a free kick. This is attributed to Player5. Free Kicks count is incremented by 1.
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+*   **Snippet 2:** "Player5(Home Team)'s close-range shot with his right foot after a corner kick."
+    *   Player5 takes a shot. Shots count is incremented by 1.
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+*   **Snippet 3:** "Player5(Home Team)'s shot from the right side of the box is blocked."
+    *   Player5 takes a shot. Shots count is incremented by 1.
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+*   **Snippet 4:** "Player5(Home Team) scores with a header from the center of the box, assisted by Player8(Home Team)'s cross after a corner kick."
+    *   Player5 scores a goal. Goals count is incremented by 1.
+    *   Player5 takes a shot (header). Shots count is incremented by 1.
+    *   Shots = 3
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+*   **Snippet 5:** "Player5(Home Team) earns a free kick in their own half."
+    *   Player5 earns a free kick. Free Kicks count is incremented by 1.
+    *   Shots = 3
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 2
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 3     | 1     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

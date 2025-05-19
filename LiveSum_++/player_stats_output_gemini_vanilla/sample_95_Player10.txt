@@ -1,0 +1,35 @@
+Okay, I'm ready to process the commentary snippets and generate the statistics table for Player10.
+
+**Player Name:** Player10
+
+**Commentary Snippets:**
+
+- Player10(Home Team) earns a free kick in the opponent's half after being fouled by Player21(Away Team).
+- Player10(Home Team)'s header from the center of the box was too high, missing the goal, Player9(Home Team) assisted with a cross.
+- Player10(Home Team) scores with a left-footed shot from the center of the box, assisted by Player7(Home Team), Home Team leads 2-1 against Away Team.
+- Player10(Home Team) commits a foul.
+- Player10(Home Team) earns a free kick in the opponent's half after being fouled by Player29(Away Team).
+- Player10(Home Team)'s attempt from outside the box was off target as his right footed shot sailed high with an assist from Player8(Home Team)'s headed pass.
+
+**Reasoning:**
+
+1.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+2.  **Snippet 1:** "Player10(Home Team) earns a free kick in the opponent's half after being fouled by Player21(Away Team)." - Player10 earned a free kick. Free Kicks = 1.
+
+3.  **Snippet 2:** "Player10(Home Team)'s header from the center of the box was too high, missing the goal, Player9(Home Team) assisted with a cross." - Player10 took a shot (header). Shots = 1.
+
+4.  **Snippet 3:** "Player10(Home Team) scores with a left-footed shot from the center of the box, assisted by Player7(Home Team), Home Team leads 2-1 against Away Team." - Player10 scored a goal (and took a shot). Goals = 1, Shots = 2.
+
+5.  **Snippet 4:** "Player10(Home Team) commits a foul." - Player10 committed a foul. Fouls = 1.
+
+6.  **Snippet 5:** "Player10(Home Team) earns a free kick in the opponent's half after being fouled by Player29(Away Team)." - Player10 earned a free kick. Free Kicks = 2.
+
+7.  **Snippet 6:** "Player10(Home Team)'s attempt from outside the box was off target as his right footed shot sailed high with an assist from Player8(Home Team)'s headed pass." Player 10 took a shot. Shots = 3.
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 3     | 1     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,47 @@
+Okay, let's analyze the commentary snippets for Player7 and generate the summary table.
+
+**1. Identify Target Player:**
+
+The target player is Player7.
+
+**2. Initialize Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player7(Home Team) commits a foul on Player23(Away Team), earning a free kick for Player23(Away Team) on the right wing, ."
+    *   Fouls: Player7 commits a foul. Increment Fouls by 1.
+    *   Free Kicks: Player7 did *not* take a free kick. Player7 committed a foul *resulting* in a free kick for the other team, do not increment.
+*   **Snippet 2:** "Player7(Home Team)'s header from the center of the box is saved in the top left corner with an assist from Player8(Home Team)."
+    *   Shots: Player7's header is saved, so it was a shot. Increment Shots by 1.
+    *   Goals: The header was saved, not a goal.
+    *   Assists: Player7 was assisted, not the one giving the assist. Do not increment.
+*   **Snippet 3:** "Player7(Home Team) receives a yellow card."
+    *   Yellow Cards: Player7 receives a yellow card. Increment Yellow Cards by 1.
+
+**4. Final Counts:**
+
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 1
+*   Yellow Cards: 1
+*   Red Cards: 0
+*   Offsides: 0
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 1     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

@@ -1,0 +1,63 @@
+Okay, let's analyze the commentary snippets for Player11 and compile the statistics.
+
+1.  **Player Name:** `Player11`
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player11(Home Team) with his right foot outside the box is saved by the goalkeeper in the center of the goal, assisted by Player8(Home Team)."
+        *   Shots: The phrase "is saved by the goalkeeper" implies an attempt on goal, so increment Shots. Shots = 1
+        *   Goals: No goal is mentioned.
+        *   Assists: Player11 was assisted, not providing an assist.
+        *   Free Kicks: No free kick/penalty mentioned.
+        *   Fouls: No foul mentioned.
+        *   Yellow Cards: No yellow card mentioned.
+        *   Red Cards: No red card mentioned.
+        *   Offsides: No offside mentioned
+
+    *   Snippet 2: "Player11(Home Team)'s shot from the centre of the box is saved at the top centre of the goal, assisted by Player4(Home Team), while Player9(Home Team)'s attempt from the right side is saved in the bottom right corner with help from Player11(Home Team)."
+        *   Shots: "Player11(Home Team)'s shot is saved" increments Shots. Shots = 2
+        *   Goals: No goal is mentioned.
+        *   Assists: "assisted by Player4(Home Team)" does not mean Player11 is providing an assist. The second half of the sentence "with help from Player11(Home Team)" could imply an assist, but it is vague, and the assist keyword is not used, so we will not count it.
+        *   Free Kicks: No free kick/penalty mentioned.
+        *   Fouls: No foul mentioned.
+        *   Yellow Cards: No yellow card mentioned.
+        *   Red Cards: No red card mentioned.
+        *   Offsides: No offside mentioned
+
+    *   Snippet 3: "Player11(Home Team) commits a foul."
+        *   Shots: No shot mentioned.
+        *   Goals: No goal mentioned.
+        *   Assists: No assist mentioned.
+        *   Free Kicks: No free kick/penalty mentioned.
+        *   Fouls: "commits a foul" increments Fouls. Fouls = 1
+        *   Yellow Cards: No yellow card mentioned.
+        *   Red Cards: No red card mentioned.
+        *   Offsides: No offside mentioned.
+
+    *   Snippet 4: "Player11(Home Team) is now on a yellow card."
+        *   Shots: No shot mentioned.
+        *   Goals: No goal mentioned.
+        *   Assists: No assist mentioned.
+        *   Free Kicks: No free kick/penalty mentioned.
+        *   Fouls: No foul mentioned.
+        *   Yellow Cards: "yellow card" increments Yellow Cards. Yellow Cards = 1
+        *   Red Cards: No red card mentioned.
+        *   Offsides: No offside mentioned.
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

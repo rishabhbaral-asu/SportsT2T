@@ -1,0 +1,48 @@
+Okay, let's analyze the provided commentary snippets for Player5 and generate the requested markdown table.
+
+**Player Name:**
+Player5
+
+**Commentary Snippets:**
+
+*   Player5(Home Team) commits a foul.
+*   Player5(Home Team) earns a free kick in their own half.
+*   Player5(Home Team) misses the header from the center of the box, it goes high and wide to the right, The cross from Player7(Home Team) following a corner assisted the play.
+*   Player5(Home Team) earns a free kick in their own half.
+*   Player5(Home Team)'s shot from outside the box is saved in the bottom right corner by the goalkeeper after being assisted by Player17(Home Team).
+
+**Event Counting (Following Strict Rules):**
+
+*   **Shots:**
+    *   Snippet 3: "Player5(Home Team) misses the header from the center of the box..." - This is a missed shot, so increment Shots by 1.
+    *   Snippet 5: "Player5(Home Team)'s shot from outside the box is saved..." - This is a saved shot, so increment Shots by 1.
+    *   Total Shots: 2
+*   **Goals:**
+    *   No snippet explicitly mentions Player5 scoring a goal.
+    *   Total Goals: 0
+*   **Assists:**
+    *   No snippet explicitly mentions Player5 providing an assist.
+    *   Total Assists: 0
+*   **Free Kicks (Taken):**
+    *   Snippet 2: "Player5(Home Team) earns a free kick in their own half." - This indicates Player5 wins a free kick, so increment Free Kicks by 1.
+    *   Snippet 4: "Player5(Home Team) earns a free kick in their own half." - This indicates Player5 wins a free kick, so increment Free Kicks by 1.
+    *   Total Free Kicks: 2
+*   **Fouls (Committed):**
+    *   Snippet 1: "Player5(Home Team) commits a foul." - This explicitly states Player5 committed a foul, so increment Fouls by 1.
+    *   Total Fouls: 1
+*   **Yellow Cards:**
+    *   No snippet explicitly mentions Player5 receiving a yellow card.
+    *   Total Yellow Cards: 0
+*   **Red Cards:**
+    *   No snippet explicitly mentions Player5 receiving a red card.
+    *   Total Red Cards: 0
+*   **Offsides:**
+    *   No snippet explicitly mentions Player5 being offside.
+    *   Total Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 2     | 0     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

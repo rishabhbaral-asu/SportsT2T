@@ -1,0 +1,44 @@
+Okay, let's analyze the commentary snippets for Player30 and compile the statistics.
+
+**Player Name:** Player30
+
+**Commentary Snippets:**
+
+*   Player30(Away Team) commits a foul, resulting in Player11(Home Team) winning a free kick on the left wing.
+*   Player30(Away Team) receives a yellow card for a foul on Player17(Home Team).
+*   Player30(Away Team) concedes a penalty for a foul in the penalty area.
+*   Player30(Away Team) earns a free kick in their own half.
+
+**Step-by-step Analysis:**
+
+1.  **Player Name:** Player30
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet 1:** "Player30(Away Team) commits a foul, resulting in Player11(Home Team) winning a free kick on the left wing."
+    *   Fouls: Player30 commits a foul, so increment Fouls by 1.
+    *   Free Kicks: Player30 commits a foul, resulting in Player11 winning a free kick. Player30 is not taking the free kick, so no increment.
+4.  **Snippet 2:** "Player30(Away Team) receives a yellow card for a foul on Player17(Home Team)."
+    *   Yellow Cards: Player30 receives a yellow card, so increment Yellow Cards by 1.
+    *   Fouls: Player30 commits a foul, so increment Fouls by 1.
+5.  **Snippet 3:** "Player30(Away Team) concedes a penalty for a foul in the penalty area."
+    *   Fouls: Player30 commits a foul resulting in a penalty, so increment Fouls by 1.
+6.  **Snippet 4:** "Player30(Away Team) earns a free kick in their own half."
+    *   Free Kicks: Player30 earns a free kick, so increment Free Kicks by 1.
+
+**Final Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 3
+*   Yellow Cards: 1
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player30 | 0     | 0     | 0       | 1          | 3     | 1            | 0         | 0        |
+```

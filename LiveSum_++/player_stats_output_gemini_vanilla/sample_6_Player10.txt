@@ -1,0 +1,34 @@
+Okay, let's analyze the commentary snippets for Player10 and generate the final summary table.
+
+1.  **Player Name:** Player10
+2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player10(Home Team) earns a free kick in their own half."
+        *   "earns a free kick" triggers a Free Kick. Free Kicks = 1
+
+    *   **Snippet 2:** "Player10(Home Team) attempts to pass the ball to Player9(Home Team), but Player9(Home Team) is in an offside position."
+        * This statement means the player attempted a pass that put a teammate offside. It does not count as an assist for player 10. No changes to stats.
+
+    *   **Snippet 3:** "Player10(Home Team) misses the goal with a high and wide shot from outside the box, assisted by Player8(Home Team)."
+        *   "misses the goal with a shot" triggers a Shot. Shots = 1. Because the player missed the shot, and the snippet makes no mention of a goal, goal remains 0. Because Player 10 was assisted by someone else, this does NOT trigger an assist for Player10.
+    *   **Snippet 4:** "Player10(Home Team) receives a yellow card."
+        *   "yellow card" triggers a Yellow Card. Yellow Cards = 1
+
+4.  **Final Counts:**
+    * Shots: 1
+    * Goals: 0
+    * Assists: 0
+    * Free Kicks: 1
+    * Fouls: 0
+    * Yellow Cards: 1
+    * Red Cards: 0
+    * Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 1     | 0     | 0       | 1          | 0     | 1            | 0         | 0        |
+```

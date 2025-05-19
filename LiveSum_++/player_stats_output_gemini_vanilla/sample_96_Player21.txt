@@ -1,0 +1,46 @@
+Okay, let's break this down step by step.
+
+1. **Identify Target Player:**
+   The target player is Player21.
+
+2. **Initialize Counts:**
+   Shots = 0
+   Goals = 0
+   Assists = 0
+   Free Kicks = 0
+   Fouls = 0
+   Yellow Cards = 0
+   Red Cards = 0
+   Offsides = 0
+
+3. **Analyze Commentary Snippets:**
+
+   * **Snippet 1:** "Player21(Away Team) attempts a pass to Player16(Home Team), but Player29(Away Team) is caught in an offside position."
+      * This snippet describes Player21 attempting a pass. Player29 is caught offside, but this doesn't relate to Player21 being offside.
+      * Offsides = 0 (Player21 is not offside)
+
+   * **Snippet 2:** "Player21(Away Team) has given away a penalty for handball in the box committed against Player16(Home Team)."
+      * Player21 committed a handball, resulting in a penalty. This is a foul.
+      * Fouls = 1
+
+   * **Snippet 3:** "Player21(Away Team) has been sent off with a red card."
+      * Player21 received a red card.
+      * Red Cards = 1
+
+4. **Compile Final Counts:**
+
+   Shots = 0
+   Goals = 0
+   Assists = 0
+   Free Kicks = 0
+   Fouls = 1
+   Yellow Cards = 0
+   Red Cards = 1
+   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 0     | 0     | 0       | 0          | 1     | 0            | 1         | 0        |
+```

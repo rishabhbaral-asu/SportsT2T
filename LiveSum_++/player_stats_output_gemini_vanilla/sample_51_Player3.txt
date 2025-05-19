@@ -1,0 +1,44 @@
+Okay, I'm ready to process the input and generate the player statistics table.
+
+**1. Identify Target Player:**
+
+The target player is Player3.
+
+**2. Initialize Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player3(Home Team) misses with a left-footed shot from outside the box, assisted by Player8(Home Team), as the ball goes high and wide to the left."
+    *   Shots: Player3 misses a shot. Increment Shots to 1.
+    *   Assists: Player3 was *assisted by* Player8. This does NOT count as an assist *for* Player3.
+
+*   **Snippet 2:** "Player3(Home Team)'s header from the center of the box is saved in the bottom left corner after a cross from Player10(Home Team)."
+    *   Shots: Player3's header is saved. Increment Shots to 2.
+
+**4. Final Counts:**
+
+*   Shots: 2
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

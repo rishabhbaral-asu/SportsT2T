@@ -1,0 +1,24 @@
+Okay, let's start by identifying the player name and initializing the counts.
+
+Player Name: Player25
+
+Now, let's process the commentary snippets and increment the counts accordingly.
+
+*   **Snippet 1:** "Player25(Away Team) earns a free kick on the right side."
+    *   Free Kicks: Player25 earns a free kick. Increment Free Kicks by 1.
+*   **Snippet 2:** "Player25(Away Team) earns a free kick in his own half."
+    *   Free Kicks: Player25 earns a free kick. Increment Free Kicks by 1.
+*   **Snippet 3:** "Player25(Away Team)'s shot from outside the box is blocked with the help of Player24(Away Team)."
+    *   Shots: Player25's shot is blocked. Increment Shots by 1.
+*   **Snippet 4:** "Player25(Away Team)'s shot from outside the box goes high and wide to the right, with an assist from Player23(Away Team)."
+    *   Shots: Player25's shot goes high and wide. Increment Shots by 1.
+    *   Assists: Player25 received an assist. DO NOT increment assists.
+
+Now, let's create the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 2     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

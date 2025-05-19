@@ -1,0 +1,54 @@
+Okay, let's analyze the commentary snippets for Player27.
+
+1.  **Player Name:** The target player is Player27.
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player27(Away Team)'s left footed shot from the left side of the box is saved in the bottom left corner after being assisted by Player28(Away Team) with a through ball."
+        *   "shot" is present, so Shots = 1.
+        *   No goal.
+        *   Player27 was *assisted by* Player28, so no assist for Player27.
+        *   No free kick, foul, or card events.
+
+    *   **Snippet 2:** "Player27(Away Team)'s shot from the center of the box is saved in the middle of the goal."
+        *   "shot" is present, so Shots = 2.
+        *   No goal.
+        *   No assist.
+        *   No free kick, foul, or card events.
+
+    *   **Snippet 3:** "Player27(Away Team) earns a free kick in the opponent's half."
+        *   "earns a free kick" is present, so Free Kicks = 1.
+        *   No shot, goal, or assist.
+        *   No foul or card events.
+
+    *   **Snippet 4:** "Player27(Away Team)'s left footed shot from the right side of the box is blocked by the defense, assisted by Player20(Away Team), resulting in a corner kick for the Away Team."
+        *   "shot" is present, so Shots = 3.
+        *   No goal.
+        *  Player27 was *assisted by* Player20, so no assist for Player27.
+        *   No free kick, foul, or card events.
+
+4.  **Final Counts:**
+    *   Shots = 3
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 3     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

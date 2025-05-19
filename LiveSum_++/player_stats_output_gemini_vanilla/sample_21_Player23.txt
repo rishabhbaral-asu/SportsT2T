@@ -1,0 +1,44 @@
+Okay, let's analyze the commentary snippets for Player23.
+
+1.  **Player Name:** Player23
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player23(Away Team) attempts a through ball, but Player27(Away Team) is caught in an offside position."
+        *   Player23 attempts a through ball, but it leads to Player27 being offside. This does **not** count as an assist for Player23.
+        *   Player23 is mentioned in context of Player27 being offside.
+        *   Offsides: Player23 did not commit an offside. Increment Offsides if Player23 was in offside position. In this case Player27 was offside.
+        *   No event is triggered.
+
+    *   Snippet 2: "Player23(Away Team)'s header from the center of the box was saved in the bottom right corner after a cross from Player25(Away Team)."
+        *   Player23's header was saved. This is a shot.
+        *   Shots: Increment by 1. Shots = 1.
+        *   Goals: Not a goal.
+        *   Assists: Player23 was not giving an assist to someone else.
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

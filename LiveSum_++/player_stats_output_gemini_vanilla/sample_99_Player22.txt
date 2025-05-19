@@ -1,0 +1,36 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player22 and generate the final summary table.
+
+1.  **Identify Target Player:** Player22
+
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player22(Away Team) misses a header to the right from the centre of the box, assisted by Player29(Away Team) following a corner kick by the Away Team."
+        *   Shots: The phrase "misses a header" indicates an attempt on goal. Increment Shots to 1.
+        *   Goals: No goal is mentioned.
+        *   Assists: Player22 was assisted by Player29, therefore Player22 did not provide the assist, so no increment to assists.
+        *   Free Kicks: No free kick explicitly mentioned for Player22 in this snippet.
+        *   Fouls: No foul mentioned.
+        *   Yellow Cards: No yellow card mentioned.
+        *   Red Cards: No red card mentioned.
+        *   Offsides: No offsides mentioned.
+
+    *   Snippet 2: "Player22(Away Team) commits a foul on Player6(Home Team), who wins a free kick in their own defensive half."
+        *   Shots: No shot mentioned.
+        *   Goals: No goal mentioned.
+        *   Assists: No assist mentioned.
+        *   Free Kicks: Player22 did not take the free kick, he conceded it. No increment.
+        *   Fouls: The phrase "commits a foul" explicitly indicates a foul committed by Player22. Increment Fouls to 1.
+        *   Yellow Cards: No yellow card mentioned.
+        *   Red Cards: No red card mentioned.
+        *   Offsides: No offsides mentioned.
+
+4.  **Compile Final Counts:** Shots = 1, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,30 @@
+Okay, let's analyze the commentary snippets for Player29 and generate the final summary table.
+
+**Player Name:** Player29
+
+**Commentary Snippets:**
+
+*   Player29(Away Team) earns a free kick in the opponent's half.
+*   Player29(Away Team) attempts a pass to Player35(Away Team), but Player27(Away Team) is offside.
+*   Player29(Away Team)'s shot from outside the box with their left foot is saved in the bottom right corner.
+*   Player29(Away Team) earns a free kick in their own half after Player4(Home Team) commits a foul.
+*   Player29(Away Team) commits a foul, resulting in Player2(Home Team) winning a free kick in their own defensive half, The foul was committed by Player29(Away Team), leading to a free kick for Player2(Home Team) in their defensive half.
+*   Player29(Away Team) earns a free kick in their own half.
+
+**Event Tracking:**
+
+*   **Shots:** The third snippet explicitly states "Player29(Away Team)'s shot from outside the box...is saved...". This increments the shot count by 1.
+*   **Goals:** No snippets explicitly state that Player29 scored a goal. Count remains 0.
+*   **Assists:** The second snippet mentions a pass attempt by Player29 but it results in an offside so no goal is scored. There are no other explicit mentions of Player29 assisting a goal. Count remains 0.
+*   **Free Kicks (Taken):** Snippets 1, 4, and 6 mentions "earns a free kick" for Player29. This is interpreted as Player29 being fouled and winning the free kick, incrementing the Free Kick count by 3.
+*   **Fouls (Committed):** The fifth snippet explicitly mentions "Player29(Away Team) commits a foul...". This increments the fouls count by 1.
+*   **Yellow Cards:** No snippets mention Player29 receiving a yellow card. Count remains 0.
+*   **Red Cards:** No snippets mention Player29 receiving a red card. Count remains 0.
+*   **Offsides:** The second snippet mentions Player27 is offside. This does not relate to player29. Count remains 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 1     | 0     | 0       | 3          | 1     | 0            | 0         | 0        |
+```

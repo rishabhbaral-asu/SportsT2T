@@ -1,0 +1,73 @@
+Okay, I'm ready to process the input and generate the summary table.
+
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
+
+**Input:**
+* **Player Name:** The name of the single player to track.
+    <PLAYER_NAME>
+    Player7
+    </PLAYER_NAME>
+* **Commentary Snippets:** A list of commentary text snippets potentially mentioning the player.
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player7(Home Team)'s shot from outside the box is saved in the bottom right corner after an assist from Player10(Home Team).
+- Player7(Home Team) commits a foul.
+- Player7(Home Team) commits a foul on Player29(Away Team), who wins a free kick in their defensive half.
+- Player7(Home Team) misses the target with a high and wide shot from outside the box, assisted by Player10(Home Team).
+    </PLAYER_COMMENTARY_SNIPPETS>
+
+**Reasoning:**
+
+1.  **Player Name:** The target player is Player7.
+
+2.  **Initialization:** Initialize all event counts to 0 for Player7: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+3.  **Snippet Analysis (Absolute Strict Counting):**
+
+    *   **Snippet 1:** "Player7(Home Team)'s shot from outside the box is saved in the bottom right corner after an assist from Player10(Home Team)."
+        *   Shots: Player7 took a shot, so increment Shots by 1. (Shots = 1)
+        *   Goals: No goal mentioned. (Goals = 0)
+        *   Assists: Player7 received an assist from Player10, therefore no assist for Player 7. (Assists = 0)
+        *   Free Kicks: No free kick events. (Free Kicks = 0)
+        *   Fouls: No fouls mentioned. (Fouls = 0)
+        *   Yellow Cards: No yellow cards mentioned. (Yellow Cards = 0)
+        *   Red Cards: No red cards mentioned. (Red Cards = 0)
+        *   Offsides: No offsides mentioned. (Offsides = 0)
+
+    *   **Snippet 2:** "Player7(Home Team) commits a foul."
+        *   Shots: No shots mentioned. (Shots = 1)
+        *   Goals: No goals mentioned. (Goals = 0)
+        *   Assists: No assists mentioned. (Assists = 0)
+        *   Free Kicks: No free kicks mentioned. (Free Kicks = 0)
+        *   Fouls: Player7 committed a foul, so increment Fouls by 1. (Fouls = 1)
+        *   Yellow Cards: No yellow cards mentioned. (Yellow Cards = 0)
+        *   Red Cards: No red cards mentioned. (Red Cards = 0)
+        *   Offsides: No offsides mentioned. (Offsides = 0)
+
+    *   **Snippet 3:** "Player7(Home Team) commits a foul on Player29(Away Team), who wins a free kick in their defensive half."
+        *   Shots: No shots mentioned. (Shots = 1)
+        *   Goals: No goals mentioned. (Goals = 0)
+        *   Assists: No assists mentioned. (Assists = 0)
+        *   Free Kicks: Player7 did not take a free kick. (Free Kicks = 0)
+        *   Fouls: Player7 committed a foul, so increment Fouls by 1. (Fouls = 2)
+        *   Yellow Cards: No yellow cards mentioned. (Yellow Cards = 0)
+        *   Red Cards: No red cards mentioned. (Red Cards = 0)
+        *   Offsides: No offsides mentioned. (Offsides = 0)
+
+    *   **Snippet 4:** "Player7(Home Team) misses the target with a high and wide shot from outside the box, assisted by Player10(Home Team)."
+        *   Shots: Player7 took a shot, so increment Shots by 1. (Shots = 2)
+        *   Goals: No goal mentioned. (Goals = 0)
+        *   Assists: No assist for Player7. Player7 was assisted by Player10. (Assists = 0)
+        *   Free Kicks: No free kicks mentioned. (Free Kicks = 0)
+        *   Fouls: No fouls mentioned. (Fouls = 2)
+        *   Yellow Cards: No yellow cards mentioned. (Yellow Cards = 0)
+        *   Red Cards: No red cards mentioned. (Red Cards = 0)
+        *   Offsides: No offsides mentioned. (Offsides = 0)
+
+4.  **Final Counts:** Shots = 2, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 2, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 2     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

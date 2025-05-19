@@ -1,0 +1,45 @@
+Okay, let's analyze the commentary snippets for Player12 and generate the statistics table.
+
+**1. Player Identification:**
+The target player is Player12.
+
+**2. Initialization:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player12(Home Team)'s shot from outside the box is blocked with the help of Player16(Home Team)."
+    *   The snippet explicitly mentions "shot" by Player12.
+    *   Shots += 1
+
+*   **Snippet 2:** "Player12(Home Team)'s attempt from outside the box with his left foot goes wide to the right, with an assist from Player9(Home Team)."
+    * The snippet mentions "attempt" which falls under shot attempts.
+    *   Shots += 1
+    *   The snippet explicitly states Player9 provided the assist *to* Player12. This means Player12 *received* the assist, not provided it. Therefore, we do *not* increment the Assist count for Player12.
+
+**4. Final Counts:**
+
+Shots = 2
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**5. Final Summary Table:**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player12 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

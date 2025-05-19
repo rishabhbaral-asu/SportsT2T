@@ -1,0 +1,35 @@
+Okay, let's start by identifying the target player.
+
+Target Player: Player7
+
+Now, let's initialize the event counts for Player7:
+
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Now, we'll analyze each commentary snippet and increment the counts accordingly, following the strict counting rules.
+
+Snippet 1: "Player7(Home Team) attempts a pass to Player11(Home Team), who is caught offside."
+
+This snippet mentions Player7 attempting a pass, but it doesn't say it led to a goal. There's no mention of a shot, goal, free kick, foul, or card for Player7. The key point is that Player11 is caught offside, not Player7. So, Offsides remains at 0. This also does not trigger an assist, shot, goal or free kick.
+
+Snippet 2: "Player7(Home Team) earns a free kick in their own half."
+
+This snippet explicitly mentions Player7 earning a free kick. This increments the Free Kicks count.
+
+Free Kicks: 0 + 1 = 1
+
+The other counts remain unchanged.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

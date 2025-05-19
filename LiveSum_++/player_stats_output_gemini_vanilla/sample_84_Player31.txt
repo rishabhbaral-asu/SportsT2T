@@ -1,0 +1,25 @@
+Okay, let's break down the task. I need to analyze the commentary snippets provided, identify mentions of the specified player, and count the occurrences of specific events (Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, Offsides) based on the provided keywords and counting rules. The most important rule is to ONLY count events explicitly stated and unambiguously attributed to the player.
+
+Here's the step-by-step process:
+
+1.  **Identify Target Player:** The target player is Player31.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Snippets:**
+
+*   **Snippet 1:** "Player31(Away Team) earns a free kick in the opponent's half after a foul committed by Player3(Home Team)."
+    *   This snippet explicitly states Player31 "earns a free kick". This means Player31 wins a free kick as a result of an opponent's foul. Thus, Free Kicks (taken) should be incremented.
+    *   Free Kicks = 1
+
+*   **Snippet 2:** "Player31(Away Team)'s shot from outside the box with his left foot is saved in the bottom right corner, assisted by Player29(Away Team)."
+    *   This snippet states Player31 took a "shot". Therefore, Shots should be incremented.
+    *   Shots = 1
+    *   The snippet also states Player31 was *assisted by* Player29. This does NOT increment the assist count for Player31.
+
+4.  **Final Counts:** Shots = 1, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player31 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

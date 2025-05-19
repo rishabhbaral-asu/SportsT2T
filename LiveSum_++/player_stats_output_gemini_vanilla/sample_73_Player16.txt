@@ -1,0 +1,45 @@
+Okay, let's break down the commentary snippets for Player16 and generate the statistics table.
+
+**1. Player Name:**
+The target player is Player16.
+
+**2. Initializing Counts:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyzing Commentary Snippets:**
+
+*   **Snippet 1:** "Player16(Home Team)'s left footed shot from outside the box is saved in the bottom right corner after being assisted by Player27(Away Team) with a headed pass, resulting in a corner kick for the Away Team."
+    *   Mentions "shot" by Player16. Increment Shots: Shots = 1.
+    *   Player16 was *assisted by* another player, so no assist is added for Player16.
+
+*   **Snippet 2:** "Player16(Home Team)'s left-footed shot from close range into the bottom right corner, assisted by Player23(Away Team) after a corner kick."
+    *   Mentions "shot" by Player16 that resulted in a "goal". Increment Shots: Shots = 2.
+    *   Mentions "goal" by Player16. Increment Goals: Goals = 1.
+    *   Player16 was *assisted by* another player, so no assist is added for Player16.
+
+*   **Snippet 3:** "Player16(Home Team) earns a free kick in their own half after being fouled by Player8(Home Team)."
+    *   Mentions "earns a free kick". Increment Free Kicks: Free Kicks = 1.
+
+**4. Final Counts:**
+Shots = 2
+Goals = 1
+Assists = 0
+Free Kicks = 1
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player16 | 2     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

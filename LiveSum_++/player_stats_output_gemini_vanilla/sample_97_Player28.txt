@@ -1,0 +1,48 @@
+Okay, let's analyze the commentary snippets for Player28.
+
+1.  **Player Name:** Player28
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player28(Away Team)'s shot from outside the box narrowly misses the top left corner with an assist from Player27(Away Team)."
+        *   Shots += 1 (Explicitly stated Player28's shot)
+
+    *   Snippet 2: "Player28(Away Team)'s shot from outside the box is saved in the center of the goal with an assist from Player27(Away Team)."
+        *   Shots += 1 (Explicitly stated Player28's shot)
+
+    *   Snippet 3: "Player28(Away Team) scores with a left-footed shot from the center of the box, assisted by Player27(Away Team), Away Team 0, Home Team 2."
+        *   Shots += 1 (Explicitly stated Player28 scored with a shot)
+        *   Goals += 1 (Explicitly stated Player28 scored a goal)
+
+    *   Snippet 4: "Player28(Away Team)'s shot from the center of the box is saved by the goalkeeper after a through ball from Player26(Away Team)."
+        *   Shots += 1 (Explicitly stated Player28's shot)
+
+    *   Snippet 5: "Player28(Away Team) earns a free kick on the right side of the field."
+        *   Free Kicks += 1 (Explicitly stated Player28 earns a free kick)
+
+4.  **Final Counts:**
+    *   Shots = 4
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 4     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

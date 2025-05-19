@@ -1,0 +1,41 @@
+Okay, let's analyze the commentary snippets for Player21 and compile the statistics according to the instructions.
+
+**Player Name:** Player21
+
+**Commentary Snippets:**
+- Player21(Away Team) commits a foul on Player10(Home Team), earning him a free kick on the right wing, This results in a free kick for Player10(Home Team) on the right wing.
+
+**Step-by-step analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player21(Away Team) commits a foul on Player10(Home Team), earning him a free kick on the right wing, This results in a free kick for Player10(Home Team) on the right wing."
+        *   **Fouls:** The snippet explicitly states "Player21 commits a foul". Therefore, increment Fouls by 1.
+        *   **Free Kicks:** Player21 committed a foul. Player10 wins the free kick and Player21 is not taking a free kick.
+
+3.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

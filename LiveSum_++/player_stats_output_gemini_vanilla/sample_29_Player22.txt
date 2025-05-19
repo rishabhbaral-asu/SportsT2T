@@ -1,0 +1,23 @@
+Okay, I will analyze the provided commentary snippets for Player22 and generate the final summary table.
+
+**Steps:**
+
+1.  **Identify Target Player:** The target player is Player22.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Snippets:**
+    *   "Player22(Away Team) commits a foul." - Fouls += 1
+    *   "Player22(Away Team) fouls Player7(Home Team), resulting in a free kick in the defensive half." - Fouls += 1
+    *   "Player22(Away Team) earns a free kick in their own half." - Free Kicks += 1
+    *   "Player22(Away Team) commits a foul on Player9(Home Team), who earns a free kick in their own defensive half." - Fouls += 1
+    *   "Player22(Away Team)'s header from the center of the box is blocked by the defense after being assisted by Player25(Away Team) with a cross, resulting in a corner kick for the Away Team." - Shots += 1 (explicitly a header and blocked)
+    *   "Player22(Away Team) commits a foul." - Fouls += 1
+    *   "Player22(Away Team) has been given a yellow card." - Yellow Cards += 1
+
+4. **Compile Results:** Shots = 1, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 4, Yellow Cards = 1, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 1     | 0     | 0       | 1          | 4     | 1            | 0         | 0        |
+```

@@ -1,0 +1,45 @@
+Okay, let's analyze the commentary snippets for Player23.
+
+1.  **Player Name:** Player23
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player23(Away Team) commits a foul."
+        *   The snippet explicitly states "Player23 commits a foul".
+        *   Increment Fouls: Fouls = 1
+    *   Snippet 2: "Player23(Away Team) earns a free kick in their own defensive half."
+        *   The snippet explicitly states "Player23 earns a free kick".
+        *   Increment Free Kicks: Free Kicks = 1
+    *   Snippet 3: "Player23(Away Team) attempts a through ball, but Player27(Away Team) is offside for the Away Team."
+        *   Player23 attempts a through ball does not count as any of the listed statistics since that in itself does not fulfill a shot, assist, free kick, foul, or card. Only Player27 being offside should be noted.
+        *   Offsides: 0 (Player23 not offside)
+    *   Snippet 4: "Player23(Away Team) missed the header from close range to the right, assisted by Player32(Away Team) with a cross after a set piece situation."
+        *   The snippet explicitly states "Player23 missed the header". This counts as a shot.
+        *   Increment Shots: Shots = 1
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 1     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

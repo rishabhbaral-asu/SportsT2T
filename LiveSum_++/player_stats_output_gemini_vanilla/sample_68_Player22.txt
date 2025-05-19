@@ -1,0 +1,33 @@
+Okay, let's break down the process step-by-step, applying the instructions rigorously.
+
+1.  **Identify Target Player:**
+    The target player is Player22.
+
+2.  **Initialize Counts:**
+    Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player22(Away Team) misses with a right-footed shot from outside the box, going wide to the left."
+        *   This snippet explicitly mentions "shot" by Player22.
+        *   Increment Shots: Shots = 0 + 1 = 1
+
+    *   **Snippet 2:** "Player22(Away Team) commits a foul."
+        *   This snippet explicitly mentions "foul" committed by Player22.
+        *   Increment Fouls: Fouls = 0 + 1 = 1
+
+    *   **Snippet 3:** "Player22(Away Team) receives a yellow card for a reckless challenge."
+        *   This snippet explicitly mentions "yellow card" received by Player22.
+        *   The snippet also implies a foul through "reckless challenge".
+        *   Increment Yellow Cards: Yellow Cards = 0 + 1 = 1
+        *   Increment Fouls: Fouls = 1 + 1 = 2
+
+4.  **Final Counts:**
+    Shots = 1, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 2, Yellow Cards = 1, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 1     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

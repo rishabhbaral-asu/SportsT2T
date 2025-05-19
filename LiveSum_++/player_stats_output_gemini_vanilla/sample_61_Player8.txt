@@ -1,0 +1,46 @@
+Okay, let's process the provided input step-by-step and create the final summary table.
+
+1.  **Identify Target Player:** The target player is Player8.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player8(Home Team) misses the target with a right-footed shot from outside the box."
+        *   Player8 is explicitly mentioned taking a shot. Shots += 1
+
+    *   Snippet 2: "Player8(Home Team)'s shot from the right side of the box is blocked with Player6(Home Team)'s assistance."
+        *   Player8 is explicitly mentioned taking a shot. Shots += 1
+
+    *   Snippet 3: "Player8(Home Team) earns a free kick on the right side of the field."
+        *   Player8 is explicitly mentioned earning a free kick. Free Kicks += 1
+
+    *   Snippet 4: "Player8(Home Team)'s shot from outside the box is saved in the bottom right corner with an assist from Player9(Home Team)."
+        *   Player8 is explicitly mentioned taking a shot. Shots += 1
+
+    *   Snippet 5: "Player8(Home Team)'s attempt from a direct free kick with his right foot is off target and goes too high."
+        *   Player8 is explicitly mentioned taking a free kick. Free Kicks += 1
+4. **Compile Results:**
+    *   Shots = 3
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 2
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 3     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

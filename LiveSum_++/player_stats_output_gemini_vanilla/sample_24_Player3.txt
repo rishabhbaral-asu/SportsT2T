@@ -1,0 +1,36 @@
+Okay, let's analyze the commentary snippets for Player3 and generate the final summary table.
+
+1.  **Player Name:** The target player is Player3.
+
+2.  **Initialization:** We initialize all event counts to 0 for Player3: Shots=0, Goals=0, Assists=0, Free Kicks=0, Fouls=0, Yellow Cards=0, Red Cards=0, Offsides = 0.
+
+3.  **Snippet Analysis (Applying Strict Counting):**
+
+    *   **Snippet 1:** "Player3(Home Team) attempts a through ball to Player9(Home Team), but Player9(Home Team) is caught offside, resulting in a free kick for the Home Team in their defensive half."
+        *   Offsides: Player3 attempted a pass to Player9 who was offside. This does not count as Player3 being offside so Offsides remains 0.
+
+    *   **Snippet 2:** "Player3(Home Team) commits a foul on Player20(Away Team), earning him a free kick on the right wing."
+        *   Fouls: Player3 commits a foul. Fouls = 1.
+
+    *   **Snippet 3:** "Player3(Home Team) earns a free kick in their own half."
+        *   Free Kicks: Player3 earns a free kick. Free Kicks = 1.
+
+    *   **Snippet 4:** "Player3(Home Team) earns a free kick in their own half after being fouled by Player25(Away Team)."
+        *   Free Kicks: Player3 earns a free kick. Free Kicks = 2.
+
+4.  **Final Counts:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 2
+    * Fouls = 1
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 0     | 0     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

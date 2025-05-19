@@ -1,0 +1,55 @@
+Okay, let's analyze the commentary snippets for Player11 and compile the statistics.
+
+**Player Name:** Player11
+
+**Commentary Snippets:**
+
+- Player11(Home Team) from the Home Team attempts a through ball, but Player10(Home Team) is flagged for being offside.
+- Player11(Home Team) has committed a hand ball.
+- Player11(Home Team) misses the header from the center of the box, it goes high and wide to the left, Player7(Home Team) assisted with the cross.
+- Player11(Home Team)'s shot from outside the box is saved by the goalkeeper, with an assist from Player6(Home Team).
+- Player11(Home Team) commits a foul, resulting in Player20(Away Team) being awarded a free kick in their own half.
+- Player11(Home Team) earns a free kick in the opponent's half after being fouled by Player24(Away Team).
+
+**Step-by-step analysis:**
+
+1.  **Shots:**
+    *   "Player11(Home Team) misses the header from the center of the box...": This is a shot (header attempt). Increment Shots by 1.
+    *   "Player11(Home Team)'s shot from outside the box is saved by the goalkeeper...": This is a shot. Increment Shots by 1.
+    *   Total Shots: 2
+
+2.  **Goals:**
+    *   No explicit mention of Player11 scoring a goal in any of the snippets.
+    *   Total Goals: 0
+
+3.  **Assists:**
+    *   No explicit mention of Player11 providing an assist in any of the snippets. Although two shots happened with an assist from other players, it does not change the assist number of Player11.
+    *   Total Assists: 0
+
+4.  **Free Kicks (Taken):**
+    *   "Player11(Home Team) earns a free kick in the opponent's half after being fouled by Player24(Away Team).": Player11 wins a free kick. Increment Free Kicks by 1.
+    *   Total Free Kicks: 1
+
+5.  **Fouls (Committed):**
+    *   "Player11(Home Team) has committed a hand ball.": This is a foul. Increment Fouls by 1.
+    *   "Player11(Home Team) commits a foul, resulting in Player20(Away Team) being awarded a free kick in their own half.": This is a foul. Increment Fouls by 1.
+    *   Total Fouls: 2
+
+6.  **Yellow Cards:**
+    *   No explicit mention of Player11 receiving a yellow card.
+    *   Total Yellow Cards: 0
+
+7.  **Red Cards:**
+    *   No explicit mention of Player11 receiving a red card.
+    *   Total Red Cards: 0
+
+8.  **Offsides:**
+     * No explicit mention of Player11 being offside.
+     * Total Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

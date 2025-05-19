@@ -1,0 +1,45 @@
+Okay, let's analyze the commentary snippets for Player22 and generate the requested markdown table.
+
+**Player Name:** Player22
+
+**Commentary Snippets:**
+- Player22(Away Team) attempts a through ball, but Player27(Away Team) is offside for the Away Team.
+- Player22(Away Team)'s left footed shot from outside the box is blocked, resulting in a free kick for Player22(Away Team) in the attacking half.
+
+**Reasoning:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1 Analysis:** "Player22(Away Team) attempts a through ball, but Player27(Away Team) is offside for the Away Team."
+    * Player22 attempts a through ball, however the play ends in an offside by a teammate. No applicable keywords are triggered in this snippet. Offsides applies to Player27 and not Player22.
+    * No Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, or Red Cards are attributed to Player22.
+
+3.  **Snippet 2 Analysis:** "Player22(Away Team)'s left footed shot from outside the box is blocked, resulting in a free kick for Player22(Away Team) in the attacking half."
+    *   "shot" keyword detected. Shots = 1
+    *   "free kick" keyword detected. Free Kicks = 1
+    * No Goals, Assists, Fouls, Yellow Cards, Red Cards, or Offsides are attributed to Player22.
+
+4. **Final Count:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

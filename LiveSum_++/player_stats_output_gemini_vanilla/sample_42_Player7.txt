@@ -1,0 +1,42 @@
+Okay, let's break down the commentary snippets and count the events for Player7.
+
+1.  **Player Name:** Player7
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player7(Home Team) earns a free kick on the right side of the field."
+        *   Free Kicks: Player7 earns a free kick, so increment Free Kicks by 1.
+        *   Current counts: Shots: 0, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+    *   Snippet 2: "Player7(Home Team)'s shot from outside the box is blocked with the help of Player10(Home Team)."
+        *   Shots: Player7's shot is blocked, so increment Shots by 1.
+        *   Current counts: Shots: 1, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+    *   Snippet 3: "Player7(Home Team) commits a foul, leading to Player27(Away Team) winning a free kick in the attacking half, This results in a set piece opportunity for Player27(Away Team)'s team."
+        *   Fouls: Player7 commits a foul, so increment Fouls by 1.
+        *   Current counts: Shots: 1, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 1, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+    *   Snippet 4: "Player7(Home Team)'s shot from outside the box is saved in the center of the goal, with an assist from Player10(Home Team)."
+        *   Shots: Player7's shot is saved, so increment Shots by 1.
+        *   Current counts: Shots: 2, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 1, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+    *   Snippet 5: "Player7(Home Team) receives a yellow card for a rough tackle."
+        *   Yellow Cards: Player7 receives a yellow card, so increment Yellow Cards by 1.
+        *   Current counts: Shots: 2, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 1, Yellow Cards: 1, Red Cards: 0, Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 2     | 0     | 0       | 1          | 1     | 1            | 0         | 0        |
+```

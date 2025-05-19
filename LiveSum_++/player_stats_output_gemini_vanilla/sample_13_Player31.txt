@@ -1,0 +1,39 @@
+Okay, let's start by identifying the player name:
+
+1.  **Player Name:** Player31
+
+Now, let's initialize the event counts for Player31 to 0:
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+Next, analyze the commentary snippets:
+
+*   Snippet 1: "Player31(Away Team)'s header from the center of the box is blocked after an assist from Player34(Away Team) with a cross."
+
+    *   The snippet mentions "header" and "blocked", which implies a shot. So, Shots += 1.
+    *   The snippet mentions an assist *from* Player34, so no assist should be counted for Player31.
+
+Now, let's compile the final counts into the table:
+
+*   Shots = 1
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player31 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,42 @@
+Okay, let's break down the process step by step.
+
+1. **Identify Target Player:** The target player is Player26.
+
+2. **Initialize Counts:**
+   * Shots = 0
+   * Goals = 0
+   * Assists = 0
+   * Free Kicks = 0
+   * Fouls = 0
+   * Yellow Cards = 0
+   * Red Cards = 0
+   * Offsides = 0
+
+3. **Analyze Commentary Snippets:**
+
+   * Snippet 1: "Player26(Away Team) misses the target with a high and wide shot from outside the box, with an assist from Player32(Away Team)."
+     * Shots: The snippet explicitly states "Player26 misses the target with a ... shot". Therefore, increment Shots by 1.
+     * Goals: The snippet does not state that Player26 scored a goal.
+     * Assists: The snippet states "with an assist from Player32(Away Team)". This means Player26 *received* the assist, not that Player26 provided one. No assist is added for Player26.
+     * Free Kicks: The snippet does not explicitly state Player26 took a free kick or was fouled.
+     * Fouls: The snippet does not explicitly state Player26 committed a foul.
+     * Yellow Cards: The snippet does not explicitly state Player26 received a yellow card.
+     * Red Cards: The snippet does not explicitly state Player26 received a red card.
+     * Offsides: The snippet does not explicitly state Player26 was offsides.
+
+4. **Final Counts:**
+   * Shots = 1
+   * Goals = 0
+   * Assists = 0
+   * Free Kicks = 0
+   * Fouls = 0
+   * Yellow Cards = 0
+   * Red Cards = 0
+   * Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

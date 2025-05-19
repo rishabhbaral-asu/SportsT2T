@@ -1,0 +1,48 @@
+Okay, let's break down the process step by step, following the instructions to the letter.
+
+1.  **Player Identification:** The target player is Player26.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Commentary Snippet Analysis (Strict Counting):**
+
+    *   Snippet 1: "Player26(Away Team) commits a foul."
+        *   Fouls: Increment by 1. Fouls = 1
+
+    *   Snippet 2: "Player26(Away Team) commits a foul on Player8(Home Team), resulting in a free kick for Player8(Home Team) in their own defensive half."
+        *   Fouls: Increment by 1. Fouls = 2
+
+    *   Snippet 3: "Player26(Away Team) receives a yellow card for a foul on Player35(Away Team)."
+        *   Yellow Cards: Increment by 1. Yellow Cards = 1
+
+    *   Snippet 4: "Player26(Away Team) scores with a left-footed shot from the edge of the box, assisted by Player28(Away Team), hits the bar."
+        *   Shots: Increment by 1. Shots = 1
+        *   Goals: Increment by 1. Goals = 1
+
+    *   Snippet 5: "Player26(Away Team) has been fouled by Player35(Away Team) with a handball."
+        *   Free Kicks: Increment by 1. Free Kicks = 1
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 2
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 1     | 1     | 0       | 1          | 2     | 1            | 0         | 0        |
+```

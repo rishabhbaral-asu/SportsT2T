@@ -1,0 +1,30 @@
+Okay, let's start by identifying the player name and initializing the event counts.
+
+Player Name: Player2
+
+Initial Event Counts:
+Shots: 0, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+Now, let's analyze the commentary snippets and increment the counts accordingly, adhering to the strict counting rules.
+
+Commentary Snippet 1:
+"Player2(Home Team) misses the goal with a left-footed shot from outside the box, assisted by Player8(Home Team)."
+
+*   Shots: The snippet explicitly states "Player2 misses the goal with a ... shot". Increment Shots count by 1.
+*   Goals: The snippet states Player2 *misses* the goal, so no goal is scored.
+*   Assists: The snippet says Player2 was *assisted by* Player8. Therefore, Player2 did not provide an assist.
+*   Free Kicks: No mention of free kicks or penalties taken by Player2.
+*   Fouls: No mention of fouls committed by Player2.
+*   Yellow Cards: No mention of a yellow card for Player2.
+*   Red Cards: No mention of a red card for Player2.
+*   Offsides: No mention of Player2 being offside.
+
+Updated Event Counts after Snippet 1:
+Shots: 1, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

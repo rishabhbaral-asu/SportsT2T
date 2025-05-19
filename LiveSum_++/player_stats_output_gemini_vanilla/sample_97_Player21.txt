@@ -1,0 +1,39 @@
+Okay, let's break this down step by step.
+
+1.  **Player Identification:** The target player is Player21.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player21(Away Team) of the Home Team attempted a through ball, but Player31(Away Team) was ruled offside."
+        *   This snippet mentions Player21 attempting a through ball. This does not count as a Shot since it is not explicitly an attempt on goal. It *could* have led to a goal, but it doesn't meet the strict definition of an assist either, especially since another player was offside. It also mentions another player being offside, which is irrelevant to Player21's offside count.
+
+    *   **Snippet 2:** "Player21(Away Team) fouls Player13(Home Team) on the right wing, resulting in a free kick being awarded."
+        *   This snippet explicitly states "Player21 fouls Player13". This increments the Fouls count by 1.
+        *   A free kick is awarded due to the foul committed by Player21, but that does *not* mean Player21 took the free kick.
+
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

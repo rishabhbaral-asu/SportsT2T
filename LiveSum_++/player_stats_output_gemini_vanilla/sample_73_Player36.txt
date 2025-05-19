@@ -1,0 +1,47 @@
+Okay, let's analyze the commentary snippets for Player36 and generate the requested markdown table.
+
+**Player Name:** Player36
+
+**Commentary Snippets:**
+- Player36(Away Team)'s shot from the right side of the box is saved in the bottom right corner after an assist from Player33(Away Team).
+
+**Analysis:**
+
+1.  **Player Name:** The target player is Player36.
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+    *   Snippet 1: "Player36(Away Team)'s shot from the right side of the box is saved in the bottom right corner after an assist from Player33(Away Team)."
+        *   Shots: The snippet explicitly mentions "shot" by Player36. Increment Shots to 1.
+        *   Goals: The snippet says the shot was "saved", so it was not a goal.
+        *   Assists: The snippet mentions "assist from Player33", NOT Player36. Player36 *received* the assist, not *gave* it. No assist counted for Player36.
+        *   Free Kicks: No explicit mention of free kick.
+        *   Fouls: No explicit mention of a foul.
+        *   Yellow Cards: No explicit mention of a yellow card.
+        *   Red Cards: No explicit mention of a red card.
+        *   Offsides: No explicit mention of offsides.
+
+4. **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player36 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

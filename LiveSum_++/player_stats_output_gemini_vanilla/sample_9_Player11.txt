@@ -1,0 +1,70 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for Player11 and count explicit occurrences of defined events.
+
+**Input:**
+*   **Player Name:**
+    ```
+    Player11
+    ```
+*   **Commentary Snippets:**
+    ```
+    - Player11(Home Team) misses the target with a high shot from outside the box, assisted by Player2(Home Team).
+    - Player11(Home Team) misses the shot with his right foot from outside the box after a quick counterattack.
+    ```
+
+**Step-by-step breakdown:**
+
+1.  **Identify Player Name:** The target player is Player11.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player11(Home Team) misses the target with a high shot from outside the box, assisted by Player2(Home Team)."
+        *   The snippet mentions "Player11" and "shot". It is an attempt on goal so increment shots by 1.
+        *   It also mentions Player11 was assisted by Player2, therefore, do not count an assist for Player11.
+        *   Shots = 1
+        *   Goals = 0
+        *   Assists = 0
+        *   Free Kicks = 0
+        *   Fouls = 0
+        *   Yellow Cards = 0
+        *   Red Cards = 0
+        *   Offsides = 0
+    *   **Snippet 2:** "Player11(Home Team) misses the shot with his right foot from outside the box after a quick counterattack."
+        *   The snippet mentions "Player11" and "shot". It is an attempt on goal so increment shots by 1.
+        *   Shots = 2
+        *   Goals = 0
+        *   Assists = 0
+        *   Free Kicks = 0
+        *   Fouls = 0
+        *   Yellow Cards = 0
+        *   Red Cards = 0
+        *   Offsides = 0
+
+4.  **Final Counts:**
+
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

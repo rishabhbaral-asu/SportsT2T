@@ -1,0 +1,48 @@
+Okay, let's analyze the commentary snippets for Player4 and compile the statistics.
+
+**1. Player Name:**
+The target player is Player4.
+
+**2. Initialization:**
+We initialize all counts to 0 for Player4.
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player4(Home Team) committed a hand ball."
+    *   This explicitly states Player4 committed a hand ball, which is a foul.
+    *   Fouls: 1
+
+*   **Snippet 2:** "Player4(Home Team) attempts a shot from outside the box with their right foot, but narrowly misses the top right corner with an assist from Player3(Home Team)."
+    *   This explicitly states Player4 attempts a shot.
+    *   Shots: 1
+    *   The snippet explicitly states the Player4 was assisted by Player3. So Player4 does not get an assist count.
+
+*   **Snippet 3:** "Player4(Home Team) and Player29(Away Team) had their shots saved from outside the box, with Player9(Home Team) and Player27(Away Team) providing the assists."
+    *   This explicitly states Player4 had their shot saved.
+    *   Shots: 2
+    *   The snippet explicitly states that Player4 was assisted by Player9, and not the other way around. No assist to Player4
+
+*   **Snippet 4:** "Player4(Home Team)'s attempt from outside the box with his left foot is saved in the bottom left corner."
+    *   This explicitly states Player4 attempts a shot.
+    *   Shots: 3
+
+*   **Snippet 5:** "Player4(Home Team) with a cross off a set piece, The score now stands at Home Team 2, Away Team 0."
+    *   This explicitly states Player4 takes the set piece, however, it does not explicitly state an attempt or taking of a free kick, or penalty. It's possible to interpret this as an assist but there is no explicit mention of an assist, or goal. It is also not a free kick.
+
+**4. Final Counts:**
+
+*   Shots: 3
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 3     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

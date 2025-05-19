@@ -1,0 +1,49 @@
+Okay, I will follow the instructions to analyze the commentary snippets for the specified player and generate the final summary table.
+
+1.  **Identify Target Player:** The target player is Player21.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player21(Away Team) misses a left-footed shot from outside the box to the right, with an assist from Player28(Away Team)."
+        *   Shots: Player21 misses a shot. Shots = 0 + 1 = 1
+        *   Goals: No goal mentioned.
+        *   Assists: Player21 did not provide the assist, Player28 did. Assists = 0.
+
+    *   **Snippet 2:** "Player21(Away Team) fouls Player10(Home Team), who wins a free kick on the right wing."
+        *   Free Kicks: Player21 conceded a free kick, but did not take one.
+        *   Fouls: Player21 committed a foul. Fouls = 0 + 1 = 1
+
+    *   **Snippet 3:** "Player21(Away Team) receives a yellow card for a foul."
+        *   Yellow Cards: Player21 receives a yellow card. Yellow Cards = 0 + 1 = 1
+        *   Fouls: The player committed a foul resulting in a yellow card. Fouls = 1 + 1 = 2
+
+    *   **Snippet 4:** "Player21(Away Team) fouls Player2(Home Team), who earns a free kick on the right wing."
+        *   Free Kicks: Player21 conceded a free kick, but did not take one.
+        *   Fouls: Player21 committed a foul. Fouls = 2 + 1 = 3
+
+4.  **Compile Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 3
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 1     | 0     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

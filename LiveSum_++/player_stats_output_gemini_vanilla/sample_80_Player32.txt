@@ -1,0 +1,52 @@
+Okay, let's break down the commentary snippets for Player32.
+
+1.  **Player Name:** Player32
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player32(Away Team) earns a free kick in their own half."
+        *   Player32 earns a free kick. This counts as a Free Kick.
+        *   Free Kicks = 1
+
+    *   Snippet 2: "Player32(Away Team) misses the target with a left-footed shot from outside the box, with an assist from Player20(Away Team)."
+        *   Player32 misses a shot. This counts as a Shot.
+        *   Shots = 1
+        *   Player32 received an assist from Player20. This does not count as an assist for Player32.
+        *   Assists = 0 (No change)
+
+    *   Snippet 3: "Player32(Away Team) commits a foul."
+        *   Player32 commits a foul. This counts as a Foul.
+        *   Fouls = 1
+
+    *   Snippet 4: "Player32(Away Team)'s shot from outside the box is saved by the goalkeeper in the bottom right corner, with an assist from Player35(Away Team)."
+        *   Player32's shot is saved. This counts as a Shot.
+        *   Shots = 2
+        *   Player32 received an assist from Player35. This does not count as an assist for Player32.
+        *   Assists = 0 (No change)
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player32 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```
