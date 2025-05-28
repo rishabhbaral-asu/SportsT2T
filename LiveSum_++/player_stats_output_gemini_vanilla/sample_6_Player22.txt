@@ -1,42 +1,42 @@
-Okay, let's break this down step-by-step.
+Okay, let's analyze the commentary snippets for Player22.
 
-1. **Identify Target Player:**
-   The target player is Player22.
+1.  **Player Name:** The target player is Player22.
 
-2. **Initialize Counts:**
-   Shots = 0
-   Goals = 0
-   Assists = 0
-   Free Kicks = 0
-   Fouls = 0
-   Yellow Cards = 0
-   Red Cards = 0
-   Offsides = 0
+2.  **Initialization:** We initialize the counts for Player22 as follows:
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-3. **Analyze Snippets:**
+3.  **Snippet Analysis:**
 
-   *   **Snippet 1:** "Player22(Away Team) commits a foul."
-        *   This explicitly states Player22 committed a foul.
-        *   Increment Fouls: Fouls = 1
+    *   **Snippet 1:** "Player22(Away Team) commits a foul."
+        *   This snippet explicitly states Player22 committed a foul.
+        *   Fouls = Fouls + 1 = 1
 
-   *   **Snippet 2:** "Player22(Away Team) scores with a right-footed shot from the right side of the box, putting the Home Team on the scoreboard with 1 goal against the Away Team's 2."
-        *   This explicitly states Player22 scored a goal.
-        *   Increment Goals: Goals = 1
-        *   Increment Shots: Shots = 1
+    *   **Snippet 2:** "Player22(Away Team) scores with a right-footed shot from the right side of the box, putting the Home Team on the scoreboard with 1 goal against the Away Team's 2."
+        *   This snippet explicitly states Player22 scored a goal.
+        *   Goals = Goals + 1 = 1
+        *   This snippet also explicitly states Player22 took a shot.
+        *   Shots = Shots + 1 = 1
 
-   *   **Snippet 3:** "Player22(Away Team) commits a foul, resulting in Player3(Home Team) winning a free kick in their own defensive half, The foul by Player22(Away Team) gives Player3(Home Team) a free kick in their own defensive half."
-        *   This explicitly states Player22 committed a foul.
-        *   Increment Fouls: Fouls = 2
+    *   **Snippet 3:** "Player22(Away Team) commits a foul, resulting in Player3(Home Team) winning a free kick in their own defensive half, The foul by Player22(Away Team) gives Player3(Home Team) a free kick in their own defensive half."
+        *   This snippet explicitly states Player22 committed a foul.
+        *   Fouls = Fouls + 1 = 2
 
-4. **Compile Final Counts:**
-   Shots = 1
-   Goals = 1
-   Assists = 0
-   Free Kicks = 0
-   Fouls = 2
-   Yellow Cards = 0
-   Red Cards = 0
-   Offsides = 0
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 2
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
 Final Summary Table:
 ```markdown

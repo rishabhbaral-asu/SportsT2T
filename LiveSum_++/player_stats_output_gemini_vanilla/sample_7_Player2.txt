@@ -1,32 +1,24 @@
-Okay, let's analyze the commentary snippets for Player2 and create the summary table.
+Okay, let's analyze the commentary snippets for Player2.
 
-1.  **Identify Target Player:** The target player is Player2.
-2.  **Initialize Counts:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 0
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+1.  **Player Name:** Player2
 
-3.  **Analyze Commentary Snippets:**
+2.  **Initialization:**
+    * Shots: 0
+    * Goals: 0
+    * Assists: 0
+    * Free Kicks: 0
+    * Fouls: 0
+    * Yellow Cards: 0
+    * Red Cards: 0
+    * Offsides: 0
+
+3.  **Snippet Analysis:**
+
     *   Snippet 1: "Player2(Home Team) attempts to pass to Player9(Home Team), but Player9(Home Team) is offside for the Home Team."
-        *   This snippet mentions Player2 attempting a pass, but it doesn't lead to a goal. It also states that Player9 is offside. Therefore, no events are added to the total of Player2.
-        *   Offsides: Player9 offside. So Player2 offsides remains 0.
+        *   This snippet mentions Player2 attempting a pass, leading to Player9 being offside. This does not count as a shot, goal, assist, free kick, foul, or card for Player2. It *does* explicitly state Player9 is offside, not Player2, so Offsides for Player2 remains 0.
 
-4.  **Final Counts:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 0
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+4. **Final Summary Table:**
 
-Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

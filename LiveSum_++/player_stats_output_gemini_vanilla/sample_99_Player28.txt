@@ -1,44 +1,25 @@
-Okay, I'm ready to analyze the commentary snippets and generate the player statistics table.
+Okay, let's analyze the commentary snippets for Player28 and compile the statistics.
 
-**Step 1: Identify the target player**
-The target player is Player28.
+**Player Name:** Player28
 
-**Step 2: Initialize event counts**
-Shots = 0
-Goals = 0
-Assists = 0
-Free Kicks = 0
-Fouls = 0
-Yellow Cards = 0
-Red Cards = 0
-Offsides = 0
+**Commentary Snippets:**
 
-**Step 3: Analyze each snippet and increment counts**
+- Player28(Away Team) commits a foul.
+- Player28(Away Team) commits a foul, resulting in Player6(Home Team) winning a free kick in their own defensive half.
+- Player28(Away Team) earns a free kick in their own half.
+- Player28(Away Team) earns a free kick in the opponent's half.
+- Player28(Away Team) attempts a through ball, but Player27(Away Team) is caught offside.
 
-*   Snippet 1: "Player28(Away Team) commits a foul."
-    *   Fouls += 1 (Explicitly states Player28 commits a foul)
+**Reasoning:**
 
-*   Snippet 2: "Player28(Away Team) commits a foul, resulting in Player6(Home Team) winning a free kick in their own defensive half."
-    *   Fouls += 1 (Explicitly states Player28 commits a foul)
-
-*   Snippet 3: "Player28(Away Team) earns a free kick in their own half."
-    *   Free Kicks += 1 (Explicitly states Player28 earns a free kick, thus a free kick was taken by him.)
-
-*   Snippet 4: "Player28(Away Team) earns a free kick in the opponent's half."
-    *   Free Kicks += 1 (Explicitly states Player28 earns a free kick, thus a free kick was taken by him.)
-
-*   Snippet 5: "Player28(Away Team) attempts a through ball, but Player27(Away Team) is caught offside."
-    *   Offsides += 0 (The snippet does not explicitly say Player28 was caught offside, only Player27.)
-
-**Step 4: Final Counts**
-Shots = 0
-Goals = 0
-Assists = 0
-Free Kicks = 2
-Fouls = 2
-Yellow Cards = 0
-Red Cards = 0
-Offsides = 0
+1.  **Shots:** No explicit mentions of shots taken by Player28. Count remains 0.
+2.  **Goals:** No explicit mentions of goals scored by Player28. Count remains 0.
+3.  **Assists:** No explicit mentions of assists provided by Player28. Count remains 0.
+4.  **Free Kicks:** Player28 earns a free kick in their own half and in the opponent's half. Therefore free kicks is 2.
+5.  **Fouls:** Player28 commits a foul in two instances. The count is 2.
+6.  **Yellow Cards:** No explicit mentions of yellow cards for Player28. Count remains 0.
+7.  **Red Cards:** No explicit mentions of red cards for Player28. Count remains 0.
+8.  **Offsides:** The commentary mentions Player27 being offside after a through ball from Player28, so it does not count for Player28. Count remains 0.
 
 Final Summary Table:
 ```markdown

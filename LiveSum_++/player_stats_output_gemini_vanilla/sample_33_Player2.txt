@@ -3,19 +3,40 @@ Okay, let's analyze the commentary snippets for Player2 and compile the statisti
 **Player Name:** Player2
 
 **Commentary Snippets:**
-- Player2(Home Team) commits a foul, resulting in Player21(Away Team) winning a free kick in their own defensive half.
-- Player2(Home Team) commits a foul.
 
-**Step-by-step analysis:**
+*   Player2(Home Team) commits a foul, resulting in Player21(Away Team) winning a free kick in their own defensive half.
+*   Player2(Home Team) commits a foul.
 
-1.  **Shots:** The snippets do not mention Player2 taking any shots. Count remains 0.
-2.  **Goals:** The snippets do not mention Player2 scoring any goals. Count remains 0.
-3.  **Assists:** The snippets do not mention Player2 providing any assists. Count remains 0.
-4.  **Free Kicks (Taken):** The snippets mention Player2 committing a foul, resulting in Player21 winning a free kick. This does not count as Player2 taking a free kick. Count remains 0.
-5.  **Fouls (Committed):** The snippets explicitly state "Player2(Home Team) commits a foul" (twice). Therefore, the foul count is incremented by 2.
-6.  **Yellow Cards:** The snippets do not mention Player2 receiving any yellow cards. Count remains 0.
-7.  **Red Cards:** The snippets do not mention Player2 receiving any red cards. Count remains 0.
-8.  **Offsides:** The snippets do not mention Player2 being offside. Count remains 0.
+**Step-by-step Analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1 Analysis:** "Player2(Home Team) commits a foul, resulting in Player21(Away Team) winning a free kick in their own defensive half."
+    *   The snippet explicitly states "Player2 commits a foul". Therefore, increment Fouls by 1.
+    * The snippet describes player21 winning a free kick - it does not indicate that Player2 took a free kick.
+    *   No mention of shots, goals, assists, yellow cards, red cards, or offsides.
+
+3.  **Snippet 2 Analysis:** "Player2(Home Team) commits a foul."
+    *   The snippet explicitly states "Player2 commits a foul". Therefore, increment Fouls by 1.
+    *   No mention of shots, goals, assists, free kicks, yellow cards, red cards, or offsides.
+
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 2
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
 Final Summary Table:
 ```markdown

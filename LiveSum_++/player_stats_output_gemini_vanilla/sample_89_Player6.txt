@@ -1,37 +1,46 @@
-Okay, let's analyze the commentary snippets for Player6.
+Okay, I'm ready to process the data and generate the summary table.
 
-1.  **Player Name:** Player6
+**Player Name:**
+Player6
 
-2.  **Initialization:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 0
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+**Commentary Snippets:**
+- Player6(Home Team) commits a foul.
+- Player6(Home Team) misses a header from the right side of the six yard box, assisted by Player7(Home Team) after a set piece.
+- Player6(Home Team) commits a foul.
 
-3.  **Snippet Analysis:**
+**Step-by-step breakdown:**
 
-    *   Snippet 1: "Player6(Home Team) commits a foul."
-        *   Fouls: Increment by 1. Fouls = 1
+1. **Player Name Identification:** The target player is Player6.
+2. **Initialization:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+3. **Snippet Analysis:**
 
-    *   Snippet 2: "Player6(Home Team) misses a header from the right side of the six yard box, assisted by Player7(Home Team) after a set piece."
-        *   Shots: Increment by 1 (header is an attempt on goal). Shots = 1
+    * Snippet 1: "Player6(Home Team) commits a foul."
+        *  Fouls: Increment to 1.
 
-    *   Snippet 3: "Player6(Home Team) commits a foul."
-        *   Fouls: Increment by 1. Fouls = 2
+    * Snippet 2: "Player6(Home Team) misses a header from the right side of the six yard box, assisted by Player7(Home Team) after a set piece."
+        * Shots: The player misses a header (an attempt on goal), so increment Shots to 1.
+        *  Note that the player was *assisted by* another player. This means the target player did *not* give an assist, so the assist count stays at 0.
 
-4.  **Final Counts:**
-    *   Shots: 1
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 2
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+    * Snippet 3: "Player6(Home Team) commits a foul."
+        * Fouls: Increment to 2.
+
+4. **Final Counts:**
+    * Shots: 1
+    * Goals: 0
+    * Assists: 0
+    * Free Kicks: 0
+    * Fouls: 2
+    * Yellow Cards: 0
+    * Red Cards: 0
+    * Offsides: 0
 
 Final Summary Table:
 ```markdown

@@ -1,34 +1,62 @@
-Okay, let's analyze the commentary snippets for Player24 and generate the summary table.
+Okay, let's analyze the commentary snippets for Player24 and generate the final summary table.
 
 **Player Name:** Player24
 
-**Commentary Snippets Analysis:**
+**Commentary Snippets:**
 
-*   **Snippet 1:** "Player24(Away Team) commits a foul." - Foul count incremented by 1.
-*   **Snippet 2:** "Player24(Away Team) earns a free kick in their own half." - Free Kicks count incremented by 1.
-*   **Snippet 3:** "Player24(Away Team) earns a free kick in their own half." - Free Kicks count incremented by 1.
-*   **Snippet 4:** "Player24(Away Team) scores with a penalty kick to give the Away Team a 1-0 lead over the Home Team." - Goal count incremented by 1, Shot count incremented by 1, Free Kicks count incremented by 1 (penalty is a type of free kick).
-*   **Snippet 5:** "Player24(Away Team) commits a foul, resulting in Player6(Home Team) winning a free kick in the attacking half, The foul by Player24(Away Team) awards Player6(Home Team) a free kick in the attacking half." - Foul count incremented by 1.
-*   **Snippet 6:** "Player24(Away Team) receives a yellow card for a harsh tackle." - Yellow Card count incremented by 1.
-*   **Snippet 7:** "Player24(Away Team) scores a penalty with a right footed shot to the bottom right corner, making it Home Team 0, Away Team 2." - Goal count incremented by 1, Shot count incremented by 1, Free Kicks count incremented by 1 (penalty is a type of free kick).
-*   **Snippet 8:** "Player24(Away Team)'s attempt from outside the box is blocked with the help of Player25(Away Team)." - Shot count incremented by 1.
-*   **Snippet 9:** "Player24(Away Team) misses the target with a high and wide shot from outside the box after a corner kick." - Shot count incremented by 1.
-*   **Snippet 10:** "Player24(Away Team) misses the penalty, hitting the left post with a right-footed shot, The score remains Home Team 0, Away Team 2." - Shot count incremented by 1, Free Kicks count incremented by 1 (penalty is a type of free kick).
+*   Player24(Away Team) commits a foul.
+*   Player24(Away Team) earns a free kick in their own half.
+*   Player24(Away Team) earns a free kick in their own half.
+*   Player24(Away Team) scores with a penalty kick to give the Away Team a 1-0 lead over the Home Team.
+*   Player24(Away Team) commits a foul, resulting in Player6(Home Team) winning a free kick in the attacking half, The foul by Player24(Away Team) awards Player6(Home Team) a free kick in the attacking half.
+*   Player24(Away Team) receives a yellow card for a harsh tackle.
+*   Player24(Away Team) scores a penalty with a right footed shot to the bottom right corner, making it Home Team 0, Away Team 2.
+*   Player24(Away Team)'s attempt from outside the box is blocked with the help of Player25(Away Team).
+*   Player24(Away Team) misses the target with a high and wide shot from outside the box after a corner kick.
+*   Player24(Away Team) misses the penalty, hitting the left post with a right-footed shot, The score remains Home Team 0, Away Team 2.
 
-**Final Count:**
+**Step-by-step Analysis and Event Counting (Player24):**
 
-*   Shots: 6
-*   Goals: 2
-*   Assists: 0
-*   Free Kicks: 6
-*   Fouls: 2
-*   Yellow Cards: 1
-*   Red Cards: 0
-*   Offsides: 0
+1.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+2.  **Snippet 1:** "Player24(Away Team) commits a foul."
+    *   Fouls: Foul committed by Player24. Increment Fouls: Fouls = 1
+
+3.  **Snippet 2:** "Player24(Away Team) earns a free kick in their own half."
+    *   Free Kicks: Player24 earns a free kick. Increment Free Kicks: Free Kicks = 1
+
+4.  **Snippet 3:** "Player24(Away Team) earns a free kick in their own half."
+    *   Free Kicks: Player24 earns a free kick. Increment Free Kicks: Free Kicks = 2
+
+5.  **Snippet 4:** "Player24(Away Team) scores with a penalty kick to give the Away Team a 1-0 lead over the Home Team."
+    *   Shots: Player24 scores. Increment Shots: Shots = 1
+    *   Goals: Player24 scores. Increment Goals: Goals = 1
+    *   Free Kicks: Player24 scores with a penalty kick. Increment Free Kicks: Free Kicks = 3
+
+6.  **Snippet 5:** "Player24(Away Team) commits a foul, resulting in Player6(Home Team) winning a free kick in the attacking half, The foul by Player24(Away Team) awards Player6(Home Team) a free kick in the attacking half."
+    *   Fouls: Foul committed by Player24. Increment Fouls: Fouls = 2
+
+7.  **Snippet 6:** "Player24(Away Team) receives a yellow card for a harsh tackle."
+    *   Yellow Cards: Player24 receives a yellow card. Increment Yellow Cards: Yellow Cards = 1
+
+8.  **Snippet 7:** "Player24(Away Team) scores a penalty with a right footed shot to the bottom right corner, making it Home Team 0, Away Team 2."
+    *   Shots: Player24 scores. Increment Shots: Shots = 2
+    *   Goals: Player24 scores. Increment Goals: Goals = 2
+        *   Free Kicks: Player24 scores with a penalty kick. Increment Free Kicks: Free Kicks = 4
+
+9.  **Snippet 8:** "Player24(Away Team)'s attempt from outside the box is blocked with the help of Player25(Away Team)."
+    *   Shots: Player24's attempt is blocked. Increment Shots: Shots = 3
+
+10. **Snippet 9:** "Player24(Away Team) misses the target with a high and wide shot from outside the box after a corner kick."
+    *   Shots: Player24 misses the target. Increment Shots: Shots = 4
+
+11. **Snippet 10:** "Player24(Away Team) misses the penalty, hitting the left post with a right-footed shot, The score remains Home Team 0, Away Team 2."
+    *   Shots: Player24 misses the penalty. Increment Shots: Shots = 5
+    *   Free Kicks: Player24 took a penalty kick. Increment Free Kicks: Free Kicks = 5
 
 Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player24 | 6     | 2     | 0       | 6          | 2     | 1            | 0         | 0        |
+| Player24 | 5     | 2     | 0       | 5          | 2     | 1            | 0         | 0        |
 ```

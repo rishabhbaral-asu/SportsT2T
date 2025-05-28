@@ -1,38 +1,52 @@
-Okay, let's analyze the commentary snippets for Player28.
+Okay, let's analyze the commentary snippets for Player28 and generate the statistics table.
 
-1.  **Player Name:** Player28
+**Player Name:**
+Player28
 
-2.  **Initial Counts:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 0
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+**Commentary Snippets:**
+- Player28(Away Team) commits a foul on Player4(Home Team), leading to a free kick in the defensive half, This results in a set piece opportunity for Player4(Home Team)'s team.
+- Player28(Away Team)'s right footed shot from outside the box, assisted by Player27(Away Team), is blocked resulting in a corner kick for the Away Team.
+- Player28(Away Team) misses the target with a high and wide shot from outside the box, assisted by Player26(Away Team).
+- Player28(Away Team) scores with a right-footed shot from outside the box, assisted by Player25(Away Team), putting the Home Team ahead 2-1 against the Away Team.
 
-3.  **Snippet Analysis:**
+**Step-by-step analysis:**
 
-    *   **Snippet 1:** "Player28(Away Team) commits a foul on Player4(Home Team), leading to a free kick in the defensive half, This results in a set piece opportunity for Player4(Home Team)'s team."
-        *   Fouls: Player28 commits a foul, so increment Fouls by 1.
-    *   **Snippet 2:** "Player28(Away Team)'s right footed shot from outside the box, assisted by Player27(Away Team), is blocked resulting in a corner kick for the Away Team."
-        *   Shots: Player28 takes a shot, so increment Shots by 1.
-    *   **Snippet 3:** "Player28(Away Team) misses the target with a high and wide shot from outside the box, assisted by Player26(Away Team)."
-        *   Shots: Player28 takes a shot, so increment Shots by 1.
-    *   **Snippet 4:** "Player28(Away Team) scores with a right-footed shot from outside the box, assisted by Player25(Away Team), putting the Home Team ahead 2-1 against the Away Team."
-        *   Shots: Player28 takes a shot, so increment Shots by 1.
-        *   Goals: Player28 scores a goal, so increment Goals by 1.
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-4.  **Final Counts:**
-    *   Shots: 3
-    *   Goals: 1
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 1
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+2.  **Snippet 1 Analysis:**
+    *   "Player28(Away Team) commits a foul on Player4(Home Team), leading to a free kick in the defensive half"
+    *   Fouls: Player28 commits a foul. Increment Fouls by 1. Fouls = 1
+
+3.  **Snippet 2 Analysis:**
+    *   "Player28(Away Team)'s right footed shot from outside the box, assisted by Player27(Away Team), is blocked resulting in a corner kick for the Away Team."
+    *   Shots: Player28 takes a shot. Increment Shots by 1. Shots = 1
+
+4.  **Snippet 3 Analysis:**
+    *   "Player28(Away Team) misses the target with a high and wide shot from outside the box, assisted by Player26(Away Team)."
+    *   Shots: Player28 takes a shot. Increment Shots by 1. Shots = 2
+
+5.  **Snippet 4 Analysis:**
+    *   "Player28(Away Team) scores with a right-footed shot from outside the box, assisted by Player25(Away Team), putting the Home Team ahead 2-1 against the Away Team."
+    *   Goals: Player28 scores a goal. Increment Goals by 1. Goals = 1
+    *   Shots: Player28 takes a shot that results in a goal. Increment Shots by 1. Shots = 3
+
+**Final Counts:**
+*   Shots: 3
+*   Goals: 1
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
 
 Final Summary Table:
 ```markdown

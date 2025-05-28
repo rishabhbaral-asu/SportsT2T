@@ -3,22 +3,43 @@ Okay, let's analyze the commentary snippets for Player7 and generate the summary
 **Player Name:** Player7
 
 **Commentary Snippets:**
-- Player7(Home Team) scores with a right-footed shot from the center of the box, assisted by Player10(Home Team), The Home Team and Away Team are now tied 1-1.
-- Player7(Home Team) commits a foul, resulting in Player21(Away Team) winning a free kick in their own defensive half, .
 
-**Reasoning:**
+*   Player7(Home Team) scores with a right-footed shot from the center of the box, assisted by Player10(Home Team), The Home Team and Away Team are now tied 1-1.
+*   Player7(Home Team) commits a foul, resulting in Player21(Away Team) winning a free kick in their own defensive half, .
 
-*   **Shots:** The first snippet states "Player7(Home Team) scores with a right-footed shot". Therefore, the shot count is incremented by 1.
-*   **Goals:** The first snippet states "Player7(Home Team) scores...". Therefore, the goal count is incremented by 1.
-*   **Assists:** The first snippet states "assisted by Player10(Home Team)". Since Player7 is the one being assisted, the assist count is not incremented. Player7 did not provide the assist.
-*   **Free Kicks:** The second snippet mentions Player7 commits a foul. This does not count as Player7 taking a free kick, but rather committing a foul.
-*   **Fouls:** The second snippet states "Player7(Home Team) commits a foul...". Therefore, the foul count is incremented by 1.
-*   **Yellow Cards:** Neither snippet mentions Player7 receiving a yellow card.
-*   **Red Cards:** Neither snippet mentions Player7 receiving a red card.
-*   **Offsides:** Neither snippet mentions Player7 being offsides.
+**Step-by-step analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1 Analysis:** "Player7(Home Team) scores with a right-footed shot from the center of the box, assisted by Player10(Home Team), The Home Team and Away Team are now tied 1-1."
+    *   "scores" keyword found. Increment Goals: Goals = 1.
+    *   "shot" keyword found. Increment Shots: Shots = 1.
+    *   "assisted by Player10" indicates Player7 *received* an assist, not provided one, so Assists remains 0.
+
+3.  **Snippet 2 Analysis:** "Player7(Home Team) commits a foul, resulting in Player21(Away Team) winning a free kick in their own defensive half, ."
+    *   "commits a foul" keyword found. Increment Fouls: Fouls = 1.
+    *   Player7 commits a foul leading to the opposition winning a free kick. No free kick is taken by Player7, so Free Kicks remains 0.
+
+**Final Counts:**
+
+*   Shots: 1
+*   Goals: 1
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
 
 Final Summary Table:
-
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

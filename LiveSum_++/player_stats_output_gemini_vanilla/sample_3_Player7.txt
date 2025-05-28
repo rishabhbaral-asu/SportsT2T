@@ -1,46 +1,41 @@
-Okay, let's break down the commentary snippets and count the events for Player7.
+Okay, let's analyze the commentary snippets for Player7 and compile the statistics.
 
-1.  **Player Name:** `Player7`
+**Player Name:**
+Player7
 
-2.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+**Commentary Snippets:**
+- Player7(Home Team)'s left footed shot from outside the box is saved in the center of the goal.
+- Player7(Home Team) tried to pass the ball to Player9(Home Team), but unfortunately, Player9(Home Team) was offside.
+- Player7(Home Team) misses the target with a high and wide shot from outside the box, assisted by Player10(Home Team).
+- Player7(Home Team) commits a foul on Player28(Away Team), who wins a free kick in their defensive half.
 
-3.  **Snippet Analysis:**
+**Step-by-step analysis:**
 
-    *   Snippet 1: "Player7(Home Team)'s left footed shot from outside the box is saved in the center of the goal."
-        *   "shot" keyword detected. Increment Shots. Shots = 1.
-        *   No Goals, Assists, Free Kicks, Fouls, Yellow Cards, or Red Cards mentioned.
+1.  **Shots:**
+    *   Snippet 1: "Player7(Home Team)'s left footed shot from outside the box is saved in the center of the goal." - This is a shot on target. Count: 1
+    *   Snippet 3: "Player7(Home Team) misses the target with a high and wide shot from outside the box, assisted by Player10(Home Team)." - This is a shot off target. Count: 1
+    Total Shots: 2
 
-    *   Snippet 2: "Player7(Home Team) tried to pass the ball to Player9(Home Team), but unfortunately, Player9(Home Team) was offside."
-        *   Player7 passed to Player9, who was offside. The pass did not directly lead to a goal. Therefore, no assist is awarded to Player7.
-        *   "Offsides" event applies to Player9, not Player7.
-        *   No Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, or Red Cards mentioned for Player7.
+2.  **Goals:**
+    *   No snippet explicitly states Player7 scored a goal. Count: 0
 
-    *   Snippet 3: "Player7(Home Team) misses the target with a high and wide shot from outside the box, assisted by Player10(Home Team)."
-        *   "shot" keyword detected. Increment Shots. Shots = 2.
-        *   Player7 was *assisted by* Player10, not the other way around. Therefore, no assist for Player7.
-        *   No Goals, Free Kicks, Fouls, Yellow Cards, or Red Cards mentioned.
+3.  **Assists:**
+    *   Snippet 3 states Player7 was *assisted by* Player10. This does not count as an assist *for* Player7. Count: 0
 
-    *   Snippet 4: "Player7(Home Team) commits a foul on Player28(Away Team), who wins a free kick in their defensive half."
-        *   "foul" keyword detected. Increment Fouls. Fouls = 1.
-        *   No Shots, Goals, Assists, Free Kicks, Yellow Cards, or Red Cards mentioned.
+4.  **Free Kicks (Taken):**
+    *   Snippet 4 states that Player7 committed a foul that resulted in a free kick for the opposing team, but the free kick was not taken by Player7. Therefore, it does not count. Count: 0
 
-4.  **Final Counts:**
-    *   Shots = 2
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 1
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+5.  **Fouls (Committed):**
+    *   Snippet 4: "Player7(Home Team) commits a foul on Player28(Away Team), who wins a free kick in their defensive half." - This is a foul committed by Player7. Count: 1
+
+6.  **Yellow Cards:**
+    *   No snippet explicitly mentions Player7 receiving a yellow card. Count: 0
+
+7.  **Red Cards:**
+    *   No snippet explicitly mentions Player7 receiving a red card. Count: 0
+
+8.  **Offsides:**
+    *   Snippet 2: "Player7(Home Team) tried to pass the ball to Player9(Home Team), but unfortunately, Player9(Home Team) was offside." Player7 did not commit an offside, Player9 did. Count: 0
 
 Final Summary Table:
 ```markdown

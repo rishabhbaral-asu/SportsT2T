@@ -1,18 +1,14 @@
-Okay, let's analyze the commentary snippets for Player6.
+Okay, let's start by identifying the player and initializing the counts.
 
-1.  **Player Name:** Player6
-2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+Player Name: Player6
 
-3.  **Snippet Analysis:**
+Now, let's process the commentary snippets and update the counts accordingly.
 
-    *   **Snippet 1:** "Player6(Home Team) earns a free kick in their own half."
-        *   This snippet explicitly states Player6 *earns* a free kick. This implies the player was fouled and won a free kick. Therefore, Free Kicks = 1.
-        *   Other statistics remain unchanged.
-    *   **Snippet 2:** "Player6(Home Team) commits a foul, resulting in Player25(Away Team) winning a free kick in their own defensive half."
-        *   This snippet explicitly states Player6 *commits a foul*. Therefore, Fouls = 1.
-        *   Other statistics remain unchanged.
+Snippet 1: "Player6(Home Team) earns a free kick in their own half."
+*   Free Kicks: Player6 earns a free kick, so increment Free Kicks by 1.
 
-4.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+Snippet 2: "Player6(Home Team) commits a foul, resulting in Player25(Away Team) winning a free kick in their own defensive half."
+*   Fouls: Player6 commits a foul, so increment Fouls by 1.
 
 Final Summary Table:
 ```markdown

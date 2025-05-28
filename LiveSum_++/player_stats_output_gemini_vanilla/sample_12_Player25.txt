@@ -1,22 +1,38 @@
-Okay, let's start by identifying the player name and initializing the counts.
+Okay, let's analyze the commentary snippets for Player25 and generate the statistics table.
 
-Player Name: Player25
+**Player Name:** Player25
 
-Now, let's process the commentary snippets and increment the counts accordingly.
+**Commentary Snippets:**
+- Player25(Away Team) earns a free kick on the right side.
+- Player25(Away Team) earns a free kick in his own half.
+- Player25(Away Team)'s shot from outside the box is blocked with the help of Player24(Away Team).
+- Player25(Away Team)'s shot from outside the box goes high and wide to the right, with an assist from Player23(Away Team).
 
-*   **Snippet 1:** "Player25(Away Team) earns a free kick on the right side."
-    *   Free Kicks: Player25 earns a free kick. Increment Free Kicks by 1.
-*   **Snippet 2:** "Player25(Away Team) earns a free kick in his own half."
-    *   Free Kicks: Player25 earns a free kick. Increment Free Kicks by 1.
-*   **Snippet 3:** "Player25(Away Team)'s shot from outside the box is blocked with the help of Player24(Away Team)."
-    *   Shots: Player25's shot is blocked. Increment Shots by 1.
-*   **Snippet 4:** "Player25(Away Team)'s shot from outside the box goes high and wide to the right, with an assist from Player23(Away Team)."
-    *   Shots: Player25's shot goes high and wide. Increment Shots by 1.
-    *   Assists: Player25 received an assist. DO NOT increment assists.
+**Analysis:**
 
-Now, let's create the final summary table.
+*   **Free Kicks (Taken):**
+    *   Snippet 1: "Player25(Away Team) earns a free kick on the right side." - Player25 earns a free kick. Count +1.
+    *   Snippet 2: "Player25(Away Team) earns a free kick in his own half." - Player25 earns a free kick. Count +1.
+    Total Free Kicks: 2
+*   **Shots:**
+    *   Snippet 3: "Player25(Away Team)'s shot from outside the box is blocked with the help of Player24(Away Team)." - Player25 takes a shot. Count +1.
+    *   Snippet 4: "Player25(Away Team)'s shot from outside the box goes high and wide to the right, with an assist from Player23(Away Team)." - Player25 takes a shot. Count +1.
+    Total Shots: 2
+*   **Goals:** No goals explicitly mentioned for Player25.
+    Total Goals: 0
+*   **Assists:** No assists explicitly provided *by* Player25. Player25 was assisted by Player23, but that doesn't count as an assist *for* Player25.
+    Total Assists: 0
+*   **Fouls:** No fouls explicitly mentioned for Player25.
+    Total Fouls: 0
+*   **Yellow Cards:** No yellow cards explicitly mentioned for Player25.
+    Total Yellow Cards: 0
+*   **Red Cards:** No red cards explicitly mentioned for Player25.
+    Total Red Cards: 0
+*   **Offsides:** No offsides explicitly mentioned for Player25.
+    Total Offsides: 0
 
 Final Summary Table:
+
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

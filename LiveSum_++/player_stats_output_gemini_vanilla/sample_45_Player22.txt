@@ -1,47 +1,19 @@
-Okay, let's analyze the commentary snippets for Player22 and compile the statistics.
+Okay, I will follow the instructions to analyze the commentary snippets for Player22 and generate the final summary table.
 
-1.  **Player Name:** Player22
+First, I identify the target player: Player22.
 
-2.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+Next, I initialize the event counts to 0: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
 
-3.  **Snippet Analysis:**
+Now, I will analyze each commentary snippet and increment the counts based on the defined keywords and the strict counting rules.
 
-    *   Snippet 1: "Player22(Away Team) commits a foul."
-        *   Fouls += 1
+*   **Snippet 1:** "Player22(Away Team) commits a foul." - This explicitly states Player22 committed a foul. Increment Fouls by 1. Fouls = 1.
+*   **Snippet 2:** "Player22(Away Team) fouls Player4(Home Team), resulting in a free kick in the defensive half." - This explicitly states Player22 committed a foul. Increment Fouls by 1. Fouls = 2
+*   **Snippet 3:** "Player22(Away Team) commits a foul." - This explicitly states Player22 committed a foul. Increment Fouls by 1. Fouls = 3.
+*   **Snippet 4:** "Player22(Away Team) receives a yellow card for a rough challenge." - This explicitly states Player22 received a yellow card. Increment Yellow Cards by 1. Yellow Cards = 1.
+*   **Snippet 5:** "Player22(Away Team)'s shot from outside the box with their left foot is saved in the top right corner, with an assist from Player31(Away Team)." - This explicitly states Player22 took a shot. Increment Shots by 1. Shots = 1.
+*   **Snippet 6:** "Player22(Away Team) earns a free kick in the opponent's half." - This explicitly states Player22 earned a free kick. Increment Free Kicks by 1. Free Kicks = 1.
 
-    *   Snippet 2: "Player22(Away Team) fouls Player4(Home Team), resulting in a free kick in the defensive half."
-        *   Fouls += 1
-
-    *   Snippet 3: "Player22(Away Team) commits a foul."
-        *   Fouls += 1
-
-    *   Snippet 4: "Player22(Away Team) receives a yellow card for a rough challenge."
-        *   Yellow Cards += 1
-
-    *   Snippet 5: "Player22(Away Team)'s shot from outside the box with their left foot is saved in the top right corner, with an assist from Player31(Away Team)."
-        *   Shots += 1
-
-    *   Snippet 6: "Player22(Away Team) earns a free kick in the opponent's half."
-        *   Free Kicks += 1
-
-4.  **Final Counts:**
-
-    *   Shots = 1
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 1
-    *   Fouls = 3
-    *   Yellow Cards = 1
-    *   Red Cards = 0
-    *   Offsides = 0
+Finally, I present the data in the requested markdown table format.
 
 Final Summary Table:
 ```markdown

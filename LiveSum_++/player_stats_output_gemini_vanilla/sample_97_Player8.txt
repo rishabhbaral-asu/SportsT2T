@@ -1,22 +1,41 @@
-Okay, I'm ready to analyze the commentary snippets for Player8 and generate the summary table.
+Okay, I'm ready to process the player commentary snippets and generate the summary table.
 
-**Player Name:** Player8
+**1. Identify Target Player:**
+The target player is Player8.
 
-**Commentary Snippets:**
-- Player8(Home Team) attempted a left-footed shot from outside the box, but narrowly missed to the right with an assist from Player11(Home Team).
-- Player8(Home Team) commits a foul, resulting in Player22(Away Team) winning a free kick in the attacking half, .
-- Player8(Home Team) receives a yellow card for a rough tackle.
+**2. Initialize Counts:**
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
 
-**Analysis:**
+**3. Analyze Commentary Snippets:**
 
-1.  **Shots:** The first snippet explicitly states "Player8(Home Team) attempted a left-footed shot". This counts as 1 shot.
-2.  **Goals:** The snippets do not mention Player8 scoring a goal. Therefore, goals = 0.
-3.  **Assists:** The first snippet mentions Player8 attempting a shot with an assist from Player11. This means Player8 received the assist, so he did not provide an assist. Therefore, assists = 0.
-4.  **Free Kicks:** The second snippet mentions that Player8 commits a foul resulting in the other player winning a free kick. Player8 is not taking a free kick but rather causing one. Therefore, Free Kicks = 0.
-5.  **Fouls:** The second snippet explicitly states "Player8(Home Team) commits a foul". Therefore, fouls = 1.
-6.  **Yellow Cards:** The third snippet explicitly states "Player8(Home Team) receives a yellow card". Therefore, yellow cards = 1.
-7.  **Red Cards:** The snippets do not mention Player8 receiving a red card. Therefore, red cards = 0.
-8.  **Offsides:** The snippets do not mention Player8 being offsides. Therefore, offsides = 0.
+*   **Snippet 1:** "Player8(Home Team) attempted a left-footed shot from outside the box, but narrowly missed to the right with an assist from Player11(Home Team)."
+    *   Shots: The snippet explicitly states "attempted a ... shot", so increment Shots by 1.
+    *   Goals: No goal is mentioned.
+    *   Assists: The snippet mentions Player8 attempting the shot, and receiving the assist - it doesn't say Player8 *gave* an assist, so Assists remains 0.
+
+*   **Snippet 2:** "Player8(Home Team) commits a foul, resulting in Player22(Away Team) winning a free kick in the attacking half, ."
+    *   Fouls: The snippet explicitly states "commits a foul", so increment Fouls by 1.
+
+*   **Snippet 3:** "Player8(Home Team) receives a yellow card for a rough tackle."
+    *   Yellow Cards: The snippet explicitly states "receives a yellow card", so increment Yellow Cards by 1.
+
+**4. Final Counts:**
+
+Shots: 1
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 1
+Yellow Cards: 1
+Red Cards: 0
+Offsides: 0
 
 Final Summary Table:
 ```markdown

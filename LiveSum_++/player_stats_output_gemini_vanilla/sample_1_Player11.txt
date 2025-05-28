@@ -1,32 +1,16 @@
 Okay, let's analyze the commentary snippets for Player11.
 
-1.  **Player Name:** `Player11`
+1.  **Player Name:** The target player is Player11.
+2.  **Initialization:** We initialize the counts for all events to 0 for Player11.
+3.  **Snippet Analysis:**
 
-2.  **Initialize Counts:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 0
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
-
-3.  **Analyze Snippets:**
-
-    *   Snippet 1: "Player11(Home Team) earns a free kick on the left side of the field."
-        *   `Free Kicks`: Player11 "earns a free kick" - This implies a free kick *taken*. Increment Free Kicks by 1. (Free Kicks = 1)
-
-    *   Snippet 2: "Player11(Home Team) receives a yellow card."
-        *   `Yellow Cards`: Player11 "receives a yellow card". Increment Yellow Cards by 1. (Yellow Cards = 1)
-
-    *   Snippet 3: "Player11(Home Team) earns a free kick in their own half."
-        *   `Free Kicks`: Player11 "earns a free kick". This implies a free kick *taken*. Increment Free Kicks by 1. (Free Kicks = 2)
-
-    *   Snippet 4: "Player11(Home Team) commits a foul."
-        *   `Fouls`: Player11 "commits a foul". Increment Fouls by 1. (Fouls = 1)
+    *   **Snippet 1:** "Player11(Home Team) earns a free kick on the left side of the field." - This indicates Player11 won a free kick. Thus Free Kicks count increases by 1.
+    *   **Snippet 2:** "Player11(Home Team) receives a yellow card." - This indicates Player11 received a yellow card. Thus Yellow Cards count increases by 1.
+    *   **Snippet 3:** "Player11(Home Team) earns a free kick in their own half." - This indicates Player11 won a free kick. Thus Free Kicks count increases by 1.
+    *   **Snippet 4:** "Player11(Home Team) commits a foul." - This indicates Player11 committed a foul. Thus Fouls count increases by 1.
 
 4.  **Final Counts:**
+
     *   Shots: 0
     *   Goals: 0
     *   Assists: 0

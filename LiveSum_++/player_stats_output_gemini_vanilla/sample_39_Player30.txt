@@ -1,36 +1,22 @@
-Okay, let's analyze the commentary snippets for Player30 and compile the statistics.
+Okay, let's analyze the commentary snippets for Player30.
 
-1.  **Player Name:** Player30
-
-2.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
-
+1.  **Player Name:** The target player is Player30.
+2.  **Initialization:** Initialize all counts to 0 for Player30: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
 3.  **Snippet Analysis:**
-
     *   Snippet 1: "Player30(Away Team) earns a free kick on the right side of the field."
-        *   The snippet clearly states Player30 earned a free kick. This means the player was fouled or won a free kick, so we increment the "Free Kicks" count.
-        *   Free Kicks = 1
-
+        *   This snippet explicitly states that Player30 *earned* a free kick. This counts as a Free Kick (taken). Increment Free Kicks by 1. Free Kicks = 1.
     *   Snippet 2: "Player30(Away Team)'s shot from outside the box after a corner goes over the goal."
-        *   The snippet explicitly states "Player30's shot". This is a shot attempt.
-        *   Shots = 1
+        *   This snippet explicitly states that Player30 took a shot. Increment Shots by 1. Shots = 1.
 
 4.  **Final Counts:**
-    *   Shots = 1
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 1
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
 Final Summary Table:
 ```markdown

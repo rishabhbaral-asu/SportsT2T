@@ -1,22 +1,40 @@
-Okay, I'm ready to analyze the commentary snippets and generate the player statistics table.
+Okay, let's analyze the commentary snippets for Player27.
 
-**Player Name:** Player27
+1.  **Player Name:** Player27
 
-**Commentary Snippets:**
-- Player27(Away Team)'s shot from a tough angle on the left is saved in the bottom right corner after a through ball from Player28(Away Team).
-- Player27(Away Team) earns a free kick on the left side of the field.
-- Player27(Away Team) commits a foul.
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-**Reasoning:**
+3.  **Snippet Analysis:**
 
-1.  **Shots:** The first snippet explicitly states "Player27(Away Team)'s shot...is saved". This indicates one shot for Player27.
-2.  **Goals:** The snippets do not explicitly state that Player27 scored a goal. Thus, the goal count remains at 0.
-3.  **Assists:** The snippets do not explicitly state that Player27 provided an assist. Therefore, the assist count remains at 0.
-4.  **Free Kicks:** The second snippet states "Player27(Away Team) earns a free kick...". This clearly indicates Player27 was awarded a free kick. Therefore, increment Free Kicks by 1.
-5.  **Fouls:** The third snippet explicitly states "Player27(Away Team) commits a foul." This indicates one foul committed by Player27. Therefore, increment the foul count by 1.
-6.  **Yellow Cards:** The snippets do not explicitly mention Player27 receiving a yellow card. Thus, the yellow card count remains at 0.
-7.  **Red Cards:** The snippets do not explicitly mention Player27 receiving a red card. Thus, the red card count remains at 0.
-8.  **Offsides:** The snippets do not explicitly mention Player27 being offsides. Thus, the offsides count remains at 0.
+    *   **Snippet 1:** "Player27(Away Team)'s shot from a tough angle on the left is saved in the bottom right corner after a through ball from Player28(Away Team)."
+        *   Mentions "shot" explicitly attributed to Player27.
+        *   Shots = 1
+
+    *   **Snippet 2:** "Player27(Away Team) earns a free kick on the left side of the field."
+        *   Mentions Player27 "earns a free kick."
+        *   Free Kicks = 1
+
+    *   **Snippet 3:** "Player27(Away Team) commits a foul."
+        *   Mentions Player27 "commits a foul."
+        *   Fouls = 1
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
 Final Summary Table:
 ```markdown

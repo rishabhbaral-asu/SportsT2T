@@ -1,17 +1,25 @@
-Okay, I understand. I will analyze the commentary snippets, identify the events explicitly attributed to the target player, and generate the final summary table in the specified format.
+Okay, let's analyze the commentary snippets for Player23 and compile the statistics.
 
-**Player Name:** Player23
+1.  **Player Name:**
+    `<PLAYER_NAME>
+    Player23
+    </PLAYER_NAME>`
+    The target player is Player23.
 
-**Commentary Snippets:**
-- Player23(Away Team) earns a free kick in their own half.
+2.  **Initialize Counts:**
+    Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
 
-**Reasoning:**
+3.  **Analyze Commentary Snippets:**
+    `<PLAYER_COMMENTARY_SNIPPETS>
+    - Player23(Away Team) earns a free kick in their own half.
+    </PLAYER_COMMENTARY_SNIPPETS>`
 
-1.  **Player Identification:** The target player is Player23.
-2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
-3.  **Snippet Analysis:**
-    *   "Player23(Away Team) earns a free kick in their own half." - This explicitly states that Player23 earned a free kick. This increments the 'Free Kicks' count by 1.
-4.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+    *   Snippet 1: "Player23(Away Team) earns a free kick in their own half."
+        *   This snippet explicitly states that Player23 "earns a free kick." Therefore, the "Free Kicks" count should be incremented.
+        Free Kicks = 1
+
+4.  **Final Counts:**
+    Shots = 0, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
 
 Final Summary Table:
 ```markdown

@@ -1,54 +1,43 @@
-Okay, let's analyze the commentary snippets for Player11 and generate the statistics table.
+Okay, let's analyze the commentary snippets for Player11 and compile the statistics.
 
-**Player Name:** Player11
+**1. Player Name:**
+The target player is Player11.
 
-**Commentary Snippets:**
+**2. Initialization:**
+Initialize all counts to 0.
 
-- Player11(Home Team)'s shot from outside the box was blocked with the help of Player9(Home Team). (1 Shot)
-- Player11(Home Team) earns a free kick in the opponent's half. (1 Free Kick)
-- Player11(Home Team)'s attempt from outside the box is blocked. (1 Shot)
-- Player11(Home Team)'s left footed shot from the left side of the box was blocked with an assist from Player10(Home Team). (1 Shot)
-- Player11(Home Team) scores with a right-footed shot from the center of the box, assisted by Player8(Home Team), Home Team leads 1-0 against Away Team. (1 Shot, 1 Goal)
-- Player11(Home Team) scores with a left-footed shot from outside the box, putting the Home Team up 2-0 against the Away Team. (1 Shot, 1 Goal)
+**3. Snippet Analysis:**
 
-**Event Counting:**
+*   **Snippet 1:** "Player11(Home Team)'s shot from outside the box was blocked with the help of Player9(Home Team)."
+    *   Shots: The snippet mentions "shot" by Player11. Increment Shots to 1.
 
-*   **Shots:**
-    *   Snippet 1: "Player11(Home Team)'s shot from outside the box was blocked..." - Counts as 1 Shot.
-    *   Snippet 3: "Player11(Home Team)'s attempt from outside the box is blocked." - Counts as 1 Shot.
-    *   Snippet 4: "Player11(Home Team)'s left footed shot from the left side of the box was blocked..." - Counts as 1 Shot.
-    *   Snippet 5: "Player11(Home Team) scores with a right-footed shot..." - Counts as 1 Shot.
-    *   Snippet 6: "Player11(Home Team) scores with a left-footed shot..." - Counts as 1 Shot.
-    *   Total Shots: 5
+*   **Snippet 2:** "Player11(Home Team) earns a free kick in the opponent's half."
+    *   Free Kicks: The snippet mentions "earns a free kick" by Player11. Increment Free Kicks to 1.
 
-*   **Goals:**
-    *   Snippet 5: "Player11(Home Team) scores with a right-footed shot..." - Counts as 1 Goal.
-    *   Snippet 6: "Player11(Home Team) scores with a left-footed shot..." - Counts as 1 Goal.
-    *   Total Goals: 2
+*   **Snippet 3:** "Player11(Home Team)'s attempt from outside the box is blocked."
+    *   Shots: The snippet mentions "attempt" by Player11. Increment Shots to 2.
 
-*   **Assists:**
-    * No snippet indicates Player11 provided an assist.
-    * Total Assists: 0
+*   **Snippet 4:** "Player11(Home Team)'s left footed shot from the left side of the box was blocked with an assist from Player10(Home Team)."
+    *   Shots: The snippet mentions "shot" by Player11. Increment Shots to 3.
 
-*   **Free Kicks (Taken):**
-    *   Snippet 2: "Player11(Home Team) earns a free kick in the opponent's half." - Counts as 1 Free Kick.
-    *   Total Free Kicks: 1
+*   **Snippet 5:** "Player11(Home Team) scores with a right-footed shot from the center of the box, assisted by Player8(Home Team), Home Team leads 1-0 against Away Team."
+    *   Shots: The snippet mentions "shot" by Player11, and scoring means there was a shot.
+    *   Goals: The snippet mentions "scores" by Player11. Increment Goals to 1.
+        The snippet also mentioned that Player11's shot was assisted by Player8 so no assists for Player11.
 
-*   **Fouls (Committed):**
-    *   No snippet indicates Player11 committed a foul.
-    *   Total Fouls: 0
+*   **Snippet 6:** "Player11(Home Team) scores with a left-footed shot from outside the box, putting the Home Team up 2-0 against the Away Team."
+    *   Shots: The snippet mentions "shot" by Player11, and scoring means there was a shot.
+    *   Goals: The snippet mentions "scores" by Player11. Increment Goals to 2.
 
-*   **Yellow Cards:**
-    *   No snippet indicates Player11 received a yellow card.
-    *   Total Yellow Cards: 0
-
-*   **Red Cards:**
-    *   No snippet indicates Player11 received a red card.
-    *   Total Red Cards: 0
-
-*   **Offsides:**
-    *   No snippet indicates Player11 was offsides.
-    *   Total Offsides: 0
+**4. Final Counts:**
+Shots: 3 + 2 = 5
+Goals: 0 + 2 = 2
+Assists: 0
+Free Kicks: 1
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
 
 Final Summary Table:
 ```markdown

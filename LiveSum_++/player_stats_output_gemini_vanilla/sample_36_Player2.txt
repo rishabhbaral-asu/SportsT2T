@@ -1,32 +1,22 @@
-Okay, I'm ready to process the input and generate the player statistics table.
+Okay, I will follow the instructions meticulously to analyze the commentary snippets for Player2 and generate the final summary table.
 
-**Step 1: Identify the target player.**
+**Player Name:** Player2
 
-The target player is Player2.
+**Commentary Snippets:**
+- Player2(Home Team) misses a close right-footed shot from the center of the box, assisted by Player16(Home Team) with a headed pass after a corner kick.
 
-**Step 2: Initialize all event counts to 0.**
+**Reasoning:**
 
-Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+1. **Shots:** The snippet states "Player2(Home Team) misses a close right-footed shot". This is an explicit shot attempt by Player2, so the shot count increments by 1.
+2. **Goals:** The snippet does not mention Player2 scoring a goal.
+3. **Assists:** The snippet says "assisted by Player16". This means Player2 received the assist, not provided it. Therefore the assist count does not increment.
+4. **Free Kicks:** The snippet does not mention Player2 taking a free kick, being fouled, or winning a penalty.
+5. **Fouls:** The snippet does not mention Player2 committing a foul.
+6. **Yellow Cards:** The snippet does not mention Player2 receiving a yellow card.
+7. **Red Cards:** The snippet does not mention Player2 receiving a red card.
+8. **Offsides:** The snippet does not mention Player2 being offsides.
 
-**Step 3: Analyze the commentary snippets.**
-
-*   Snippet 1: "Player2(Home Team) misses a close right-footed shot from the center of the box, assisted by Player16(Home Team) with a headed pass after a corner kick."
-    *   The snippet mentions "Player2 misses a shot". Thus, Shots += 1.
-    *   The snippet does not mention a goal. Goals remains 0.
-    *   The snippet indicates Player2 was *assisted by* Player16. Therefore, Assists remains 0.
-    *   Free Kicks remains 0.
-    *   Fouls remains 0.
-    *   Yellow Cards remains 0.
-    *   Red Cards remains 0.
-    *   Offsides remains 0.
-
-**Step 4: Compile the final counts.**
-
-Shots = 1, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
-
-**Step 5: Create the final summary table.**
-
-Final Summary Table:
+**Final Summary Table:**
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

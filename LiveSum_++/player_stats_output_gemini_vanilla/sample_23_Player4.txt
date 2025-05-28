@@ -1,25 +1,52 @@
-Okay, let's analyze the commentary snippets for Player4 and compile the statistics.
+Okay, let's break down the commentary snippets and generate the player statistics for Player4.
 
-**Player Name:** Player4
+**1. Identify Target Player:**
 
-**Commentary Snippets:**
-- Player4(Home Team) commits a foul.
-- Player4(Home Team) earns a free kick near the opponent's goal.
-- Player4(Home Team)'s shot with his right foot from the center of the box was saved in the top left corner, with an assist from Player7(Home Team).
-- Player4(Home Team) commits a foul, resulting in Player22(Away Team) winning a free kick in their own defensive half.
+The target player is Player4.
 
-**Analysis:**
+**2. Initialize Counts:**
 
-*   **Shots:** The third snippet mentions "Player4(Home Team)'s shot...was saved". Therefore, Shots = 1.
-*   **Goals:** No snippet explicitly mentions Player4 scoring a goal. Therefore, Goals = 0.
-*   **Assists:** The third snippet indicates that Player4's shot was assisted by Player7. Since Player4 was not assisting another player, Assists = 0.
-*   **Free Kicks:** The second snippet states "Player4(Home Team) earns a free kick". Therefore, Free Kicks = 1.
-*   **Fouls:** The first snippet mentions "Player4(Home Team) commits a foul" and the fourth snippet states "Player4(Home Team) commits a foul". Therefore, Fouls = 2.
-*   **Yellow Cards:** No snippet explicitly mentions Player4 receiving a yellow card. Therefore, Yellow Cards = 0.
-*   **Red Cards:** No snippet explicitly mentions Player4 receiving a red card. Therefore, Red Cards = 0.
-*   **Offsides:** No snippet explicitly mentions Player4 being offside. Therefore, Offsides = 0.
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
 
-Final Summary Table:
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1: "Player4(Home Team) commits a foul."**
+    *   This snippet explicitly states that Player4 committed a foul.
+    *   Increment Fouls: Fouls = 1
+
+*   **Snippet 2: "Player4(Home Team) earns a free kick near the opponent's goal."**
+    *   This snippet explicitly states that Player4 earned a free kick.
+    *   Increment Free Kicks: Free Kicks = 1
+
+*   **Snippet 3: "Player4(Home Team)'s shot with his right foot from the center of the box was saved in the top left corner, with an assist from Player7(Home Team)."**
+    *   This snippet explicitly states that Player4 took a shot.
+    *   Increment Shots: Shots = 1
+    *   The snippet does not say Player4 *gave* an assist, rather they *received* one, thus no assist is recorded.
+
+*   **Snippet 4: "Player4(Home Team) commits a foul, resulting in Player22(Away Team) winning a free kick in their own defensive half."**
+    *   This snippet explicitly states that Player4 committed a foul.
+    *   Increment Fouls: Fouls = 2
+
+**4. Final Counts:**
+
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 2
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**Final Summary Table:**
+
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

@@ -1,38 +1,44 @@
-Okay, let's analyze the commentary snippets for Player5 and create the final summary table.
+Okay, let's analyze the commentary snippets for Player5 and generate the statistics table.
 
-1.  **Player Name:** The target player is Player5.
-2.  **Initialize Counts:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 0
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+1.  **Player Name:** Player5
 
-3.  **Analyze Snippets:**
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-    *   **Snippet 1:** "Player5(Home Team) commits a foul." - This explicitly states Player5 committed a foul. Increment Fouls by 1.
+3.  **Snippet Analysis:**
 
-    *   **Snippet 2:** "Player5(Home Team)'s header from the center of the box is saved in the top center of the goal with an assist from Player10(Home Team)." - This indicates Player5 had a header (attempt on goal) that was saved. Increment Shots by 1.
-
-    *   **Snippet 3:** "Player5(Home Team) has earned a free kick in their own half." - This indicates Player5 won a free kick. Increment Free Kicks by 1.
-
-     *   **Snippet 4:** "Player5(Home Team) earns a free kick in their own half." - This indicates Player5 won a free kick. Increment Free Kicks by 1.
-
-    *   **Snippet 5:** "Player5(Home Team) receives a yellow card for a rough tackle." - This explicitly states Player5 received a yellow card. Increment Yellow Cards by 1.
+    *   Snippet 1: "Player5(Home Team) commits a foul."
+        *   Explicitly states Player5 committed a foul.
+        *   Fouls += 1
+    *   Snippet 2: "Player5(Home Team)'s header from the center of the box is saved in the top center of the goal with an assist from Player10(Home Team)."
+        *   Explicitly states Player5 had a header saved. This qualifies as a shot.
+        *   Shots += 1
+    *   Snippet 3: "Player5(Home Team) has earned a free kick in their own half."
+        *   Explicitly states Player5 earned a free kick.
+        *   Free Kicks += 1
+    *   Snippet 4: "Player5(Home Team) earns a free kick in their own half."
+        *   Explicitly states Player5 earned a free kick.
+        *   Free Kicks += 1
+    *   Snippet 5: "Player5(Home Team) receives a yellow card for a rough tackle."
+        *   Explicitly states Player5 received a yellow card.
+        *   Yellow Cards += 1
 
 4.  **Final Counts:**
-
-    *   Shots: 1
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 2
-    *   Fouls: 1
-    *   Yellow Cards: 1
-    *   Red Cards: 0
-    *   Offsides: 0
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 2
+    *   Fouls = 1
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
 
 Final Summary Table:
 ```markdown

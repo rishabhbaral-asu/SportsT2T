@@ -1,21 +1,13 @@
-Okay, let's analyze the commentary snippets for Player32 and compile the statistics.
+Okay, let's start by identifying the player name and initializing the event counts.
 
-1.  **Player Name:** The target player is Player32.
-2.  **Initialization:** Initialize all event counts to 0 for Player32: Shots=0, Goals=0, Assists=0, Free Kicks=0, Fouls=0, Yellow Cards=0, Red Cards=0, Offsides=0.
-3.  **Snippet Analysis:**
+Player Name: Player32
 
-    *   Snippet 1: "Player32(Away Team) earns a free kick in the opponent's half."
-        *   The snippet mentions Player32 earns a free kick. This means Player32 wins a free kick, which counts as a free kick taken. Free Kicks = 1.
+Now, let's analyze the commentary snippets and increment the counts based on the instructions.
 
-4.  **Final Counts:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 1
-    *   Fouls: 0
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+Commentary Snippet 1: "Player32(Away Team) earns a free kick in the opponent's half."
+This snippet explicitly states that Player32 earns a free kick. This increments the 'Free Kicks' count by 1.
+
+Now, let's compile the final summary table.
 
 Final Summary Table:
 ```markdown

@@ -1,25 +1,47 @@
-Okay, let's analyze the commentary snippets for Player5.
+Okay, let's break down the process step by step to analyze the commentary snippets for Player5 and generate the final summary table.
 
-**Player Name:** Player5
+1.  **Identify Target Player:** The target player is Player5.
 
-**Commentary Snippets:**
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
-*   "Player5(Home Team) commits a foul, resulting in Player27(Away Team) winning a free kick in the attacking half, This leads to a set piece opportunity for the attacking team." - This snippet explicitly states Player5 committed a foul.
-*   "Player5(Home Team) commits a foul." - This snippet explicitly states Player5 committed a foul.
-*   "Player5(Home Team) commits a foul." - This snippet explicitly states Player5 committed a foul.
-*   "Player5(Home Team)'s header from the centre of the box misses to the left after being assisted by Player11(Home Team) with a cross following a corner, while Player8(Home Team)'s header is saved in the top centre of the goal after being assisted by Player5(Home Team)." - This snippet contains two key pieces of information: first, Player5 had a header that missed (a shot). Second, Player5 assisted Player8 which resulted in Player8 having a shot.
-*   "Player5(Home Team) scoring a header from the right side of the six-yard box into the top right corner, assisted by Player4(Home Team) with a cross." - Player5 scored a goal with a header.
+3.  **Analyze Snippets and Increment Counts (Strictly):**
 
-Based on the analysis:
+    *   **Snippet 1:** "Player5(Home Team) commits a foul, resulting in Player27(Away Team) winning a free kick in the attacking half, This leads to a set piece opportunity for the attacking team."
+        *   Fouls: Player5 commits a foul. Increment Fouls to 1.
+        * Free Kicks: Player5 caused Player27 to win a free kick, so this doesn't count as a Free Kick for Player5, but does count as a Foul.
 
-*   **Shots:** Player5 has two shots (one header that missed, one header that scored).
-*   **Goals:** Player5 has one goal.
-*   **Assists:** Player5 has one assist.
-*   **Free Kicks:** Player5 has zero free kicks.
-*   **Fouls:** Player5 committed three fouls.
-*   **Yellow Cards:** Player5 has zero yellow cards.
-*   **Red Cards:** Player5 has zero red cards.
-*   **Offsides:** Player5 has zero offsides.
+    *   **Snippet 2:** "Player5(Home Team) commits a foul."
+        *   Fouls: Player5 commits a foul. Increment Fouls to 2.
+
+    *   **Snippet 3:** "Player5(Home Team) commits a foul."
+        *   Fouls: Player5 commits a foul. Increment Fouls to 3.
+
+    *   **Snippet 4:** "Player5(Home Team)'s header from the centre of the box misses to the left after being assisted by Player11(Home Team) with a cross following a corner, while Player8(Home Team)'s header is saved in the top centre of the goal after being assisted by Player5(Home Team)."
+        * Shots: "Player5(Home Team)'s header from the centre of the box misses to the left". Increment Shots to 1.
+        * Assists: "assisted by Player5(Home Team)". Increment Assists to 1.
+
+    *   **Snippet 5:** "Player5(Home Team) scoring a header from the right side of the six-yard box into the top right corner, assisted by Player4(Home Team) with a cross."
+        *   Goals: "Player5(Home Team) scoring a header". Increment Goals to 1.
+        *   Shots: Scoring a goal counts as a shot. Increment Shots to 2.
+        *   Assists: Snippet specifies Player5 was *assisted by* Player4, so this does **NOT** count as an assist *for* Player5.
+
+4.  **Final Counts:**
+    *   Shots: 2
+    *   Goals: 1
+    *   Assists: 1
+    *   Free Kicks: 0
+    *   Fouls: 3
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
 Final Summary Table:
 ```markdown

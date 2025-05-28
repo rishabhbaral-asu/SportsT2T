@@ -1,50 +1,43 @@
-Okay, let's analyze the commentary snippets for Player27 and generate the requested markdown table.
+Okay, let's analyze the commentary snippets for Player27.
 
-**Player Name:** Player27
+1.  **Player Name:** Player27
 
-**Commentary Snippets:**
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-*   "Player27(Away Team)'s shot from the right side of the box is saved in the center of the goal after a through ball from Player29(Away Team)."
-*   "Player27(Away Team) commits a foul."
-*   "Player27(Away Team) receives a yellow card for a rough tackle."
-*   "Player27(Away Team) misses the target with a high right-footed shot from outside the box, with an assist from Player29(Away Team)."
-*   "Player27(Away Team) misses the goal with a right-footed shot from outside the box, assisted by Player29(Away Team)."
+3.  **Snippet Analysis:**
 
-**Step-by-step analysis:**
+    *   Snippet 1: "Player27(Away Team)'s shot from the right side of the box is saved in the center of the goal after a through ball from Player29(Away Team)."
+        *   Explicitly mentions "shot" by Player27. Shots += 1
 
-1.  **Shots:**
-    *   Snippet 1: "Player27(Away Team)'s shot from the right side of the box is saved..." - This counts as 1 shot.
-    *   Snippet 4: "Player27(Away Team) misses the target with a high right-footed shot from outside the box..." - This counts as 1 shot.
-    *   Snippet 5: "Player27(Away Team) misses the goal with a right-footed shot from outside the box..." - This counts as 1 shot.
-    *   Total Shots: 3
+    *   Snippet 2: "Player27(Away Team) commits a foul."
+        *   Explicitly mentions "commits a foul" by Player27. Fouls += 1
 
-2.  **Goals:**
-    *   No snippet explicitly states Player27 scored a goal.
-    *   Total Goals: 0
+    *   Snippet 3: "Player27(Away Team) receives a yellow card for a rough tackle."
+        *   Explicitly mentions "yellow card" to Player27. Yellow Cards += 1
 
-3.  **Assists:**
-    *   No snippet indicates Player27 provided an assist. Player27 received assists in some snippets, but these do not count as assists for Player27.
-    *   Total Assists: 0
+    *   Snippet 4: "Player27(Away Team) misses the target with a high right-footed shot from outside the box, with an assist from Player29(Away Team)."
+        *   Explicitly mentions "shot" by Player27. Shots += 1
 
-4.  **Free Kicks:**
-    *   No snippet indicates Player27 took a free kick, penalty, or earned a free kick.
-    *   Total Free Kicks: 0
+    *   Snippet 5: "Player27(Away Team) misses the goal with a right-footed shot from outside the box, assisted by Player29(Away Team)."
+        *   Explicitly mentions "shot" by Player27. Shots += 1
 
-5.  **Fouls:**
-    *   Snippet 2: "Player27(Away Team) commits a foul." - This counts as 1 foul.
-    *   Total Fouls: 1
-
-6.  **Yellow Cards:**
-    *   Snippet 3: "Player27(Away Team) receives a yellow card for a rough tackle." - This counts as 1 yellow card.
-    *   Total Yellow Cards: 1
-
-7.  **Red Cards:**
-    *   No snippet mentions Player27 receiving a red card.
-    *   Total Red Cards: 0
-
-8.  **Offsides:**
-    *   No snippet mentions Player27 being offside.
-    *   Total Offsides: 0
+4.  **Final Counts:**
+    *   Shots = 3
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
 
 Final Summary Table:
 ```markdown

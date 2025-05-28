@@ -1,7 +1,13 @@
-Okay, let's analyze the commentary snippets for Player6.
+Okay, let's analyze the commentary snippets for Player6 and compile the statistics.
 
-1.  **Player Name:** The target player is Player6.
+**Player Name:** Player6
 
+**Commentary Snippets:**
+- Player6(Home Team) misses a header from the right side of the six yard box, assisted by Player8(Home Team) with a cross after a corner.
+
+**Step-by-step analysis:**
+
+1.  **Player Identification:** The target player is Player6.
 2.  **Initialization:**
     *   Shots = 0
     *   Goals = 0
@@ -11,14 +17,17 @@ Okay, let's analyze the commentary snippets for Player6.
     *   Yellow Cards = 0
     *   Red Cards = 0
     *   Offsides = 0
-
 3.  **Snippet Analysis:**
-
-    *   Snippet 1: "Player6(Home Team) misses a header from the right side of the six yard box, assisted by Player8(Home Team) with a cross after a corner."
-        *   "misses a header" indicates a shot. Therefore, Shots = 1.
-        *   The target player was assisted, so this does not count as an assist.
-
-4.  **Final Counts:**
+    *   "Player6(Home Team) misses a header from the right side of the six yard box, assisted by Player8(Home Team) with a cross after a corner."
+        *   **Shots:** The phrase "misses a header" indicates an attempt on goal, so increment Shots by 1.
+        *   **Goals:** There is no mention of a goal scored by Player6.
+        *   **Assists:** The snippet states Player6 was *assisted by* Player8. This is *not* an assist *by* Player6.
+        *   **Free Kicks:** There is no mention of Player6 taking a free kick.
+        *   **Fouls:** There is no mention of Player6 committing a foul.
+        *   **Yellow Cards:** There is no mention of Player6 receiving a yellow card.
+        *   **Red Cards:** There is no mention of Player6 receiving a red card.
+        *   **Offsides:** There is no mention of Player6 being offside.
+4. **Final Counts:**
     *   Shots = 1
     *   Goals = 0
     *   Assists = 0

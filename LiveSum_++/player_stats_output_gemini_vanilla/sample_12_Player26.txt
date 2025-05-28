@@ -1,22 +1,16 @@
-Okay, let's analyze the commentary snippets for Player26 and compile the statistics.
+Okay, let's analyze the commentary snippets for Player26.
 
-**Player Name:** Player26
+1.  **Player Name:** The target player is Player26.
+2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
 
-**Commentary Snippets:**
-- Player26(Away Team) gets a free kick in their own half.
-- Player26(Away Team) earns a free kick in their own half.
+**Commentary Snippet Analysis:**
 
-**Step-by-step analysis:**
+*   Snippet 1: "Player26(Away Team) gets a free kick in their own half."
+    *   This snippet explicitly states Player26 "gets a free kick," which implies Player26 wins a free kick. This is the same as "earns a free kick". Thus Free Kicks count increments by 1.
+*   Snippet 2: "Player26(Away Team) earns a free kick in their own half."
+    *   This snippet explicitly states Player26 "earns a free kick", which implies a foul was committed against the player, thus Free Kicks count increments by 1.
 
-1.  **Player Name:** Player26
-2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
-3.  **Snippet 1:** "Player26(Away Team) gets a free kick in their own half."
-    *   The snippet states that Player26 "gets a free kick". This corresponds to the player winning a free kick. Therefore increment Free Kicks by 1.
-    *   Free Kicks = 1
-4.  **Snippet 2:** "Player26(Away Team) earns a free kick in their own half."
-    *   The snippet states that Player26 "earns a free kick". This corresponds to the player winning a free kick. Therefore increment Free Kicks by 1.
-    *   Free Kicks = 2
-5.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 2, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+3.  **Final Count:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 2, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
 
 Final Summary Table:
 ```markdown

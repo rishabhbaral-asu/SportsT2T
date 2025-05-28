@@ -1,42 +1,37 @@
-Okay, let's analyze the commentary snippets for Player28.
+Okay, let's break down the commentary snippets and compile the statistics for Player28.
 
-1.  **Player Name:** Player28
+**1. Player Identification:**
+The target player is Player28.
 
-2.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+**2. Initialization:**
+We initialize the counts for all events to 0.
 
-3.  **Commentary Snippet Analysis:**
+**3. Snippet Analysis:**
 
-    *   Snippet 1: "Player28(Away Team) earns a free kick in the opponent's half."
-        *   "earns a free kick" -> Free Kicks + 1
+*   **Snippet 1:** "Player28(Away Team) earns a free kick in the opponent's half."
+    *   This indicates Player28 won/earned a free kick. Therefore, increment `Free Kicks` by 1.
 
-    *   Snippet 2: "Player28(Away Team)'s attempt from outside the box is blocked."
-        *   "attempt" -> Shots + 1
+*   **Snippet 2:** "Player28(Away Team)'s attempt from outside the box is blocked."
+    *   This is an attempt on goal, so increment `Shots` by 1.
 
-    *   Snippet 3: "Player28(Away Team)'s shot from outside the box is saved in the top right corner."
-        *   "shot" -> Shots + 1
+*   **Snippet 3:** "Player28(Away Team)'s shot from outside the box is saved in the top right corner."
+    *   This is a shot that was saved, so increment `Shots` by 1.
 
-    *   Snippet 4: "Player28(Away Team)'s right-footed shot from the left side of the box is stopped in the bottom right corner."
-        *   "shot" -> Shots + 1
+*   **Snippet 4:** "Player28(Away Team)'s right-footed shot from the left side of the box is stopped in the bottom right corner."
+    *   This is another shot attempt, so increment `Shots` by 1.
 
-4.  **Final Counts:**
-    *   Shots = 3
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 1
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+**4. Final Counts:**
 
-Final Summary Table:
+*   Shots: 3
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**Final Summary Table:**
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

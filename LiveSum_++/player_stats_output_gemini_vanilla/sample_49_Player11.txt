@@ -1,40 +1,24 @@
-Okay, let's analyze the commentary snippets for Player11.
+Okay, let's analyze the commentary snippets for Player11 and compile the statistics.
 
-1.  **Player Name:** Player11
+**Player Name:** Player11
 
-2.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+**Commentary Snippets:**
 
-3.  **Snippet Analysis:**
+*   Player11(Home Team) earns a free kick in their own half.
+*   Player11(Home Team) earns a free kick in the opponent's half.
+*   Player11(Home Team) missed the shot with his right foot from a tough angle on the left, it was slightly too high, Player7(Home Team) assisted with a cross.
+*   Player11(Home Team) commits a foul, giving Player20(Away Team) a free kick in their own half.
 
-    *   Snippet 1: "Player11(Home Team) earns a free kick in their own half."
-        *   Player11 earns a free kick. Free Kicks += 1
+**Step-by-step analysis:**
 
-    *   Snippet 2: "Player11(Home Team) earns a free kick in the opponent's half."
-        *   Player11 earns a free kick. Free Kicks += 1
-
-    *   Snippet 3: "Player11(Home Team) missed the shot with his right foot from a tough angle on the left, it was slightly too high, Player7(Home Team) assisted with a cross."
-        *   Player11 missed the shot. Shots += 1
-
-    *   Snippet 4: "Player11(Home Team) commits a foul, giving Player20(Away Team) a free kick in their own half."
-        *   Player11 commits a foul. Fouls += 1
-
-4.  **Final Counts:**
-    *   Shots = 1
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 2
-    *   Fouls = 1
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+1.  **Shots:** The third snippet mentions "Player11(Home Team) missed the shot...". Therefore, the shot count increments to 1.
+2.  **Goals:** No snippets explicitly mention Player11 scoring a goal. Goal count remains 0.
+3.  **Assists:** The third snippet indicates "Player7(Home Team) assisted with a cross," implying Player11 received the assist, not gave it. Therefore, the assist count remains 0.
+4.  **Free Kicks:** The first and second snippets state "Player11(Home Team) earns a free kick in their own half" and "Player11(Home Team) earns a free kick in the opponent's half". Therefore, the free kick count increments to 2.
+5.  **Fouls:** The fourth snippet states "Player11(Home Team) commits a foul...". Therefore, the foul count increments to 1.
+6.  **Yellow Cards:** No snippets mention Player11 receiving a yellow card. Yellow card count remains 0.
+7.  **Red Cards:** No snippets mention Player11 receiving a red card. Red card count remains 0.
+8.  **Offsides:** No snippets mention Player11 being offside. Offside count remains 0.
 
 Final Summary Table:
 ```markdown

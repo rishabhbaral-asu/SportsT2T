@@ -1,41 +1,47 @@
-Okay, let's analyze the commentary snippets for Player25 and generate the final summary table.
+Okay, let's analyze the commentary snippets for Player25 and compile the statistics.
 
-**1. Identify the target player:**
+**Player Name:** Player25
 
-The target player is Player25.
+**Commentary Snippets:**
 
-**2. Initialize event counts:**
+*   Player25(Away Team) earns a free kick in their own half.
+*   Player25(Away Team) commits a foul, resulting in Player9(Home Team) winning a free kick in their own defensive half, This leads to a set piece opportunity for Player9(Home Team)'s team.
 
-*   Shots: 0
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+**Step-by-step Analysis:**
 
-**3. Analyze commentary snippets:**
+1.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-*   **Snippet 1:** "Player25(Away Team) earns a free kick in their own half."
-    *   This snippet indicates Player25 *earned* a free kick (won it as a result of being fouled). Thus, increment Free Kicks by 1.
+2.  **Analyze Snippets:**
 
-*   **Snippet 2:** "Player25(Away Team) commits a foul, resulting in Player9(Home Team) winning a free kick in their own defensive half, This leads to a set piece opportunity for Player9(Home Team)'s team."
-    *   This snippet explicitly states Player25 committed a foul. Thus, increment Fouls by 1.
+    *   **Snippet 1:** "Player25(Away Team) earns a free kick in their own half."
+        *   "earns a free kick" is a keyword for Free Kicks (taken).
+        *   The action is explicitly attributed to Player25.
+        *   Increment Free Kicks: Free Kicks = 1
 
-**4. Final Counts:**
+    *   **Snippet 2:** "Player25(Away Team) commits a foul, resulting in Player9(Home Team) winning a free kick in their own defensive half, This leads to a set piece opportunity for Player9(Home Team)'s team."
+        *   "commits a foul" is a keyword for Fouls (committed).
+        *   The action is explicitly attributed to Player25.
+        *   Increment Fouls: Fouls = 1
 
-*   Shots: 0
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 1
-*   Fouls: 1
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+3.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-**5. Final Summary Table:**
-
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

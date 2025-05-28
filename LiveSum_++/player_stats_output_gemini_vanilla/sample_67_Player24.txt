@@ -1,21 +1,19 @@
-Okay, I will follow the instructions to analyze the commentary snippets for Player24 and generate the summary table.
+Okay, I will follow the instructions to analyze the commentary snippets and generate the final summary table for the given player.
 
 **Player Name:** Player24
 
 **Commentary Snippets:**
+
 - Player24(Away Team) earns a free kick in their own half.
 - Player24(Away Team) committed a foul.
 
 **Reasoning:**
 
 1.  **Player Identification:** The target player is Player24.
-2.  **Initialization:** Initialize all event counts to 0.
+2.  **Initialization:** All event counters are initialized to 0.
 3.  **Snippet Analysis:**
-    *   Snippet 1: "Player24(Away Team) earns a free kick in their own half."
-        *   This snippet indicates Player24 earned a free kick. According to the definitions, this counts as a Free Kick (taken). Therefore, increment Free Kicks by 1.
-    *   Snippet 2: "Player24(Away Team) committed a foul."
-        *   This snippet explicitly states Player24 committed a foul. Therefore, increment Fouls by 1.
-
+    *   **Snippet 1:** "Player24(Away Team) earns a free kick in their own half." This indicates Player24 *earned* a free kick. Earning a free kick counts as a Free Kick (taken). Therefore, increment the "Free Kicks" counter by 1.
+    *   **Snippet 2:** "Player24(Away Team) committed a foul." This indicates Player24 committed a foul. Therefore, increment the "Fouls" counter by 1.
 4.  **Final Counts:**
     *   Shots: 0
     *   Goals: 0
@@ -26,7 +24,8 @@ Okay, I will follow the instructions to analyze the commentary snippets for Play
     *   Red Cards: 0
     *   Offsides: 0
 
-Final Summary Table:
+**Final Summary Table:**
+
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

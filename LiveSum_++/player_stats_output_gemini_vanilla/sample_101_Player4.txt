@@ -1,0 +1,30 @@
+Okay, I will analyze the commentary snippets for Player4 and compile the requested statistics.
+
+**Reasoning:**
+
+1.  **Player Name:** The target player is Player4.
+2.  **Initialization:** All event counts are initialized to 0 for Player4.
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player4(Home Team) commits a foul." - This explicitly states Player4 committed a foul. Increment Fouls by 1.
+    *   **Snippet 2:** "Player4(Home Team) commits a foul on Player27(Away Team), who wins a free kick in their defensive half." - This explicitly states Player4 committed a foul. Increment Fouls by 1. Player27 winning a free kick does not increment Player4's free kick count as they were the one committing the foul.
+    *   **Snippet 3:** "Player4(Home Team) from the Home Team attempts a through ball, but Player6(Home Team) is offside." - This states Player4 *attempted a through ball* that led to Player6 being offside. This does not count as a shot, goal, assist, free kick, foul, yellow card, or red card for Player4. The offside does not count for Player4, either.
+    *   **Snippet 4:** "Player4(Home Team)'s long-range shot is blocked by the defense." - This explicitly states Player4 took a shot that was blocked. Increment Shots by 1.
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 2
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

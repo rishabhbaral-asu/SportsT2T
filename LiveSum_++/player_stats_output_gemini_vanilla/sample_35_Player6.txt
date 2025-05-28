@@ -1,22 +1,45 @@
-Okay, I will analyze the commentary snippets for Player6 and compile the requested statistics.
+Okay, let's analyze the commentary snippets for Player6 and generate the statistics table.
 
-**Player Name:** Player6
+**1. Identify Target Player:**
 
-**Commentary Snippets:**
-- Player6(Home Team)'s close-range header, assisted by Player10(Home Team)'s cross from a corner, narrowly misses to the left.
+The target player is Player6.
 
-Reasoning:
+**2. Initialize Counts:**
 
-1.  **Shots:** The snippet mentions "Player6(Home Team)'s close-range header...narrowly misses". This indicates a shot attempt by Player6, so Shots is incremented by 1.
-2.  **Goals:** The snippet says the header "narrowly misses," meaning it wasn't a goal, so Goals remains 0.
-3.  **Assists:** The snippet states "assisted by Player10(Home Team)'s cross". Player6 received the assist, so Assists for Player6 remains 0.
-4.  **Free Kicks:** There are no explicit keywords related to free kicks taken by Player6. Free Kicks remains 0.
-5.  **Fouls:** There are no explicit keywords indicating Player6 committed a foul. Fouls remains 0.
-6.  **Yellow Cards:** There are no explicit keywords indicating Player6 received a yellow card. Yellow Cards remains 0.
-7.  **Red Cards:** There are no explicit keywords indicating Player6 received a red card. Red Cards remains 0.
-8.  **Offsides:** There are no explicit keywords indicating Player6 was offsides. Offsides remains 0.
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
 
-Final Summary Table:
+**3. Analyze Commentary Snippets:**
+
+*   Snippet 1: "Player6(Home Team)'s close-range header, assisted by Player10(Home Team)'s cross from a corner, narrowly misses to the left."
+    *   Shots: The snippet explicitly mentions Player6's "close-range header" and that it "narrowly misses". This is an attempt on goal, so we increment Shots by 1.
+    *   Goals: The shot "narrowly misses", so no goal is scored.
+    *   Assists: The snippet states "assisted by Player10". Since Player6 *received* the assist, we do not increment Player6's assist count.
+    *   Free Kicks: No free kick events are mentioned.
+    *   Fouls: No foul events are mentioned.
+    *   Yellow Cards: No yellow card events are mentioned.
+    *   Red Cards: No red card events are mentioned.
+    *   Offsides: No offside events are mentioned.
+
+**4. Final Counts:**
+
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**5. Final Summary Table:**
+
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

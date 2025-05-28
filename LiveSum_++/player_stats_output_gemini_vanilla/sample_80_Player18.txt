@@ -1,21 +1,27 @@
-Okay, let's start by identifying the player and initializing the counts.
+Okay, I'm ready to analyze the commentary snippets and generate the player statistics table.
 
-Player Name: Player18
+**Player Name:** Player18
 
-Now, let's analyze the commentary snippets and update the counts accordingly.
+**Commentary Snippets:**
+- Player18(Home Team) scores with a right-footed shot from the center of the box, assisted by Player8(Home Team) after a fast break, Home Team leads 4-2 against Away Team.
 
-Commentary Snippet 1: "Player18(Home Team) scores with a right-footed shot from the center of the box, assisted by Player8(Home Team) after a fast break, Home Team leads 4-2 against Away Team."
+**Reasoning:**
 
-*   Shots: The snippet explicitly states "Player18 scores", so we increment shots by 1.
-*   Goals: The snippet explicitly states "Player18 scores", so we increment goals by 1.
-*   Assists: The snippet states "assisted by Player8", which means Player18 received an assist, so we do not increment assists for Player18.
-*   Free Kicks: There's no mention of a free kick.
-*   Fouls: There's no mention of a foul.
-*   Yellow Cards: There's no mention of a yellow card.
-*   Red Cards: There's no mention of a red card.
-*   Offsides: There's no mention of offsides.
+1.  **Player Identification:** The target player is Player18.
+2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet Analysis:**
+    *   Snippet 1: "Player18(Home Team) scores with a right-footed shot from the center of the box, assisted by Player8(Home Team) after a fast break, Home Team leads 4-2 against Away Team."
+        *   Goals: The snippet explicitly states "Player18 scores", so Goals = 1.
+        *   Shots: The snippet explicitly states "Player18 scores with a right-footed shot", so Shots = 1.
+        *   Assists: The snippet states "assisted by Player8(Home Team)", therefore, Player18 did not provide the assist, so Assists = 0.
+        *   Free Kicks: No keywords present, so Free Kicks = 0.
+        *   Fouls: No keywords present, so Fouls = 0.
+        *   Yellow Cards: No keywords present, so Yellow Cards = 0.
+        *   Red Cards: No keywords present, so Red Cards = 0.
+        *   Offsides: No keywords present, so Offsides = 0.
 
-Final Summary Table:
+**Final Summary Table:**
+
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

@@ -9,26 +9,38 @@ Okay, let's analyze the commentary snippets for Player6 and generate the final s
 
 **Step-by-step analysis:**
 
-1.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+1.  **Player Name:** Player6
 
-2.  **Snippet 1 Analysis:** "Player6(Home Team)'s header from the center of the box is blocked after a cross from Player7(Home Team)."
-    *   The snippet explicitly states that Player6 had a header (attempt on goal) which was blocked.
-    *   Increment Shots: Shots = 1
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
-3.  **Snippet 2 Analysis:** "Player6(Home Team) misses a shot with their right foot from outside the box, assisted by Player9(Home Team)."
-    *   The snippet explicitly states that Player6 missed a shot.
-    *   Increment Shots: Shots = 2
+3.  **Analyze Snippets:**
 
-**Final Summary Table:**
+    *   Snippet 1: "Player6(Home Team)'s header from the center of the box is blocked after a cross from Player7(Home Team)."
+        *   The snippet explicitly states "Player6's header" and "blocked". This indicates a shot attempt by Player6. Increment Shots count.
+        *   Shots: 1
+    *   Snippet 2: "Player6(Home Team) misses a shot with their right foot from outside the box, assisted by Player9(Home Team)."
+        *   The snippet explicitly states "Player6 misses a shot". This indicates a shot attempt by Player6. Increment Shots count.
+        *   Shots: 2
 
+4.  **Final Counts:**
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

@@ -1,4 +1,4 @@
-Okay, I will follow the instructions to analyze the commentary snippets for the specified player and generate the markdown table.
+Okay, I will follow the instructions to analyze the commentary snippets for the specified player and generate the final summary table.
 
 **Player Name:** Player28
 
@@ -9,37 +9,44 @@ Okay, I will follow the instructions to analyze the commentary snippets for the 
 - Player28(Away Team) commits a foul.
 - Player28(Away Team) earns a free kick in their own half.
 
-**Analysis:**
+**Step-by-step Analysis:**
 
-1.  **Player:** Player28
+1.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
-2.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+2.  **Analyze Snippets:**
 
-3.  **Snippet Analysis:**
+    *   **Snippet 1: "Player28(Away Team) earns a free kick in their own half."**
+        *   Free Kicks: Player28 earns a free kick. Increment Free Kicks by 1. Free Kicks = 1
 
-    *   Snippet 1: "Player28(Away Team) earns a free kick in their own half." - Player28 earns a free kick. Increment Free Kicks. Free Kicks = 1
-    *   Snippet 2: "Player28(Away Team) has committed a hand ball." - Player28 commits a hand ball. Increment Fouls. Fouls = 1
-    *   Snippet 3: "Player28(Away Team) earns a free kick in their own half." - Player28 earns a free kick. Increment Free Kicks. Free Kicks = 2
-    *   Snippet 4: "Player28(Away Team) commits a foul." - Player28 commits a foul. Increment Fouls. Fouls = 2
-    *   Snippet 5: "Player28(Away Team) earns a free kick in their own half." - Player28 earns a free kick. Increment Free Kicks. Free Kicks = 3
+    *   **Snippet 2: "Player28(Away Team) has committed a hand ball."**
+        *   Fouls: Player28 committed a hand ball. Increment Fouls by 1. Fouls = 1
 
-4.  **Final Counts:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 3
-    *   Fouls = 2
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+    *   **Snippet 3: "Player28(Away Team) earns a free kick in their own half."**
+        *   Free Kicks: Player28 earns a free kick. Increment Free Kicks by 1. Free Kicks = 2
+
+    *   **Snippet 4: "Player28(Away Team) commits a foul."**
+        *   Fouls: Player28 commits a foul. Increment Fouls by 1. Fouls = 2
+
+    *   **Snippet 5: "Player28(Away Team) earns a free kick in their own half."**
+        *   Free Kicks: Player28 earns a free kick. Increment Free Kicks by 1. Free Kicks = 3
+
+3.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 3
+    *   Fouls: 2
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
 Final Summary Table:
 ```markdown

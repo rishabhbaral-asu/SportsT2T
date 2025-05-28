@@ -1,22 +1,45 @@
-Okay, I will follow the instructions to analyze the commentary snippets for Player8 and compile the statistics.
-**Player Name:** Player8
-**Commentary Snippets:**
-- Player8(Home Team) earns a free kick in their own half.
-- Player8(Home Team) commits a foul on Player22(Away Team), resulting in a free kick for Player22(Away Team) in their own defensive half.
-- Player8(Home Team) commits a foul.
-- Player8(Home Team) commits a foul on Player22(Away Team), resulting in a free kick being awarded to Player22(Away Team) in their own defensive half.
-- Player8(Home Team) receives a yellow card for a rough tackle.
+Okay, let's analyze the commentary snippets for Player8 and compile the statistics.
 
-Here's the breakdown and counting based on the rules:
+**Step 1: Identify the target player.**
 
-*   **Shots:** 0 (No explicit mentions of shots taken by Player8)
-*   **Goals:** 0 (No explicit mentions of goals scored by Player8)
-*   **Assists:** 0 (No explicit mentions of assists provided by Player8)
-*   **Free Kicks (Taken):** 1 (Player8 earns a free kick)
-*   **Fouls (Committed):** 3 (Player8 commits a foul in three snippets, "Player8(Home Team) commits a foul on Player22(Away Team), resulting in a free kick for Player22(Away Team) in their own defensive half.", "Player8(Home Team) commits a foul.", "Player8(Home Team) commits a foul on Player22(Away Team), resulting in a free kick being awarded to Player22(Away Team) in their own defensive half.")
-*   **Yellow Cards:** 1 (Player8 receives a yellow card)
-*   **Red Cards:** 0 (No explicit mentions of red cards received by Player8)
-*   **Offsides:** 0 (No explicit mentions of Player8 being offside)
+The target player is Player8.
+
+**Step 2: Initialize counts.**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**Step 3: Analyze each snippet and increment counts based on the rules.**
+
+*   **Snippet 1:** "Player8(Home Team) earns a free kick in their own half."
+    *   Free Kicks: Player8 earns a free kick. Increment Free Kicks by 1. Free Kicks = 1
+*   **Snippet 2:** "Player8(Home Team) commits a foul on Player22(Away Team), resulting in a free kick for Player22(Away Team) in their own defensive half."
+    *   Fouls: Player8 commits a foul. Increment Fouls by 1. Fouls = 1
+*   **Snippet 3:** "Player8(Home Team) commits a foul."
+    *   Fouls: Player8 commits a foul. Increment Fouls by 1. Fouls = 2
+*   **Snippet 4:** "Player8(Home Team) commits a foul on Player22(Away Team), resulting in a free kick being awarded to Player22(Away Team) in their own defensive half."
+    *   Fouls: Player8 commits a foul. Increment Fouls by 1. Fouls = 3
+*   **Snippet 5:** "Player8(Home Team) receives a yellow card for a rough tackle."
+    *   Yellow Cards: Player8 receives a yellow card. Increment Yellow Cards by 1. Yellow Cards = 1
+
+**Step 4: Final Counts.**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 1
+Fouls = 3
+Yellow Cards = 1
+Red Cards = 0
+Offsides = 0
+
+**Step 5: Create the final summary table.**
 
 Final Summary Table:
 ```markdown

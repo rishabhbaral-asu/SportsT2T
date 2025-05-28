@@ -1,8 +1,9 @@
-Okay, let's analyze the commentary snippets for Player4 and generate the summary table.
+Okay, let's analyze the commentary snippets for Player4 and generate the requested markdown table.
 
-1.  **Player Name:** Player4
+1.  **Identify Player Name:**
+    The player name is Player4.
 
-2.  **Initialization:**
+2.  **Initialize Counts:**
     *   Shots = 0
     *   Goals = 0
     *   Assists = 0
@@ -12,21 +13,16 @@ Okay, let's analyze the commentary snippets for Player4 and generate the summary
     *   Red Cards = 0
     *   Offsides = 0
 
-3.  **Commentary Snippet Analysis:**
+3.  **Analyze Commentary Snippets:**
 
     *   Snippet 1: "Player4(Home Team) commits a foul."
-        *   Fouls: Increment by 1 (explicitly states Player4 committed a foul).
-        *   Fouls = 1
+        *   Fouls: Increment by 1 because the snippet explicitly states Player4 committed a foul. Fouls = 1
 
     *   Snippet 2: "Player4(Home Team) earns a free kick in the opponent's half."
-        *   Free Kicks: Increment by 1 (explicitly states Player4 earned a free kick).
-        *   Free Kicks = 1
+        *   Free Kicks: Increment by 1 because the snippet explicitly states Player4 earns/wins a free kick. Free Kicks = 1
 
     *   Snippet 3: "Player4(Home Team) misses a close-range shot with his right foot to the right, assisted by Player12(Home Team)'s cross."
-        *   Shots: Increment by 1 (explicitly mentions Player4 missed a shot).
-        *   Shots = 1
-        *   Goals: No increment as it was a missed shot.
-        *   Assists: No increment for Player4, who *received* an assist from Player12.
+        *   Shots: Increment by 1 because the snippet explicitly states Player4 missed a shot. Shots = 1
 
 4.  **Final Counts:**
     *   Shots = 1

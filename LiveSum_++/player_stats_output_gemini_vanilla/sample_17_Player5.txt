@@ -1,39 +1,40 @@
-Okay, let's analyze the commentary snippets for Player5 and generate the final summary table.
+Okay, let's analyze the commentary snippets for Player5.
 
-1.  **Identify the target player:** The target player is Player5.
+1.  **Player Name:** Player5
 
-2.  **Initialize counts:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+2.  **Initialization:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
 
-3.  **Analyze commentary snippets:**
+3.  **Snippet Analysis:**
 
-    *   Snippet 1: "Player5(Home Team) scores with a header from the center of the box into the top left corner, assisted by Player7(Home Team) with a cross after a corner kick."
-        *   Player5 scores a goal: Increment Goals by 1.
-        *   Player5 attempts a shot (header resulting in a goal): Increment Shots by 1.
-        *   Player5 does not provide an assist here, Player7 does.
+    *   **Snippet 1:** "Player5(Home Team) scores with a header from the center of the box into the top left corner, assisted by Player7(Home Team) with a cross after a corner kick."
+        *   This snippet explicitly states Player5 scored a goal with a header.
+        *   It also mentions Player5 was assisted by Player7, so Player5 does *not* get an assist.
+        *   Shots += 1 (due to the goal)
+        *   Goals += 1
 
-    *   Snippet 2: "Player5(Home Team)'s left footed shot from the center of the box is saved in the bottom right corner, as Player27(Away Team) wins a free kick in their defensive half."
-        *   Player5 takes a shot that is saved: Increment Shots by 1.
-        *   Player5 does not score a goal.
-        *   Player5 does not provide an assist.
-        *   Player5 did not win a free kick. Player27 did.
+    *   **Snippet 2:** "Player5(Home Team)'s left footed shot from the center of the box is saved in the bottom right corner, as Player27(Away Team) wins a free kick in their defensive half."
+        *   This snippet explicitly states Player5 took a shot.
+        *   Shots += 1
+        *   No goal is scored in this instance, Player5's shot was saved.
+        *   Player27 won a free kick, so this is not related to the target player.
 
 4.  **Final Counts:**
-    *   Shots = 2
-    *   Goals = 1
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+    * Shots = 2
+    * Goals = 1
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
 
 Final Summary Table:
 ```markdown

@@ -1,28 +1,39 @@
-Okay, let's analyze the commentary snippets for Player35 and compile the statistics.
+Okay, I'm ready to analyze the commentary snippets and generate the player statistics table.
 
-**Player Name:** Player35
+**1. Identify Target Player:**
 
-**Commentary Snippets:**
-- Player35(Away Team) earns a free kick in their own half.
+The target player is Player35.
 
-**Step-by-step analysis:**
+**2. Initialize Counts:**
 
-1.  **Player Name:** The target player is Player35.
-2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
-3.  **Snippet 1:** "Player35(Away Team) earns a free kick in their own half."
-    *   This indicates that Player35 earned a free kick as a result of an opponent's action against them. This means that the player *wins* a free kick.
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
 
-4. **Final Count:**
-    * Shots = 0
-    * Goals = 0
-    * Assists = 0
-    * Free Kicks = 1
-    * Fouls = 0
-    * Yellow Cards = 0
-    * Red Cards = 0
-    * Offsides = 0
+**3. Analyze Commentary Snippets:**
 
-Final Summary Table:
+*   **Snippet 1:** "Player35(Away Team) earns a free kick in their own half."
+
+    *   **Free Kicks:** The snippet explicitly states Player35 earns a free kick. Increment Free Kicks by 1. Free Kicks = 1
+
+**4. Final Counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 1
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**Final Summary Table:**
+
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

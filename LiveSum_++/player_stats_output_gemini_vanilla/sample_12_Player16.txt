@@ -1,34 +1,36 @@
-Okay, let's start by identifying the target player and initializing the event counts.
+Okay, I'm ready to process the commentary snippets and compile the player statistics.
 
-Target Player: Player16
+**1. Identify the target player:**
 
-Initial Event Counts:
-Shots: 0
-Goals: 0
-Assists: 0
-Free Kicks: 0
-Fouls: 0
-Yellow Cards: 0
-Red Cards: 0
-Offsides: 0
+The target player is Player16.
 
-Now, let's analyze the commentary snippets and increment the counts accordingly, based on the strict counting rules.
+**2. Initialize event counts:**
 
-Commentary Snippet 1: "Player16(Home Team) commits a foul, resulting in Player25(Away Team) winning a free kick on the right wing, ."
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
 
-Analysis:
-*   The snippet explicitly states "Player16 commits a foul".
-    *   Increment Fouls: Fouls = 0 + 1 = 1
+**3. Analyze commentary snippets:**
 
-Final Counts:
-Shots: 0
-Goals: 0
-Assists: 0
-Free Kicks: 0
-Fouls: 1
-Yellow Cards: 0
-Red Cards: 0
-Offsides: 0
+*   Snippet 1: "Player16(Home Team) commits a foul, resulting in Player25(Away Team) winning a free kick on the right wing, ."
+    *   Fouls: The snippet explicitly states "Player16 commits a foul". Increment Fouls by 1.
+    *   Free Kicks: The snippet indicates Player25 wins a free kick, not Player16. Player16 commits the foul leading to it. Therefore, do NOT increment Free Kicks for Player16.
+
+**4. Final Counts:**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 1
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
 
 Final Summary Table:
 ```markdown

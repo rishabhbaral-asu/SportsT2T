@@ -1,44 +1,62 @@
-Okay, let's analyze the commentary snippets for Player8.
+Okay, let's analyze the commentary snippets for Player8 and compile the statistics.
 
-**1. Player Identification:**
+**1. Identify the target player:**
+
 The target player is Player8.
 
-**2. Initialization:**
-We initialize the counts for Player8 as follows:
-*   Shots: 0
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+**2. Initialize counts:**
 
-**3. Snippet Analysis:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze each snippet:**
 
 *   **Snippet 1:** "Player8(Home Team)'s shot from the center of the box is blocked with his right foot, assisted by Player9(Home Team)."
-    *   This snippet explicitly mentions "shot" by Player8. Therefore, we increment Shots by 1.
-    *   The snippet indicates Player8 was *assisted by* Player9. This does not contribute to Player8's assist count.
-    *   Current counts: Shots: 1, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+    *   Shots: The snippet explicitly states "Player8's shot", so increment Shots by 1.
+    *   Goals: No goal is mentioned.
+    *   Assists: The snippet indicates Player8 was *assisted by* another player. Therefore, Player8 did not provide the assist, so the assist count does not change.
+    *   Free Kicks: No free kick event is mentioned.
+    *   Fouls: No foul event is mentioned.
+    *   Yellow Cards: No yellow card event is mentioned.
+    *   Red Cards: No red card event is mentioned.
+    *   Offsides: No offsides event is mentioned.
 
 *   **Snippet 2:** "Player8(Home Team)'s shot from the center of the box is blocked with Player10(Home Team)'s assistance."
-    *   This snippet explicitly mentions "shot" by Player8. Therefore, we increment Shots by 1.
-    *   The snippet indicates Player8 was *assisted by* Player10. This does not contribute to Player8's assist count.
-    *   Current counts: Shots: 2, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+    *   Shots: The snippet explicitly states "Player8's shot", so increment Shots by 1.
+    *   Goals: No goal is mentioned.
+    *   Assists: The snippet indicates Player8 was *assisted by* another player. Therefore, Player8 did not provide the assist, so the assist count does not change.
+    *   Free Kicks: No free kick event is mentioned.
+    *   Fouls: No foul event is mentioned.
+    *   Yellow Cards: No yellow card event is mentioned.
+    *   Red Cards: No red card event is mentioned.
+    *   Offsides: No offsides event is mentioned.
 
 *   **Snippet 3:** "Player8(Home Team) earns a free kick in their own half."
-    *   This snippet explicitly states Player8 "earns a free kick." Thus, increment Free Kicks by 1.
-    *   Current counts: Shots: 2, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+    *   Shots: No shot event is mentioned.
+    *   Goals: No goal is mentioned.
+    *   Assists: No assist is mentioned.
+    *   Free Kicks: The snippet indicates Player8 "earns a free kick". Thus, increment Free Kicks by 1.
+    *   Fouls: No foul is mentioned.
+    *   Yellow Cards: No yellow card is mentioned.
+    *   Red Cards: No red card is mentioned.
+    *   Offsides: No offsides event is mentioned.
 
 **4. Final Counts:**
-*   Shots: 2
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 1
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+
+Shots = 2
+Goals = 0
+Assists = 0
+Free Kicks = 1
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
 
 Final Summary Table:
 ```markdown

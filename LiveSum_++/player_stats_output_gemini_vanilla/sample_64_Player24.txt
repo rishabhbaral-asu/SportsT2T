@@ -1,38 +1,56 @@
-Okay, let's analyze the commentary snippets for Player24 and compile the statistics.
+Okay, let's start.
 
-**1. Player Identification:**
+**Objective:** Analyze commentary snippets for Player24 and count explicit occurrences of defined events.
 
-The target player is Player24.
+**Input:**
+* **Player Name:**
+```
+Player24
+```
+* **Commentary Snippets:**
+```
+- Player24(Away Team) to the top left corner, assisted by Player28(Away Team) from a set piece, The score now stands at Home Team 0, Away Team 1.
+- Player24(Away Team)'s header from the center of the box, assisted by Player34(Away Team) with a cross, is blocked after the Away Team obtains a corner kick.
+```
 
-**2. Initialization:**
+**Step-by-step analysis:**
 
-We initialize all event counts to 0 for Player24.
+1.  **Player Name:** Player24
 
-**3. Snippet Analysis:**
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-*   **Snippet 1:** "Player24(Away Team) to the top left corner, assisted by Player28(Away Team) from a set piece, The score now stands at Home Team 0, Away Team 1."
-    *   This snippet explicitly states that Player24 scored a goal. Therefore, Goals and Shots are incremented by 1.
-    *   Since Player24 scored, Shots = 1, Goals = 1.
-    *   No assist is credited *to* Player24 here, so Assists remains 0.
+3.  **Snippet Analysis:**
 
-*   **Snippet 2:** "Player24(Away Team)'s header from the center of the box, assisted by Player34(Away Team) with a cross, is blocked after the Away Team obtains a corner kick."
-    *   This snippet states that Player24 made a header that was blocked. This is a shot.
-    *   Shots is incremented by 1. Shots = 2
-    *   No assist is credited *to* Player24 here, so Assists remains 0.
+    *   **Snippet 1:** "Player24(Away Team) to the top left corner, assisted by Player28(Away Team) from a set piece, The score now stands at Home Team 0, Away Team 1."
+        *   "to the top left corner" implies a shot, and it resulted in a goal.
+        *   Goal +1
+        *   Shot +1
+        *   Since Player24 was assisted by Player28, Player24 did NOT provide the assist.
+    *   **Snippet 2:** "Player24(Away Team)'s header from the center of the box, assisted by Player34(Away Team) with a cross, is blocked after the Away Team obtains a corner kick."
+        *   "header" implies an attempt on goal.
+        *   "blocked" means the header was a shot on goal, but didn't result in a goal.
+        *   Shot +1
+        *   Since Player24 was assisted by Player34, Player24 did NOT provide the assist.
 
-**4. Final Counts:**
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-*   Shots: 2
-*   Goals: 1
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
-
-**Final Summary Table:**
-
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

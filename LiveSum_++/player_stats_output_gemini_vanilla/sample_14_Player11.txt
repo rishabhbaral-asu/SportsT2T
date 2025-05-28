@@ -1,42 +1,43 @@
-Okay, I will follow the instructions to analyze the commentary snippets for Player11 and compile the statistics.
+Okay, I will follow the instructions to analyze the commentary snippets for Player11 and generate the final summary table.
 
-1.  **Identify Target Player:** The target player is Player11.
+**1. Identify Target Player:**
 
-2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+The target player is Player11.
 
-3.  **Analyze Snippets:**
+**2. Initialize Counts:**
 
-    *   **Snippet 1:** "Player11(Home Team)'s left footed shot from outside the box goes wide to the right, with an assist from Player10(Home Team)."
-        *   Shots: Player11 takes a shot (explicitly stated). Increment Shots to 1.
-        *   Goals: No goal is scored.
-        *   Assists: Player11 receives an assist, but does not provide one, therefore, no assist is recorded.
-        *   Free Kicks: No free kick event.
-        *   Fouls: No foul event.
-        *   Yellow Cards: No yellow card event.
-        *   Red Cards: No red card event.
-        *   Offsides: No offsides event.
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
 
-    *   **Snippet 2:** "Player11(Home Team) earns a free kick on the left wing, leading to a corner kick for the Home Team, ."
-        *   Shots: No shot event.
-        *   Goals: No goal event.
-        *   Assists: No assist event.
-        *   Free Kicks: Player11 earns a free kick, this counts as a free kick taken. Increment Free Kicks to 1.
-        *   Fouls: No foul event.
-        *   Yellow Cards: No yellow card event.
-        *   Red Cards: No red card event.
-        *   Offsides: No offsides event.
+**3. Analyze Commentary Snippets:**
 
-    *   **Snippet 3:** "Player11(Home Team) misses the header from the center of the box, it goes high and wide to the left, The cross was provided by Player2(Home Team)."
-        *   Shots: Player11 misses a header (an attempt on goal). Increment Shots to 2.
-        *   Goals: No goal scored.
-        *   Assists: Player11 receives an assist, but does not provide one, therefore, no assist is recorded.
-        *   Free Kicks: No free kick event.
-        *   Fouls: No foul event.
-        *   Yellow Cards: No yellow card event.
-        *   Red Cards: No red card event.
-        *   Offsides: No offsides event.
+*   **Snippet 1:** "Player11(Home Team)'s left footed shot from outside the box goes wide to the right, with an assist from Player10(Home Team)."
+    *   Mentions "shot" by Player11. Increment Shots: Shots = 1.
+    *   Mentions assist *from* Player10, so no assist for Player11.
 
-4.  **Final Counts:** Shots = 2, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+*   **Snippet 2:** "Player11(Home Team) earns a free kick on the left wing, leading to a corner kick for the Home Team, ."
+    *   Mentions "earns a free kick". Increment Free Kicks: Free Kicks = 1
+
+*   **Snippet 3:** "Player11(Home Team) misses the header from the center of the box, it goes high and wide to the left, The cross was provided by Player2(Home Team)."
+    *   Mentions "header" which is an attempt on goal, meaning it's a "shot". Increment Shots: Shots = 2.
+    *   Mentions the cross was provided by Player2, so no assist for Player11.
+
+**4. Final Counts:**
+
+Shots = 2
+Goals = 0
+Assists = 0
+Free Kicks = 1
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
 
 Final Summary Table:
 ```markdown

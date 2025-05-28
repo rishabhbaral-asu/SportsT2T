@@ -1,41 +1,37 @@
-Okay, let's analyze the commentary snippets for Player4 and compile the statistics.
+Okay, let's start.
 
-**Step 1: Identify the target player**
+**Objective:** Analyze commentary snippets for Player4 and count explicit occurrences of defined events.
 
-The target player is Player4.
+**Input:**
+*   **Player Name:**
+    Player4
+*   **Commentary Snippets:**
+    *   Player4(Home Team) misses the goal with a left-footed shot from outside the box after a set piece.
+    *   Player4(Home Team) commits a foul.
 
-**Step 2: Initialize counts**
+**Process:**
 
-*   Shots = 0
-*   Goals = 0
-*   Assists = 0
-*   Free Kicks = 0
-*   Fouls = 0
-*   Yellow Cards = 0
-*   Red Cards = 0
-*   Offsides = 0
+1.  **Identify target player:** The target player is Player4.
+2.  **Initialize counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+3.  **Analyze snippets:**
+    *   **Snippet 1:** "Player4(Home Team) misses the goal with a left-footed shot from outside the box after a set piece."
+        *   Explicitly states "shot" by Player4. Increment Shots: Shots = 1.
+        *   Since it's after a set piece, it does not mean that Player4 took the free kick, therefore do not increment Free Kicks.
+        *   No mention of goals, assists, fouls, yellow/red cards, or offsides.
+    *   **Snippet 2:** "Player4(Home Team) commits a foul."
+        *   Explicitly states "commits a foul" by Player4. Increment Fouls: Fouls = 1.
+        *   No mention of goals, assists, shots, yellow/red cards, or offsides, free kicks.
 
-**Step 3: Analyze each snippet**
+**Final Summary Table:**
 
-*   **Snippet 1:** "Player4(Home Team) misses the goal with a left-footed shot from outside the box after a set piece."
-    *   The snippet explicitly mentions "Player4" missing a shot. Thus, Shots += 1. Since it's a miss, Goals does not increment. Free Kick does not increment as it mentions the shot occurred "after a set piece."
-*   **Snippet 2:** "Player4(Home Team) commits a foul."
-    *   The snippet explicitly mentions "Player4" committing a foul. Thus, Fouls += 1.
-
-**Step 4: Final Counts**
-
-*   Shots = 1
-*   Goals = 0
-*   Assists = 0
-*   Free Kicks = 0
-*   Fouls = 1
-*   Yellow Cards = 0
-*   Red Cards = 0
-*   Offsides = 0
-
-**Step 5: Create the Final Summary Table**
-
-Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

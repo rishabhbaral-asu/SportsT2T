@@ -1,28 +1,43 @@
-Okay, let's break down the commentary snippets and count the events for Player28.
+Okay, let's analyze the commentary snippets for Player28 and compile the statistics.
 
 **Player Name:** Player28
 
-**Commentary Snippets Analysis:**
+**Commentary Snippets:**
+- Player28(Away Team) earns a free kick on the right side of the field.
+- Player28(Away Team) earns a free kick in their own half.
+- Player28(Away Team) commits a foul, resulting in Player5(Home Team) winning a free kick in their defensive half.
+- Player28(Away Team)'s shot from outside the box is blocked with the help of Player27(Away Team).
+- Player28(Away Team) earns a free kick in their own half.
+- Player28(Away Team) fouls Player5(Home Team), resulting in a free kick in the defensive half.
+- Player28(Away Team)'s attempt with his right foot from the right side of the box is blocked, leading to a corner kick for the Away Team.
+- Player28(Away Team) earns a free kick in their own half after being fouled by Player7(Home Team).
 
-*   **Snippet 1:** "Player28(Away Team) earns a free kick on the right side of the field." -  Player28 earns a free kick. Increment Free Kicks by 1.
-*   **Snippet 2:** "Player28(Away Team) earns a free kick in their own half." - Player28 earns a free kick. Increment Free Kicks by 1.
-*   **Snippet 3:** "Player28(Away Team) commits a foul, resulting in Player5(Home Team) winning a free kick in their defensive half." - Player28 commits a foul. Increment Fouls by 1.
-*   **Snippet 4:** "Player28(Away Team)'s shot from outside the box is blocked with the help of Player27(Away Team)." - Player28 takes a shot. Increment Shots by 1.
-*   **Snippet 5:** "Player28(Away Team) earns a free kick in their own half." - Player28 earns a free kick. Increment Free Kicks by 1.
-*   **Snippet 6:** "Player28(Away Team) fouls Player5(Home Team), resulting in a free kick in the defensive half." - Player28 commits a foul. Increment Fouls by 1.
-*   **Snippet 7:** "Player28(Away Team)'s attempt with his right foot from the right side of the box is blocked, leading to a corner kick for the Away Team." - Player28 takes a shot. Increment Shots by 1.
-*   **Snippet 8:** "Player28(Away Team) earns a free kick in their own half after being fouled by Player7(Home Team)." - Player28 earns a free kick. Increment Free Kicks by 1.
+**Event Tracking:**
 
-**Final Counts:**
-
-*   Shots: 2
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 4
-*   Fouls: 2
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+*   **Shots:**
+    *   "Player28(Away Team)'s shot from outside the box is blocked with the help of Player27(Away Team)." - This is a shot, so increment Shots by 1.
+    *   "Player28(Away Team)'s attempt with his right foot from the right side of the box is blocked, leading to a corner kick for the Away Team." - This is an attempt, which qualifies as a shot, so increment Shots by 1.
+    Total Shots = 2
+*   **Goals:** No explicit mention of Player28 scoring a goal.
+    Total Goals = 0
+*   **Assists:** No explicit mention of Player28 providing an assist. The blocked shot was "with the help of Player27," which does not indicate an assist for Player28.
+    Total Assists = 0
+*   **Free Kicks (Taken):**
+    *   "Player28(Away Team) earns a free kick on the right side of the field." - This means Player28 won a free kick (was fouled), so increment Free Kicks by 1.
+    *   "Player28(Away Team) earns a free kick in their own half." - This means Player28 won a free kick (was fouled), so increment Free Kicks by 1.
+    *   "Player28(Away Team) earns a free kick in their own half." - This means Player28 won a free kick (was fouled), so increment Free Kicks by 1.
+    *   "Player28(Away Team) earns a free kick in their own half after being fouled by Player7(Home Team)." - This means Player28 won a free kick (was fouled), so increment Free Kicks by 1.
+    Total Free Kicks = 4
+*   **Fouls (Committed):**
+    *   "Player28(Away Team) commits a foul, resulting in Player5(Home Team) winning a free kick in their defensive half." - This explicitly states Player28 committed a foul, so increment Fouls by 1.
+    *  "Player28(Away Team) fouls Player5(Home Team), resulting in a free kick in the defensive half." - This explicitly states Player28 committed a foul, so increment Fouls by 1.
+    Total Fouls = 2
+*   **Yellow Cards:** No explicit mention of Player28 receiving a yellow card.
+    Total Yellow Cards = 0
+*   **Red Cards:** No explicit mention of Player28 receiving a red card.
+    Total Red Cards = 0
+*   **Offsides:** No explicit mention of Player28 being offsides.
+    Total Offsides = 0
 
 Final Summary Table:
 ```markdown

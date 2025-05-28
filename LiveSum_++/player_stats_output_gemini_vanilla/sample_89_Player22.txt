@@ -1,37 +1,23 @@
-Okay, let's analyze the commentary snippets for Player22.
+Okay, let's analyze the commentary snippets for Player22 and generate the final summary table.
 
-1.  **Player Name:** Player22
+**Player Name:** Player22
 
-2.  **Initialization:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 0
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+**Commentary Snippets:**
 
-3.  **Snippet Analysis:**
+*   "Player22(Away Team) misses a right-footed shot from outside the box to the left, assisted by Player25(Away Team), after a foul by Player21(Away Team)."
+*   "Player22(Away Team) receives a yellow card for a rough tackle."
+*   "Player22(Away Team) earns a free kick on the right side of the field."
 
-    *   Snippet 1: "Player22(Away Team) misses a right-footed shot from outside the box to the left, assisted by Player25(Away Team), after a foul by Player21(Away Team)."
-        *   "misses a right-footed shot" - This indicates a shot attempt by Player22. Shots count increments to 1.
-        *   The snippet indicates Player22 was *assisted by* Player25, therefore this is NOT an assist for Player22.
-        *   There's a mention of a foul by Player21, so this is NOT a foul *committed by* Player22.
-    *   Snippet 2: "Player22(Away Team) receives a yellow card for a rough tackle."
-        *   "yellow card" - Yellow Cards count increments to 1.
-    *   Snippet 3: "Player22(Away Team) earns a free kick on the right side of the field."
-        *   "earns a free kick" - Free Kicks count increments to 1.
+**Step-by-step Analysis:**
 
-4.  **Final Counts:**
-    *   Shots: 1
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 1
-    *   Fouls: 0
-    *   Yellow Cards: 1
-    *   Red Cards: 0
-    *   Offsides: 0
+1.  **Shots:** The first snippet states "Player22 misses a right-footed shot...". This explicitly attributes a shot to Player22. Count: 1
+2.  **Goals:** The snippets do not mention Player22 scoring a goal. Count: 0
+3.  **Assists:** The first snippet states "assisted by Player25". This means Player22 *received* an assist, not *provided* one. Therefore, no assist is counted for Player22. Count: 0
+4.  **Free Kicks:** The third snippet states "Player22 earns a free kick". This means Player22 won the free kick. Count: 1
+5.  **Fouls:** The first snippet mentions "after a foul by Player21(Away Team)", so it wasn't Player22 committing a foul. The second snippet says "Player22 receives a yellow card for a rough tackle". It does not explicitly say Player22 committed a foul, but it implies that the tackle was the foul.
+6.  **Yellow Cards:** The second snippet states "Player22 receives a yellow card". Count: 1
+7.  **Red Cards:** The snippets do not mention Player22 receiving a red card. Count: 0
+8.  **Offsides:** The snippets do not mention Player22 being offside. Count: 0
 
 Final Summary Table:
 ```markdown

@@ -1,42 +1,33 @@
-Okay, let's analyze the commentary snippets for Player25 and compile the statistics.
+Okay, let's break this down step by step.
 
-**1. Identify the target player name:**
+1.  **Identify Player Name:**
+    The target player is Player25.
 
-The target player is Player25.
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-**2. Initialize event counts:**
+3.  **Analyze Snippets:**
+    *   Snippet 1: "Player25(Away Team) earns a free kick in their own half."
+        *   Player25 earns a free kick: Increment Free Kicks. Free Kicks = 1
+    *   Snippet 2: "Player25(Away Team) earns a free kick in their own half after a foul by Player3(Home Team)."
+        *   Player25 earns a free kick: Increment Free Kicks. Free Kicks = 2
 
-Shots: 0
-Goals: 0
-Assists: 0
-Free Kicks: 0
-Fouls: 0
-Yellow Cards: 0
-Red Cards: 0
-Offsides: 0
-
-**3. Analyze each snippet:**
-
-*   **Snippet 1:** "Player25(Away Team) earns a free kick in their own half."
-
-    *   This snippet states that Player25 earned a free kick. This means an opponent committed a foul, and Player25 was the recipient. Therefore, increment Free Kicks.
-    *   Free Kicks: 1
-
-*   **Snippet 2:** "Player25(Away Team) earns a free kick in their own half after a foul by Player3(Home Team)."
-
-    *   This snippet states that Player25 earned a free kick. This means an opponent committed a foul, and Player25 was the recipient. Therefore, increment Free Kicks.
-    *   Free Kicks: 2
-
-**4. Final Counts:**
-
-Shots: 0
-Goals: 0
-Assists: 0
-Free Kicks: 2
-Fouls: 0
-Yellow Cards: 0
-Red Cards: 0
-Offsides: 0
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 2
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
 Final Summary Table:
 ```markdown

@@ -1,37 +1,31 @@
-Okay, let's analyze the commentary snippets for Player8.
+Okay, let's analyze the commentary snippets for Player8 and generate the statistics table.
 
-1.  **Player Name:** Player8
+**1. Player Name:**
+The target player is Player8.
 
-2.  **Initial Counts:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 0
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+**2. Initialization:**
+We initialize all counts to 0 for Player8: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
 
-3.  **Snippet Analysis:**
+**3. Snippet Analysis:**
 
-    *   Snippet 1: "Player8(Home Team) commits a foul on Player28(Away Team), who wins a free kick in the attacking half."
-        *   Fouls: Player8 commits a foul, so increment Fouls by 1.
-        *   Free Kicks: Player8 committed the foul that resulted in the free kick. Player8 did not take a free kick; rather they committed a foul that led to a free kick, so Free Kicks remains 0
+*   **Snippet 1:** "Player8(Home Team) commits a foul on Player28(Away Team), who wins a free kick in the attacking half."
+    *   Fouls: Player8 commits a foul. Increment Fouls by 1. Fouls = 1.
+    *   Free Kicks: The snippet says "Player28 wins a free kick" as a result of Player8's foul. This means that while Player8 committed a foul, Player8 did not win or take the free kick. Free Kicks = 0
 
-    *   Snippet 2: "Player8(Home Team) commits a foul."
-        *   Fouls: Player8 commits a foul, so increment Fouls by 1.
+*   **Snippet 2:** "Player8(Home Team) commits a foul."
+    *   Fouls: Player8 commits a foul. Increment Fouls by 1. Fouls = 2.
 
-4.  **Final Counts:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 2
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+**4. Final Counts:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 2
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
 
-Final Summary Table:
+**Final Summary Table:**
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

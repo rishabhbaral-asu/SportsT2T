@@ -1,13 +1,10 @@
-Okay, let's analyze the commentary snippets for Player9.
+Okay, let's analyze the commentary snippets for Player9 and compile the statistics.
 
-*   **Player Name:** Player9
-*   **Commentary Snippets:**
-    *   Player9(Home Team)'s left-footed shot from outside the box into the bottom left corner.
-    *   Player9(Home Team)'s attempt from the right side of the box is blocked with an assist from Player11(Home Team), while Player10(Home Team)'s shot from the center of the box goes high and wide to the left.
-    *   Player9(Home Team) scores with a right-footed shot from the center of the box, assisted by Player5(Home Team) with a cross after a corner kick.
-    *   Player9(Home Team) scores with a close-range shot from a corner, making it 3-0 for the Home Team.
+**1. Identify Target Player:**
 
-Now, let's initialize the counts and analyze each snippet:
+The target player is Player9.
+
+**2. Initialize Counts:**
 
 *   Shots: 0
 *   Goals: 0
@@ -18,10 +15,26 @@ Now, let's initialize the counts and analyze each snippet:
 *   Red Cards: 0
 *   Offsides: 0
 
-**Snippet 1:** "Player9(Home Team)'s left-footed shot from outside the box into the bottom left corner."
+**3. Analyze Commentary Snippets:**
 
-*   Shots: 1 (Explicitly mentioned "shot")
-*   Goals: 0 (Not explicitly mentioned as a "goal")
+*   **Snippet 1:** "Player9(Home Team)'s left-footed shot from outside the box into the bottom left corner."
+    *   Shots: Increment by 1 (explicitly mentioned "shot").
+    *   Goals: Increment by 1 (explicitly mentioned the ball went into the corner).
+*   **Snippet 2:** "Player9(Home Team)'s attempt from the right side of the box is blocked with an assist from Player11(Home Team), while Player10(Home Team)'s shot from the center of the box goes high and wide to the left."
+    *   Shots: Increment by 1 (explicitly mentioned "attempt" which qualifies as a shot).
+    *   The phrase `assist from Player11` means no assist is given to Player9.
+*   **Snippet 3:** "Player9(Home Team) scores with a right-footed shot from the center of the box, assisted by Player5(Home Team) with a cross after a corner kick."
+    *   Shots: Increment by 1 (explicitly mentioned "shot" and "scores").
+    *   Goals: Increment by 1 (explicitly mentioned "scores").
+    *   The phrase `assisted by Player5` means no assist is given to Player9.
+*   **Snippet 4:** "Player9(Home Team) scores with a close-range shot from a corner, making it 3-0 for the Home Team."
+    *   Shots: Increment by 1 (explicitly mentioned "shot" and "scores").
+    *   Goals: Increment by 1 (explicitly mentioned "scores").
+
+**4. Final Counts:**
+
+*   Shots: 5
+*   Goals: 4
 *   Assists: 0
 *   Free Kicks: 0
 *   Fouls: 0
@@ -29,42 +42,10 @@ Now, let's initialize the counts and analyze each snippet:
 *   Red Cards: 0
 *   Offsides: 0
 
-**Snippet 2:** "Player9(Home Team)'s attempt from the right side of the box is blocked with an assist from Player11(Home Team), while Player10(Home Team)'s shot from the center of the box goes high and wide to the left."
+**Final Summary Table:**
 
-*   Shots: 2 (Explicitly mentioned "attempt" by Player9 and counts as a shot)
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
-
-**Snippet 3:** "Player9(Home Team) scores with a right-footed shot from the center of the box, assisted by Player5(Home Team) with a cross after a corner kick."
-
-*   Shots: 3 (Explicitly mentioned "shot" and "scores")
-*   Goals: 1 (Explicitly mentioned "scores")
-*   Assists: 0 (Player9 was assisted, so NO assist is given to Player9)
-*   Free Kicks: 0
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
-
-**Snippet 4:** "Player9(Home Team) scores with a close-range shot from a corner, making it 3-0 for the Home Team."
-
-*   Shots: 4 (Explicitly mentioned "scores")
-*   Goals: 2 (Explicitly mentioned "scores")
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
-
-Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player9 | 4     | 2     | 0       | 0          | 0     | 0            | 0         | 0        |
+| Player9 | 5     | 4     | 0       | 0          | 0     | 0            | 0         | 0        |
 ```

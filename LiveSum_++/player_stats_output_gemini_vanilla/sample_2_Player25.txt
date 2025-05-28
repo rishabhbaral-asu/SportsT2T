@@ -1,9 +1,9 @@
-Okay, I will follow the instructions to analyze the commentary snippets for Player25 and generate the final summary table.
+Okay, let's analyze the commentary snippets for Player25 and compile the statistics.
 
-1.  **Identify the target player name:**
+1.  **Identify Target Player:**
     The target player is Player25.
 
-2.  **Initialize counts:**
+2.  **Initialize Counts:**
     *   Shots = 0
     *   Goals = 0
     *   Assists = 0
@@ -13,18 +13,21 @@ Okay, I will follow the instructions to analyze the commentary snippets for Play
     *   Red Cards = 0
     *   Offsides = 0
 
-3.  **Analyze each snippet:**
+3.  **Analyze Commentary Snippets:**
 
     *   Snippet 1: "Player25(Away Team)'s shot from the center of the box is saved in the bottom right corner after a through ball from Player27(Away Team)."
-        *   This snippet explicitly states Player25 took a shot. Increment Shots.
-        *   Shots = 1
+        *   "shot" is present and attributed to Player25. Increment Shots count by 1.
+        * No mention of a goal.
+        * Player25 is *receiving* the through ball, meaning Player27 provides a potential assist, but Player25 is not *providing* an assist. Do not increment Assist count.
+        * No mention of Free Kicks, Fouls, Yellow Cards, Red Cards, or Offsides.
 
     *   Snippet 2: "Player25(Away Team)'s shot with his right foot from the center of the box is saved in the bottom left corner, with an assist from Player34(Away Team)."
-        *   This snippet explicitly states Player25 took a shot. Increment Shots.
-        *   Shots = 2
+        *   "shot" is present and attributed to Player25. Increment Shots count by 1.
+        * No mention of a goal.
+        * Player25 is *receiving* the assist, meaning Player34 provides the assist, but Player25 is not *providing* an assist. Do not increment Assist count.
+        * No mention of Free Kicks, Fouls, Yellow Cards, Red Cards, or Offsides.
 
-4.  **Compile the final counts.**
-
+4.  **Compile Final Counts:**
     *   Shots = 2
     *   Goals = 0
     *   Assists = 0

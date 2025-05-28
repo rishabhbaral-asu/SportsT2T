@@ -1,85 +1,50 @@
-Okay, let's break this down step by step.
+Okay, let's process the provided input step-by-step to generate the final summary table for Player25.
 
-1.  **Identify the target player:** The target player is Player25.
+**1. Identify Target Player:**
 
-2.  **Initialize counts:**
-    * Shots: 0
-    * Goals: 0
-    * Assists: 0
-    * Free Kicks: 0
-    * Fouls: 0
-    * Yellow Cards: 0
-    * Red Cards: 0
-    * Offsides: 0
+The target player is Player25.
 
-3.  **Analyze each snippet:**
+**2. Initialize Counts:**
 
-    *   **Snippet 1:** "Player25(Away Team) commits a foul, resulting in Player3(Home Team) winning a free kick on the left wing, ."
-        *   "commits a foul" - Foul count incremented.
-        *   "wins a free kick" - Player25 does not win the free kick. No Free Kick increment.
-        * Fouls: 1
-        * Shots: 0
-        * Goals: 0
-        * Assists: 0
-        * Free Kicks: 0
-        * Yellow Cards: 0
-        * Red Cards: 0
-        * Offsides: 0
-    *   **Snippet 2:** "Player25(Away Team) commits a foul."
-        *   "commits a foul" - Foul count incremented.
-        * Fouls: 2
-        * Shots: 0
-        * Goals: 0
-        * Assists: 0
-        * Free Kicks: 0
-        * Yellow Cards: 0
-        * Red Cards: 0
-        * Offsides: 0
-    *   **Snippet 3:** "Player25(Away Team) receives a yellow card for a rough tackle."
-        *   "receives a yellow card" - Yellow Card count incremented.
-        * Fouls: 2
-        * Shots: 0
-        * Goals: 0
-        * Assists: 0
-        * Free Kicks: 0
-        * Yellow Cards: 1
-        * Red Cards: 0
-        * Offsides: 0
-    *   **Snippet 4:** "Player25(Away Team) commits a foul."
-        *   "commits a foul" - Foul count incremented.
-        * Fouls: 3
-        * Shots: 0
-        * Goals: 0
-        * Assists: 0
-        * Free Kicks: 0
-        * Yellow Cards: 1
-        * Red Cards: 0
-        * Offsides: 0
-    *   **Snippet 5:** "Player25(Away Team)'s right-footed shot from the right side of the box into the bottom right corner."
-        *   "shot" - Shot count incremented.
-        *   "into the bottom right corner" implies a goal was scored. Goal count incremented.
-        * Shots: 1
-        * Goals: 1
-        * Assists: 0
-        * Free Kicks: 0
-        * Yellow Cards: 1
-        * Red Cards: 0
-        * Offsides: 0
-        * Fouls: 3
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
 
-4.  **Final Counts:**
-    * Shots: 1
-    * Goals: 1
-    * Assists: 0
-    * Free Kicks: 0
-    * Fouls: 3
-    * Yellow Cards: 1
-    * Red Cards: 0
-    * Offsides: 0
+**3. Analyze Commentary Snippets:**
 
-Final Summary Table:
+*   **Snippet 1:** "Player25(Away Team) commits a foul, resulting in Player3(Home Team) winning a free kick on the left wing, ."
+    *   Fouls: Increment by 1 (explicitly states Player25 commits a foul).
+    *   Free Kicks: No increment. Player25 does not take the free kick. This free kick is won by Player3.
+*   **Snippet 2:** "Player25(Away Team) commits a foul."
+    *   Fouls: Increment by 1 (explicitly states Player25 commits a foul).
+*   **Snippet 3:** "Player25(Away Team) receives a yellow card for a rough tackle."
+    *   Yellow Cards: Increment by 1 (explicitly states Player25 receives a yellow card).
+*   **Snippet 4:** "Player25(Away Team) commits a foul."
+    *   Fouls: Increment by 1 (explicitly states Player25 commits a foul).
+*   **Snippet 5:** "Player25(Away Team)'s right-footed shot from the right side of the box into the bottom right corner."
+    * Shots: Increment by 1 (Explicitly states Player25's shot)
+    * Goals: No Goal explicitly stated
+
+**4. Final Counts:**
+
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 3
+*   Yellow Cards: 1
+*   Red Cards: 0
+*   Offsides: 0
+
+**Final Summary Table:**
+
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player25 | 1     | 1     | 0       | 0          | 3     | 1            | 0         | 0        |
+| Player25 | 1     | 0     | 0       | 0          | 3     | 1            | 0         | 0        |
 ```

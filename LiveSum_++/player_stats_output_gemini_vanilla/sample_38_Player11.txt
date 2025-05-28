@@ -1,37 +1,46 @@
-Okay, let's analyze the commentary snippets for Player11 and compile the statistics.
+Okay, I'm ready to analyze the commentary snippets for Player11 and generate the final summary table.
 
-1.  **Player Name:** The target player is Player11.
-2.  **Initialize Counts:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 0
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+**1. Identify Target Player:**
 
-3.  **Analyze Commentary Snippets:**
+The target player is Player11.
 
-    *   **Snippet 1:** "Player11(Home Team) commits a foul."
-        *   The snippet explicitly states Player11 committed a foul.
-        *   Increment Fouls: Fouls = 1
-    *   **Snippet 2:** "Player11(Home Team) earns a free kick in their own half."
-        *   The snippet explicitly states Player11 earned a free kick.
-        *   Increment Free Kicks: Free Kicks = 1
-    *   **Snippet 3:** "Player11(Home Team) commits a foul, resulting in Player23(Away Team) winning a free kick in the defensive half, This leads to a set piece opportunity for the team."
-        *   The snippet explicitly states Player11 committed a foul.
-        *   Increment Fouls: Fouls = 2
+**2. Initialize Counts:**
 
-4.  **Final Counts:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 1
-    *   Fouls: 2
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1: "Player11(Home Team) commits a foul."**
+
+    *   Fouls: The snippet explicitly states "commits a foul" by Player11. Increment Fouls by 1. Fouls = 1
+
+*   **Snippet 2: "Player11(Home Team) earns a free kick in their own half."**
+
+    *   Free Kicks: The snippet explicitly states "earns a free kick" by Player11. Increment Free Kicks by 1. Free Kicks = 1
+
+*   **Snippet 3: "Player11(Home Team) commits a foul, resulting in Player23(Away Team) winning a free kick in the defensive half, This leads to a set piece opportunity for the team."**
+
+    *   Fouls: The snippet explicitly states "commits a foul" by Player11. Increment Fouls by 1. Fouls = 2
+
+**4. Final Counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 1
+Fouls = 2
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**5. Final Summary Table:**
 
 Final Summary Table:
 ```markdown

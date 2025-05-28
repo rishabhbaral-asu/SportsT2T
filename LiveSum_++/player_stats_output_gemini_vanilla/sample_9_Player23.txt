@@ -1,39 +1,47 @@
 Okay, let's analyze the commentary snippets for Player23.
 
-1.  **Player Name:** The target player is Player23.
-2.  **Initialize Counts:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+**1. Player Identification:**
 
-3.  **Analyze Snippets:**
+The target player is Player23.
 
-    *   **Snippet 1:** "Player23(Away Team) earns a free kick in their own half."
-        *   This indicates Player23 won a free kick. Increment Free Kicks.
-        *   Free Kicks = 1
+**2. Initialization:**
 
-    *   **Snippet 2:** "Player23(Away Team) attempts a through ball, but Player27(Away Team) is caught offside."
-        *   This mentions Player23 attempting a through ball. No keywords present for Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, or Offsides related to Player23.
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
 
-    *   **Snippet 3:** "Player23(Away Team) attempts a through ball, but Player28(Away Team) is offside for the Away Team."
-        *   This mentions Player23 attempting a through ball. No keywords present for Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, or Offsides related to Player23.
+**3. Snippet Analysis:**
 
-4.  **Final Counts:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
+*   **Snippet 1:** "Player23(Away Team) earns a free kick in their own half."
+    *   This explicitly states Player23 earned a free kick.
     *   Free Kicks = 1
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+
+*   **Snippet 2:** "Player23(Away Team) attempts a through ball, but Player27(Away Team) is caught offside."
+    *   This does not say Player23 was offside or took a shot, scored, assisted, committed a foul, or received a card.
+    *   Offsides = 0 (Player27 was offside, not Player23).
+
+*   **Snippet 3:** "Player23(Away Team) attempts a through ball, but Player28(Away Team) is offside for the Away Team."
+    *   This does not say Player23 was offside or took a shot, scored, assisted, committed a foul, or received a card.
+    *   Offsides = 0 (Player28 was offside, not Player23).
+
+**4. Final Counts:**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 1
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
 
 Final Summary Table:
+
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

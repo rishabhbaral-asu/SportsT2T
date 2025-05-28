@@ -1,34 +1,15 @@
-Okay, I'm ready to process the commentary snippets and generate the final summary table.
+Okay, let's analyze the commentary snippets for Player11 and generate the summary table.
 
-**1. Identify Target Player:**
+**Player Name:** Player11
 
-The target player is Player11.
+**Commentary Snippets:**
 
-**2. Initialize Counters:**
+*   "Player11(Home Team) from the left side of the box is blocked with Player3(Home Team)'s help." - This counts as a Shot (blocked).
+*   "Player11(Home Team) misses the target with a high right-footed shot from outside the box on a direct free kick." - This counts as a Shot (missed) and a Free Kick.
+*   "Player11(Home Team) passes the ball to Player9(Home Team), but Player9(Home Team) is offside." - This does not count as an assist because Player9 was offside and didn't score. It does however count as an Offside, as Player9, the offside player, was the recipient of a pass from Player11.
+*   "Player11(Home Team) earns a free kick in their own half." - This counts as a Free Kick.
 
-*   Shots: 0
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
-
-**3. Analyze Commentary Snippets:**
-
-*   **Snippet 1:** "Player11(Home Team) from the left side of the box is blocked with Player3(Home Team)'s help."
-    *   This snippet indicates an attempt on goal that was blocked. So, Shots += 1.
-*   **Snippet 2:** "Player11(Home Team) misses the target with a high right-footed shot from outside the box on a direct free kick."
-    *   This snippet indicates a shot was taken and missed. So, Shots += 1.
-    *   The snippet explicitly states "...on a direct free kick", therefore Free Kicks += 1.
-*   **Snippet 3:** "Player11(Home Team) passes the ball to Player9(Home Team), but Player9(Home Team) is offside."
-    *   This snippet indicates Player9 was offside. Player11 passed the ball, but it did *not* lead to a goal, so no assist.
-    *   Offsides += 0 (Since the target player is not offside, no increment occurs).
-*   **Snippet 4:** "Player11(Home Team) earns a free kick in their own half."
-    *   This snippet indicates Player11 was fouled or won the free kick. So, Free Kicks += 1.
-
-**4. Final Counts:**
+**Event Counts:**
 
 *   Shots: 2
 *   Goals: 0
@@ -39,8 +20,7 @@ The target player is Player11.
 *   Red Cards: 0
 *   Offsides: 0
 
-**Final Summary Table:**
-
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

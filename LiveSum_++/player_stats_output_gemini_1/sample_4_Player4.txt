@@ -1,6 +1,7 @@
 Analyzing the snippets for Player4:
+
 - "Player4(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player4 committed a foul.
-- "Player4(Home Team) assisted by Player7(Home Team)." -> Counts as 0 Assists because the snippet explicitly states Player4 was *assisted by* someone else, not that Player4 provided the assist.
+- "Player4(Home Team) assisted by Player7(Home Team)." -> Counts as 0 Assists because the target player was assisted by another player. The target player must be the one *giving* the assist, never the receiver.
 
 Final Summary Table:
 ```markdown

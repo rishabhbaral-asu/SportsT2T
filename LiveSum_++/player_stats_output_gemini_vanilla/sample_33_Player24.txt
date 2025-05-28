@@ -1,12 +1,9 @@
 Okay, let's analyze the commentary snippets for Player24.
 
-**Player Name:** Player24
+**1. Player Identification:**
+The target player is Player24.
 
-**Commentary Snippets:**
-- Player24(Away Team) attempts a through ball, but Player21(Away Team) is caught offside.
-- Player24(Away Team) has been cautioned with a yellow card.
-
-**Initialization:**
+**2. Initialization:**
 Shots = 0
 Goals = 0
 Assists = 0
@@ -16,16 +13,16 @@ Yellow Cards = 0
 Red Cards = 0
 Offsides = 0
 
-**Snippet 1 Analysis:**
-"Player24(Away Team) attempts a through ball, but Player21(Away Team) is caught offside."
-*   This snippet does not explicitly state that Player24 took a shot, scored, assisted, or took a free kick. It also does not mention fouls, yellow cards, or red cards committed by Player24. It does not explicitly mention Player24 being offside.
+**3. Snippet Analysis:**
 
-**Snippet 2 Analysis:**
-"Player24(Away Team) has been cautioned with a yellow card."
-* This snippet explicitly states Player24 received a yellow card.
-* Increment Yellow Cards: Yellow Cards = 1
+*   **Snippet 1:** "Player24(Away Team) attempts a through ball, but Player21(Away Team) is caught offside."
+    *   Mentions Player24 attempting a through ball. However, it's not explicitly stated if the through ball was intended as a shot on goal or an assist leading directly to a goal. Also Player21 is caught offside, this does not increment any of Player24's stats. Thus, no increments here.
+*   **Snippet 2:** "Player24(Away Team) has been cautioned with a yellow card."
+    *   Explicitly states Player24 received a yellow card.
+    *   Yellow Cards = Yellow Cards + 1 = 1
 
-**Final Counts:**
+**4. Final Count:**
+
 Shots = 0
 Goals = 0
 Assists = 0

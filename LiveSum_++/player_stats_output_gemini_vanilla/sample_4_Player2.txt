@@ -1,8 +1,8 @@
-Okay, let's analyze the commentary snippets for Player2.
+Okay, let's analyze the commentary snippets for Player2 and create the summary table.
 
-1.  **Player Name:** The target player is Player2.
+1.  **Identify Target Player:** The target player is Player2.
 
-2.  **Initialization:**
+2.  **Initialize Counts:**
     *   Shots = 0
     *   Goals = 0
     *   Assists = 0
@@ -12,15 +12,15 @@ Okay, let's analyze the commentary snippets for Player2.
     *   Red Cards = 0
     *   Offsides = 0
 
-3.  **Snippet Analysis:**
+3.  **Analyze Snippets:**
 
-    *   Snippet 1: "Player2(Home Team) earns a free kick in their own half."
-        *   This snippet explicitly states Player2 earned a free kick.
-        *   Free Kicks = 0 + 1 = 1
+    *   **Snippet 1:** "Player2(Home Team) earns a free kick in their own half."
+        *   This snippet explicitly states Player2 earns a free kick. This implies a foul was committed against Player2, so increment Free Kicks.
+        *   Free Kicks = 1
 
-    *   Snippet 2: "Player2(Home Team)'s left footed shot from outside the box is blocked, resulting in a corner kick for the Home Team."
-        *   This snippet explicitly states Player2 took a shot that was blocked.
-        *   Shots = 0 + 1 = 1
+    *   **Snippet 2:** "Player2(Home Team)'s left footed shot from outside the box is blocked, resulting in a corner kick for the Home Team."
+        *   This snippet explicitly states Player2 took a shot that was blocked. Increment Shots.
+        *   Shots = 1
 
 4.  **Final Counts:**
     *   Shots = 1

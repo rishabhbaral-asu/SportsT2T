@@ -1,51 +1,58 @@
-Okay, let's analyze the commentary snippets for Player2 and generate the statistics table.
+Okay, let's analyze the commentary snippets for Player2 and compile the statistics.
 
-**1. Identify Target Player:**
+1.  **Identify Target Player:** The target player is Player2.
 
-The target player is Player2.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
 
-**2. Initialize Counts:**
+3.  **Analyze Snippets:**
 
-Shots: 0
-Goals: 0
-Assists: 0
-Free Kicks: 0
-Fouls: 0
-Yellow Cards: 0
-Red Cards: 0
-Offsides: 0
+    *   **Snippet 1:** "Player2(Home Team)'s shot with his left foot from the right side of the box is saved at the bottom right corner, with an assist from Player5(Home Team)."
+        *   Shots: Player2 took a shot. Increment Shots to 1.
+        *   Goals: No goal scored.
+        *   Assists: Player2 did not provide the assist; Player5 did.
+        *   Free Kicks: No free kick explicitly mentioned.
+        *   Fouls: No foul mentioned.
+        *   Yellow Cards: No yellow card mentioned.
+        *   Red Cards: No red card mentioned.
+        *   Offsides: No offside mentioned for Player2.
+    *   **Snippet 2:** "Player2(Home Team) earns a free kick in their own half."
+        *   Shots: No shot mentioned.
+        *   Goals: No goal mentioned.
+        *   Assists: No assist mentioned.
+        *   Free Kicks: Player2 earned a free kick. Increment Free Kicks to 1.
+        *   Fouls: No foul mentioned.
+        *   Yellow Cards: No yellow card mentioned.
+        *   Red Cards: No red card mentioned.
+        *   Offsides: No offside mentioned.
+    *   **Snippet 3:** "Player2(Home Team)'s shot from the center of the box with their right foot narrowly misses to the right, assisted by Player7(Home Team)."
+        *   Shots: Player2 took a shot. Increment Shots to 2.
+        *   Goals: No goal scored.
+        *   Assists: Player2 did not provide the assist; Player7 did.
+        *   Free Kicks: No free kick explicitly mentioned.
+        *   Fouls: No foul mentioned.
+        *   Yellow Cards: No yellow card mentioned.
+        *   Red Cards: No red card mentioned.
+        *   Offsides: No offside mentioned for Player2.
+    *   **Snippet 4:** "Player2(Home Team) earns a free kick in their own half."
+        *   Shots: No shot mentioned.
+        *   Goals: No goal mentioned.
+        *   Assists: No assist mentioned.
+        *   Free Kicks: Player2 earned a free kick. Increment Free Kicks to 2.
+        *   Fouls: No foul mentioned.
+        *   Yellow Cards: No yellow card mentioned.
+        *   Red Cards: No red card mentioned.
+        *   Offsides: No offside mentioned.
+    *   **Snippet 5:** "Player2(Home Team) attempts a through ball, but Player9(Home Team) is flagged for offside."
+        *   Shots: No shot mentioned.
+        *   Goals: No goal mentioned.
+        *   Assists: No assist, because Player9 was offside, it did not lead to a goal.
+        *   Free Kicks: No free kick mentioned.
+        *   Fouls: No foul mentioned.
+        *   Yellow Cards: No yellow card mentioned.
+        *   Red Cards: No red card mentioned.
+        *   Offsides: Player9 is offside, not Player2.
 
-**3. Analyze Commentary Snippets:**
-
-*   **Snippet 1:** "Player2(Home Team)'s shot with his left foot from the right side of the box is saved at the bottom right corner, with an assist from Player5(Home Team)."
-    *   Shots: Increment by 1 (Player2's shot)
-    *   Goals: No goal mentioned.
-    *   Assists: No assist credited *to* Player2, so no increment.
-
-*   **Snippet 2:** "Player2(Home Team) earns a free kick in their own half."
-    *   Free Kicks: Increment by 1 (Player2 earns a free kick, meaning he was fouled)
-
-*   **Snippet 3:** "Player2(Home Team)'s shot from the center of the box with their right foot narrowly misses to the right, assisted by Player7(Home Team)."
-    *   Shots: Increment by 1 (Player2's shot)
-    *   Goals: No goal mentioned.
-    *   Assists: No assist credited *to* Player2, so no increment.
-
-*   **Snippet 4:** "Player2(Home Team) earns a free kick in their own half."
-    *   Free Kicks: Increment by 1 (Player2 earns a free kick, meaning he was fouled)
-
-*   **Snippet 5:** "Player2(Home Team) attempts a through ball, but Player9(Home Team) is flagged for offside."
-    *   Offsides: No offside committed by Player2, but rather committed by Player9, so no increment.
-
-**4. Final Counts:**
-
-Shots: 2
-Goals: 0
-Assists: 0
-Free Kicks: 2
-Fouls: 0
-Yellow Cards: 0
-Red Cards: 0
-Offsides: 0
+4.  **Final Counts:** Shots = 2, Goals = 0, Assists = 0, Free Kicks = 2, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
 
 Final Summary Table:
 ```markdown

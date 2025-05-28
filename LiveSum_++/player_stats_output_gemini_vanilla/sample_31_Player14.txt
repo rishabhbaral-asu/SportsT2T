@@ -1,32 +1,17 @@
-Okay, let's analyze the commentary snippets for Player14 and generate the summary table.
+Okay, let's start.
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
 
-1.  **Player Name:** The target player is Player14.
-
-2.  **Initialize Counts:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
-
-3.  **Analyze Commentary Snippets:**
+1.  **Identify the target player name from `<PLAYER_NAME>`:**
+    The target player is Player14.
+2.  **Initialize counts:**
+    Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze each snippet within `<PLAYER_COMMENTARY_SNIPPETS>`:**
 
     *   Snippet 1: "Player14(Home Team) earns a free kick on the right side of the field."
-        *   This snippet indicates Player14 *earned* a free kick, meaning they were fouled or won a free kick. This counts as a Free Kick.
-        *   Free Kicks = 1
+        *   This snippet explicitly states that Player14 earns a free kick. Therefore, Free Kicks = 1.
 
 4.  **Final Counts:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 1
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+    Shots = 0, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
 
 Final Summary Table:
 ```markdown

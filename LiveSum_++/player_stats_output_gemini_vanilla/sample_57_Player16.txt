@@ -1,10 +1,6 @@
-Okay, let's analyze the commentary snippets for Player16 and generate the final summary table.
+Okay, let's start by identifying the target player and initializing the event counters. The target player is Player16.
 
-**1. Identify the target player:**
-
-The target player is Player16.
-
-**2. Initialize counts:**
+Here are the initial counts:
 
 *   Shots: 0
 *   Goals: 0
@@ -15,13 +11,14 @@ The target player is Player16.
 *   Red Cards: 0
 *   Offsides: 0
 
-**3. Analyze commentary snippets:**
+Now, let's analyze the commentary snippets:
 
 *   Snippet 1: "Player16(Home Team)'s left-footed shot from the center of the box was blocked with an assist from Player4(Home Team)."
+    *   This snippet explicitly mentions "shot" attributed to Player16, so increment the "Shots" count.
+    *   This snippet also mentions that it was blocked, so there is no goal here.
+    *   The assist was provided by Player4, so there is no assist for Player16.
 
-    *   The snippet explicitly mentions Player16 taking a shot, which was blocked. This increments the 'Shots' count by 1. This snippet also mentions Player4 providing the assist, so the assist does not count for Player16.
-
-**4. Final Counts:**
+Updated counts:
 
 *   Shots: 1
 *   Goals: 0
@@ -33,7 +30,6 @@ The target player is Player16.
 *   Offsides: 0
 
 Final Summary Table:
-
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

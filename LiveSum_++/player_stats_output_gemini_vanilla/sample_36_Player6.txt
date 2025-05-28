@@ -1,24 +1,15 @@
-Okay, let's break this down step by step.
+Okay, let's start.
 
-1.  **Identify Target Player:** The target player is Player6.
-2.  **Initialize Counts:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 0
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+The player we are tracking is Player6.
 
-3.  **Analyze Commentary Snippets:**
+We initialize all event counts to 0: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
 
-    *   Snippet 1: "Player6(Home Team)'s header from the center of the box is saved by the goalkeeper after a cross from Player7(Home Team)."
-        *   This snippet explicitly states Player6 made a header that was saved, indicating a shot.
-        *   Shots: 1
+Now we will analyze the commentary snippets:
 
-4.  **Final Summary Table:**
+Snippet 1: "Player6(Home Team)'s header from the center of the box is saved by the goalkeeper after a cross from Player7(Home Team)."
+*   Player6 is explicitly named and the snippet mentions a header which is explicitly an attempt on goal by the target player. So we increment Shots by 1.
 
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

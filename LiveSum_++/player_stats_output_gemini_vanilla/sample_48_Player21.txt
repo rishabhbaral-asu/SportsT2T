@@ -1,21 +1,21 @@
-Okay, I will follow the instructions to analyze the commentary snippets for the specified player and generate the markdown table.
+Okay, let's analyze the commentary snippets for Player21 and compile the statistics.
 
-**Player Name:**
-Player21
+**Player Name:** Player21
 
 **Commentary Snippets:**
-- Player21(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick on the right wing, .
 
-**Reasoning:**
+*   "Player21(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick on the right wing, ."
 
-1.  **Identify Target Player:** The target player is Player21.
+**Step-by-step analysis:**
+
+1.  **Player Name:** Player21.
 2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
 3.  **Analyze Snippets:**
     *   Snippet 1: "Player21(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick on the right wing, ."
-        *   Fouls: Player21 commits a foul. Increment Fouls by 1.
-        *   Free Kicks: Player21 committed a foul that resulted in Player7 winning a free kick, this is not a free kick for player21.
+        *   The snippet explicitly states "Player21 commits a foul". Therefore, increment Fouls by 1.
+        * The snippet explicitly states "Player7(Home Team) winning a free kick". This does not count towards Player21.
 
-4. **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+4.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
 
 Final Summary Table:
 ```markdown

@@ -1,26 +1,60 @@
-Okay, let's analyze the commentary snippets for Player28 and generate the summary table.
+Okay, let's analyze the commentary snippets for Player28.
 
-**Player Name:** Player28
+1.  **Player Name:** Player28
 
-**Commentary Snippets:**
+2.  **Initialization:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
 
-*   "Player28(Away Team)'s shot from the left side of the box is blocked by the defender, assisted by Player29(Away Team), resulting in a corner kick for the Away Team."
-*   "Player28(Away Team) attempts a through ball, but Player33(Away Team) is offside for the Away Team."
-*   "Player28(Away Team) commits a foul."
+3.  **Snippet Analysis:**
 
-**Step-by-step Analysis:**
+    *   **Snippet 1:** "Player28(Away Team)'s shot from the left side of the box is blocked by the defender, assisted by Player29(Away Team), resulting in a corner kick for the Away Team."
+        *   Shots: The snippet explicitly states "Player28's shot". Increment Shots to 1.
+        *   Goals: No goal is mentioned.
+        *   Assists: Player28 was assisted, not the other way around.
+        *   Free Kicks: No free kick.
+        *   Fouls: No foul.
+        *   Yellow Cards: No yellow card.
+        *   Red Cards: No red card.
+        *   Offsides: No offside.
 
-1.  **Shots:** The first snippet explicitly states "Player28(Away Team)'s shot...is blocked". Thus, Shots count is incremented by 1.
-2.  **Goals:** The snippets contain no explicit mention of Player28 scoring a goal. Thus, Goals count remains 0.
-3.  **Assists:** The snippets indicate Player28 was *assisted by* Player29, not the other way around. The second snippet does not mention any goals. Thus, Assists count remains 0.
-4.  **Free Kicks:** No mentions of free kicks. Thus, Free Kicks count remains 0.
-5.  **Fouls:** The third snippet explicitly states "Player28(Away Team) commits a foul." Thus, Fouls count is incremented by 1.
-6.  **Yellow Cards:** The snippets contain no explicit mention of Player28 receiving a yellow card. Thus, Yellow Cards count remains 0.
-7.  **Red Cards:** The snippets contain no explicit mention of Player28 receiving a red card. Thus, Red Cards count remains 0.
-8.  **Offsides:** The second snippet describes Player33 being offside, not Player28. Thus, Offsides count remains 0.
+    *   **Snippet 2:** "Player28(Away Team) attempts a through ball, but Player33(Away Team) is offside for the Away Team."
+        *   Shots: No shot mentioned
+        *   Goals: No goal.
+        *   Assists: No assist.
+        *   Free Kicks: No free kick.
+        *   Fouls: No foul.
+        *   Yellow Cards: No yellow card.
+        *   Red Cards: No red card.
+        *   Offsides: The snippet mentions an offside *related to* a through ball attempt by Player28 but it isn't Player28 that is offside, rather Player33. Player28 is attempting a pass, not being called offside himself.
 
-**Final Summary Table:**
+    *   **Snippet 3:** "Player28(Away Team) commits a foul."
+        *   Shots: No shot.
+        *   Goals: No goal.
+        *   Assists: No assist.
+        *   Free Kicks: No free kick.
+        *   Fouls: The snippet explicitly states "Player28 commits a foul." Increment Fouls to 1.
+        *   Yellow Cards: No yellow card.
+        *   Red Cards: No red card.
+        *   Offsides: No offside.
 
+4.  **Final Counts:**
+    * Shots = 1
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 1
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

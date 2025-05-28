@@ -1,4 +1,4 @@
-Okay, let's analyze the commentary snippets for Player20 and compile the statistics.
+Okay, let's analyze the commentary snippets for Player20.
 
 1.  **Player Name:** Player20
 
@@ -14,14 +14,14 @@ Okay, let's analyze the commentary snippets for Player20 and compile the statist
 
 3.  **Snippet Analysis:**
 
-    *   Snippet 1: "Player20(Away Team) commits a foul on Player9(Home Team), resulting in a free kick being awarded on the left wing, The referee blows the whistle."
-        *   Fouls: Player20 commits a foul - increment Fouls by 1.
-        *   Free Kicks: The snippet does not state that Player20 *took* a free kick. Player20 committed a foul resulting in a free kick, but that does not count as taking a free kick.
-    *   Snippet 2: "Player20(Away Team) commits a foul on Player11(Home Team), resulting in a free kick being awarded to Player11(Home Team) on the left wing."
-        *   Fouls: Player20 commits a foul - increment Fouls by 1.
-        *   Free Kicks: The snippet does not state that Player20 *took* a free kick. Player20 committed a foul resulting in a free kick, but that does not count as taking a free kick.
-    *   Snippet 3: "Player20(Away Team) commits a foul."
-        *   Fouls: Player20 commits a foul - increment Fouls by 1.
+    *   **Snippet 1:** "Player20(Away Team) commits a foul on Player9(Home Team), resulting in a free kick being awarded on the left wing, The referee blows the whistle."
+        *   Fouls: Player20 commits a foul. Increment Fouls by 1. Current Fouls: 1
+        *   Free Kicks: Player20 commits a foul, resulting in a free kick for the opposing team. This does *not* count as a free kick *taken* by Player20.
+    *   **Snippet 2:** "Player20(Away Team) commits a foul on Player11(Home Team), resulting in a free kick being awarded to Player11(Home Team) on the left wing."
+        *   Fouls: Player20 commits a foul. Increment Fouls by 1. Current Fouls: 2
+        *   Free Kicks: Player20 commits a foul, resulting in a free kick for the opposing team. This does *not* count as a free kick *taken* by Player20.
+    *   **Snippet 3:** "Player20(Away Team) commits a foul."
+        *   Fouls: Player20 commits a foul. Increment Fouls by 1. Current Fouls: 3
 
 4.  **Final Counts:**
     *   Shots: 0

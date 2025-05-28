@@ -1,28 +1,71 @@
-Okay, let's start by identifying the player and initializing the counts.
+Okay, let's analyze the commentary snippets for Player28.
 
-Player Name: Player28
+1.  **Player Name:** Player28
 
-Now I will go through each snippet and increment the counts accordingly.
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
-*   **Snippet 1:** "Player28(Away Team) earns a free kick in the opponent's half."
-    *   This indicates Player28 won a free kick. Increment Free Kicks by 1.
-*   **Snippet 2:** "Player28(Away Team) earns a free kick in their own half."
-    *   This indicates Player28 won a free kick. Increment Free Kicks by 1.
-*   **Snippet 3:** "Player28(Away Team)'s shot from outside the box is saved in the middle of the goal with the help of Player29(Away Team)."
-    *   This indicates Player28 took a shot. Increment Shots by 1.
-*   **Snippet 4:** "Player28(Away Team)'s header from the left side of the six-yard box misses to the left, with an assist from Player22(Away Team)."
-    *   This indicates Player28 took a shot (header). Increment Shots by 1. Since Player28 *received* an assist, do not add to Player28's assists.
+3.  **Snippet Analysis:**
 
-Final counts:
+    *   Snippet 1: "Player28(Away Team) earns a free kick in the opponent's half."
+        *   Explicitly states Player28 earns a free kick. Increment Free Kicks by 1.
+        *   Shots: 0
+        *   Goals: 0
+        *   Assists: 0
+        *   Free Kicks: 1
+        *   Fouls: 0
+        *   Yellow Cards: 0
+        *   Red Cards: 0
+        *   Offsides: 0
 
-*   Shots: 2
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 2
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+    *   Snippet 2: "Player28(Away Team) earns a free kick in their own half."
+        *   Explicitly states Player28 earns a free kick. Increment Free Kicks by 1.
+        *   Shots: 0
+        *   Goals: 0
+        *   Assists: 0
+        *   Free Kicks: 2
+        *   Fouls: 0
+        *   Yellow Cards: 0
+        *   Red Cards: 0
+        *   Offsides: 0
+
+    *   Snippet 3: "Player28(Away Team)'s shot from outside the box is saved in the middle of the goal with the help of Player29(Away Team)."
+        *   Explicitly states Player28 took a shot. Increment Shots by 1.
+        *   Shots: 1
+        *   Goals: 0
+        *   Assists: 0
+        *   Free Kicks: 2
+        *   Fouls: 0
+        *   Yellow Cards: 0
+        *   Red Cards: 0
+        *   Offsides: 0
+
+    *   Snippet 4: "Player28(Away Team)'s header from the left side of the six-yard box misses to the left, with an assist from Player22(Away Team)."
+        *   Explicitly states Player28 took a shot (header). Increment Shots by 1.
+        *   Shots: 2
+        *   Goals: 0
+        *   Assists: 0
+        *   Free Kicks: 2
+        *   Fouls: 0
+        *   Yellow Cards: 0
+        *   Red Cards: 0
+        *   Offsides: 0
+4.  Final counts:
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 2
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
 Final Summary Table:
 ```markdown

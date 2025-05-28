@@ -1,72 +1,45 @@
-Okay, I will analyze the provided commentary snippets for Player25 and generate the summary table.
+Okay, let's process the player statistics based on the provided commentary snippets and instructions.
 
-**Step-by-step analysis:**
+**1. Identify Target Player:**
 
-1.  **Player Name:** Player25
+The target player is Player25.
 
-2.  **Initialization:**
-    * Shots = 0
-    * Goals = 0
-    * Assists = 0
-    * Free Kicks = 0
-    * Fouls = 0
-    * Yellow Cards = 0
-    * Red Cards = 0
-    * Offsides = 0
+**2. Initialize Counts:**
 
-3.  **Commentary Snippet Analysis:**
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
 
-    *   Snippet 1: "Player25(Away Team) attempts a through ball, but Player26(Away Team) is flagged offside."
-        *   Player25 attempts a through ball, but this does not lead to a goal and Player26 is offside. No Goal or Assist here for Player25. No shot either, as a through ball is not a shot.
-        *   Offsides = 0
-        *   Fouls = 0
-        *   Yellow Cards = 0
-        *   Red Cards = 0
-        *   Shots = 0
-        *   Goals = 0
-        *   Assists = 0
-        *   Free Kicks = 0
-    *   Snippet 2: "Player25(Away Team) commits a foul."
-        *   The snippet explicitly states Player25 committed a foul.
-        *   Fouls = 1
-        *   Offsides = 0
-        *   Yellow Cards = 0
-        *   Red Cards = 0
-        *   Shots = 0
-        *   Goals = 0
-        *   Assists = 0
-        *   Free Kicks = 0
-    *   Snippet 3: "Player25(Away Team) receives a yellow card for a rough tackle."
-        *   The snippet explicitly states Player25 received a yellow card.
-        *   The snippet explicitly states Player25 committed a foul.
-        *   Fouls = 2
-        *   Yellow Cards = 1
-        *   Offsides = 0
-        *   Red Cards = 0
-        *   Shots = 0
-        *   Goals = 0
-        *   Assists = 0
-        *   Free Kicks = 0
-    *   Snippet 4: "Player25(Away Team) commits a foul."
-        *   The snippet explicitly states Player25 committed a foul.
-        *   Fouls = 3
-        *   Yellow Cards = 1
-        *   Offsides = 0
-        *   Red Cards = 0
-        *   Shots = 0
-        *   Goals = 0
-        *   Assists = 0
-        *   Free Kicks = 0
-4.  **Final Counts:**
+**3. Analyze Commentary Snippets:**
 
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 3
-    *   Yellow Cards = 1
-    *   Red Cards = 0
-    *   Offsides = 0
+*   **Snippet 1:** "Player25(Away Team) attempts a through ball, but Player26(Away Team) is flagged offside."
+    *   Offsides: Player26 is offside. This does not increment the offsides count for Player25. No other relevant events.
+
+*   **Snippet 2:** "Player25(Away Team) commits a foul."
+    *   Fouls: Player25 commits a foul. Increment Fouls by 1. Current count: Fouls = 1.
+
+*   **Snippet 3:** "Player25(Away Team) receives a yellow card for a rough tackle."
+    *   Fouls: The snippet implies that Player25 committed a foul with a rough tackle. Increment Fouls by 1. Current count: Fouls = 2.
+    *   Yellow Cards: Player25 receives a yellow card. Increment Yellow Cards by 1. Current count: Yellow Cards = 1.
+
+*   **Snippet 4:** "Player25(Away Team) commits a foul."
+    *   Fouls: Player25 commits a foul. Increment Fouls by 1. Current count: Fouls = 3.
+
+**4. Final Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 3
+*   Yellow Cards: 1
+*   Red Cards: 0
+*   Offsides: 0
 
 Final Summary Table:
 ```markdown

@@ -1,45 +1,24 @@
-Okay, let's analyze the provided commentary snippets for Player8 and generate the final summary table.
+Okay, let's analyze the commentary snippets for Player8 and generate the summary table.
 
-**1. Player Name:** Player8
+**Player Name:** Player8
 
-**2. Initialization:**
+**Commentary Snippets:**
 
-*   Shots = 0
-*   Goals = 0
-*   Assists = 0
-*   Free Kicks = 0
-*   Fouls = 0
-*   Yellow Cards = 0
-*   Red Cards = 0
-*   Offsides = 0
+- Player8(Home Team) commits a foul.
+- Player8(Home Team) misses the target with a right-footed shot from outside the box.
+- Player8(Home Team) commits a foul, resulting in Player22(Away Team) winning a free kick in their own defensive half.
+- Player8(Home Team) attempts a through ball, but Player3(Home Team) is offside for the Home Team.
 
-**3. Snippet Analysis:**
+**Event Tracking:**
 
-*   **Snippet 1:** "Player8(Home Team) commits a foul."
-    *   The snippet explicitly states Player8 committed a foul.
-    *   Fouls = 1
-
-*   **Snippet 2:** "Player8(Home Team) misses the target with a right-footed shot from outside the box."
-    *   The snippet explicitly states Player8 took a shot.
-    *   Shots = 1
-
-*   **Snippet 3:** "Player8(Home Team) commits a foul, resulting in Player22(Away Team) winning a free kick in their own defensive half."
-    *   The snippet explicitly states Player8 committed a foul.
-    *   Fouls = 2
-
-*   **Snippet 4:** "Player8(Home Team) attempts a through ball, but Player3(Home Team) is offside for the Home Team."
-    *   The snippet explicitly states Player8 attempted a through ball that resulted in Player3 being offside. This does not increment offsides for Player8.
-
-**4. Final Counts:**
-
-*   Shots = 1
-*   Goals = 0
-*   Assists = 0
-*   Free Kicks = 0
-*   Fouls = 2
-*   Yellow Cards = 0
-*   Red Cards = 0
-*   Offsides = 0
+*   **Shots:** The second snippet explicitly states "Player8(Home Team) misses the target with a right-footed shot". Therefore, Shots = 1.
+*   **Goals:** No snippet mentions Player8 scoring a goal. Therefore, Goals = 0.
+*   **Assists:** No snippet explicitly states Player8 provided an assist. Therefore, Assists = 0.
+*   **Free Kicks (Taken):** No snippet mentions Player8 taking a free kick. However, the third snippet says that Player8 committed a foul resulting in Player22 winning a free kick in his own half. This does *not* count as a free kick taken by Player8. Therefore, Free Kicks = 0.
+*   **Fouls (Committed):** The first and third snippets explicitly state "Player8(Home Team) commits a foul." Therefore, Fouls = 2.
+*   **Yellow Cards:** No snippet mentions Player8 receiving a yellow card. Therefore, Yellow Cards = 0.
+*   **Red Cards:** No snippet mentions Player8 receiving a red card. Therefore, Red Cards = 0.
+*   **Offsides:** The fourth snippet mentions "...Player3(Home Team) is offside for the Home Team.". This does not count as an offside for Player8. Therefore, Offsides = 0.
 
 Final Summary Table:
 ```markdown

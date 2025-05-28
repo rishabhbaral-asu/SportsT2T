@@ -1,8 +1,16 @@
-Okay, let's analyze the commentary snippets for Player25.
+Okay, let's analyze the commentary snippets for Player25 and create the summary table.
 
-1.  **Player Name:** Player25
+**Player Name:** Player25
 
-2.  **Initialization:**
+**Commentary Snippets:**
+
+*   Player25(Away Team) earns a free kick in their own half.
+*   Player25(Away Team) commits a foul.
+*   Player25(Away Team) attempts a through ball, but Player27(Away Team) is offside for the Home Team.
+
+**Step-by-step analysis:**
+
+1.  **Initialize Counts:**
     *   Shots = 0
     *   Goals = 0
     *   Assists = 0
@@ -12,18 +20,18 @@ Okay, let's analyze the commentary snippets for Player25.
     *   Red Cards = 0
     *   Offsides = 0
 
-3.  **Snippet Analysis:**
-
-    *   Snippet 1: "Player25(Away Team) earns a free kick in their own half."
-        *   The snippet explicitly states Player25 earns a free kick. This will be counted as a Free Kick.
+2.  **Analyze Snippets:**
+    *   **Snippet 1: "Player25(Away Team) earns a free kick in their own half."**
+        *   "earns a free kick" is a keyword for Free Kicks (Taken). Increment Free Kicks.
         *   Free Kicks = 1
-    *   Snippet 2: "Player25(Away Team) commits a foul."
-        *   The snippet explicitly states Player25 commits a foul.
+    *   **Snippet 2: "Player25(Away Team) commits a foul."**
+        *   "commits a foul" is a keyword for Fouls. Increment Fouls.
         *   Fouls = 1
-    *   Snippet 3: "Player25(Away Team) attempts a through ball, but Player27(Away Team) is offside for the Home Team."
-        *   This does not indicate Player25 was offside but that Player27 was. Therefore, we do not increment offsides.
+    *   **Snippet 3: "Player25(Away Team) attempts a through ball, but Player27(Away Team) is offside for the Home Team."**
+        *   Player25 attempts a through ball but it results in another player being offside, this does not count as a Shot, Goal, or Assist.
+        *   Offsides = 0
 
-4.  **Final Counts:**
+3.  **Final Counts:**
     *   Shots = 0
     *   Goals = 0
     *   Assists = 0

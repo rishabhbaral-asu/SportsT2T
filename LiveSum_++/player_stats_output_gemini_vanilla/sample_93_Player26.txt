@@ -1,9 +1,8 @@
-Okay, let's analyze the commentary snippets for Player26 and compile the statistics.
+Okay, let's analyze the commentary snippets for Player26 and generate the summary table.
 
 **Player Name:** Player26
 
 **Commentary Snippets:**
-
 - Player26(Away Team) commits a foul and Player11(Home Team) is awarded a free kick in their own defensive half.
 - Player26(Away Team) commits a foul.
 - Player26(Away Team) is awarded a free kick in the opponent's half.
@@ -11,37 +10,16 @@ Okay, let's analyze the commentary snippets for Player26 and compile the statist
 - Player26(Away Team) commits a foul.
 - Player26(Away Team) receives a yellow card for a rough tackle.
 
-**Step-by-step Analysis:**
+**Step-by-step analysis:**
 
-1.  **Initialize Counts:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 0
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
-
-2.  **Analyze Snippets:**
-
-    *   **Snippet 1:** "Player26(Away Team) commits a foul and Player11(Home Team) is awarded a free kick in their own defensive half." - Player26 commits a foul. Increment Fouls.
-    *   **Snippet 2:** "Player26(Away Team) commits a foul." - Player26 commits a foul. Increment Fouls.
-    *   **Snippet 3:** "Player26(Away Team) is awarded a free kick in the opponent's half." - Player26 is awarded a free kick. Increment Free Kicks.
-    *   **Snippet 4:** "Player26(Away Team) commits a foul." - Player26 commits a foul. Increment Fouls.
-    *   **Snippet 5:** "Player26(Away Team) commits a foul." - Player26 commits a foul. Increment Fouls.
-    *   **Snippet 6:** "Player26(Away Team) receives a yellow card for a rough tackle." - Player26 receives a yellow card. Increment Yellow Cards.
-
-3.  **Final Counts:**
-
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 1
-    *   Fouls: 4
-    *   Yellow Cards: 1
-    *   Red Cards: 0
-    *   Offsides: 0
+1.  **Shots:** No explicit mentions of shots taken by Player26. Count: 0
+2.  **Goals:** No explicit mentions of goals scored by Player26. Count: 0
+3.  **Assists:** No explicit mentions of assists provided by Player26. Count: 0
+4.  **Free Kicks:** The third snippet states "Player26(Away Team) is awarded a free kick in the opponent's half." Therefore, increment Free Kicks by 1. Count: 1
+5.  **Fouls:** The first, second, fourth and fifth snippet state "Player26(Away Team) commits a foul". Therefore, increment Fouls by 4. Count: 4
+6.  **Yellow Cards:** The last snippet says "Player26(Away Team) receives a yellow card for a rough tackle." Therefore, increment Yellow Cards by 1. Count: 1
+7.  **Red Cards:** No explicit mentions of red cards received by Player26. Count: 0
+8.  **Offsides:** No explicit mentions of Player26 being offsides. Count: 0
 
 Final Summary Table:
 ```markdown

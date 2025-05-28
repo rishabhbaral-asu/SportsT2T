@@ -1,41 +1,53 @@
-Okay, let's analyze the commentary snippets for Player8 and generate the summary table.
+Okay, I'm ready to analyze the commentary snippets and provide the player statistics.
 
-**1. Identify Target Player:**
+**Player Name:** Player8
 
-The target player is Player8.
+**Commentary Snippets:**
+- Player8(Home Team) commits a foul.
+- Player8(Home Team) earns a free kick in their own half.
+- Player8(Home Team) of the Home Team attempts a through ball, but Player18(Home Team) is flagged for being offside.
+- Player8(Home Team) commits a foul.
 
-**2. Initialize Counts:**
+**Analysis:**
 
-*   Shots: 0
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+1. **Player Name:** Player8
 
-**3. Analyze Commentary Snippets:**
+2. **Initialization:**
+   - Shots: 0
+   - Goals: 0
+   - Assists: 0
+   - Free Kicks: 0
+   - Fouls: 0
+   - Yellow Cards: 0
+   - Red Cards: 0
+   - Offsides: 0
 
-*   **Snippet 1: "Player8(Home Team) commits a foul."**
-    *   Fouls: Increment to 1 (explicitly states Player8 committed a foul).
-*   **Snippet 2: "Player8(Home Team) earns a free kick in their own half."**
-    *   Free Kicks: Increment to 1 (Player8 earns a free kick).
-*   **Snippet 3: "Player8(Home Team) of the Home Team attempts a through ball, but Player18(Home Team) is flagged for being offside."**
-    *   Offsides: No change. This snippet indicates another player was offside, but Player8 attempted a pass. No shot, goal, assist, foul, card, or free kick is explicitly stated for Player8.
-*   **Snippet 4: "Player8(Home Team) commits a foul."**
-    *   Fouls: Increment to 2 (explicitly states Player8 committed a foul).
+3. **Snippet Analysis:**
 
-**4. Final Counts:**
+   - **Snippet 1:** "Player8(Home Team) commits a foul."
+     - Fouls: Increment by 1. Fouls = 1
 
-*   Shots: 0
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 1
-*   Fouls: 2
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+   - **Snippet 2:** "Player8(Home Team) earns a free kick in their own half."
+     - Free Kicks: Increment by 1. Free Kicks = 1
+
+   - **Snippet 3:** "Player8(Home Team) of the Home Team attempts a through ball, but Player18(Home Team) is flagged for being offside."
+     - No Shots, Goals or Assists.
+     - No fouls committed.
+     - No yellow or red cards.
+     - No explicit mention of an offside committed by Player8. Player8 attempted a through ball to Player18, but Player18 was offside, so no action for Player8
+
+   - **Snippet 4:** "Player8(Home Team) commits a foul."
+     - Fouls: Increment by 1. Fouls = 2
+
+4. **Final Counts:**
+   - Shots: 0
+   - Goals: 0
+   - Assists: 0
+   - Free Kicks: 1
+   - Fouls: 2
+   - Yellow Cards: 0
+   - Red Cards: 0
+   - Offsides: 0
 
 Final Summary Table:
 ```markdown

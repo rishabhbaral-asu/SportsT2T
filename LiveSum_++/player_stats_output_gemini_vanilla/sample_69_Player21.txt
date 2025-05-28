@@ -1,42 +1,37 @@
-Okay, let's analyze the commentary snippets for Player21 and generate the final summary table.
+Okay, let's analyze the commentary snippets for Player21 and compile the statistics.
 
-1.  **Player Name:** Player21
+**Player Name:** Player21
 
-2.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+**Commentary Snippets:**
 
-3.  **Snippet Analysis:**
+*   "Player21(Away Team) commits a foul."
+*   "Player21(Away Team)'s shot from outside the box is blocked."
+*   "Player21(Away Team) attempts a pass to Player14(Home Team), but Player33(Away Team) is offside."
+*   "Player21(Away Team) fouls Player13(Home Team), who wins a free kick in their defensive half."
 
-    *   Snippet 1: "Player21(Away Team) commits a foul."
-        *   Fouls: Increment to 1.
+**Step-by-step Analysis:**
 
-    *   Snippet 2: "Player21(Away Team)'s shot from outside the box is blocked."
-        *   Shots: Increment to 1.
+1.  **Player Name:** Player21.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
 
-    *   Snippet 3: "Player21(Away Team) attempts a pass to Player14(Home Team), but Player33(Away Team) is offside."
-        *   Offsides: No offside is attributed to Player21. Player33 is offside, not Player21. Therefore, no increment.
+3.  **Snippet 1: "Player21(Away Team) commits a foul."**
+    *   The snippet explicitly states Player21 committed a foul.
+    *   Increment Fouls: Fouls = 1.
 
-    *   Snippet 4: "Player21(Away Team) fouls Player13(Home Team), who wins a free kick in their defensive half."
-        *   Fouls: Increment to 2.
+4.  **Snippet 2: "Player21(Away Team)'s shot from outside the box is blocked."**
+    *   The snippet explicitly states Player21 took a shot.
+    *   Increment Shots: Shots = 1.
 
-4. **Final Counts:**
-    *   Shots: 1
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 2
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+5.  **Snippet 3: "Player21(Away Team) attempts a pass to Player14(Home Team), but Player33(Away Team) is offside."**
+    *   The snippet mentions Player21 attempting a pass, but it does not say the pass led to a goal. Also, Player33 is offside, so we don't count an assist.
+    *   No increments.
 
-Final Summary Table:
+6.  **Snippet 4: "Player21(Away Team) fouls Player13(Home Team), who wins a free kick in their defensive half."**
+    *   The snippet explicitly states Player21 committed a foul *and* Player13 wins a free kick because of Player21's foul. This does NOT count as Player21 taking a free kick.
+    *   Increment Fouls: Fouls = 2.
+
+**Final Summary Table:**
+
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

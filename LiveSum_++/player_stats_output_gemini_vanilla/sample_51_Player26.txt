@@ -1,34 +1,26 @@
-Okay, let's analyze the commentary snippets for Player26 and generate the final summary table.
+Okay, let's start by extracting the player name and initializing the counts.
 
-**1. Player Identification:**
-The target player is Player26.
+Player Name: Player26
 
-**2. Initialization:**
-We initialize the counts for all events to 0 for Player26.
-
-**3. Snippet Analysis:**
+Now, let's analyze the commentary snippets and increment the counts accordingly.
 
 *   **Snippet 1:** "Player26(Away Team) earns a free kick in their own half."
-    *   This indicates Player26 *earned* a free kick (was fouled). This is a Free Kick (Taken).
-    *   Free Kicks: 1
+    *   Free Kicks: Increment by 1 (Player26 earns a free kick).
 *   **Snippet 2:** "Player26(Away Team)'s right foot in the center of the box, assisted by Player28(Away Team), Home Team 0, Away Team 1."
-    *   This indicates Player26 scored a goal. Thus it is both a Goal and a Shot
-    *   Shots: 1
-    *   Goals: 1
+    *   Goals: Increment by 1 (Player26 scored)
+    *   Shots: Increment by 1 (Player26 scored)
+    *   Assists: No increment. Player26 was assisted, not providing the assist.
 *   **Snippet 3:** "Player26(Away Team) commits a foul."
-    *   This indicates Player26 committed a foul.
-    *   Fouls: 1
+    *   Fouls: Increment by 1 (Player26 commits a foul).
 *   **Snippet 4:** "Player26(Away Team) commits a foul."
-    *   This indicates Player26 committed a foul.
-    *   Fouls: 2
+    *   Fouls: Increment by 1 (Player26 commits a foul).
 *   **Snippet 5:** "Player26(Away Team) misses the target with a high right-footed shot from outside the box, assisted by Player25(Away Team)."
-    *   This indicates Player26 took a shot.
-    *   Shots: 2
+    *   Shots: Increment by 1 (Player26 misses the target).
+    *   Assists: No increment. Player26 was assisted, not providing the assist.
 *   **Snippet 6:** "Player26(Away Team) commits a foul which results in Player7(Home Team) winning a free kick in their own half."
-    *   This indicates Player26 committed a foul.
-    *   Fouls: 3
+    *   Fouls: Increment by 1 (Player26 commits a foul).
 
-**4. Final Counts:**
+Final Counts:
 
 *   Shots: 2
 *   Goals: 1
@@ -39,8 +31,7 @@ We initialize the counts for all events to 0 for Player26.
 *   Red Cards: 0
 *   Offsides: 0
 
-**5. Final Summary Table:**
-
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

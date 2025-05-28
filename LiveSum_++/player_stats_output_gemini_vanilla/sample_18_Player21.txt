@@ -1,42 +1,50 @@
-Okay, I'm ready to process the player commentary snippets and generate the statistics table.
+Okay, let's analyze the commentary snippets for Player21.
 
-**1. Identify Target Player:**
+1.  **Player Name:** Player21
 
-The target player is Player21.
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-**2. Initialize Event Counts:**
+3.  **Snippet Analysis:**
 
-*   Shots: 0
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+    *   **Snippet 1:** "Player21(Away Team) misses the goal with a right-footed shot from outside the box, assisted by Player27(Away Team)."
+        *   Shots: The snippet explicitly states "Player21 misses the goal with a right-footed shot". Increment Shots by 1. Shots = 1
+        *   Goals: The snippet indicates Player21 "misses the goal". Do not increment Goals. Goals = 0
+        *   Assists: The snippet states "assisted by Player27". Do not increment Assists since Player21 received, not provided, the assist. Assists = 0
+        *   Free Kicks: No free kick related keyword is present. Free Kicks = 0
+        *   Fouls: No foul related keyword is present. Fouls = 0
+        *   Yellow Cards: No yellow card related keyword is present. Yellow Cards = 0
+        *   Red Cards: No red card related keyword is present. Red Cards = 0
+        *   Offsides: No offside related keyword is present. Offsides = 0
 
-**3. Analyze Commentary Snippets:**
+    *   **Snippet 2:** "Player21(Away Team) earns a free kick in their own half."
+        *   Shots: No shot related keyword is present. Shots = 1
+        *   Goals: No goal related keyword is present. Goals = 0
+        *   Assists: No assist related keyword is present. Assists = 0
+        *   Free Kicks: The snippet explicitly states "Player21 earns a free kick". Increment Free Kicks by 1. Free Kicks = 1
+        *   Fouls: No foul related keyword is present. Fouls = 0
+        *   Yellow Cards: No yellow card related keyword is present. Yellow Cards = 0
+        *   Red Cards: No red card related keyword is present. Red Cards = 0
+        *   Offsides: No offside related keyword is present. Offsides = 0
 
-*   **Snippet 1:** "Player21(Away Team) misses the goal with a right-footed shot from outside the box, assisted by Player27(Away Team)."
-    *   Shots: Player21 misses a shot. Increment Shots to 1.
-    *   Goals: No goal scored.
-    *   Assists: Player21 received an assist, so no assist credited to Player21.
-*   **Snippet 2:** "Player21(Away Team) earns a free kick in their own half."
-    *   Free Kicks: Player21 earns a free kick. Increment Free Kicks to 1.
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-**4. Final Counts:**
-
-*   Shots: 1
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 1
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
-
-**Final Summary Table:**
-
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

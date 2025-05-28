@@ -1,10 +1,10 @@
-Okay, let's analyze the commentary snippets for Player29 and generate the final summary table.
+Okay, let's analyze the commentary snippets for Player29 and compile the statistics.
 
-**1. Identify Target Player:**
+**1. Identify the target player:**
 
 The target player is Player29.
 
-**2. Initialize Counts:**
+**2. Initialize event counts:**
 
 *   Shots: 0
 *   Goals: 0
@@ -15,12 +15,15 @@ The target player is Player29.
 *   Red Cards: 0
 *   Offsides: 0
 
-**3. Analyze Commentary Snippets:**
+**3. Analyze commentary snippets:**
 
 *   Snippet 1: "Player29(Away Team) commits a foul."
-    *   This snippet explicitly states Player29 committed a foul. Increment Fouls by 1.
+    *   This snippet explicitly states Player29 committed a foul.
+    *   Increment Fouls: Fouls = 0 + 1 = 1
+
 *   Snippet 2: "Player29(Away Team) commits a handball."
-    *   This snippet explicitly states Player29 committed a handball, which is a foul. Increment Fouls by 1.
+    *   This snippet explicitly states Player29 committed a handball (which is a foul).
+    *   Increment Fouls: Fouls = 1 + 1 = 2
 
 **4. Final Counts:**
 
@@ -34,7 +37,6 @@ The target player is Player29.
 *   Offsides: 0
 
 Final Summary Table:
-
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

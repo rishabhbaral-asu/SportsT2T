@@ -2,34 +2,39 @@ Okay, let's analyze the commentary snippets for Player27.
 
 1.  **Player Name:** The target player is Player27.
 
-2.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+2.  **Initialization:** We initialize all event counts to 0 for Player27.
 
 3.  **Snippet Analysis:**
 
     *   **Snippet 1:** "Player27(Away Team) scores with a close-range left-footed shot, assisted by Player29(Away Team), giving the Away Team a 1-0 lead over the Home Team."
-        *   Player27 scores a goal: Goals += 1
-        *   Player27 takes a shot: Shots += 1
-        *   Player27 is assisted by Player29, therefore Player27 does *not* get an assist here.
+        *   **Shots:** Player27 scores, so that's a shot. Count: 1
+        *   **Goals:** Player27 scores a goal. Count: 1
+        *   **Assists:** Player27 was *assisted by* Player29, so Player27 gets no assist.
+        *   **Free Kicks:** No mention of a free kick.
+        *   **Fouls:** No mention of a foul.
+        *   **Yellow Cards:** No mention of a yellow card.
+        *   **Red Cards:** No mention of a red card.
+        *   **Offsides:** No mention of offsides.
+
     *   **Snippet 2:** "Player27(Away Team) is awarded a free kick in their own defensive half, The Home Team has possession and is given an opportunity to score."
-        *   Player27 is awarded a free kick: Free Kicks += 1
+        *   **Shots:** No mention of a shot.
+        *   **Goals:** No mention of a goal.
+        *   **Assists:** No mention of an assist.
+        *   **Free Kicks:** Player27 is awarded a free kick. Count: 1
+        *   **Fouls:** No mention of a foul.
+        *   **Yellow Cards:** No mention of a yellow card.
+        *   **Red Cards:** No mention of a red card.
+        *   **Offsides:** No mention of offsides.
 
 4.  **Final Counts:**
-    *   Shots = 1
-    *   Goals = 1
-    *   Assists = 0
-    *   Free Kicks = 1
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+    *   Shots: 1
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
 Final Summary Table:
 ```markdown

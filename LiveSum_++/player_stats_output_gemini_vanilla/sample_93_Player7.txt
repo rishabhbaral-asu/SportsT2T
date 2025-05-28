@@ -1,28 +1,61 @@
-Okay, let's analyze the commentary snippets for Player7 and generate the requested markdown table.
+Okay, let's analyze the commentary snippets for Player7.
 
-**Player Name:** Player7
+1.  **Player Name:** Player7
 
-**Commentary Snippets Analysis:**
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
-*   **Snippet 1:** "Player7(Home Team)'s shot from the right side of the box is saved in the bottom left corner." - This is a shot. Shots = 1.
-*   **Snippet 2:** "Player7(Home Team) earns a free kick in their own half." - This is a free kick. Free Kicks = 1.
-*   **Snippet 3:** "Player7(Home Team) misses a high left-footed shot from outside the box, assisted by Player11(Home Team) after a corner kick for the Home Team." - This is a shot. Shots = 2.
-*   **Snippet 4:** "Player7(Home Team)'s shot from the right side of the box is blocked after being assisted by Player8(Home Team) with a cross." - This is a shot. Shots = 3.
-*   **Snippet 5:** "Player7(Home Team) earns a free kick in their own half." - This is a free kick. Free Kicks = 2.
-*   **Snippet 6:** "Player7(Home Team) earns a free kick on the right side of the field." - This is a free kick. Free Kicks = 3.
-*   **Snippet 7:** "Player7(Home Team)'s shot from the center of the box is blocked by the defense, with assistance from Player9(Home Team)." - This is a shot. Shots = 4.
-*   **Snippet 8:** "Player7(Home Team)'s shot with his left foot from the center of the box is saved in the bottom left corner with an assist from Player14(Home Team)." - This is a shot. Shots = 5.
+3.  **Analyze Snippets:**
 
-**Event Counts:**
+    *   Snippet 1: "Player7(Home Team)'s shot from the right side of the box is saved in the bottom left corner."
+        *   Shots: Increment by 1.
+        *   Goals: No goal mentioned.
 
-*   Shots: 5
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 3
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+    *   Snippet 2: "Player7(Home Team) earns a free kick in their own half."
+        *   Free Kicks: Increment by 1 (Player earned the free kick).
+
+    *   Snippet 3: "Player7(Home Team) misses a high left-footed shot from outside the box, assisted by Player11(Home Team) after a corner kick for the Home Team."
+        *   Shots: Increment by 1.
+        *   Goals: No goal mentioned.
+        *   Assists: No assist for Player7.
+
+    *   Snippet 4: "Player7(Home Team)'s shot from the right side of the box is blocked after being assisted by Player8(Home Team) with a cross."
+        *   Shots: Increment by 1.
+        *   Goals: No goal mentioned.
+        *   Assists: No assist for Player7.
+
+    *   Snippet 5: "Player7(Home Team) earns a free kick in their own half."
+        *   Free Kicks: Increment by 1 (Player earned the free kick).
+
+    *   Snippet 6: "Player7(Home Team) earns a free kick on the right side of the field."
+        *   Free Kicks: Increment by 1 (Player earned the free kick).
+
+    *   Snippet 7: "Player7(Home Team)'s shot from the center of the box is blocked by the defense, with assistance from Player9(Home Team)."
+        *   Shots: Increment by 1.
+        *   Goals: No goal mentioned.
+           *   Assists: No assist for Player7.
+
+    *   Snippet 8: "Player7(Home Team)'s shot with his left foot from the center of the box is saved in the bottom left corner with an assist from Player14(Home Team)."
+        *   Shots: Increment by 1.
+        *   Goals: No goal mentioned.
+        *   Assists: No assist for Player7.
+
+4.  **Final Counts:**
+    *   Shots: 5
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 3
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
 Final Summary Table:
 ```markdown

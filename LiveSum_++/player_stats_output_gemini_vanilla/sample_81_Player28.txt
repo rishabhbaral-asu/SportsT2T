@@ -1,28 +1,44 @@
-Okay, let's analyze the commentary snippets for Player28 and compile the statistics.
+Okay, let's analyze the commentary snippets for Player28.
 
-**Player Name:** Player28
+**1. Player Identification:**
+The target player is Player28.
 
-**Commentary Snippets:**
+**2. Initialization:**
+We initialize all event counts to 0 for Player28.
 
-*   "Player28(Away Team)'s right-footed shot from outside the box, assisted by Player27(Away Team) with a headed pass following a corner, is high and wide to the left after Player17(Home Team)'s header is blocked by Player29(Away Team)."
-*   "Player28(Away Team) is causing a delay in the match due to an injury."
-*   "Player28(Away Team) receives a yellow card."
-*   "Player28(Away Team) commits a foul, resulting in Player8(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player8(Home Team)'s team."
-*   "Player28(Away Team) has committed a hand ball."
+**3. Snippet Analysis:**
 
-**Step-by-step Analysis:**
+*   **Snippet 1:** "Player28(Away Team)'s right-footed shot from outside the box, assisted by Player27(Away Team) with a headed pass following a corner, is high and wide to the left after Player17(Home Team)'s header is blocked by Player29(Away Team)."
+    *   The snippet mentions "shot" by Player28.
+    *   Shots: 1
+    *   The snippet states Player28 was assisted. Therefore, no assists are given to Player28.
 
-1.  **Shots:** The first snippet mentions "Player28(Away Team)'s right-footed shot from outside the box...is high and wide to the left". This is a shot, so we increment the shot count by 1.
-2.  **Goals:** There are no explicit mentions of "goal" or "scores" attributed to Player28. So, the goal count remains 0.
-3.  **Assists:** The first snippet mentions that Player28's shot was assisted by Player27, so this does not count as an assist for Player28. The assist count remains 0.
-4.  **Free Kicks:** The fourth snippet indicates that Player28 committed a foul, resulting in the opposition winning a free kick, not Player28. The Free Kick count remains 0.
-5.  **Fouls:** The fourth snippet states "Player28(Away Team) commits a foul...". This is a foul committed by Player28, so the foul count is incremented by 1. Additionally, the fifth snippet states "Player28(Away Team) has committed a hand ball." This counts as another foul. So the foul count becomes 2.
-6.  **Yellow Cards:** The third snippet states "Player28(Away Team) receives a yellow card." The yellow card count is incremented by 1.
-7.  **Red Cards:** There are no mentions of red cards for Player28. The red card count remains 0.
-8.  **Offsides:** There are no mentions of offsides for Player28. The offsides count remains 0.
+*   **Snippet 2:** "Player28(Away Team) is causing a delay in the match due to an injury."
+    * This snippet does not describe any of the defined events.
 
-**Final Summary Table:**
+*   **Snippet 3:** "Player28(Away Team) receives a yellow card."
+    *   The snippet mentions "yellow card" to Player28.
+    *   Yellow Cards: 1
 
+*   **Snippet 4:** "Player28(Away Team) commits a foul, resulting in Player8(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player8(Home Team)'s team."
+    * The snippet mentions "foul" committed by Player28.
+    * Fouls: 1
+
+*   **Snippet 5:** "Player28(Away Team) has committed a hand ball."
+    *   The snippet mentions "hand ball" committed by Player28.
+    *   Fouls: 2
+
+**4. Final Counts:**
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 2
+*   Yellow Cards: 1
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

@@ -1,23 +1,34 @@
-Okay, let's analyze the commentary snippets for Player26 and generate the statistics table.
+Okay, let's start by identifying the target player and initializing the counts.
 
-**Player Name:** Player26
+Target Player: Player26
 
-**Commentary Snippets:**
-- Player26(Away Team) commits a foul.
-- Player26(Away Team) commits a foul.
-- Player26(Away Team) commits a foul, resulting in Player10(Home Team) winning a free kick in their own defensive half, .
-- Player26(Away Team), earns a free kick in his own half after being fouled by Player10(Home Team).
+Initial Counts:
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
 
-**Analysis:**
+Now, let's analyze the commentary snippets:
 
-*   **Shots:** No explicit mention of shots taken by Player26.
-*   **Goals:** No explicit mention of goals scored by Player26.
-*   **Assists:** No explicit mention of assists provided by Player26.
-*   **Free Kicks:** The last snippet says "Player26(Away Team), earns a free kick in his own half after being fouled by Player10(Home Team)." This means Player26 won a free kick so free kick count is 1.
-*   **Fouls:** The first three snippets state "Player26(Away Team) commits a foul." Therefore, the foul count is 3.
-*   **Yellow Cards:** No explicit mention of Player26 receiving a yellow card.
-*   **Red Cards:** No explicit mention of Player26 receiving a red card.
-*   **Offsides:** No explicit mention of Player26 being offside.
+Snippet 1: "Player26(Away Team) commits a foul."
+*   Fouls: Player26 is explicitly stated to have committed a foul. Increment Fouls by 1.
+Current Counts: Fouls = 1
+
+Snippet 2: "Player26(Away Team) commits a foul."
+*   Fouls: Player26 is explicitly stated to have committed a foul. Increment Fouls by 1.
+Current Counts: Fouls = 2
+
+Snippet 3: "Player26(Away Team) commits a foul, resulting in Player10(Home Team) winning a free kick in their own defensive half, ."
+*   Fouls: Player26 is explicitly stated to have committed a foul. Increment Fouls by 1.
+Current Counts: Fouls = 3
+
+Snippet 4: "Player26(Away Team), earns a free kick in his own half after being fouled by Player10(Home Team)."
+*   Free Kicks: Player26 is explicitly stated to have earned a free kick. Increment Free Kicks by 1.
+Current Counts: Free Kicks = 1
 
 Final Summary Table:
 ```markdown

@@ -1,40 +1,39 @@
-Okay, let's start.
+Okay, let's break this down step-by-step to ensure accuracy.
 
-1.  **Identify the target player:** The target player is Player24.
+1.  **Identify Target Player:**
+    The target player is Player24.
 
-2.  **Initialize event counts:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+2.  **Initialize Counts:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
 
-3.  **Analyze commentary snippets:**
+3.  **Analyze Snippets:**
 
-    *   **Snippet 1:** "Player24(Away Team) commits a foul."
-        *   This snippet explicitly states that Player24 committed a foul.
-        *   Increment Fouls: Fouls = 1
+    *   **Snippet 1: "Player24(Away Team) commits a foul."**
+        *   Fouls: The snippet explicitly states "Player24 commits a foul." Increment Fouls count by 1.
 
-    *   **Snippet 2:** "Player24(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick on the right wing, This leads to a set piece opportunity for Player7(Home Team)."
-        *   This snippet explicitly states Player24 committed a foul, resulting in a free kick for Player7.
-        *   Increment Fouls: Fouls = 2. The free kick does not count for Player24
+    *   **Snippet 2: "Player24(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick on the right wing, This leads to a set piece opportunity for Player7(Home Team)."**
+        *   Fouls: The snippet explicitly states "Player24 commits a foul." Increment Fouls count by 1.
+        *   Free Kicks: The snippet mentions Player24 committed a foul that resulted in Player7 winning a free kick. According to the instructions this is not considered a free kick for Player24.
 
-    *   **Snippet 3:** "Player24(Away Team) receives a yellow card for a rough tackle."
-        *   This snippet explicitly states that Player24 received a yellow card.
-        *   Increment Yellow Cards: Yellow Cards = 1
+    *   **Snippet 3: "Player24(Away Team) receives a yellow card for a rough tackle."**
+        *   Yellow Cards: The snippet explicitly states "Player24 receives a yellow card." Increment Yellow Cards count by 1.
 
-4.  **Compile final counts:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 2
-    *   Yellow Cards = 1
-    *   Red Cards = 0
-    *   Offsides = 0
+4.  **Final Counts:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 2
+    * Yellow Cards = 1
+    * Red Cards = 0
+    * Offsides = 0
 
 Final Summary Table:
 ```markdown

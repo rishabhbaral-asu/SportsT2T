@@ -1,31 +1,55 @@
-Okay, let's analyze the commentary snippets for Player3 and generate the summary table.
+Okay, let's analyze the commentary snippets for Player3 and generate the final summary table.
 
-**Steps:**
+**1. Identify Target Player:**
 
-1.  **Identify Target Player:** The target player is Player3.
-2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
-3.  **Analyze Snippets:**
-    *   **Snippet 1:** "Player3(Home Team)'s left footed shot from a tough angle on the left is saved by the goalkeeper in the bottom right corner, after being assisted by Player10(Home Team) with a through ball."
-        *   *Shots:* The snippet explicitly states "Player3(Home Team)'s left footed shot", so increment Shots by 1.
-        *   *Goals:* The shot was saved; hence, no goal.
-        *   *Assists:* Player3 was assisted; hence, no assist for Player3.
-        *   *Free Kicks:* No free kick event.
-        *   *Fouls:* No foul event.
-        *   *Yellow Cards:* No yellow card event.
-        *   *Red Cards:* No red card event.
-        *   *Offsides:* No offside event.
-    *   **Snippet 2:** "Player3(Home Team) earns a free kick in their own half."
-        *   *Shots:* No shot event.
-        *   *Goals:* No goal event.
-        *   *Assists:* No assist event.
-        *   *Free Kicks:* The snippet mentions "Player3(Home Team) earns a free kick", which means Player3 wins the free kick. So increment Free Kicks by 1.
-        *   *Fouls:* No foul event.
-        *   *Yellow Cards:* No yellow card event.
-        *   *Red Cards:* No red card event.
-        *   *Offsides:* No offside event.
-4.  **Final Counts:** Shots = 1, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+The target player is Player3.
 
-Final Summary Table:
+**2. Initialize Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player3(Home Team)'s left footed shot from a tough angle on the left is saved by the goalkeeper in the bottom right corner, after being assisted by Player10(Home Team) with a through ball."
+    *   Shots: The snippet explicitly states "shot" by Player3. Increment Shots to 1.
+    *   Goals: No goal is mentioned.
+    *   Assists: Player3 was assisted by Player10, so Player3 gets no assist.
+    *   Free Kicks: Not Mentioned
+    *   Fouls: Not Mentioned
+    *   Yellow Cards: Not Mentioned
+    *   Red Cards: Not Mentioned
+    *   Offsides: Not Mentioned
+
+*   **Snippet 2:** "Player3(Home Team) earns a free kick in their own half."
+    *   Shots: Not Mentioned
+    *   Goals: Not Mentioned
+    *   Assists: Not Mentioned
+    *   Free Kicks: The snippet explicitly states "earns a free kick" by Player3. Increment Free Kicks to 1.
+    *   Fouls: Not Mentioned
+    *   Yellow Cards: Not Mentioned
+    *   Red Cards: Not Mentioned
+    *   Offsides: Not Mentioned
+
+**4. Final Counts:**
+
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**5. Final Summary Table:**
+
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

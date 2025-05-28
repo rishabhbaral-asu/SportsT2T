@@ -1,45 +1,52 @@
-Okay, let's analyze the commentary snippets for Player8.
+Okay, let's analyze the commentary snippets for Player8 and compile the statistics.
 
 **Player Name:** Player8
 
 **Commentary Snippets:**
-- Player8(Home Team) earns a free kick in their own half.
-- Player8(Home Team)'s shot from the center of the box was blocked with Player10(Home Team)'s assistance.
-- Player8(Home Team) commits a foul.
-- Player8(Home Team) misses the shot with his left foot from a tough angle on the left side, assisted by Player17(Home Team).
-- Player8(Home Team) commits a foul.
-- Player8(Home Team) receives a yellow card.
 
-**Event Tracking:**
+*   "Player8(Home Team) earns a free kick in their own half."
+*   "Player8(Home Team)'s shot from the center of the box was blocked with Player10(Home Team)'s assistance."
+*   "Player8(Home Team) commits a foul."
+*   "Player8(Home Team) misses the shot with his left foot from a tough angle on the left side, assisted by Player17(Home Team)."
+*   "Player8(Home Team) commits a foul."
+*   "Player8(Home Team) receives a yellow card."
 
-*   **Shots:**
-    *   "Player8(Home Team)'s shot from the center of the box was blocked..." - Counts as 1 shot.
-    *   "Player8(Home Team) misses the shot with his left foot..." - Counts as 1 shot.
-    *   Total Shots: 2
-*   **Goals:**
-    *   No explicit mention of Player8 scoring a goal.
-    *   Total Goals: 0
-*   **Assists:**
-    *   No explicit mention of Player8 providing an assist. Both shot events state that the player was *assisted by* another player, not the other way around.
-    *   Total Assists: 0
-*   **Free Kicks (Taken):**
-    *   "Player8(Home Team) earns a free kick in their own half." - Counts as 1 free kick.
-    *   Total Free Kicks: 1
-*   **Fouls (Committed):**
-    *   "Player8(Home Team) commits a foul." - Counts as 1 foul.
-    *   "Player8(Home Team) commits a foul." - Counts as 1 foul.
-    *   Total Fouls: 2
-*   **Yellow Cards:**
-    *   "Player8(Home Team) receives a yellow card." - Counts as 1 yellow card.
-    *   Total Yellow Cards: 1
-*   **Red Cards:**
-    *   No explicit mention of Player8 receiving a red card.
-    *   Total Red Cards: 0
-*   **Offsides:**
-    *   No explicit mention of Player8 being offside.
-    *   Total Offsides: 0
+**Step-by-step Analysis:**
 
-Final Summary Table:
+1.  **Player Name:** Player8
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player8(Home Team) earns a free kick in their own half."
+        *   Player8 earns a free kick. Increment Free Kicks: Free Kicks = 1
+
+    *   **Snippet 2:** "Player8(Home Team)'s shot from the center of the box was blocked with Player10(Home Team)'s assistance."
+        *   Player8's shot was blocked. Increment Shots: Shots = 1
+
+    *   **Snippet 3:** "Player8(Home Team) commits a foul."
+        *   Player8 commits a foul. Increment Fouls: Fouls = 1
+
+    *   **Snippet 4:** "Player8(Home Team) misses the shot with his left foot from a tough angle on the left side, assisted by Player17(Home Team)."
+        *   Player8 misses the shot. Increment Shots: Shots = 2
+
+    *   **Snippet 5:** "Player8(Home Team) commits a foul."
+        *   Player8 commits a foul. Increment Fouls: Fouls = 2
+
+    *   **Snippet 6:** "Player8(Home Team) receives a yellow card."
+        *   Player8 receives a yellow card. Increment Yellow Cards: Yellow Cards = 1
+
+**Final Summary Table:**
+
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

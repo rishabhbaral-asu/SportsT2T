@@ -1,8 +1,15 @@
-Okay, let's analyze the commentary snippets for Player32 and generate the summary table.
+Okay, let's analyze the commentary snippets for Player32 and generate the statistics table.
 
-1.  **Identify Target Player:** The target player is Player32.
+**Player Name:** Player32
 
-2.  **Initialize Counts:**
+**Commentary Snippets:**
+- Player32(Away Team) earns a free kick on the left side.
+- Player32(Away Team) commits a foul.
+- Player32(Away Team) receives a yellow card for a rough tackle.
+
+**Step-by-step analysis:**
+
+1.  **Initialization:**
     *   Shots = 0
     *   Goals = 0
     *   Assists = 0
@@ -12,31 +19,19 @@ Okay, let's analyze the commentary snippets for Player32 and generate the summar
     *   Red Cards = 0
     *   Offsides = 0
 
-3.  **Analyze Snippets:**
-
-    *   Snippet 1: "Player32(Away Team) earns a free kick on the left side."
-        *   This indicates Player32 *earned* a free kick, so it counts as a Free Kick (taken).
-        *   Free Kicks = 1
-
-    *   Snippet 2: "Player32(Away Team) commits a foul."
-        *   This explicitly states Player32 committed a foul.
-        *   Fouls = 1
-
-    *   Snippet 3: "Player32(Away Team) receives a yellow card for a rough tackle."
-        *   This explicitly states Player32 received a yellow card.
-        *   Yellow Cards = 1
-
-4.  **Compile Final Counts:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
+2.  **Snippet 1: "Player32(Away Team) earns a free kick on the left side."**
+    *   The snippet mentions Player32 earning a free kick. This falls under the `Free Kicks` definition (wins a free kick).
     *   Free Kicks = 1
-    *   Fouls = 1
-    *   Yellow Cards = 1
-    *   Red Cards = 0
-    *   Offsides = 0
 
-Final Summary Table:
+3.  **Snippet 2: "Player32(Away Team) commits a foul."**
+    *   The snippet explicitly states Player32 committed a foul.
+    *   Fouls = 1
+
+4.  **Snippet 3: "Player32(Away Team) receives a yellow card for a rough tackle."**
+    *   The snippet explicitly states Player32 received a yellow card.
+    *   Yellow Cards = 1
+
+**Final Summary Table:**
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

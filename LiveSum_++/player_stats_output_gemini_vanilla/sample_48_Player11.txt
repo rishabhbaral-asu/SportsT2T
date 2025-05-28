@@ -1,30 +1,27 @@
-Okay, I'm ready to process the commentary snippets and generate the player statistics table.
+Okay, let's analyze the commentary snippets for Player11 and compile the statistics.
 
-**1. Identify Target Player:**
-The target player is Player11.
+**Player Name:** Player11
 
-**2. Initialize Counts:**
-Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+**Commentary Snippets:**
 
-**3. Analyze Commentary Snippets:**
+*   "Player11(Home Team)'s left-footed shot from the left side of the box is saved in the center of the goal with an assist from Player10(Home Team)."
+*   "Player11(Home Team) commits a foul."
+*   "Player11(Home Team) attempts a through ball, but Player9(Home Team) is offside for the Home Team."
+*   "Player11(Home Team), thanks to a great assist from Player14(Home Team)."
 
-*   **Snippet 1:** "Player11(Home Team)'s left-footed shot from the left side of the box is saved in the center of the goal with an assist from Player10(Home Team)."
-    *   The snippet explicitly states "shot" by Player11. Increment Shots: Shots = 1.
-    *   The snippet mentions "assist from Player10". Since Player11 *received* the assist, not provided it, Assists count remains 0.
+**Step-by-step Analysis:**
 
-*   **Snippet 2:** "Player11(Home Team) commits a foul."
-    *   The snippet explicitly states "commits a foul" by Player11. Increment Fouls: Fouls = 1.
+1.  **Shots:** The first snippet explicitly mentions "Player11(Home Team)'s left-footed shot...is saved". This is a shot by Player11. Increment Shots count by 1.
+2.  **Goals:** The first snippet describes the shot as "saved," not a goal. So, Goals remain at 0.
+3.  **Assists:** The first and fourth snippets mention assists *to* Player11 from other players. This does not count as an assist *by* Player11. So Assists remain at 0.
+4.  **Free Kicks:** There are no mentions of Player11 taking a free kick or winning one. Free Kicks remain at 0.
+5.  **Fouls:** The second snippet states "Player11(Home Team) commits a foul." Increment Fouls by 1.
+6.  **Yellow Cards:** There are no mentions of Player11 receiving a yellow card. Yellow Cards remain at 0.
+7.  **Red Cards:** There are no mentions of Player11 receiving a red card. Red Cards remain at 0.
+8.  **Offsides:** The third snippet mentions "Player9(Home Team) is offside". This does not count as Player11 being offside. So Offsides remain at 0.
 
-*   **Snippet 3:** "Player11(Home Team) attempts a through ball, but Player9(Home Team) is offside for the Home Team."
-    *   The snippet indicates Player9 is offside and is NOT explicitly attributed to Player11. Offsides count remains 0.
+**Final Summary Table:**
 
-*   **Snippet 4:** "Player11(Home Team), thanks to a great assist from Player14(Home Team)."
-    *   Player11 is the recipient of the assist, and didn't give one. Assist count remains 0.
-
-**4. Final Counts:**
-Shots = 1, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0
-
-Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

@@ -1,39 +1,42 @@
-Okay, let's analyze the commentary snippets for Player4.
+Okay, let's analyze the commentary snippets for Player4 and generate the statistics table.
 
-1.  **Player Name:** Player4
+**1. Identify Target Player:**
+The target player is Player4.
 
-2.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+**2. Initialize Counts:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
 
-3.  **Snippet Analysis:**
+**3. Analyze Commentary Snippets:**
 
-    *   Snippet 1: "Player4(Home Team) commits a foul."
-        *   Explicitly states Player4 committed a foul.
-        *   Fouls = 1
+*   **Snippet 1: "Player4(Home Team) commits a foul."**
+    *   This snippet explicitly states Player4 committed a foul.
+    *   Increment Fouls: Fouls = 0 + 1 = 1
 
-    *   Snippet 2: "Player4(Home Team) receives a yellow card."
-        *   Explicitly states Player4 received a yellow card.
-        *   Yellow Cards = 1
+*   **Snippet 2: "Player4(Home Team) receives a yellow card."**
+    *   This snippet explicitly states Player4 received a yellow card.
+    *   Increment Yellow Cards: Yellow Cards = 0 + 1 = 1
 
-    *   Snippet 3: "Player4(Home Team) is currently sidelined due to an injury, causing a delay in the match."
-        *   This snippet doesn't mention any of the tracked events.
+*   **Snippet 3: "Player4(Home Team) is currently sidelined due to an injury, causing a delay in the match."**
+    *   This snippet does not describe any of the tracked events (Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, Offsides).
 
-4.  **Final Counts:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 1
-    *   Yellow Cards = 1
-    *   Red Cards = 0
-    *   Offsides = 0
+**4. Final Counts:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 1
+Yellow Cards = 1
+Red Cards = 0
+Offsides = 0
+
+**5. Final Summary Table:**
 
 Final Summary Table:
 ```markdown

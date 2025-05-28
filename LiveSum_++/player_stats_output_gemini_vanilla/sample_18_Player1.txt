@@ -1,24 +1,50 @@
-Okay, let's start by identifying the player and initializing the counts.
+Okay, let's analyze the commentary snippets for Player1 and generate the final summary table.
 
-Player Name: Player1
+**Objective:** Analyze commentary snippets for Player1 and count explicit occurrences of defined events.
 
-Initial Counts:
-*   Shots: 0
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+**Input:**
+* **Player Name:**
+    <PLAYER_NAME>
+    Player1
+    </PLAYER_NAME>
+* **Commentary Snippets:**
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player1(Home Team) attempts a through ball, but Player9(Home Team) is caught offside.
+- Player1(Home Team) attempts a through ball, but Player17(Home Team) is caught offside.
+    </PLAYER_COMMENTARY_SNIPPETS>
 
-Now, analyze each snippet and increment the counts accordingly.
+**Step-by-step Analysis:**
 
-Snippet 1: "Player1(Home Team) attempts a through ball, but Player9(Home Team) is caught offside."
-* No goals, assists, fouls, or cards here. The snippet does not explicitly mention a shot or a free kick, so no increments are made in those categories. It doesn't say Player1 was offside.
+1.  **Player Name:** The target player is Player1.
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
-Snippet 2: "Player1(Home Team) attempts a through ball, but Player17(Home Team) is caught offside."
-* No goals, assists, fouls, or cards here. The snippet does not explicitly mention a shot or a free kick, so no increments are made in those categories. It doesn't say Player1 was offside.
+3.  **Analyze Snippets:**
+    *   Snippet 1: "Player1(Home Team) attempts a through ball, but Player9(Home Team) is caught offside."
+        *   Player1 is explicitly mentioned.
+        *   The phrase "attempts a through ball" does not match any of our keywords for shots, goals, assists, free kicks, fouls, or cards.
+        *   Player9 being offside is not attributed to Player1, so we don't increment the offsides count for Player1.
+    *   Snippet 2: "Player1(Home Team) attempts a through ball, but Player17(Home Team) is caught offside."
+        *   Player1 is explicitly mentioned.
+        *   The phrase "attempts a through ball" does not match any of our keywords for shots, goals, assists, free kicks, fouls, or cards.
+        *   Player17 being offside is not attributed to Player1, so we don't increment the offsides count for Player1.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
 Final Summary Table:
 ```markdown

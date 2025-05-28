@@ -1,14 +1,39 @@
-Okay, let's analyze the commentary snippets for Player22 and generate the requested markdown table.
+Okay, let's start.
 
-1.  **Player Name:** The target player is Player22.
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
 
-2.  **Initialization:** We initialize all counts to 0: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+**Input:**
+* **Player Name:**
+    <PLAYER_NAME>
+    Player22
+    </PLAYER_NAME>
+* **Commentary Snippets:**
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player22(Away Team) commits a foul.
+- Player22(Away Team) commits a foul.
+- Player22(Away Team) commits a foul.
+    </PLAYER_COMMENTARY_SNIPPETS>
 
-3.  **Snippet Analysis:**
+**Process:**
 
-    *   Snippet 1: "Player22(Away Team) commits a foul." - This explicitly states Player22 committed a foul. Increment Fouls by 1. Fouls = 1.
-    *   Snippet 2: "Player22(Away Team) commits a foul." - This explicitly states Player22 committed a foul. Increment Fouls by 1. Fouls = 2.
-    *   Snippet 3: "Player22(Away Team) commits a foul." - This explicitly states Player22 committed a foul. Increment Fouls by 1. Fouls = 3.
+1.  **Identify Player Name:** The target player is Player22.
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player22(Away Team) commits a foul."
+        *   Fouls: Increment by 1 (explicitly states Player22 commits a foul). Current Fouls: 1
+    *   Snippet 2: "Player22(Away Team) commits a foul."
+        *   Fouls: Increment by 1 (explicitly states Player22 commits a foul). Current Fouls: 2
+    *   Snippet 3: "Player22(Away Team) commits a foul."
+        *   Fouls: Increment by 1 (explicitly states Player22 commits a foul). Current Fouls: 3
 
 4.  **Final Counts:**
     *   Shots: 0

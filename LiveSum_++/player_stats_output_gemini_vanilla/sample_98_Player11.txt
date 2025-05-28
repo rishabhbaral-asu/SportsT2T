@@ -1,7 +1,6 @@
-Okay, let's analyze the commentary snippets for Player11 and generate the summary table.
+Okay, I'm ready to process the player commentary snippets and generate the final summary table.
 
-**Player Name:**
-Player11
+**Player Name:** Player11
 
 **Commentary Snippets:**
 - Player11(Home Team) commits a foul.
@@ -10,36 +9,47 @@ Player11
 - Player11(Home Team) misses the target with a high and wide shot from outside the box, assisted by Player9(Home Team).
 - Player11(Home Team) misses the header to the left after a cross from Player14(Home Team).
 
-**Event Counting and Reasoning:**
+**Step-by-step analysis:**
 
-*   **Shots:**
-    *   Snippet 4: "Player11(Home Team) misses the target with a high and wide shot from outside the box, assisted by Player9(Home Team)." - This is explicitly a shot. (Count: 1)
-    *   Snippet 5: "Player11(Home Team) misses the header to the left after a cross from Player14(Home Team)." - This is explicitly a shot. (Count: 1)
-    Total shots = 2
+1.  **Player Name Identification:** The target player is Player11.
 
-*   **Goals:**
-    *   No snippet explicitly states Player11 scored a goal. (Count: 0)
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-*   **Assists:**
-    *   No snippet states Player11 provided an assist. (Count: 0)
+3.  **Snippet Analysis:**
 
-*   **Free Kicks:**
-    *   Snippet 2: "Player11(Home Team) earns a free kick on the left side of the field." - Player11 earned a free kick. (Count: 1)
+    *   Snippet 1: "Player11(Home Team) commits a foul."
+        *   Fouls: Increment by 1 (explicitly states Player11 committed a foul). Fouls = 1
+    *   Snippet 2: "Player11(Home Team) earns a free kick on the left side of the field."
+        *   Free Kicks: Increment by 1 (explicitly states Player11 earned a free kick). Free Kicks = 1
+    *   Snippet 3: "Player11(Home Team) is currently sidelined due to an injury, causing a delay in the match."
+        *   No relevant event for tracking.
+    *   Snippet 4: "Player11(Home Team) misses the target with a high and wide shot from outside the box, assisted by Player9(Home Team)."
+        *   Shots: Increment by 1 (explicitly mentions Player11 missed a shot). Shots = 1.
+        *   Assists: No increment, Player11 was assisted, not providing the assist.
+    *   Snippet 5: "Player11(Home Team) misses the header to the left after a cross from Player14(Home Team)."
+        *   Shots: Increment by 1 (explicitly mentions Player11 missed a header, which is a shot attempt). Shots = 2.
+        *   Assists: No increment, Player11 was assisted, not providing the assist.
 
-*   **Fouls:**
-    *   Snippet 1: "Player11(Home Team) commits a foul." - Player11 committed a foul. (Count: 1)
+4.  **Final Counts:**
 
-*   **Yellow Cards:**
-    *   No snippet explicitly states Player11 received a yellow card. (Count: 0)
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-*   **Red Cards:**
-    *   No snippet explicitly states Player11 received a red card. (Count: 0)
-
-*   **Offsides:**
-    *   No snippet explicitly states Player11 was offsides. (Count: 0)
-
-**Final Summary Table:**
-
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

@@ -1,37 +1,43 @@
-Okay, I will follow the instructions to analyze the commentary snippets for Player22 and generate the final summary table.
+Okay, let's analyze the commentary snippets for Player22.
 
-1.  **Identify Target Player:** Player22
+**1. Player Identification:**
+The target player is Player22.
 
-2.  **Initialize Counts:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 0
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+**2. Initialization:**
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
 
-3.  **Analyze Commentary Snippets:**
+**3. Snippet Analysis and Counting:**
 
-    *   Snippet 1: "Player22(Away Team) earns a free kick in their own half."
-        *   Free Kicks: Player22 earns a free kick. Increment Free Kicks count to 1.
+*   **Snippet 1:** "Player22(Away Team) earns a free kick in their own half."
+    *   "earns a free kick" is a keyword for Free Kicks (taken).
+    *   Free Kicks = 0 + 1 = 1
 
-    *   Snippet 2: "Player22(Away Team)'s left footed shot from outside the box missed to the right."
-        *   Shots: Player22 took a shot. Increment Shots count to 1.
+*   **Snippet 2:** "Player22(Away Team)'s left footed shot from outside the box missed to the right."
+    *   "shot" is a keyword for Shots.
+    *   Shots = 0 + 1 = 1
 
-    *   Snippet 3: "Player22(Away Team) receives a yellow card for a rough tackle."
-        *   Yellow Cards: Player22 receives a yellow card. Increment Yellow Cards count to 1.
-        *   Fouls: Player22 committed a "rough tackle" which is a foul. Increment Fouls count to 1.
-4.  **Compile Final Counts:**
-    *   Shots: 1
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 1
-    *   Fouls: 1
-    *   Yellow Cards: 1
-    *   Red Cards: 0
-    *   Offsides: 0
+*   **Snippet 3:** "Player22(Away Team) receives a yellow card for a rough tackle."
+    *   "yellow card" is a keyword for Yellow Cards.
+    *   "rough tackle" is a keyword for Fouls.
+    *   Yellow Cards = 0 + 1 = 1
+    *   Fouls = 0 + 1 = 1
+
+**4. Final Counts:**
+*   Shots = 1
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 1
+*   Fouls = 1
+*   Yellow Cards = 1
+*   Red Cards = 0
+*   Offsides = 0
 
 Final Summary Table:
 ```markdown

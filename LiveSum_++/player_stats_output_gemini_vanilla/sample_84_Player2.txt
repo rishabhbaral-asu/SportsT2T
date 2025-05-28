@@ -1,44 +1,42 @@
-Okay, let's analyze the commentary snippets for Player2.
+Okay, let's analyze the commentary snippets for Player2 and generate the requested markdown table.
 
-1.  **Player Name:** The target player is Player2.
+**1. Identify Target Player:**
 
-2.  **Initialization:** We initialize the counts for Player2 as follows:
-    * Shots = 0
-    * Goals = 0
-    * Assists = 0
-    * Free Kicks = 0
-    * Fouls = 0
-    * Yellow Cards = 0
-    * Red Cards = 0
-    * Offsides = 0
+The target player is Player2.
 
-3.  **Snippet Analysis:**
+**2. Initialize Counts:**
 
-    *   **Snippet 1:** "Player2(Home Team) earns a free kick in his own half."
-        *   This snippet indicates Player2 earned a free kick. This means Player2 *wins* the free kick, thus Player2 has taken one Free Kick.
-        *   Free Kicks = 1
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
 
-    *   **Snippet 2:** "Player2(Home Team) earns a free kick on the right side of the field."
-        *   This snippet indicates Player2 earned a free kick. This means Player2 *wins* the free kick, thus Player2 has taken one Free Kick.
-        *   Free Kicks = 2
+**3. Analyze Commentary Snippets:**
 
-    *   **Snippet 3:** "Player2(Home Team) scores a goal."
-        *   This snippet indicates Player2 scored a goal, which also counts as a shot.
-        *   Shots = 1
-        *   Goals = 1
+*   Snippet 1: "Player2(Home Team) earns a free kick in his own half."
+    *   Free Kicks: Player2 earns a free kick. Increment Free Kicks by 1. Free Kicks = 1
+*   Snippet 2: "Player2(Home Team) earns a free kick on the right side of the field."
+    *   Free Kicks: Player2 earns a free kick. Increment Free Kicks by 1. Free Kicks = 2
+*   Snippet 3: "Player2(Home Team) scores a goal."
+    *   Goals: Player2 scores a goal. Increment Goals by 1. Goals = 1
+    *   Shots: Player2 scores a goal, implying a shot. Increment Shots by 1. Shots = 1
+*   Snippet 4: "Player2(Home Team) is injured."
+    *   No relevant event to track.
 
-    *   **Snippet 4:** "Player2(Home Team) is injured."
-        *   This snippet provides information of player injury. There is no change in stats.
+**4. Final Counts:**
 
-4.  **Final Counts:** After analyzing all snippets, the final counts for Player2 are:
-    * Shots = 1
-    * Goals = 1
-    * Assists = 0
-    * Free Kicks = 2
-    * Fouls = 0
-    * Yellow Cards = 0
-    * Red Cards = 0
-    * Offsides = 0
+*   Shots: 1
+*   Goals: 1
+*   Assists: 0
+*   Free Kicks: 2
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
 
 Final Summary Table:
 ```markdown

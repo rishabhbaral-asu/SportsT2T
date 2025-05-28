@@ -1,18 +1,40 @@
-Okay, let's start by extracting the player name from the input. The player name is Player5.
-Now, initialize the counts for all events to 0.
+Okay, let's analyze the commentary snippets for Player5 and generate the statistics table.
 
-Next, I'll analyze each commentary snippet and increment the counts accordingly, following the given definitions and keywords.
+1.  **Identify Target Player:** The target player is Player5.
 
-Snippet 1: "Player5(Home Team)'s header from a cross by Player3(Home Team)."
-This mentions a "header", which can be a shot. Since it is Player5's header, it is a shot. Increment Shots by 1.
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-Snippet 2: "Player5(Home Team) commits a foul."
-This explicitly states that Player5 commits a foul. Increment Fouls by 1.
+3.  **Analyze Commentary Snippets:**
 
-Snippet 3: "Player5(Home Team)'s shot from the center of the box is saved by the goalkeeper after a cross from Player15(Home Team)."
-This explicitly states that Player5 took a shot, and it was saved. Increment Shots by 1.
+    *   **Snippet 1:** "Player5(Home Team)'s header from a cross by Player3(Home Team)."
+        *   The snippet describes a header by Player5. A header, in this context, is an attempt on goal so we increment the shots.
+        *   Shots = 1
 
-Now, let's create the final summary table.
+    *   **Snippet 2:** "Player5(Home Team) commits a foul."
+        *   The snippet explicitly states Player5 committed a foul.
+        *   Fouls = 1
+
+    *   **Snippet 3:** "Player5(Home Team)'s shot from the center of the box is saved by the goalkeeper after a cross from Player15(Home Team)."
+        *   The snippet mentions Player5 taking a shot.
+        *   Shots = 2
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
 Final Summary Table:
 ```markdown

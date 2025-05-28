@@ -1,31 +1,43 @@
-Okay, let's analyze the commentary snippets for Player21 and generate the summary table.
+Okay, let's analyze the provided commentary snippets for Player21.
 
-**Player Name:** Player21
+**1. Player Identification:**
+The target player is Player21.
 
-**Commentary Snippets:**
+**2. Initialization:**
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
 
-*   Player21(Away Team) commits a foul.
-*   Player21(Away Team) attempts a through ball, but Player28(Away Team) is caught in an offside position.
-*   Player21(Away Team) draws a foul and earns a free kick on the left side of the field.
-*   Player21(Away Team) of the Away Team attempts a through ball, but Player28(Away Team) is in an offside position.
+**3. Snippet Analysis:**
 
-**Step-by-step analysis:**
+*   **Snippet 1:** "Player21(Away Team) commits a foul."
+    *   This explicitly states Player21 committed a foul.
+    *   Fouls = 1
+*   **Snippet 2:** "Player21(Away Team) attempts a through ball, but Player28(Away Team) is caught in an offside position."
+    *   This does not indicate Player21 was offside.
+*   **Snippet 3:** "Player21(Away Team) draws a foul and earns a free kick on the left side of the field."
+    *   This explicitly states Player21 earns a free kick.
+    *   Free Kicks = 1
+*   **Snippet 4:** "Player21(Away Team) of the Away Team attempts a through ball, but Player28(Away Team) is in an offside position."
+    *   This does not indicate Player21 was offside.
 
-1.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+**4. Final Counts:**
 
-2.  **Snippet 1:** "Player21(Away Team) commits a foul."
-    *   Fouls: The snippet explicitly states Player21 commits a foul. Increment Fouls by 1. Fouls = 1
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 1
+*   Fouls = 1
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
 
-3.  **Snippet 2:** "Player21(Away Team) attempts a through ball, but Player28(Away Team) is caught in an offside position."
-    * No events for Player21 are mentioned in terms of shots, goals, assists, free kicks, fouls, or cards. Offsides is counted for Player28 so it is ignored.
-
-4.  **Snippet 3:** "Player21(Away Team) draws a foul and earns a free kick on the left side of the field."
-    *   Free Kicks: Player21 earns a free kick. Increment Free Kicks by 1. Free Kicks = 1
-
-5.  **Snippet 4:** "Player21(Away Team) of the Away Team attempts a through ball, but Player28(Away Team) is in an offside position."
-    * No events for Player21 are mentioned in terms of shots, goals, assists, free kicks, fouls, or cards. Offsides is counted for Player28 so it is ignored.
-
-**Final Summary Table:**
+**5. Final Summary Table:**
 
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |

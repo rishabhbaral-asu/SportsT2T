@@ -1,47 +1,27 @@
 Okay, let's analyze the commentary snippets for Player4.
 
-1.  **Player Name:** The target player is Player4.
-2.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+**Player Name:** Player4
 
-3.  **Snippet Analysis:**
+**Commentary Snippets:**
 
-    *   **Snippet 1:** "Player4(Home Team)'s left footed shot from outside the box goes wide to the right, with Player8(Home Team) assisting."
-        *   Player4 took a shot. Shots = 1.
-        *   Player4 did not score a goal.
-        *   Player4 did not provide the assist. Thus Assists remains 0.
+*   "Player4(Home Team)'s left footed shot from outside the box goes wide to the right, with Player8(Home Team) assisting."
+*   "Player4(Home Team)'s header from the center of the box goes wide to the right after a cross from Player3(Home Team) following a corner."
+*   "Player4(Home Team) from the Home Team attempted a through pass to Player7(Home Team), but unfortunately, Player7(Home Team) was in an offside position."
+*   "Player4(Home Team) fouls Player32(Away Team), who wins a free kick in the attacking half."
 
-    *   **Snippet 2:** "Player4(Home Team)'s header from the center of the box goes wide to the right after a cross from Player3(Home Team) following a corner."
-        *   Player4 took a shot (header). Shots = 2.
-        *   Player4 did not score a goal.
-        *   Player4 did not provide the assist. Thus Assists remains 0.
+**Analysis:**
 
-    *   **Snippet 3:** "Player4(Home Team) from the Home Team attempted a through pass to Player7(Home Team), but unfortunately, Player7(Home Team) was in an offside position."
-        *   Player4 was offside is not stated, Player 7 was, so offsides remains 0.
-        *   No assist because the pass did not lead to a goal and was offside. Assists remains 0.
-
-    *   **Snippet 4:** "Player4(Home Team) fouls Player32(Away Team), who wins a free kick in the attacking half."
-        *   Player4 committed a foul. Fouls = 1.
-        *   The statement does not explicitly indicate Player4 takes a free kick.
-
-4.  **Final Counts:**
-    *   Shots: 2
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 1
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+*   **Shots:** The first snippet explicitly states "Player4(Home Team)'s left footed shot...". The second snippet says "Player4(Home Team)'s header...". So we have 2 shots.
+*   **Goals:** No snippet mentions Player4 scoring a goal.
+*   **Assists:** No snippet mentions Player4 assisting on a goal. Player8 assisted player 4, and player 4's pass to Player7 resulted in an offside so not an assist.
+*   **Free Kicks:** The fourth snippet states "Player4(Home Team) fouls Player32(Away Team), who wins a free kick in the attacking half." This does not mean player 4 has taken a free kick, but rather commited a foul. Thus the count remains 0.
+*   **Fouls:** The fourth snippet explicitly states "Player4(Home Team) fouls Player32(Away Team)...". So we have 1 foul.
+*   **Yellow Cards:** No snippet mentions Player4 receiving a yellow card.
+*   **Red Cards:** No snippet mentions Player4 receiving a red card.
+*   **Offsides:** The third snippet mentions Player7 being offside and not player 4.
 
 Final Summary Table:
+
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

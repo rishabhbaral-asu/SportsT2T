@@ -1,11 +1,10 @@
-Okay, let's analyze the commentary snippets for Player1 and compile the statistics.
+Okay, let's analyze the commentary snippets for Player1.
 
-**1. Identify Target Player:**
-
+**1. Player Identification:**
 The target player is Player1.
 
-**2. Initialize Counts:**
-
+**2. Initialization:**
+We initialize the counts for Player1:
 *   Shots: 0
 *   Goals: 0
 *   Assists: 0
@@ -15,15 +14,13 @@ The target player is Player1.
 *   Red Cards: 0
 *   Offsides: 0
 
-**3. Analyze Commentary Snippets:**
+**3. Snippet Analysis:**
 
 *   Snippet 1: "Player1(Home Team) attempts a through ball, but Player9(Home Team) is caught offside."
-    *   This snippet mentions Player1 attempting a through ball, but it results in Player9 being offside. This does not count as a shot, goal, assist, free kick, foul, or card for Player1. It *does* count as an offside for Player9 but we aren't tracking Player9.
+    *   This snippet states Player1 attempts a through ball. Since it results in another player being offside, this does not count as an assist, shot, or free kick. It doesn't count as a foul, yellow card, or red card either. Player9 is offside, but this does not increment Player1's offside count.
 
-**4. Increment Counts (Applying Strict Counting):**
-
-Based on the analysis of the snippets, here's how the counts are updated:
-
+**4. Final Count:**
+Based on the analysis:
 *   Shots: 0
 *   Goals: 0
 *   Assists: 0
@@ -34,7 +31,6 @@ Based on the analysis of the snippets, here's how the counts are updated:
 *   Offsides: 0
 
 **Final Summary Table:**
-
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

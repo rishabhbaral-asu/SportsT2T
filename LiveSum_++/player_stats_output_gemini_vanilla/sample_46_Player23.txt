@@ -1,28 +1,37 @@
-Okay, let's start by identifying the player name and initializing the counts.
+Okay, let's analyze the commentary snippets for Player23.
 
-Player Name: Player23
+**1. Identify Target Player:**
 
-Now, let's initialize the event counts to 0:
+The target player is Player23.
 
-Shots: 0
-Goals: 0
-Assists: 0
-Free Kicks: 0
-Fouls: 0
-Yellow Cards: 0
-Red Cards: 0
-Offsides: 0
+**2. Initialize Counts:**
 
-Now, let's analyze the commentary snippets:
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
 
-Snippet 1: "Player23(Away Team) attempts a pass, but Player29(Away Team) is flagged offside."
+**3. Analyze Commentary Snippets:**
 
-*   Offsides: Player23 attempts a pass, and Player29 is offside. Player23 is not offside, so no increment.
-*   Assists: The pass did not lead to a goal, so no assist is counted.
+*   Snippet 1: "Player23(Away Team) attempts a pass, but Player29(Away Team) is flagged offside."
+    *   This snippet mentions Player23 attempting a pass, and Player29 being offside. Player23 is not mentioned scoring, assisting, or committing any fouls. The crucial element is that the snippet doesn't explicitly say the pass led to a goal, therefore no assist is counted. It DOES say Player23 attempts a pass but does not specify it's a free kick. However, it *does* say Player29 is flagged offside after this pass. This action does not constitute a 'free kick' for Player23. Finally, Player23 himself is not offside, so it's not counted for that stat.
 
-No other events are mentioned.
+**4. Increment Counts (Based on strict, explicit mentions):**
 
-Final Summary Table:
+*   Shots: 0 (No shots mentioned)
+*   Goals: 0 (No goals mentioned)
+*   Assists: 0 (The pass didn't lead to a goal, the play was called offsides.)
+*   Free Kicks: 0 (Pass leading to an offside does not equal a free kick taken.)
+*   Fouls: 0 (No fouls committed by Player23 mentioned)
+*   Yellow Cards: 0 (No yellow card mentioned)
+*   Red Cards: 0 (No red card mentioned)
+*   Offsides: 0 (Player23 was not the one offsides)
+
+**5. Final Summary Table:**
 
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |

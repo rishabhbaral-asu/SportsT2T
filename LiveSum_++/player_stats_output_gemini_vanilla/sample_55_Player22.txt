@@ -1,6 +1,6 @@
 Okay, let's analyze the commentary snippets for Player22.
 
-1.  **Player Name:** The target player is Player22.
+1.  **Player Name:** Player22
 
 2.  **Initialization:**
     *   Shots = 0
@@ -12,9 +12,11 @@ Okay, let's analyze the commentary snippets for Player22.
     *   Red Cards = 0
     *   Offsides = 0
 
-3.  **Snippet Analysis:**
+3.  **Commentary Analysis:**
+
     *   Snippet 1: "Player22(Away Team)'s shot from outside the box was just a little too high, with an assist from Player25(Away Team)."
-        *   The snippet explicitly states "Player22's shot". Therefore, Shots = 1.
+        *   The snippet explicitly states "Player22's shot". This increments Shots by 1.
+        *   The snippet also indicates the shot was "assisted by Player25". This does NOT increment assists for Player22 because Player22 *received* the assist, did not give it.
 
 4.  **Final Counts:**
     *   Shots = 1

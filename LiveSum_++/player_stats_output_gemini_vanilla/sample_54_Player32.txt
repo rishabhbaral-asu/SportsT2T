@@ -1,18 +1,39 @@
-Okay, I will analyze the commentary snippets for the specified player and generate the final summary table.
+Okay, let's analyze the provided commentary snippets for Player32 and generate the final summary table.
 
-**Player Name:** Player32
+**1. Identify Target Player:**
 
-**Commentary Snippets:**
-- Player32(Away Team) fouls Player2(Home Team), resulting in a free kick being awarded on the right wing.
+The target player is Player32.
 
-**Reasoning:**
+**2. Initialize Counts:**
 
-1.  **Player:** The target player is Player32.
-2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
-3.  **Snippet Analysis:**
-    *   "Player32(Away Team) fouls Player2(Home Team), resulting in a free kick being awarded on the right wing.": This snippet explicitly states that Player32 committed a foul. Thus, the Fouls count is incremented by 1.
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
 
-4.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+**3. Analyze Commentary Snippets:**
+
+*   Snippet 1: "Player32(Away Team) fouls Player2(Home Team), resulting in a free kick being awarded on the right wing."
+
+    *   Fouls: The snippet explicitly states "Player32 fouls Player2". Increment Fouls count by 1.
+    *   Free Kicks: This is a foul *committed* by Player32, so no increment to free kicks.
+
+**4. Final Counts:**
+
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 1
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**5. Final Summary Table:**
 
 Final Summary Table:
 ```markdown

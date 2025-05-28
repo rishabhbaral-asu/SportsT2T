@@ -1,23 +1,31 @@
-Okay, let's start by identifying the player name. The player name is Player22.
+Okay, I will follow the instructions to analyze the commentary snippets for Player22 and generate the final summary table.
 
-Now, I will initialize the counts for all the events to 0.
+**Player Name:** Player22
 
-Next, I will analyze each commentary snippet and increment the counts for the events attributed to Player22.
+**Commentary Snippets:**
+- Player22(Away Team) from the Away Team has scored an own goal, giving the Home Team a 1-0 lead.
 
-**Commentary Snippet 1:** "Player22(Away Team) from the Away Team has scored an own goal, giving the Home Team a 1-0 lead."
+**Step-by-step analysis:**
 
-*   **Shots:** An own goal is considered a shot. Increment Shots by 1.
-*   **Goals:** Player22 scored (an own goal, but a goal nonetheless). Increment Goals by 1.
-*   **Assists:** No assist mentioned.
-*   **Free Kicks:** No free kick mentioned.
-*   **Fouls:** No foul mentioned.
-*   **Yellow Cards:** No yellow card mentioned.
-*   **Red Cards:** No red card mentioned.
-*   **Offsides:** No offside mentioned.
+1.  **Identify Player:** The target player is Player22.
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+3.  **Analyze Snippets:**
+    *   Snippet 1: "Player22(Away Team) from the Away Team has scored an own goal, giving the Home Team a 1-0 lead."
+        *   This snippet states that Player22 scored an own goal. While not a goal *for* their team, it is still a goal that they scored. Thus, Goals count increments. Additionally, goals count as shots, and thus the shot count increments.
 
-Now, I will generate the final summary table.
+4.  **Increment Counts:**
+    *   Shots = 1 (due to own goal)
+    *   Goals = 1 (due to own goal)
 
-Final Summary Table:
+**Final Summary Table:**
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

@@ -1,50 +1,28 @@
-Okay, let's analyze the commentary snippets for Player2.
+Okay, I'm ready to process the player commentary snippets and generate the summary table.
 
-1.  **Player Name:** Player2
+**Player Name:**
+Player2
 
-2.  **Initialization:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 0
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+**Commentary Snippets:**
+- Player2(Home Team) misses a close shot with his right foot from the right side of the box, assisted by Player11(Home Team).
+- Player2(Home Team) commits a foul.
 
-3.  **Snippet Analysis:**
+**Step-by-step analysis:**
 
-    *   Snippet 1: "Player2(Home Team) misses a close shot with his right foot from the right side of the box, assisted by Player11(Home Team)."
-        *   Shots: Increment to 1 (explicitly mentions "misses a close shot").
-        *   Goals: No goal mentioned.
-        *   Assists: No assist for Player2. He was assisted by another player.
-        *   Free Kicks: No free kick.
-        *   Fouls: No foul.
-        *   Yellow Cards: No yellow card.
-        *   Red Cards: No red card.
-        *   Offsides: No offside.
+1.  **Player Name:** The target player is Player2.
+2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet 1 Analysis:** "Player2(Home Team) misses a close shot with his right foot from the right side of the box, assisted by Player11(Home Team)."
+    *   This snippet mentions "shot" attributed to Player2. Therefore, Shots = 1.
+    *   It does not mention a goal scored. Goals = 0.
+    *   The snippet explicitly states that Player2 was *assisted by* Player11. Therefore, Assists = 0.
+    *   No free kick, yellow card, red card, or offside is mentioned. Free Kicks = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+    *   No foul is mentioned. Fouls = 0.
+4.  **Snippet 2 Analysis:** "Player2(Home Team) commits a foul."
+    *   This snippet mentions "foul" committed by Player2. Therefore, Fouls = 1.
+    *   It does not mention a shot, goal, assist, free kick, yellow card, red card, or offside. Shots = 1, Goals = 0, Assists = 0, Free Kicks = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
 
-    *   Snippet 2: "Player2(Home Team) commits a foul."
-        *   Shots: No shot.
-        *   Goals: No goal.
-        *   Assists: No assist.
-        *   Free Kicks: No free kick.
-        *   Fouls: Increment to 1 (explicitly mentions "commits a foul").
-        *   Yellow Cards: No yellow card.
-        *   Red Cards: No red card.
-        *   Offsides: No offside.
+**Final Summary Table:**
 
-4.  **Final Counts:**
-    *   Shots: 1
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 1
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
-
-Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

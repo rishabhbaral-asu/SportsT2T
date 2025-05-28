@@ -1,31 +1,16 @@
-Okay, I will follow the instructions to analyze the commentary snippets for the specified player and generate the final summary table.
+Okay, let's start by identifying the player name and initializing the event counts to zero.
 
-**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
+Player Name: Player2
 
-**Input:**
-* **Player Name:**
-```text
-<PLAYER_NAME>
-Player2
-</PLAYER_NAME>
-```
-* **Commentary Snippets:**
-```text
-<PLAYER_COMMENTARY_SNIPPETS>
-- Player2(Home Team) has earned a free kick in their own half.
-- Player2(Home Team) commits a foul and Player29(Away Team) is awarded a free kick in their own defensive half.
-</PLAYER_COMMENTARY_SNIPPETS>
-```
+Now, let's analyze the commentary snippets and increment the counts based on the instructions.
 
-1.  **Player Name:** The target player is Player2.
-2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
-3.  **Analyze Snippets:**
-    *   Snippet 1: "Player2(Home Team) has earned a free kick in their own half."
-        *   This indicates Player2 has earned a free kick (taken). Increment Free Kicks by 1. Free Kicks = 1
-    *   Snippet 2: "Player2(Home Team) commits a foul and Player29(Away Team) is awarded a free kick in their own defensive half."
-        *   This indicates Player2 committed a foul. Increment Fouls by 1. Fouls = 1
+Commentary Snippet 1: "Player2(Home Team) has earned a free kick in their own half."
+*   Free Kicks: The player earned a free kick, so increment Free Kicks by 1.
 
-4.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+Commentary Snippet 2: "Player2(Home Team) commits a foul and Player29(Away Team) is awarded a free kick in their own defensive half."
+*   Fouls: The player committed a foul, so increment Fouls by 1.
+
+Now, let's compile the final summary table.
 
 Final Summary Table:
 ```markdown

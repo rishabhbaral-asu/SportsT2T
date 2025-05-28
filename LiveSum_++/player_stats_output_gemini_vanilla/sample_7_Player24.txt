@@ -1,44 +1,41 @@
-Okay, let's analyze the commentary snippets for Player24.
+Okay, let's analyze the commentary snippets for Player24 and generate the summary table.
 
 1.  **Player Name:** Player24
 
-2.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
-3.  **Snippet Analysis:**
+3.  **Analyze Snippets:**
 
     *   Snippet 1: "Player24(Away Team) misses the header to the right after receiving a cross from Player22(Away Team) following a corner kick."
-        *   Mentions "header" and "misses", indicating a shot attempt. Increment Shots by 1.
-        *   No goals, assists, free kicks, fouls, yellow cards, red cards, or offsides are mentioned.
+        *   "header" is present, implying an attempt on goal. Increment Shots: Shots = 1.
 
     *   Snippet 2: "Player24(Away Team) commits a foul, resulting in Player8(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for the attacking team."
-        *   Mentions "commits a foul". Increment Fouls by 1.
-        *   No goals, assists, free kicks, yellow cards, red cards, or offsides are mentioned.
+        *   "commits a foul" is present. Increment Fouls: Fouls = 1.
+        *   Player24 committed a foul, giving a free kick to the other team, does not count as a free kick.
 
     *   Snippet 3: "Player24(Away Team) commits a foul."
-        *   Mentions "commits a foul". Increment Fouls by 1.
-        *   No goals, assists, free kicks, yellow cards, red cards, or offsides are mentioned.
+        *   "commits a foul" is present. Increment Fouls: Fouls = 2.
 
     *   Snippet 4: "Player24(Away Team)'s header from the center of the box goes high and wide to the left after being assisted by Player29(Away Team) with a cross from a set piece."
-        * Mentions "header", indicating a shot attempt. Increment Shots by 1.
-        * No goals, assists, free kicks, fouls, yellow cards, red cards, or offsides are mentioned.
+        *   "header" is present, implying an attempt on goal. Increment Shots: Shots = 2.
 
 4.  **Final Counts:**
-    *   Shots = 2
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 2
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 2
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
 Final Summary Table:
 ```markdown

@@ -1,26 +1,44 @@
-Okay, I will follow the instructions to analyze the commentary snippets for the given player and generate the markdown table.
+Okay, let's analyze the commentary snippets for Player32 and generate the requested markdown table.
 
-**Player Name:** Player32
+**1. Identify Target Player:**
 
-**Commentary Snippets:**
-- Player32(Away Team)'s left footed shot from the center of the box is saved by the goalkeeper, with an assist from Player36(Away Team), resulting in a corner kick for the Away Team.
+The target player is Player32.
 
-**Reasoning:**
+**2. Initialize Counts:**
 
-1.  **Player Identification:** The target player is Player32.
-2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
-3.  **Snippet Analysis:**
-    *   "Player32(Away Team)'s left footed shot from the center of the box is saved by the goalkeeper, with an assist from Player36(Away Team), resulting in a corner kick for the Away Team."
-        *   **Shots:** The snippet explicitly states "Player32's left footed shot". Increment Shots by 1.
-        *   **Goals:** The snippet doesn't mention Player32 scoring.
-        *   **Assists:** The snippet says "with an assist from Player36", explicitly stating someone *else* provided the assist and that player 32 was the receiver. The target player didn't give the assist, so we do not increment assist count.
-        *   **Free Kicks:** No mention of free kicks.
-        *   **Fouls:** No mention of fouls.
-        *   **Yellow Cards:** No mention of yellow cards.
-        *   **Red Cards:** No mention of red cards.
-        *   **Offsides:** No mention of offsides.
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
 
-4. **Final Counts:** Shots = 1, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+**3. Analyze Commentary Snippets:**
+
+*   Snippet 1: "Player32(Away Team)'s left footed shot from the center of the box is saved by the goalkeeper, with an assist from Player36(Away Team), resulting in a corner kick for the Away Team."
+    *   Shots: Player32 took a shot. Increment Shots to 1.
+    *   Goals: No goal scored.
+    *   Assists: Player32 received an assist from Player36, so Player32 did not provide the assist. No increment to Assists.
+    *   Free Kicks: No free kick or penalty mentioned.
+    *   Fouls: No foul mentioned.
+    *   Yellow Cards: No yellow card mentioned.
+    *   Red Cards: No red card mentioned.
+    *   Offsides: No offsides mentioned.
+
+**4. Final Counts:**
+
+Shots: 1
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**5. Final Summary Table:**
 
 Final Summary Table:
 ```markdown

@@ -1,4 +1,4 @@
-Okay, let's analyze the commentary snippets for Player3 and compile the statistics.
+Okay, let's analyze the commentary snippets for Player3 and generate the requested markdown table.
 
 1.  **Identify Target Player:** The target player is Player3.
 
@@ -12,11 +12,12 @@ Okay, let's analyze the commentary snippets for Player3 and compile the statisti
     *   Red Cards: 0
     *   Offsides: 0
 
-3.  **Analyze Snippets:**
+3.  **Analyze Commentary Snippets:**
 
     *   Snippet 1: "Player3(Home Team) misses the target with a high and wide shot from outside the box, assisted by Player4(Home Team)."
-        *   The snippet explicitly states "Player3 misses the target with a...shot". This clearly indicates a shot attempt by Player3. Therefore, increment the 'Shots' count by 1.
-        *   The snippet mentions Player3 was *assisted by* Player4. This means Player3 received the assist, and did not *give* one. Therefore, do NOT increment assists.
+        *   Shots: Player3 "misses the target with a shot". Increment Shots to 1.
+        *   Goals: No goal scored by Player3.
+        *   Assists: Player3 was assisted by Player4 and didn't provide the assist, so no assist to count.
 
 4.  **Final Counts:**
     *   Shots: 1

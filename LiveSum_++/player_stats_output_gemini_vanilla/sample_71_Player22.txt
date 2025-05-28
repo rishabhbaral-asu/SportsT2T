@@ -1,39 +1,34 @@
-Okay, let's analyze the commentary snippets for Player22.
+Okay, let's analyze the commentary snippets for Player22 and compile the statistics.
 
-1.  **Player Name:** Player22
+**Player Name:** Player22
 
-2.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+**Commentary Snippets:**
+- Player22(Away Team) from Player1(Home Team) commits a foul.
+- Player22(Away Team) from Player1(Home Team) commits a foul.
+- Player22(Away Team) from Player1(Home Team)'s team receives a yellow card for a rough tackle.
+- Player22(Away Team) earns a free kick in their own half after Player14(Home Team) commits a foul.
 
-3.  **Snippet Analysis:**
+**Reasoning:**
 
-    *   Snippet 1: "Player22(Away Team) from Player1(Home Team) commits a foul."
-        *   Player22 commits a foul. Increment Fouls. Fouls = 1
-    *   Snippet 2: "Player22(Away Team) from Player1(Home Team) commits a foul."
-        *   Player22 commits a foul. Increment Fouls. Fouls = 2
-    *   Snippet 3: "Player22(Away Team) from Player1(Home Team)'s team receives a yellow card for a rough tackle."
-        *   Player22 receives a yellow card. Increment Yellow Cards. Yellow Cards = 1
-    *   Snippet 4: "Player22(Away Team) earns a free kick in their own half after Player14(Home Team) commits a foul."
-        *   Player22 earns a free kick. Increment Free Kicks. Free Kicks = 1
+1.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
 
-4.  **Final Counts:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 1
-    *   Fouls = 2
-    *   Yellow Cards = 1
-    *   Red Cards = 0
-    *   Offsides = 0
+2.  **Snippet 1: "Player22(Away Team) from Player1(Home Team) commits a foul."**
+    *   The snippet explicitly states that Player22 commits a foul.
+    *   Increment Fouls: Fouls = 1.
 
-Final Summary Table:
+3.  **Snippet 2: "Player22(Away Team) from Player1(Home Team) commits a foul."**
+    *   The snippet explicitly states that Player22 commits a foul.
+    *   Increment Fouls: Fouls = 2.
+
+4.  **Snippet 3: "Player22(Away Team) from Player1(Home Team)'s team receives a yellow card for a rough tackle."**
+    * The snippet explicitly states that Player22 receives a yellow card
+    * Increment Yellow Cards: Yellow Cards = 1
+
+5.  **Snippet 4: "Player22(Away Team) earns a free kick in their own half after Player14(Home Team) commits a foul."**
+    *   The snippet explicitly states that Player22 earns a free kick.
+    *   Increment Free Kicks: Free Kicks = 1.
+
+**Final Summary Table:**
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

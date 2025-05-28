@@ -1,49 +1,54 @@
-Okay, let's analyze the commentary snippets for Player29 and generate the summary table.
+Okay, let's analyze the commentary snippets for Player29 and compile the statistics.
 
-1.  **Identify the target player:**
-    The target player is Player29.
+**Player Name:** Player29
 
-2.  **Initialize event counts:**
-    Shots = 0
-    Goals = 0
-    Assists = 0
-    Free Kicks = 0
-    Fouls = 0
-    Yellow Cards = 0
-    Red Cards = 0
-    Offsides = 0
+**Commentary Snippets:**
 
-3.  **Analyze each snippet and increment counts:**
+- Player29(Away Team) misses the target with a high and wide shot from outside the box, with an assist from Player28(Away Team).
+- Player29(Away Team)'s shot from the left side of the box is blocked after an assist from Player27(Away Team).
+- Player29(Away Team) from the Away Team attempts a through ball, but Player22(Away Team) is offside.
+- Player29(Away Team) scores with a right-footed shot from outside the box, putting the Away Team ahead 1-0 against the Home Team.
+- Player29(Away Team) commits a foul on Player2(Home Team), who earns a free kick on the right wing.
+- Player29(Away Team)'s attempt from outside the box is blocked with Player28(Away Team)'s assistance, while Player12(Home Team) wins a free kick on the right wing.
 
-    *   **Snippet 1:** "Player29(Away Team) misses the target with a high and wide shot from outside the box, with an assist from Player28(Away Team)."
-        *   Shots += 1 (explicitly mentions "misses the target with a shot")
-        *   Assists += 0 (assisted *by* another player, Player28)
-    *   **Snippet 2:** "Player29(Away Team)'s shot from the left side of the box is blocked after an assist from Player27(Away Team)."
-        *   Shots += 1 (explicitly mentions "shot ... is blocked")
-        *   Assists += 0 (assisted *by* another player, Player27)
-    *   **Snippet 3:** "Player29(Away Team) from the Away Team attempts a through ball, but Player22(Away Team) is offside."
-        *   Offsides += 0 (Player29 did not commit the offside, Player22 did.)
-    *   **Snippet 4:** "Player29(Away Team) scores with a right-footed shot from outside the box, putting the Away Team ahead 1-0 against the Home Team."
-        *   Shots += 1 (explicitly mentions "scores with a shot")
-        *   Goals += 1 (explicitly mentions "scores")
-    *   **Snippet 5:** "Player29(Away Team) commits a foul on Player2(Home Team), who earns a free kick on the right wing."
-        *   Fouls += 1 (explicitly mentions "commits a foul")
-        *   Free Kicks += 0 (Player29 committed the foul, he did not take a free kick.)
-    *   **Snippet 6:** "Player29(Away Team)'s attempt from outside the box is blocked with Player28(Away Team)'s assistance, while Player12(Home Team) wins a free kick on the right wing."
-        *   Shots += 1 (explicitly mentions "attempt from outside the box is blocked")
-        *   Assists += 0 (assisted *by* another player, Player28)
-        *   Free Kicks += 0 (Player29 did not win or take the free kick, another player won it.)
+**Analysis:**
 
-4.  **Compile the final counts:**
+*   **Shots:**
+    *   Snippet 1: "Player29(Away Team) misses the target with a high and wide shot from outside the box..." - Counts as 1 Shot.
+    *   Snippet 2: "Player29(Away Team)'s shot from the left side of the box is blocked..." - Counts as 1 Shot.
+    *   Snippet 4: "Player29(Away Team) scores with a right-footed shot from outside the box..." - Counts as 1 Shot.
+    *   Snippet 6: "Player29(Away Team)'s attempt from outside the box is blocked..." - Counts as 1 Shot.
+    Total Shots = 4
 
-    Shots = 4
-    Goals = 1
-    Assists = 0
-    Free Kicks = 0
-    Fouls = 1
-    Yellow Cards = 0
-    Red Cards = 0
-    Offsides = 0
+*   **Goals:**
+    *   Snippet 4: "Player29(Away Team) scores with a right-footed shot from outside the box..." - Counts as 1 Goal.
+    Total Goals = 1
+
+*   **Assists:**
+    *   Snippet 1: "...with an assist from Player28(Away Team)." - This does *not* count as an assist for Player29.
+    *   Snippet 2: "...after an assist from Player27(Away Team)." - This does *not* count as an assist for Player29.
+    *   Snippet 6: "...with Player28(Away Team)'s assistance..." - This does *not* count as an assist for Player29.
+    Total Assists = 0
+
+*   **Free Kicks (Taken):**
+    * Snippet 5: Player29(Away Team) commits a foul on Player2(Home Team), who earns a free kick on the right wing. Player29 did not take a free kick.
+    Total Free Kicks = 0
+
+*   **Fouls (Committed):**
+    *   Snippet 5: "Player29(Away Team) commits a foul on Player2(Home Team)..." - Counts as 1 Foul.
+    Total Fouls = 1
+
+*   **Yellow Cards:**
+    *   No snippets mention Player29 receiving a yellow card.
+    Total Yellow Cards = 0
+
+*   **Red Cards:**
+    *   No snippets mention Player29 receiving a red card.
+    Total Red Cards = 0
+
+*   **Offsides:**
+    *   Snippet 3: "Player29(Away Team) from the Away Team attempts a through ball, but Player22(Away Team) is offside." - Player 29 did not get called offside
+    Total Offsides = 0
 
 Final Summary Table:
 ```markdown

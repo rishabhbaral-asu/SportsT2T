@@ -1,21 +1,28 @@
-Okay, let's analyze the commentary snippets for Player20 and generate the summary table.
+Okay, let's break this down step by step.
 
-**Player Name:** Player20
+1.  **Player Identification:** The target player is Player20.
 
-**Commentary Snippets:**
-- Player20(Away Team) earns a free kick in their own half.
-- Player20(Away Team) commits a foul.
+2.  **Initialization:** We initialize all event counters for Player20 to 0.
 
-**Event Tracking:**
+3.  **Snippet Analysis:**
 
-*   **Shots:** No explicit mention of shots taken by Player20. Count = 0
-*   **Goals:** No explicit mention of goals scored by Player20. Count = 0
-*   **Assists:** No explicit mention of assists provided by Player20. Count = 0
-*   **Free Kicks:** The first snippet states "Player20(Away Team) earns a free kick in their own half." This counts as a free kick awarded *to* Player20, so it is counted as a free kick taken by Player20. Count = 1
-*   **Fouls:** The second snippet states "Player20(Away Team) commits a foul." Count = 1
-*   **Yellow Cards:** No explicit mention of Player20 receiving a yellow card. Count = 0
-*   **Red Cards:** No explicit mention of Player20 receiving a red card. Count = 0
-*   **Offsides:** No explicit mention of Player20 being offsides. Count = 0
+    *   **Snippet 1:** "Player20(Away Team) earns a free kick in their own half."
+        *   This snippet explicitly states Player20 earns a free kick.
+        *   Increment Free Kicks (taken) by 1.
+
+    *   **Snippet 2:** "Player20(Away Team) commits a foul."
+        *   This snippet explicitly states Player20 commits a foul.
+        *   Increment Fouls (committed) by 1.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
 Final Summary Table:
 ```markdown

@@ -1,25 +1,25 @@
-Okay, let's analyze the commentary snippets for Player8 and compile the statistics.
+Okay, let's process the input and generate the player statistics table.
 
 **Player Name:** Player8
 
 **Commentary Snippets:**
 
-*   "Player8(Home Team)'s shot from outside the box is saved in the bottom right corner with an assist from Player9(Home Team)." - This snippet contains a shot.
-*   "Player8(Home Team) commits a foul." - This snippet contains a foul.
-*   "Player8(Home Team) commits a foul, giving Player27(Away Team) a free kick in the attacking half, ." - This snippet contains a foul.
-*   "Player8(Home Team) receives a yellow card for a reckless challenge." - This snippet contains a yellow card.
-*   "Player8(Home Team) commits a foul, resulting in Player25(Away Team) winning a free kick in their own defensive half." - This snippet contains a foul.
+- Player8(Home Team)'s shot from outside the box is saved in the bottom right corner with an assist from Player9(Home Team).
+- Player8(Home Team) commits a foul.
+- Player8(Home Team) commits a foul, giving Player27(Away Team) a free kick in the attacking half, .
+- Player8(Home Team) receives a yellow card for a reckless challenge.
+- Player8(Home Team) commits a foul, resulting in Player25(Away Team) winning a free kick in their own defensive half.
 
-**Event Counting:**
+**Reasoning:**
 
-*   **Shots:** The first snippet mentions "Player8's shot", so Shots = 1.
-*   **Goals:** No goals are explicitly mentioned for Player8. Goals = 0.
-*   **Assists:** No assists are explicitly mentioned as being *given* by Player8 to another player. Player8 received the assist so assists = 0
-*   **Free Kicks:** No free kicks are explicitly mentioned as being *taken* by Player8. Player8 conceding free kicks does not count. Free Kicks = 0.
-*   **Fouls:** The second, third and fifth snippets mention "Player8 commits a foul", so Fouls = 3.
-*   **Yellow Cards:** The fourth snippet mentions "Player8 receives a yellow card", so Yellow Cards = 1.
-*   **Red Cards:** No red cards are explicitly mentioned for Player8. Red Cards = 0.
-*   **Offsides:** No offsides are explicitly mentioned for Player8. Offsides = 0.
+1.  **Shots:** The first snippet states "Player8(Home Team)'s shot from outside the box is saved". This is an explicit shot by Player8, so we increment the shot count to 1.
+2.  **Goals:** No snippet mentions Player8 scoring a goal.
+3.  **Assists:** The first snippet mentions "with an assist from Player9(Home Team)". This means Player8 received an assist and did not provide an assist. So the assist count remains 0.
+4.  **Free Kicks:** The second snippet and fifth snippet state that the player commits a foul, therefore not taking a free kick. The third snippet states "giving Player27(Away Team) a free kick". Therefore, the free kick count remains 0.
+5.  **Fouls:** The second snippet states "Player8(Home Team) commits a foul.", so the foul count is incremented to 1. The third snippet also states "Player8(Home Team) commits a foul", which increments the foul count to 2. The fifth snippet states "Player8(Home Team) commits a foul", which increments the foul count to 3.
+6.  **Yellow Cards:** The fourth snippet says, "Player8(Home Team) receives a yellow card". This means the yellow card count increments to 1.
+7.  **Red Cards:** No snippet mentions Player8 receiving a red card.
+8.  **Offsides:** No snippet mentions Player8 being offside.
 
 Final Summary Table:
 ```markdown

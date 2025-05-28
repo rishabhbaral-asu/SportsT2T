@@ -1,47 +1,85 @@
-Okay, let's analyze the commentary snippets for Player28 and generate the final summary table.
+Okay, let's break down the commentary snippets for Player28 and tally their statistics.
 
-1.  **Player Name:** Player28
+**1. Player Identification:**
 
-2.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+The target player is Player28.
 
-3.  **Snippet Analysis:**
+**2. Initialization:**
 
-    *   Snippet 1: "Player28(Away Team)'s shot from the right side of the box is blocked after a headed pass from Player27(Away Team)."
-        *   Shots += 1 (Explicitly stated that Player28 took a shot)
+We start with all counts at 0: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
 
-    *   Snippet 2: "Player28(Away Team) misses the target with a left-footed shot from outside the box after a quick counterattack."
-        *   Shots += 1 (Explicitly stated that Player28 took a shot)
+**3. Snippet Analysis and Counting:**
 
-    *   Snippet 3: "Player28(Away Team) scores with a close-range shot from Player29(Away Team)'s cross, making it 1-0 to the Away Team."
-        *   Shots += 1 (Explicitly stated that Player28 scored)
-        *   Goals += 1 (Explicitly stated that Player28 scored)
+*   **Snippet 1:** "Player28(Away Team)'s shot from the right side of the box is blocked after a headed pass from Player27(Away Team)."
+    *   Shots: +1 (explicitly stated "shot")
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
-    *   Snippet 4: "Player28(Away Team) commits a foul, giving Player7(Home Team) a free kick in their own defensive half."
-        *   Fouls += 1 (Explicitly stated that Player28 committed a foul)
+*   **Snippet 2:** "Player28(Away Team) misses the target with a left-footed shot from outside the box after a quick counterattack."
+    *   Shots: +1 (explicitly stated "shot")
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
-    *   Snippet 5: "Player28(Away Team) commits a foul on Player7(Home Team), resulting in a free kick being awarded to Player7(Home Team) on the left wing."
-        *   Fouls += 1 (Explicitly stated that Player28 committed a foul)
+*   **Snippet 3:** "Player28(Away Team) scores with a close-range shot from Player29(Away Team)'s cross, making it 1-0 to the Away Team."
+    *   Shots: +1 (explicitly stated "shot" and "scores")
+    *   Goals: +1 (explicitly stated "scores")
+    *   Assists: 0 (Player28 was *assisted by* Player29)
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
-    *   Snippet 6: "Player28(Away Team) fouls Player17(Home Team), resulting in a free kick being awarded to Player17(Home Team) on the right wing."
-        *   Fouls += 1 (Explicitly stated that Player28 committed a foul)
+*   **Snippet 4:** "Player28(Away Team) commits a foul, giving Player7(Home Team) a free kick in their own defensive half."
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: +1 (explicitly stated "commits a foul")
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
-4.  **Final Counts:**
-    *   Shots = 3
-    *   Goals = 1
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 3
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+*   **Snippet 5:** "Player28(Away Team) commits a foul on Player7(Home Team), resulting in a free kick being awarded to Player7(Home Team) on the left wing."
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: +1 (explicitly stated "commits a foul")
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+*   **Snippet 6:** "Player28(Away Team) fouls Player17(Home Team), resulting in a free kick being awarded to Player17(Home Team) on the right wing."
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: +1 (explicitly stated "fouls")
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+**4. Final Tally:**
+
+Shots: 3
+Goals: 1
+Assists: 0
+Free Kicks: 0
+Fouls: 3
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
 
 Final Summary Table:
 ```markdown

@@ -1,10 +1,10 @@
-Okay, let's analyze the commentary snippets for Player23.
+Okay, let's analyze the commentary snippets for Player23 and generate the final summary table.
 
-**1. Identify the target player:**
+**1. Identify Target Player:**
 
 The target player is Player23.
 
-**2. Initialize counts:**
+**2. Initialize Counts:**
 
 *   Shots: 0
 *   Goals: 0
@@ -15,13 +15,11 @@ The target player is Player23.
 *   Red Cards: 0
 *   Offsides: 0
 
-**3. Analyze each snippet:**
+**3. Analyze Commentary Snippets:**
 
 *   Snippet 1: "Player23(Away Team)'s left-footed shot from the center of the box, assisted by Player28(Away Team), is blocked, and they are now ready to continue."
-    *   This snippet explicitly mentions "shot" by Player23.
-        *   Increment Shots: Shots = 0 + 1 = 1
-    *   The snippet mentions Player23 was assisted by Player28, so Player23 gets no assist.
-    * No mention of Goals, Free Kicks, Fouls, Yellow Cards, Red Cards, or Offsides.
+    *   Mentions "shot" by Player23. Increment Shots count.
+    *   Mentions Player23 was assisted by Player28. This does not increment Player23's assist count.
 
 **4. Final Counts:**
 
@@ -35,7 +33,6 @@ The target player is Player23.
 *   Offsides: 0
 
 Final Summary Table:
-
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

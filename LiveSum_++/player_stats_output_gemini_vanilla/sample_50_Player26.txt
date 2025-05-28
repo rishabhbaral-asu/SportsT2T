@@ -1,23 +1,41 @@
-Okay, let's analyze the commentary snippets for Player26 and generate the requested markdown table.
+Okay, let's analyze the commentary snippets for Player26 and compile the statistics.
 
-**Player Name:** Player26
+1.  **Identify the target player:** Player26
 
-**Commentary Snippets:**
-- Player26(Away Team) commits a foul.
-- Player26(Away Team) commits a foul, resulting in a corner kick for the Home Team, The Home Team is awarded a corner kick after Player26(Away Team) fouls.
-- Player26(Away Team) commits a foul.
-- Player26(Away Team) receives a yellow card.
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
-**Analysis:**
+3.  **Analyze Commentary Snippets:**
 
-*   **Shots:** No explicit mentions of shots taken by Player26. Count: 0
-*   **Goals:** No explicit mentions of goals scored by Player26. Count: 0
-*   **Assists:** No explicit mentions of assists provided by Player26. Count: 0
-*   **Free Kicks:** No explicit mentions of Player26 taking a free kick or winning a free kick. Count: 0
-*   **Fouls:** The snippets mention "Player26(Away Team) commits a foul." a total of three times, so we increment the fouls committed count by 3. Count: 3
-*   **Yellow Cards:** The snippet mentions "Player26(Away Team) receives a yellow card." so we increment the yellow cards count by 1. Count: 1
-*   **Red Cards:** No explicit mentions of red cards received by Player26. Count: 0
-*   **Offsides:** No explicit mentions of Player26 being offsides. Count: 0
+    *   Snippet 1: "Player26(Away Team) commits a foul."
+        *   Fouls: Increment to 1.
+
+    *   Snippet 2: "Player26(Away Team) commits a foul, resulting in a corner kick for the Home Team, The Home Team is awarded a corner kick after Player26(Away Team) fouls."
+        *   Fouls: Increment to 2.
+
+    *   Snippet 3: "Player26(Away Team) commits a foul."
+        *   Fouls: Increment to 3.
+
+    *   Snippet 4: "Player26(Away Team) receives a yellow card."
+        *   Yellow Cards: Increment to 1.
+
+4.  **Compile Final Counts:**
+
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 3
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
 
 Final Summary Table:
 ```markdown

@@ -1,27 +1,34 @@
-Okay, I will analyze the commentary snippets for Player11 and provide the final summary table with the counts for each event.
+Okay, let's analyze the commentary snippets for Player11 and generate the statistics table.
 
-**Player Name:** Player11
+**1. Player Name:**
 
-**Commentary Snippets:**
+The target player is Player11.
 
-- Player11(Home Team) from the Home Team attempts to pass the ball to Player7(Home Team), but Player7(Home Team) is offside.
-- Player11(Home Team) earns a free kick near the opponent's goal.
-- Player11(Home Team) earns a free kick in their own half.
-- Player11(Home Team)'s left footed shot from outside the box was blocked, while Player4(Home Team)'s right footed shot from the center of the box, assisted by Player2(Home Team), went high and wide to the left.
-- Player11(Home Team) misses the target with a left-footed shot from close range, assisted by Player9(Home Team).
+**2. Initialization:**
 
-**Analysis:**
+We initialize all event counts to 0 for Player11.
 
-1.  **Shots:** Player11 is mentioned to have a shot blocked and to miss the target with a shot. That's 2 shots in total.
-2.  **Goals:** No goals are explicitly mentioned for Player11.
-3.  **Assists:** No assists are explicitly mentioned for Player11. Player11 was assisted by Player9 in one snippet, so no assists for Player11.
-4.  **Free Kicks:** Player11 earns a free kick twice, so 2 free kicks.
-5.  **Fouls:** No fouls are explicitly mentioned for Player11.
-6.  **Yellow Cards:** No yellow cards are explicitly mentioned for Player11.
-7.  **Red Cards:** No red cards are explicitly mentioned for Player11.
-8.  **Offsides:** Player11 is mentioned in a play that leads to another player being called offside, so no offsides are registered for Player11.
+**3. Snippet Analysis:**
 
-Final Summary Table:
+*   **Snippet 1:** "Player11(Home Team) from the Home Team attempts to pass the ball to Player7(Home Team), but Player7(Home Team) is offside." - This mentions an attempted pass but Player7 is offside, there is no indication that the pass led to a goal and therefore does not qualify as an assist, nor does it qualify as a shot or free kick. Offsides does not apply, as this measures the player being in offside position.
+*   **Snippet 2:** "Player11(Home Team) earns a free kick near the opponent's goal." - This indicates that Player11 won a free kick. This increments the 'Free Kicks' count by 1.
+*   **Snippet 3:** "Player11(Home Team) earns a free kick in their own half." - This indicates that Player11 won a free kick. This increments the 'Free Kicks' count by 1.
+*   **Snippet 4:** "Player11(Home Team)'s left footed shot from outside the box was blocked, while Player4(Home Team)'s right footed shot from the center of the box, assisted by Player2(Home Team), went high and wide to the left." - This indicates Player11 had a shot that was blocked. This increments the 'Shots' count by 1.
+*   **Snippet 5:** "Player11(Home Team) misses the target with a left-footed shot from close range, assisted by Player9(Home Team)." - This indicates Player11 had a shot that missed the target. This increments the 'Shots' count by 1.
+
+**4. Final Counts:**
+
+*   Shots: 2
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 2
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**Final Summary Table:**
+
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

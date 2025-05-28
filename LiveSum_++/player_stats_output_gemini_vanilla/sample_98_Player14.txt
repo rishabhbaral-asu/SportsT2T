@@ -1,22 +1,36 @@
 Okay, let's analyze the commentary snippets for Player14.
 
-**Player Name:** Player14
+1.  **Player Name:** Player14
 
-**Commentary Snippets:**
-- Player14(Home Team) commits a foul.
-- Player14(Home Team) commits a foul.
-- Player14(Home Team) receives a yellow card for a rough tackle.
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
-**Event Tracking:**
+3.  **Commentary Snippet Analysis:**
 
-*   **Shots:** 0 (No explicit mentions of shots taken by Player14)
-*   **Goals:** 0 (No explicit mentions of goals scored by Player14)
-*   **Assists:** 0 (No explicit mentions of assists provided by Player14)
-*   **Free Kicks:** 0 (No explicit mentions of Player14 taking a free kick)
-*   **Fouls:** 2 (Two explicit mentions of Player14 committing a foul)
-*   **Yellow Cards:** 1 (One explicit mention of Player14 receiving a yellow card)
-*   **Red Cards:** 0 (No explicit mentions of Player14 receiving a red card)
-*   **Offsides:** 0 (No explicit mentions of Player14 being offside)
+    *   Snippet 1: "Player14(Home Team) commits a foul."
+        *   Fouls: Increment by 1 (explicitly states Player14 commits a foul). Total Fouls = 1
+    *   Snippet 2: "Player14(Home Team) commits a foul."
+        *   Fouls: Increment by 1 (explicitly states Player14 commits a foul). Total Fouls = 2
+    *   Snippet 3: "Player14(Home Team) receives a yellow card for a rough tackle."
+        *   Yellow Cards: Increment by 1 (explicitly states Player14 receives a yellow card). Total Yellow Cards = 1
+        *   Fouls: No additional increment. A foul has already been counted when incrementing Yellow Cards.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 2
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
 
 Final Summary Table:
 ```markdown

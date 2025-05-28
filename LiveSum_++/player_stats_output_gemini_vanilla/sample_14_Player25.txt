@@ -2,7 +2,7 @@ Okay, let's analyze the commentary snippets for Player25.
 
 1.  **Player Name:** Player25
 
-2.  **Initial Counts:**
+2.  **Initialization:**
     *   Shots: 0
     *   Goals: 0
     *   Assists: 0
@@ -15,15 +15,17 @@ Okay, let's analyze the commentary snippets for Player25.
 3.  **Snippet Analysis:**
 
     *   Snippet 1: "Player25(Away Team) earns a free kick in the attacking half after being fouled by Player9(Home Team)."
-        *   This snippet indicates Player25 *earned* a free kick. This means Player25 wins the free kick.
-        *   Free Kicks: Increment by 1.
+        *   Player25 earns a free kick. This counts as a Free Kick (taken).
+        *   Free Kicks: 0 + 1 = 1
 
     *   Snippet 2: "Player25(Away Team) scored with a right footed shot assisted by Player28(Away Team), making the score Home Team 0, Away Team 2."
-        *   This snippet indicates Player25 *scored*.
-        *   Goals: Increment by 1.
-        *   Shots: Increment by 1.
+        *   Player25 scored a goal. This counts as a Goal.
+        *   Goals: 0 + 1 = 1
+        *   Player25 took a shot which resulted in a goal. This counts as a Shot.
+        *   Shots: 0 + 1 = 1
+        *   Player25 was assisted by Player28, so no assist for Player25.
 
-4. **Final Counts:**
+4.  **Final Counts:**
     *   Shots: 1
     *   Goals: 1
     *   Assists: 0

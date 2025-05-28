@@ -4,7 +4,7 @@ Okay, let's analyze the commentary snippets for Player22 and generate the reques
 
 The target player is Player22.
 
-**2. Initialize Counts:**
+**2. Initialize Event Counts:**
 
 *   Shots: 0
 *   Goals: 0
@@ -18,12 +18,13 @@ The target player is Player22.
 **3. Analyze Commentary Snippets:**
 
 *   **Snippet 1:** "Player22(Away Team) attempts a through ball, but Player28(Away Team) is offside for the Away Team."
-    *   Player22 attempts a through ball, which leads to Player28 being offside. This does not count as an assist.
-    *   Offsides: Player22 did not commit an offside. Player28 did, which is not relevant.
+    *   This snippet mentions Player22 attempting a through ball, but this does not count as any of the tracked statistics, but the mention of Player28 being offside as a result of the pass by Player22 DOES NOT mean Player22 is offside. The action of Player22 is passing; the result is that a teammate is offside. No offside action can be added to Player22 here.
 *   **Snippet 2:** "Player22(Away Team) commits a foul."
-    *   Fouls: Player22 commits a foul. Increment Fouls by 1. Fouls = 1
+    *   This snippet explicitly states Player22 committed a foul. Increment Fouls count by 1.
+    *   Fouls: 1
 *   **Snippet 3:** "Player22(Away Team) earns a free kick in their own defensive half after a foul committed by Player4(Home Team)."
-    *   Free Kicks: Player22 earns a free kick. Increment Free Kicks by 1. Free Kicks = 1
+    *   This snippet mentions Player22 earning a free kick. Increment Free Kicks count by 1.
+    *   Free Kicks: 1
 
 **4. Final Counts:**
 
@@ -36,7 +37,8 @@ The target player is Player22.
 *   Red Cards: 0
 *   Offsides: 0
 
-Final Summary Table:
+**5. Final Summary Table:**
+
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

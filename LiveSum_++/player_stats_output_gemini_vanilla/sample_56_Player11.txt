@@ -1,22 +1,23 @@
-Okay, let's analyze the commentary snippets for Player11 and compile the statistics.
+Okay, let's break this down.
 
-**Player Name:** Player11
+1.  **Player Name:** The target player is Player11.
+2.  **Initialization:** We start with all event counts at 0 for Player11.
 
-**Commentary Snippets:**
-- Player11(Home Team)'s shot from outside the box is saved in the top center of the goal, with an assist from Player4(Home Team).
+Now we process the commentary snippets:
 
-Reasoning:
+*   **Snippet 1:** "Player11(Home Team)'s shot from outside the box is saved in the top center of the goal, with an assist from Player4(Home Team)."
 
-1.  **Shots:** The snippet states "Player11(Home Team)'s shot from outside the box is saved...". This is an explicit shot attempt by Player11. Count: 1.
-2.  **Goals:** The shot was saved, so it's not a goal. Count: 0.
-3.  **Assists:** The snippet states "with an assist from Player4(Home Team)". Player11 received the assist, he did not provide one. Count: 0.
-4.  **Free Kicks:** No mention of Player11 taking a free kick, penalty, or being fouled. Count: 0.
-5.  **Fouls:** No mention of Player11 committing a foul. Count: 0.
-6.  **Yellow Cards:** No mention of Player11 receiving a yellow card. Count: 0.
-7.  **Red Cards:** No mention of Player11 receiving a red card. Count: 0.
-8.  **Offsides:** No mention of Player11 being offsides. Count: 0.
+    *   **Shots:** "shot" is present and attributed to Player11, so Shots = 1.
+    *   **Goals:** "goal" or "scores" is NOT present, so Goals = 0.
+    *   **Assists:** The snippet says Player11's shot was *assisted by* Player4, not the other way around. Therefore, Assists = 0.
+    *   **Free Kicks:** No mention of free kicks or penalties being taken by or awarded to Player11, so Free Kicks = 0.
+    *   **Fouls:** No mention of Player11 committing a foul, so Fouls = 0.
+    *   **Yellow Cards:** No mention of Player11 receiving a yellow card, so Yellow Cards = 0.
+    *   **Red Cards:** No mention of Player11 receiving a red card, so Red Cards = 0.
+    *   **Offsides:** No mention of Player11 being offside, so Offsides = 0.
 
 Final Summary Table:
+
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

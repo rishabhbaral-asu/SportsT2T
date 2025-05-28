@@ -1,4 +1,4 @@
-Okay, let's analyze the commentary snippets for Player2 and generate the statistics table.
+Okay, let's analyze the commentary snippets for Player2 and compile the statistics.
 
 **Player Name:** Player2
 
@@ -8,20 +8,15 @@ Okay, let's analyze the commentary snippets for Player2 and generate the statist
 - Player2(Home Team) commits a foul.
 - Player2(Home Team)'s shot from outside the box is blocked.
 
-**Step-by-step Analysis:**
+**Analysis:**
 
-1.  **Player Identification:** The target player is Player2.
-2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
-3.  **Snippet Analysis:**
+1.  **Free Kicks (Taken):** The first two snippets, "Player2(Home Team) earns a free kick in their own half." and "Player2(Home Team) earns a free kick in their own half.", indicates that the player was fouled and wins a free kick as a result of an opponent's action. This means we increment the "Free Kicks" counter twice.
+2.  **Fouls (Committed):** The snippet "Player2(Home Team) commits a foul." explicitly states that Player2 committed a foul, so we increment the "Fouls" counter once.
+3.  **Shots:** The snippet "Player2(Home Team)'s shot from outside the box is blocked." explicitly states that Player2 took a shot, which was blocked, so we increment the "Shots" counter once.
+4.  **Goals, Assists, Yellow Cards, Red Cards, Offsides:** There are no explicit mentions of Player2 scoring a goal, providing an assist, receiving a yellow card, receiving a red card, or being offside in the provided snippets. Therefore, these counters remain at 0.
 
-    *   **Snippet 1:** "Player2(Home Team) earns a free kick in their own half." - Player2 earns a free kick. This means Player2 wins a free kick. Increment Free Kicks. Free Kicks = 1
-    *   **Snippet 2:** "Player2(Home Team) earns a free kick in their own half." - Player2 earns a free kick. This means Player2 wins a free kick. Increment Free Kicks. Free Kicks = 2
-    *   **Snippet 3:** "Player2(Home Team) commits a foul." - Player2 commits a foul. Increment Fouls. Fouls = 1
-    *   **Snippet 4:** "Player2(Home Team)'s shot from outside the box is blocked." - Player2's shot is blocked. Increment Shots. Shots = 1
+**Final Summary Table:**
 
-4.  **Final Counts:** Shots = 1, Goals = 0, Assists = 0, Free Kicks = 2, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
-
-Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

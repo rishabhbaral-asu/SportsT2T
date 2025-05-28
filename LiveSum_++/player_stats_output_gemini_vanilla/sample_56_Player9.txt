@@ -1,51 +1,37 @@
-Okay, let's analyze the commentary snippets for Player9 and compile the statistics.
+Okay, let's analyze the commentary snippets for Player9 and generate the summary table.
 
-**Player Name:** Player9
+1.  **Player Name:** Player9
 
-**Commentary Snippets:**
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-- Player9(Home Team)'s shot with their right foot from the center of the box to the bottom left corner.
-- Player9(Home Team) earns a free kick on the right side of the field.
-- Player9(Home Team)'s header into the bottom right corner, assisted by Player28(Away Team) with a cross after a corner kick.
-- Player9(Home Team) commits a foul.
-- Player9(Home Team) receives a yellow card.
-- Player9(Home Team) commits a foul, resulting in Player27(Away Team) winning a free kick in their own defensive half.
+3.  **Snippet Analysis:**
 
-**Event Tracking:**
+    *   Snippet 1: "Player9(Home Team)'s shot with their right foot from the center of the box to the bottom left corner."
+        *   Shots = 1
 
-*   **Shots:**
-    *   Snippet 1: "Player9(Home Team)'s shot with their right foot from the center of the box to the bottom left corner." - Counts as 1 shot.
-    *   Snippet 3: "Player9(Home Team)'s header into the bottom right corner, assisted by Player28(Away Team) with a cross after a corner kick." - Counts as 1 shot, as it is a header into the goal.
-    *   Total Shots: 2
+    *   Snippet 2: "Player9(Home Team) earns a free kick on the right side of the field."
+        *   Free Kicks = 1
 
-*   **Goals:**
-    *   Snippet 3: "Player9(Home Team)'s header into the bottom right corner, assisted by Player28(Away Team) with a cross after a corner kick." - Counts as 1 goal.
-    *   Total Goals: 1
+    *   Snippet 3: "Player9(Home Team)'s header into the bottom right corner, assisted by Player28(Away Team) with a cross after a corner kick."
+        *   Shots = 2
+        *   Goals = 1
 
-*   **Assists:**
-    *   Snippet 3: "Player9(Home Team)'s header into the bottom right corner, assisted by Player28(Away Team) with a cross after a corner kick." - Player9 received an assist, they did not *give* one.
-    *   Total Assists: 0
+    *   Snippet 4: "Player9(Home Team) commits a foul."
+        *   Fouls = 1
 
-*   **Free Kicks (Taken):**
-    *   Snippet 2: "Player9(Home Team) earns a free kick on the right side of the field." - Counts as 1 free kick.
-    *   Total Free Kicks: 1
+    *   Snippet 5: "Player9(Home Team) receives a yellow card."
+        *   Yellow Cards = 1
 
-*   **Fouls (Committed):**
-    *   Snippet 4: "Player9(Home Team) commits a foul." - Counts as 1 foul.
-    *   Snippet 6: "Player9(Home Team) commits a foul, resulting in Player27(Away Team) winning a free kick in their own defensive half." - Counts as 1 foul.
-    *   Total Fouls: 2
-
-*   **Yellow Cards:**
-    *   Snippet 5: "Player9(Home Team) receives a yellow card." - Counts as 1 yellow card.
-    *   Total Yellow Cards: 1
-
-*   **Red Cards:**
-    *   No snippets mention a red card for Player9.
-    *   Total Red Cards: 0
-
-*   **Offsides:**
-    *   No snippets mention Player9 being offsides.
-    *   Total Offsides: 0
+    *   Snippet 6: "Player9(Home Team) commits a foul, resulting in Player27(Away Team) winning a free kick in their own defensive half."
+        *   Fouls = 2
 
 Final Summary Table:
 ```markdown

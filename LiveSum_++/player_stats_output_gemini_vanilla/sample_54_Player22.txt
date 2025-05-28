@@ -1,47 +1,26 @@
-Okay, let's analyze the commentary snippets for Player22.
+Okay, let's analyze the commentary snippets for Player22 and compile the statistics.
 
-**1. Player Identification:**
-The target player is Player22.
+**Player Name:** Player22
 
-**2. Initialization:**
-Shots = 0
-Goals = 0
-Assists = 0
-Free Kicks = 0
-Fouls = 0
-Yellow Cards = 0
-Red Cards = 0
-Offsides = 0
+**Commentary Snippets:**
+- Player22(Away Team) earns a free kick in their own half.
+- Player22(Away Team) commits a foul.
+- Player22(Away Team) commits a foul on Player16(Home Team), who then earns a free kick in the attacking half.
+- Player22(Away Team) commits a foul on Player2(Home Team), resulting in a free kick being awarded on the right wing.
+- Player22(Away Team) receives a yellow card for a rough tackle.
 
-**3. Snippet Analysis and Counting:**
+**Step-by-step analysis:**
 
-*   **Snippet 1:** "Player22(Away Team) earns a free kick in their own half."
-    *   Free Kicks: Player22 earns a free kick, so Free Kicks = 1.
+1.  **Shots:** No explicit mentions of shots taken by Player22. Count = 0.
+2.  **Goals:** No explicit mentions of goals scored by Player22. Count = 0.
+3.  **Assists:** No explicit mentions of assists provided by Player22. Count = 0.
+4.  **Free Kicks (Taken):** The first snippet "Player22(Away Team) earns a free kick in their own half." indicates Player22 *wins* a free kick, hence increment Free Kicks count. Count = 1.
+5.  **Fouls (Committed):** The second snippet "Player22(Away Team) commits a foul." explicitly states a foul committed by Player22. Count = 1. The third snippet "Player22(Away Team) commits a foul on Player16(Home Team), who then earns a free kick in the attacking half." explicitly states a foul committed by Player22. Count = 2. The fourth snippet "Player22(Away Team) commits a foul on Player2(Home Team), resulting in a free kick being awarded on the right wing." explicitly states a foul committed by Player22. Count = 3.
+6.  **Yellow Cards:** The fifth snippet "Player22(Away Team) receives a yellow card for a rough tackle." explicitly states Player22 received a yellow card. Count = 1.
+7.  **Red Cards:** No explicit mentions of red cards received by Player22. Count = 0.
+8.  **Offsides:** No explicit mentions of Player22 being offsides. Count = 0.
 
-*   **Snippet 2:** "Player22(Away Team) commits a foul."
-    *   Fouls: Player22 commits a foul, so Fouls = 1.
-
-*   **Snippet 3:** "Player22(Away Team) commits a foul on Player16(Home Team), who then earns a free kick in the attacking half."
-    *   Fouls: Player22 commits a foul, so Fouls = 2.
-
-*   **Snippet 4:** "Player22(Away Team) commits a foul on Player2(Home Team), resulting in a free kick being awarded on the right wing."
-    *   Fouls: Player22 commits a foul, so Fouls = 3.
-
-*   **Snippet 5:** "Player22(Away Team) receives a yellow card for a rough tackle."
-    *   Yellow Cards: Player22 receives a yellow card, so Yellow Cards = 1.
-
-**4. Final Counts:**
-Shots = 0
-Goals = 0
-Assists = 0
-Free Kicks = 1
-Fouls = 3
-Yellow Cards = 1
-Red Cards = 0
-Offsides = 0
-
-**5. Final Summary Table:**
-
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

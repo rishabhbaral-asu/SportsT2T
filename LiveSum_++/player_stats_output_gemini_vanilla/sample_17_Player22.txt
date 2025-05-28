@@ -1,20 +1,38 @@
-Okay, I will analyze the commentary snippets for Player22 and provide the statistics in the requested markdown table format.
+Okay, let's analyze the commentary snippets for Player22 step by step and create the final summary table.
 
-**Player Name:** Player22
+1. **Player Name:** The target player is Player22.
 
-**Commentary Snippets:**
-- Player22(Away Team) commits a foul.
-- Player22(Away Team)'s header from the centre of the box, assisted by Player29(Away Team) following a corner kick, narrowly missed the goal.
-- Player22(Away Team) earns a free kick in their own half.
+2. **Initialization:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
 
-Reasoning:
+3. **Snippet Analysis:**
 
-1.  **Player Name:** The target player is Player22.
-2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
-3.  **Snippet Analysis:**
-    *   "Player22(Away Team) commits a foul.": This is explicitly a foul committed by Player22. Fouls = 1.
-    *   "Player22(Away Team)'s header from the centre of the box, assisted by Player29(Away Team) following a corner kick, narrowly missed the goal.": This is a shot (header attempt) by Player22. Shots = 1. It is also an attempt on goal.
-    *   "Player22(Away Team) earns a free kick in their own half.": This indicates Player22 won a free kick, so Free Kicks = 1.
+    *   **Snippet 1: "Player22(Away Team) commits a foul."**
+        *   Fouls: The snippet explicitly states "Player22 commits a foul", so increment Fouls by 1. Fouls = 1
+
+    *   **Snippet 2: "Player22(Away Team)'s header from the centre of the box, assisted by Player29(Away Team) following a corner kick, narrowly missed the goal."**
+        * Shots: The snippet mentions "Player22's header...narrowly missed the goal," which clearly describes an attempt on goal, so increment Shots by 1. Shots = 1
+
+    *   **Snippet 3: "Player22(Away Team) earns a free kick in their own half."**
+        * Free Kicks: The snippet says "Player22 earns a free kick," so increment Free Kicks by 1. Free Kicks = 1
+
+4. **Final Counts:**
+
+    * Shots = 1
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 1
+    * Fouls = 1
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
 
 Final Summary Table:
 ```markdown

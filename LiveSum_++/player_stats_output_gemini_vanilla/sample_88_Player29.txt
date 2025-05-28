@@ -1,4 +1,4 @@
-Okay, let's analyze the commentary snippets for Player29 and compile the statistics.
+Okay, let's analyze the commentary snippets for Player29.
 
 1.  **Player Name:** Player29
 
@@ -14,25 +14,24 @@ Okay, let's analyze the commentary snippets for Player29 and compile the statist
 
 3.  **Snippet Analysis:**
 
-    *   **Snippet 1:** "Player29(Away Team) misses from long range on the right wing with an assist from Player26(Away Team), while Player9(Home Team)'s shot from the center is saved by the goalkeeper with an assist from Player2(Home Team)."
-        *   Player29 misses a shot.
-        *   Shots += 1
+    *   Snippet 1: "Player29(Away Team) misses from long range on the right wing with an assist from Player26(Away Team), while Player9(Home Team)'s shot from the center is saved by the goalkeeper with an assist from Player2(Home Team)."
+        *   Player29 misses a shot. Increment Shots: Shots = 1.
+        *   Player29 is assisted by Player26, so no assist is added for Player29.
 
-    *   **Snippet 2:** "Player29(Away Team)'s shot from the left side of the box just misses the top right corner, with an assist from Player32(Away Team)."
-        *   Player29 takes a shot.
-        *   Shots += 1
+    *   Snippet 2: "Player29(Away Team)'s shot from the left side of the box just misses the top right corner, with an assist from Player32(Away Team)."
+        *   Player29 takes a shot. Increment Shots: Shots = 2.
+        *   Player29 is assisted by Player32, so no assist is added for Player29.
 
-    *   **Snippet 3:** "Player29(Away Team)'s shot from the center of the box is saved by the goalkeeper, assisted by Player20(Away Team), resulting in a corner kick for the Away Team."
-        *   Player29 takes a shot.
-        *   Shots += 1
+    *   Snippet 3: "Player29(Away Team)'s shot from the center of the box is saved by the goalkeeper, assisted by Player20(Away Team), resulting in a corner kick for the Away Team."
+        *   Player29 takes a shot which is saved. Increment Shots: Shots = 3.
+        *   Player29 is assisted by Player20, so no assist is added for Player29.
 
-    *   **Snippet 4:** "Player29(Away Team)'s left-footed shot from the center of the box, assisted by Player28(Away Team)."
-        *   Player29 takes a shot.
-        *   Shots += 1
+    *   Snippet 4: "Player29(Away Team)'s left-footed shot from the center of the box, assisted by Player28(Away Team)."
+        *   Player29 takes a shot. Increment Shots: Shots = 4.
+        *   Player29 is assisted by Player28, so no assist is added for Player29.
 
-    *   **Snippet 5:** "Player29(Away Team) commits a foul."
-        *   Player29 commits a foul.
-        *   Fouls += 1
+    *   Snippet 5: "Player29(Away Team) commits a foul."
+        *   Player29 commits a foul. Increment Fouls: Fouls = 1.
 
 4.  **Final Counts:**
     *   Shots = 4

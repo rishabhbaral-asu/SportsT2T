@@ -1,41 +1,24 @@
-Okay, I'm ready to process the commentary snippets and generate the player statistics table.
+Okay, let's analyze the commentary snippets for Player29 and generate the summary table.
 
-**1. Identify Target Player:**
+**Player Name:** Player29
 
-The target player is Player29.
+**Commentary Snippets:**
 
-**2. Initialize Counts:**
+*   "Player29(Away Team) earns a free kick on the left side of the field."
+*   "Player29(Away Team) commits a foul."
+*   "Player29(Away Team) commits a foul, resulting in Player5(Home Team) winning a free kick in their own defensive half."
+*   "Player29(Away Team)'s right-footed shot from outside the box is saved in the bottom left corner after being assisted by Player28(Away Team) with a headed pass, resulting in a corner kick for the Away Team."
 
-*   Shots = 0
-*   Goals = 0
-*   Assists = 0
-*   Free Kicks = 0
-*   Fouls = 0
-*   Yellow Cards = 0
-*   Red Cards = 0
-*   Offsides = 0
+**Event Counting:**
 
-**3. Analyze Commentary Snippets:**
-
-*   **Snippet 1:** "Player29(Away Team) earns a free kick on the left side of the field."
-    *   Player29 earns a free kick. Increment Free Kicks: Free Kicks = 1
-*   **Snippet 2:** "Player29(Away Team) commits a foul."
-    *   Player29 commits a foul. Increment Fouls: Fouls = 1
-*   **Snippet 3:** "Player29(Away Team) commits a foul, resulting in Player5(Home Team) winning a free kick in their own defensive half."
-    *   Player29 commits a foul. Increment Fouls: Fouls = 2
-*   **Snippet 4:** "Player29(Away Team)'s right-footed shot from outside the box is saved in the bottom left corner after being assisted by Player28(Away Team) with a headed pass, resulting in a corner kick for the Away Team."
-    *   Player29 takes a shot that is saved. Increment Shots: Shots = 1
-
-**4. Final Counts:**
-
-*   Shots = 1
-*   Goals = 0
-*   Assists = 0
-*   Free Kicks = 1
-*   Fouls = 2
-*   Yellow Cards = 0
-*   Red Cards = 0
-*   Offsides = 0
+*   **Shots:** The fourth snippet explicitly mentions "Player29(Away Team)'s right-footed shot...is saved". Therefore, Shots = 1.
+*   **Goals:** None of the snippets explicitly mention Player29 scoring a goal. Therefore, Goals = 0.
+*   **Assists:** The fourth snippet mentions that Player29 was assisted by Player28, so Player29 did not provide the assist. Therefore, Assists = 0.
+*   **Free Kicks (Taken):** The first snippet states "Player29(Away Team) earns a free kick on the left side of the field." This implies Player29 won the free kick. So, Free Kicks = 1.
+*   **Fouls (Committed):** The second snippet says "Player29(Away Team) commits a foul." The third snippet says "Player29(Away Team) commits a foul, resulting in Player5(Home Team) winning a free kick in their own defensive half." Therefore, Fouls = 2.
+*   **Yellow Cards:** None of the snippets mention Player29 receiving a yellow card. Therefore, Yellow Cards = 0.
+*   **Red Cards:** None of the snippets mention Player29 receiving a red card. Therefore, Red Cards = 0.
+*   **Offsides:** None of the snippets mention Player29 being offsides. Therefore, Offsides = 0.
 
 Final Summary Table:
 

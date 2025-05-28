@@ -1,29 +1,32 @@
-Okay, let's start.
+Okay, let's analyze the commentary snippets for Player7.
 
-**Objective:** Analyze commentary snippets for Player7 and count explicit occurrences of defined events.
+1.  **Player Name:** Player7
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-**Input:**
-* **Player Name:**
-    <PLAYER_NAME>
-    Player7
-    </PLAYER_NAME>
-* **Commentary Snippets:**
-    <PLAYER_COMMENTARY_SNIPPETS>
-    - Player7(Home Team) commits a foul.
-    </PLAYER_COMMENTARY_SNIPPETS>
-
-**Process:**
-
-1.  **Player Name:** The target player is Player7.
-2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
-3.  **Analyze Snippets:**
+3.  **Snippet Analysis:**
     *   Snippet 1: "Player7(Home Team) commits a foul."
-        *   The snippet explicitly states that Player7 committed a foul.
-        *   Increment Fouls by 1. Fouls = 1.
+        *   The snippet explicitly states Player7 commits a foul.
+        *   Increment Fouls: Fouls = 1
 
-4.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-**Final Summary Table:**
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

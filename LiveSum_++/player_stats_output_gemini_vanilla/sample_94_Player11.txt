@@ -1,9 +1,8 @@
-Okay, let's analyze the commentary snippets for Player11.
+Okay, let's analyze the commentary snippets for Player11 and create the summary table.
 
-*   **Player Name:** Player11
+1.  **Identify Player Name:** The player name is Player11.
 
-*   **Initialization:**
-
+2.  **Initialize Counts:**
     *   Shots = 0
     *   Goals = 0
     *   Assists = 0
@@ -13,23 +12,14 @@ Okay, let's analyze the commentary snippets for Player11.
     *   Red Cards = 0
     *   Offsides = 0
 
-*   **Commentary Snippet Analysis:**
+3.  **Analyze Snippets:**
 
-    *   Snippet 1: "Player11(Home Team) is currently sidelined due to an injury, causing a delay in the match." - No relevant events to count.
+    *   **Snippet 1:** "Player11(Home Team) is currently sidelined due to an injury, causing a delay in the match." - This snippet doesn't contain any of the tracked events performed *by* Player11.
+    *   **Snippet 2:** "Player11(Home Team)'s left-footed shot from the left side of the box is saved in the bottom right corner after a through ball from Player9(Home Team)." - This snippet mentions a "shot" by Player11. Shots = 1.
+    *   **Snippet 3:** "Player11(Home Team)'s attempt from outside the box is blocked." - This snippet mentions an "attempt" which counts as a "shot". Shots = 2.
+    *   **Snippet 4:** "Player11(Home Team)'s attempt at a goal from outside the box with his right foot goes wide to the right, assisted by Player3(Home Team)." - This snippet mentions an "attempt" which counts as a "shot". Shots = 3. Player11 was *assisted by* Player3, so Player11 does not get credit for an assist.
 
-    *   Snippet 2: "Player11(Home Team)'s left-footed shot from the left side of the box is saved in the bottom right corner after a through ball from Player9(Home Team)." - Contains "shot" explicitly attributed to Player11. Increment Shots.
-
-        *   Shots = 1
-
-    *   Snippet 3: "Player11(Home Team)'s attempt from outside the box is blocked." - Contains "attempt" and "blocked" explicitly attributed to Player11. Increment Shots.
-
-        *   Shots = 2
-
-    *   Snippet 4: "Player11(Home Team)'s attempt at a goal from outside the box with his right foot goes wide to the right, assisted by Player3(Home Team)." - Contains "attempt" and "goal". Increment Shots. Assisted by Player3, so no assists for Player11.
-
-        *   Shots = 3
-
-*   **Final Counts:**
+4.  **Final Counts:**
 
     *   Shots = 3
     *   Goals = 0

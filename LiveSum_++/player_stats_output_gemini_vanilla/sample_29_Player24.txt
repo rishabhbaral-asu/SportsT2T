@@ -1,35 +1,50 @@
-Okay, let's analyze the commentary snippets for Player24 and generate the requested markdown table.
+Okay, let's analyze the commentary snippets for Player24 and compile the statistics.
 
-**1. Player Identification:**
+1.  **Player Name:** `Player24`
 
-The target player is Player24.
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
-**2. Initialization:**
+3.  **Analyze Commentary Snippets:**
 
-We initialize the event counts for Player24 to 0.
+    *   Snippet 1: "Player24(Away Team)'s header from the center of the box, assisted by Player25(Away Team) with a cross following a corner kick, goes over the goal."
+        *   Shots: The snippet describes a header by Player24 that goes over the goal, so it's a shot. Increment Shots to 1.
+        *   Goals: No goal is scored.
+        *   Assists: Player24 was assisted by Player25, so no assist for Player24.
+        *   Free Kicks: No free kick events are mentioned.
+        *   Fouls: No fouls mentioned.
+        *   Yellow Cards: No yellow cards mentioned.
+        *   Red Cards: No red cards mentioned.
+        *   Offsides: No offsides mentioned.
 
-**3. Snippet Analysis:**
+    *   Snippet 2: "Player24(Away Team) commits a foul."
+        *   Shots: No shot mentioned.
+        *   Goals: No goal mentioned.
+        *   Assists: No assist mentioned.
+        *   Free Kicks: No free kick mentioned.
+        *   Fouls: The snippet explicitly states Player24 commits a foul. Increment Fouls to 1.
+        *   Yellow Cards: No yellow cards mentioned.
+        *   Red Cards: No red cards mentioned.
+        *   Offsides: No offsides mentioned.
 
-*   **Snippet 1:** "Player24(Away Team)'s header from the center of the box, assisted by Player25(Away Team) with a cross following a corner kick, goes over the goal."
-    *   "header" implies an attempt on goal. Therefore, Shots is incremented.
-    *   There is no mention of a goal being scored.
-    *   The snippet mentions Player24 was *assisted by* another player. Therefore, no assist for Player24.
-*   **Snippet 2:** "Player24(Away Team) commits a foul."
-    *   The snippet explicitly states Player24 commits a foul. Therefore, Fouls is incremented.
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
-**4. Count Aggregation:**
-
-*   Shots: 1
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 1
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
-
-**5. Final Summary Table:**
-
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

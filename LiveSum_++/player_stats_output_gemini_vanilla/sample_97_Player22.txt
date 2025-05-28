@@ -1,39 +1,29 @@
-Okay, I will follow the instructions to analyze the commentary snippets for Player22 and generate the final summary table.
+Okay, let's analyze the provided commentary snippets for Player22 and generate the final summary table.
 
-1.  **Identify the target player:** Player22
+**1. Identify Target Player:**
+The target player is Player22.
 
-2.  **Initialize event counts:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 0
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+**2. Initialize Counts:**
+Shots: 0, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
 
-3.  **Analyze each snippet and increment counts:**
+**3. Analyze Commentary Snippets:**
 
-    *   Snippet 1: "Player22(Away Team) earns a free kick in their own half."
-        *   "earns a free kick" is a keyword for Free Kicks. Increment Free Kicks by 1.
-
-    *   Snippet 2: "Player22(Away Team) commits a foul, resulting in Player15(Home Team) winning a free kick in their defensive half."
-        *   "commits a foul" is a keyword for Fouls. Increment Fouls by 1.
-
-    *   Snippet 3: "Player22(Away Team) attempts a through ball, but Player27(Away Team) is offside."
-        *   The snippet states that Player27 is offside, not Player22. Thus, do not increment Offsides for Player22.
-
-4.  **Final Counts:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
+*   **Snippet 1:** "Player22(Away Team) earns a free kick in their own half."
+    *   This snippet indicates Player22 earned a free kick. This is credited as a free kick taken.
     *   Free Kicks: 1
-    *   Fouls: 1
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
 
-Final Summary Table:
+*   **Snippet 2:** "Player22(Away Team) commits a foul, resulting in Player15(Home Team) winning a free kick in their defensive half."
+    *   This snippet indicates Player22 committed a foul.
+    *   Fouls: 1
+
+*   **Snippet 3:** "Player22(Away Team) attempts a through ball, but Player27(Away Team) is offside."
+    *   This snippet indicates Player22 attempted a pass that resulted in another player being offside. This counts as an offside for Player27, not Player22.
+    *   Offsides: 0 (No change, Player22 was not offside)
+
+**4. Final Counts:**
+Shots: 0, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 1, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+**Final Summary Table:**
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

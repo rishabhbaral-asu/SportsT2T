@@ -1,43 +1,47 @@
-Okay, I will follow the instructions to analyze the commentary snippets for the specified player and generate the final summary table.
+Okay, I'm ready to process the soccer commentary snippets and generate the player statistics table.
 
-1.  **Identify the target player name:**
-    The target player name is Player22.
+**1. Identify Target Player:**
 
-2.  **Initialize counts:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 0
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+The target player is Player22.
 
-3.  **Analyze each snippet:**
+**2. Initialize Counts:**
 
-    *   Snippet 1: "Player22(Away Team) earns a free kick in their own half after being fouled by Player11(Home Team)."
-        *   Player22 earns a free kick. This increments Free Kicks by 1.
-        *   Free Kicks: 1
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
 
-    *   Snippet 2: "Player22(Away Team) commits a foul on Player4(Home Team), resulting in a free kick for Player4(Home Team) in their own defensive half."
-        *   Player22 commits a foul. This increments Fouls by 1.
-        *   Fouls: 1
+**3. Analyze Commentary Snippets:**
 
-    *   Snippet 3: "Player22(Away Team) earns a free kick in their own half."
-        *   Player22 earns a free kick. This increments Free Kicks by 1.
-        *   Free Kicks: 2
+*   **Snippet 1:** "Player22(Away Team) earns a free kick in their own half after being fouled by Player11(Home Team)."
+    *   Player22 earns a free kick. Increment Free Kicks.
+    *   Free Kicks: 1
 
-4.  **Final Counts:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 2
+*   **Snippet 2:** "Player22(Away Team) commits a foul on Player4(Home Team), resulting in a free kick for Player4(Home Team) in their own defensive half."
+    *   Player22 commits a foul. Increment Fouls.
     *   Fouls: 1
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
 
-Final Summary Table:
+*   **Snippet 3:** "Player22(Away Team) earns a free kick in their own half."
+    *   Player22 earns a free kick. Increment Free Kicks.
+    *   Free Kicks: 2
+
+**4. Final Counts:**
+
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 2
+Fouls: 1
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**Final Summary Table:**
+
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

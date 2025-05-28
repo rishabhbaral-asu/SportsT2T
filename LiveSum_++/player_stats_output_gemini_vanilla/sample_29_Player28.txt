@@ -1,29 +1,49 @@
-Okay, let's analyze the commentary snippets for Player28 and compile the statistics.
+Okay, let's analyze the commentary snippets for Player28 and generate the final summary table.
 
-**Player Name:** Player28
+1.  **Player Name:** Player28
 
-**Commentary Snippets:**
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-*   "Player28(Away Team) attempts a left-footed shot from outside the box, but it goes just over the crossbar with an assist from Player25(Away Team)." - This is a shot attempt by Player28.
+3.  **Snippet Analysis:**
 
-*   "Player28(Away Team)'s left footed shot from outside the box was blocked with an assist from Player29(Away Team)." - This is a shot attempt by Player28.
+    *   Snippet 1: "Player28(Away Team) attempts a left-footed shot from outside the box, but it goes just over the crossbar with an assist from Player25(Away Team)."
+        *   Shots = 1 (Explicitly mentioned "attempts a left-footed shot")
+        *   Assists = 0 (Player28 received the assist, didn't give one.)
 
-*   "Player28(Away Team)'s attempt from outside the box is blocked with the help of Player29(Away Team), resulting in Player10(Home Team) winning a free kick in the defensive half." - This is a shot attempt by Player28.
+    *   Snippet 2: "Player28(Away Team)'s left footed shot from outside the box was blocked with an assist from Player29(Away Team)."
+        *   Shots = 2 (Explicitly mentioned "left footed shot")
+        *   Assists = 0 (Player28 received the assist, didn't give one.)
 
-*   "Player28(Away Team)'s left footed shot from the center of the box is blocked, resulting in a corner kick for the Away Team." - This is a shot attempt by Player28.
+    *   Snippet 3: "Player28(Away Team)'s attempt from outside the box is blocked with the help of Player29(Away Team), resulting in Player10(Home Team) winning a free kick in the defensive half."
+        *   Shots = 3 (Explicitly mentioned "attempt")
+        * Free Kicks = 0 (Player28 did not take a free kick or get fouled)
+        *   Assists = 0 (No assist mentioned)
 
-*   "Player28(Away Team)'s attempt from outside the box is blocked by Player22(Away Team), with Player2(Home Team) winning a free kick in the defensive half." - This is a shot attempt by Player28.
+    *   Snippet 4: "Player28(Away Team)'s left footed shot from the center of the box is blocked, resulting in a corner kick for the Away Team."
+        *   Shots = 4 (Explicitly mentioned "left footed shot")
+        *   Assists = 0 (No assist mentioned)
 
-**Event Tracking and Counting (Player28):**
-
-*   **Shots:** Player28 attempts shots in all 5 snippets. Total shots = 5
-*   **Goals:** No goals are explicitly mentioned for Player28. Total goals = 0
-*   **Assists:** No assists are explicitly mentioned for Player28. While Player28 receives assists, it does not contribute to his assists count. Total assists = 0
-*   **Free Kicks:** No free kicks are explicitly taken by Player28, or resulting from a foul on Player28. Total free kicks = 0.
-*   **Fouls:** No fouls are explicitly committed by Player28. Total fouls = 0
-*   **Yellow Cards:** No yellow cards are explicitly mentioned for Player28. Total yellow cards = 0
-*   **Red Cards:** No red cards are explicitly mentioned for Player28. Total red cards = 0
-*   **Offsides:** No offsides are explicitly mentioned for Player28. Total offsides = 0
+    *   Snippet 5: "Player28(Away Team)'s attempt from outside the box is blocked by Player22(Away Team), with Player2(Home Team) winning a free kick in the defensive half."
+        *   Shots = 5 (Explicitly mentioned "attempt")
+        * Free Kicks = 0 (Player28 did not take a free kick or get fouled)
+        *   Assists = 0 (No assist mentioned)
+4.  **Final Counts:**
+    *   Shots = 5
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
 Final Summary Table:
 ```markdown

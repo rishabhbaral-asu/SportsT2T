@@ -1,51 +1,54 @@
-Okay, let's break down the commentary snippets and compile the stats for Player10.
+Okay, let's analyze the commentary snippets for Player10 and generate the summary table.
 
-1.  **Player Name:** The target player is Player10.
+**Player Name:** Player10
 
-2.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+**Commentary Snippets:**
 
-3.  **Snippet Analysis:**
+*   Player10(Home Team) wins a free kick on the right wing after Player21(Away Team) commits a foul, .
+*   Player10(Home Team) scores with a right-footed shot from the right side of the six-yard box to give the Home Team a 1-0 lead over the Away Team.
+*   Player10(Home Team) earns a free kick on the right side of the field.
+*   Player10(Home Team) commits a foul.
+*   Player10(Home Team)'s left footed shot from the right side of the box was close, but missed to the left with an assist from Player11(Home Team).
+*   Player10(Home Team) commits a foul.
 
-    *   **Snippet 1:** "Player10(Home Team) wins a free kick on the right wing after Player21(Away Team) commits a foul, ."
-        *   Player10 wins a free kick. Increment Free Kicks by 1. (Free Kicks = 1)
+**Analysis:**
 
-    *   **Snippet 2:** "Player10(Home Team) scores with a right-footed shot from the right side of the six-yard box to give the Home Team a 1-0 lead over the Away Team."
-        *   Player10 scores a goal. Increment Goals by 1. (Goals = 1)
-        *   Player10 took a shot (implied by scoring). Increment Shots by 1. (Shots = 1)
+1.  **Shots:**
+    *   Snippet 2: "Player10(Home Team) scores with a right-footed shot..." - This counts as a shot.
+    *   Snippet 5: "Player10(Home Team)'s left footed shot from the right side of the box was close, but missed to the left..." - This counts as a shot.
+    Total Shots: 2
 
-    *   **Snippet 3:** "Player10(Home Team) earns a free kick on the right side of the field."
-        *   Player10 earns a free kick. Increment Free Kicks by 1. (Free Kicks = 2)
+2.  **Goals:**
+    *   Snippet 2: "Player10(Home Team) scores with a right-footed shot..." - This counts as a goal.
+    Total Goals: 1
 
-    *   **Snippet 4:** "Player10(Home Team) commits a foul."
-        *   Player10 commits a foul. Increment Fouls by 1. (Fouls = 1)
+3.  **Assists:**
+    *   Snippet 5: "Player10(Home Team)'s left footed shot from the right side of the box was close, but missed to the left with an assist from Player11(Home Team)." Player10 receives the assist, but did not provide one.
+    Total Assists: 0
 
-    *   **Snippet 5:** "Player10(Home Team)'s left footed shot from the right side of the box was close, but missed to the left with an assist from Player11(Home Team)."
-        *   Player10 took a shot. Increment Shots by 1. (Shots = 2)
+4.  **Free Kicks (Taken):**
+    *   Snippet 1: "Player10(Home Team) wins a free kick on the right wing after Player21(Away Team) commits a foul, ." - This counts as a free kick.
+    *   Snippet 3: "Player10(Home Team) earns a free kick on the right side of the field." - This counts as a free kick.
+    Total Free Kicks: 2
 
-    *   **Snippet 6:** "Player10(Home Team) commits a foul."
-        *   Player10 commits a foul. Increment Fouls by 1. (Fouls = 2)
+5.  **Fouls (Committed):**
+    *   Snippet 4: "Player10(Home Team) commits a foul." - This counts as a foul.
+    *   Snippet 6: "Player10(Home Team) commits a foul." - This counts as a foul.
+    Total Fouls: 2
 
-4.  **Final Counts:**
+6.  **Yellow Cards:**
+    *   No snippets explicitly mention Player10 receiving a yellow card.
+    Total Yellow Cards: 0
 
-    *   Shots = 2
-    *   Goals = 1
-    *   Assists = 0
-    *   Free Kicks = 2
-    *   Fouls = 2
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+7.  **Red Cards:**
+    *   No snippets explicitly mention Player10 receiving a red card.
+    Total Red Cards: 0
 
-5.  **Final Summary Table:**
+8.  **Offsides:**
+    *   No snippets explicitly mention Player10 being offsides.
+    Total Offsides: 0
 
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

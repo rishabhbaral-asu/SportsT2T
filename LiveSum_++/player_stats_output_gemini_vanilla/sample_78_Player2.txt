@@ -1,39 +1,50 @@
-Okay, I will follow the instructions to analyze the commentary snippets for Player2 and generate the final summary table.
+Okay, let's process the input according to the instructions.
 
-**Step 1: Identify the target player**
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
 
-The target player is Player2.
+**Input:**
+* **Player Name:**
+```
+<PLAYER_NAME>
+Player2
+</PLAYER_NAME>
+```
+* **Commentary Snippets:**
+```
+<PLAYER_COMMENTARY_SNIPPETS>
+- Player2(Home Team) attempts to pass the ball to Player9(Home Team), but Player9(Home Team) is in an offside position.
+- Player2(Home Team) commits a foul.
+</PLAYER_COMMENTARY_SNIPPETS>
+```
 
-**Step 2: Initialize the counts**
+**Analysis:**
 
-*   Shots = 0
-*   Goals = 0
-*   Assists = 0
-*   Free Kicks = 0
-*   Fouls = 0
-*   Yellow Cards = 0
-*   Red Cards = 0
-*   Offsides = 0
+1. **Player Name:** The target player is Player2.
+2. **Initialization:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+3. **Snippet Analysis:**
+    * **Snippet 1:** "Player2(Home Team) attempts to pass the ball to Player9(Home Team), but Player9(Home Team) is in an offside position."
+        * Player2 attempts to pass the ball to Player9, who is offside. This does not increment any of the stats as there are no shots, goals, assists, free kicks, fouls, or cards explicitly mentioned. The offside is against Player9, not Player2.
+    * **Snippet 2:** "Player2(Home Team) commits a foul."
+        * Player2 commits a foul.
+        * Fouls = Fouls + 1 = 1
 
-**Step 3: Analyze the commentary snippets**
-
-*   Snippet 1: "Player2(Home Team) attempts to pass the ball to Player9(Home Team), but Player9(Home Team) is in an offside position."
-    *   This snippet mentions Player2 attempting a pass, which results in Player9 being offside. This does not count as a shot, goal, assist, free kick or foul for Player2. Offside is attributed to Player9.
-*   Snippet 2: "Player2(Home Team) commits a foul."
-    *   This snippet explicitly states Player2 committed a foul. Therefore, increment the 'Fouls' count by 1. Fouls = 1.
-
-**Step 4: Compile the results**
-
-*   Shots = 0
-*   Goals = 0
-*   Assists = 0
-*   Free Kicks = 0
-*   Fouls = 1
-*   Yellow Cards = 0
-*   Red Cards = 0
-*   Offsides = 0
-
-**Step 5: Create the final summary table**
+4. **Final Counts:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 1
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
 
 Final Summary Table:
 ```markdown

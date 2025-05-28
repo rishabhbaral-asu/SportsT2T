@@ -1,39 +1,27 @@
 Okay, let's analyze the commentary snippets for Player29.
 
-1.  **Player Name:** Player29
+**Player Name:** Player29
 
-2.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+**Commentary Snippets:**
 
-3.  **Snippet Analysis:**
+*   Player29(Away Team) fouls Player2(Home Team) in the defensive half, resulting in a free kick being awarded.
+*   Player29(Away Team)'s left footed shot from the center of the box narrowly misses to the right, assisted by Player25(Away Team) after a set piece.
+*   Player29(Away Team) commits a foul.
+*   Player29(Away Team) of the Away Team attempts a through ball, but Player25(Away Team) is offside.
 
-    *   Snippet 1: "Player29(Away Team) fouls Player2(Home Team) in the defensive half, resulting in a free kick being awarded."
-        *   Fouls: Player29 commits a foul. Increment Fouls by 1.
-    *   Snippet 2: "Player29(Away Team)'s left footed shot from the center of the box narrowly misses to the right, assisted by Player25(Away Team) after a set piece."
-        *   Shots: Player29 takes a shot. Increment Shots by 1.
-    *   Snippet 3: "Player29(Away Team) commits a foul."
-        *   Fouls: Player29 commits a foul. Increment Fouls by 1.
-    *   Snippet 4: "Player29(Away Team) of the Away Team attempts a through ball, but Player25(Away Team) is offside."
-        *   Offsides: Player25 is offside, therefore Player29 is not offside.
+**Analysis:**
 
-4.  **Final Counts:**
-    *   Shots = 1
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 2
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+1.  **Shots:** The second snippet states "Player29(Away Team)'s left footed shot from the center of the box narrowly misses to the right...". This explicitly mentions a shot attempt by Player29, so increment Shots by 1.
+2.  **Goals:** No snippet explicitly states Player29 scored a goal.
+3.  **Assists:** No snippet explicitly states Player29 provided an assist. Player29 was assisted by Player25, not the other way around.
+4.  **Free Kicks:** The first snippet states "Player29(Away Team) fouls Player2(Home Team) in the defensive half, resulting in a free kick being awarded." Player29 committed a foul, not took a free kick. In the instruction if the player is mentioned conceding a free kick, that does not count as a free kick. No other snippet suggests Player29 took a free kick or won a free kick.
+5.  **Fouls:** The first snippet states "Player29(Away Team) fouls Player2(Home Team) in the defensive half...". This explicitly mentions Player29 committing a foul, so increment Fouls by 1. The third snippet states "Player29(Away Team) commits a foul.", so increment Fouls by 1. Total Fouls = 2.
+6.  **Yellow Cards:** No snippet explicitly states Player29 received a yellow card.
+7.  **Red Cards:** No snippet explicitly states Player29 received a red card.
+8.  **Offsides:** No snippet explicitly states Player29 was offside, it states that Player25 was offside after Player29 attempted a through ball, therefore, do not count an offside for Player29
 
-Final Summary Table:
+**Final Summary Table:**
+
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

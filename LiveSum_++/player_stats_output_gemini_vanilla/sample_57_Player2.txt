@@ -1,42 +1,36 @@
-Okay, let's analyze the commentary snippets for Player2 and compile the statistics.
+Okay, let's analyze the commentary snippets for Player2 and generate the summary table.
 
-**Player Name:** Player2
+1.  **Player Name:** Player2
+2.  **Initialization:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
-**Commentary Snippets:**
+3.  **Snippet Analysis:**
 
-*   "Player2(Home Team) misses the target with a long-range shot from the right side."
-*   "Player2(Home Team) earns a free kick on the right side of the field."
-*   "Player2(Home Team)'s header from the center of the box is blocked after being assisted by Player12(Home Team) with a cross."
-*   "Player2(Home Team)'s header was saved by the goalkeeper after a cross from Player12(Home Team)."
+    *   Snippet 1: "Player2(Home Team) misses the target with a long-range shot from the right side."
+        *   Shots: Increment to 1 (explicitly a shot by Player2)
+    *   Snippet 2: "Player2(Home Team) earns a free kick on the right side of the field."
+        *   Free Kicks: Increment to 1 (Player2 earns a free kick)
+    *   Snippet 3: "Player2(Home Team)'s header from the center of the box is blocked after being assisted by Player12(Home Team) with a cross."
+        *   Shots: Increment to 2 (Explicitly a header attempt, therefore a shot)
+    *   Snippet 4: "Player2(Home Team)'s header was saved by the goalkeeper after a cross from Player12(Home Team)."
+        *   Shots: Increment to 3 (Explicitly a header attempt that was saved, therefore a shot)
 
-**Step-by-step analysis:**
-
-1.  **Shots:**
-    *   "Player2(Home Team) misses the target with a long-range shot from the right side." - This is a shot. Count: 1
-    *   "Player2(Home Team)'s header from the center of the box is blocked after being assisted by Player12(Home Team) with a cross." - This is a shot (header attempt). Count: 1
-    *   "Player2(Home Team)'s header was saved by the goalkeeper after a cross from Player12(Home Team)." - This is a shot (header attempt). Count: 1
-    Total Shots: 3
-2.  **Goals:**
-    *   No snippets explicitly state Player2 scored a goal.
-    Total Goals: 0
-3.  **Assists:**
-    *   No snippets explicitly state Player2 assisted a goal. The mentions are the opposite way around (Player2 assisted by someone else).
-    Total Assists: 0
-4.  **Free Kicks (Taken):**
-    *   "Player2(Home Team) earns a free kick on the right side of the field." - Player2 won a free kick. Count: 1
-    Total Free Kicks: 1
-5.  **Fouls (Committed):**
-    *   No snippets explicitly state Player2 committed a foul.
-    Total Fouls: 0
-6.  **Yellow Cards:**
-    *   No snippets explicitly state Player2 received a yellow card.
-    Total Yellow Cards: 0
-7.  **Red Cards:**
-    *   No snippets explicitly state Player2 received a red card.
-    Total Red Cards: 0
-8.  **Offsides:**
-    *   No snippets explicitly state Player2 was offside.
-    Total Offsides: 0
+4.  **Final Counts:**
+    *   Shots: 3
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
 Final Summary Table:
 ```markdown

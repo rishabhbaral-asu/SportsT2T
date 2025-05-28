@@ -1,9 +1,11 @@
-Okay, let's analyze the provided commentary snippets for Player2 and generate the requested markdown table.
+Okay, let's analyze the provided commentary snippets for Player2 and generate the final summary table.
 
-**1. Identify Target Player:**
-The target player is Player2.
+**1. Identify the target player name:**
 
-**2. Initialize Counts:**
+The target player name is Player2.
+
+**2. Initialize counts:**
+
 *   Shots: 0
 *   Goals: 0
 *   Assists: 0
@@ -13,17 +15,16 @@ The target player is Player2.
 *   Red Cards: 0
 *   Offsides: 0
 
-**3. Analyze Commentary Snippets:**
+**3. Analyze commentary snippets:**
 
 *   Snippet 1: "Player2(Home Team) earns a free kick in their own half."
-    *   This snippet explicitly states Player2 earned a free kick.
-    *   Increment Free Kicks: Free Kicks = 0 + 1 = 1
+    *   "earns a free kick" implies Player2 was fouled, so Free Kicks += 1
 
 *   Snippet 2: "Player2(Home Team) commits a foul."
-    *   This snippet explicitly states Player2 committed a foul.
-    *   Increment Fouls: Fouls = 0 + 1 = 1
+    *   "commits a foul" implies Player2 committed a foul, so Fouls += 1
 
 **4. Final Counts:**
+
 *   Shots: 0
 *   Goals: 0
 *   Assists: 0
@@ -33,7 +34,7 @@ The target player is Player2.
 *   Red Cards: 0
 *   Offsides: 0
 
-**Final Summary Table:**
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

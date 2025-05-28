@@ -1,40 +1,48 @@
-Okay, let's analyze the commentary snippets for Player2 and generate the summary table.
+Okay, let's analyze the commentary snippets for Player2 and create the summary table.
 
-1.  **Player Name:** The target player is Player2.
-2.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+**Player Name:** Player2
 
-3.  **Snippet Analysis:**
+**Commentary Snippets:**
 
-    *   Snippet 1: "Player2(Home Team) commits a foul."
-        *   The snippet explicitly states that Player2 committed a foul.
-        *   Fouls = 1
+- Player2(Home Team) commits a foul.
+- Player2(Home Team) commits a foul.
+- Player2(Home Team) receives a yellow card for a rough tackle.
 
-    *   Snippet 2: "Player2(Home Team) commits a foul."
-        *   The snippet explicitly states that Player2 committed a foul.
-        *   Fouls = 2
+**Step-by-step analysis:**
 
-    *   Snippet 3: "Player2(Home Team) receives a yellow card for a rough tackle."
-        *   The snippet explicitly states that Player2 received a yellow card.
-        *   Yellow Cards = 1
-        *   The snippet also refers to a "rough tackle", which is a foul. Since we already counted these other fouls, this does not count for another foul.
+1.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
-4.  **Final Counts:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 2
-    *   Yellow Cards = 1
-    *   Red Cards = 0
-    *   Offsides = 0
+2.  **Analyze Snippets:**
+
+    *   **Snippet 1: "Player2(Home Team) commits a foul."**
+        *   The snippet explicitly states Player2 committed a foul.
+        *   Increment Fouls: Fouls = 0 + 1 = 1
+
+    *   **Snippet 2: "Player2(Home Team) commits a foul."**
+        *   The snippet explicitly states Player2 committed a foul.
+        *   Increment Fouls: Fouls = 1 + 1 = 2
+
+    *   **Snippet 3: "Player2(Home Team) receives a yellow card for a rough tackle."**
+        *   The snippet explicitly states Player2 received a yellow card.
+        *   Increment Yellow Cards: Yellow Cards = 0 + 1 = 1
+
+3.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 2
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
 
 Final Summary Table:
 ```markdown

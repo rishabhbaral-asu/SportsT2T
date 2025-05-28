@@ -1,42 +1,22 @@
-Okay, let's analyze the commentary snippets for Player23 and compile the statistics.
+Okay, let's start.
 
-**Player Name:** Player23
+First, I identify the target player name from `<PLAYER_NAME>`: Player23
 
-**Commentary Snippets:**
+Second, I initialize all event counts to 0: Shots=0, Goals=0, Assists=0, Free Kicks=0, Fouls=0, Yellow Cards=0, Red Cards=0, Offsides=0.
 
-*   "Player23(Away Team) earns a free kick in their own half after a foul committed by Player10(Home Team)."
-*   "Player23(Away Team) is currently sidelined due to an injury, causing a delay in the match."
+Third, I analyze each snippet in `<PLAYER_COMMENTARY_SNIPPETS>`:
 
-**Step-by-step analysis:**
+Snippet 1: "Player23(Away Team) earns a free kick in their own half after a foul committed by Player10(Home Team)."
 
-1.  **Initialize Counts:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+*   The snippet explicitly states Player23 earns a free kick. This means Player23 wins a free kick as a result of an opponent's foul, so the 'Free Kicks' count is incremented by 1.
 
-2.  **Analyze Snippets:**
+Snippet 2: "Player23(Away Team) is currently sidelined due to an injury, causing a delay in the match."
 
-    *   **Snippet 1:** "Player23(Away Team) earns a free kick in their own half after a foul committed by Player10(Home Team)."
-        *   This snippet explicitly states that Player23 "earns a free kick". This means that Player23 was fouled and wins the free kick. This corresponds to a "Free Kick".
-        *   Free Kicks = Free Kicks + 1 = 1
+*   This snippet does not explicitly state any of the events I am tracking, so no counts are incremented.
 
-    *   **Snippet 2:** "Player23(Away Team) is currently sidelined due to an injury, causing a delay in the match."
-        *   This snippet mentions Player23 is injured and sidelined. This does not relate to any of the tracked events.
+Fourth, I have finished analyzing all snippets.
 
-3.  **Final Counts:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 1
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+Fifth, I create the final summary table.
 
 Final Summary Table:
 ```markdown

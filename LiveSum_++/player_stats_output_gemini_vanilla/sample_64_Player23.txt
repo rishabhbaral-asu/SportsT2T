@@ -1,41 +1,49 @@
-Okay, let's analyze the provided commentary snippets for Player23.
+Okay, let's analyze the commentary snippets for Player23 and generate the statistics table.
 
-1.  **Player Name:** Player23
+**Player Name:** Player23
 
-2.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+**Commentary Snippets:**
 
-3.  **Snippet Analysis:**
+*   "Player23(Away Team)'s header from the center of the box is blocked after an assist from Player29(Away Team), resulting in a corner kick for the Away Team."
+*   "Player23(Away Team)'s header from the center of the box, assisted by Player21(Away Team), goes too high after a corner kick."
 
-    *   Snippet 1: "Player23(Away Team)'s header from the center of the box is blocked after an assist from Player29(Away Team), resulting in a corner kick for the Away Team."
-        *   "header" implies an attempt on goal. The phrase "is blocked" clarifies it's a shot that didn't result in a goal. This is attributed to Player23.
-        *   Shots += 1
-        *   There is an assist mentioned in the sentence, but it is explicitly by Player29, so no assist is awarded to Player23.
+**Step-by-step analysis:**
 
-    *   Snippet 2: "Player23(Away Team)'s header from the center of the box, assisted by Player21(Away Team), goes too high after a corner kick."
-        *   "header" implies an attempt on goal and "goes too high" indicates it did not result in a goal. This is attributed to Player23.
-        *   Shots += 1
-        *   There is an assist mentioned in the sentence, and it is explicitly by Player21, so no assist is awarded to Player23.
+1.  **Shots:**
+    *   Snippet 1: "Player23(Away Team)'s header from the center of the box is blocked..." - This indicates a shot attempt (header) by Player23 which was blocked, hence it counts as one shot.
+    *   Snippet 2: "Player23(Away Team)'s header from the center of the box, assisted by Player21(Away Team), goes too high after a corner kick." - This indicates a shot attempt (header) by Player23 which went high, hence it counts as one shot.
+    *   Total Shots = 1 + 1 = 2
 
-4.  **Final Counts:**
+2.  **Goals:**
+    *   Neither snippet explicitly states that Player23 scored a goal.
+    *   Total Goals = 0
 
-    *   Shots = 2
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+3.  **Assists:**
+    *   Neither snippet states Player23 gave an assist. Both snippets mention Player23 receiving assists.
+    *   Total Assists = 0
 
-Final Summary Table:
+4.  **Free Kicks (Taken):**
+    *   Neither snippet explicitly mentions Player23 taking a free kick or penalty kick.
+    *   Total Free Kicks = 0
+
+5.  **Fouls (Committed):**
+    *   Neither snippet indicates Player23 committed a foul.
+    *   Total Fouls = 0
+
+6.  **Yellow Cards:**
+    *   Neither snippet mentions Player23 receiving a yellow card.
+    *   Total Yellow Cards = 0
+
+7.  **Red Cards:**
+    *   Neither snippet mentions Player23 receiving a red card.
+    *   Total Red Cards = 0
+
+8.  **Offsides:**
+    *   Neither snippet mentions Player23 being offsides.
+    *   Total Offsides = 0
+
+**Final Summary Table:**
+
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

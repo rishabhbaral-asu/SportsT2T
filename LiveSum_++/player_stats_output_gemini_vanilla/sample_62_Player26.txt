@@ -2,34 +2,35 @@ Okay, let's analyze the commentary snippets for Player26.
 
 1.  **Player Name:** Player26
 
-2.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
-3.  **Snippet Analysis:**
+3.  **Analyze Snippets:**
 
-    *   **Snippet 1:** "Player26(Away Team) scores with a right-footed shot from outside the box, assisted by Player25(Away Team), Home Team 0, Away Team 1."
-        *   The snippet explicitly states "Player26 scores". Therefore, Goals += 1.
-        *   The snippet explicitly states "Player26 scores with a right-footed shot". Therefore, Shots += 1.
-        *   The snippet explicitly states "assisted by Player25". Therefore, Assists += 0 (Player26 was assisted *by* another player, not the other way around. This does NOT count as an assist for Player26).
-    *   **Snippet 2:** "Player26(Away Team) is holding up the game due to an injury."
-        *   No events triggered.
+    *   Snippet 1: "Player26(Away Team) scores with a right-footed shot from outside the box, assisted by Player25(Away Team), Home Team 0, Away Team 1."
+        *   Goals: Player26 scores a goal. Increment Goals to 1.
+        *   Shots: Scoring a goal counts as a shot. Increment Shots to 1.
+        *   Assists: The snippet says Player26 was *assisted by* Player25, so Player26 did not provide an assist. Do not increment Assists.
+
+    *   Snippet 2: "Player26(Away Team) is holding up the game due to an injury."
+        *   No relevant events are mentioned.
 
 4.  **Final Counts:**
-    *   Shots = 1
-    *   Goals = 1
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+    *   Shots: 1
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
 Final Summary Table:
 ```markdown

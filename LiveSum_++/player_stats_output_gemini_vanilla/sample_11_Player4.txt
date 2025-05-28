@@ -1,47 +1,90 @@
-Okay, let's analyze the commentary snippets for Player4.
+Okay, let's analyze the commentary snippets for Player4 and compile the statistics.
 
-1.  **Player Name:** Player4
+**1. Player Name:**
+The target player is Player4.
 
-2.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+**2. Initialization:**
+We initialize the counts for Player4 as follows:
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
 
-3.  **Snippet Analysis:**
+**3. Snippet Analysis and Counting:**
 
-    *   Snippet 1: "Player4(Home Team)'s left-footed shot from outside the box, assisted by Player9(Home Team), was blocked due to a foul by Player25(Away Team)."
-        *   Shots += 1 (explicitly mentioned "shot")
+*   **Snippet 1:** "Player4(Home Team)'s left-footed shot from outside the box, assisted by Player9(Home Team), was blocked due to a foul by Player25(Away Team)."
+    *   Shots: Player4 takes a shot that is blocked. Increment Shots to 1.
+    *   Goals: No goal scored.
+    *   Assists: Player4 received an assist; no assist for Player4 here.
+    *   Free Kicks: Foul by Player25(Away Team) but it isn't mentioned that Player4 wins a free kick.
+    *   Fouls: No foul committed by Player4.
+    *   Yellow Cards: None.
+    *   Red Cards: None.
+    *   Offsides: None.
 
-    *   Snippet 2: "Player4(Home Team) earns a free kick in their own half."
-        *   Free Kicks += 1 (explicitly mentioned "earns a free kick")
+*   **Snippet 2:** "Player4(Home Team) earns a free kick in their own half."
+    *   Shots: None.
+    *   Goals: None.
+    *   Assists: None.
+    *   Free Kicks: Player4 earns a free kick. Increment Free Kicks to 1.
+    *   Fouls: None.
+    *   Yellow Cards: None.
+    *   Red Cards: None.
+    *   Offsides: None.
 
-    *   Snippet 3: "Player4(Home Team)'s left-footed shot from outside the box into the top right corner, assisted by Player9(Home Team)."
-        *   Shots += 1 (explicitly mentioned "shot")
-        *   Goals += 1 (explicitly mentioned a shot that went into the top right corner, thus a "goal")
+*   **Snippet 3:** "Player4(Home Team)'s left-footed shot from outside the box into the top right corner, assisted by Player9(Home Team)."
+    *   Shots: Player4 takes a shot and scores. Increment Shots to 2.
+    *   Goals: Player4 scores a goal. Increment Goals to 1.
+    *   Assists: Player4 received an assist; no assist for Player4 here.
+    *   Free Kicks: None.
+    *   Fouls: None.
+    *   Yellow Cards: None.
+    *   Red Cards: None.
+    *   Offsides: None.
 
-    *   Snippet 4: "Player4(Home Team) earns a free kick in their own defensive half."
-        *   Free Kicks += 1 (explicitly mentioned "earns a free kick")
+*   **Snippet 4:** "Player4(Home Team) earns a free kick in their own defensive half."
+    *   Shots: None.
+    *   Goals: None.
+    *   Assists: None.
+    *   Free Kicks: Player4 earns a free kick. Increment Free Kicks to 2.
+    *   Fouls: None.
+    *   Yellow Cards: None.
+    *   Red Cards: None.
+    *   Offsides: None.
 
-    *   Snippet 5: "Player4(Home Team) earns a free kick in their own half."
-        *   Free Kicks += 1 (explicitly mentioned "earns a free kick")
+*   **Snippet 5:** "Player4(Home Team) earns a free kick in their own half."
+    *   Shots: None.
+    *   Goals: None.
+    *   Assists: None.
+    *   Free Kicks: Player4 earns a free kick. Increment Free Kicks to 3.
+    *   Fouls: None.
+    *   Yellow Cards: None.
+    *   Red Cards: None.
+    *   Offsides: None.
 
-    *   Snippet 6: "Player4(Home Team) earns a free kick in their own half."
-        *   Free Kicks += 1 (explicitly mentioned "earns a free kick")
+*   **Snippet 6:** "Player4(Home Team) earns a free kick in their own half."
+    *   Shots: None.
+    *   Goals: None.
+    *   Assists: None.
+    *   Free Kicks: Player4 earns a free kick. Increment Free Kicks to 4.
+    *   Fouls: None.
+    *   Yellow Cards: None.
+    *   Red Cards: None.
+    *   Offsides: None.
 
-4.  **Final Counts:**
-    *   Shots = 2
-    *   Goals = 1
-    *   Assists = 0
-    *   Free Kicks = 4
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+**4. Final Counts:**
+*   Shots: 2
+*   Goals: 1
+*   Assists: 0
+*   Free Kicks: 4
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
 
 Final Summary Table:
 ```markdown

@@ -1,28 +1,41 @@
 Okay, let's analyze the commentary snippets for Player1.
 
-1.  **Player Name:** Player1
+**1. Player Identification:**
+The target player is Player1.
 
-2.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+**2. Initialization:**
+We initialize the counts for Player1 as follows:
+* Shots: 0
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 0
+* Yellow Cards: 0
+* Red Cards: 0
+* Offsides: 0
 
-3.  **Snippet Analysis:**
+**3. Snippet Analysis:**
 
-    *   Snippet 1: "Player1(Home Team) attempts a through ball, but Player12(Home Team) is caught offside."
-        *   This snippet describes Player1 attempting a through ball, leading to Player12 being offside. This means Player1 caused Player12 to be offside.
-        *   Since the snippets describe the player being offside, we should increase the 'Offsides' count by 1 for Player1.
-        *   Offsides = 1
+*   **Snippet 1:** "Player1(Home Team) attempts a through ball, but Player12(Home Team) is caught offside."
+    *   The snippet indicates that Player1 *attempted a through ball*. This action does not explicitly qualify as a Shot, Goal, Assist, Free Kick, Foul, Yellow Card, or Red Card.
+    *   The phrase "caught offside" refers to Player12, not Player1.
+    *   Since the through ball does not directly lead to a goal, it is not counted as an assist.
+    *   Player1 is mentioned as attempting the through ball, and it did not lead to a goal. Therefore no changes to counts needed
 
-4.  **Final Summary Table:**
+**4. Final Count:**
+Based on the analysis, the final counts for Player1 are:
+* Shots: 0
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 0
+* Yellow Cards: 0
+* Red Cards: 0
+* Offsides: 0
 
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player1 | 0     | 0     | 0       | 0          | 0     | 0            | 0         | 1        |
+| Player1 | 0     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
 ```

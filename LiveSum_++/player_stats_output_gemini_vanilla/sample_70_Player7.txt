@@ -1,67 +1,44 @@
-Okay, let's analyze the commentary snippets for Player7 and compile the statistics.
+Okay, let's analyze the commentary snippets for Player7.
 
-**1. Player Name:**
+**Player Name:** Player7
 
-The target player is Player7.
+**Commentary Snippets:**
+- Player7(Home Team)'s shot from the center of the box was blocked with the help of Player3(Home Team).
+- Player7(Home Team)'s left footed shot from the center of the box narrowly misses to the left, with an assist from Player11(Home Team).
+- Player7(Home Team)'s shot on goal is saved by the goalkeeper.
+- Player7(Home Team)'s shot from outside the box narrowly misses to the right, with an assist from Player3(Home Team) after a corner kick.
 
-**2. Initialization:**
+**Event Tracking:**
 
-We initialize the counts for all events to 0.
+*   **Shots:**
+    *   Snippet 1: "Player7(Home Team)'s shot from the center of the box was blocked..." - This is a shot, so increment shots. Total shots = 1
+    *   Snippet 2: "Player7(Home Team)'s left footed shot from the center of the box narrowly misses..." - This is a shot, so increment shots. Total shots = 2
+    *   Snippet 3: "Player7(Home Team)'s shot on goal is saved by the goalkeeper." - This is a shot, so increment shots. Total shots = 3
+    *   Snippet 4: "Player7(Home Team)'s shot from outside the box narrowly misses..." - This is a shot, so increment shots. Total shots = 4
 
-**3. Snippet Analysis:**
+*   **Goals:**
+    *   No snippets explicitly mention Player7 scoring a goal. Total goals = 0
 
-*   **Snippet 1:** "Player7(Home Team)'s shot from the center of the box was blocked with the help of Player3(Home Team)."
-    *   Shots: Player7 took a shot, so increment Shots to 1.
-    *   Goals: No goal mentioned.
-    *   Assists: No assist mentioned.
-    *   Free Kicks: No free kick mentioned.
-    *   Fouls: No foul mentioned.
-    *   Yellow Cards: No yellow card mentioned.
-    *   Red Cards: No red card mentioned.
-    *   Offsides: No offside mentioned.
+*   **Assists:**
+    *   No snippets explicitly state Player7 provided an assist. Snippets 2 and 4 mention Player7 receiving assists, but that doesn't count as an assist *for* Player7. Total assists = 0
 
-*   **Snippet 2:** "Player7(Home Team)'s left footed shot from the center of the box narrowly misses to the left, with an assist from Player11(Home Team)."
-    *   Shots: Player7 took a shot, so increment Shots to 2.
-    *   Goals: No goal mentioned.
-    *   Assists: No assist mentioned because the assist was *to* Player7 not *from* Player7.
-    *   Free Kicks: No free kick mentioned.
-    *   Fouls: No foul mentioned.
-    *   Yellow Cards: No yellow card mentioned.
-    *   Red Cards: No red card mentioned.
-    *   Offsides: No offside mentioned.
+*   **Free Kicks:**
+    *   No snippets mention Player7 taking a free kick. Total free kicks = 0
 
-*   **Snippet 3:** "Player7(Home Team)'s shot on goal is saved by the goalkeeper."
-    *   Shots: Player7 took a shot, so increment Shots to 3.
-    *   Goals: No goal mentioned.
-    *   Assists: No assist mentioned.
-    *   Free Kicks: No free kick mentioned.
-    *   Fouls: No foul mentioned.
-    *   Yellow Cards: No yellow card mentioned.
-    *   Red Cards: No red card mentioned.
-    *   Offsides: No offside mentioned.
+*   **Fouls:**
+    *   No snippets mention Player7 committing a foul. Total fouls = 0
 
-*   **Snippet 4:** "Player7(Home Team)'s shot from outside the box narrowly misses to the right, with an assist from Player3(Home Team) after a corner kick."
-    *   Shots: Player7 took a shot, so increment Shots to 4.
-    *   Goals: No goal mentioned.
-    *   Assists: No assist mentioned because the assist was *to* Player7 not *from* Player7.
-    *   Free Kicks: No free kick mentioned.
-    *   Fouls: No foul mentioned.
-    *   Yellow Cards: No yellow card mentioned.
-    *   Red Cards: No red card mentioned.
-    *   Offsides: No offside mentioned.
+*   **Yellow Cards:**
+    *   No snippets mention Player7 receiving a yellow card. Total yellow cards = 0
 
-**4. Final Counts:**
+*   **Red Cards:**
+    *   No snippets mention Player7 receiving a red card. Total red cards = 0
 
-*   Shots: 4
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+*   **Offsides:**
+    *   No snippets mention Player7 being offside. Total offsides = 0
 
 Final Summary Table:
+
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

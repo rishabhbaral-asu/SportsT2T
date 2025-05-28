@@ -1,48 +1,49 @@
-Okay, let's analyze the commentary snippets for Player22 and compile the statistics.
+Okay, let's break this down step by step.
 
-**Player Name:** Player22
+1.  **Player Identification:** The target player is Player22.
 
-**Commentary Snippets Analysis:**
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-*   **Snippet 1:** "Player22(Away Team) misses the goal with a left footed shot from outside the box after a corner."
-    *   Shot: Increment by 1.
-    *   Goals: No goal.
-*   **Snippet 2:** "Player22(Away Team) commits a foul."
-    *   Fouls: Increment by 1.
-*   **Snippet 3:** "Player22(Away Team)'s right footed shot from outside the box and Player10(Home Team)'s left footed shot from the right side of the box both miss to the left, with the former being high and wide from a direct free kick and the latter being assisted by Player7(Home Team)."
-    *   Shots: Increment by 1.
-    *   Free Kicks: Increment by 1.
-    *   Goals: No goal.
-*   **Snippet 4:** "Player22(Away Team) earns a free kick on the right wing after being fouled by Player3(Home Team)."
-    *   Free Kicks: Increment by 1.
-*   **Snippet 5:** "Player22(Away Team)'s attempt from outside the box is blocked."
-    *   Shots: Increment by 1.
-    *   Goals: No goal.
-*   **Snippet 6:** "Player22(Away Team) commits a foul, resulting in Player16(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player16(Home Team)'s team."
-    *   Fouls: Increment by 1.
-*   **Snippet 7:** "Player22(Away Team)'s right-footed shot from outside the box is high and wide to the right, while Player29(Away Team) attempts a through ball to Player35(Away Team) but Player28(Away Team) is caught offside for the Away Team."
-    *   Shots: Increment by 1.
-    *   Goals: No goal.
-    *   Offsides: No Offsides attributed to Player22.
-*   **Snippet 8:** "Player22(Away Team)'s long-range shot is saved in the top center of the goal."
-    *   Shots: Increment by 1.
-    *   Goals: No goal.
+3.  **Snippet Analysis:**
 
-**Final Counts:**
+    *   Snippet 1: "Player22(Away Team) misses the goal with a left footed shot from outside the box after a corner."
+        *   Mentions a shot by Player22. Shots += 1
+    *   Snippet 2: "Player22(Away Team) commits a foul."
+        *   Mentions Player22 committing a foul. Fouls += 1
+    *   Snippet 3: "Player22(Away Team)'s right footed shot from outside the box and Player10(Home Team)'s left footed shot from the right side of the box both miss to the left, with the former being high and wide from a direct free kick and the latter being assisted by Player7(Home Team)."
+        *   Mentions a shot by Player22. Shots += 1
+    *   Snippet 4: "Player22(Away Team) earns a free kick on the right wing after being fouled by Player3(Home Team)."
+        *   Mentions Player22 earning a free kick. Free Kicks += 1
+    *   Snippet 5: "Player22(Away Team)'s attempt from outside the box is blocked."
+        *   Mentions an attempt (shot) by Player22 which is blocked. Shots += 1
+    *   Snippet 6: "Player22(Away Team) commits a foul, resulting in Player16(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player16(Home Team)'s team."
+        *   Mentions Player22 committing a foul. Fouls += 1
+    *   Snippet 7: "Player22(Away Team)'s right-footed shot from outside the box is high and wide to the right, while Player29(Away Team) attempts a through ball to Player35(Away Team) but Player28(Away Team) is caught offside for the Away Team."
+        *   Mentions a shot by Player22. Shots += 1
+    *   Snippet 8: "Player22(Away Team)'s long-range shot is saved in the top center of the goal."
+        *   Mentions a shot by Player22. Shots += 1
 
-*   Shots: 6
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 2
-*   Fouls: 2
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+4.  **Final Counts:**
+    *   Shots = 5
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 2
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
 Final Summary Table:
-
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player22 | 6     | 0     | 0       | 2          | 2     | 0            | 0         | 0        |
+| Player22 | 5     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
 ```

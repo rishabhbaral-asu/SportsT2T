@@ -1,30 +1,40 @@
-Okay, let's analyze the commentary snippets for Player7 and compile the statistics.
+Okay, let's analyze the commentary snippets for Player7 and generate the final summary table.
 
-**Player Name:** Player7
+1.  **Identify Target Player:** The target player is Player7.
 
-**Commentary Snippets:**
-- Player7(Home Team)'s shot from a tough angle on the right is saved in the center of the goal after a through ball from Player11(Home Team).
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-**Reasoning:**
+3.  **Analyze Commentary Snippets:**
 
-1.  **Shots:** The snippet explicitly states "Player7(Home Team)'s shot". This indicates an attempt on goal by Player7, so we increment the Shots count by 1.
+    *   Snippet 1: "Player7(Home Team)'s shot from a tough angle on the right is saved in the center of the goal after a through ball from Player11(Home Team)."
+        *   This snippet explicitly states "Player7's shot". Therefore, increment Shots by 1.
+        *   It does not mention a goal.
+        *   It does not mention Player7 providing an assist. Player 11 provided the through ball.
+        *   It does not mention a free kick.
+        *   It does not mention a foul.
+        *   It does not mention a yellow card.
+        *   It does not mention a red card.
+        *   It does not mention offsides.
 
-2.  **Goals:** The snippet says the shot was "saved", so Player7 did not score a goal. Goal count remains 0.
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-3.  **Assists:** The snippet mentions "a through ball from Player11(Home Team)", meaning Player11 assisted Player7 and Player7 did not assist anyone. Assist count remains 0.
-
-4.  **Free Kicks:** The snippet doesn't explicitly mention Player7 taking a free kick, penalty or being fouled. Free Kick count remains 0.
-
-5.  **Fouls:** The snippet doesn't explicitly mention Player7 committing a foul. Foul count remains 0.
-
-6.  **Yellow Cards:** The snippet doesn't explicitly mention Player7 receiving a yellow card. Yellow Card count remains 0.
-
-7.  **Red Cards:** The snippet doesn't explicitly mention Player7 receiving a red card. Red Card count remains 0.
-
-8.  **Offsides:** The snippet doesn't explicitly mention Player7 being offside. Offsides count remains 0.
-
-**Final Summary Table:**
-
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

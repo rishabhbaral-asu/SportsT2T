@@ -1,45 +1,24 @@
-Okay, let's analyze the commentary snippets for Player7 and generate the summary table.
+Okay, let's analyze the commentary snippets for Player7.
 
-**1. Identify Target Player:**
+**Player Name:** Player7
 
-The target player is Player7.
+**Commentary Snippets:**
+- Player7(Home Team) commits a foul on Player23(Away Team), earning a free kick for Player23(Away Team) on the right wing, .
+- Player7(Home Team)'s header from the center of the box is saved in the top left corner with an assist from Player8(Home Team).
+- Player7(Home Team) receives a yellow card.
 
-**2. Initialize Counts:**
+**Step-by-step analysis:**
 
-*   Shots: 0
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+1.  **Fouls:** The first snippet states "Player7(Home Team) commits a foul...". This is a direct statement of a foul committed by Player7. Therefore, Fouls = 1.
+2.  **Shots:** The second snippet states "Player7(Home Team)'s header from the center of the box is saved...". This clearly indicates an attempt on goal. Therefore, Shots = 1.
+3.  **Goals:** The second snippet mentions the header was saved, meaning it was not a goal. Therefore, Goals = 0.
+4.  **Assists:** The second snippet mentions "with an assist from Player8(Home Team)". This means Player7 received the assist, not gave it. Therefore, Assists = 0.
+5.  **Free Kicks:** The first snippet states Player7 committed a foul, which resulted in a free kick for the opposing player. This does not count as Player7 taking a free kick. Therefore, Free Kicks = 0.
+6.  **Yellow Cards:** The third snippet says "Player7(Home Team) receives a yellow card." This is a direct statement. Therefore, Yellow Cards = 1.
+7.  **Red Cards:** No red cards are mentioned. Therefore, Red Cards = 0.
+8.  **Offsides:** No offsides are mentioned. Therefore, Offsides = 0.
 
-**3. Analyze Commentary Snippets:**
-
-*   **Snippet 1:** "Player7(Home Team) commits a foul on Player23(Away Team), earning a free kick for Player23(Away Team) on the right wing, ."
-    *   Fouls: Player7 commits a foul. Increment Fouls by 1.
-    *   Free Kicks: Player7 did *not* take a free kick. Player7 committed a foul *resulting* in a free kick for the other team, do not increment.
-*   **Snippet 2:** "Player7(Home Team)'s header from the center of the box is saved in the top left corner with an assist from Player8(Home Team)."
-    *   Shots: Player7's header is saved, so it was a shot. Increment Shots by 1.
-    *   Goals: The header was saved, not a goal.
-    *   Assists: Player7 was assisted, not the one giving the assist. Do not increment.
-*   **Snippet 3:** "Player7(Home Team) receives a yellow card."
-    *   Yellow Cards: Player7 receives a yellow card. Increment Yellow Cards by 1.
-
-**4. Final Counts:**
-
-*   Shots: 1
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 1
-*   Yellow Cards: 1
-*   Red Cards: 0
-*   Offsides: 0
-
-**Final Summary Table:**
-
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

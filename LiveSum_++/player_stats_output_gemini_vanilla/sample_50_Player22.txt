@@ -1,37 +1,40 @@
-Okay, let's start by identifying the player name and initializing the counts for all events.
+Okay, let's analyze the commentary snippets for Player22.
 
-Player Name: Player22
+1.  **Player Name:** `Player22`
 
-Now, let's analyze the commentary snippets and increment the counts accordingly, following the strict counting rules.
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-*   **Snippet 1:** "Player22(Away Team) is currently sidelined due to an injury, causing a delay in the match."
-    *   No events to count.
+3.  **Snippet Analysis:**
 
-*   **Snippet 2:** "Player22(Away Team) commits a foul."
-    *   Fouls: Increment by 1.
+    *   Snippet 1: "Player22(Away Team) is currently sidelined due to an injury, causing a delay in the match." - No relevant events.
 
-*   **Snippet 3:** "Player22(Away Team) misses the target with a right-footed shot from outside the box, assisted by Player25(Away Team)."
-    *   Shots: Increment by 1.
+    *   Snippet 2: "Player22(Away Team) commits a foul." - Fouls += 1
 
-*   **Snippet 4:** "Player22(Away Team)'s right footed shot from outside the box is denied by a block."
-    *   Shots: Increment by 1.
+    *   Snippet 3: "Player22(Away Team) misses the target with a right-footed shot from outside the box, assisted by Player25(Away Team)." - Shots += 1
 
-*   **Snippet 5:** "Player22(Away Team) commits a foul, resulting in Player2(Home Team) being awarded a free kick in the attacking half."
-    *   Fouls: Increment by 1.
+    *   Snippet 4: "Player22(Away Team)'s right footed shot from outside the box is denied by a block." - Shots += 1
 
-*   **Snippet 6:** "Player22(Away Team)'s right-footed shot from outside the box is blocked, while Player30(Away Team)'s attempt from the center of the box is saved in the center of the goal."
-    *   Shots: Increment by 1.
+    *   Snippet 5: "Player22(Away Team) commits a foul, resulting in Player2(Home Team) being awarded a free kick in the attacking half." - Fouls += 1
 
-Now, let's compile the final counts:
+    *   Snippet 6: "Player22(Away Team)'s right-footed shot from outside the box is blocked, while Player30(Away Team)'s attempt from the center of the box is saved in the center of the goal." - Shots += 1
 
-*   Shots: 3
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 2
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+4.  **Final Counts:**
+    *   Shots = 3
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 2
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
 Final Summary Table:
 ```markdown

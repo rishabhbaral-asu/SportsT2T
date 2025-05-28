@@ -1,27 +1,36 @@
-Okay, let's analyze the commentary snippets for Player22 and generate the summary table.
+Okay, let's start by identifying the target player name and initializing the event counts.
 
-1.  **Player Name:** The target player is Player22.
+Target Player Name: Player22
 
-2.  **Initialization:** We initialize all event counts to 0 for Player22: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+Initialized Event Counts:
+* Shots: 0
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 0
+* Yellow Cards: 0
+* Red Cards: 0
+* Offsides: 0
 
-3.  **Snippet Analysis:**
+Now, let's analyze each commentary snippet and increment the counts accordingly, following the strict counting rules.
 
-    *   **Snippet 1:** "Player22(Away Team) commits a foul." - This explicitly states Player22 committed a foul. Increment Fouls by 1. Fouls = 1
-    *   **Snippet 2:** "Player22(Away Team) receives a yellow card for a rough tackle." - This explicitly states Player22 received a yellow card. Increment Yellow Cards by 1. Yellow Cards = 1.
-    *   **Snippet 3:** "Player22(Away Team) earns a free kick in their own half." - This explicitly states Player22 won a free kick. Increment Free Kicks by 1. Free Kicks = 1
-    *   **Snippet 4:** "Player22(Away Team) earns a free kick in their own half." - This explicitly states Player22 won a free kick. Increment Free Kicks by 1. Free Kicks = 2
-    *   **Snippet 5:** "Player22(Away Team) earns a free kick in their own half." - This explicitly states Player22 won a free kick. Increment Free Kicks by 1. Free Kicks = 3
-    *   **Snippet 6:** "Player22(Away Team) is currently being delayed in the match due to an injury." - This does not describe any of the tracked events.
+Snippet 1: "Player22(Away Team) commits a foul."
+*   Fouls: Increment by 1. Fouls = 1
 
-4.  **Final Counts:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 3
-    *   Fouls: 1
-    *   Yellow Cards: 1
-    *   Red Cards: 0
-    *   Offsides: 0
+Snippet 2: "Player22(Away Team) receives a yellow card for a rough tackle."
+*   Yellow Cards: Increment by 1. Yellow Cards = 1
+
+Snippet 3: "Player22(Away Team) earns a free kick in their own half."
+* Free Kicks: Increment by 1. Free Kicks = 1
+
+Snippet 4: "Player22(Away Team) earns a free kick in their own half."
+* Free Kicks: Increment by 1. Free Kicks = 2
+
+Snippet 5: "Player22(Away Team) earns a free kick in their own half."
+* Free Kicks: Increment by 1. Free Kicks = 3
+
+Snippet 6: "Player22(Away Team) is currently being delayed in the match due to an injury."
+* No relevant event for counting.
 
 Final Summary Table:
 ```markdown

@@ -1,49 +1,43 @@
-Okay, let's start by identifying the target player and initializing the counts for all event types.
+Okay, let's analyze the commentary snippets for Player28 and compile the statistics.
 
-**1. Identify Target Player:**
+**Player Name:** Player28
 
-The target player is Player28.
+**Commentary Snippets:**
 
-**2. Initialize Counts:**
+*   "Player28(Away Team) earns a free kick in their own half."
+*   "Player28(Away Team) scores with a left-footed shot from the center of the box, assisted by Player29(Away Team), The score is now Home Team 0, Away Team 1."
+*   "Player28(Away Team) scores with a right-footed shot from the center of the box, putting the Away Team ahead 2-0 against the Home Team."
 
-Shots: 0
-Goals: 0
-Assists: 0
-Free Kicks: 0
-Fouls: 0
-Yellow Cards: 0
-Red Cards: 0
-Offsides: 0
+**Event Tracking:**
 
-**3. Analyze Commentary Snippets:**
+*   **Shots:**
+    *   Snippet 2: "Player28(Away Team) scores with a left-footed shot..." - This is a shot.
+    *   Snippet 3: "Player28(Away Team) scores with a right-footed shot..." - This is a shot.
+    *   Total Shots: 2
+*   **Goals:**
+    *   Snippet 2: "Player28(Away Team) scores..." - This is a goal.
+    *   Snippet 3: "Player28(Away Team) scores..." - This is a goal.
+    *   Total Goals: 2
+*   **Assists:**
+    *   Snippet 2: "...assisted by Player29(Away Team)..." - Player28 received the assist, so this does not count as an assist *for* Player28.
+    *   Total Assists: 0
+*   **Free Kicks (Taken):**
+    *   Snippet 1: "Player28(Away Team) earns a free kick in their own half." - This indicates Player28 won a free kick, thus earning a free kick taken for them.
+    *   Total Free Kicks: 1
+*   **Fouls (Committed):**
+    *   No explicit mentions of Player28 committing a foul.
+    *   Total Fouls: 0
+*   **Yellow Cards:**
+    *   No explicit mentions of Player28 receiving a yellow card.
+    *   Total Yellow Cards: 0
+*   **Red Cards:**
+    *   No explicit mentions of Player28 receiving a red card.
+    *   Total Red Cards: 0
+*   **Offsides:**
+    *   No explicit mentions of Player28 being offsides.
+    *   Total Offsides: 0
 
-*   **Snippet 1:** "Player28(Away Team) earns a free kick in their own half."
-
-    *   This explicitly states Player28 earned a free kick. This means Player28 was fouled or won a free kick, so Free Kicks + 1.
-    *   Shots: 0, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
-
-*   **Snippet 2:** "Player28(Away Team) scores with a left-footed shot from the center of the box, assisted by Player29(Away Team), The score is now Home Team 0, Away Team 1."
-
-    *   This explicitly states Player28 scored a goal, which means both Goals + 1 and Shots + 1. The mention of being "assisted by Player29" does *not* contribute to assists for Player28.
-    *   Shots: 1, Goals: 1, Assists: 0, Free Kicks: 1, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
-
-*   **Snippet 3:** "Player28(Away Team) scores with a right-footed shot from the center of the box, putting the Away Team ahead 2-0 against the Home Team."
-
-    *   This explicitly states Player28 scored a goal, which means both Goals + 1 and Shots + 1.
-    *   Shots: 2, Goals: 2, Assists: 0, Free Kicks: 1, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
-
-**4. Final Counts:**
-
-Shots: 2
-Goals: 2
-Assists: 0
-Free Kicks: 1
-Fouls: 0
-Yellow Cards: 0
-Red Cards: 0
-Offsides: 0
-
-Final Summary Table:
+**Final Summary Table:**
 
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |

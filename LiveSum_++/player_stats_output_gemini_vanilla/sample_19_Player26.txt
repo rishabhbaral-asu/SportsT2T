@@ -1,17 +1,8 @@
-Okay, let's analyze the commentary snippets for Player26 and generate the final summary table.
+Okay, let's analyze the commentary snippets for Player26.
 
-**Player Name:** Player26
+1.  **Player Name:** Player26
 
-**Commentary Snippets:**
-
-*   "Player26(Away Team) commits a foul."
-*   "Player26(Away Team) earns a free kick in their own half."
-*   "Player26(Away Team) is currently delayed in the match due to an injury."
-*   "Player26(Away Team) attempts a pass to Player28(Away Team), but Player28(Away Team) is in an offside position."
-
-**Step-by-step analysis:**
-
-1.  **Initialize Counts:**
+2.  **Initialization:**
     *   Shots = 0
     *   Goals = 0
     *   Assists = 0
@@ -21,24 +12,24 @@ Okay, let's analyze the commentary snippets for Player26 and generate the final 
     *   Red Cards = 0
     *   Offsides = 0
 
-2.  **Analyze Snippets:**
+3.  **Snippet Analysis:**
 
-    *   **Snippet 1: "Player26(Away Team) commits a foul."**
+    *   Snippet 1: "Player26(Away Team) commits a foul."
         *   The snippet explicitly states Player26 committed a foul.
-        *   Increment Fouls: Fouls = 1
+        *   Fouls = 1
 
-    *   **Snippet 2: "Player26(Away Team) earns a free kick in their own half."**
-        *   The snippet explicitly states Player26 earns a free kick.
-        *   Increment Free Kicks: Free Kicks = 1
+    *   Snippet 2: "Player26(Away Team) earns a free kick in their own half."
+        * The snippet explicitly states Player26 earns a free kick.
+        * Free Kicks = 1
 
-    *   **Snippet 3: "Player26(Away Team) is currently delayed in the match due to an injury."**
-        *   This snippet doesn't describe any of the tracked events.
+    *   Snippet 3: "Player26(Away Team) is currently delayed in the match due to an injury."
+        *   This snippet does not mention any of the tracked events.
 
-    *   **Snippet 4: "Player26(Away Team) attempts a pass to Player28(Away Team), but Player28(Away Team) is in an offside position."**
-        * The snippet mentions Player26 attempts a pass, but Player28 is offside. Since this pass didn't lead to anything and the pass receiver was offside, this does not count as an assist.
-        * Increment Offsides: Offsides = 0
+    *   Snippet 4: "Player26(Away Team) attempts a pass to Player28(Away Team), but Player28(Away Team) is in an offside position."
+        * The snippet explicitly states Player28 is in offside position but does not mention an assist by Player 26. Thus no assist is recorded.
+        * Offsides = 0
 
-3.  **Final Counts:**
+4.  **Final Counts:**
 
     *   Shots = 0
     *   Goals = 0

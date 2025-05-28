@@ -1,44 +1,59 @@
-Okay, let's process the input and generate the final summary table.
+Okay, I am ready to process the input and generate the summary table.
 
-**Step-by-step breakdown:**
+* **Player Name:** Player28
+* **Commentary Snippets:**
+    * Player28(Away Team) earns a free kick in the opponent's half.
+    * Player28(Away Team) scores with a left-footed free kick to the top right corner, giving the Away Team a 1-0 lead over the Home Team.
+    * Player28(Away Team) scores with a right-footed shot from a tough angle, assisted by Player25(Away Team) after a fast break, Home Team now trails 1-3 against Away Team.
+    * Player28(Away Team) receives a yellow card for celebrating too much.
+    * Player28(Away Team) scores from the penalty spot with a left-footed shot into the bottom right corner.
 
-1.  **Player Identification:** The target player is Player28.
+**Reasoning:**
 
-2.  **Initialization:** We initialize all event counts to 0 for Player28.
+1.  **Player Name:** The target player is Player28.
 
-3.  **Commentary Snippet Analysis:**
+2.  **Initialization:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+3.  **Snippet Analysis:**
 
     *   **Snippet 1:** "Player28(Away Team) earns a free kick in the opponent's half."
-        *   This snippet explicitly states Player28 *earns* a free kick. This means Player28 wins a free kick. Increment Free Kicks by 1.
-        *   Other counts remain at 0.
+        *   Free Kicks: Player28 earns a free kick. Increment Free Kicks by 1. Free Kicks = 1
 
     *   **Snippet 2:** "Player28(Away Team) scores with a left-footed free kick to the top right corner, giving the Away Team a 1-0 lead over the Home Team."
-        *   This snippet explicitly states Player28 *scores* a goal. Increment Goals by 1.
-        *   This snippet also explicitly states Player28 scored with a free kick. Increment Free Kicks by 1.
-        *   This also means a shot at goal was made. Increment Shots by 1.
+        *   Goals: Player28 scores a goal. Increment Goals by 1. Goals = 1
+        *   Shots: Player28 scores with a shot (free kick). Increment Shots by 1. Shots = 1
+        *   Free Kicks: Player28 scores with a free kick. Increment Free Kicks by 1. Free Kicks = 2
 
     *   **Snippet 3:** "Player28(Away Team) scores with a right-footed shot from a tough angle, assisted by Player25(Away Team) after a fast break, Home Team now trails 1-3 against Away Team."
-        *   This snippet explicitly states Player28 *scores* a goal. Increment Goals by 1.
-        *   This also means a shot at goal was made. Increment Shots by 1.
-        *   The snippet mentions Player28 was *assisted by* Player25, so Player28's Assist count remains 0.
+        *   Goals: Player28 scores a goal. Increment Goals by 1. Goals = 2
+        *   Shots: Player28 scores a shot. Increment Shots by 1. Shots = 2
+        *   Assists: Player28 was assisted by Player25. Therefore, do not increment assists for Player28.
 
     *   **Snippet 4:** "Player28(Away Team) receives a yellow card for celebrating too much."
-        *   This snippet explicitly states Player28 receives a *yellow card*. Increment Yellow Cards by 1.
+        *   Yellow Cards: Player28 receives a yellow card. Increment Yellow Cards by 1. Yellow Cards = 1
 
     *   **Snippet 5:** "Player28(Away Team) scores from the penalty spot with a left-footed shot into the bottom right corner."
-        *   This snippet explicitly states Player28 *scores* a goal. Increment Goals by 1.
-        *   This also means a shot at goal was made. Increment Shots by 1.
-        *   Explicitly states Player28 scores from the penalty spot. Increment Free Kicks by 1.
+        *   Goals: Player28 scores a goal. Increment Goals by 1. Goals = 3
+        *   Shots: Player28 scores a shot. Increment Shots by 1. Shots = 3
+        *   Free Kicks: Player28 scores from the penalty spot. Increment Free Kicks by 1. Free Kicks = 3
 
-4.  **Final Count:** After analyzing all snippets, we have:
-    *   Shots: 3
-    *   Goals: 3
-    *   Assists: 0
-    *   Free Kicks: 3
-    *   Fouls: 0
-    *   Yellow Cards: 1
-    *   Red Cards: 0
-    *   Offsides: 0
+4.  **Final Counts:**
+    * Shots = 3
+    * Goals = 3
+    * Assists = 0
+    * Free Kicks = 3
+    * Fouls = 0
+    * Yellow Cards = 1
+    * Red Cards = 0
+    * Offsides = 0
 
 Final Summary Table:
 ```markdown

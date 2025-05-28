@@ -1,34 +1,31 @@
-Okay, let's process the commentary snippets for Player2 and generate the summary table.
+Okay, let's process the input step-by-step to generate the final summary table.
 
-1.  **Player Name:**
-    `<PLAYER_NAME>`
-    `Player2`
-    `</PLAYER_NAME>`
-    The target player is Player2.
+1.  **Player Identification:** The target player is Player2.
 
-2.  **Initialize Counts:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+2.  **Initialization:** Initialize all event counts for Player2 to 0.
 
-3.  **Analyze Commentary Snippets:**
+3.  **Snippet Analysis:**
+
     *   Snippet 1: "Player2(Home Team) misses the target with a high right-footed shot from the right side of the box."
-        *   This snippet explicitly states Player2 missed a shot. Therefore, increment Shots by 1.
+        *   Shots: The snippet explicitly states "Player2" took a "shot". Increment Shots by 1.
+        *   Goals: The snippet does *not* explicitly state "Player2" scored a "goal".
+        *   Assists: The snippet does *not* explicitly state "Player2" provided an "assist".
+        *   Free Kicks: The snippet does *not* contain any keywords related to free kicks.
+        *   Fouls: The snippet does *not* contain any keywords related to fouls committed.
+        *   Yellow Cards: The snippet does *not* contain any keywords related to yellow cards.
+        *   Red Cards: The snippet does *not* contain any keywords related to red cards.
+        *   Offsides: The snippet does *not* contain any keywords related to offsides.
 
 4.  **Final Counts:**
-    *   Shots = 1
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
 Final Summary Table:
 ```markdown

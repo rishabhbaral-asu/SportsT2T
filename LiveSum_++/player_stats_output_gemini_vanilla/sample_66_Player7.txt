@@ -1,50 +1,53 @@
-Okay, let's analyze the commentary snippets for Player7 and compile the statistics.
+Okay, let's start by identifying the target player and initializing the event counts.
 
-1.  **Player Name:** The target player is Player7.
+Target Player: Player7
 
-2.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+Initialized Counts:
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
 
-3.  **Snippet Analysis:**
+Now, let's analyze each commentary snippet:
 
-    *   Snippet 1: "Player7(Home Team) commits a foul."
-        *   Fouls: Increment by 1. Fouls = 1.
+Snippet 1: "Player7(Home Team) commits a foul."
+*   Fouls: The snippet explicitly states Player7 committed a foul. Increment Fouls count.
+    Fouls: 1
 
-    *   Snippet 2: "Player7(Home Team) scores with a right-footed shot from outside the box, assisted by Player10(Home Team), giving the Home Team a 2-0 lead over the Away Team."
-        *   Goals: Increment by 1. Goals = 1.
-        *   Shots: Increment by 1. Shots = 1.
+Snippet 2: "Player7(Home Team) scores with a right-footed shot from outside the box, assisted by Player10(Home Team), giving the Home Team a 2-0 lead over the Away Team."
+*   Shots: The snippet explicitly states Player7 scored a goal. Increment Shots count.
+*   Goals: The snippet explicitly states Player7 scored a goal. Increment Goals count.
+    Shots: 1
+    Goals: 1
 
-    *   Snippet 3: "Player7(Home Team) attempts a through ball, but Player11(Home Team) is offside for the Home Team."
-        *   Offsides: No change for Player7.
-        *   Assists: No goal was scored, so no assist awarded.
+Snippet 3: "Player7(Home Team) attempts a through ball, but Player11(Home Team) is offside for the Home Team."
+*   Offsides: The snippet does not explicitly state Player7 was offside; it states Player11 was offside from Player7's attempt. No increment.
 
-    *   Snippet 4: "Player7(Home Team)'s right footed shot from close range into the center of the goal."
-        *   Shots: Increment by 1. Shots = 2.
-        *   Goals: Increment by 1. Goals = 2.
+Snippet 4: "Player7(Home Team)'s right footed shot from close range into the center of the goal."
+* Shots: The snippet explicitly mentions Player7's shot. Increment Shots count.
+    Shots: 2
 
-    *   Snippet 5: "Player7(Home Team)'s shot with his right foot from the right side of the box was saved in the middle of the goal, with an assist from Player9(Home Team)."
-        *   Shots: Increment by 1. Shots = 3.
+Snippet 5: "Player7(Home Team)'s shot with his right foot from the right side of the box was saved in the middle of the goal, with an assist from Player9(Home Team)."
+*   Shots: The snippet explicitly mentions Player7's shot. Increment Shots count.
+    Shots: 3
 
-4.  **Final Counts:**
-    *   Shots = 3
-    *   Goals = 2
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 1
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+Final Counts:
+Shots: 3
+Goals: 1
+Assists: 0
+Free Kicks: 0
+Fouls: 1
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
 
 Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player7 | 3     | 2     | 0       | 0          | 1     | 0            | 0         | 0        |
+| Player7 | 3     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
 ```

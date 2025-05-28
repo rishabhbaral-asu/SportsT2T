@@ -1,8 +1,8 @@
-Okay, let's start by identifying the target player and initializing the statistics.
+Okay, let's start by identifying the target player and initializing the counts.
 
 Target Player: Player23
 
-Initial Statistics:
+Initial Counts:
 Shots: 0
 Goals: 0
 Assists: 0
@@ -12,17 +12,17 @@ Yellow Cards: 0
 Red Cards: 0
 Offsides: 0
 
-Now, let's analyze the commentary snippets:
+Now, let's analyze each snippet:
 
 Snippet 1: "Player23(Away Team) commits a foul on Player3(Home Team)."
-This snippet explicitly states that Player23 committed a foul.
-Increment Fouls: Fouls = 0 + 1 = 1
+- This snippet explicitly states Player23 committed a foul.
+- Increment Fouls: Fouls = 1
 
 Snippet 2: "Player23(Away Team) of the Away Team misses a header to the right from the center of the box after a corner kick, assisted by Player33(Away Team)."
-This snippet explicitly states that Player23 missed a header. Since a header is an attempt on goal, this is a shot. The fact the header was assisted by Player33 is irrelevant to shots for Player23.
-Increment Shots: Shots = 0 + 1 = 1
+- This snippet explicitly states Player23 misses a header, which is a type of shot.
+- Increment Shots: Shots = 1
 
-Final Statistics:
+Final Counts:
 Shots: 1
 Goals: 0
 Assists: 0

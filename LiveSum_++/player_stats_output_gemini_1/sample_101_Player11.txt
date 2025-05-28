@@ -1,0 +1,14 @@
+Analyzing the snippets for Player11:
+- "Player11(Home Team) of the Home Team attempts a through ball, but Player4(Home Team) is ruled offside." -> Counts as 1 Offside because Player11 attempted the through ball, but Player4 was ruled offside.
+- "Player11(Home Team)'s shot from outside the box is blocked with Player7(Home Team)'s assistance." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team)'s left-footed shot from outside the box went wide to the left, with an assist from Player5(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team)'s attempt from outside the box on a direct free kick goes high." -> Counts as 1 Free Kick and 1 Shot because the snippet explicitly states Player11 took a shot on a direct free kick.
+- "Player11(Home Team)'s shot from outside the box is blocked after being set up by Player9(Home Team) with a headed pass." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team)'s shot from the center of the box was blocked with the help of Player9(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 5     | 0     | 0       | 1          | 0     | 0            | 0         | 1        |
+```

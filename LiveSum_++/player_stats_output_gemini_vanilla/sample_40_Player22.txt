@@ -1,25 +1,38 @@
-Okay, let's break down the task. I need to analyze the commentary snippets, count the occurrences of specific events for the given player (Player22), and present the results in a markdown table. I must follow the strict counting rules, focusing only on explicitly mentioned and unambiguously attributed actions.
+Okay, let's analyze the commentary snippets for Player22 and generate the requested markdown table.
 
-**Player Name:** Player22
+**1. Identify Target Player:**
+The target player is Player22.
 
-**Commentary Snippets:**
+**2. Initialize Counts:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
 
-- Player22(Away Team) commits a foul, resulting in Player9(Home Team) winning a free kick in the attacking half, This leads to a set-piece opportunity for Player9(Home Team)'s team.
-- Player22(Away Team) commits a foul.
+**3. Analyze Commentary Snippets:**
 
-**Analysis:**
+*   **Snippet 1:** "Player22(Away Team) commits a foul, resulting in Player9(Home Team) winning a free kick in the attacking half, This leads to a set-piece opportunity for Player9(Home Team)'s team."
+    *   "commits a foul" - This clearly indicates Player22 committed a foul. Increment Fouls by 1. Fouls = 1
+    *  "resulting in Player9(Home Team) winning a free kick" - This mentions Player22 conceding a foul, it does not mean Player22 took a free kick. Free Kicks remains at 0
 
-*   **Shots:** No explicit mentions of shots by Player22. Count: 0
-*   **Goals:** No explicit mentions of goals by Player22. Count: 0
-*   **Assists:** No explicit mentions of assists by Player22. Count: 0
-*   **Free Kicks (Taken):** No mention of Player22 taking a free kick or penalty. No mention of Player22 winning a free kick. Count: 0
-*   **Fouls (Committed):** The first snippet explicitly states "Player22(Away Team) commits a foul". Count: 1. The second snippet explicitly states "Player22(Away Team) commits a foul". Count: 1. Total Fouls: 2
-*   **Yellow Cards:** No explicit mentions of yellow cards for Player22. Count: 0
-*   **Red Cards:** No explicit mentions of red cards for Player22. Count: 0
-*   **Offsides:** No explicit mentions of offsides for Player22. Count: 0
+*   **Snippet 2:** "Player22(Away Team) commits a foul."
+    *   "commits a foul" - This clearly indicates Player22 committed a foul. Increment Fouls by 1. Fouls = 2
+
+**4. Final Counts:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 2
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
 
 Final Summary Table:
-
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

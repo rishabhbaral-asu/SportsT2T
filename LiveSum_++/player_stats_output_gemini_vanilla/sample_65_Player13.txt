@@ -1,36 +1,43 @@
-Okay, let's analyze the provided commentary snippets for Player13.
+Okay, let's analyze the commentary snippets for Player13 and generate the summary table.
 
-1.  **Player Name:** Player13
+**Step 1: Identify the target player.**
 
-2.  **Initialization:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 0
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+The target player is Player13.
 
-3.  **Snippet Analysis:**
+**Step 2: Initialize event counts.**
 
-    *   Snippet 1: "Player13(Home Team) commits a foul on Player30(Away Team), who wins a free kick in their defensive half."
-        *   This snippet explicitly states that Player13 committed a foul.
-        *   Increment Fouls: Fouls = 0 + 1 = 1
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
 
-    *   Snippet 2: "Player13(Home Team) misses the target with a high right-footed shot from outside the box after a corner kick."
-        *   This snippet explicitly states that Player13 took a shot that missed the target.
-        *   Increment Shots: Shots = 0 + 1 = 1
+**Step 3: Analyze commentary snippets.**
 
-4.  **Final Counts:**
-    *   Shots: 1
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 1
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+*   **Snippet 1:** "Player13(Home Team) commits a foul on Player30(Away Team), who wins a free kick in their defensive half."
+
+    *   Fouls: The snippet explicitly states "Player13 commits a foul". Increment Fouls by 1.
+    *   Free Kicks: Although the snippet mentions a free kick, it's awarded *against* Player13, not taken *by* Player13. No increment to Free Kicks.
+
+*   **Snippet 2:** "Player13(Home Team) misses the target with a high right-footed shot from outside the box after a corner kick."
+
+    *   Shots: The snippet explicitly states "Player13 misses the target with a... shot". Increment Shots by 1.
+
+**Step 4: Summarize the counts.**
+
+Shots = 1
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 1
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**Step 5: Create the final summary table.**
 
 Final Summary Table:
 ```markdown

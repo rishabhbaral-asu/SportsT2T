@@ -1,21 +1,25 @@
-Okay, I will analyze the commentary snippets for Player31 and compile the statistics as requested.
+Okay, let's analyze the commentary snippets for Player31 and generate the requested markdown table.
 
 **Player Name:** Player31
 
 **Commentary Snippets:**
-- Player31(Away Team) attempts a through ball, but Player27(Away Team) is caught offside.
-- Player31(Away Team) commits a foul on Player7(Home Team), who then earns a free kick in the attacking half, This results in a set-piece opportunity for the attacking team.
-- Player31(Away Team) has been cautioned with a yellow card for a reckless challenge.
 
-**Reasoning:**
+*   "Player31(Away Team) attempts a through ball, but Player27(Away Team) is caught offside."
+*   "Player31(Away Team) commits a foul on Player7(Home Team), who then earns a free kick in the attacking half, This results in a set-piece opportunity for the attacking team."
+*   "Player31(Away Team) has been cautioned with a yellow card for a reckless challenge."
 
-1.  **Player31 attempts a through ball, but Player27 is caught offside:** This implies Player31 passed the ball to Player27, who was offside. Since the player was offside and the commentary doesn't specifically mention a shot, goal, or assist, the only stat to increment here is offsides: No
+**Event Tracking:**
 
-2.  **Player31 commits a foul on Player7:** This is a clear foul committed by Player31. Increment Fouls by 1. Player7 earns a free kick as a result of Player31's foul. Player31 did not take a free kick here.
+*   **Shots:** The snippets do not explicitly state that Player31 took a shot on goal. Count = 0
+*   **Goals:** The snippets do not explicitly state that Player31 scored a goal. Count = 0
+*   **Assists:** The snippets do not explicitly state that Player31 provided an assist that led to a goal. Count = 0
+*   **Free Kicks:** The first snippet mentions an offside, so no free kick. The second snippet mentions that Player31 commits a foul, this means Player31 did not take the free kick, but committed a foul. Therefore, Player31's Free Kicks = 0.
+*   **Fouls:** The second snippet explicitly states that Player31 commits a foul. Count = 1
+*   **Yellow Cards:** The third snippet explicitly states Player31 received a yellow card. Count = 1
+*   **Red Cards:** The snippets do not explicitly state that Player31 received a red card. Count = 0
+*   **Offsides:** The first snippet mentions Player31 attempting a through ball, but Player27 is offside. This does not mean Player31 is offside, rather Player27. Therefore Player31's Offsides = 0
 
-3.  **Player31 has been cautioned with a yellow card:** This means Player31 received a yellow card. Increment Yellow Cards by 1.
-
-**Final Summary Table:**
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

@@ -1,63 +1,54 @@
-Okay, I'm ready to process the player commentary snippets and generate the requested markdown table.
+Okay, let's analyze the commentary snippets for Player21 and compile the statistics.
 
-**Player Name:** Player21
+1.  **Player Name:** The target player is Player21.
 
-**Commentary Snippets:**
-- Player21(Away Team) commits a foul, giving Player7(Home Team) a free kick on the right wing, .
-- Player21(Away Team)'s shot from outside the box is blocked after being assisted by Player26(Away Team) with a headed pass.
-- Player21(Away Team) earns a free kick on the left side of the field.
-- Player21(Away Team)'s left footed shot from the left side of the box, assisted by Player29(Away Team) with a headed pass following a corner kick, misses to the right for the Away Team.
-- Player21(Away Team) earns a free kick on the left wing after being fouled by Player7(Home Team).
-- Player21(Away Team) commits a foul, allowing Player7(Home Team) to win a free kick on the right wing, This leads to a set piece opportunity for their team.
-- Player21(Away Team) receives a yellow card for a rough tackle.
-- Player21(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick in their own defensive half.
-- Player21(Away Team) has committed a hand ball.
-- Player21(Away Team) has been given a second yellow card for handling the ball.
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-**Reasoning:**
+3.  **Snippet Analysis:**
 
-1. **Shots:**
-    - "Player21(Away Team)'s shot from outside the box is blocked after being assisted by Player26(Away Team) with a headed pass." - This is a shot, so increment Shots count.
-    - "Player21(Away Team)'s left footed shot from the left side of the box, assisted by Player29(Away Team) with a headed pass following a corner kick, misses to the right for the Away Team." - This is a shot, so increment Shots count.
-    - Total Shots: 2
+*   Snippet 1: "Player21(Away Team) commits a foul, giving Player7(Home Team) a free kick on the right wing, ."
+    *   Fouls: Player21 commits a foul. Increment Fouls to 1.
 
-2. **Goals:**
-    - No explicit mention of Player21 scoring a goal.
-    - Total Goals: 0
+*   Snippet 2: "Player21(Away Team)'s shot from outside the box is blocked after being assisted by Player26(Away Team) with a headed pass."
+    *   Shots: Player21 takes a shot. Increment Shots to 1.
 
-3. **Assists:**
-    - No explicit mention of Player21 providing an assist. The snippets mention Player21 *being* assisted, but not *giving* an assist.
-    - Total Assists: 0
+*   Snippet 3: "Player21(Away Team) earns a free kick on the left side of the field."
+    *   Free Kicks: Player21 earns a free kick. Increment Free Kicks to 1.
 
-4. **Free Kicks:**
-    - "Player21(Away Team) earns a free kick on the left side of the field." - This counts as a free kick.
-    - "Player21(Away Team) earns a free kick on the left wing after being fouled by Player7(Home Team)." - This counts as a free kick.
-    - Total Free Kicks: 2
+*   Snippet 4: "Player21(Away Team)'s left footed shot from the left side of the box, assisted by Player29(Away Team) with a headed pass following a corner kick, misses to the right for the Away Team."
+    *   Shots: Player21 takes a shot. Increment Shots to 2.
 
-5. **Fouls:**
-    - "Player21(Away Team) commits a foul, giving Player7(Home Team) a free kick on the right wing, ." - This is a foul, so increment Fouls count.
-    - "Player21(Away Team) commits a foul, allowing Player7(Home Team) to win a free kick on the right wing, This leads to a set piece opportunity for their team." - This is a foul, so increment Fouls count.
-    - "Player21(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick in their own defensive half." - This is a foul, so increment Fouls count.
-    - "Player21(Away Team) has committed a hand ball." - This is a foul, so increment Fouls count.
-    - "Player21(Away Team) has been given a second yellow card for handling the ball." - This also counts as a foul, specifically a handball.
-    - Total Fouls: 5
+*   Snippet 5: "Player21(Away Team) earns a free kick on the left wing after being fouled by Player7(Home Team)."
+    *   Free Kicks: Player21 earns a free kick. Increment Free Kicks to 2.
 
-6. **Yellow Cards:**
-    - "Player21(Away Team) receives a yellow card for a rough tackle." - This is a yellow card, so increment Yellow Cards count.
-    - "Player21(Away Team) has been given a second yellow card for handling the ball." - This is a yellow card, so increment Yellow Cards count.
-    - Total Yellow Cards: 2
+*   Snippet 6: "Player21(Away Team) commits a foul, allowing Player7(Home Team) to win a free kick on the right wing, This leads to a set piece opportunity for their team."
+    *   Fouls: Player21 commits a foul. Increment Fouls to 2.
 
-7. **Red Cards:**
-    - "Player21(Away Team) has been given a second yellow card for handling the ball." - The snippet explicitly states "second yellow card". This implies a red card.
-    - Total Red Cards: 1
+*   Snippet 7: "Player21(Away Team) receives a yellow card for a rough tackle."
+    *   Yellow Cards: Player21 receives a yellow card. Increment Yellow Cards to 1.
 
-8. **Offsides:**
-    - No mention of Player21 being offsides.
-    - Total Offsides: 0
+*   Snippet 8: "Player21(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick in their own defensive half."
+    *   Fouls: Player21 commits a foul. Increment Fouls to 3.
+
+*   Snippet 9: "Player21(Away Team) has committed a hand ball."
+    *   Fouls: Player21 committed a hand ball. Increment Fouls to 4
+
+*   Snippet 10: "Player21(Away Team) has been given a second yellow card for handling the ball."
+    *   Yellow Cards: Second yellow card.
+    *   Red Cards: The player is given a second yellow card, which means they are sent off. Increment Red Cards to 1.
+    *   Fouls: Player21 handling the ball. Increment Fouls to 5.
 
 Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player21 | 2     | 0     | 0       | 2          | 5     | 2            | 1         | 0        |
+| Player21 | 2     | 0     | 0       | 2          | 5     | 1            | 1         | 0        |
 ```

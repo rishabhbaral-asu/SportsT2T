@@ -1,35 +1,30 @@
 Okay, let's analyze the commentary snippets for Player24.
 
-*   **Player Name:** Player24
-*   **Commentary Snippets:**
-    *   "Player24(Away Team) misses a high right-footed shot from the center of the box, assisted by Player23(Away Team) with a header after the Away Team earns a corner kick."
+1.  **Player Name:** The target player is Player24.
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-Now, let's initialize the counts and analyze the snippets:
+3.  **Snippet Analysis:**
 
-*   Shots: 0
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+    *   Snippet 1: "Player24(Away Team) misses a high right-footed shot from the center of the box, assisted by Player23(Away Team) with a header after the Away Team earns a corner kick."
+        *   The snippet explicitly states that Player24 missed a shot. Therefore, Shots = 1. Since the target player misses the shot, Goals remains 0. The target player is assisted by another player so Assists = 0. There is no mention of a free kick, foul, or card.
 
-**Snippet Analysis:**
-
-*   "Player24(Away Team) misses a high right-footed shot from the center of the box, assisted by Player23(Away Team) with a header after the Away Team earns a corner kick."
-    *   "misses a high right-footed shot" - This indicates a shot taken by Player24. Increment Shots.
-
-Updated Counts:
-
-*   Shots: 1
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
 Final Summary Table:
 ```markdown

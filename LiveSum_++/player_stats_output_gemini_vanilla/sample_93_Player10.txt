@@ -1,45 +1,27 @@
-Okay, let's break down the commentary and extract the statistics for Player10.
+Okay, let's start by identifying the target player and initializing the counts.
 
-**1. Identify Target Player:**
+Target Player: Player10
 
-The target player is Player10.
+Initial Counts:
+Shots: 0, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
 
-**2. Initialize Counts:**
+Now, let's analyze the commentary snippets:
 
-*   Shots: 0
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+Snippet 1: "Player10(Home Team)'s shot from outside the box with his left foot goes high and wide to the left, missing the target, The attempt was assisted by Player4(Home Team)."
 
-**3. Analyze Commentary Snippets:**
+*   **Shots:** The snippet mentions "Player10's shot". Increment Shots to 1.
+*   **Goals:** The snippet does not mention Player10 scoring a goal.
+*   **Assists:** The snippet explicitly states Player10 was *assisted by* Player4. This means Player10 did not provide an assist. No increment.
+*   **Free Kicks:** The snippet does not mention a free kick being taken, only a shot being taken. However, a shot is distinct from a free kick. No increment.
+*   **Fouls:** The snippet does not mention Player10 committing a foul.
+*   **Yellow Cards:** The snippet does not mention Player10 receiving a yellow card.
+*   **Red Cards:** The snippet does not mention Player10 receiving a red card.
+*   **Offsides:** The snippet does not mention Player10 being offsides.
 
-*   Snippet 1: "Player10(Home Team)'s shot from outside the box with his left foot goes high and wide to the left, missing the target, The attempt was assisted by Player4(Home Team)."
-    *   Shots: The snippet explicitly states "Player10's shot," so increment Shots by 1.
-    *   Goals: No goal is mentioned.
-    *   Assists: While Player10 *took* a shot, the sentence says, "The attempt was assisted by Player4." Therefore, Player10 did NOT provide an assist.
-    * Free Kicks: This snippet does not describe a free kick event.
-    * Fouls: This snippet does not describe any fouls committed by Player10.
-    * Yellow Cards: This snippet does not describe a yellow card for Player10.
-    * Red Cards: This snippet does not describe a red card for Player10.
-    * Offsides: This snippet does not describe an offside for Player10.
-
-**4. Final Counts:**
-
-*   Shots: 1
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+Updated Counts:
+Shots: 1, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
 
 Final Summary Table:
-
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

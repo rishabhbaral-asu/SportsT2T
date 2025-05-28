@@ -1,8 +1,18 @@
-Okay, I will follow the instructions to analyze the commentary snippets for Player22 and generate the summary table.
+Okay, I will follow the instructions to analyze the commentary snippets and generate the final summary table for the given player.
 
-1.  **Identify Target Player:** Player22
+**Player Name:**
+Player22
 
-2.  **Initialize Counts:**
+**Commentary Snippets:**
+
+*   Player22(Away Team) attempts a through ball, but Player28(Away Team) is caught offside.
+*   Player22(Away Team) misses the goal with a shot from the center of the box, assisted by Player31(Away Team).
+
+**Step-by-step analysis:**
+
+1.  **Player Identification:** The target player is Player22.
+
+2.  **Initialization:**
     *   Shots = 0
     *   Goals = 0
     *   Assists = 0
@@ -12,17 +22,20 @@ Okay, I will follow the instructions to analyze the commentary snippets for Play
     *   Red Cards = 0
     *   Offsides = 0
 
-3.  **Analyze Snippets:**
+3.  **Snippet Analysis:**
 
-    *   Snippet 1: "Player22(Away Team) attempts a through ball, but Player28(Away Team) is caught offside."
-        *   Offsides: Player22 did not commit an offside. Player28 was caught offside.
-        *   Assists: No goal was scored, so there is no assist.
-    *   Snippet 2: "Player22(Away Team) misses the goal with a shot from the center of the box, assisted by Player31(Away Team)."
-        *   Shots: Player22 missed a shot, so increment Shots by 1.
-        *   Goals: Player22 did not score, so Goals remains 0.
-        *   Assists: Player22 was assisted by Player31; therefore, Player22 does not get an assist.
+    *   **Snippet 1:** "Player22(Away Team) attempts a through ball, but Player28(Away Team) is caught offside."
+        *   No shot, goal, assist, foul, or card is mentioned.
+        *   Offsides: Player28 is offside, not Player22, so we do not increment Offsides.
 
-4.  **Compile Final Counts:**
+    *   **Snippet 2:** "Player22(Away Team) misses the goal with a shot from the center of the box, assisted by Player31(Away Team)."
+        *   Shots: Player22 misses the goal with a shot. Increment Shots by 1.
+        *   Goals: No goal is scored by Player22.
+        *   Assists: Player22 was *assisted by* Player31, so Player22 does not get an assist.
+        *   Free Kicks, Fouls, Yellow Cards, Red Cards, and Offsides are not mentioned.
+
+4.  **Final Counts:**
+
     *   Shots = 1
     *   Goals = 0
     *   Assists = 0
@@ -32,9 +45,8 @@ Okay, I will follow the instructions to analyze the commentary snippets for Play
     *   Red Cards = 0
     *   Offsides = 0
 
-5.  **Final Summary Table:**
-
 Final Summary Table:
+
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

@@ -1,82 +1,48 @@
-Okay, let's analyze the commentary snippets for Player11 and compile the statistics.
+Okay, let's analyze the commentary snippets for Player11 and generate the summary table.
 
-1.  **Player Name:** The target player is Player11.
+**Player Name:** Player11
 
-2.  **Initialization:** We initialize all event counts to 0.
+**Commentary Snippets:**
 
-3.  **Snippet Analysis:**
+*   "Player11(Home Team)'s right footed shot from outside the box is blocked by the defense, assisted by Player8(Home Team), and Player8(Home Team)'s subsequent attempt is saved in the center of the goal."
+*   "Player11(Home Team) earns a free kick in the opponent's half."
+*   "Player11(Home Team) takes a shot with their left foot from outside the box, but it goes just wide to the right, Player9(Home Team) provided the assist."
+*   "Player11(Home Team) earns a free kick in their own half."
+*   "Player11(Home Team) commits a hand ball, ."
+*   "Player11(Home Team)'s shot from outside the box with his left foot is saved in the bottom right corner, with an assist from Player14(Home Team)."
 
-*   **Snippet 1:** "Player11(Home Team)'s right footed shot from outside the box is blocked by the defense, assisted by Player8(Home Team), and Player8(Home Team)'s subsequent attempt is saved in the center of the goal."
-    *   Shots: Player11 takes a shot which is blocked. Count Shots += 1.
-    *   Goals: No goal scored by Player11.
-    *   Assists: Player11 did not provide the assist in this case, so the assist does not count for Player11.
-    *   Free Kicks: Not mentioned.
-    *   Fouls: Not mentioned.
-    *   Yellow Cards: Not mentioned.
-    *   Red Cards: Not mentioned.
-    *   Offsides: Not mentioned.
+**Event Counting:**
 
-*   **Snippet 2:** "Player11(Home Team) earns a free kick in the opponent's half."
-    *   Shots: Not mentioned.
-    *   Goals: Not mentioned.
-    *   Assists: Not mentioned.
-    *   Free Kicks: Player11 earns a free kick. Count Free Kicks += 1.
-    *   Fouls: Not mentioned.
-    *   Yellow Cards: Not mentioned.
-    *   Red Cards: Not mentioned.
-    *   Offsides: Not mentioned.
-
-*   **Snippet 3:** "Player11(Home Team) takes a shot with their left foot from outside the box, but it goes just wide to the right, Player9(Home Team) provided the assist."
-    *   Shots: Player11 takes a shot. Count Shots += 1.
-    *   Goals: No goal scored by Player11.
-    *   Assists: Player11 did not provide the assist in this case, so the assist does not count for Player11.
-    *   Free Kicks: Not mentioned.
-    *   Fouls: Not mentioned.
-    *   Yellow Cards: Not mentioned.
-    *   Red Cards: Not mentioned.
-    *   Offsides: Not mentioned.
-
-*   **Snippet 4:** "Player11(Home Team) earns a free kick in their own half."
-    *   Shots: Not mentioned.
-    *   Goals: Not mentioned.
-    *   Assists: Not mentioned.
-    *   Free Kicks: Player11 earns a free kick. Count Free Kicks += 1.
-    *   Fouls: Not mentioned.
-    *   Yellow Cards: Not mentioned.
-    *   Red Cards: Not mentioned.
-    *   Offsides: Not mentioned.
-
-*   **Snippet 5:** "Player11(Home Team) commits a hand ball, ."
-    *   Shots: Not mentioned.
-    *   Goals: Not mentioned.
-    *   Assists: Not mentioned.
-    *   Free Kicks: Not mentioned.
-    *   Fouls: Player11 commits a hand ball (foul). Count Fouls += 1.
-    *   Yellow Cards: Not mentioned.
-    *   Red Cards: Not mentioned.
-    *   Offsides: Not mentioned.
-
-*   **Snippet 6:** "Player11(Home Team)'s shot from outside the box with his left foot is saved in the bottom right corner, with an assist from Player14(Home Team)."
-    *   Shots: Player11 takes a shot which is saved. Count Shots += 1.
-    *   Goals: No goal scored by Player11.
-    *   Assists: Player11 did not provide the assist in this case, so the assist does not count for Player11.
-    *   Free Kicks: Not mentioned.
-    *   Fouls: Not mentioned.
-    *   Yellow Cards: Not mentioned.
-    *   Red Cards: Not mentioned.
-    *   Offsides: Not mentioned.
-
-4.  **Final Counts:**
-    *   Shots: 3
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 2
-    *   Fouls: 1
-    *   Yellow Cards: 0
-    *   Red Cards: 0
-    *   Offsides: 0
+*   **Shots:**
+    *   Snippet 1: "Player11(Home Team)'s right footed shot from outside the box is blocked by the defense..." - Counts as 1 shot.
+    *   Snippet 3: "Player11(Home Team) takes a shot with their left foot from outside the box, but it goes just wide to the right..." - Counts as 1 shot.
+    *   Snippet 6: "Player11(Home Team)'s shot from outside the box with his left foot is saved in the bottom right corner..." - Counts as 1 shot.
+    *   Total Shots: 3
+*   **Goals:**
+    *   No snippets explicitly state Player11 scored a goal.
+    *   Total Goals: 0
+*   **Assists:**
+    *   No snippets state Player11 provided an assist. All assists mentioned are *to* Player11, not *by* Player11.
+    *   Total Assists: 0
+*   **Free Kicks:**
+    *   Snippet 2: "Player11(Home Team) earns a free kick in the opponent's half." - Counts as 1 Free Kick.
+     *   Snippet 4: "Player11(Home Team) earns a free kick in their own half." - Counts as 1 Free Kick.
+    *   Total Free Kicks: 2
+*   **Fouls:**
+    *   Snippet 5: "Player11(Home Team) commits a hand ball, ." - Counts as 1 foul.
+    *   Total Fouls: 1
+*   **Yellow Cards:**
+    *   No snippets mention Player11 receiving a yellow card.
+    *   Total Yellow Cards: 0
+*   **Red Cards:**
+    *   No snippets mention Player11 receiving a red card.
+    *   Total Red Cards: 0
+*   **Offsides:**
+    *   No snippets mention Player11 being offsides.
+    *   Total Offsides: 0
 
 Final Summary Table:
+
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

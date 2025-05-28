@@ -1,4 +1,4 @@
-Okay, let's analyze the commentary snippets for Player11 and generate the statistics table.
+Okay, let's analyze the commentary snippets for Player11 and generate the final summary table.
 
 **Player Name:** Player11
 
@@ -9,36 +9,18 @@ Okay, let's analyze the commentary snippets for Player11 and generate the statis
 *   Player11(Home Team) commits a foul.
 *   Player11(Home Team)'s shot from the left side of the box is blocked after an assist from Player8(Home Team).
 
-**Reasoning:**
+**Event Tracking:**
 
-1.  **Shots:**
-    *   Snippet 2: "Player11(Home Team)'s long-range shot with their right foot from the left side is saved in the bottom right corner." - This is a shot, so increment the shot count by 1.
-    *   Snippet 4: "Player11(Home Team)'s shot from the left side of the box is blocked after an assist from Player8(Home Team)." - This is a shot, so increment the shot count by 1.
-    Total Shots = 2
-2.  **Goals:**
-    *   No snippets explicitly state that Player11 scored a goal.
-    Total Goals = 0
-3.  **Assists:**
-    *   No snippets explicitly state that Player11 provided an assist. Snippet 4 states Player11 was *assisted by* Player8, so Player11 gets no assist credit.
-    Total Assists = 0
-4.  **Free Kicks (Taken):**
-    *   Snippet 1: "Player11(Home Team) earns a free kick on the left side of the field." - This means Player11 won a free kick. Increment Free Kick count by 1.
-    Total Free Kicks = 1
-5.  **Fouls (Committed):**
-    *   Snippet 3: "Player11(Home Team) commits a foul." - Explicitly states Player11 committed a foul. Increment the foul count by 1.
-    Total Fouls = 1
-6.  **Yellow Cards:**
-    *   No snippets mention Player11 receiving a yellow card.
-    Total Yellow Cards = 0
-7.  **Red Cards:**
-    *   No snippets mention Player11 receiving a red card.
-    Total Red Cards = 0
-8.  **Offsides:**
-    *   No snippets mention Player11 being offsides.
-    Total Offsides = 0
+1.  **Free Kicks:** The first snippet states "Player11(Home Team) earns a free kick on the left side of the field." This clearly indicates Player11 won a free kick. So, Free Kicks = 1.
+2.  **Shots:** The second snippet mentions "Player11(Home Team)'s long-range shot with their right foot from the left side is saved...". This clearly indicates a shot taken by Player11. The fourth snippet states "Player11(Home Team)'s shot from the left side of the box is blocked after an assist from Player8(Home Team)". This is another shot by Player11. Total Shots = 2.
+3.  **Fouls:** The third snippet mentions "Player11(Home Team) commits a foul." This is a direct statement. So, Fouls = 1.
+4.  **Goals:** No snippets mention Player11 scoring a goal. So, Goals = 0.
+5.  **Assists:** No snippets mention Player11 providing an assist. The fourth snippet mentions Player11 was assisted, which doesn't count as an assist for Player11. So, Assists = 0.
+6.  **Yellow Cards:** No snippets mention Player11 receiving a yellow card. So, Yellow Cards = 0.
+7.  **Red Cards:** No snippets mention Player11 receiving a red card. So, Red Cards = 0.
+8.  **Offsides:** No snippets mention Player11 being offside. So, Offsides = 0.
 
-**Final Summary Table:**
-
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

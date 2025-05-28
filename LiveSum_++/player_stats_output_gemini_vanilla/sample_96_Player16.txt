@@ -1,36 +1,35 @@
-Okay, let's break this down step-by-step.
+Okay, let's analyze the commentary snippets for Player16.
 
-1. **Identify the target player:** The target player is Player16.
+1.  **Player Name:** Player16
 
-2. **Initialize Counts:**
-   - Shots = 0
-   - Goals = 0
-   - Assists = 0
-   - Free Kicks = 0
-   - Fouls = 0
-   - Yellow Cards = 0
-   - Red Cards = 0
-   - Offsides = 0
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
-3. **Analyze Snippets:**
+3.  **Analyze Snippets:**
 
-   * **Snippet 1:** "Player16(Home Team) fouls Player20(Away Team), resulting in Player11(Home Team) winning a free kick on the right wing."
-     -  Player16 commits a foul. Increment Fouls.
-     -  Fouls = 1
+    *   Snippet 1: "Player16(Home Team) fouls Player20(Away Team), resulting in Player11(Home Team) winning a free kick on the right wing."
+        *   "fouls" is a keyword. Player16 is explicitly committing the foul. Increment Fouls by 1.
+        *   The mention of resulting in a free kick being won by Player11 does not count as Player16 taking a free kick.
 
-   * **Snippet 2:** "Player16(Home Team) draws a foul and earns a free kick on the left side."
-     - Player16 wins a free kick. Increment Free Kicks.
-     - Free Kicks = 1
+    *   Snippet 2: "Player16(Home Team) draws a foul and earns a free kick on the left side."
+        *   "earns a free kick" is a keyword. Player16 is explicitly winning a free kick. Increment Free Kicks by 1.
 
-4. **Final Counts:**
-   - Shots = 0
-   - Goals = 0
-   - Assists = 0
-   - Free Kicks = 1
-   - Fouls = 1
-   - Yellow Cards = 0
-   - Red Cards = 0
-   - Offsides = 0
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
 Final Summary Table:
 ```markdown

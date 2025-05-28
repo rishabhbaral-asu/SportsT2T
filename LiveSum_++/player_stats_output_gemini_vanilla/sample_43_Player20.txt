@@ -1,4 +1,4 @@
-Okay, let's analyze the commentary snippets for Player20 and compile the statistics.
+Okay, I will follow the instructions to analyze the commentary snippets for the specified player and generate the final summary table.
 
 1.  **Identify Target Player:**
     The target player is Player20.
@@ -13,28 +13,28 @@ Okay, let's analyze the commentary snippets for Player20 and compile the statist
     Red Cards = 0
     Offsides = 0
 
-3.  **Analyze Commentary Snippets:**
+3.  **Analyze Snippets:**
 
     *   Snippet 1: "Player20(Away Team) outside the box, finding the bottom left corner."
-        *   This implies a shot and a goal.
-        *   Shots = 1
-        *   Goals = 1
+        *   This snippet describes a shot and goal by Player20.
+        *   Shots += 1
+        *   Goals += 1
 
     *   Snippet 2: "Player20(Away Team) commits a foul."
-        *   Explicitly states Player20 committed a foul.
-        *   Fouls = 1
+        *   This snippet describes Player20 committing a foul.
+        *   Fouls += 1
 
     *   Snippet 3: "Player20(Away Team) receives a yellow card for fouling Player35(Away Team)."
-        *   Explicitly states Player20 received a yellow card.
-        *   Also explicitly states that Player20 committed a foul (leading to yellow card),
-        *   Yellow Cards = 1
-        *   Fouls = 2
+        *   This snippet describes Player20 receiving a yellow card.
+        *   Also mentions that the yellow card was for fouling, so we also count a foul for player 20
+        *   Yellow Cards += 1
+        *   Fouls += 1
 
     *   Snippet 4: "Player20(Away Team) commits a foul."
-        *   Explicitly states Player20 committed a foul.
-        *   Fouls = 3
+        *   This snippet describes Player20 committing a foul.
+        *   Fouls += 1
 
-4.  **Final Counts:**
+4.  **Compile Results:**
     Shots = 1
     Goals = 1
     Assists = 0

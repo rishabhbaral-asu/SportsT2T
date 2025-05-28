@@ -1,30 +1,25 @@
-Okay, let's analyze the commentary snippets for Player22 and generate the statistics table.
+Okay, let's analyze the commentary snippets for Player22 and generate the requested markdown table.
 
-**1. Player Identification:**
-The target player is Player22.
+**Player Name:** Player22
 
-**2. Initialization:**
-We initialize the event counts for Player22 to 0: Shots=0, Goals=0, Assists=0, Free Kicks=0, Fouls=0, Yellow Cards=0, Red Cards=0, Offsides=0.
+**Commentary Snippets:**
 
-**3. Snippet Analysis:**
+*   Player22(Away Team) commits a foul.
+*   Player22(Away Team) of the Away Team attempts a through ball, but Player23(Away Team) is flagged for offside.
+*   Player22(Away Team) with a risky move.
 
-*   **Snippet 1:** "Player22(Away Team) commits a foul."
-    *   This snippet explicitly states Player22 committed a foul.
-    *   Increment Fouls: Fouls = 0 + 1 = 1
+**Event Tracking:**
 
-*   **Snippet 2:** "Player22(Away Team) of the Away Team attempts a through ball, but Player23(Away Team) is flagged for offside."
-    *   This snippet states that Player22 attempts a through ball, but Player23 is flagged for offside.
-    * No explicit mention of a shot, goal, assist, free kick, foul, or card.
-    * No increments.
+*   **Shots:** 0. The snippets do not explicitly mention Player22 taking a shot.
+*   **Goals:** 0. The snippets do not explicitly mention Player22 scoring a goal.
+*   **Assists:** 0. The snippets do not explicitly mention Player22 providing an assist.
+*   **Free Kicks:** 0. The snippets do not explicitly mention Player22 taking a free kick or being fouled. While Player22 attempts a through ball, this isn't a free kick.
+*   **Fouls:** 1. The first snippet states "Player22(Away Team) commits a foul."
+*   **Yellow Cards:** 0. The snippets do not explicitly mention Player22 receiving a yellow card.
+*   **Red Cards:** 0. The snippets do not explicitly mention Player22 receiving a red card.
+*   **Offsides:** 0. Although Player23 is flagged for offside after a ball from Player22, Player22 is never flagged for offside.
 
-*   **Snippet 3:** "Player22(Away Team) with a risky move."
-    *   This snippet mentions a "risky move" by Player22. This isn't explicitly a foul or a shot, goal, assist, free kick, yellow card, or red card.
-    *   No increments.
-
-**4. Final Counts:**
-Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0
-
-**Final Summary Table:**
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

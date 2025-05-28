@@ -1,39 +1,40 @@
-Okay, let's break this down step by step.
+Okay, let's start by identifying the player name and initializing the counts.
 
-1. **Identify Target Player:** The target player is Player21.
-2. **Initialize Counts:**
-    * Shots = 0
-    * Goals = 0
-    * Assists = 0
-    * Free Kicks = 0
-    * Fouls = 0
-    * Yellow Cards = 0
-    * Red Cards = 0
-    * Offsides = 0
+Player Name: Player21
 
-3. **Analyze Commentary Snippets:**
+Initial Counts:
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
 
-*   **Snippet 1:** "Player21(Away Team) with the foul."
-    *   This explicitly states Player21 committed a foul.
-    *   Increment Fouls: Fouls = 1
+Now, let's analyze the commentary snippets:
 
-*   **Snippet 2:** "Player21(Away Team) commits a foul, resulting in Player9(Home Team) winning a free kick in the attacking half, The foul was committed by Player21(Away Team), leading to Player9(Home Team) being awarded a free kick in the attacking half."
-    *   This explicitly states Player21 committed a foul.
-    *   Increment Fouls: Fouls = 2
+Snippet 1: "Player21(Away Team) with the foul."
+- This snippet explicitly states that Player21 committed a foul.
+- Fouls: 1
 
-4.  **Compile Final Counts:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 2
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+Snippet 2: "Player21(Away Team) commits a foul, resulting in Player9(Home Team) winning a free kick in the attacking half, The foul was committed by Player21(Away Team), leading to Player9(Home Team) being awarded a free kick in the attacking half."
+- This snippet explicitly states that Player21 committed a foul twice.
+- Fouls: 1 + 2 = 3
+
+Now, let's compile the final counts:
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 3
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
 
 Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player21 | 0     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+| Player21 | 0     | 0     | 0       | 0          | 3     | 0            | 0         | 0        |
 ```

@@ -1,32 +1,31 @@
-Okay, let's analyze the commentary snippets for Player5.
+Okay, let's break down the commentary snippets and extract the player statistics for Player5.
 
-1.  **Player Name:** Player5
+1.  **Identify Target Player:** The target player is Player5.
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
-2.  **Initialization:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 0
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
-
-3.  **Commentary Snippet Analysis:**
+3.  **Analyze Commentary Snippets:**
 
     *   Snippet 1: "Player5(Home Team) fouls Player25(Away Team), who wins a free kick on the left wing."
-        *   "fouls" is present, and Player5 is explicitly stated to have committed the foul.
-        *   Increment Fouls: Fouls = 0 + 1 = 1
+        *   Fouls: Player5 commits a foul. Increment Fouls count by 1.
+        *   Free Kicks: Player25 wins a free kick as a result of Player5's foul. This does not count as Player5 taking the free kick.
 
 4.  **Final Counts:**
-    *   Shots = 0
-    *   Goals = 0
-    *   Assists = 0
-    *   Free Kicks = 0
-    *   Fouls = 1
-    *   Yellow Cards = 0
-    *   Red Cards = 0
-    *   Offsides = 0
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
 Final Summary Table:
 ```markdown

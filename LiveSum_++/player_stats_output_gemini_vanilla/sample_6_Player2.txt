@@ -1,20 +1,44 @@
-Okay, let's analyze the commentary snippets for Player2.
+Okay, let's analyze the commentary snippets for Player2 and generate the final summary table.
 
-**Player Name:** Player2
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
 
-**Commentary Snippets:**
-- Player2(Home Team) earns a free kick in the opponent's half.
+**Input:**
+* **Player Name:**
+    <PLAYER_NAME>
+    Player2
+    </PLAYER_NAME>
+* **Commentary Snippets:**
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player2(Home Team) earns a free kick in the opponent's half.
+    </PLAYER_COMMENTARY_SNIPPETS>
 
 **Step-by-step analysis:**
 
-1.  **Shots:** The snippet does not mention Player2 taking a shot or any attempt on goal. Count: 0
-2.  **Goals:** The snippet does not mention Player2 scoring a goal. Count: 0
-3.  **Assists:** The snippet does not mention Player2 providing an assist. Count: 0
-4.  **Free Kicks:** The snippet mentions "Player2(Home Team) earns a free kick in the opponent's half.". This indicates that Player2 won a free kick. Count: 1
-5.  **Fouls:** The snippet does not explicitly state that Player2 committed a foul. Count: 0
-6.  **Yellow Cards:** The snippet does not mention Player2 receiving a yellow card. Count: 0
-7.  **Red Cards:** The snippet does not mention Player2 receiving a red card. Count: 0
-8.  **Offsides:** The snippet does not mention Player2 being offside. Count: 0
+1.  **Identify the target player:** The target player is Player2.
+
+2.  **Initialize counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze commentary snippets:**
+    *   Snippet 1: "Player2(Home Team) earns a free kick in the opponent's half."
+        *   This snippet explicitly states that Player2 earns a free kick. Therefore, Free Kicks is incremented by 1.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
 Final Summary Table:
 ```markdown

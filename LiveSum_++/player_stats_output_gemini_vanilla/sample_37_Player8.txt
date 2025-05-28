@@ -1,8 +1,15 @@
-Okay, let's analyze the commentary snippets for Player8.
+Okay, I'm ready to process the commentary snippets and generate the player statistics table.
 
-1.  **Player Name:** Player8
+**Player Name:** Player8
 
-2.  **Initialization:**
+**Commentary Snippets:**
+- Player8(Home Team) commits a foul.
+- Player8(Home Team) receives a yellow card for a rough tackle.
+- Player8(Home Team) earns a free kick in the opponent's half after being fouled by Player36(Away Team).
+
+**Reasoning:**
+
+1.  **Initialization:**
     *   Shots = 0
     *   Goals = 0
     *   Assists = 0
@@ -12,21 +19,21 @@ Okay, let's analyze the commentary snippets for Player8.
     *   Red Cards = 0
     *   Offsides = 0
 
-3.  **Snippet Analysis:**
+2.  **Snippet Analysis:**
 
-    *   Snippet 1: "Player8(Home Team) commits a foul."
-        *   The snippet explicitly states Player8 committed a foul.
-        *   Fouls = 1
+    *   **Snippet 1:** "Player8(Home Team) commits a foul."
+        *   The snippet explicitly states that Player8 committed a foul.
+        *   Increment Fouls: Fouls = 0 + 1 = 1
 
-    *   Snippet 2: "Player8(Home Team) receives a yellow card for a rough tackle."
+    *   **Snippet 2:** "Player8(Home Team) receives a yellow card for a rough tackle."
         *   The snippet explicitly states Player8 received a yellow card.
-        *   Yellow Cards = 1
+        *   Increment Yellow Cards: Yellow Cards = 0 + 1 = 1
 
-    *   Snippet 3: "Player8(Home Team) earns a free kick in the opponent's half after being fouled by Player36(Away Team)."
+    *   **Snippet 3:** "Player8(Home Team) earns a free kick in the opponent's half after being fouled by Player36(Away Team)."
         *   The snippet explicitly states Player8 earned a free kick.
-        *   Free Kicks = 1
+        *   Increment Free Kicks: Free Kicks = 0 + 1 = 1
 
-4.  **Final Counts:**
+3. **Final Count:**
     *   Shots = 0
     *   Goals = 0
     *   Assists = 0

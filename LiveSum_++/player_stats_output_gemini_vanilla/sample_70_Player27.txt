@@ -1,21 +1,36 @@
 Okay, let's analyze the commentary snippets for Player27.
 
-**Player Name:** Player27
+1.  **Player Name:** Player27
 
-**Commentary Snippets:**
-- Player27(Away Team) misses the target with a right-footed shot from outside the box.
-- Player27(Away Team) commits a foul, resulting in Player4(Home Team) winning a free kick in the attacking half, This leads to a set-piece opportunity for Player4(Home Team)'s team.
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-**Analysis:**
+3.  **Snippet Analysis:**
 
-*   **Shots:** The first snippet states "Player27(Away Team) misses the target with a right-footed shot from outside the box." This is an explicit shot, so the shot count is incremented by 1.
-*   **Goals:** Neither snippet explicitly mentions Player27 scoring a goal.
-*   **Assists:** Neither snippet explicitly mentions Player27 providing an assist.
-*   **Free Kicks (Taken):** Neither snippet mentions Player27 taking a free kick or penalty. The second snippet describes Player27 committing a foul which resulted in Player4 winning a free kick but does not count toward Free Kick (Taken) for Player27, as they are not the one taking the kick.
-*   **Fouls (Committed):** The second snippet explicitly states "Player27(Away Team) commits a foul". This is a direct attribution of a foul, so the foul count is incremented by 1.
-*   **Yellow Cards:** Neither snippet mentions Player27 receiving a yellow card.
-*   **Red Cards:** Neither snippet mentions Player27 receiving a red card.
-*   **Offsides:** Neither snippet mentions Player27 being offsides.
+    *   Snippet 1: "Player27(Away Team) misses the target with a right-footed shot from outside the box."
+        *   The snippet explicitly states Player27 missed a shot.
+        *   Shots = 1
+
+    *   Snippet 2: "Player27(Away Team) commits a foul, resulting in Player4(Home Team) winning a free kick in the attacking half, This leads to a set-piece opportunity for Player4(Home Team)'s team."
+        * The snippet explicitly states Player27 committed a foul.
+        * Fouls = 1
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
 Final Summary Table:
 ```markdown

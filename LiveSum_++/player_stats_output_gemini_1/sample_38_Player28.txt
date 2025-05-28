@@ -1,7 +1,9 @@
 Analyzing the snippets for Player28:
-- "Player28(Away Team)'s shot from the center of the box is blocked, resulting in a corner kick for the Away Team." -> Counts as 1 Shot because the snippet explicitly states "Player28(Away Team)'s shot...is blocked".
-- "Player28(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states "Player28(Away Team) commits a foul".
-- "Player28(Away Team) misses the goal with a right-footed shot from outside the box, with an assist from Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states "Player28(Away Team) misses the goal with a right-footed shot".
+
+- "Player28(Away Team)'s shot from the center of the box is blocked, resulting in a corner kick for the Away Team." -> Counts as 1 Shot because the snippet explicitly states Player28 took a shot that was blocked.
+- "Player28(Away Team) of the Away Team and Player10(Home Team) of the Home Team both attempted through balls, but Player36(Away Team) and Player16(Home Team) were caught offside, respectively." -> No countable event because while Player28 is mentioned, the snippet does not describe an event in the defined list associated with the player.
+- "Player28(Away Team) misses the goal with a right-footed shot from outside the box, with an assist from Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28 took a shot that missed the goal.
+- "Player28(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
 
 Final Summary Table:
 ```markdown

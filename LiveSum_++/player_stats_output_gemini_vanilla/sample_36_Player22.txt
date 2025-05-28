@@ -1,28 +1,22 @@
-Okay, let's analyze the commentary snippets for Player22.
+Okay, let's start.
 
 1.  **Player Name:** The target player is Player22.
-2.  **Initialization:** We start with all event counts at 0 for Player22.
-3.  **Snippet Analysis:**
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Snippets:**
 
     *   **Snippet 1:** "Player22(Away Team) commits a foul, resulting in Player8(Home Team) winning a free kick in their own defensive half."
-        *   Fouls: The snippet explicitly states "Player22 commits a foul", so we increment the Fouls count by 1.
-        *   Free Kicks: The snippet states that as a result of Player22 committing a foul, Player8 wins a free kick, However this counts as a foul and not a free kick for Player22.
-    *   **Snippet 2:** "Player22(Away Team) receives a yellow card for a foul on Player16(Home Team)."
-        *   Yellow Cards: The snippet explicitly states "Player22 receives a yellow card", so we increment the Yellow Cards count by 1.
+        *   "Fouls": The snippet explicitly states "Player22 commits a foul". Increment Fouls by 1. Fouls = 1
+        *   "Free Kicks": The snippet does *not* mention Player22 taking a free kick. Player8 won the free kick. No increment. Free Kicks = 0.
 
-4.  **Final Counts:**
-    *   Shots: 0
-    *   Goals: 0
-    *   Assists: 0
-    *   Free Kicks: 0
-    *   Fouls: 1
-    *   Yellow Cards: 1
-    *   Red Cards: 0
-    *   Offsides: 0
+    *   **Snippet 2:** "Player22(Away Team) receives a yellow card for a foul on Player16(Home Team)."
+        *   "Yellow Cards": The snippet explicitly states "Player22 receives a yellow card". Increment Yellow Cards by 1. Yellow Cards = 1
+        *   "Fouls": The snippet implies Player22 committed a foul by saying they received a yellow card for a foul, therefore increment Fouls by 1. Fouls = 2.
+
+4.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 2, Yellow Cards = 1, Red Cards = 0, Offsides = 0
 
 Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
-| Player22 | 0     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+| Player22 | 0     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
 ```

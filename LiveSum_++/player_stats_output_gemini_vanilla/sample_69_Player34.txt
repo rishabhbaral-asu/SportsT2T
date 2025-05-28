@@ -1,52 +1,37 @@
-Okay, let's analyze the commentary snippets for Player34 and compile the statistics.
+Okay, let's process the player commentary snippets for Player34.
 
-**1. Identify Target Player:**
+1. **Player Name:** Player34
 
-The target player is Player34.
+2. **Initialization:**
+   - Shots = 0
+   - Goals = 0
+   - Assists = 0
+   - Free Kicks = 0
+   - Fouls = 0
+   - Yellow Cards = 0
+   - Red Cards = 0
+   - Offsides = 0
 
-**2. Initialize Counts:**
+3. **Snippet Analysis:**
 
-*   Shots: 0
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+   - **Snippet 1:** "Player34(Away Team)'s shot from outside the box is saved in the middle of the goal, with an assist from Player29(Away Team)."
+     - This snippet mentions a shot by Player34. Increment Shots by 1.
+     - This snippet explicitly states an assist was provided *to* Player34, not *by* them, so no assist is counted for Player34.
+     - Current counts: Shots = 1, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
 
-**3. Analyze Commentary Snippets:**
+   - **Snippet 2:** "Player34(Away Team) commits a foul."
+     - This snippet explicitly states Player34 committed a foul. Increment Fouls by 1.
+     - Current counts: Shots = 1, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0
 
-*   **Snippet 1:** "Player34(Away Team)'s shot from outside the box is saved in the middle of the goal, with an assist from Player29(Away Team)."
-    *   Shots: Player34 took a shot, so increment Shots to 1.
-    *   Goals: No goal scored by Player34.
-    *   Assists: Player34 *received* an assist from Player29, so no assist to count for Player34.
-    *   Free Kicks: No free kick taken.
-    *   Fouls: No foul mentioned.
-    *   Yellow Cards: No yellow card mentioned.
-    *   Red Cards: No red card mentioned.
-    *   Offsides: No offside mentioned.
-
-*   **Snippet 2:** "Player34(Away Team) commits a foul."
-    *   Shots: No shot mentioned.
-    *   Goals: No goal mentioned.
-    *   Assists: No assist mentioned.
-    *   Free Kicks: No free kick mentioned.
-    *   Fouls: Player34 committed a foul, so increment Fouls to 1.
-    *   Yellow Cards: No yellow card mentioned.
-    *   Red Cards: No red card mentioned.
-    *   Offsides: No offside mentioned.
-
-**4. Final Counts:**
-
-*   Shots: 1
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 1
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+4. **Final Counts:**
+   - Shots = 1
+   - Goals = 0
+   - Assists = 0
+   - Free Kicks = 0
+   - Fouls = 1
+   - Yellow Cards = 0
+   - Red Cards = 0
+   - Offsides = 0
 
 Final Summary Table:
 ```markdown

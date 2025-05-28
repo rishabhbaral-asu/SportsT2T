@@ -1,35 +1,49 @@
-Okay, let's analyze the commentary snippets for Player27 and generate the final summary table.
+Okay, let's analyze the commentary snippets for Player27 and compile the statistics.
 
-**Player Name:** Player27
+1.  **Player Name:** Player27
 
-**Commentary Snippets:**
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-- Player27(Away Team) earns a free kick in the opponent's half.
-- Player27(Away Team) commits a foul.
-- Player27(Away Team) misses a header from the center of the box to the right, assisted by Player21(Away Team) with a cross.
-- Player27(Away Team) receives a yellow card.
-- Player27(Away Team)'s shot from the center of the box is saved by the goalkeeper after receiving a headed pass from Player26(Away Team).
+3.  **Snippet Analysis:**
 
-**Analysis:**
+    *   Snippet 1: "Player27(Away Team) earns a free kick in the opponent's half."
+        *   Explicitly states Player27 earns a free kick.
+        *   Free Kicks = 1
 
-1.  **Free Kicks (Taken):** The first snippet states "Player27(Away Team) earns a free kick". This means Player27 *wins* a free kick. So, the count is incremented by 1.
-2.  **Fouls (Committed):** The second snippet states "Player27(Away Team) commits a foul". This means Player27 committed a foul. So, the count is incremented by 1.
-3.  **Shots:** The third snippet says "Player27(Away Team) misses a header from the center of the box...". This is a shot.
-    So shots are incremented by 1.
-4.  **Yellow Cards:** The fourth snippet says "Player27(Away Team) receives a yellow card". This means Player27 received a yellow card. So, the count is incremented by 1.
-5.  **Shots:** The fifth snippet says "Player27(Away Team)'s shot from the center of the box is saved by the goalkeeper...". This is a shot.
-    So shots are incremented by 1.
+    *   Snippet 2: "Player27(Away Team) commits a foul."
+        *   Explicitly states Player27 commits a foul.
+        *   Fouls = 1
 
-**Event Counts:**
+    *   Snippet 3: "Player27(Away Team) misses a header from the center of the box to the right, assisted by Player21(Away Team) with a cross."
+        *   Explicitly states Player27 misses a header. This is a shot.
+        *   Shots = 1
 
-*   Shots: 2
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks (Taken): 1
-*   Fouls (Committed): 1
-*   Yellow Cards: 1
-*   Red Cards: 0
-*   Offsides: 0
+    *   Snippet 4: "Player27(Away Team) receives a yellow card."
+        *   Explicitly states Player27 receives a yellow card.
+        *   Yellow Cards = 1
+
+    *   Snippet 5: "Player27(Away Team)'s shot from the center of the box is saved by the goalkeeper after receiving a headed pass from Player26(Away Team)."
+        *   Explicitly states Player27 took a shot that was saved.
+        *   Shots = 2
+
+4.  **Final Counts:**
+
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
 
 Final Summary Table:
 ```markdown

@@ -1,45 +1,45 @@
-Okay, I'm ready to process the player commentary and generate the statistics table.
+Okay, I'm ready to analyze the commentary snippets and compile the statistics for the specified player.
 
-**1. Identify Target Player:**
+**Player Name:** Player29
 
-The target player is Player29.
+**Commentary Snippets:**
 
-**2. Initialize Counts:**
+- Player29(Away Team) is causing a delay in the match due to an injury.
+- Player29(Away Team)'s shot from the center of the box is saved in the top left corner after an assist from Player26(Away Team).
+- Player29(Away Team)'s attempt from outside the box narrowly misses the target as the shot goes just over the crossbar.
+- Player29(Away Team)'s attempt from outside the box is blocked with Player22(Away Team) providing the assist.
+- Player29(Away Team) commits a foul.
 
-*   Shots: 0
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+**Analysis:**
 
-**3. Analyze Commentary Snippets:**
+1.  **Shots:**
+    *   Snippet 2: "Player29(Away Team)'s shot from the center of the box is saved..." - This is a shot, so increment Shots count by 1.
+    *   Snippet 3: "Player29(Away Team)'s attempt from outside the box narrowly misses..." - This is a shot, so increment Shots count by 1.
+    *   Snippet 4: "Player29(Away Team)'s attempt from outside the box is blocked..." - This is a shot, so increment Shots count by 1.
+    Total Shots = 3
+2.  **Goals:**
+    *   No snippet explicitly mentions Player29 scoring a goal.
+    Total Goals = 0
+3.  **Assists:**
+    *   No snippet explicitly states Player29 provided an assist. Snippets 2 and 4 mentions assists *to* Player29, not *from* Player29.
+    Total Assists = 0
+4.  **Free Kicks:**
+    *   No snippet mentions Player29 taking a free kick, penalty or winning a free kick/penalty.
+    Total Free Kicks = 0
+5.  **Fouls:**
+    *   Snippet 5: "Player29(Away Team) commits a foul." - This is a foul committed by Player29, so increment Fouls count by 1.
+    Total Fouls = 1
+6.  **Yellow Cards:**
+    *   No snippet mentions Player29 receiving a yellow card.
+    Total Yellow Cards = 0
+7.  **Red Cards:**
+    *   No snippet mentions Player29 receiving a red card.
+    Total Red Cards = 0
+8.  **Offsides:**
+    *   No snippet mentions Player29 being offsides.
+    Total Offsides = 0
 
-*   **Snippet 1:** "Player29(Away Team) is causing a delay in the match due to an injury." - No relevant event is mentioned that can be counted.
-*   **Snippet 2:** "Player29(Away Team)'s shot from the center of the box is saved in the top left corner after an assist from Player26(Away Team)." - A shot is taken by Player29. Shots count is incremented. Since the player was assisted, no assist is added.
-    *   Shots: 1
-*   **Snippet 3:** "Player29(Away Team)'s attempt from outside the box narrowly misses the target as the shot goes just over the crossbar." - A shot is taken by Player29. Shots count is incremented.
-    *   Shots: 2
-*   **Snippet 4:** "Player29(Away Team)'s attempt from outside the box is blocked with Player22(Away Team) providing the assist." - A shot is taken by Player29. Shots count is incremented. Since the player was assisted, no assist is added.
-    *   Shots: 3
-*   **Snippet 5:** "Player29(Away Team) commits a foul." - Player29 commits a foul. Fouls count is incremented.
-    *   Fouls: 1
-
-**4. Final Counts:**
-
-*   Shots: 3
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 1
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
-
-**Final Summary Table:**
-
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

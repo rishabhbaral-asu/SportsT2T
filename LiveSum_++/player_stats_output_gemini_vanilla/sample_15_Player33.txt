@@ -1,9 +1,11 @@
-Okay, let's analyze the provided commentary snippets for Player33 and generate the final summary table.
+Okay, let's analyze the commentary snippets for Player33 and compile the statistics.
 
-**1. Identify Target Player:**
+**1. Identify the target player:**
+
 The target player is Player33.
 
-**2. Initialize Counts:**
+**2. Initialize counts:**
+
 Shots: 0
 Goals: 0
 Assists: 0
@@ -13,15 +15,26 @@ Yellow Cards: 0
 Red Cards: 0
 Offsides: 0
 
-**3. Analyze Commentary Snippets:**
+**3. Analyze each snippet:**
 
 *   **Snippet 1:** "Player33(Away Team)'s shot from the right side of the six yard box is saved in the bottom right corner with an assist from Player27(Away Team)."
-    *   This snippet explicitly mentions "Player33's shot", so we increment Shots by 1.
-    *   The snippet also explicitly mentions Player27 providing an assist *to* Player33, not the other way around. Therefore, we do *not* increment the Assists count for Player33.
-
+    *   Shots: Player33 takes a shot, so increment Shots to 1.
+    *   Goals: No goal is scored.
+    *   Assists: Player33 receives an assist, so no assist is counted for Player33.
+    *   Free Kicks: No free kick events are mentioned.
+    *   Fouls: No foul events are mentioned.
+    *   Yellow Cards: No yellow card events are mentioned.
+    *   Red Cards: No red card events are mentioned.
+    *   Offsides: No offside events are mentioned.
 *   **Snippet 2:** "Player33(Away Team) scores with a left-footed shot from close range into the bottom right corner."
-    *   This snippet explicitly mentions "Player33 scores", so we increment Goals by 1.
-    *   Because the player scores, a shot has occurred. So we increment Shots by one.
+    *   Shots: Player33 scores a goal, so increment Shots to 2 (1 from the previous snippet, plus 1).
+    *   Goals: Player33 scores a goal, so increment Goals to 1.
+    *   Assists: No assist events are mentioned.
+    *   Free Kicks: No free kick events are mentioned.
+    *   Fouls: No foul events are mentioned.
+    *   Yellow Cards: No yellow card events are mentioned.
+    *   Red Cards: No red card events are mentioned.
+    *   Offsides: No offside events are mentioned.
 
 **4. Final Counts:**
 
@@ -33,8 +46,6 @@ Fouls: 0
 Yellow Cards: 0
 Red Cards: 0
 Offsides: 0
-
-**5. Final Summary Table:**
 
 Final Summary Table:
 ```markdown

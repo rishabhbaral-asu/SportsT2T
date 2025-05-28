@@ -1,37 +1,29 @@
-Okay, let's analyze the commentary snippets for Player25 and compile the statistics.
+Okay, let's analyze the commentary snippets for Player25 and generate the statistics table.
 
 **Player Name:** Player25
 
 **Commentary Snippets:**
+- Player25(Away Team) earns a free kick in their own half.
+- Player25(Away Team) misses the goal with a right-footed shot from the right side of the box, assisted by Player26(Away Team).
+- Player25(Away Team) earns a free kick in the opponent's half.
+- Player25(Away Team) earns a free kick on the right wing after being fouled by Player6(Home Team).
 
-*   Player25(Away Team) earns a free kick in their own half.
-*   Player25(Away Team) misses the goal with a right-footed shot from the right side of the box, assisted by Player26(Away Team).
-*   Player25(Away Team) earns a free kick in the opponent's half.
-*   Player25(Away Team) earns a free kick on the right wing after being fouled by Player6(Home Team).
+**Event Tracking and Counting:**
 
-Now, let's break down each snippet and count the events:
+*   **Shots:** The second snippet mentions "Player25(Away Team) misses the goal with a right-footed shot". This is a shot, so increment Shots by 1.
+*   **Goals:** No snippet explicitly mentions Player25 scoring a goal.
+*   **Assists:** The second snippet mentions Player25 being *assisted by* Player26, so Player25 did not provide an assist.
+*   **Free Kicks (Taken):**
+    *   The first snippet mentions "Player25(Away Team) earns a free kick in their own half." This increments Free Kicks by 1.
+    *   The third snippet mentions "Player25(Away Team) earns a free kick in the opponent's half." This increments Free Kicks by 1.
+    *   The fourth snippet mentions "Player25(Away Team) earns a free kick on the right wing after being fouled by Player6(Home Team)." This increments Free Kicks by 1.
+*   **Fouls (Committed):** No snippet explicitly mentions Player25 committing a foul. The last snippet states Player25 was fouled *by* Player6.
+*   **Yellow Cards:** No snippet explicitly mentions Player25 receiving a yellow card.
+*   **Red Cards:** No snippet explicitly mentions Player25 receiving a red card.
+*   **Offsides:** No snippet explicitly mentions Player25 being offsides.
 
-*   **Snippet 1: "Player25(Away Team) earns a free kick in their own half."**
-    *   This indicates Player25 earned a free kick. Therefore, Free Kicks + 1.
-*   **Snippet 2: "Player25(Away Team) misses the goal with a right-footed shot from the right side of the box, assisted by Player26(Away Team)."**
-    *   This indicates Player25 took a shot. Therefore, Shots + 1.
-*   **Snippet 3: "Player25(Away Team) earns a free kick in the opponent's half."**
-    *   This indicates Player25 earned a free kick. Therefore, Free Kicks + 1.
-*   **Snippet 4: "Player25(Away Team) earns a free kick on the right wing after being fouled by Player6(Home Team)."**
-    *   This indicates Player25 earned a free kick as a result of being fouled. Therefore, Free Kicks + 1.
+**Final Summary Table:**
 
-**Calculated Statistics:**
-
-*   Shots: 1
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 3
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
-
-Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

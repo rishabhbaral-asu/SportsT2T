@@ -1,38 +1,34 @@
-Okay, let's analyze the commentary snippets for Player30 and generate the final summary table.
+Okay, let's analyze the commentary snippets for Player30.
 
-**1. Identify the target player:**
+1.  **Player Name:** Player30
 
-The target player is Player30.
+2.  **Initialization:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
-**2. Initialize event counts:**
+3.  **Commentary Analysis:**
 
-*   Shots: 0
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+    *   Snippet 1: "Player30(Away Team) commits a foul, resulting in Player2(Home Team) being awarded a free kick in their own defensive half, This leads to a set piece opportunity for Player2(Home Team)."
+        *   Fouls: The snippet explicitly states "Player30(Away Team) commits a foul". Increment Fouls by 1.
+        *   Free Kicks: Since Player30 committed the foul, this results in Player2 getting a free kick, this does not count as Player30 having a free kick.
+       
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
 
-**3. Analyze commentary snippets:**
-
-*   Snippet 1: "Player30(Away Team) commits a foul, resulting in Player2(Home Team) being awarded a free kick in their own defensive half, This leads to a set piece opportunity for Player2(Home Team)."
-    *   This snippet explicitly states "Player30(Away Team) commits a foul". Therefore, increment Fouls by 1.
-
-**4. Final Counts:**
-
-*   Shots: 0
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 1
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
-
-**5. Final Summary Table:**
-
+Final Summary Table:
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

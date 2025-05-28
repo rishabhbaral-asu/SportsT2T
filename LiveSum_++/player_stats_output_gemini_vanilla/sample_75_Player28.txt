@@ -1,28 +1,49 @@
-Okay, let's analyze the commentary snippets for Player28.
+Okay, let's process the commentary snippets for Player28 and compile the statistics.
 
-**Player Name:** Player28
+**1. Identify Target Player:**
+The target player is Player28.
 
-**Commentary Snippets:**
+**2. Initialize Counts:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
 
-*   "Player28(Away Team)'s shot from outside the box is saved in the center of the goal after an assist from Player29(Away Team)." - This snippet includes a shot, but no goal as it's saved, and no assist.
-*   "Player28(Away Team) commits a foul." - This is a foul committed by Player28.
-*   "Player28(Away Team) scores with a penalty kick to tie the game at 1-1 for the home team against the away team." - This is a goal and a free kick (penalty kick).
-*   "Player28(Away Team) commits a foul." - This is a foul committed by Player28.
-*   "Player28(Away Team) has been sent off for getting into a fight." - This results in a red card and a foul.
+**3. Analyze Commentary Snippets:**
 
-**Event Counting:**
+*   **Snippet 1:** "Player28(Away Team)'s shot from outside the box is saved in the center of the goal after an assist from Player29(Away Team)."
+    *   Mentions "shot". Increment Shots: Shots = 1.
 
-*   **Shots:** 1 (The first snippet describes a shot that was saved. The penalty is counted as a shot as well.)
-*   **Goals:** 1 (The penalty kick is a goal.)
-*   **Assists:** 0 (No assists are credited to Player28 in any of the snippets.)
-*   **Free Kicks:** 1 (The penalty kick is a free kick.)
-*   **Fouls:** 3 (Two explicit mentions of committing a foul and being sent off for fighting.)
-*   **Yellow Cards:** 0 (No yellow cards explicitly mentioned.)
-*   **Red Cards:** 1 (Explicitly mentioned "sent off" which is a red card.)
-*   **Offsides:** 0 (No offsides mentioned.)
+*   **Snippet 2:** "Player28(Away Team) commits a foul."
+    *   Mentions "foul". Increment Fouls: Fouls = 1.
+
+*   **Snippet 3:** "Player28(Away Team) scores with a penalty kick to tie the game at 1-1 for the home team against the away team."
+    *   Mentions "scores". Increment Goals: Goals = 1.
+    *   Mentions "penalty kick". Increment Free Kicks: Free Kicks = 1
+    *   Since the player "scores", the "shot" is also incremented. Increment Shots: Shots = 2
+
+*   **Snippet 4:** "Player28(Away Team) commits a foul."
+    *   Mentions "foul". Increment Fouls: Fouls = 2.
+
+*   **Snippet 5:** "Player28(Away Team) has been sent off for getting into a fight."
+    *   Mentions "sent off". Increment Red Cards: Red Cards = 1.
+    *   Getting into a fight is considered a foul. Increment Fouls: Fouls = 3.
+
+**4. Final Counts:**
+Shots = 2
+Goals = 1
+Assists = 0
+Free Kicks = 1
+Fouls = 3
+Yellow Cards = 0
+Red Cards = 1
+Offsides = 0
 
 Final Summary Table:
-
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

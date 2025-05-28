@@ -1,43 +1,25 @@
-Okay, I'm ready to process the soccer commentary snippets for the specified player and generate the final summary table.
+Okay, I will follow the instructions to analyze the commentary snippets and generate the final summary table for the specified player.
 
-**1. Identify Target Player:**
+**Player Name:** Player7
 
-The target player is Player7.
+**Commentary Snippets:**
 
-**2. Initialize Counts:**
+- Player7(Home Team)'s shot from the right side of the box is blocked with the assistance of Player11(Home Team).
+- Player7(Home Team)'s shot from the right side of the box is saved by the goalkeeper in the top left corner after being assisted by Player3(Home Team) with a cross.
+- Player7(Home Team)'s right footed shot from outside the box is blocked, while Player3(Home Team)'s left footed shot from outside the box misses to the right after a corner.
 
-*   Shots: 0
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
+**Analysis:**
 
-**3. Analyze Commentary Snippets:**
+*   **Shots:** The first snippet mentions "Player7(Home Team)'s shot". The second snippet mentions "Player7(Home Team)'s shot". The third snippet mentions "Player7(Home Team)'s right footed shot". So, Player7 has 3 shots in total.
+*   **Goals:** No snippets explicitly mention Player7 scoring a goal.
+*   **Assists:** No snippets mention Player7 providing an assist. The snippets mention Player7 being *assisted by* other players, but that doesn't count as Player7 providing an assist.
+*   **Free Kicks:** No snippets mention Player7 taking a free kick or penalty, nor being fouled or winning a free kick/penalty.
+*   **Fouls:** No snippets explicitly mention Player7 committing a foul.
+*   **Yellow Cards:** No snippets explicitly mention Player7 receiving a yellow card.
+*   **Red Cards:** No snippets explicitly mention Player7 receiving a red card.
+*   **Offsides:** No snippets explicitly mention Player7 being offside.
 
-*   **Snippet 1:** "Player7(Home Team)'s shot from the right side of the box is blocked with the assistance of Player11(Home Team)."
-    *   Shots: Player7 took a shot that was blocked. Increment Shots to 1.
-
-*   **Snippet 2:** "Player7(Home Team)'s shot from the right side of the box is saved by the goalkeeper in the top left corner after being assisted by Player3(Home Team) with a cross."
-    *   Shots: Player7 took a shot that was saved. Increment Shots to 2.
-
-*   **Snippet 3:** "Player7(Home Team)'s right footed shot from outside the box is blocked, while Player3(Home Team)'s left footed shot from outside the box misses to the right after a corner."
-    *   Shots: Player7 took a shot that was blocked. Increment Shots to 3.
-
-**4. Final Counts:**
-
-*   Shots: 3
-*   Goals: 0
-*   Assists: 0
-*   Free Kicks: 0
-*   Fouls: 0
-*   Yellow Cards: 0
-*   Red Cards: 0
-*   Offsides: 0
-
-**5. Final Summary Table:**
+Final Summary Table:
 
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |

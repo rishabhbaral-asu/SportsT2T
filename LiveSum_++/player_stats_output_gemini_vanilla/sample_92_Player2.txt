@@ -1,15 +1,37 @@
-Okay, let's start by identifying the player name.
+Okay, let's process the input and generate the player statistics table.
 
-The player name is Player2.
+**Objective:** Analyze commentary snippets for Player2 and count explicit occurrences of defined events.
 
-Now, let's initialize the counts for all events to 0.
+**Input:**
+* **Player Name:**
+```
+<PLAYER_NAME>
+Player2
+</PLAYER_NAME>
+```
+* **Commentary Snippets:**
+```
+<PLAYER_COMMENTARY_SNIPPETS>
+- Player2(Home Team) commits a foul.
+</PLAYER_COMMENTARY_SNIPPETS>
+```
 
-Next, I will analyze the commentary snippets and increment the counts based on the instructions.
+**Step-by-step analysis:**
 
-Commentary Snippet 1: "Player2(Home Team) commits a foul."
-*   This snippet explicitly states that Player2 commits a foul. Therefore, increment the 'Fouls' count by 1.
-
-Now, I will present the final summary table.
+1. **Player Identification:** The target player is Player2.
+2. **Initialization:** Initialize all event counts to 0 for Player2: Shots=0, Goals=0, Assists=0, Free Kicks=0, Fouls=0, Yellow Cards=0, Red Cards=0, Offsides=0.
+3. **Snippet Analysis:**
+    * Snippet 1: "Player2(Home Team) commits a foul."
+        * This snippet explicitly states that Player2 committed a foul. Increment the "Fouls" count by 1.
+4. **Final Counts:**
+    * Shots: 0
+    * Goals: 0
+    * Assists: 0
+    * Free Kicks: 0
+    * Fouls: 1
+    * Yellow Cards: 0
+    * Red Cards: 0
+    * Offsides: 0
 
 Final Summary Table:
 ```markdown

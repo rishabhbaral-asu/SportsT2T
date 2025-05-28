@@ -1,50 +1,42 @@
-Okay, I will follow the instructions to analyze the commentary snippets for Player25 and compile the statistics.
+Okay, let's analyze the commentary snippets for Player25 and generate the final summary table.
 
-**Player Name:** Player25
+1.  **Player Name:** The target player is Player25.
 
-**Commentary Snippets:**
+2.  **Initialize Counts:**
+    * Shots: 0
+    * Goals: 0
+    * Assists: 0
+    * Free Kicks: 0
+    * Fouls: 0
+    * Yellow Cards: 0
+    * Red Cards: 0
+    * Offsides: 0
 
-*   Player25(Away Team)'s shot from the left side of the box is saved in the bottom right corner after receiving a through ball from Player28(Away Team).
-*   Player25(Away Team) commits a foul.
-*   Player25(Away Team) misses the target with a high shot from outside the box, assisted by Player29(Away Team).
+3.  **Analyze Commentary Snippets:**
 
-Reasoning:
+    *   **Snippet 1:** "Player25(Away Team)'s shot from the left side of the box is saved in the bottom right corner after receiving a through ball from Player28(Away Team)."
+        *   The snippet explicitly states "Player25's shot". Increment Shots by 1.
+        * No goals, assists, free kicks, fouls, yellow cards, red cards or offsides are mentioned.
 
-1.  **Shots:**
-    *   Snippet 1: "Player25(Away Team)'s shot from the left side of the box is saved..." - This is a shot by Player25. Count: 1
-    *   Snippet 3: "Player25(Away Team) misses the target with a high shot from outside the box..." - This is a shot by Player25. Count: 1
-    Total Shots: 1 + 1 = 2
+    *   **Snippet 2:** "Player25(Away Team) commits a foul."
+        *   The snippet explicitly states "Player25 commits a foul". Increment Fouls by 1.
+        * No shots, goals, assists, free kicks, yellow cards, red cards or offsides are mentioned.
 
-2.  **Goals:**
-    *   No snippets explicitly state Player25 scored a goal.
-    Total Goals: 0
+    *   **Snippet 3:** "Player25(Away Team) misses the target with a high shot from outside the box, assisted by Player29(Away Team)."
+        *   The snippet explicitly states "Player25 misses the target with a high shot". Increment Shots by 1.
+        * No goals, assists, free kicks, fouls, yellow cards, red cards or offsides are mentioned.
 
-3.  **Assists:**
-    *   No snippets explicitly state Player25 provided an assist. Snippet 3 mentions Player25 was assisted.
-    Total Assists: 0
-
-4.  **Free Kicks:**
-    *   No snippets mention Player25 taking a free kick or winning a free kick.
-    Total Free Kicks: 0
-
-5.  **Fouls:**
-    *   Snippet 2: "Player25(Away Team) commits a foul." - This is a foul committed by Player25. Count: 1
-    Total Fouls: 1
-
-6.  **Yellow Cards:**
-    *   No snippets mention Player25 receiving a yellow card.
-    Total Yellow Cards: 0
-
-7.  **Red Cards:**
-    *   No snippets mention Player25 receiving a red card.
-    Total Red Cards: 0
-
-8.  **Offsides:**
-    *   No snippets mention Player25 being offside.
-    Total Offsides: 0
+4.  **Final Counts:**
+    * Shots: 2
+    * Goals: 0
+    * Assists: 0
+    * Free Kicks: 0
+    * Fouls: 1
+    * Yellow Cards: 0
+    * Red Cards: 0
+    * Offsides: 0
 
 Final Summary Table:
-
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

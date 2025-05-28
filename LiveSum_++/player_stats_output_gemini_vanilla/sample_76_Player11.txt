@@ -11,41 +11,31 @@ Okay, let's analyze the commentary snippets for Player11 and compile the statist
 - Player11(Home Team) commits a foul, resulting in Player20(Away Team) being awarded a free kick in their own half.
 - Player11(Home Team) earns a free kick in the opponent's half after being fouled by Player24(Away Team).
 
-**Step-by-step analysis:**
+**Event Tracking:**
 
-1.  **Shots:**
-    *   "Player11(Home Team) misses the header from the center of the box...": This is a shot (header attempt). Increment Shots by 1.
-    *   "Player11(Home Team)'s shot from outside the box is saved by the goalkeeper...": This is a shot. Increment Shots by 1.
-    *   Total Shots: 2
+*   **Shots:**
+    *   "Player11(Home Team) misses the header from the center of the box..." - This is a shot (header attempt). Count: 1
+    *   "Player11(Home Team)'s shot from outside the box is saved by the goalkeeper..." - This is a shot. Count: 1
+    Total Shots: 2
 
-2.  **Goals:**
-    *   No explicit mention of Player11 scoring a goal in any of the snippets.
-    *   Total Goals: 0
+*   **Goals:** None explicitly mentioned. Total Goals: 0
 
-3.  **Assists:**
-    *   No explicit mention of Player11 providing an assist in any of the snippets. Although two shots happened with an assist from other players, it does not change the assist number of Player11.
-    *   Total Assists: 0
+*   **Assists:** None explicitly mentioned giving an assist. Total Assists: 0
 
-4.  **Free Kicks (Taken):**
-    *   "Player11(Home Team) earns a free kick in the opponent's half after being fouled by Player24(Away Team).": Player11 wins a free kick. Increment Free Kicks by 1.
-    *   Total Free Kicks: 1
+*   **Free Kicks (Taken):**
+    * "Player11(Home Team) earns a free kick in the opponent's half after being fouled by Player24(Away Team)." Player11 wins a free kick. Count: 1
+    Total Free Kicks: 1
 
-5.  **Fouls (Committed):**
-    *   "Player11(Home Team) has committed a hand ball.": This is a foul. Increment Fouls by 1.
-    *   "Player11(Home Team) commits a foul, resulting in Player20(Away Team) being awarded a free kick in their own half.": This is a foul. Increment Fouls by 1.
-    *   Total Fouls: 2
+*   **Fouls (Committed):**
+    *   "Player11(Home Team) has committed a hand ball." - This is a foul. Count: 1
+    *   "Player11(Home Team) commits a foul, resulting in Player20(Away Team) being awarded a free kick in their own half." - This is a foul. Count: 1
+    Total Fouls: 2
 
-6.  **Yellow Cards:**
-    *   No explicit mention of Player11 receiving a yellow card.
-    *   Total Yellow Cards: 0
+*   **Yellow Cards:** None explicitly mentioned. Total Yellow Cards: 0
 
-7.  **Red Cards:**
-    *   No explicit mention of Player11 receiving a red card.
-    *   Total Red Cards: 0
+*   **Red Cards:** None explicitly mentioned. Total Red Cards: 0
 
-8.  **Offsides:**
-     * No explicit mention of Player11 being offside.
-     * Total Offsides: 0
+*   **Offsides:** None explicitly mentioned. Total Offsides: 0
 
 Final Summary Table:
 ```markdown

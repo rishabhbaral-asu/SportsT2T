@@ -1,21 +1,38 @@
-Okay, let's start by identifying the player name and initializing the counts.
+Okay, let's analyze the commentary snippets for Player17 and generate the summary table.
 
-Player Name: Player17
+1.  **Player Name:** Player17
 
-Commentary Snippets:
-- Player17(Home Team)'s shot from the right side of the box is saved in the center of the goal, with an assist from Player8(Home Team).
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
-Now let's analyze the commentary snippets:
+3.  **Analyze Snippets:**
 
-Snippet 1: "Player17(Home Team)'s shot from the right side of the box is saved in the center of the goal, with an assist from Player8(Home Team)."
-* Shots: The snippet explicitly states "Player17's shot". Count = 1.
-* Goals: The snippet does not state that Player17 scored a goal. Count = 0.
-* Assists: The snippet states "with an assist from Player8(Home Team)". This means Player17 *received* an assist, not *provided* one. Count = 0.
-* Free Kicks: No mention of free kicks or penalties taken/won/conceded by Player17. Count = 0.
-* Fouls: No mention of Player17 committing a foul. Count = 0.
-* Yellow Cards: No mention of Player17 receiving a yellow card. Count = 0.
-* Red Cards: No mention of Player17 receiving a red card. Count = 0.
-* Offsides: No mention of Player17 being offside. Count = 0.
+    *   Snippet 1: "Player17(Home Team)'s shot from the right side of the box is saved in the center of the goal, with an assist from Player8(Home Team)."
+        *   Shots: The snippet explicitly states "Player17's shot", so increment Shots by 1.
+        *   Goals: The shot was saved, so no goal is scored.
+        *   Assists: The snippet mentions "with an assist from Player8", so this is not an assist for Player17.
+        *   Free Kicks: No mention of free kicks.
+        *   Fouls: No mention of fouls.
+        *   Yellow Cards: No mention of yellow cards.
+        *   Red Cards: No mention of red cards.
+        *   Offsides: No mention of offsides.
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
 
 Final Summary Table:
 ```markdown

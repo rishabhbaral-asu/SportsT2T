@@ -1,18 +1,24 @@
-Okay, let's analyze the commentary snippets for Player16 and generate the requested markdown table.
+Okay, let's process the input and generate the final summary table.
 
-**Player Name:** Player16
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
 
-**Commentary Snippets:**
-- Player16(Home Team) is fouled in the box by Player19(Away Team).
+**Input:**
+*   **Player Name:**
+    <PLAYER_NAME>
+    Player16
+    </PLAYER_NAME>
+*   **Commentary Snippets:**
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player16(Home Team) is fouled in the box by Player19(Away Team).
+    </PLAYER_COMMENTARY_SNIPPETS>
 
-**Reasoning:**
+**Step-by-step Analysis:**
 
-1.  **Player Name:** The target player is Player16.
-2.  **Initialization:** Initialize Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
-3.  **Snippet Analysis:**
-    *   "Player16(Home Team) is fouled in the box by Player19(Away Team)."
-        *   This snippet indicates that Player16 was fouled. This implies Player16 wins a free kick/penalty. Therefore, increment Free Kicks by 1.
-        *   There is no mention of shots, goals, assists, fouls committed *by* Player16, yellow cards, red cards, or offsides.
+1.  **Identify Target Player:** The target player is Player16.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Snippets:**
+    *   Snippet 1: "Player16(Home Team) is fouled in the box by Player19(Away Team)."
+        *   Player16 is explicitly mentioned as being fouled. This implies Player16 wins a free kick/penalty as a result of an opponent's action. Therefore, increment Free Kicks by 1. The snippet doesn't describe any other events performed by Player16, so the other counts remain at 0.
 
 **Final Summary Table:**
 

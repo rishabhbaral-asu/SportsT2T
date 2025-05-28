@@ -1,23 +1,22 @@
-Okay, let's start by identifying the target player.
+Okay, let's analyze the commentary snippets for Player4 and compile the statistics.
 
-Target Player: Player4
+**Player Name:** Player4
 
-Now, let's initialize the event counts for Player4:
-Shots = 0
-Goals = 0
-Assists = 0
-Free Kicks = 0
-Fouls = 0
-Yellow Cards = 0
-Red Cards = 0
-Offsides = 0
+**Commentary Snippets:**
+- Player4(Home Team) is currently being delayed in the match due to an injury.
 
-Now we will analyze the commentary snippets:
+**Step-by-step analysis:**
 
-Commentary Snippet 1: "Player4(Home Team) is currently being delayed in the match due to an injury."
-This snippet mentions Player4 is delayed due to injury. It doesn't mention any of the defined events (Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, Offsides). Therefore, no counts are incremented.
+1.  **Player Identification:** The target player is Player4.
+2.  **Initialization:** Initialize all event counts to 0 for Player4: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet Analysis:**
 
-Final Summary Table:
+    *   Snippet 1: "Player4(Home Team) is currently being delayed in the match due to an injury."
+        *   This snippet indicates that Player4 is delayed due to an injury. This does not correspond to any of the tracked events (Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, Offsides). Therefore, no counts are incremented.
+
+4.  **Final Counts:** The final counts for Player4 remain at their initialized values.
+
+**Final Summary Table:**
 ```markdown
 | Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
 |----------|-------|-------|---------|------------|-------|--------------|-----------|----------|

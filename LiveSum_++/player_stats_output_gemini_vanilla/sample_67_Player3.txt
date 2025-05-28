@@ -1,9 +1,11 @@
 Okay, let's analyze the commentary snippets for Player3 and generate the summary table.
 
 **1. Identify Target Player:**
+
 The target player is Player3.
 
 **2. Initialize Counts:**
+
 Shots = 0
 Goals = 0
 Assists = 0
@@ -15,14 +17,12 @@ Offsides = 0
 
 **3. Analyze Snippets:**
 
-*   **Snippet 1:** "Player3(Home Team) was delayed due to an injury but is now ready to continue with the match."
-    *   This snippet mentions Player3 but doesn't describe any of the tracked events.
+*   **Snippet 1:** "Player3(Home Team) was delayed due to an injury but is now ready to continue with the match." This snippet doesn't mention any of the events we are tracking.
 
-*   **Snippet 2:** "Player3(Home Team) earns a free kick on the left side of the field."
-    *   This snippet explicitly states that Player3 earned a free kick. Therefore, increment Free Kicks.
-        *   Free Kicks = 1
+*   **Snippet 2:** "Player3(Home Team) earns a free kick on the left side of the field." This snippet explicitly states Player3 earns a free kick. Therefore, we increment the Free Kicks count by 1.
 
 **4. Final Counts:**
+
 Shots = 0
 Goals = 0
 Assists = 0
@@ -31,8 +31,6 @@ Fouls = 0
 Yellow Cards = 0
 Red Cards = 0
 Offsides = 0
-
-**5. Final Summary Table:**
 
 Final Summary Table:
 ```markdown
