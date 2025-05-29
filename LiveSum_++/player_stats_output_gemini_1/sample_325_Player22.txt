@@ -1,0 +1,12 @@
+Analyzing the snippets for Player22:
+
+- "Player22(Away Team) receives a yellow card." -> Counts as 1 Yellow Card because the snippet explicitly states Player22 received a yellow card.
+- "Player22(Away Team) attempts a through ball, but Player32(Away Team) is offside for the Away Team." -> No countable event because Player22 did not take a shot, score a goal, provide an assist, commit a foul, receive a card, or get caught offside. Player32 is the one who is offside, not Player22.
+- "Player22(Away Team) has been shown a second yellow card." -> Counts as 1 Yellow Card and 1 Red Card because the snippet explicitly states Player22 has been shown a second yellow card, which results in a red card.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 0     | 0     | 0       | 0          | 0     | 2            | 1         | 0        |
+```

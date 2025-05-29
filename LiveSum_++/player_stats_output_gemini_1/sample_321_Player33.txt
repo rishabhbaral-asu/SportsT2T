@@ -1,0 +1,13 @@
+Analyzing the snippets for Player33:
+
+- "Player33(Away Team)'s left footed shot from outside the box goes wide to the right on a direct free kick." -> Counts as 1 Shot and 1 Free Kick because the snippet explicitly states Player33 took a shot from a direct free kick.
+- "Player33(Away Team)'s left footed shot from outside the box is saved in the bottom right corner, resulting in a corner kick for the Away Team." -> Counts as 1 Shot because the snippet explicitly states Player33 took a shot.
+- "Player33(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player33 committed a foul.
+- "Player33(Away Team)'s header from the center of the box was off target, as it sailed too high, The attempt was set up by Player26(Away Team) with a well-placed through ball." -> Counts as 1 Shot because the snippet explicitly states Player33 took a header that was off target.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player33 | 3     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

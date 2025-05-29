@@ -1,0 +1,11 @@
+Analyzing the snippets for Player2:
+
+- "Player2(Home Team) from the Home Team scores an own goal, giving the Away Team a 1-0 lead." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player2 scored a goal (own goal)
+- "Player2(Home Team) earns a free kick on the right side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player2 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 1     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

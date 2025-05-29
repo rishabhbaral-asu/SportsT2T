@@ -1,0 +1,17 @@
+Analyzing the snippets for Player8:
+
+- "Player8(Home Team) earns a free kick on the right side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player8 earned a free kick.
+- "Player8(Home Team)'s left footed shot from the right side of the box is blocked after an assist from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player8 took a shot.
+- "Player8(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player8 committed a foul.
+- "Player8(Home Team)'s left-footed shot from outside the box, assisted by Player10(Home Team), is blocked, followed by Player10(Home Team)'s right-footed shot from the right side of the box, also blocked with assistance from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player8 took a shot.
+- "Player8(Home Team) attempted a left-footed shot from the right side of the box but missed to the right." -> Counts as 1 Shot because the snippet explicitly states Player8 attempted a shot.
+- "Player8(Home Team) takes a shot with his right foot from a tough angle on the right side, but it hits the post, Player11(Home Team) assisted the play." -> Counts as 1 Shot because the snippet explicitly states Player8 takes a shot.
+- "Player8(Home Team)'s difficult angled shot with his right foot is saved in the center of the goal after being assisted by Player9(Home Team) with a through ball, resulting in a corner kick for the Home Team." -> Counts as 1 Shot because the snippet explicitly states Player8 took a shot that was saved.
+- "Player8(Home Team)'s left footed shot from the right side of the box is blocked after being assisted by Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player8 took a shot that was blocked.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 6     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

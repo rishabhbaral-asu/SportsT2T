@@ -1,0 +1,13 @@
+Analyzing the snippets for Player25:
+- "Player25(Away Team) earns a free kick in the offensive zone." -> Counts as 1 Free Kick because the snippet explicitly states Player25 earned a free kick.
+- "Player25(Away Team) attempted a right-footed shot from outside the box, but narrowly missed to the right." -> Counts as 1 Shot because the snippet explicitly states Player25 attempted a shot.
+- "Player25(Away Team) is injured." -> No countable event because the snippet does not mention any of the defined events.
+- "Player25(Away Team) has been cautioned with a yellow card for celebrating too much." -> Counts as 1 Yellow Card because the snippet explicitly states Player25 received a yellow card.
+- "Player25(Away Team) earns a free kick on the left side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player25 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 0     | 0       | 2          | 0     | 1            | 0         | 0        |
+```

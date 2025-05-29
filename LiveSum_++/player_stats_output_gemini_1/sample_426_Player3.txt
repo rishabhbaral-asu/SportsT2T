@@ -1,0 +1,12 @@
+Analyzing the snippets for Player3:
+* "Player3(Home Team) of the Home Team attempts a through ball, but Player10(Home Team) is flagged for offside." -> No countable event because Player3 attempts a pass, but Player10 is offside, so this does not count as an assist for Player3.
+* "Player3(Home Team)'s close-range header is saved in the top center of the goal with an assist from Player6(Home Team), after Player19(Away Team) wins a free kick in the defensive half." -> Counts as 1 Shot because the snippet explicitly mentions Player3's header was saved.
+* "Player3(Home Team)'s header from the right side of the six-yard box, assisted by Player6(Home Team) with a cross." -> Counts as 1 Shot because the snippet explicitly mentions Player3's header.
+* "Player3(Home Team) has committed a hand ball." -> Counts as 1 Foul because the snippet explicitly mentions Player3 committed a hand ball.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

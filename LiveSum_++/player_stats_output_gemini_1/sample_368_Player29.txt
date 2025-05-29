@@ -1,0 +1,12 @@
+Analyzing the snippets for Player29:
+- "Player29(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player29 earned a free kick.
+- "Player29(Away Team)'s header from the center of the box goes wide to the left after being set up by Player25(Away Team)'s cross." -> Counts as 1 Shot because the snippet explicitly states Player29's header was an attempt on goal (even though it missed).
+- "Player29(Away Team) from the Away Team draws a penalty in the penalty area, with Player3(Home Team) conceding the foul." -> Counts as 1 Free Kick because the snippet explicitly states Player29 drew a penalty (won a penalty).
+- "Player29(Away Team) scores with a penalty kick for Home Team, bringing the score to 1-2." -> Counts as 1 Goal, 1 Shot, and 1 Free Kick because the snippet explicitly states Player29 scored with a penalty kick (meaning he took the penalty kick), bringing the score to 1-2. Scoring a goal counts as a goal and a shot. Taking a penalty counts as a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 2     | 1     | 0       | 3          | 0     | 0            | 0         | 0        |
+```

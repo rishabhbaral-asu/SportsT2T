@@ -1,0 +1,12 @@
+Analyzing the snippets for Player6:
+- "Player6(Home Team) attempts a through ball to Player5(Home Team), but Player5(Home Team) is offside." -> Counts as 0 because this snippet does not contain any keywords related to the defined events for Player6.
+- "Player6(Home Team)'s shot from the left side of the box is blocked, assisted by Player9(Home Team), while Player10(Home Team)'s shot from the same side goes high and wide to the right, assisted by Player6(Home Team)." -> Counts as 1 Shot and 1 Assist because the snippet explicitly states Player6 had a shot and assisted Player10's shot.
+- "Player6(Home Team) fouls Player28(Away Team), who wins a free kick in the attacking half." -> Counts as 1 Foul because the snippet explicitly states Player6 committed a foul.
+- "Player6(Home Team)'s left-footed shot from the center of the box was blocked, while Player14(Home Team)'s header was saved in the center of the goal with an assist from Player9(Home Team)'s cross." -> Counts as 1 Shot because the snippet explicitly states Player6 had a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 2     | 0     | 1       | 0          | 1     | 0            | 0         | 0        |
+```

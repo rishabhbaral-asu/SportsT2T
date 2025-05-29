@@ -1,0 +1,12 @@
+Analyzing the snippets for Player26:
+
+- "Player26(Away Team) commits a foul on Player9(Home Team), resulting in a free kick for Player9(Home Team) on the right wing, The referee blows the whistle." -> Counts as 1 Foul because the snippet explicitly states Player26 committed a foul.
+- "Player26(Away Team) attempted a right-footed shot from outside the box but missed to the left, with an assist from Player23(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player26 attempted a shot.
+- "Player26(Away Team) misses the header to the right after being assisted by Player32(Away Team) with a cross during a set piece." -> Counts as 1 Shot because the snippet explicitly states Player26 attempted a header.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

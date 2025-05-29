@@ -1,0 +1,19 @@
+Analyzing the snippets for Player9:
+- "Player9(Home Team)'s shot from outside the box is saved in the top right corner, with an assist from Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 took a shot.
+- "Player9(Home Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player9 earned a free kick.
+- "Player9(Home Team) misses the shot from a tough angle on the left, with Player11(Home Team) providing the assist with a header." -> Counts as 1 Shot because the snippet explicitly states Player9 missed the shot.
+- "Player9(Home Team)'s left-footed shot from outside the box is saved in the center of the goal with an assist from Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 took a shot.
+- "Player9(Home Team) fouls Player22(Away Team), who wins a free kick in their defensive half." -> Counts as 1 Foul because the snippet explicitly states Player9 committed a foul.
+- "Player9(Home Team)'s shot from the center of the box is blocked with his right foot, after being assisted by Player5(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 took a shot.
+- "Player9(Home Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player9 earned a free kick.
+- "Player9(Home Team) missed a header from the center of the box to the left, with an assist from Player16(Home Team)'s cross." -> Counts as 1 Shot because the snippet explicitly states Player9 missed a header.
+- "Player9(Home Team)'s attempt from outside the box with his right foot narrowly misses to the left, assisted by Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 attempted a shot.
+- "Player9(Home Team) has committed a hand ball." -> Counts as 1 Foul because the snippet explicitly states Player9 committed a hand ball.
+- "Player9(Home Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player9 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 6     | 0     | 0       | 3          | 2     | 0            | 0         | 0        |
+```

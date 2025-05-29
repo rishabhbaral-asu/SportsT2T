@@ -1,0 +1,13 @@
+Analyzing the snippets for Player9:
+- "Player9(Home Team) from the Home Team attempts a through ball, but Player11(Home Team) is offside." -> No countable event because the snippet does not mention any of the defined events.
+- "Player9(Home Team) earns a free kick in the attacking half while Player24(Away Team) is delayed due to an injury." -> Counts as 1 Free Kick because the snippet explicitly states Player9 earned a free kick.
+- "Player9(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player9 committed a foul.
+- "Player9(Home Team) earns a free kick on the right wing after being fouled by Player27(Away Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player9 earned a free kick.
+- "Player9(Home Team) from the Home Team attempts a through ball, but Player2(Home Team) is offside." -> No countable event because the snippet does not mention any of the defined events.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 0     | 0     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

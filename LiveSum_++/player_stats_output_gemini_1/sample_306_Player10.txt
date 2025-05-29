@@ -1,0 +1,12 @@
+Analyzing the snippets for Player10:
+- "Player10(Home Team)'s shot from outside the box is blocked after an assist from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player10 took a shot.
+- "Player10(Home Team)'s shot from outside the box." -> Counts as 1 Shot because the snippet explicitly states Player10 took a shot.
+- "Player10(Home Team)'s header from the center of the box is blocked after being assisted by Player7(Home Team) with a cross following a corner kick for the home team." -> Counts as 1 Shot because the snippet explicitly states Player10 took a header (an attempt on goal).
+- "Player10(Home Team)'s header from the center of the box, assisted by Player7(Home Team) with a cross, is blocked after the Home Team obtains a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player10 took a header (an attempt on goal).
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 4     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

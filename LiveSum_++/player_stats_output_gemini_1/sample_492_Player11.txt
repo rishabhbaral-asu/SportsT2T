@@ -1,0 +1,17 @@
+Analyzing the snippets for Player11:
+- "Player11(Home Team) misses a shot to the left from the center of the box after receiving a cross from Player7(Home Team) following a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player11 misses a shot.
+- "Player11(Home Team) misses the goal with a shot from outside the box, assisted by Player8(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 misses the goal with a shot.
+- "Player11(Home Team) misses the header to the right after a cross from Player10(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 misses the header.
+- "Player11(Home Team) scores with a right-footed shot from the right side of the six-yard box, assisted by Player8(Home Team), The Home Team leads 1-0 against the Away Team." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player11 scores with a shot.
+- "Player11(Home Team) attempts a pass to Player14(Home Team), but Player14(Home Team) is offside." -> No countable event because Player14 is offside, not Player11.
+- "Player11(Home Team) misses the header to the right from the center of the box after a cross from Player14(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 misses the header.
+- "Player11(Home Team) narrowly misses a right-footed shot from outside the box, assisted by Player8(Home Team), resulting in a corner kick for the Away Team." -> Counts as 1 Shot because the snippet explicitly states Player11 misses a shot.
+- "Player11(Home Team)'s header from the center of the box was off target, as it went too high, despite being assisted by Player7(Home Team) with a cross after a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player11's header was off target.
+- "Player11(Home Team)'s header from the center of the box is saved by the goalkeeper after a cross from Player2(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11's header is saved by the goalkeeper.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 7     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

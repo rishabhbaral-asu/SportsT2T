@@ -1,0 +1,15 @@
+Analyzing the snippets for Player11:
+- "Player11(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player11 committed a foul.
+- "Player11(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player11 committed a foul.
+- "Player11(Home Team)'s shot from the center of the box is saved in the top right corner by the goalkeeper after being assisted by Player8(Home Team) with a cross, resulting in a corner kick for the Home Team, Player11(Home Team)'s attempt is denied by a great save in the top right corner after a cross from Player8(Home Team), leading to a corner kick for the Home Team." -> Counts as 1 Shot because the snippet explicitly states Player11's shot was saved.
+- "Player11(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player11 committed a foul.
+- "Player11(Home Team) receives a yellow card for a reckless challenge." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player11 received a yellow card for a reckless challenge, which is considered a foul.
+- "Player11(Home Team)'s shot from the left side is blocked by the defender, resulting in a corner kick for the Home Team after being assisted by Player10(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11's shot was blocked.
+- "Player11(Home Team)'s shot from the center is blocked with an assist from Player10(Home Team), while Player8(Home Team)'s shot from outside the box is also blocked." -> Counts as 1 Shot because the snippet explicitly states Player11's shot was blocked.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 3     | 0     | 0       | 0          | 4     | 1            | 0         | 0        |
+```

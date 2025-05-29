@@ -1,0 +1,12 @@
+Analyzing the snippets for Player21:
+- "Player21(Away Team)'s right footed shot from the center of the box goes wide left after being assisted by Player27(Away Team) with a cross from a corner." -> Counts as 1 Shot because the snippet explicitly states Player21 took a shot.
+- "Player21(Away Team)'s shot from the center of the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player21 took a shot.
+- "Player21(Away Team) was delayed due to an injury, but now the delay is over and they are ready to continue." -> No countable event because the snippet does not mention any of the defined events.
+- "Player21(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player21 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 2     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

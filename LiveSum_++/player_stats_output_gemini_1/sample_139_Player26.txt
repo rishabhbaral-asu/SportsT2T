@@ -1,0 +1,16 @@
+Analyzing the snippets for Player26:
+
+- "Player26(Away Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player26 earned a free kick.
+- "Player26(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player26 committed a foul.
+- "Player26(Away Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player26 received a yellow card for a rough tackle, implying a foul.
+- "Player26(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player26 earned a free kick.
+- "Player26(Away Team)'s header from the center of the box, assisted by Player28(Away Team), is slightly too high after a corner kick." -> No events counted. This is a shot, but it's not a shot for Player26, as Player26 was the one *assisted* by Player28.
+- "Player26(Away Team) earns a free kick in the opponent's half after being fouled by Player4(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player26 earned a free kick.
+- "Player26(Away Team) commits a foul, leading to Player8(Home Team) winning a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player26 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 0     | 0     | 0       | 3          | 3     | 1            | 0         | 0        |
+```

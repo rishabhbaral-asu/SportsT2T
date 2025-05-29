@@ -1,0 +1,14 @@
+Analyzing the snippets for Player6:
+- "Player6(Home Team) scores with a right-footed penalty kick to the bottom right corner." -> Counts as 1 Goal, 1 Shot, and 1 Free Kick because the snippet explicitly states Player6 scored, which also counts as a shot. Additionally, scoring from a penalty kick means taking a free kick.
+- "Player6(Home Team) attempts a through ball, but Player2(Home Team) is offside for the Home Team." -> No countable event because the snippet does not mention any of the defined events.
+- "Player6(Home Team) commits a foul, resulting in Player29(Away Team) winning a free kick in their defensive half." -> Counts as 1 Foul because the snippet explicitly states Player6 committed a foul.
+- "Player6(Home Team) has committed a hand ball." -> Counts as 1 Foul because the snippet explicitly states Player6 committed a hand ball.
+- "Player6(Home Team) receives a yellow card for a hand ball." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player6 received a yellow card for a hand ball, which is a foul.
+- "Player6(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player6 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 1     | 1     | 0       | 1          | 4     | 1            | 0         | 0        |
+```

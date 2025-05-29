@@ -1,0 +1,17 @@
+Analyzing the snippets for Player10:
+- "Player10(Home Team) misses a header from the centre of the box to the right after a corner kick assisted by Player8(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player10 misses a header from the centre of the box.
+- "Player10(Home Team)'s header from the center of the box was just a little too high after being assisted by Player8(Home Team) with a cross from a corner." -> Counts as 1 Shot because the snippet explicitly states Player10 had a header from the center of the box.
+- "Player10(Home Team)'s shot from outside the box is blocked with Player11(Home Team)'s assistance." -> Counts as 1 Shot because the snippet explicitly states Player10's shot from outside the box is blocked.
+- "Player10(Home Team) commits a foul on Player24(Away Team), resulting in a free kick awarded on the right wing." -> Counts as 1 Foul because the snippet explicitly states Player10 commits a foul.
+- "Player10(Home Team) earns a free kick on the left wing after a foul committed by Player33(Away Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player10 earns a free kick.
+- "Player10(Home Team) has given away a penalty with a foul in the box." -> Counts as 1 Foul because the snippet explicitly states Player10 gave away a penalty with a foul.
+- "Player10(Home Team) earns a free kick on the left side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player10 earns a free kick.
+- "Player10(Home Team) commits a foul, resulting in Player24(Away Team) winning a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player10 commits a foul.
+- "Player10(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player10 commits a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 3     | 0     | 0       | 2          | 3     | 0            | 0         | 0        |
+```

@@ -1,0 +1,16 @@
+Analyzing the snippets for Player27:
+- "Player27(Away Team)'s shot from outside the box is blocked with the help of Player25(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot that was blocked.
+- "Player27(Away Team) misses the target with a high right-footed shot from outside the box." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot that missed the target.
+- "Player27(Away Team) fouls Player2(Home Team) on the right wing, resulting in a free kick being awarded." -> Counts as 1 Foul because the snippet explicitly states Player27 committed a foul.
+- "Player27(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player27 committed a foul.
+- "Player27(Away Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player27 received a yellow card for a rough tackle, which is a foul.
+- "Player27(Away Team) earns a free kick on the right side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player27 earned a free kick.
+- "Player27(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player27 committed a foul.
+- "Player27(Away Team) has committed a hand ball." -> Counts as 1 Foul because the snippet explicitly states Player27 committed a hand ball, which is a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 2     | 0     | 0       | 1          | 4     | 1            | 0         | 0        |
+```

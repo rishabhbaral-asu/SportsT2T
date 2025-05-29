@@ -1,0 +1,11 @@
+Analyzing the snippets for Player28:
+- "Player28(Away Team) commits a foul, resulting in Player2(Home Team) winning a free kick on the right wing, ." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+- "Player28(Away Team) attempts a through ball but Player29(Away Team) is offside." -> No countable event because the snippet does not mention any of the defined events for Player28.
+- "Player28(Away Team)'s header from the center of the box is blocked by an assist from Player20(Away Team), followed by a left-footed shot hitting the bar from the left side of the six-yard box." -> Counts as 1 Shot because the snippet explicitly states Player28 had a header from the center of the box.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

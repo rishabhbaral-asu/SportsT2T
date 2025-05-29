@@ -1,0 +1,18 @@
+Analyzing the snippets for Player27:
+- "Player27(Away Team) attempts a through ball, but Player29(Away Team) is offside." -> No countable event because Player27 did not attempt a shot on goal and was not the one offside.
+- "Player27(Away Team) earns a free kick on the left side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player27 earned a free kick.
+- "Player27(Away Team)'s left-footed shot from close range, assisted by Player21(Away Team), The score now stands at Home Team 0, Away Team 1." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player27 took a shot and the score indicates a goal.
+- "Player27(Away Team) earns a free kick in the opponent's territory after being fouled by Player5(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player27 earned a free kick.
+- "Player27(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player27 earned a free kick.
+- "Player27(Away Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player27 earned a free kick.
+- "Player27(Away Team)'s right-footed shot from a free kick into the bottom right corner." -> Counts as 1 Shot, 1 Goal and 1 Free Kick because the snippet explicitly states Player27 took a shot, scored a goal from a free kick.
+- "Player27(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player27 committed a foul.
+- "Player27(Away Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player27 received a yellow card for a rough tackle, which is a foul.
+- "Player27(Away Team)'s shot from the right side of the box was just a bit too high after a headed pass from Player34(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 3     | 2     | 0       | 4          | 2     | 1            | 0         | 0        |
+```

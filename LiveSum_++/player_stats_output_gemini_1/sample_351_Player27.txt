@@ -1,0 +1,12 @@
+Analyzing the snippets for Player27:
+- "Player27(Away Team)'s shot from outside the box is saved in the top left corner." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
+- "Player27(Away Team)'s shot from the center of the box is blocked with the help of Player22(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
+- "Player27(Away Team) of the Away Team attempts a through ball to Player33(Away Team), but Player33(Away Team) is offside." -> Counts as 1 Offside because the snippet explicitly states Player27 attempts a through ball which leads to Player33 being offside. There is nothing to indicate that Player27 is offside.
+- "Player27(Away Team) just missed a left-footed shot from outside the box to the left, with an assist from Player33(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 3     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

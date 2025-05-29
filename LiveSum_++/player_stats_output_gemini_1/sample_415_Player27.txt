@@ -1,0 +1,11 @@
+Analyzing the snippets for Player27:
+- "Player27(Away Team) attempts a through ball, only for Player29(Away Team) to be caught offside." -> Counts as 0 Offsides because Player29, not Player27, is offside.
+- "Player27(Away Team)'s header from the center of the box goes over the goal, with an assist from Player20(Away Team)'s cross." -> Counts as 1 Shot because the snippet explicitly states Player27's header goes over the goal and this is an attempt on goal.
+- "Player27(Away Team) scores with a right-footed shot from the center of the box, assisted by Player28(Away Team), Home Team 0, Away Team 1." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player27 scores with a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 2     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

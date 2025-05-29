@@ -1,0 +1,14 @@
+Analyzing the snippets for Player25:
+- "Player25(Away Team) attempts a pass, but Player27(Away Team) is flagged offside." -> Counts as 0 Offsides because it's not Player25 who is offside.
+- "Player25(Away Team) earns a free kick in their own half after Player9(Home Team) commits a foul." -> Counts as 1 Free Kick because the snippet explicitly states Player25 earned a free kick.
+- "Player25(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player25 committed a foul.
+- "Player25(Away Team)'s shot from the left side of the box is saved in the center of the goal, with an assist from Player29(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player25 took a shot.
+- "Player25(Away Team) commits a foul and Player8(Home Team) earns a free kick on the right side of the field." -> Counts as 1 Foul because the snippet explicitly states Player25 committed a foul.
+- "Player25(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player25 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 0     | 0       | 2          | 2     | 0            | 0         | 0        |
+```

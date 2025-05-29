@@ -1,0 +1,11 @@
+Analyzing the snippets for Player20:
+- "Player20(Away Team)'s attempt from the center of the box, assisted by Player27(Away Team) with a cross, is saved in the top left corner after the Away Team obtains a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player20 attempted a shot.
+- "Player20(Away Team) of the Away Team attempts a through ball, but Player28(Away Team) is offside." -> Counts as 0 Offsides because Player28, not Player20, is mentioned as being offside.
+- "Player20(Away Team)'s header from the center of the box is saved in the bottom left corner after a cross from Player35(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player20 had a header that was saved.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

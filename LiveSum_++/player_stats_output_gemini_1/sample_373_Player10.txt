@@ -1,0 +1,17 @@
+Analyzing the snippets for Player10:
+- "Player10(Home Team)'s left-footed shot from outside the box, assisted by Player8(Home Team), was blocked, while Player6(Home Team)'s left-footed shot from the center of the box was saved in the center of the goal." -> Counts as 1 Shot because the snippet explicitly states Player10 took a shot.
+- "Player10(Home Team)'s left footed shot from close range is saved in the bottom left corner." -> Counts as 1 Shot because the snippet explicitly states Player10 took a shot.
+- "Player10(Home Team) commits a foul, resulting in Player25(Away Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player25(Away Team)'s team." -> Counts as 1 Foul because the snippet explicitly states Player10 committed a foul.
+- "Player10(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player10 committed a foul.
+- "Player10(Home Team) earns a free kick on the right side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player10 earned a free kick.
+- "Player10(Home Team) commits a foul, resulting in Player21(Away Team) winning a free kick in their defensive half." -> Counts as 1 Foul because the snippet explicitly states Player10 committed a foul.
+- "Player10(Home Team) just missed the mark with a right-footed shot from the center of the box, assisted by Player2(Home Team) with a cross." -> Counts as 1 Shot because the snippet explicitly states Player10 took a shot.
+- "Player10(Home Team) commits a foul, resulting in Player25(Away Team) winning a free kick in their defensive half, The foul by Player10(Home Team) allows Player25(Away Team) to take a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player10 committed a foul.
+- "Player10(Home Team)'s shot from outside the box is saved in the bottom right corner with the help of Player3(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player10 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 4     | 0     | 0       | 1          | 4     | 0            | 0         | 0        |
+```

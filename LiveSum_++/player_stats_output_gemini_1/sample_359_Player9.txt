@@ -1,0 +1,15 @@
+Analyzing the snippets for Player9:
+- "Player9(Home Team)'s shot from outside the box narrowly misses the top right corner, with an assist from Player5(Home Team)." -> Counts as 1 Shot because the snippet explicitly states 'Player9(Home Team)'s shot'.
+- "Player9(Home Team) earns a free kick in their defensive half after a foul from Player26(Away Team)." -> Counts as 1 Free Kick because the snippet explicitly states 'Player9(Home Team) earns a free kick'.
+- "Player9(Home Team) commits a foul, resulting in Player26(Away Team) winning a free kick on the right wing, The foul by Player9(Home Team) awards Player26(Away Team) a free kick on the right wing." -> Counts as 1 Foul because the snippet explicitly states 'Player9(Home Team) commits a foul'.
+- "Player9(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states 'Player9(Home Team) commits a foul'.
+- "Player9(Home Team)'s right footed shot from the left side of the box is saved in the bottom right corner, assisted by Player10(Home Team), after Player23(Away Team) wins a free kick in the defensive half." -> Counts as 1 Shot because the snippet explicitly states 'Player9(Home Team)'s right footed shot'.
+- "Player9(Home Team) earns a free kick on the right side of the field." -> Counts as 1 Free Kick because the snippet explicitly states 'Player9(Home Team) earns a free kick'.
+- "Player9(Home Team)'s right foot outside the box, finding the bottom right corner after a set piece." -> Counts as 1 Shot and 1 Goal because the snippet explicitly mentions 'finding the bottom right corner'.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 3     | 1     | 0       | 2          | 2     | 0            | 0         | 0        |
+```

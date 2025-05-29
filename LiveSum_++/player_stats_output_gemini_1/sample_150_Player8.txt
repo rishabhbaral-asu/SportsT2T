@@ -1,0 +1,12 @@
+Analyzing the snippets for Player8:
+
+- "Player8(Home Team) attempts a through ball, but Player11(Home Team) is offside." -> No countable event because this snippet only describes an attempted pass and another player being offside, not an action that results in any of the target player statistics.
+- "Player8(Home Team) attempts a pass to Player17(Home Team), who is flagged offside." -> No countable event because this snippet only describes an attempted pass and another player being offside, not an action that results in any of the target player statistics.
+- "Player8(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player8 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

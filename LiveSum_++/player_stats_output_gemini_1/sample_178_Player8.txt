@@ -1,0 +1,15 @@
+Analyzing the snippets for Player8:
+- "Player8(Home Team) has been called for a hand ball." -> Counts as 1 Foul because the snippet explicitly states Player8 was called for a hand ball.
+- "Player8(Home Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player8 earned a free kick.
+- "Player8(Home Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player8 earned a free kick.
+- "Player8(Home Team) has earned a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player8 has earned a free kick.
+- "Player8(Home Team) earns a free kick on the left side." -> Counts as 1 Free Kick because the snippet explicitly states Player8 earned a free kick.
+- "Player8(Home Team) commits a foul on Player20(Away Team), who wins a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player8 committed a foul.
+- "Player8(Home Team) is awarded a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player8 is awarded a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 0     | 0     | 0       | 4          | 2     | 0            | 0         | 0        |
+```

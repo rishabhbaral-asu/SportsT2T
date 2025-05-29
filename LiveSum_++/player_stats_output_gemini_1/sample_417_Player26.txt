@@ -1,0 +1,14 @@
+Analyzing the snippets for Player26:
+
+- "Player26(Away Team) misses a close left-footed shot from the center of the box, with an assist from Player23(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player26 missed a shot.
+- "Player26(Away Team)'s shot from the center of the box is blocked by the defense, with an assist from Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player26's shot was blocked.
+- "Player26(Away Team)'s shot from outside the box is saved in the bottom left corner after being assisted by Player25(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player26's shot was saved.
+- "Player26(Away Team) attempts a through ball, but Player27(Away Team) is offside for the Away Team." -> No countable event because the snippet does not mention any of the defined events for Player26.
+- "Player26(Away Team) misses a header from the center of the box to the right, assisted by Player31(Away Team) after obtaining a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player26 missed a header.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 4     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,15 @@
+Analyzing the snippets for Player24:
+- "Player24(Away Team)'s left-footed shot from outside the box is saved in the bottom right corner, with an assist from Player23(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player24 took a shot.
+- "Player24(Away Team) earns a free kick on the right side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player24 earned a free kick.
+- "Player24(Away Team)'s left-footed shot from the right side of the six-yard box is saved by the goalkeeper in the bottom right corner, after a cross from Player23(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player24 took a shot.
+- "Player24(Away Team) scoring a left-footed shot from the center of the box to the top right corner, assisted by Player27(Away Team), The score now stands at Home Team 0, Away Team 2." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player24 scored a goal, and a goal is a shot.
+- "Player24(Away Team) attempts a through ball, but Player29(Away Team) is flagged offside." -> No event counted because the snippet does not explicitly state Player24 was offside.
+- "Player24(Away Team) earns a free kick in their own half after being fouled by Player11(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player24 earned a free kick.
+- "Player24(Away Team)'s left footed shot from outside the box went over the crossbar during a direct free kick." -> Counts as 1 Shot and 1 Free Kick because the snippet explicitly states Player24 took a shot, and the shot was from a direct free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 4     | 1     | 0       | 3          | 0     | 0            | 0         | 0        |
+```

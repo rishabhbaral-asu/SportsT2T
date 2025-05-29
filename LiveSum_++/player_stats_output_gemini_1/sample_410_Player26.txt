@@ -1,0 +1,12 @@
+Analyzing the snippets for Player26:
+
+- "Player26(Away Team)'s left footed shot from the left side of the box was blocked, assisted by Player27(Away Team), while Player27(Away Team)'s right footed shot from outside the box was saved in the bottom right corner." -> Counts as 1 Shot because the snippet explicitly states Player26 took a shot that was blocked.
+- "Player26(Away Team) wins a free kick on the right wing and they are ready to continue, ." -> Counts as 1 Free Kick because the snippet explicitly states Player26 won a free kick.
+- "Player26(Away Team) is causing a delay in the match due to an injury." -> No countable event because the snippet does not mention any of the defined events.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

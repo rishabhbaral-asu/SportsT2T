@@ -1,0 +1,14 @@
+Analyzing the snippets for Player26:
+- "Player26(Away Team) commits a foul leading to Player10(Home Team) winning a free kick in the attacking half, ." -> Counts as 1 Foul because the snippet explicitly states Player26 committed a foul.
+- "Player26(Away Team) missed the target with a long-range shot from over 35 yards, with Player27(Away Team) providing the assist." -> Counts as 1 Shot because the snippet explicitly states Player26 missed the target with a shot.
+- "Player26(Away Team)'s shot from outside the box with his right foot was blocked after being assisted by Player23(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player26's shot was blocked.
+- "Player26(Away Team)'s left footed shot from outside the box is saved in the bottom left corner." -> Counts as 1 Shot because the snippet explicitly states Player26's shot was saved.
+- "Player26(Away Team) commits a foul, resulting in Player10(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player10(Home Team)'s team." -> Counts as 1 Foul because the snippet explicitly states Player26 committed a foul.
+- "Player26(Away Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player26 received a yellow card for a rough tackle, which is a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 3     | 0     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

@@ -1,0 +1,11 @@
+Analyzing the snippets for Player11:
+- "Player11(Home Team)'s right footed shot from outside the box, assisted by Player6(Home Team), is saved in the bottom right corner after the Away Team obtains a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team)'s shot from the center of the box was too high, with an assist from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team) scores from the penalty spot with a right-footed shot to the bottom left corner." -> Counts as 1 Goal, 1 Shot, and 1 Free Kick because the snippet explicitly states Player11 scored a goal from a penalty spot with a shot, therefore it counts as both a shot and a goal, and the phrase 'from the penalty spot' implies it was a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 3     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,14 @@
+Analyzing the snippets for Player28:
+
+- "Player28(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+- "Player28(Away Team)'s shot from the center of the box was too high, assisted by Player20(Away Team) after a corner." -> Counts as 1 Shot because the snippet explicitly states Player28 took a shot.
+- "Player28(Away Team)'s shot from the center of the box is blocked after a cross from Player24(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28 took a shot.
+- "Player28(Away Team)'s close-range header is blocked after a cross from Player24(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28 took a shot.
+- "Player28(Away Team)'s header from the center of the box, assisted by Player27(Away Team) with a cross, is blocked after the Away Team obtains a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player28 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 4     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

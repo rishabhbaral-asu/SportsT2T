@@ -1,0 +1,12 @@
+Analyzing the snippets for Player11:
+- "Player11(Home Team)'s left-footed shot from outside the box hits the crossbar on a direct free kick." -> Counts as 1 Shot and 1 Free Kick because the snippet explicitly states Player11 took a shot from a free kick.
+- "Player11(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player11 committed a foul.
+- "Player11(Home Team) attempts a through ball, but Player14(Home Team) is offside for the Home Team." -> No event is counted for Player11 because Player14 is offside.
+- "Player11(Home Team)'s left footed shot from the right side of the six yard box is blocked after being assisted by Player7(Home Team) with a headed pass, resulting in a corner kick for the Home Team." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

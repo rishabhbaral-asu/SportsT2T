@@ -1,0 +1,13 @@
+Analyzing the snippets for Player13:
+- "Player13(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player13 committed a foul.
+- "Player13(Home Team) commits a foul, resulting in Player19(Away Team) winning a free kick in their own defensive half, This leads to a set piece opportunity for Player19(Away Team)." -> Counts as 1 Foul because the snippet explicitly states Player13 committed a foul.
+- "Player13(Home Team)'s shot from the right side of the six yard box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player13's shot was blocked.
+- "Player13(Home Team) commits a foul, resulting in Player22(Away Team) winning a free kick in their own defensive half, This leads to a set piece opportunity for Player22(Away Team)'s team." -> Counts as 1 Foul because the snippet explicitly states Player13 committed a foul.
+- "Player13(Home Team) commits a foul, resulting in Player19(Away Team) winning a free kick in their own defensive half, ." -> Counts as 1 Foul because the snippet explicitly states Player13 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player13 | 1     | 0     | 0       | 0          | 4     | 0            | 0         | 0        |
+```

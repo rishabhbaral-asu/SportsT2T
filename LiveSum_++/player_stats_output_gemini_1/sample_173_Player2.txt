@@ -1,0 +1,12 @@
+Analyzing the snippets for Player2:
+- "Player2(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player2 committed a foul.
+- "Player2(Home Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player2 earned a free kick.
+- "Player2(Home Team) is awarded a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player2 is awarded a free kick.
+- "Player2(Home Team) from the Home Team accidentally scored a goal on his own team, The score is now Home Team 1, Away Team 3." -> Counts as 1 Goal because the snippet explicitly states Player2 scored a goal, and counts as 1 Shot because the snippet explicitly states Player2 scored a goal.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 1     | 1     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

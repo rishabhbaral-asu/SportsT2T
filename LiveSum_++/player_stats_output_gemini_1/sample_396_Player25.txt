@@ -1,0 +1,12 @@
+Analyzing the snippets for Player25:
+
+- "Player25(Away Team) attempts a through ball, but Player28(Away Team) is offside for the Away Team." -> Counts as 0 Offsides because Player28 is stated as the player in offside position, not Player25.
+- "Player25(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player25 committed a foul.
+- "Player25(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player25 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 0     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

@@ -1,0 +1,14 @@
+Analyzing the snippets for Player20:
+- "Player20(Away Team) is currently holding up the match due to an injury." -> No countable event because the snippet does not mention any of the defined events.
+- "Player20(Away Team)'s right footed shot from outside the box is saved in the bottom right corner, assisted by Player26(Away Team), after a foul by Player22(Away Team)." -> Counts as 1 Shot because the snippet explicitly states "Player20(Away Team)'s right footed shot".
+- "Player20(Away Team) misses the header from the center of the box, it goes high and wide to the left, Player27(Away Team) assisted with a cross after a corner." -> Counts as 1 Shot because the snippet explicitly states "Player20(Away Team) misses the header".
+- "Player20(Away Team) commits a foul, resulting in Player8(Home Team) winning a free kick on the left wing, ." -> Counts as 1 Foul because the snippet explicitly states "Player20(Away Team) commits a foul".
+- "Player20(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states "Player20(Away Team) commits a foul".
+- "Player20(Away Team) receives a yellow card for a harsh tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states "Player20(Away Team) receives a yellow card for a harsh tackle".
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 2     | 0     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

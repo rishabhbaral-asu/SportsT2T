@@ -1,0 +1,15 @@
+Analyzing the snippets for Player16:
+- "Player16(Home Team) from the Home Team scores an own goal, making the score Home Team 1, Away Team 1." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player16 scores an own goal.
+- "Player16(Home Team)'s header from the center of the box is saved in the top center of the goal after an assist from Player8(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player16's header is saved.
+- "Player16(Home Team)'s shot with his right foot from the right side of the box is saved in the bottom right corner, with an assist from Player10(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player16's shot is saved.
+- "Player16(Home Team)'s shot from the right side of the box is saved in the top right corner with an assist from Player10(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player16's shot is saved.
+- "Player16(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player16 commits a foul.
+- "Player16(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player16 commits a foul.
+- "Player16(Home Team) misses the target with a high and wide shot from outside the box." -> Counts as 1 Shot because the snippet explicitly states Player16 misses the target with a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player16 | 5     | 1     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

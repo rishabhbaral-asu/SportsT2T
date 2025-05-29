@@ -1,0 +1,10 @@
+Analyzing the snippets for Player15:
+- "Player15(Home Team) makes a great shot with his right foot from the center of the box, assisted by Player10(Home Team), The score is now 2-0." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player15 makes a great shot and the score updates, therefore it is a goal.
+- "Player15(Home Team)'s shot is blocked from close range after receiving a headed pass from Player9(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player15's shot is blocked.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player15 | 2     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

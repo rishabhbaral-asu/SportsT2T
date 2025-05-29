@@ -1,0 +1,13 @@
+Analyzing the snippets for Player27:
+- "Player27(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player27 earned a free kick.
+- "Player27(Away Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player27 earned a free kick.
+- "Player27(Away Team)'s header from the right side of the six-yard box into the top left corner, assisted by Player23(Away Team) with a cross after a set piece." -> Counts as 1 Shot because the snippet explicitly states Player27 made a header, which counts as a shot.
+- "Player27(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player27 earned a free kick.
+- "Player27(Away Team)'s header from the center of the box is blocked after an assist from Player35(Away Team), resulting in a corner kick for the Away Team." -> Counts as 1 Shot because the snippet explicitly states Player27 made a header, which counts as a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 2     | 0     | 0       | 3          | 0     | 0            | 0         | 0        |
+```

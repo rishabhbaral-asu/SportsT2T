@@ -1,0 +1,13 @@
+Analyzing the snippets for Player25:
+
+- "Player25(Away Team) assisted Player29(Away Team), whose shot with his right foot in the center of the box was blocked." -> Counts as 1 Assist because the snippet explicitly states Player25 assisted Player29.
+- "Player25(Away Team)'s shot from the center of the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player25's shot was blocked.
+- "Player25(Away Team)'s attempt from outside the box is blocked with his left foot, with an assist from Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player25's attempt was blocked.
+- "Player25(Away Team) attempts a through ball, but Player29(Away Team) is found in an offside position." -> No countable event because Player29 is the player who is offside, not Player25.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 2     | 0     | 1       | 0          | 0     | 0            | 0         | 0        |
+```

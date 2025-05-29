@@ -1,0 +1,12 @@
+Analyzing the snippets for Player10:
+- "Player10(Home Team) commits a foul, resulting in Player25(Away Team) winning a free kick in the attacking half, This leads to an opportunity for the team to advance towards the goal." -> Counts as 1 Foul because the snippet explicitly states Player10 committed a foul.
+- "Player10(Home Team)'s header from the center of the box just missed to the right with an assist from Player9(Home Team)'s cross." -> Counts as 1 Shot because the snippet explicitly states Player10's header which is an attempt on goal.
+- "Player10(Home Team) is being delayed due to an injury." -> No countable event because the snippet does not mention any of the defined events.
+- "Player10(Home Team) commits a foul, resulting in Player31(Away Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player31(Away Team)'s team." -> Counts as 1 Foul because the snippet explicitly states Player10 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

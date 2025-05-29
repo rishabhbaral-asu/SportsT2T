@@ -1,0 +1,16 @@
+Analyzing the snippets for Player11:
+- "Player11(Home Team)'s shot from outside the box is saved in the center of the goal, assisted by Player6(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team)'s shot from outside the box is blocked with the help of Player10(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team)'s header from the center of the box is saved by the goalkeeper after a cross from Player8(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a header.
+- "Player11(Home Team) misses a header to the left from the center of the box, assisted by Player9(Home Team) with a cross after a corner." -> Counts as 1 Shot because the snippet explicitly states Player11 missed a header.
+- "Player11(Home Team) scores for the Home Team from a close range shot with their right foot after a corner kick, tying the score at 1-1." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player11 scored a goal and made a shot.
+- "Player11(Home Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player11 earned a free kick.
+- "Player11(Home Team)'s right footed shot from outside the box on a direct free kick hits the crossbar." -> Counts as 1 Shot and 1 Free Kick because the snippet explicitly states Player11 took a shot from a free kick.
+- "Player11(Home Team) earns a free kick on the left wing, leading to a corner kick for the Home Team, ." -> Counts as 1 Free Kick because the snippet explicitly states Player11 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 6     | 1     | 0       | 3          | 0     | 0            | 0         | 0        |
+```

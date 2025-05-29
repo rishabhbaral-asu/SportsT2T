@@ -1,0 +1,11 @@
+Analyzing the snippets for Player5:
+- "Player5(Home Team) attempted a left-footed shot from outside the box, but it narrowly missed to the left with an assist from Player10(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player5 attempted a shot.
+- "Player5(Home Team) narrowly misses a left-footed shot from the center of the box, assisted by Player8(Home Team) with a cross, while Player8(Home Team)'s left-footed shot from outside the box is saved in the bottom right corner, assisted by Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player5 misses a shot.
+- "Player5(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player5 commits a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

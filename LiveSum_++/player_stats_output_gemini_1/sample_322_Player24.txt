@@ -1,0 +1,13 @@
+Analyzing the snippets for Player24:
+- "Player24(Away Team) misses the target with a high and wide shot from outside the box, assisted by Player28(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player24 missed the target with a shot.
+- "Player24(Away Team) handles the ball." -> Counts as 1 Foul because the snippet explicitly states Player24 handled the ball.
+- "Player24(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player24 committed a foul.
+- "Player24(Away Team) receives a yellow card for a rough foul." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player24 received a yellow card for a rough foul.
+- "Player24(Away Team)'s attempt from outside the box on a direct free kick is too high." -> Counts as 1 Shot and 1 Free Kick because the snippet explicitly states Player24 took an attempt from a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 2     | 0     | 0       | 1          | 3     | 1            | 0         | 0        |
+```

@@ -1,0 +1,10 @@
+Analyzing the snippets for Player4:
+- "Player4(Home Team) misses the goal with a close shot from the center of the box, assisted by Player11(Home Team) after a set piece." -> Counts as 1 Shot because the snippet explicitly states Player4 misses the goal with a close shot.
+- "Player4(Home Team) of the Home Team as Player16(Home Team) is caught offside on the through ball attempt." -> Counts as 0 Offsides because the snippet explicitly states Player16 is caught offside and not Player4.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

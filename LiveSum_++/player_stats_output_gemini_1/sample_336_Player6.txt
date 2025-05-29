@@ -1,0 +1,14 @@
+Analyzing the snippets for Player6:
+- "Player6(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player6 committed a foul.
+- "Player6(Home Team) attempts a through ball to Player11(Home Team), who is caught offside." -> No countable event because the target player is not explicitly offside.
+- "Player6(Home Team)'s shot from the center of the box is blocked by the defense, resulting in a corner kick for the Home Team after an assist from Player8(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player6 took a shot that was blocked.
+- "Player6(Home Team) commits a foul on Player25(Away Team), who then wins a free kick in their defensive half." -> Counts as 1 Foul because the snippet explicitly states Player6 committed a foul.
+- "Player6(Home Team) has committed a hand ball." -> Counts as 1 Foul because the snippet explicitly states Player6 committed a hand ball.
+- "Player6(Home Team) receives a yellow card for handling the ball." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player6 received a yellow card for handling the ball, which is a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 1     | 0     | 0       | 0          | 4     | 1            | 0         | 0        |
+```

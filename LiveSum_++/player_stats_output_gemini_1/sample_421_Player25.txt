@@ -1,0 +1,14 @@
+Analyzing the snippets for Player25:
+- "Player25(Away Team) misses the target with a left-footed shot from outside the box, with an assist from Player20(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player25 missed the target with a shot.
+- "Player25(Away Team)'s header from the center of the box was just a tad too high after being assisted by Player28(Away Team) with a cross." -> Counts as 1 Shot because the snippet explicitly states Player25's header was too high.
+- "Player25(Away Team)'s attempt from outside the box with his left foot was too high." -> Counts as 1 Shot because the snippet explicitly states Player25's attempt was too high.
+- "Player25(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player25 commits a foul.
+- "Player25(Away Team) receives a yellow card for a foul." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player25 receives a yellow card for a foul.
+- "Player25(Away Team) commits a foul, giving Player11(Home Team) a free kick in their defensive half." -> Counts as 1 Foul because the snippet explicitly states Player25 commits a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 3     | 0     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

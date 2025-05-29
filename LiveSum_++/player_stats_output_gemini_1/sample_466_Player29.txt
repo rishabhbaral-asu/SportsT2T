@@ -1,0 +1,13 @@
+Analyzing the snippets for Player29:
+- "Player29(Away Team) scores with a header from the center of the box to the bottom left corner, assisted by Player20(Away Team)'s cross, The Away Team leads 1-0 against the Home Team." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player29 scores.
+- "Player29(Away Team) attempts a through ball, but Player27(Away Team) is flagged for offside." -> No event is counted because Player27 is offside, not Player29.
+- "Player29(Away Team) misses the target with a close-range shot from the right side of the box, assisted by Player26(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player29 misses the target with a shot.
+- "Player29(Away Team) commits a foul, allowing Player15(Home Team) to win a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a foul.
+- "Player29(Away Team) has been cautioned with a yellow card for a foul." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player29 received a yellow card for a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 2     | 1     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

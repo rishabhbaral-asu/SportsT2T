@@ -1,0 +1,12 @@
+Analyzing the snippets for Player25:
+- "Player25(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player25 committed a foul.
+- "Player25(Away Team) commits a foul on Player8(Home Team), awarding a free kick to Player8(Home Team) on the left wing." -> Counts as 1 Foul because the snippet explicitly states Player25 committed a foul.
+- "Player25(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player25 earns a free kick.
+- "Player25(Away Team) of the Away Team has scored an own goal, tying the game at 1-1 between the Home Team and the Away Team." -> No countable event because the snippet describes Player25 scoring an own goal, which doesn't count as a regular goal.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 0     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

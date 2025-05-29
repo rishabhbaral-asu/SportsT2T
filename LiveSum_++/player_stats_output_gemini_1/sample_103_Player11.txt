@@ -1,0 +1,12 @@
+Analyzing the snippets for Player11:
+- "Player11(Home Team) of the Home Team attempts a pass to Player4(Home Team), but Player4(Home Team) is offside." -> Counts as 1 Offside because Player11 attempted a pass that led to Player4 being offside.
+- "Player11(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player11 committed a foul.
+- "Player11(Home Team)'s left footed shot from the left side of the box is saved in the center of the goal." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team) commits a foul on Player25(Away Team), resulting in a free kick being awarded on the right wing." -> Counts as 1 Foul because the snippet explicitly states Player11 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 1        |
+```

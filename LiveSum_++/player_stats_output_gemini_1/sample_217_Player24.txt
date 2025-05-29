@@ -1,0 +1,12 @@
+Analyzing the snippets for Player24:
+- "Player24(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player24 committed a foul.
+- "Player24(Away Team) commits a foul, giving Player9(Home Team) a free kick in their own defensive half, This results in a free kick for Player9(Home Team) after Player24(Away Team)'s foul in the defensive half." -> Counts as 1 Foul because the snippet explicitly states Player24 committed a foul.
+- "Player24(Away Team)'s right footed shot from outside the box is blocked with an assist from Player27(Away Team), while Player8(Home Team)'s right footed shot from the centre of the box is saved in the top centre of the goal with an assist from Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player24's shot was blocked. No assist is counted for Player24 here.
+- "Player24(Away Team)'s shot from outside the box is blocked after being assisted by Player28(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player24's shot was blocked. No assist is counted for Player24 here.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 2     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

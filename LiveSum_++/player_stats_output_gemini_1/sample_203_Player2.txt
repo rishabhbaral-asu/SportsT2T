@@ -1,0 +1,12 @@
+Analyzing the snippets for Player2:
+- "Player2(Home Team) attempts a through ball to Player7(Home Team), who is ruled offside." -> Counts as 0 Offsides because the snippet states that Player7 is offside, not Player2.
+- "Player2(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player2 committed a foul.
+- "Player2(Home Team) commits a foul, resulting in Player33(Away Team) winning a free kick in their own defensive half, This leads to a set piece opportunity for Player33(Away Team)." -> Counts as 1 Foul because the snippet explicitly states Player2 committed a foul.
+- "Player2(Home Team) receives a yellow card for a reckless challenge." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player2 received a yellow card for a reckless challenge, which is a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 0     | 0     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

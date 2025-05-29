@@ -1,0 +1,15 @@
+Analyzing the snippets for Player27:
+
+- "Player27(Away Team)'s shot from the right side of the box is blocked, assisted by Player26(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27's shot was blocked.
+- "Player27(Away Team) scores with a powerful shot from the right side of the box, assisted by Player29(Away Team), tying the game at 1-1." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player27 scored.
+- "Player27(Away Team)'s attempt from outside the box narrowly misses the top left corner on a direct free kick." -> Counts as 1 Shot and 1 Free Kick because the snippet explicitly states Player27's attempt from outside the box narrowly misses the top left corner on a direct free kick.
+- "Player27(Away Team)'s shot from outside the box is saved in the top center of the goal, with an assist from Player29(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27's shot was saved.
+- "Player27(Away Team)'s shot from the center of the box was blocked with Player28(Away Team)'s help." -> Counts as 1 Shot because the snippet explicitly states Player27's shot was blocked.
+- "Player27(Away Team)'s shot from outside the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player27's shot was blocked.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 6     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

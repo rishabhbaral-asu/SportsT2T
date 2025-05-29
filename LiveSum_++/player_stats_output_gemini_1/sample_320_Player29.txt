@@ -1,0 +1,14 @@
+Analyzing the snippets for Player29:
+- "Player29(Away Team)'s right footed shot from outside the box and Player11(Home Team)'s right footed shot from the center of the box, both assisted by Player25(Away Team) and Player5(Home Team) respectively, were saved in the bottom corners." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot.
+- "Player29(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player29 earned a free kick.
+- "Player29(Away Team)'s right footed shot from outside the box is saved in the center of the goal, assisted by Player24(Away Team), after a foul by Player8(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot.
+- "Player29(Away Team)'s shot from the left side of the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot.
+- "Player29(Away Team)'s shot from the center of the box is saved in the bottom right corner after being assisted by Player26(Away Team) with a cross, as Player7(Home Team) wins a free kick in the attacking half." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot.
+- "Player29(Away Team) misses the target with his right footed shot from outside the box on a direct free kick, as the ball sails just over the crossbar." -> Counts as 1 Shot and 1 Free Kick because the snippet explicitly states Player29 took a shot from a direct free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 5     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

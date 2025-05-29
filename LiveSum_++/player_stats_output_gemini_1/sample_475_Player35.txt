@@ -1,0 +1,14 @@
+Analyzing the snippets for Player35:
+* "Player35(Away Team) earns a free kick on the right wing after being fouled by Player5(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player35 earned a free kick.
+* "Player35(Away Team) commits a foul on Player9(Home Team), resulting in a free kick awarded in the defensive half." -> Counts as 1 Foul because the snippet explicitly states Player35 committed a foul.
+* "Player35(Away Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player35 received a yellow card for a rough tackle, which is a foul.
+* "Player35(Away Team)'s shot from the right side of the box is blocked by the defense, resulting in a corner kick for the Away Team after an assist from Player33(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player35 took a shot.
+* "Player35(Away Team)'s shot from the center of the box was just too high, assisted by Player24(Away Team)'s cross after a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player35 took a shot.
+* "Player35(Away Team)'s header from the right side of the box is saved in the top right corner with an assist from Player20(Away Team), while Player2(Home Team)'s left-footed shot from outside the box misses to the left." -> Counts as 1 Shot because the snippet explicitly states Player35 took a header (shot).
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player35 | 3     | 0     | 0       | 1          | 2     | 1            | 0         | 0        |
+```

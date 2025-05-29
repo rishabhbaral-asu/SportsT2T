@@ -1,0 +1,14 @@
+Analyzing the snippets for Player9:
+- "Player9(Home Team) from the Home Team attempts a through ball, but Player7(Home Team) is offside." -> Counts as 0 events because it does not explicitly state Player9 taking a shot, scoring a goal, providing an assist, taking a free kick, committing a foul, receiving a yellow card, receiving a red card, or being offside.
+- "Player9(Home Team)'s left footed shot from outside the box was blocked after an assist from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 took a shot.
+- "Player9(Home Team)'s shot from the right side of the box is saved in the center of the goal." -> Counts as 1 Shot because the snippet explicitly states Player9 took a shot.
+- "Player9(Home Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player9 earned a free kick.
+- "Player9(Home Team)'s left footed shot from the left side of the box narrowly misses the top left corner after being set up by Player6(Home Team) during a fast break." -> Counts as 1 Shot because the snippet explicitly states Player9 took a shot.
+- "Player9(Home Team)'s shot from outside the box is blocked with his left foot, after being assisted by Player6(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 4     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

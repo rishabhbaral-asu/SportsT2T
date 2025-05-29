@@ -1,0 +1,12 @@
+Analyzing the snippets for Player24:
+
+- "Player24(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player24 committed a foul.
+- "Player24(Away Team) attempts a pass to Player36(Away Team) who is offside." -> Counts as 1 Offside because it explicitly states that Player36 is offside; this should not be counted towards Player24's offsides.
+- "Player24(Away Team)'s shot from outside the box is saved in the top right corner with an assist from Player36(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player24 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,14 @@
+Analyzing the snippets for Player29:
+
+- "Player29(Away Team) attempted a left-footed shot from the center of the box, but it went wide to the right, The attempt was assisted by Player25(Away Team) with a cross." -> Counts as 1 Shot because the snippet explicitly states Player29 attempted a shot.
+- "Player29(Away Team) from the Away Team has scored an own goal, giving the Home Team a 1-0 lead." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player29 scored a goal, which also counts as a shot.
+- "Player29(Away Team)'s shot from outside the box with their left foot is saved in the top left corner, assisted by Player20(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot.
+- "Player29(Away Team) misses with a header from the center of the box to the right after a cross from Player23(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player29 missed with a header.
+- "Player29(Away Team)'s shot from the center of the box is saved in the center of the goal." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 5     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

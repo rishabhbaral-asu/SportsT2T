@@ -1,0 +1,12 @@
+Analyzing the snippets for Player9:
+- "Player9(Home Team)'s shot from the right side of the box is saved in the top right corner, resulting in a corner kick for the Home Team." -> Counts as 1 Shot because the snippet explicitly states Player9 took a shot.
+- "Player9(Home Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player9 earned a free kick.
+- "Player9(Home Team) is fouled in the box." -> Counts as 0 because the snippet does not say the Player9 took any free kick.
+- "Player9(Home Team)'s left footed shot from the center of the box is saved in the top left corner, resulting in a corner kick for the Home Team." -> Counts as 1 Shot because the snippet explicitly states Player9 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 2     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

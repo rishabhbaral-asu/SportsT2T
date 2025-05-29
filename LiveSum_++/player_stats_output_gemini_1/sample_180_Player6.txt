@@ -1,0 +1,12 @@
+Analyzing the snippets for Player6:
+- "Player6(Home Team) earns a free kick on the right side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player6 earned a free kick.
+- "Player6(Home Team) earns a free kick on the right wing after being fouled by Player28(Away Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player6 earned a free kick.
+- "Player6(Home Team)'s attempt from outside the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player6's attempt from outside the box is blocked.
+- "Player6(Home Team) earns a free kick in the attacking half after being fouled by Player28(Away Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player6 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 1     | 0     | 0       | 3          | 0     | 0            | 0         | 0        |
+```

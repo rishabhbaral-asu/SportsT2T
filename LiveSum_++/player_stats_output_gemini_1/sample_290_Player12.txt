@@ -1,0 +1,10 @@
+Analyzing the snippets for Player12:
+- "Player12(Home Team) attempts a through ball, but Player14(Home Team) is offside." -> Counts as 1 Offside because the snippet explicitly states Player14(Home Team) is offside after Player12(Home Team) attempts a through ball.
+- "Player12(Home Team)'s attempt from outside the box was just too high, despite the assist from Player8(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player12(Home Team) attempted from outside the box.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player12 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 1        |
+```

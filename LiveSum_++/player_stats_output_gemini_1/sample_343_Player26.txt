@@ -1,0 +1,18 @@
+Analyzing the snippets for Player26:
+- "Player26(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player26 committed a foul.
+- "Player26(Away Team) commits a foul, resulting in Player2(Home Team) winning a free kick in the attacking half, The foul was committed by Player26(Away Team), allowing Player2(Home Team) to win a free kick in the attacking half." -> Counts as 1 Foul because the snippet explicitly states Player26 committed a foul.
+- "Player26(Away Team) misses a high and wide shot with his right foot from outside the box, assisted by Player35(Away Team), while Player10(Home Team) is accused of diving." -> Counts as 1 Shot because the snippet explicitly states Player26 misses a shot.
+- "Player26(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player26 committed a foul.
+- "Player26(Away Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player26 received a yellow card for a rough tackle, which is a foul.
+- "Player26(Away Team)'s shot from outside the box is blocked after an assist from Player34(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player26 had a shot.
+- "Player26(Away Team) earns a free kick in the opponent's half after a foul committed by Player12(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player26 earned a free kick.
+- "Player26(Away Team)'s shot from outside the box is saved at the top center of the goal." -> Counts as 1 Shot because the snippet explicitly states Player26 had a shot.
+- "Player26(Away Team) earns a free kick on the right wing after being fouled by Player13(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player26 earned a free kick.
+- "Player26(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player26 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 3     | 0     | 0       | 2          | 5     | 1            | 0         | 0        |
+```

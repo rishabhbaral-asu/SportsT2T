@@ -1,0 +1,11 @@
+Analyzing the snippets for Player6:
+- "Player6(Home Team)'s left-footed shot from outside the box is blocked after being assisted by Player9(Home Team), resulting in a corner kick for the Home Team." -> Counts as 1 Shot because the snippet explicitly states Player6 took a shot that was blocked.
+- "Player6(Home Team) of the Home Team attempts a through ball, but Player10(Home Team) is offside." -> No event counted. The target player didn't score, assist, or get an offside.
+- "Player6(Home Team) earns a free kick in their own half after Player7(Home Team) commits a foul." -> Counts as 1 Free Kick because the snippet explicitly states Player6 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

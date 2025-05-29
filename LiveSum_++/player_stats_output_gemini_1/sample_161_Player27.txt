@@ -1,0 +1,12 @@
+Analyzing the snippets for Player27:
+
+- "Player27(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player27 committed a foul.
+- "Player27(Away Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player27 received a yellow card for a rough tackle, which is a foul.
+- "Player27(Away Team) scores with a left-footed shot from the left side of the box, assisted by Player28(Away Team), Home Team 0, Away Team 1." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player27 scored a goal with a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 1     | 1     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

@@ -1,0 +1,13 @@
+Analyzing the snippets for Player8:
+- "Player8(Home Team)'s right footed shot from the center of the box is saved in the bottom right corner after being assisted by Player9(Home Team) with a through ball, while Player28(Away Team)'s left footed shot from outside the box is blocked with an assist from Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player8 took a shot.
+- "Player8(Home Team) missed the shot with their left foot from the center of the box, it was too high, The shot was set up by Player5(Home Team) with a header." -> Counts as 1 Shot because the snippet explicitly states Player8 missed the shot.
+- "Player8(Home Team)'s shot from the right side of the box is blocked after a headed pass from Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player8's shot was blocked.
+- "Player8(Home Team)'s shot from the left side of the box is just a little too high, missing the target, Player5(Home Team) provided the assist." -> Counts as 1 Shot because the snippet explicitly states Player8's shot was too high.
+- "Player8(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player8 commits a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 4     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

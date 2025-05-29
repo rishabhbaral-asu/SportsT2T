@@ -1,0 +1,11 @@
+Analyzing the snippets for Player30:
+- "Player30(Away Team) has won a free kick in the defensive half, they are now ready to continue." -> Counts as 1 Free Kick because the snippet explicitly states Player30 has won a free kick.
+- "Player30(Away Team) scores with a header from the centre of the box to the top left corner, assisted by Player26(Away Team), The score is now Home Team 2, Away Team 2, Goal!." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player30 scored a goal.
+- "Player30(Away Team) misses the goal with a high and wide shot from outside the box, assisted by Player26(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player30 missed the goal with a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player30 | 2     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

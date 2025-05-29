@@ -1,0 +1,15 @@
+Analyzing the snippets for Player25:
+
+- "Player25(Away Team) attempts a through ball to Player29(Away Team), but Player29(Away Team) is caught offside, Player6(Home Team) misses the goal with a right footed shot from outside the box after a set piece situation." -> No countable event because the snippet does not mention any of the defined events.
+- "Player25(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team." -> No countable event because the snippet does not mention any of the defined events.
+- "Player25(Away Team)'s shot from outside the box is blocked with the help of Player20(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player25's shot was blocked.
+- "Player25(Away Team)'s shot from outside the box is saved in the center of the goal." -> Counts as 1 Shot because the snippet explicitly states Player25's shot was saved.
+- "Player25(Away Team) wins a free kick in the defensive half as Player23(Away Team) attempts a through ball, but Player29(Away Team) is caught offside for the Away Team." -> Counts as 1 Free Kick because the snippet explicitly states Player25 wins a free kick.
+- "Player25(Away Team) misses the target with a right-footed shot from outside the box, with an assist from Player29(Away Team)." -> Counts as 1 Shot because the snippet explicitly mentions that Player25 misses the target with a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 3     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

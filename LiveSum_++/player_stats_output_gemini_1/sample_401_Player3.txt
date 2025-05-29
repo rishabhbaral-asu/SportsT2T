@@ -1,0 +1,11 @@
+Analyzing the snippets for Player3:
+- "Player3(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player3 committed a foul.
+- "Player3(Home Team)'s header from the center of the box was just a bit too high after being assisted by Player6(Home Team) with a cross from a corner." -> Counts as 1 Shot because the snippet explicitly states Player3 had a header from the center of the box which is considered a shot.
+- "Player3(Home Team) missed the header from the center of the box to the left after being assisted by Player7(Home Team) with a cross during a set piece." -> Counts as 1 Shot because the snippet explicitly states Player3 missed a header from the center of the box, which is an attempt on goal.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,13 @@
+Analyzing the snippets for Player7:
+- "Player7(Home Team) has committed a foul." -> Counts as 1 Foul because the snippet explicitly states Player7 committed a foul.
+- "Player7(Home Team) commits a foul on Player28(Away Team), resulting in a free kick for Player28(Away Team) in the attacking half, ." -> Counts as 1 Foul because the snippet explicitly states Player7 committed a foul.
+- "Player7(Home Team) commits a foul on Player24(Away Team), resulting in a free kick for Player24(Away Team)'s team in the attacking half." -> Counts as 1 Foul because the snippet explicitly states Player7 committed a foul.
+- "Player7(Home Team) commits a foul, resulting in Player26(Away Team) being awarded a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player7 committed a foul.
+- "Player7(Home Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player7 received a yellow card for a rough tackle, which is a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 0     | 0     | 0       | 0          | 5     | 1            | 0         | 0        |
+```

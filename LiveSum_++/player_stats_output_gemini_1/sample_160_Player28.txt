@@ -1,0 +1,23 @@
+Analyzing the snippets for Player28:
+
+- "Player28(Away Team) commits a foul, resulting in Player9(Home Team) earning a free kick in the attacking half, This leads to an opportunity for a set piece in a dangerous area." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+- "Player28(Away Team) has committed a hand ball." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a hand ball, which is a foul.
+- "Player28(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player28 earns a free kick.
+- "Player28(Away Team) earns a free kick in their own half after being fouled by Player7(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player28 earns a free kick.
+- "Player28(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+- "Player28(Away Team) commits a foul and Player9(Home Team) is awarded a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+- "Player28(Away Team) of the Away Team attempts a through ball to Player29(Away Team), but he is caught offside and commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+- "Player28(Away Team) commits a foul, resulting in Player10(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player10(Home Team)'s team." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+- "Player28(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+- "Player28(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+- "Player28(Away Team) commits a foul, resulting in Player10(Home Team) winning a free kick in the attacking half, This leads to a set-piece opportunity for Player10(Home Team)'s team." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+- "Player28(Away Team) commits a foul, resulting in Player9(Home Team) winning a free kick in the attacking half, ." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+- "Player28(Away Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player28 received a yellow card for a rough tackle, which is a foul.
+- "Player28(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 0     | 0     | 0       | 2          | 10    | 1            | 0         | 0        |
+```

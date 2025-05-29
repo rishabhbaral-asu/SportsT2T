@@ -1,0 +1,13 @@
+Analyzing the snippets for Player8:
+- "Player8(Home Team) misses the header to the left after being assisted by Player6(Home Team) with a cross from a set piece situation." -> Counts as 1 Shot because the snippet explicitly states Player8 misses a header, which is an attempt on goal.
+- "Player8(Home Team)'s header from the center of the box is blocked by the defense, assisted by Player6(Home Team), resulting in a corner kick for the Home Team." -> Counts as 1 Shot because the snippet explicitly states Player8's header is blocked, which is an attempt on goal.
+- "Player8(Home Team) commits a foul, resulting in Player24(Away Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player24(Away Team)'s team." -> Counts as 1 Foul because the snippet explicitly states Player8 committed a foul.
+- "Player8(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player8 committed a foul.
+- "Player8(Home Team) concedes a penalty after fouling Player28(Away Team) in the penalty area, resulting in a penalty for the Away Team." -> Counts as 1 Foul because the snippet explicitly states Player8 committed a foul resulting in a penalty.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 2     | 0     | 0       | 0          | 3     | 0            | 0         | 0        |
+```

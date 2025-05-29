@@ -1,0 +1,17 @@
+Analyzing the snippets for Player25:
+
+- "Player25(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player25 earned a free kick.
+- "Player25(Away Team) scores with a left-footed shot from outside the box, assisted by Player29(Away Team), giving the Home Team a 2-1 lead over the Away Team." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player25 scored a goal with a shot.
+- "Player25(Away Team) earns a free kick on the right side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player25 earned a free kick.
+- "Player25(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player25 earned a free kick.
+- "Player25(Away Team)'s shot from outside the box is blocked with the help of Player34(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player25 took a shot.
+- "Player25(Away Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player25 earned a free kick.
+- "Player25(Away Team) has committed a hand ball." -> Counts as 1 Foul because the snippet explicitly states Player25 committed a hand ball.
+- "Player25(Away Team) of the Away Team attempts a pass to Player27(Away Team), but Player27(Away Team) is offside." -> No event counted for Player25.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 2     | 1     | 0       | 4          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,11 @@
+Analyzing the snippets for Player5:
+- "Player5(Home Team) earns a free kick on the left side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player5 earned a free kick.
+- "Player5(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player5 committed a foul.
+- "Player5(Home Team) earns a free kick on the left wing after being fouled by Player33(Away Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player5 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 0     | 0     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

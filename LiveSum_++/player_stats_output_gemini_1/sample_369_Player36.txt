@@ -1,0 +1,12 @@
+Analyzing the snippets for Player36:
+
+- "Player36(Away Team) scores with a close-range shot to the bottom right corner, making it Home Team 1, Away Team 1." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player36 scored a goal.
+- "Player36(Away Team) draws a foul from Player13(Home Team) and earns a free kick on the left wing." -> Counts as 1 Free Kick because the snippet explicitly states Player36 earned a free kick.
+- "Player36(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player36 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player36 | 1     | 1     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

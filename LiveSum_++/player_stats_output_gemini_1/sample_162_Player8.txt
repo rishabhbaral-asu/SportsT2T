@@ -1,0 +1,10 @@
+Analyzing the snippets for Player8:
+- "Player8(Home Team) attempts a through ball, but Player11(Home Team) is caught offside for the Home Team." -> Counts as 1 Offside because the snippet explicitly states that Player11 is offside, not Player8. Therefore, there is no event to count for Player8.
+- "Player8(Home Team) commits a foul, resulting in Player28(Away Team) winning a free kick in the attacking half, The referee awards a free kick to Player28(Away Team) after Player8(Home Team)'s foul in the attacking half." -> Counts as 1 Foul because the snippet explicitly states Player8 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,17 @@
+Analyzing the snippets for Player11:
+- "Player11(Home Team)'s left-footed shot from the center of the box narrowly misses to the right, with an assist from Player6(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team)'s attempt from the center of the box was saved in the top right corner after being assisted by Player3(Home Team) with a headed pass, and his subsequent shot from the right side of the box was blocked." -> Counts as 1 Shot because the snippet explicitly states Player11 made an attempt/shot, and then had a subsequent shot blocked.
+- "Player11(Home Team)'s right footed shot from the center of the box is blocked by the defense after being assisted by Player8(Home Team) with a cross, resulting in Player29(Away Team) winning a free kick in the defensive half." -> Counts as 1 Shot because the snippet explicitly states Player11 took a right footed shot.
+- "Player11(Home Team)'s shot from outside the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team) missed a left footed shot from long range to the left, after receiving a headed pass from Player4(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 missed a shot.
+- "Player11(Home Team) commits a hand ball, resulting in Player27(Away Team) winning a free kick in their own defensive half, This leads to a free kick for Player27(Away Team) after Player11(Home Team)'s hand ball in the defensive half." -> Counts as 1 Foul because the snippet explicitly states Player11 committed a hand ball.
+- "Player11(Home Team)'s shot from outside the box is blocked with the help of Player10(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player11 committed a foul.
+- "Player11(Home Team) receives a yellow card for a harsh foul." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player11 received a yellow card for a harsh foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 6     | 0     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

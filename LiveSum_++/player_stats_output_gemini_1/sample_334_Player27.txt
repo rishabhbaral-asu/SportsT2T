@@ -1,0 +1,15 @@
+Analyzing the snippets for Player27:
+
+- "Player27(Away Team) outside the box into the bottom left corner, Home Team 0, Away Team 1." -> Counts as 1 Shot and 1 Goal because the snippet explicitly mentions Player27 scored from outside the box.
+- "Player27(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player27 committed a foul.
+- "Player27(Away Team)'s shot from the right side of the box is saved by the goalkeeper in the top centre of the goal, with an assist from Player20(Away Team)." -> Counts as 1 Shot because the snippet explicitly mentions Player27 took a shot, which was saved.
+- "Player27(Away Team)'s left-footed shot from the left side of the box narrowly misses to the right, with an assist from Player28(Away Team)." -> Counts as 1 Shot because the snippet explicitly mentions Player27 took a shot that missed.
+- "Player27(Away Team) scores with a right-footed shot from the center of the box into the top right corner, assisted by Player29(Away Team)." -> Counts as 1 Goal and 1 Shot because the snippet explicitly mentions Player27 scored a goal with a shot.
+- "Player27(Away Team)'s shot from outside the box with his right foot narrowly misses to the left, despite the assist from Player28(Away Team)." -> Counts as 1 Shot because the snippet explicitly mentions Player27 took a shot that missed.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 5     | 2     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

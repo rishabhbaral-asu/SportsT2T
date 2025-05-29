@@ -1,0 +1,10 @@
+Analyzing the snippets for Player26:
+- "Player26(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team." -> No event is counted because the commentary does not mention any of the defined events specifically attributed to Player26, other than attempting a through ball, which is not an event that is being tracked. The offside is also attributed to Player29, not Player26.
+- "Player26(Away Team)'s header from the center of the box assisted by Player29(Away Team) goes wide to the right." -> Counts as 1 Shot because the snippet explicitly states Player26 made a header, which is a shot attempt.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

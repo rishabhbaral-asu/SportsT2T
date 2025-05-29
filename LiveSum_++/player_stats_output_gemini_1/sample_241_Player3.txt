@@ -1,0 +1,14 @@
+Analyzing the snippets for Player3:
+- "Player3(Home Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player3 earned a free kick.
+- "Player3(Home Team) fouls Player28(Away Team), who wins a free kick in the attacking half, This results in a set piece opportunity for the attacking team." -> Counts as 1 Foul because the snippet explicitly states Player3 committed a foul.
+- "Player3(Home Team) receives a yellow card due to a reckless foul." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player3 received a yellow card due to a reckless foul.
+- "Player3(Home Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player3 earned a free kick.
+- "Player3(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player3 committed a foul.
+- "Player3(Home Team) earns a free kick in their own half after being fouled by Player28(Away Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player3 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 0     | 0     | 0       | 3          | 3     | 1            | 0         | 0        |
+```

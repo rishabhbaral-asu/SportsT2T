@@ -1,0 +1,14 @@
+Analyzing the snippets for Player27:
+
+- "Player27(Away Team) misses the target with a right-footed shot from long range, assisted by Player21(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 shot and missed the target.
+- "Player27(Away Team)'s right footed shot from the center of the box is saved in the top right corner, resulting in a corner kick for the Away Team." -> Counts as 1 Shot because the snippet explicitly states Player27 shot and it was saved.
+- "Player27(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team." -> No countable event because the snippet does not mention any of the defined events for Player27.
+- "Player27(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player27 committed a foul.
+- "Player27(Away Team)'s header from the center of the box is saved in the top left corner after being assisted by Player21(Away Team) with a cross, resulting in a corner kick for the Away Team." -> Counts as 1 Shot because the snippet explicitly states Player27 shot a header and it was saved.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 3     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

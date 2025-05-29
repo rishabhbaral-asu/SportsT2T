@@ -1,0 +1,14 @@
+Analyzing the snippets for Player28:
+
+- "Player28(Away Team)'s right footed shot from outside the box narrowly misses to the left with an assist from Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28 took a shot.
+- "Player28(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player28 earned a free kick.
+- "Player28(Away Team)'s left footed shot from outside the box goes high and wide to the left, with an assist from Player25(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28 took a shot.
+- "Player28(Away Team) attempted a left footed shot from outside of the box, which was blocked, and then missed a header from the center of the box to the left, both assisted by Player27(Away Team)." -> Counts as 2 Shots because the snippet explicitly states Player28 attempted a shot which was blocked, and missed a header.
+- "Player28(Away Team)'s right footed shot from the center of the box hits the right post after being assisted by Player29(Away Team) with a through ball during a fast break." -> Counts as 1 Shot because the snippet explicitly states Player28 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 5     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

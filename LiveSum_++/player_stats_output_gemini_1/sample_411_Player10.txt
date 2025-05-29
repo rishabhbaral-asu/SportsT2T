@@ -1,0 +1,13 @@
+Analyzing the snippets for Player10:
+- "Player10(Home Team) misses the target with a high right-footed shot from long range." -> Counts as 1 Shot because the snippet explicitly states Player10 misses a shot.
+- "Player10(Home Team) misses the target with a high and wide shot from outside the box, assisted by Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player10 misses a shot.
+- "Player10(Home Team) unsuccessfully attempts a shot from outside the box with their right foot, with assistance from Player9(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player10 attempts a shot.
+- "Player10(Home Team) wins a free kick in the attacking half after a foul by Player20(Away Team), ." -> Counts as 1 Free Kick because the snippet explicitly states Player10 wins a free kick.
+- "Player10(Home Team) attempts a through ball, but Player11(Home Team) is flagged offsides." -> No countable event because the snippet does not state Player10 is offsides.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 3     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

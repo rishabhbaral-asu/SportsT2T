@@ -1,0 +1,11 @@
+Analyzing the snippets for Player3:
+* "Player3(Home Team) gives away a penalty with a foul in the box." -> Counts as 1 Foul because the snippet explicitly states Player3 gives away a penalty with a foul.
+* "Player3(Home Team) receives a yellow card for a reckless challenge." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player3 received a yellow card for a reckless challenge, which is a foul.
+* "Player3(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player3 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 0     | 0     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

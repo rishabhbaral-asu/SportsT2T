@@ -1,0 +1,11 @@
+Analyzing the snippets for Player24:
+- "Player24(Away Team)'s right footed shot from outside the box was blocked, assisted by Player29(Away Team), while Player27(Away Team)'s left footed shot from the left side of the box was saved in the bottom right corner, also assisted by Player29(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player24 took a shot that was blocked.
+- "Player24(Away Team) fouls Player10(Home Team), resulting in a free kick on the left wing." -> Counts as 1 Foul because the snippet explicitly states Player24 committed a foul.
+- "Player24(Away Team) attempts a through ball, but Player29(Away Team) is caught offside." -> No event is counted because the snippet mentions Player29 is offside and not Player24.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

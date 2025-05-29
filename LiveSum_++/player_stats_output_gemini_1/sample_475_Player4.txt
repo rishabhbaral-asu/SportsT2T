@@ -1,0 +1,11 @@
+Analyzing the snippets for Player4:
+- "Player4(Home Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player4 earned a free kick.
+- "Player4(Home Team) earns a free kick in their own defensive half." -> Counts as 1 Free Kick because the snippet explicitly states Player4 earned a free kick.
+- "Player4(Home Team) attempts a pass, but Player2(Home Team) is in an offside position." -> No countable event because the snippet does not mention any of the defined events for Player4.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 0     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

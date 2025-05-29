@@ -1,0 +1,11 @@
+Analyzing the snippets for Player15:
+- "Player15(Home Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player15 earned a free kick.
+- "Player15(Home Team) scores from the penalty spot with a right-footed shot into the bottom left corner." -> Counts as 1 Shot, 1 Goal, and 1 Free Kick because the snippet explicitly states Player15 scored a goal from the penalty spot, and scoring a goal counts as a shot and taking a penalty counts as a free kick.
+- "Player15(Home Team) has committed a hand ball." -> Counts as 1 Foul because the snippet explicitly states Player15 committed a hand ball.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player15 | 1     | 1     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

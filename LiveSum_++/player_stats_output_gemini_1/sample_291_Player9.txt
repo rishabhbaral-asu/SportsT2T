@@ -1,0 +1,13 @@
+Analyzing the snippets for Player9:
+- "Player9(Home Team)'s hand ball was followed by Player25(Away Team)'s left footed shot from outside the box, which was blocked despite assistance from Player26(Away Team)." -> Counts as 1 Foul because the snippet explicitly states Player9 committed a hand ball.
+- "Player9(Home Team)'s shot from the center of the box is blocked, with an assist from Player10(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 took a shot.
+- "Player9(Home Team)'s shot from the center of the box is blocked with his left foot, after an assist from Player8(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 took a shot.
+- "Player9(Home Team) scores for the Home Team with a left-footed shot from the center of the box, assisted by Player2(Home Team), The Home Team is now leading 1-0 against the Away Team." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player9 scored a goal.
+- "Player9(Home Team) scores for the Home Team, making it 2-0 with a left-footed shot from the center of the box after a cross from Player5(Home Team) off a corner kick." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player9 scored a goal.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 4     | 2     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

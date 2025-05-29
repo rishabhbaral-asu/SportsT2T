@@ -1,0 +1,11 @@
+Analyzing the snippets for Player14:
+- "Player14(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player14 committed a foul.
+- "Player14(Home Team) receives a yellow card for a foul." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player14 received a yellow card for a foul.
+- "Player14(Home Team) attempts to pass the ball forward, but Player13(Home Team) was in an offside position." -> No countable event, as Player14 attempting to pass the ball to Player13(Home Team), and the offside is attributed to Player13.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player14 | 0     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

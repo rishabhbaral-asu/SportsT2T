@@ -1,0 +1,12 @@
+Analyzing the snippets for Player33:
+- "Player33(Away Team)'s shot from outside the box is saved by the goalkeeper, with an assist from Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player33 took a shot.
+- "Player33(Away Team) attempts a through ball, but Player24(Away Team) is flagged offside for the Away Team." -> Counts as 1 Offside because the snippet explicitly states Player33 attempted a through ball and Player24 was offside. The Player33 did not commit the offside, so it should not be counted.
+- "Player33(Away Team)'s shot from outside the box is blocked after being set up by Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player33 took a shot.
+- "Player33(Away Team) has been cautioned with a yellow card for a reckless challenge." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player33 received a yellow card for a reckless challenge, which is considered a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player33 | 2     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

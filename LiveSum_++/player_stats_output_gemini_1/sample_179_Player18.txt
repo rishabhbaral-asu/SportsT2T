@@ -1,0 +1,12 @@
+Analyzing the snippets for Player18:
+- "Player18(Home Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player18 earned a free kick.
+- "Player18(Home Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player18 earned a free kick.
+- "Player18(Home Team) earns a free kick on the left wing after a foul committed by Player23(Away Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player18 earned a free kick.
+- "Player18(Home Team) earns a free kick in their own half after being fouled by Player26(Away Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player18 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player18 | 0     | 0     | 0       | 4          | 0     | 0            | 0         | 0        |
+```

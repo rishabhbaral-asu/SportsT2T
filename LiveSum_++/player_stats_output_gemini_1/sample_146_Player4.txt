@@ -1,0 +1,14 @@
+Analyzing the snippets for Player4:
+
+- "Player4(Home Team) from the Home Team attempts a through ball, but Player9(Home Team) is offside." -> Counts as 1 Offside because the snippet explicitly states Player9 is offside. Note: Although Player4 attempted the through ball, the offside is attributed to Player9. It is also important to note that this snippet does NOT explicitly state that Player4 is offside. Therefore, zero events are counted for Player4.
+- "Player4(Home Team)'s shot from outside the box with his right foot is saved in the bottom left corner, with an assist from Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states "Player4's shot".
+- "Player4(Home Team)'s long-range shot with his right foot from the left side is saved in the bottom left corner." -> Counts as 1 Shot because the snippet explicitly states "Player4's long-range shot".
+- "Player4(Home Team) misses with a right-footed shot from outside the box after a corner, while Player10(Home Team)'s close-range effort from the center is just wide to the left with an assist from Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states "Player4 misses with a right-footed shot".
+- "Player4(Home Team)'s shot from outside the box is blocked with the help of Player13(Home Team)." -> Counts as 1 Shot because the snippet explicitly states "Player4's shot is blocked".
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 4     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

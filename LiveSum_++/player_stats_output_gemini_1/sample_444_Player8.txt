@@ -1,0 +1,13 @@
+Analyzing the snippets for Player8:
+- "Player8(Home Team) misses the goal with a shot from the right side of the six yard box, assisted by Player11(Home Team)'s cross." -> Counts as 1 Shot because the snippet explicitly states Player8 missed the goal with a shot.
+- "Player8(Home Team)'s header from the center of the box is blocked after being assisted by Player5(Home Team) with a cross." -> Counts as 1 Shot because the snippet explicitly states Player8's header was blocked.
+- "Player8(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player8 committed a foul.
+- "Player8(Home Team) attempts a through ball, but Player11(Home Team) is flagged offside for the home team." -> Counts as 1 Offside because the snippet explicitly states Player11 is offside for the home team, and the target is Player8, so there are no offsides.
+- "Player8(Home Team) from close range with their right foot, assisted by Player11(Home Team) after a corner kick, The Home Team lead 5-0 against the Away Team." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states the home team lead 5-0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 3     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

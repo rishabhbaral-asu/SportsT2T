@@ -1,0 +1,12 @@
+Analyzing the snippets for Player10:
+- "Player10(Home Team)'s shot from outside the box was saved in the bottom left corner by the goalkeeper after being assisted by Player5(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player10 took a shot.
+- "Player10(Home Team)'s left footed shot from the left side of the box is blocked with an assist from Player5(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player10 took a shot.
+- "Player10(Home Team)'s shot from outside the box is saved in the top left corner." -> Counts as 1 Shot because the snippet explicitly states Player10 took a shot.
+- "Player10(Home Team) misses the penalty by hitting the left post with a right-footed shot, The score remains 0-0 between the Home Team and the Away Team." -> Counts as 1 Shot and 1 Free Kick because the snippet explicitly states Player10 took a shot from a penalty.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 4     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

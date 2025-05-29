@@ -1,0 +1,14 @@
+Analyzing the snippets for Player11:
+
+- "Player11(Home Team) attempts a pass to Player9(Home Team), but Player9(Home Team) is offside." -> No countable event because Player11 is attempting a pass but not in an offside position.
+- "Player11(Home Team)'s shot from the center of the box was saved by the goalkeeper after a through ball from Player9(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11's shot was saved.
+- "Player11(Home Team) has committed a hand ball." -> Counts as 1 Foul because the snippet explicitly states Player11 committed a hand ball, which is a foul.
+- "Player11(Home Team) earns a free kick on the left side." -> Counts as 1 Free Kick because the snippet explicitly states Player11 earned a free kick.
+- "Player11(Home Team)'s left footed shot from outside the box goes over the goal." -> Counts as 1 Shot because the snippet explicitly states Player11's shot went over the goal.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

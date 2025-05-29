@@ -1,0 +1,13 @@
+Analyzing the snippets for Player2:
+- "Player2(Home Team) committing a foul." -> Counts as 1 Foul because the snippet explicitly states Player2 committed a foul.
+- "Player2(Home Team) receives a yellow card for a tough challenge." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player2 received a yellow card for a tough challenge, which is a foul.
+- "Player2(Home Team) is being delayed in the match due to an injury." -> No countable event because the snippet does not mention any of the defined events.
+- "Player2(Home Team) attempted a shot with his right foot from outside the box, but it missed to the left with an assist from Player6(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player2 attempted a shot.
+- "Player2(Home Team) misses the target with a left-footed shot from the right side of the box." -> Counts as 1 Shot because the snippet explicitly states Player2 misses the target with a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 2     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

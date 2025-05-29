@@ -1,0 +1,11 @@
+Analyzing the snippets for Player1:
+- "Player1(Home Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player1 earned a free kick.
+- "Player1(Home Team) is experiencing a delay in the match due to an injury." -> No countable event because the snippet does not mention any of the defined events.
+- "Player1(Home Team) has been cautioned with a yellow card." -> Counts as 1 Yellow Card because the snippet explicitly states Player1 received a yellow card.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player1 | 0     | 0     | 0       | 1          | 0     | 1            | 0         | 0        |
+```

@@ -1,0 +1,12 @@
+Analyzing the snippets for Player8:
+- "Player8(Home Team) earns a free kick on the right side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player8 earned a free kick.
+- "Player8(Home Team)'s shot from the center of the box is saved by the goalkeeper, with an assist from Player9(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player8 took a shot.
+- "Player8(Home Team) attempts a through ball, but Player15(Home Team) is offside for the Home Team." -> Counts as 0 Offside because the snippet does not state Player8 was offside.
+- "Player8(Home Team)'s shot from outside the box with his left foot is saved in the bottom left corner, with an assist from Player5(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player8 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 2     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

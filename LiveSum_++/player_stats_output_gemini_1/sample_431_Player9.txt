@@ -1,0 +1,13 @@
+Analyzing the snippets for Player9:
+- "Player9(Home Team) commits a foul, resulting in Player20(Away Team) being awarded a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player9 committed a foul.
+- "Player9(Home Team) attempts a through ball, but Player7(Home Team) is offside for the Home Team." -> No countable event because although Player9 attempts a through ball, it does not meet the requirements to be an assist.
+- "Player9(Home Team)'s right footed shot from outside the box is deflected by the crossbar with the help of Player2(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9's shot hit the crossbar.
+- "Player9(Home Team) misses with a high right footed shot from outside the box." -> Counts as 1 Shot because the snippet explicitly states Player9's shot missed.
+- "Player9(Home Team)'s header from the centre of the box, assisted by Player8(Home Team) with a cross, is just too high, while Player29(Away Team)'s right-footed shot from outside the box, assisted by Player26(Away Team) with a headed pass, misses to the right." -> Counts as 1 Shot because the snippet explicitly states Player9's header was too high, meaning it was a shot attempt.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 3     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

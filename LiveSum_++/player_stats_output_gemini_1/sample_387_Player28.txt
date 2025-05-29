@@ -1,0 +1,12 @@
+Analyzing the snippets for Player28:
+
+- "Player28(Away Team) missed the goal with a left-footed shot from the center of the box, assisted by Player24(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28 missed a shot.
+- "Player28(Away Team) scores a goal for the Home Team with a penalty kick to tie the game 1-1." -> Counts as 1 Goal, 1 Shot, and 1 Free Kick because the snippet explicitly states Player28 scores a goal from a penalty kick.
+- "Player28(Away Team)'s left footed shot from outside the box is blocked after an attempted through ball to Player26(Away Team), who is caught offside." -> Counts as 1 Shot because the snippet explicitly states Player28's shot was blocked.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 3     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

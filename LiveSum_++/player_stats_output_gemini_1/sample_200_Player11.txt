@@ -1,0 +1,15 @@
+Analyzing the snippets for Player11:
+- "Player11(Home Team) of the Home Team attempts a pass to Player9(Home Team), but Player9(Home Team) is flagged offside." -> No countable event because Player9 is offside.
+- "Player11(Home Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player11 earned a free kick.
+- "Player11(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player11 committed a foul.
+- "Player11(Home Team) has been cautioned with a yellow card for a reckless challenge." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player11 received a yellow card for a reckless challenge, which is a foul.
+- "Player11(Home Team)'s shot from outside the box with his left foot in the center of the goal." -> Counts as 1 Shot because the snippet explicitly states Player11 shot from outside the box.
+- "Player11(Home Team) is currently holding up the match due to an injury." -> No countable event because the snippet does not mention any of the defined events.
+- "Player11(Home Team)'s header from the center of the box, assisted by Player6(Home Team) with a cross, is blocked after the Home Team obtains a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player11 attempted a header.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 0     | 0       | 1          | 2     | 1            | 0         | 0        |
+```

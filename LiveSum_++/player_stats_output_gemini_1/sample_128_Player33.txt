@@ -1,0 +1,13 @@
+Analyzing the snippets for Player33:
+- "Player33(Away Team) commits a foul on Player5(Home Team), resulting in a free kick for the defensive team." -> Counts as 1 Foul because the snippet explicitly states Player33 committed a foul.
+- "Player33(Away Team) earns a free kick on the left wing after a foul by Player5(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player33 earns a free kick.
+- "Player33(Away Team) has been called for a hand ball." -> Counts as 1 Foul because the snippet explicitly states Player33 has been called for a hand ball.
+- "Player33(Away Team) receives a yellow card for a hand ball." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player33 receives a yellow card for a hand ball, which is a foul.
+- "Player33(Away Team) commits a foul, resulting in Player5(Home Team) being awarded a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player33 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player33 | 0     | 0     | 0       | 1          | 4     | 1            | 0         | 0        |
+```

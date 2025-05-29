@@ -1,0 +1,14 @@
+Analyzing the snippets for Player24:
+
+- "Player24(Away Team)'s left footed shot from the center of the box just missed the top left corner, despite being assisted by Player28(Away Team) with a cross." -> Counts as 1 Shot because the snippet explicitly states Player24 took a shot.
+- "Player24(Away Team) with his left foot from outside the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player24 took a shot which was blocked.
+- "Player24(Away Team) misses the target with a high and wide left-footed shot from outside the box on a direct free kick." -> Counts as 1 Shot and 1 Free Kick because the snippet explicitly states Player24 took a shot from a free kick.
+- "Player24(Away Team)'s left-footed shot from the right side of the box goes wide to the left after a corner." -> Counts as 1 Shot because the snippet explicitly states Player24 took a shot.
+- "Player24(Away Team)'s shot from outside the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player24 took a shot which was blocked.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 5     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,11 @@
+Analyzing the snippets for Player25:
+- "Player25(Away Team)'s left footed shot from close range was just too high, after being assisted by Player27(Away Team) with a headed pass." -> Counts as 1 Shot because the snippet explicitly states Player25 took a shot.
+- "Player25(Away Team) attempts a through ball, but Player28(Away Team) is offside for the Away Team." -> No countable event because the snippet mentions another player being offside, and it's not an assist by Player25.
+- "Player25(Away Team) commits a foul, giving Player3(Home Team) a free kick in their own half." -> Counts as 1 Foul because the snippet explicitly states Player25 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

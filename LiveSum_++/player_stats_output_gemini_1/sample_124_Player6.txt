@@ -1,0 +1,10 @@
+Analyzing the snippets for Player6:
+- "Player6(Home Team) from the Home Team has scored an own goal, The Home Team is now leading 3-1 against the Away Team." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player6 scored a goal.
+- "Player6(Home Team) experienced a brief injury delay but is back in the game as they are now ready to continue without any further delays." -> No countable event because the snippet does not mention any of the defined events.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 1     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

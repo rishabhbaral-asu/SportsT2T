@@ -1,0 +1,18 @@
+Analyzing the snippets for Player6:
+- "Player6(Home Team)'s shot from outside the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player6 took a shot.
+- "Player6(Home Team)'s shot from outside the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player6 took a shot.
+- "Player6(Home Team) commits a foul on Player29(Away Team), who wins a free kick in their defensive half." -> Counts as 1 Foul because the snippet explicitly states Player6 committed a foul.
+- "Player6(Home Team) earns a free kick in their own defensive territory." -> Counts as 1 Free Kick because the snippet explicitly states Player6 earned a free kick.
+- "Player6(Home Team) wins a free kick on the right wing and Player10(Home Team)'s shot from the center of the box is blocked after being assisted by Player2(Home Team) with a cross." -> Counts as 1 Free Kick because the snippet explicitly states Player6 won a free kick.
+- "Player6(Home Team) fouls Player20(Away Team) on the right wing, resulting in a free kick being awarded." -> Counts as 1 Foul because the snippet explicitly states Player6 fouled Player20.
+- "Player6(Home Team)'s shot from outside the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player6 took a shot.
+- "Player6(Home Team) commits a foul as Player28(Away Team)'s left-footed shot from the left side of the box, assisted by Player26(Away Team) with a through ball after a set piece, narrowly misses to the left." -> Counts as 1 Foul because the snippet explicitly states Player6 committed a foul.
+- "Player6(Home Team)'s right footed shot from a difficult angle on the left is blocked with an assist from Player11(Home Team), resulting in a corner kick for the Home Team." -> Counts as 1 Shot because the snippet explicitly states Player6 took a shot.
+- "Player6(Home Team) of the Home Team attempts a through ball, but Player17(Home Team) is flagged for being offside." -> Counts as 0 Offside because the snippet does not explicitly state Player6 was offside. Player17 was offside, not Player6.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 4     | 0     | 0       | 2          | 3     | 0            | 0         | 0        |
+```

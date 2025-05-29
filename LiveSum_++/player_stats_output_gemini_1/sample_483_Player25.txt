@@ -1,0 +1,12 @@
+Analyzing the snippets for Player25:
+- "Player25(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team." -> No countable event because the snippet mentions Player25 attempting a through ball, but the offside is attributed to Player29, not Player25.
+- "Player25(Away Team)'s shot from outside the box is saved in the bottom right corner with an assist from Player28(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player25 took a shot.
+- "Player25(Away Team) from the Away Team attempted a through ball to Player29(Away Team), but Player29(Away Team) was called offside." -> No countable event because the snippet mentions Player25 attempting a through ball, but the offside is attributed to Player29, not Player25.
+- "Player25(Away Team) attempted a shot with his right foot from outside the box, but it was high and wide to the left, with an assist from Player20(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player25 attempted a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

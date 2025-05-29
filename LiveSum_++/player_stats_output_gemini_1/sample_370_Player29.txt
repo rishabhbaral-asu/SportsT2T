@@ -1,0 +1,21 @@
+Analyzing the snippets for Player29:
+
+- "Player29(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a foul.
+- "Player29(Away Team) has been given a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player29 received a yellow card for a rough tackle, which is a foul.
+- "Player29(Away Team) takes a shot from the right side that just misses the target to the right with assistance from Player26(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot.
+- "Player29(Away Team)'s left footed shot from the left side of the box is saved in the center of the goal with an assist from Player26(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot.
+- "Player29(Away Team) commits a foul, resulting in Player3(Home Team) winning a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a foul.
+- "Player29(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick in their own defensive half, The foul was committed by Player29(Away Team), leading to Player7(Home Team) being awarded a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a foul.
+- "Player29(Away Team)'s attempt from the right side of the box is saved in the bottom right corner by the goalkeeper after being assisted by Player26(Away Team), following a dangerous play by Player28(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player29 made an attempt.
+- "Player29(Away Team) scores with a header from the center of the box to the bottom right corner, assisted by Player26(Away Team) with a cross after a corner kick, The score is now Home Team 0, Away Team 1." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player29 scored a goal.
+- "Player29(Away Team) earns a free kick in the attacking half after being fouled by Player7(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player29 earned a free kick.
+- "Player29(Away Team) scores with a header from the center of the box, assisted by Player26(Away Team) with a cross after a set piece, The score is now Home Team 0, Away Team 3." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player29 scored a goal.
+- "Player29(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a foul.
+- "Player29(Away Team) has been shown a second yellow card for a reckless challenge." -> Counts as 1 Yellow Card, 1 Red Card and 1 Foul because the snippet explicitly states Player29 received a second yellow card for a reckless challenge.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 5     | 2     | 0       | 1          | 6     | 2            | 1         | 0        |
+```

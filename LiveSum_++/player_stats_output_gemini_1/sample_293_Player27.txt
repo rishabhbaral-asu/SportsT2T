@@ -1,0 +1,17 @@
+Analyzing the snippets for Player27:
+- "Player27(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player27 earned a free kick.
+- "Player27(Away Team) commits a foul on Player7(Home Team), resulting in a free kick for the attacking team." -> Counts as 1 Foul because the snippet explicitly states Player27 committed a foul.
+- "Player27(Away Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player27 earned a free kick.
+- "Player27(Away Team)'s left footed shot from outside the box is blocked after being assisted by Player25(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
+- "Player27(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player27 earned a free kick.
+- "Player27(Away Team)'s left-footed shot from the center of the box goes wide to the left, assisted by Player29(Away Team) during a quick break." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
+- "Player27(Away Team)'s shot from outside the box is blocked after receiving a header pass from Player29(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
+- "Player27(Away Team) attempts a through ball, but Player28(Away Team) is offside for the Away Team." -> Counts as 1 Offside because the snippet explicitly states Player27 was involved in the play but Player28 was offside.
+- "Player27(Away Team) misses the target with a left-footed shot from long range, with an assist from Player35(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 4     | 0     | 0       | 3          | 1     | 0            | 0         | 1        |
+```

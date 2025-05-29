@@ -1,0 +1,14 @@
+Analyzing the snippets for Player27:
+
+- "Player27(Away Team) of the Away Team draws a foul in the penalty area resulting in a penalty conceded by Player4(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player27 drew a foul in the penalty area, resulting in a penalty.
+- "Player27(Away Team) scores for the Away Team with a penalty kick to the bottom left corner, Home Team now trails 0-1." -> Counts as 1 Goal, 1 Shot, and 1 Free Kick because the snippet explicitly states Player27 scored a goal from a penalty kick, meaning a shot and free kick was taken.
+- "Player27(Away Team)'s left footed shot from outside the box was saved in the bottom right corner, with an assist from Player26(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
+- "Player27(Away Team)'s shot from the right side of the box is saved in the bottom left corner after an assist from Player26(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
+- "Player27(Away Team) misses the target with a left-footed shot from long range." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 4     | 1     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,12 @@
+Analyzing the snippets for Player26:
+
+- "Player26(Away Team) earns a free kick on the right side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player26 earned a free kick.
+- "Player26(Away Team) attempts a through ball, but Player24(Away Team) is offside for the Away Team." -> No event counted. The snippet describes an attempt by Player26, but the offside is attributed to Player24.
+- "Player26(Away Team) fouls Player7(Home Team), who wins a free kick in their defensive half." -> Counts as 1 Foul because the snippet explicitly states Player26 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

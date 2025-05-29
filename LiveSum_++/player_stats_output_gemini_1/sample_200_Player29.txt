@@ -1,0 +1,14 @@
+Analyzing the snippets for Player29:
+
+- "Player29(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a foul.
+- "Player29(Away Team)'s shot from the right side of the box narrowly misses to the left, with an assist from Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player29's shot.
+- "Player29(Away Team) scores with a left-footed shot from the center of the box, assisted by Player27(Away Team), The score is now tied at 1-1 between the Home Team and the Away Team." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player29 scores with a shot.
+- "Player29(Away Team) is causing a delay in the match due to an injury." -> No countable event because the snippet does not mention any of the defined events.
+- "Player29(Away Team) misses a header from the center of the box to the left, assisted by Player26(Away Team) with a cross." -> Counts as 1 Shot because the snippet explicitly states Player29 misses a header.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 3     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

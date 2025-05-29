@@ -1,0 +1,18 @@
+Analyzing the snippets for Player6:
+- "Player6(Home Team)'s shot from outside the box is blocked with Player7(Home Team)'s assistance." -> Counts as 1 Shot because the snippet explicitly states "Player6(Home Team)'s shot".
+- "Player6(Home Team) misses the target with a right-footed shot from outside the box." -> Counts as 1 Shot because the snippet explicitly states "Player6(Home Team) misses the target with a right-footed shot".
+- "Player6(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states "Player6(Home Team) commits a foul."
+- "Player6(Home Team)'s shot from outside the box with his left foot is saved in the top right corner, assisted by Player2(Home Team)." -> Counts as 1 Shot because the snippet explicitly states "Player6(Home Team)'s shot".
+- "Player6(Home Team)'s shot from outside the box is blocked after being assisted by Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states "Player6(Home Team)'s shot".
+- "Player6(Home Team) of the Home Team attempted a through ball, but Player11(Home Team) was offside." -> No countable event because the snippet does not explicitly state any of the defined events committed by the target player.
+- "Player6(Home Team)'s shot from outside the box is blocked with Player11(Home Team)'s assistance." -> Counts as 1 Shot because the snippet explicitly states "Player6(Home Team)'s shot".
+- "Player6(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states "Player6(Home Team) commits a foul."
+- "Player6(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states "Player6(Home Team) commits a foul."
+- "Player6(Home Team) receives a yellow card." -> Counts as 1 Yellow Card because the snippet explicitly states "Player6(Home Team) receives a yellow card."
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 5     | 0     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

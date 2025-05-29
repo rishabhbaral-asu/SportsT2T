@@ -1,0 +1,13 @@
+Analyzing the snippets for Player25:
+
+- "Player25(Away Team) committed a foul." -> Counts as 1 Foul because the snippet explicitly states Player25 committed a foul.
+- "Player25(Away Team) attempts a through ball, but Player24(Away Team) is offside for the Away Team." -> No event counted for Player25. Player24 is offside, not Player25.
+- "Player25(Away Team) misses the shot with his right foot from outside the box, it goes over the goal, Player26(Away Team) assisted the play." -> Counts as 1 Shot because the snippet explicitly states Player25 missed a shot.
+- "Player25(Away Team) is causing a delay in the match due to an injury." -> No countable event because the snippet does not mention any of the defined events.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,13 @@
+Analyzing the snippets for Player10:
+- "Player10(Home Team)'s close-range left-footed shot is saved in the center of the goal after a cross from Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player10 took a shot.
+- "Player10(Home Team)'s shot with his right foot from the right side of the box went over the goal after a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player10 took a shot.
+- "Player10(Home Team) draws a foul in the penalty area, resulting in a penalty for the Home Team conceded by Player24(Away Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player10 drew a foul in the penalty area, resulting in a penalty.
+- "Player10(Home Team) scores a penalty with a right-footed shot to the bottom right corner, making the score Home Team 2, Away Team 1." -> Counts as 1 Goal, 1 Shot and 1 Free Kick because the snippet explicitly states Player10 scored a penalty with a shot, which counts as a goal and a shot and because the player took a penalty shot.
+- "Player10(Home Team) attempts a through pass, but Player11(Home Team) is flagged offside." -> No countable event because although the snippet mentions both Player10 and Player11 and offside, the snippet does not state that Player10 was offside.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 3     | 1     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,15 @@
+Analyzing the snippets for Player28:
+
+- "Player28(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player28 earned a free kick.
+- "Player28(Away Team) misses a close-range shot from the right side of the six-yard box after being assisted by Player26(Away Team) with a cross from a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player28 missed a shot.
+- "Player28(Away Team) secures a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player28 secured a free kick.
+- "Player28(Away Team)'s left footed shot from the right side of the box is blocked, resulting in a corner kick for the Away Team." -> Counts as 1 Shot because the snippet explicitly mentions Player28 took a shot that was blocked.
+- "Player28(Away Team) attempts a through ball, but Player23(Away Team) is caught offside." -> No event is counted because the target player is not mentioned as being offside.
+- "Player28(Away Team) earns a free kick on the left side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player28 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 2     | 0     | 0       | 3          | 0     | 0            | 0         | 0        |
+```

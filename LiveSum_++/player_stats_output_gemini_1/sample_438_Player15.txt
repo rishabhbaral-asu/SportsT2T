@@ -1,0 +1,11 @@
+Analyzing the snippets for Player15:
+- "Player15(Home Team) attempted to shoot with his right foot from the left side of the box but the shot was too high, with assistance from Player6(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player15 attempted to shoot.
+- "Player15(Home Team)'s shot from outside the box is blocked after being set up by Player9(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player15's shot was blocked.
+- "Player15(Home Team) of the Home Team attempted a through ball to Player11(Home Team), but unfortunately, Player11(Home Team) was caught offside." -> Counts as 0 for all statistics as no actions explicitly performed by Player15 are counted.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player15 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

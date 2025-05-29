@@ -1,0 +1,11 @@
+Analyzing the snippets for Player1:
+- "Player1(Home Team) is experiencing a delay in the match due to an injury." -> No countable event because the snippet does not mention any of the defined events.
+- "Player1(Home Team) commits a foul on Player28(Away Team), who earns a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player1 committed a foul.
+- "Player1(Home Team) has been sent off with a red card." -> Counts as 1 Red Card because the snippet explicitly states Player1 has been sent off with a red card.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player1 | 0     | 0     | 0       | 0          | 1     | 0            | 1         | 0        |
+```

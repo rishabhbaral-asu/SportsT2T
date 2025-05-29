@@ -1,0 +1,14 @@
+Analyzing the snippets for Player6:
+- "Player6(Home Team) assisted Player9(Home Team) with a through ball, but the goalkeeper saved Player9(Home Team)'s left-footed shot from the left side of the box." -> Counts as 1 Assist because the snippet explicitly states Player6 assisted Player9.
+- "Player6(Home Team) attempts a through ball, but Player10(Home Team) is offside for the Home Team." -> No countable event, the statement does not mention any of the defined events.
+- "Player6(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player6 committed a foul.
+- "Player6(Home Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player6 earned a free kick.
+- "Player6(Home Team) commits a foul, resulting in Player27(Away Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player27(Away Team)'s team." -> Counts as 1 Foul because the snippet explicitly states Player6 committed a foul.
+- "Player6(Home Team) of the Home Team attempted to pass the ball to Player5(Home Team), but Player5(Home Team) was in an offside position." -> No countable event, the statement does not mention any of the defined events.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 0     | 0     | 1       | 1          | 2     | 0            | 0         | 0        |
+```

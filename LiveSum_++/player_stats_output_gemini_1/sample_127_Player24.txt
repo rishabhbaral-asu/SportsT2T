@@ -1,0 +1,13 @@
+Analyzing the snippets for Player24:
+
+- "Player24(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player24 committed a foul.
+- "Player24(Away Team) attempts a through ball, but Player27(Away Team) is caught in an offside position." -> No countable event for Player24 because Player27 is the player explicitly mentioned as being offside, not Player24. The attempt of through ball, if the pass leads to goal, counts as an assist, however in this case the pass did not lead to a goal.
+- "Player24(Away Team) commits a foul and Player9(Home Team) earns a free kick on the left side of the field." -> Counts as 1 Foul because the snippet explicitly states Player24 committed a foul. The earned free kick does not count toward Player24.
+- "Player24(Away Team) narrowly misses a header from the center of the box to the right, assisted by Player29(Away Team) with a cross, resulting in a corner kick for the Home Team." -> Counts as 1 Shot because the snippet explicitly states Player24 missed a header.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

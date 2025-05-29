@@ -1,0 +1,17 @@
+Analyzing the snippets for Player8:
+- "Player8(Home Team)'s shot from outside the box is blocked after receiving a cross from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player8 took a shot.
+- "Player8(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player8 committed a foul.
+- "Player8(Home Team)'s shot from outside the box is saved in the center of the goal." -> Counts as 1 Shot because the snippet explicitly states Player8 took a shot.
+- "Player8(Home Team) has committed a foul." -> Counts as 1 Foul because the snippet explicitly states Player8 committed a foul.
+- "Player8(Home Team)'s left footed shot from outside the box was blocked with an assist from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player8 took a shot.
+- "Player8(Home Team) earns a free kick on the right wing following a foul by Player27(Away Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player8 earned a free kick.
+- "Player8(Home Team) of the Home Team attempts a through ball, but Player3(Home Team) is offside." -> No countable event because the snippet does not mention any of the defined events.
+- "Player8(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player8 committed a foul.
+- "Player8(Home Team) earns a free kick in the opponent's half after being fouled by Player23(Away Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player8 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 3     | 0     | 0       | 2          | 3     | 0            | 0         | 0        |
+```

@@ -1,0 +1,15 @@
+Analyzing the snippets for Player11:
+- "Player11(Home Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player11 earned a free kick.
+- "Player11(Home Team) in the center of the box to the left, assisted by Player6(Home Team) after a corner kick." -> No countable event because this is just descriptive text; there is no shot, goal, assist, free kick, foul, or card attributed to Player11.
+- "Player11(Home Team)'s shot from outside the box is blocked with the help of Player9(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11's shot was blocked.
+- "Player11(Home Team) misses the target with a high shot from the center of the box, assisted by Player2(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 missed the target with a shot.
+- "Player11(Home Team)'s left-footed shot from the left side of the box, assisted by Player10(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team) misses the goal with a left-footed shot from the center of the box after receiving a cross from Player2(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 missed the goal with a shot.
+- "Player11(Home Team)'s shot from the center of the box with his right foot narrowly misses to the left after a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 5     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

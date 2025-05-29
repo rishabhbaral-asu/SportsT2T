@@ -1,0 +1,13 @@
+Analyzing the snippets for Player22:
+
+- "Player22(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player22 committed a foul.
+- "Player22(Away Team) from the Home Team scored an own goal, giving Away Team the lead with a score of 2-1." -> Counts as 0 Goals, 0 Shots, because scoring an own goal is not counted as a goal or shot.
+- "Player22(Away Team) has given away a penalty in the penalty area after committing a foul." -> Counts as 1 Foul because the snippet explicitly states Player22 committed a foul.
+- "Player22(Away Team) from Away Team has been given a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player22 received a yellow card for a rough tackle, which is a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 0     | 0     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

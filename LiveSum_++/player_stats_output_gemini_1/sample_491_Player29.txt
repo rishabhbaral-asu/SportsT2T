@@ -1,0 +1,13 @@
+Analyzing the snippets for Player29:
+- "Player29(Away Team) misses a header to the right of the goal after being assisted by Player28(Away Team) with a cross." -> Counts as 1 Shot because the snippet explicitly states Player29 misses a header to the right of the goal.
+- "Player29(Away Team)'s shot from the center of the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player29's shot from the center of the box is blocked.
+- "Player29(Away Team), assisted by Player33(Away Team)." -> No countable event because the snippet does not mention any of the defined events performed by Player29. Player29 is assisted by Player33, and the player being assisted does not count as an assist.
+- "Player29(Away Team)'s header from the center of the box was just slightly too high, missing the goal, The attempt was assisted by Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player29's header from the center of the box was just slightly too high, missing the goal.
+- "Player29(Away Team) fouls Player5(Home Team), resulting in a free kick in the defensive half, Player5(Home Team) wins the free kick." -> Counts as 1 Foul because the snippet explicitly states Player29 fouls Player5.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 3     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

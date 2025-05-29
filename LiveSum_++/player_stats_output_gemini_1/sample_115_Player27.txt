@@ -1,0 +1,13 @@
+Analyzing the snippets for Player27:
+
+- "Player27(Away Team)'s long-range right footed shot from the left missed to the left during a direct free kick attempt." -> Counts as 1 Shot and 1 Free Kick because the snippet explicitly states Player27 took a shot from a direct free kick attempt.
+- "Player27(Away Team) scores with a right-footed shot to the top right corner from the penalty spot." -> Counts as 1 Shot, 1 Goal, and 1 Free Kick because the snippet explicitly states Player27 scored a goal from the penalty spot. Since a penalty is a form of free kick, it counts as a free kick as well.
+- "Player27(Away Team) attempts a through ball to Player25(Away Team), who is caught offside, resulting in a free kick for the Away Team in their defensive half." -> No countable event because it is not explicitly stated Player27 was offside.
+- "Player27(Away Team) just missed the shot with his right foot from a tough angle on the right, assisted by Player25(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 missed the shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 3     | 1     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,13 @@
+Analyzing the snippets for Player25:
+- "Player25(Away Team)'s header from the center of the box is blocked after being assisted by Player24(Away Team) with a cross, resulting in a corner kick for the Away Team." -> Counts as 1 Shot because the snippet explicitly states Player25's header was blocked.
+- "Player25(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team." -> Counts as 1 Offside because the snippet explicitly states Player25 attempts a through ball, but Player29 is offside. THIS DOES NOT COUNT AS OFFSIDE FOR PLAYER25.
+- "Player25(Away Team) commits a foul, resulting in Player9(Home Team) winning a free kick in the attacking half, The foul was made by Player25(Away Team), leading to Player9(Home Team) getting a free kick in the attacking half." -> Counts as 1 Foul because the snippet explicitly states Player25 committed a foul.
+- "Player25(Away Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player25 earned a free kick.
+- "Player25(Away Team) has been cautioned with a yellow card for a dangerous foul." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player25 received a yellow card for a dangerous foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 0     | 0       | 1          | 2     | 1            | 0         | 0        |
+```

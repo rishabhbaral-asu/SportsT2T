@@ -1,0 +1,11 @@
+Analyzing the snippets for Player2:
+- "Player2(Home Team)'s left footed shot from the center of the box is blocked, resulting in a corner kick for the Away Team." -> Counts as 1 Shot because the snippet explicitly states Player2 took a shot that was blocked.
+- "Player2(Home Team) misses the target with a left-footed shot from the center of the box, with an assist from Player6(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player2 took a shot and missed.
+- "Player2(Home Team)'s shot from the right side of the box, assisted by Player8(Home Team), goes over the goal." -> Counts as 1 Shot because the snippet explicitly states Player2 took a shot that went over the goal.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 3     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

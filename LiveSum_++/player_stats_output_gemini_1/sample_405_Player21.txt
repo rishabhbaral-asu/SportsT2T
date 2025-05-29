@@ -1,0 +1,12 @@
+Analyzing the snippets for Player21:
+- "Player21(Away Team) missed a header from the center of the box to the right after being assisted by Player27(Away Team) during a set piece." -> Counts as 1 Shot because the snippet explicitly states Player21 missed a header.
+- "Player21(Away Team) attempts a through pass to Player26(Away Team), who is caught in an offside position." -> Counts as 1 Offsides because the snippet explicitly states Player21 attempts a through pass to Player26(Away Team), who is caught in an offside position. No offside is counted for Player21.
+- "Player21(Away Team)'s shot from the center of the box, assisted by Player20(Away Team), goes too high after a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player21's shot goes too high.
+- "Player21(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player21 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

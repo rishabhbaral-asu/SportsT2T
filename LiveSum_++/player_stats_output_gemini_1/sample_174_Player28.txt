@@ -1,0 +1,15 @@
+Analyzing the snippets for Player28:
+- "Player28(Away Team)'s header from the center of the box is blocked after being assisted by Player23(Away Team) with a cross, resulting in a corner kick for the Away Team." -> Counts as 1 Shot because the snippet explicitly states 'Player28's header from the center of the box is blocked'.
+- "Player28(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states 'Player28 commits a foul'.
+- "Player28(Away Team)'s difficult right-footed shot from a tight angle on the right is saved in the bottom right corner, assisted by Player29(Away Team), as Player5(Home Team) wins a free kick in the defensive half." -> Counts as 1 Shot because the snippet explicitly states 'Player28's difficult right-footed shot from a tight angle on the right is saved'.
+- "Player28(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states 'Player28 commits a foul'.
+- "Player28(Away Team) receives a yellow card." -> Counts as 1 Yellow Card because the snippet explicitly states 'Player28 receives a yellow card'.
+- "Player28(Away Team) with a risky move." -> No countable event because the snippet does not mention any of the defined events.
+- "Player28(Away Team) scores with a left footed shot from the center of the box, giving the Away Team a 3-1 lead over the Home Team." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states 'Player28 scores with a left footed shot'.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 3     | 1     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

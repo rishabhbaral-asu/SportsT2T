@@ -1,0 +1,14 @@
+Analyzing the snippets for Player7:
+
+- "Player7(Home Team) of the Home Team attempts a through ball, but Player9(Home Team) is flagged for being offside." -> Counts as 0 Offsides because even though this statement involves the target player, it explicitly mentions Player9 is the player who is offside.
+- "Player7(Home Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player7 earned a free kick.
+- "Player7(Home Team) misses the target with a high shot from outside the box on a direct free kick." -> Counts as 1 Shot and 1 Free Kick because the snippet explicitly states Player7 took a shot and that it was a direct free kick.
+- "Player7(Home Team) just missed the target with a right-footed shot from outside the box, with an assist from Player17(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player7 took a shot.
+- "Player7(Home Team)'s header from the center of the box was just a little too high after a cross from Player17(Home Team) following a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player7 took a header which is an attempt on goal.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 3     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,12 @@
+Analyzing the snippets for Player33:
+
+- "Player33(Away Team) has been cautioned with a yellow card." -> Counts as 1 Yellow Card because the snippet explicitly states Player33 received a yellow card.
+- "Player33(Away Team) makes a brilliant right-footed shot from the center of the box into the bottom right corner, assisted by Player27(Away Team) after a quick break, Score now stands at Home Team 1, Away Team 2." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player33 took a shot and scored a goal.
+- "Player33(Away Team) commits a foul, giving Player9(Home Team) a free kick in the attacking half." -> Counts as 1 Foul because the snippet explicitly states Player33 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player33 | 1     | 1     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

@@ -1,0 +1,12 @@
+Analyzing the snippets for Player24:
+- "Player24(Away Team)'s attempt from outside the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player24's attempt on goal was blocked.
+- "Player24(Away Team)'s shot from outside the box is saved in the bottom left corner." -> Counts as 1 Shot because the snippet explicitly states Player24's shot was saved.
+- "Player24(Away Team) commits a foul, giving Player11(Home Team) a free kick in the attacking half, ." -> Counts as 1 Foul because the snippet explicitly states Player24 committed a foul.
+- "Player24(Away Team) from the Away Team attempted a through ball to Player28(Away Team), but Player28(Away Team) was ruled offside." -> No countable event because the snippet does not state Player24 was offside.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

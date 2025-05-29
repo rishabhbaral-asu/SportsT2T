@@ -1,0 +1,13 @@
+Analyzing the snippets for Player24:
+
+- "Player24(Away Team)'s shot from the center of the box is saved by the goalkeeper with the help of Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player24 took a shot that was saved.
+- "Player24(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player24 committed a foul.
+- "Player24(Away Team)'s close-range left-footed shot, assisted by Player20(Away Team) with a headed pass, narrowly misses to the left after a set piece situation, while his right-footed shot from the center of the box is blocked." -> Counts as 2 Shots because the snippet explicitly states Player24 took a left-footed shot and a right-footed shot.
+- "Player24(Away Team)'s shot from outside the box is saved in the top center of the goal." -> Counts as 1 Shot because the snippet explicitly states Player24 took a shot that was saved.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 4     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

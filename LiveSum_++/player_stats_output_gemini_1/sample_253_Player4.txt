@@ -1,0 +1,11 @@
+Analyzing the snippets for Player4:
+- "Player4(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player4 committed a foul.
+- "Player4(Home Team) of the Home Team attempts to pass the ball to Player36(Away Team), but Player11(Home Team) is called offside." -> No countable event because the snippet does not explicitly state any of the defined events related to Player4.
+- "Player4(Home Team)'s header from the center of the box, assisted by Player2(Home Team), goes high and wide to the right." -> Counts as 1 Shot because the snippet explicitly states Player4's header went high and wide, which is an attempt on goal.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,12 @@
+Analyzing the snippets for Player18:
+
+- "Player18(Home Team) earns a free kick on the left side." -> Counts as 1 Free Kick because the snippet explicitly states Player18 earned a free kick.
+- "Player18(Home Team) misses the target with a shot from the center of the box, with an assist from Player5(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player18 misses the target with a shot.
+- "Player18(Home Team)'s shot from close range was just too high after a header from Player5(Home Team) during a set piece." -> Counts as 1 Shot because the snippet explicitly states Player18's shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player18 | 2     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

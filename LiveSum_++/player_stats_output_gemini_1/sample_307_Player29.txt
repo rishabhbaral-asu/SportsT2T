@@ -1,0 +1,19 @@
+Analyzing the snippets for Player29:
+- "Player29(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a foul.
+- "Player29(Away Team)'s shot from the center of the box is saved at the top center of the goal after a through ball from Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot.
+- "Player29(Away Team)'s shot from the center of the box." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot.
+- "Player29(Away Team) commits a foul, resulting in Player3(Home Team) winning a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a foul.
+- "Player29(Away Team) attempts a through ball, but Player26(Away Team) is caught offside." -> No countable event because it is Player26 and not Player29 that is offside.
+- "Player29(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player29 earned a free kick.
+- "Player29(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a foul.
+- "Player29(Away Team) with the foul." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a foul.
+- "Player29(Away Team) receives a yellow card for a harsh foul." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player29 received a yellow card for a harsh foul, which is a foul.
+- "Player29(Away Team) has committed a hand ball." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a hand ball, which is a foul.
+- "Player29(Away Team) commits a foul on Player3(Home Team), who wins a free kick in their defensive half." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 2     | 0     | 0       | 1          | 6     | 1            | 0         | 0        |
+```

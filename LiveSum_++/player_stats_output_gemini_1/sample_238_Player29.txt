@@ -1,0 +1,19 @@
+Analyzing the snippets for Player29:
+
+- "Player29(Away Team)'s left-footed shot from the left side of the box is blocked, resulting in a corner kick for the Away Team." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot that was blocked.
+- "Player29(Away Team) commits a foul, resulting in Player3(Home Team) winning a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a foul.
+- "Player29(Away Team)'s left footed shot from the left side of the box is blocked by the defense, resulting in a corner kick for the Away Team after an assist from Player28(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot that was blocked.
+- "Player29(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a foul.
+- "Player29(Away Team)'s shot from the left side of the box was saved in the center of the goal, with an assist from Player28(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot that was saved.
+- "Player29(Away Team) misses the target with a high shot from the center of the box." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot that missed the target.
+- "Player29(Away Team) scores with a right-footed shot from the center of the box, putting the Home Team on the scoreboard with 1 goal against the Away Team's 2." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player29 scored a goal with a shot.
+- "Player29(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a foul.
+- "Player29(Away Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player29 received a yellow card for a rough tackle, which is a foul.
+- "Player29(Away Team) was briefly sidelined due to an injury, but the delay is now over and they are prepared to resume play." -> No countable event because the snippet does not mention any of the defined events.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 5     | 1     | 0       | 0          | 4     | 1            | 0         | 0        |
+```

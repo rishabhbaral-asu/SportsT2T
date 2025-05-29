@@ -1,0 +1,16 @@
+Analyzing the snippets for Player8:
+- "Player8(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player8 committed a foul.
+- "Player8(Home Team)'s header from the center of the box is saved by the goalkeeper in the bottom right corner after being assisted by Player10(Home Team) with a cross." -> Counts as 1 Shot because the snippet explicitly states Player8's header was saved by the goalkeeper.
+- "Player8(Home Team) commits a foul, resulting in Player24(Away Team) winning a free kick in their own defensive half, This leads to a set piece opportunity for Player24(Away Team)." -> Counts as 1 Foul because the snippet explicitly states Player8 committed a foul.
+- "Player8(Home Team) attempts a through ball, but Player11(Home Team) is caught offside." -> No countable event because the snippet does not explicitly state Player8 was offside.
+- "Player8(Home Team) attempts a through ball, but Player11(Home Team) is offside for the Home Team." -> No countable event because the snippet does not explicitly state Player8 was offside.
+- "Player8(Home Team) commits a foul, resulting in Player25(Away Team) winning a free kick in the attacking half, This leads to a set-piece opportunity for Player25(Away Team)'s team." -> Counts as 1 Foul because the snippet explicitly states Player8 committed a foul.
+- "Player8(Home Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player8 received a yellow card for a rough tackle.
+- "Player8(Home Team) and Player11(Home Team) had their shots saved in the center of the goal." -> Counts as 1 Shot because the snippet explicitly states Player8's shot was saved.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 2     | 0     | 0       | 0          | 4     | 1            | 0         | 0        |
+```

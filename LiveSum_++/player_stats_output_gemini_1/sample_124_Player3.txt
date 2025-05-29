@@ -1,0 +1,13 @@
+Analyzing the snippets for Player3:
+- "Player3(Home Team) of the Home Team attempts a through ball, but Player11(Home Team) is flagged for offside." -> No countable event, as there's no shot, goal, assist, free kick, foul, or card explicitly attributed to Player3.
+- "Player3(Home Team) commits a foul, resulting in Player25(Away Team) winning a free kick in the attacking half, ." -> Counts as 1 Foul because the snippet explicitly states Player3 committed a foul.
+- "Player3(Home Team) attempts a through ball, but Player7(Home Team) is offside for the Home Team." -> No countable event, as there's no shot, goal, assist, free kick, foul, or card explicitly attributed to Player3.
+- "Player3(Home Team) commits a foul, resulting in Player20(Away Team) being awarded a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player3 committed a foul.
+- "Player3(Home Team) has been given a yellow card for a harsh tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player3 received a yellow card for a harsh tackle.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 0     | 0     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

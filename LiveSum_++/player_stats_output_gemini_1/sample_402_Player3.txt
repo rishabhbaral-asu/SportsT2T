@@ -1,0 +1,11 @@
+Analyzing the snippets for Player3:
+- "Player3(Home Team) attempts to pass the ball to Player10(Home Team), but Player10(Home Team) is in an offside position." -> No event counted because Player3 is attempting to pass.
+- "Player3(Home Team)'s header from the center of the box was close but missed to the right, assisted by Player6(Home Team) with a cross after a corner." -> Counts as 1 Shot because the snippet explicitly states Player3's header was an attempt on goal.
+- "Player3(Home Team) wins a free kick in the attacking half, but Player11(Home Team)'s attempt from outside the box with his right foot narrowly misses the top right corner." -> Counts as 1 Free Kick because the snippet explicitly states Player3 won a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

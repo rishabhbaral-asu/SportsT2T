@@ -1,0 +1,16 @@
+Analyzing the snippets for Player9:
+
+- "Player9(Home Team)'s left footed shot from outside the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player9 took a shot.
+- "Player9(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player9 committed a foul.
+- "Player9(Home Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player9 received a yellow card for a rough tackle, which is a foul.
+- "Player9(Home Team)'s left footed shot from outside the box is saved in the center of the goal after an assist from Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 took a shot.
+- "Player9(Home Team) is currently sidelined due to an injury, causing a delay in the match." -> No countable event because the snippet does not mention any of the defined events.
+- "Player9(Home Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player9 earned a free kick.
+- "Player9(Home Team) earns a free kick from the left side." -> Counts as 1 Free Kick because the snippet explicitly states Player9 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 2     | 0     | 0       | 2          | 2     | 1            | 0         | 0        |
+```

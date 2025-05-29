@@ -1,0 +1,10 @@
+Analyzing the snippets for Player23:
+- "Player23(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player23 committed a foul.
+- "Player23(Away Team) scores a goal for the Home Team with a penalty kick to tie the game at 1-1." -> Counts as 1 Goal, 1 Shot and 1 Free Kick because the snippet explicitly states Player23 scored a goal from a penalty kick. Scoring a goal counts as both a goal and a shot and a penalty is also counted as a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 1     | 1     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

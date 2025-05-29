@@ -1,0 +1,16 @@
+Analyzing the snippets for Player9:
+
+- "Player9(Home Team) commits a foul, leading to Player27(Away Team) winning a free kick in the attacking half, This results in a set piece opportunity for Player27(Away Team)'s team." -> Counts as 1 Foul because the snippet explicitly states Player9 committed a foul.
+- "Player9(Home Team) misses the goal with a right-footed shot from outside the box, assisted by Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 misses the goal with a shot.
+- "Player9(Home Team)'s shot from outside the box is blocked after an assist from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9's shot is blocked.
+- "Player9(Home Team) fails to take advantage of a great opportunity as their penalty is saved by the goalkeeper with a shot to the bottom left corner." -> Counts as 1 Shot and 1 Free Kick because the snippet explicitly states Player9 took a penalty which was saved (implying a shot) and any mention of taking a penalty counts as a Free Kick (taken).
+- "Player9(Home Team) wins a free kick in the attacking half, but Player5(Home Team)'s left-footed shot from outside the box is blocked." -> Counts as 1 Free Kick because the snippet explicitly states Player9 wins a free kick.
+- "Player9(Home Team) from taking a right-footed shot from outside the box." -> No event is counted because the snippet does not explicitly state Player9 took the shot; it was prevented.
+- "Player9(Home Team)'s shot from outside the box is saved in the center of the goal, with an assist from Player6(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9's shot is saved.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 4     | 0     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

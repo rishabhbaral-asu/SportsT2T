@@ -1,0 +1,16 @@
+Analyzing the snippets for Player13:
+
+- "Player13(Home Team) scores with a header from the center of the box to the bottom right corner, making it Home Team 2, Away Team 2." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player13 scores.
+- "Player13(Home Team) misses a header from the center of the box to the left, assisted by Player12(Home Team), while Player32(Away Team)'s right footed shot from the right side is saved in the bottom right corner, assisted by Player24(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player13 missed a header.
+- "Player13(Home Team)'s shot from outside the box with his right foot narrowly misses to the right, assisted by Player5(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player13 took a shot.
+- "Player13(Home Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player13 earned a free kick.
+- "Player13(Home Team) strikes the right post with a shot from the left side of the box, assisted by Player5(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player13 strikes the right post with a shot.
+- "Player13(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player13 committed a foul.
+- "Player13(Home Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player13 received a yellow card for a rough tackle.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player13 | 4     | 1     | 0       | 1          | 2     | 1            | 0         | 0        |
+```

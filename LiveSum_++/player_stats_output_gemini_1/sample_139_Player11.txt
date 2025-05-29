@@ -1,0 +1,18 @@
+Analyzing the snippets for Player11:
+- "Player11(Home Team) with a dangerous play concedes a free kick to Player9(Home Team) on the right wing, ." -> Counts as 1 Foul because the snippet explicitly states Player11 made a dangerous play.
+- "Player11(Home Team) earns a free kick on the right side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player11 earned a free kick.
+- "Player11(Home Team) scores a penalty with a right-footed shot to the bottom right corner, making it Home Team 2, Away Team 0." -> Counts as 1 Goal, 1 Shot, and 1 Free Kick because the snippet explicitly states Player11 scored a penalty.
+- "Player11(Home Team) misses the goal with a right footed shot from the left side of the box, assisted by Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 misses the goal with a shot.
+- "Player11(Home Team) commits a foul on Player11(Home Team), who earns a free kick in his own defensive half, Player11(Home Team) wins a free kick after being fouled by Player11(Home Team) in the defensive half." -> Counts as 1 Foul and 1 Free Kick because the snippet states Player11 committed a foul and wins a free kick.
+- "Player11(Home Team) receives a yellow card." -> Counts as 1 Yellow Card because the snippet explicitly states Player11 received a yellow card.
+- "Player11(Home Team) misses the goal with a right-footed shot from outside the box, assisted by Player8(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 misses the goal with a shot.
+- "Player11(Home Team)'s shot from the left side of the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player11's shot is blocked.
+- "Player11(Home Team) is currently sidelined due to an injury, causing a delay in the match." -> No countable event because the snippet does not mention any of the defined events.
+- "Player11(Home Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player11 received a yellow card for a rough tackle.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 4     | 1     | 0       | 2          | 3     | 2            | 0         | 0        |
+```

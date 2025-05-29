@@ -1,0 +1,12 @@
+Analyzing the snippets for Player7:
+- "Player7(Home Team) attempts a through ball, but Player11(Home Team) is flagged offside." -> Counts as 1 Offside because the snippet explicitly states Player11 is offside after Player7 attempts a pass. However, since the target player is Player7 and the player flagged offside is Player11, we do not count an offside for Player7.
+- "Player7(Home Team) misses the target with a high right-footed shot from outside the box, with an assist from Player8(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player7 missed the target with a shot.
+- "Player7(Home Team) commits a foul, leading to Player27(Away Team) winning a free kick in the opponent's half, This results in a set-piece opportunity for Player27(Away Team)'s team." -> Counts as 1 Foul because the snippet explicitly states Player7 committed a foul.
+- "Player7(Home Team) commits a foul and Player29(Away Team) is awarded a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player7 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

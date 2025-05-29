@@ -1,0 +1,17 @@
+Analyzing the snippets for Player27:
+
+- "Player27(Away Team) misses the target with a left-footed shot from the right side of the box, assisted by Player28(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 misses the target with a shot.
+- "Player27(Away Team) from the Away Team as Player24(Away Team) is caught offside on the through ball." -> No countable event because the snippet states that Player24 is offside, not Player27.
+- "Player27(Away Team) earns a free kick on the left wing after being fouled by Player10(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player27 earns a free kick.
+- "Player27(Away Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player27 earns a free kick.
+- "Player27(Away Team)'s shot from outside the box is blocked after being assisted by Player28(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot which was blocked.
+- "Player27(Away Team)'s shot from outside the box is saved in the center of the goal after being assisted by Player32(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot which was saved.
+- "Player27(Away Team) misses a high right-footed shot from the left side of the box, assisted by Player34(Away Team) after obtaining a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player27 misses a shot.
+- "Player27(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player27 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 4     | 0     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

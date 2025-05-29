@@ -1,0 +1,13 @@
+Analyzing the snippets for Player7:
+
+- "Player7(Home Team) attempts a pass to Player11(Home Team), but Player11(Home Team) is offside." -> Counts as 1 Offside because the snippet explicitly states that Player11 is offside after Player7's pass. Since the player in the `<PLAYER_NAME>` tag is Player7, and the prompt states "If a statement mentions two players, one of whom is the target player, and the other is not, do not count an offside UNLESS THE TARGET PLAYER IS STATED AS THE PLAYER IN AN OFFSIDE POSITION", this should not be counted.
+- "Player7(Home Team) fouls Player27(Away Team), who wins a free kick in the attacking half, This results in a set piece opportunity for Player27(Away Team)'s team." -> Counts as 1 Foul because the snippet explicitly states that Player7 committed a foul.
+- "Player7(Home Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states that Player7 received a yellow card for a rough tackle, which is a foul.
+- "Player7(Home Team) is currently sidelined due to an injury, causing a delay in the match." -> No countable event because the snippet does not mention any of the defined events.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 0     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

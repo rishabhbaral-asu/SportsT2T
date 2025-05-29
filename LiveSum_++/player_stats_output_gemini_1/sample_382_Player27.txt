@@ -1,0 +1,14 @@
+Analyzing the snippets for Player27:
+
+- "Player27(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player27 earned a free kick.
+- "Player27(Away Team) fouls Player2(Home Team), earning a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player27 committed a foul.
+- "Player27(Away Team) scoring a brilliant long-range shot with their right foot into the top left corner." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player27 scored a goal.
+- "Player27(Away Team) earns a free kick on the right side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player27 earned a free kick.
+- "Player27(Away Team)'s attempt from outside the box with his right foot narrowly misses to the left after a corner." -> Counts as 1 Shot because the snippet explicitly states Player27 made an attempt.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 2     | 1     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

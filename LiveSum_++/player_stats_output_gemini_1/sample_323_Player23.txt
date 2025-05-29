@@ -1,0 +1,11 @@
+Analyzing the snippets for Player23:
+- "Player23(Away Team) has committed a hand ball." -> Counts as 1 Foul because the snippet explicitly states Player23 committed a hand ball, which is a foul.
+- "Player23(Away Team)'s shot from the center of the box just missed to the left with an assist from Player22(Away Team) after a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player23's shot.
+- "Player23(Away Team) earns a free kick on the left side." -> Counts as 1 Free Kick because the snippet explicitly states Player23 earns a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 1     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

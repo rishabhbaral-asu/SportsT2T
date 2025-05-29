@@ -1,0 +1,18 @@
+Analyzing the snippets for Player11:
+- "Player11(Home Team)'s shot from the centre of the box was saved by the goalkeeper after receiving a through ball from Player9(Home Team), while Player8(Home Team)'s shot from the right side of the box missed to the left." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player11 committed a foul.
+- "Player11(Home Team)'s shot from the center of the box was saved by the goalkeeper after a cross from Player5(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team)'s shot from the center of the box is saved by the goalkeeper, assisted by Player8(Home Team), while Player29(Away Team) wins a free kick in the attacking half." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team)'s close-range shot with his right foot narrowly misses to the left after being assisted by Player5(Home Team) with a cross." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team) takes a left-footed shot from the center of the box, assisted by Player6(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team) earns a free kick on the right side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player11 earned a free kick.
+- "Player11(Home Team) commits a foul on Player24(Away Team), resulting in a free kick being awarded to the defensive team." -> Counts as 1 Foul because the snippet explicitly states Player11 committed a foul.
+- "Player11(Home Team)'s left footed shot from outside the box just missed to the right, with an assist from Player8(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team)'s shot from the left side of the box was blocked after a headed pass from Player6(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 7     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

@@ -1,0 +1,11 @@
+Analyzing the snippets for Player9:
+- "Player9(Home Team)'s right footed shot from outside the box is blocked after being assisted by Player10(Home Team) with a headed pass, following a foul by Player25(Away Team)." -> Counts as 1 Shot because the snippet explicitly states "Player9(Home Team)'s right footed shot".
+- "Player9(Home Team)'s shot from outside the box is blocked after being assisted by Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states "Player9(Home Team)'s shot".
+- "Player9(Home Team) assisted by Player7(Home Team)." -> Counts as 0 assists because the snippet explicitly states Player9 was *assisted by* Player7, not the other way around.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

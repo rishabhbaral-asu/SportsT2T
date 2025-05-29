@@ -1,0 +1,11 @@
+Analyzing the snippets for Player25:
+
+- "Player25(Away Team) scores a penalty with a right-footed shot to the bottom left corner, making the score Home Team 0, Away Team 2." -> Counts as 1 Goal, 1 Shot, and 1 Free Kick because the snippet explicitly states Player25 scores a goal from a penalty. Scoring a goal counts as both a goal and a shot, and scoring a penalty counts as a Free Kick.
+- "Player25(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player25 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 1     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

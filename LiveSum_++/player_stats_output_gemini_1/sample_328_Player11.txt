@@ -1,0 +1,14 @@
+Analyzing the snippets for Player11:
+- "Player11(Home Team)'s shot from outside the box is saved in the center of the goal after being assisted by Player9(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team)'s shot from outside the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team) attempts a through pass, but Player10(Home Team) is offside." -> Counts as 1 Offside because the snippet states that Player10 is offside.
+- "Player11(Home Team)'s header from the center of the box is blocked after a cross from Player9(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 headed the ball.
+- "Player11(Home Team)'s shot from the center of the box was too high after a through ball from Player12(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 took a shot.
+- "Player11(Home Team) narrowly misses scoring with a header off the post after a corner kick from Player9(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 attempted a header that hit the post.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 5     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

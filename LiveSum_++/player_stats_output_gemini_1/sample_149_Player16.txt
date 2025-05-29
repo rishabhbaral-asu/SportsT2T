@@ -1,0 +1,13 @@
+Analyzing the snippets for Player16:
+- "Player16(Home Team)'s left footed shot from the right side of the box goes over the goal." -> Counts as 1 Shot because the snippet explicitly states Player16 took a shot.
+- "Player16(Home Team) has committed a hand ball." -> Counts as 1 Foul because the snippet explicitly states Player16 committed a hand ball, which is considered a foul.
+- "Player16(Home Team)'s left-footed shot from outside the box, helped by Player10(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player16 took a shot.
+- "Player16(Home Team)'s left-footed shot from outside the box into the top left corner, assisted by Player14(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player16 took a shot.
+- "Player16(Home Team) has been cautioned with a yellow card for celebrating too much." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player16 received a yellow card for celebrating too much, which is considered a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player16 | 3     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

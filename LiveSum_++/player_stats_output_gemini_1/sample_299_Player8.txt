@@ -1,0 +1,14 @@
+Analyzing the snippets for Player8:
+- "Player8(Home Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player8 earned a free kick.
+- "Player8(Home Team)'s shot from outside the box is blocked by the defense, with an assist from Player10(Home Team), resulting in a corner kick for the Home Team." -> Counts as 1 Shot because the snippet explicitly states Player8 took a shot.
+- "Player8(Home Team)'s shot from outside the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player8 took a shot.
+- "Player8(Home Team)'s shot from the left side of the box narrowly misses to the left, assisted by Player9(Home Team) with a cross." -> Counts as 1 Shot because the snippet explicitly states Player8 took a shot.
+- "Player8(Home Team) earns a free kick on the left side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player8 earned a free kick.
+- "Player8(Home Team) is currently sidelined due to an injury, causing a delay in the match." -> No countable event because the snippet does not mention any of the defined events.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 3     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

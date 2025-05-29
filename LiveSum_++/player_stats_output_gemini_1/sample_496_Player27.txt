@@ -1,0 +1,13 @@
+Analyzing the snippets for Player27:
+- "Player27(Away Team)'s right footed shot from the center of the box is saved by the goalkeeper after being assisted by Player25(Away Team) with a through ball, resulting in Player28(Away Team) winning a free kick in the attacking half." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
+- "Player27(Away Team) attempted a left footed shot from outside the box but it was too high with an assist from Player24(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 attempted a shot.
+- "Player27(Away Team) receives a yellow card." -> Counts as 1 Yellow Card because the snippet explicitly states Player27 received a yellow card.
+- "Player27(Away Team) is currently sidelined due to an injury, causing a delay in the match." -> No countable event because the snippet does not mention any of the defined events.
+- "Player27(Away Team)'s shot with his right foot from the right side of the box was saved in the center of the goal with an assist from Player24(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 3     | 0     | 0       | 0          | 0     | 1            | 0         | 0        |
+```

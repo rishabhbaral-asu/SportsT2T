@@ -1,0 +1,12 @@
+Analyzing the snippets for Player8:
+- "Player8(Home Team) is fouled in the box." -> Counts as 0 Free Kick, 0 Fouls because the snippet explicitly states Player8 was fouled in the box, this does not meet the conditions for a Free Kick or Foul for the target player.
+- "Player8(Home Team) scores the penalty with a right footed shot into the bottom left corner." -> Counts as 1 Goal, 1 Shot and 1 Free Kick because the snippet explicitly states Player8 scored a goal with a right footed shot from a penalty kick. Scoring a goal counts as both a 'Goal' and a 'Shot', and taking a penalty kick counts as a free kick.
+- "Player8(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player8 committed a foul.
+- "Player8(Home Team)'s right footed shot from outside the box also being blocked." -> Counts as 1 Shot because the snippet explicitly states Player8 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 2     | 1     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

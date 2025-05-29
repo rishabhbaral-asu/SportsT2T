@@ -1,0 +1,16 @@
+Analyzing the snippets for Player29:
+- "Player29(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a foul.
+- "Player29(Away Team)'s shot from outside the box is saved in the center of the goal after being assisted by Player25(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot.
+- "Player29(Away Team) narrowly misses a header from the center of the box to the left, assisted by Player28(Away Team) with a cross, following a foul by Player24(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player29 missed a header.
+- "Player29(Away Team) misses a close shot with his right foot from the center of the box to the left, after being assisted by Player30(Away Team) with a cross." -> Counts as 1 Shot because the snippet explicitly states Player29 missed a shot.
+- "Player29(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a foul.
+- "Player29(Away Team) receives a yellow card for a rough challenge." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player29 received a yellow card for a rough challenge, which is a foul.
+- "Player29(Away Team) from the Away Team attempted a through ball, but Player20(Away Team) was offside." -> Counts as 0, as Player29 did not attempt a shot, a goal or any foul play.
+- "Player29(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 3     | 0     | 0       | 0          | 4     | 1            | 0         | 0        |
+```

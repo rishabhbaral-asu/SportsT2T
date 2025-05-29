@@ -1,0 +1,16 @@
+Analyzing the snippets for Player28:
+
+- "Player28(Away Team) misses with a close right-footed shot from outside the box to the left, after a headed pass from Player22(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28 misses with a shot.
+- "Player28(Away Team) commits a foul, resulting in Player11(Home Team) winning a free kick in their own defensive half, This leads to a set piece opportunity for Player11(Home Team)." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+- "Player28(Away Team) earns a free kick in the attacking half after being fouled by Player7(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player28 earns a free kick.
+- "Player28(Away Team) commits a foul, resulting in Player5(Home Team) winning a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+- "Player28(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team." -> No event counted as Player29 is the one who is offside.
+- "Player28(Away Team) scores with a right-footed shot from the center of the box after receiving a cross from Player25(Away Team) following a corner kick, The score is now tied at 1-1 between the Home Team and the Away Team." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player28 scores with a shot.
+- "Player28(Away Team) earns a free kick on the left side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player28 earns a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 2     | 1     | 0       | 2          | 2     | 0            | 0         | 0        |
+```

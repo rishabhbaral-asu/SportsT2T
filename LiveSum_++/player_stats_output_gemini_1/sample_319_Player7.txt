@@ -1,0 +1,14 @@
+Analyzing the snippets for Player7:
+- "Player7(Home Team) commits a foul, resulting in Player27(Away Team) being awarded a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player7 committed a foul.
+- "Player7(Home Team) and Player9(Home Team) both had their right footed shots from outside the box blocked, with Player8(Home Team) providing the assist." -> Counts as 1 Shot because the snippet explicitly states Player7 had a shot blocked.
+- "Player7(Home Team) commits a foul as the Home Team earns a corner kick." -> Counts as 1 Foul because the snippet explicitly states Player7 committed a foul.
+- "Player7(Home Team) made a risky move on the field." -> No countable event because the snippet does not explicitly state any of the defined events.
+- "Player7(Home Team) commits a foul on Player28(Away Team), resulting in a free kick being awarded on the right wing." -> Counts as 1 Foul because the snippet explicitly states Player7 committed a foul.
+- "Player7(Home Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player7 received a yellow card for a rough tackle, which is a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 1     | 0     | 0       | 0          | 4     | 1            | 0         | 0        |
+```

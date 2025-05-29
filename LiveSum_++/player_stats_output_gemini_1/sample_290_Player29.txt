@@ -1,0 +1,11 @@
+Analyzing the snippets for Player29:
+- "Player29(Away Team)'s shot with his right foot from the right side of the box was saved in the center of the goal after a through ball from Player28(Away Team)." -> Counts as 1 Shot because the snippet explicitly states 'Player29's shot'.
+- "Player29(Away Team) scores with a header from the center of the box to the top left corner, assisted by Player26(Away Team) with a cross, The score is now tied at 1-1 between the Home Team and the Away Team." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states 'Player29 scores'.
+- "Player29(Away Team) fouls Player3(Home Team), resulting in a free kick in the defensive half." -> Counts as 1 Foul because the snippet explicitly states 'Player29 fouls'.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 2     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

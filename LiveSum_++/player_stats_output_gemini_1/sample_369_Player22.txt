@@ -1,0 +1,12 @@
+Analyzing the snippets for Player22:
+
+- "Player22(Away Team) commits a foul on Player11(Home Team), resulting in a free kick for Player11(Home Team)'s team in the opposition half." -> Counts as 1 Foul because the snippet explicitly states Player22 committed a foul.
+- "Player22(Away Team) misses the header from the center of the box, it was too high, Player26(Away Team) assisted with the cross." -> Counts as 1 Shot because the snippet explicitly states Player22 missed the header from the center of the box.
+- "Player22(Away Team)'s header from the center of the box, assisted by Player26(Away Team) with a cross, is blocked after the Away Team obtains a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player22's header from the center of the box is blocked.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

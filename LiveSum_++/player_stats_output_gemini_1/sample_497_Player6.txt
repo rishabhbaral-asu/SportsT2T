@@ -1,0 +1,14 @@
+Analyzing the snippets for Player6:
+
+- "Player6(Home Team)'s left footed shot from the centre of the box is saved in the top centre of the goal, with Player27(Away Team) committing a foul." -> Counts as 1 Shot because the snippet explicitly states Player6 took a shot that was saved.
+- "Player6(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player6 committed a foul.
+- "Player6(Home Team)'s shot from the left side of the box was blocked with Player9(Home Team)'s assistance." -> Counts as 1 Shot because the snippet explicitly states Player6 took a shot that was blocked.
+- "Player6(Home Team)'s attempt from outside the box with his right foot was close, but ultimately missed to the left, with an assist from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player6 took a shot that missed.
+- "Player6(Home Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player6 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 3     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,11 @@
+Analyzing the snippets for Player20:
+- "Player20(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player20 committed a foul.
+- "Player20(Away Team) receives a yellow card." -> Counts as 1 Yellow Card because the snippet explicitly states Player20 received a yellow card.
+- "Player20(Away Team) attempts a through ball, but Player28(Away Team) is flagged offside." -> No countable event for Player20, since Player28 is flagged offside and not Player20.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 0     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

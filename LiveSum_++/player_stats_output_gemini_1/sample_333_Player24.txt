@@ -1,0 +1,13 @@
+Analyzing the snippets for Player24:
+
+- "Player24(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player24 earned a free kick.
+- "Player24(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player24 earned a free kick.
+- "Player24(Away Team) scores with a right footed free kick to the top left corner, making it Home Team 1, Away Team 1." -> Counts as 1 Goal, 1 Shot, and 1 Free Kick because the snippet explicitly states Player24 scored a goal with a free kick.
+- "Player24(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player24 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 1     | 1     | 0       | 3          | 0     | 0            | 0         | 0        |
+```

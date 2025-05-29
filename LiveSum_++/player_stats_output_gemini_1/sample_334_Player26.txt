@@ -1,0 +1,12 @@
+Analyzing the snippets for Player26:
+- "Player26(Away Team) missed a high right-footed shot from the center of the box, causing a delay in the match due to Player10(Home Team)'s injury." -> Counts as 1 Shot because the snippet explicitly states Player26 missed a shot.
+- "Player26(Away Team)'s right footed shot from the right side of the box hits the right post, while Player8(Home Team) wins a free kick in the defensive half." -> Counts as 1 Shot because the snippet explicitly states Player26 took a shot that hit the post.
+- "Player26(Away Team) takes a shot with his right foot from the middle of the box but it hits the crossbar, with an assist from Player29(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player26 took a shot that hit the crossbar.
+- "Player26(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player26 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 3     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,16 @@
+Analyzing the snippets for Player27:
+
+- "Player27(Away Team) earns a free kick on the right side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player27 earned a free kick.
+- "Player27(Away Team) earns a free kick on the left side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player27 earned a free kick.
+- "Player27(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player27 committed a foul.
+- "Player27(Away Team) earns a free kick near the opponent's goal." -> Counts as 1 Free Kick because the snippet explicitly states Player27 earned a free kick.
+- "Player27(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick on the right wing, This leads to a set piece opportunity for Player7(Home Team) on the right side of the field." -> Counts as 1 Foul because the snippet explicitly states Player27 committed a foul.
+- "Player27(Away Team) scores with a right footed shot from the right side of the six yard box, assisted by Player32(Away Team) with a cross, The score is now tied at 1-1 between the Home Team and the Away Team." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player27 scored a goal and that Player27 shot with a right footed shot.
+- "Player27(Away Team) scores with a right-footed shot from the right side of the box, assisted by Player32(Away Team) after a swift break." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player27 scored a goal and that Player27 shot with a right-footed shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 2     | 2     | 0       | 3          | 2     | 0            | 0         | 0        |
+```

@@ -1,0 +1,18 @@
+Analyzing the snippets for Player15:
+- "Player15(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player15 committed a foul.
+- "Player15(Home Team) commits a foul on Player23(Away Team), resulting in a free kick for Player23(Away Team) on the left wing." -> Counts as 1 Foul because the snippet explicitly states Player15 committed a foul.
+- "Player15(Home Team) commits a foul, resulting in Player23(Away Team) winning a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player15 committed a foul.
+- "Player15(Home Team)'s shot from the right side of the box is blocked after being assisted by Player10(Home Team) with a cross, resulting in a corner kick for the Home Team." -> Counts as 1 Shot because the snippet explicitly states Player15's shot was blocked.
+- "Player15(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player15 committed a foul.
+- "Player15(Home Team)'s right footed shot from the right side of the box hits the left post after a set piece." -> Counts as 1 Shot because the snippet explicitly states Player15's shot hit the left post.
+- "Player15(Home Team) wins a free kick in their defensive half and they are now ready to continue." -> Counts as 1 Free Kick because the snippet explicitly states Player15 won a free kick.
+- "Player15(Home Team) commits a foul, resulting in Player24(Away Team) being awarded a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player15 committed a foul.
+- "Player15(Home Team)'s shot from the right side of the box is blocked with the help of Player6(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player15's shot was blocked.
+- "Player15(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player15 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player15 | 3     | 0     | 0       | 1          | 6     | 0            | 0         | 0        |
+```

@@ -1,0 +1,12 @@
+Analyzing the snippets for Player35:
+
+- "Player35(Away Team) earns a free kick on the left side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player35 earned a free kick.
+- "Player35(Away Team)'s attempt from outside the box with his right foot was high and wide to the right, with an assist from Player26(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player35 made an attempt.
+- "Player35(Away Team) scores with a left-footed shot from the left side of the box, assisted by Player28(Away Team), Home Team 0, Away Team 4." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player35 scored a goal.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player35 | 2     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

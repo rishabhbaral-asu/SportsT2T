@@ -1,0 +1,11 @@
+Analyzing the snippets for Player28:
+- "Player28(Away Team)'s shot from outside the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player28 took a shot which was blocked.
+- "Player28(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player28 committed a foul.
+- "Player28(Away Team) attempts a through ball to Player32(Away Team), but Player32(Away Team) is caught offside, as Player27(Away Team)'s shot from the center of the box is saved by the goalkeeper, with assistance from Player32(Away Team)." -> No countable event. Player28 attempts a through ball that results in Player32 being offside. This is not an offside by Player28, and it is not an assist.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

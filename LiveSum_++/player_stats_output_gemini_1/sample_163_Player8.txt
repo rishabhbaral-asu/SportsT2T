@@ -1,0 +1,13 @@
+Analyzing the snippets for Player8:
+- "Player8(Home Team)'s shot from the center of the box narrowly misses to the right, assisted by Player9(Home Team) with a header." -> Counts as 1 Shot because the snippet explicitly states Player8 took a shot.
+- "Player8(Home Team) awarded a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player8 was awarded a free kick.
+- "Player8(Home Team) takes a shot with his right foot from outside the box, but narrowly misses to the left on a direct free kick." -> Counts as 1 Shot and 1 Free Kick because the snippet explicitly states Player8 took a shot on a direct free kick.
+- "Player8(Home Team)'s shot from over 35 yards out with his right foot goes wide to the right." -> Counts as 1 Shot because the snippet explicitly states Player8 took a shot.
+- "Player8(Home Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player8 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 3     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

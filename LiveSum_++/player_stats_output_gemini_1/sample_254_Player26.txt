@@ -1,0 +1,12 @@
+Analyzing the snippets for Player26:
+- "Player26(Away Team) commits a foul on Player5(Home Team), awarding them a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player26 committed a foul.
+- "Player26(Away Team)'s left footed shot from the right side of the box is blocked with an assist from Player28(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player26 took a shot.
+- "Player26(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team." -> No event is counted as the player being offside is Player29 and the player being tracked is Player26.
+- "Player26(Away Team)'s left-footed shot from a tough angle is saved by Player27(Away Team) in the top center of the goal, while Player22(Away Team)'s shot from the center of the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player26 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

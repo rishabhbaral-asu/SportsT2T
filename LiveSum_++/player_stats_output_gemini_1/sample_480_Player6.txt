@@ -1,0 +1,13 @@
+Analyzing the snippets for Player6:
+- "Player6(Home Team)'s left footed shot from outside the box was blocked with an assist from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player6 took a shot.
+- "Player6(Home Team)'s left footed shot from outside the box was blocked after an assist from Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player6 took a shot.
+- "Player6(Home Team)'s right footed shot from the right side of the box hits the right post, with an assist from Player11(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player6 took a shot.
+- "Player6(Home Team) earns a free kick on the right side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player6 earned a free kick.
+- "Player6(Home Team) scores with a left-footed shot from the right side of the box, assisted by Player11(Home Team) with a header, The score is now tied at 1-1 between the Home Team and the Away Team." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player6 scored a goal with a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 4     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

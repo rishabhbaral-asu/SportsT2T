@@ -1,0 +1,12 @@
+Analyzing the snippets for Player9:
+- "Player9(Home Team)'s left-footed shot from close range is blocked after an assisted headed pass from Player10(Home Team), as Player27(Away Team) earns a free kick in their defensive half." -> Counts as 1 Shot because the snippet explicitly states Player9 took a shot.
+- "Player9(Home Team) shoots with their left foot from the center of the box and finds the back of the net, assisted by Player10(Home Team) with a header after a set piece." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player9 shoots and finds the back of the net.
+- "Player9(Home Team) fouls Player26(Away Team), who wins a free kick in their defensive half." -> Counts as 1 Foul because the snippet explicitly states Player9 committed a foul.
+- "Player9(Home Team) scores with a close-range right-footed shot, making it 2-0 for the Home Team." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player9 scores.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 3     | 2     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

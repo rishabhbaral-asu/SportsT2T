@@ -1,0 +1,14 @@
+Analyzing the snippets for Player21:
+
+- "Player21(Away Team) concedes a foul, allowing Player10(Home Team) to win a free kick in the attacking half." -> Counts as 1 Foul because the snippet explicitly states Player21 conceded a foul.
+- "Player21(Away Team) commits a foul on Player10(Home Team), who earns a free kick on the left wing, The referee blows the whistle." -> Counts as 1 Foul because the snippet explicitly states Player21 committed a foul.
+- "Player21(Away Team) scores with a close-range header to the top left corner, assisted by Player25(Away Team) from a set piece, The score is now tied at 1-1 between the Home Team and the Away Team." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player21 scored a goal with a header, meaning that a shot was taken, and the goal was scored.
+- "Player21(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player21 committed a foul.
+- "Player21(Away Team) receives a yellow card for a harsh foul." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player21 received a yellow card for a harsh foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 1     | 1     | 0       | 0          | 4     | 1            | 0         | 0        |
+```

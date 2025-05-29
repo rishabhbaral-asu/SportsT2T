@@ -1,0 +1,11 @@
+Analyzing the snippets for Player12:
+- "Player12(Home Team) misses a header to the right from the center of the box, assisted by Player14(Home Team) with a cross." -> Counts as 1 Shot because the snippet explicitly states Player12 misses a header from the center of the box.
+- "Player12(Home Team) commits a foul, resulting in Player21(Away Team) winning a free kick in the attacking half, The foul by Player12(Home Team) gives Player21(Away Team) a free kick in the attacking half." -> Counts as 1 Foul because the snippet explicitly states Player12 committed a foul.
+- "Player12(Home Team) commits a foul, giving Player20(Away Team) a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player12 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player12 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

@@ -1,0 +1,15 @@
+Analyzing the snippets for Player17:
+- "Player17(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player17 committed a foul.
+- "Player17(Home Team) receives a yellow card." -> Counts as 1 Yellow Card because the snippet explicitly states Player17 received a yellow card.
+- "Player17(Home Team)'s shot from outside the box is blocked after being assisted by Player16(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player17 took a shot.
+- "Player17(Home Team) earns a free kick in the attacking half after being fouled by Player25(Away Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player17 earned a free kick after being fouled.
+- "Player17(Home Team) wins a free kick on the left wing after being fouled by Player20(Away Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player17 wins a free kick after being fouled.
+- "Player17(Home Team), assisted by Player6(Home Team), with a header into the bottom right corner." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player17 scored a goal with a header.
+- "Player17(Home Team) is currently delayed in the match due to an injury." -> No countable event because the snippet does not mention any of the defined events.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player17 | 2     | 1     | 0       | 2          | 1     | 1            | 0         | 0        |
+```

@@ -1,0 +1,16 @@
+Analyzing the snippets for Player11:
+- "Player11(Home Team)'s header from the left side of the six-yard box narrowly misses to the left after a cross from Player9(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11's header missed.
+- "Player11(Home Team) earns a free kick on the left side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player11 earned a free kick.
+- "Player11(Home Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player11 received a yellow card for a rough tackle, which is a foul.
+- "Player11(Home Team) earns a free kick on the left wing, but Player3(Home Team)'s header from the center of the box, assisted by Player8(Home Team)'s cross after a set piece, misses to the right, Valencia wins a free kick on the left wing, but Player3(Home Team)'s header from the center of the box, assisted by Player8(Home Team)'s cross after a set piece, misses to the right." -> Counts as 1 Free Kick because the snippet explicitly states Player11 earned a free kick.
+- "Player11(Home Team) scores with a right footed shot from outside the box, assisted by Player9(Home Team), The score now stands at Home Team 1, Away Team 3." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player11 scored.
+- "Player11(Home Team) misses a header to the left from the center of the box after a cross from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 missed a header.
+- "Player11(Home Team)'s shot from outside the box is saved in the top right corner with his right foot, assisted by Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11's shot was saved.
+- "Player11(Home Team)'s shot from outside the box is blocked by a defender after being set up by Player4(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11's shot was blocked.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 5     | 1     | 0       | 2          | 1     | 1            | 0         | 0        |
+```

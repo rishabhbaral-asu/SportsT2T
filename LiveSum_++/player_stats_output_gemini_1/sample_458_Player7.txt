@@ -1,0 +1,13 @@
+Analyzing the snippets for Player7:
+- "Player7(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player7 committed a foul.
+- "Player7(Home Team) misses the target with a left-footed shot from outside the box." -> Counts as 1 Shot because the snippet explicitly states Player7 missed a shot.
+- "Player7(Home Team) from the Home Team is caught offside after receiving a through ball from Player2(Home Team)." -> Counts as 1 Offsides because the snippet explicitly states Player7 is offside.
+- "Player7(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player7 committed a foul.
+- "Player7(Home Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player7 received a yellow card for a rough tackle, implying a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 1     | 0     | 0       | 0          | 3     | 1            | 0         | 1        |
+```

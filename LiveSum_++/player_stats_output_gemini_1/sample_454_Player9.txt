@@ -1,0 +1,21 @@
+Analyzing the snippets for Player9:
+
+- "Player9(Home Team) misses the mark with a left-footed shot from outside the box, just inches over the crossbar." -> Counts as 1 Shot because the snippet explicitly states Player9 missed the mark with a shot.
+- "Player9(Home Team)'s left footed shot from outside the box is blocked after an assist from Player6(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9's shot was blocked.
+- "Player9(Home Team) committed a foul." -> Counts as 1 Foul because the snippet explicitly states Player9 committed a foul.
+- "Player9(Home Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player9 received a yellow card for a rough tackle, which constitutes a foul.
+- "Player9(Home Team) and Player29(Away Team) earn a free kick on the left side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player9 earned a free kick.
+- "Player9(Home Team)'s left footed shot from over 35 yards goes wide to the right, with an assist from Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9's shot went wide.
+- "Player9(Home Team)'s left footed shot from the right side of the box narrowly misses to the left, with an assist from Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player9's shot narrowly misses to the left.
+- "Player9(Home Team)'s left footed shot from outside the box is saved in the bottom right corner with an assist from Player10(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9's shot was saved.
+- "Player9(Home Team)'s shot from outside the box with their left foot was blocked with an assist from Player8(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player9's shot was blocked.
+- "Player9(Home Team) outside the box into the bottom right corner." -> Counts as 1 Shot because the snippet describes Player9 shooting into the bottom right corner.
+- "Player9(Home Team)'s left-footed shot from the center of the box was saved at the top center of the goal with an assist from Player28(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player9's shot was saved.
+- "Player9(Home Team) takes a shot with his right foot from outside the box, but it goes wide to the left with an assist from Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player9 takes a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 12     | 0     | 0       | 1          | 2     | 1            | 0         | 0        |
+```

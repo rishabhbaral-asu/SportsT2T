@@ -1,0 +1,11 @@
+Analyzing the snippets for Player27:
+- "Player27(Away Team) attempts a through ball, but Player26(Away Team) is caught offside." -> No countable event as the target player is not explicitly offside, but rather a teammate is offside.
+- "Player27(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player27 committed a foul.
+- "Player27(Away Team) draws a foul in the penalty area resulting in a penalty." -> Counts as 1 Free Kick because the snippet explicitly states Player27 drew a foul resulting in a penalty.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

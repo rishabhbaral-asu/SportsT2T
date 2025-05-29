@@ -1,0 +1,19 @@
+Analyzing the snippets for Player25:
+- "Player25(Away Team) fouls Player5(Home Team), resulting in a free kick in the defensive half." -> Counts as 1 Foul because the snippet explicitly states Player25 committed a foul.
+- "Player25(Away Team) commits a foul on Player10(Home Team), who wins a free kick in their defensive half." -> Counts as 1 Foul because the snippet explicitly states Player25 committed a foul.
+- "Player25(Away Team) misses the shot from outside the box with his right foot, it goes over the goal, Player23(Away Team) helped with the assist." -> Counts as 1 Shot because the snippet explicitly states Player25 missed the shot.
+- "Player25(Away Team) misses the goal with a high right-footed shot from outside the box, assisted by Player24(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player25 missed the goal with a shot.
+- "Player25(Away Team)'s attempt from outside the box on a direct free kick is just a bit too high." -> Counts as 1 Shot and 1 Free Kick because the snippet explicitly states Player25 attempted a shot from a free kick.
+- "Player25(Away Team)'s shot from the center of the box is blocked with his left foot, assisted by Player24(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player25's shot was blocked.
+- "Player25(Away Team)'s shot from outside the box is blocked after an assist from Player24(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player25's shot was blocked.
+- "Player25(Away Team) scores with a left-footed shot from outside the box, putting the Home Team ahead 2-1 against the Away Team, Goal!." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player25 scored a goal with a shot.
+- "Player25(Away Team)'s left-footed shot from the left side of the box is saved in the top right corner, assisted by Player27(Away Team), resulting in a corner kick for the Away Team." -> Counts as 1 Shot because the snippet explicitly states Player25's shot was saved.
+- "Player25(Away Team)'s left footed shot from outside the box following a corner by Player33(Away Team) is high and wide to the left." -> Counts as 1 Shot because the snippet explicitly states Player25's shot was high and wide.
+- "Player25(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player25 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 8     | 1     | 0       | 2          | 2     | 0            | 0         | 0        |
+```

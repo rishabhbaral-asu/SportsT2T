@@ -1,0 +1,12 @@
+Analyzing the snippets for Player10:
+- "Player10(Home Team)'s right-footed shot from the center of the box into the bottom left corner, with an assist from Player4(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player10 took a shot.
+- "Player10(Home Team)'s right-footed shot from the center of the box into the bottom left corner, with an assist from Player4(Home Team)." -> Counts as 1 Goal because the snippet explicitly states Player10 scored a goal due to the shot going into the bottom left corner.
+- "Player10(Home Team) missed the header from the center of the box after a cross from Player7(Home Team) during a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player10 missed a header.
+- "Player10(Home Team)'s header from the center of the box is just a tad high, missing the target, Player11(Home Team) assisted with a cross." -> Counts as 1 Shot because the snippet explicitly states Player10 attempted a header that missed the target.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 3     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,10 @@
+Analyzing the snippets for Player2:
+* "- Player2(Home Team) misses the shot with his right foot from a tough angle on the right, assisted by Player5(Home Team)'s cross." -> Counts as 1 Shot because the snippet explicitly states Player2 misses the shot.
+* "- Player2(Home Team) from the Home Team has scored an own goal, making the score 3-1 in favor of the Home Team over the Away Team." -> Counts as 1 Goal because the snippet explicitly states Player2 scored. It also counts as 1 Shot because the snippet explicitly states Player2 scored a goal.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 1     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

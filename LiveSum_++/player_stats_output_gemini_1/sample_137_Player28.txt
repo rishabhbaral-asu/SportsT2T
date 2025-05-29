@@ -1,0 +1,12 @@
+Analyzing the snippets for Player28:
+
+- "Player28(Away Team)'s header from the center of the box was saved in the center of the goal after being assisted by Player20(Away Team) with a cross, following a foul by Player8(Home Team)." -> Counts as 1 Shot because the snippet explicitly states "Player28(Away Team)'s header from the center of the box was saved".
+- "Player28(Away Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states "Player28(Away Team) earns a free kick".
+- "Player28(Away Team) scores with a header from the center of the box to the bottom right corner, assisted by Player35(Away Team) with a cross, The score is now tied at 2-2 between the Home Team and the Away Team." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states "Player28(Away Team) scores with a header".
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 2     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

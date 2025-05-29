@@ -1,0 +1,12 @@
+Analyzing the snippets for Player24:
+- "Player24(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player24 committed a foul.
+- "Player24(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player24 earned a free kick.
+- "Player24(Away Team)'s shot from the center of the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player24's shot was blocked.
+- "Player24(Away Team)'s left footed shot from outside the box just missed to the right after a set piece situation." -> Counts as 1 Shot because the snippet explicitly states Player24 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

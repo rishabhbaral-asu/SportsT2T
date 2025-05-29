@@ -1,0 +1,18 @@
+Analyzing the snippets for Player29:
+- "Player29(Away Team)'s left footed shot from the left side of the box is blocked by the defense, assisted by Player27(Away Team), resulting in a corner kick for the Away Team." -> Counts as 1 Shot because the snippet explicitly states that Player29 took a shot.
+- "Player29(Away Team)'s shot from outside the box is blocked with Player26(Away Team) assisting." -> Counts as 1 Shot because the snippet explicitly states that Player29 took a shot.
+- "Player29(Away Team) misses the goal with a right footed shot from outside the box, assisted by Player24(Away Team)." -> Counts as 1 Shot because the snippet explicitly states that Player29 took a shot.
+- "Player29(Away Team)'s shot from the center of the box is saved in the center of the goal, with an assist from Player20(Away Team)." -> Counts as 1 Shot because the snippet explicitly states that Player29 took a shot.
+- "Player29(Away Team) scores with a header from the center of the box to the bottom left corner, assisted by Player20(Away Team) with a cross, The Away Team leads 1-0 against the Home Team." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player29 scored a goal.
+- "Player29(Away Team)'s shot from outside the box is blocked." -> Counts as 1 Shot because the snippet explicitly states that Player29 took a shot.
+- "Player29(Away Team) commits a foul, resulting in Player1(Home Team) winning a free kick in their defensive half." -> Counts as 1 Foul because the snippet explicitly states that Player29 committed a foul.
+- "Player29(Away Team)'s attempt from the center of the box, assisted by Player26(Away Team), is blocked, as well as Player27(Away Team)'s shot from the left side of the box, assisted by Player25(Away Team)." -> Counts as 1 Shot because the snippet explicitly states that Player29 took an attempt.
+- "Player29(Away Team) misses a header from the center of the box to the left, with an assist from Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states that Player29 took a header.
+- "Player29(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states that Player29 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 7     | 1     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

@@ -1,0 +1,10 @@
+Analyzing the snippets for Player5:
+- "Player5(Home Team) from the Home Team scored an own goal, putting the Home Team at a disadvantage with a score of 0-1 in favor of the Away Team." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player5 scored a goal (own goal).
+- "Player5(Home Team)'s left-footed shot from the left side of the box and Player15(Home Team)'s right-footed shot from the same area are both blocked, with assistance from Player10(Home Team)." -> Counts as 1 Shot because the snippet explicitly mentions Player5's shot was blocked.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 2     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

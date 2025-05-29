@@ -1,0 +1,11 @@
+Analyzing the snippets for Player26:
+
+- "Player26(Away Team) is fouled in the box." -> Counts as 0 Free Kicks because the snippet mentions Player26 is fouled and not that he has earned a free kick, took a free kick, or scored a goal.
+- "Player26(Away Team) commits a foul on Player3(Home Team), resulting in a free kick being awarded to Player3(Home Team) on the left wing." -> Counts as 1 Foul because the snippet explicitly states Player26 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

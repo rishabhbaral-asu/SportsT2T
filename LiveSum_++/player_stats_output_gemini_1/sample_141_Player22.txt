@@ -1,0 +1,15 @@
+Analyzing the snippets for Player22:
+- "Player22(Away Team) misses the target with a high shot from the center of the box after a cross from Player26(Away Team) following a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player22 misses the target with a shot.
+- "Player22(Away Team) earns a free kick on the left wing after being fouled by Player11(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player22 earns a free kick.
+- "Player22(Away Team) misses a header from the left side of the six yard box, assisted by Player26(Away Team) with a cross after a set piece." -> Counts as 1 Shot because the snippet explicitly states Player22 misses a header.
+- "Player22(Away Team)'s left footed shot from outside the box goes wide after a set piece." -> Counts as 1 Shot because the snippet explicitly states Player22's left footed shot goes wide.
+- "Player22(Away Team) made an unsuccessful left-footed shot from outside the box, with an assist from Player28(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player22 made an unsuccessful shot.
+- "Player22(Away Team) misses a header from the left side of the six yard box after a corner." -> Counts as 1 Shot because the snippet explicitly states Player22 misses a header.
+- "Player22(Away Team) commits a foul, resulting in Player15(Home Team) winning a free kick on the left wing, This leads to a set piece opportunity for Player15(Home Team)'s team." -> Counts as 1 Foul because the snippet explicitly states Player22 commits a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 5     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

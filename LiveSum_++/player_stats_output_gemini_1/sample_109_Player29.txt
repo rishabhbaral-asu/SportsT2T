@@ -1,0 +1,11 @@
+Analyzing the snippets for Player29:
+- "Player29(Away Team) attempts a through ball, but Player27(Away Team) is offside for the Away Team." -> Counts as 0 Offsides because Player27, not Player29, is offside.
+- "Player29(Away Team) narrowly misses hitting the left post with a right footed shot from outside the box, assisted by Player19(Away Team), while Player27(Away Team)'s right footed shot from the left side of the box is also close but misses to the left." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot.
+- "Player29(Away Team) misses the target with a high right-footed shot from outside the box, with an assist from Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

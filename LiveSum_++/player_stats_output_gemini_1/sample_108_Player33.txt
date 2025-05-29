@@ -1,0 +1,13 @@
+Analyzing the snippets for Player33:
+
+- "Player33(Away Team)'s shot being blocked in the center of the box." -> Counts as 1 Shot because the snippet explicitly states Player33's shot was blocked.
+- "Player33(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player33 earned a free kick.
+- "Player33(Away Team)'s shot from the center of the box is saved in the middle of the goal, with an assist from Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player33 took a shot.
+- "Player33(Away Team) scores with a close-range shot to the bottom right corner, assisted by Player21(Away Team)'s cross, Home Team 1, Away Team 3." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player33 scored a goal.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player33 | 3     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

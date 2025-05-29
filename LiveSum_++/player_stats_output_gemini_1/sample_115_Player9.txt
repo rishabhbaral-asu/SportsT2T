@@ -1,0 +1,13 @@
+Analyzing the snippets for Player9:
+
+- "Player9(Home Team) is fouled in the box." -> Counts as 0 Free Kicks, 0 Fouls, because the snippet explicitly states Player9 was fouled.
+- "Player9(Home Team)'s header from the left side of the six-yard box hits the crossbar, assisted by Player11(Home Team)'s cross after a set piece." -> Counts as 1 Shot because the snippet explicitly states Player9's header hit the crossbar.
+- "Player9(Home Team)'s headed goal from Player3(Home Team)'s cross." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player9 scored a headed goal.
+- "Player9(Home Team)'s left footed shot from the left side of the box, assisted by Player10(Home Team) with a through ball, was saved in the center of the goal, followed by a missed right footed shot from a difficult angle on the left." -> Counts as 2 Shots because the snippet explicitly states Player9 took a shot that was saved and then another shot that was missed.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 4     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

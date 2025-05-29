@@ -1,0 +1,13 @@
+Analyzing the snippets for Player29:
+- "Player29(Away Team) from the Away Team attempted a through ball, but Player28(Away Team) was caught offside, resulting in a delay in the match due to an injury to Player24(Away Team)." -> Counts as 0 Free Kick because this snippet refers to a through ball attempt, but it's not explicitly a free kick, or penalty kick.
+- "Player29(Away Team) earns a free kick from the left side." -> Counts as 1 Free Kick because the snippet explicitly states Player29 earned a free kick.
+- "Player29(Away Team)'s left footed shot from the centre of the box is blocked by the defender, while Player25(Away Team)'s right footed shot is saved by the goalkeeper in the centre of the goal, both assisted by Player34(Away Team) and Player28(Away Team) respectively." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot.
+- "Player29(Away Team) has committed a hand ball." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a hand ball.
+- "Player29(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 1     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

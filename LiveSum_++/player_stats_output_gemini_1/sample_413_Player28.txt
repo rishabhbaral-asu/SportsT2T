@@ -1,0 +1,13 @@
+Analyzing the snippets for Player28:
+- "Player28(Away Team)'s attempt from the left side of the box is blocked by Player24(Away Team), who wins a free kick in the attacking half." -> Counts as 1 Shot because the snippet explicitly states Player28's attempt from the left side of the box.
+- "Player28(Away Team) scores with a close-range header to the bottom left corner, giving the Away Team a 1-0 lead over the Home Team." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player28 scores with a close-range header.
+- "Player28(Away Team) misses the target with a shot from the right side of the box." -> Counts as 1 Shot because the snippet explicitly states Player28 misses the target with a shot from the right side of the box.
+- "Player28(Away Team) commits a foul on Player12(Home Team), resulting in a free kick being awarded in the defensive half." -> Counts as 1 Foul because the snippet explicitly states Player28 commits a foul.
+- "Player28(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player28 commits a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 3     | 1     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

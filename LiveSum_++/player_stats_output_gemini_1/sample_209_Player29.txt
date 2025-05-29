@@ -1,0 +1,19 @@
+Analyzing the snippets for Player29:
+
+- "Player29(Away Team) earns a free kick in their own half after being fouled by Player5(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player29 earned a free kick.
+- "Player29(Away Team) earns a free kick on the left wing after being fouled by Player3(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player29 earned a free kick.
+- "Player29(Away Team)'s left-footed shot from outside the box was saved in the top left corner with an assist from Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player29 took a shot.
+- "Player29(Away Team) earns a free kick in their own half." -> Counts as 1 Free Kick because the snippet explicitly states Player29 earned a free kick.
+- "Player29(Away Team) attempted a header from the center of the box, but it went too high, The cross was provided by Player23(Away Team)." -> Counts as 1 Shot because the snippet explicitly mentions Player29 attempted a header.
+- "Player29(Away Team) is fouled in the box." -> Counts as 0 Free Kicks because the explicit statement says that Player29 is fouled, and does not win a free kick.
+- "Player29(Away Team) scores a penalty with a right footed shot to the top left corner, making it 1-1 between the Home Team and the Away Team." -> Counts as 1 Goal, 1 Shot, and 1 Free Kick because the snippet explicitly states that Player29 scored a penalty and shot the penalty.
+- "Player29(Away Team) committed a hand ball." -> Counts as 1 Foul because the snippet explicitly states Player29 committed a hand ball.
+- "Player29(Away Team)'s header from the centre of the box was saved in the top right corner after being assisted by Player28(Away Team) with a cross, while Player33(Away Team) won a free kick in the attacking half." -> Counts as 1 Shot because the snippet explicitly mentions that Player29 attempted a header on goal.
+- "Player29(Away Team) earns a free kick in their own half after being fouled by Player13(Home Team)." -> Counts as 1 Free Kick because the snippet explicitly states Player29 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 4     | 1     | 0       | 5          | 1     | 0            | 0         | 0        |
+```

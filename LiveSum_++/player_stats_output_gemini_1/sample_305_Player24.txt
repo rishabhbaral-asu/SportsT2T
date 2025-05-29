@@ -1,0 +1,15 @@
+Analyzing the snippets for Player24:
+- "Player24(Away Team) attempts a through ball, but Player27(Away Team) is offside for the Away Team." -> Counts as 1 Offside because the snippet explicitly states Player27 is offside *FOR* the Away Team, which is a different player than the target player. Thus, Player24 is NOT offside, so this snippet does NOT add to the total number of offsides for Player24.
+- "Player24(Away Team)'s attempt from outside the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player24 made an attempt from outside the box.
+- "Player24(Away Team)'s left footed shot from outside the box narrowly misses to the left with an assist from Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player24 shot from outside the box.
+- "Player24(Away Team) commits a foul, resulting in Player11(Home Team) winning a free kick on the left wing, ." -> Counts as 1 Foul because the snippet explicitly states Player24 committed a foul.
+- "Player24(Away Team)'s shot from outside the box is blocked." -> Counts as 1 Shot because the snippet explicitly states Player24 made a shot from outside the box.
+- "Player24(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player24 committed a foul.
+- "Player24(Away Team) receives a yellow card for a rough tackle." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player24 received a yellow card for a rough tackle, which counts as a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 3     | 0     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

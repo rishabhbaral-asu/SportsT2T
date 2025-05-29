@@ -1,0 +1,13 @@
+Analyzing the snippets for Player14:
+
+- "Player14(Home Team) from the Home Team, with a close-range shot into the center of the net, The score is now 1-0 in favor of the Home Team." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player14 took a shot which resulted in a goal.
+- "Player14(Home Team)'s shot from outside the box is blocked after being assisted by Player7(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player14 took a shot.
+- "Player14(Home Team)'s header from the center of the box, assisted by Player7(Home Team) with a cross, is blocked after the home team obtains a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player14 took a header.
+- "Player14(Home Team) scores with a left-footed shot from the center of the box, assisted by Player9(Home Team), The Home Team leads 2-0 against the Away Team." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player14 scored a goal with a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player14 | 4     | 2     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

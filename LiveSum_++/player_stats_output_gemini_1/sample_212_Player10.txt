@@ -1,0 +1,15 @@
+Analyzing the snippets for Player10:
+- "Player10(Home Team)'s left-footed shot from the center of the box goes wide." -> Counts as 1 Shot because the snippet explicitly states Player10 took a shot.
+- "Player10(Home Team) misses the goal from the left side of the six yard box after being assisted by Player4(Home Team) from a corner kick." -> Counts as 1 Shot because the snippet explicitly states Player10 missed the goal.
+- "Player10(Home Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player10 earned a free kick.
+- "Player10(Home Team) is being delayed in the match due to an injury." -> No countable event because the snippet does not mention any of the defined events.
+- "Player10(Home Team) commits a foul, resulting in Player20(Away Team) being awarded a free kick in their own defensive half, Valencia concedes a foul, giving Player20(Away Team) a free kick in their defensive half." -> Counts as 1 Foul because the snippet explicitly states Player10 committed a foul.
+- "Player10(Home Team) misses the target with a right-footed shot from the left side of the box, assisted by Player8(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player10 took a shot.
+- "Player10(Home Team) commits a foul, resulting in Player25(Away Team) winning a free kick in their defensive half, Valencia concedes a foul, allowing Player25(Away Team) to earn a free kick in their own defensive half." -> Counts as 1 Foul because the snippet explicitly states Player10 committed a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 3     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

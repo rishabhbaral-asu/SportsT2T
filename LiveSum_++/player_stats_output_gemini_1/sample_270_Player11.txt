@@ -1,0 +1,13 @@
+Analyzing the snippets for Player11:
+- "Player11(Home Team) misses the target with a shot from the center of the box, assisted by Player5(Home Team)'s cross." -> Counts as 1 Shot because the snippet explicitly states Player11 missed a shot.
+- "Player11(Home Team) missed the header from the center of the box, it was too high, Player10(Home Team) assisted with the cross." -> Counts as 1 Shot because the snippet explicitly states Player11 missed the header, which is a shot attempt.
+- "Player11(Home Team)'s shot from the center of the box is saved in the bottom right corner after a headed pass from Player2(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11's shot was saved.
+- "Player11(Home Team) missed a header from the right side of the box, assisted by Player2(Home Team) with a cross." -> Counts as 1 Shot because the snippet explicitly states Player11 missed a header, which is a shot attempt.
+- "Player11(Home Team) just missed a shot with his right foot from the right side of the box, assisted by Player10(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player11 missed a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 5     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

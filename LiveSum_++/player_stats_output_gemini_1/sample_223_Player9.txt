@@ -1,0 +1,12 @@
+Analyzing the snippets for Player9:
+- "Player9(Home Team) earns a free kick in their own half after a foul by Player28(Away Team), ." -> Counts as 1 Free Kick because the snippet explicitly states that Player9 earned a free kick.
+- "Player9(Home Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states that Player9 committed a foul.
+- "Player9(Home Team)'s header from the center of the box was just slightly too high, resulting in a missed attempt." -> Counts as 1 Shot because the snippet explicitly states Player9 had a header which is an attempt on goal.
+- "Player9(Home Team) from the Home Team attempted a through ball to Player10(Home Team), but he was offside." -> No countable event because the snippet does not mention any of the defined events attributed to Player9.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 1     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

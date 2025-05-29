@@ -1,0 +1,16 @@
+Analyzing the snippets for Player32:
+
+- "Player32(Away Team) misses the target with a left-footed shot from close range on the left side, with an assist from Player25(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player32 took a shot that missed the target.
+- "Player32(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player32 committed a foul.
+- "Player32(Away Team)'s left footed shot from outside the box was close but missed to the right with an assist from Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player32 took a shot that missed the target.
+- "Player32(Away Team)'s left-footed shot from the center of the box is saved in the center of the goal, while Player11(Home Team)'s left-footed shot from the right side of the box is blocked with an assist from Player3(Home Team)." -> Counts as 1 Shot because the snippet explicitly states Player32 took a shot that was saved.
+- "Player32(Away Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player32 earned a free kick.
+- "Player32(Away Team)'s header from the center of the box was close but missed to the left, assisted by Player33(Away Team) with a cross after a corner." -> Counts as 1 Shot because the snippet explicitly states Player32 took a header that missed the target.
+- "Player32(Away Team) scores with a header from the center of the box to the bottom left corner, assisted by Player23(Away Team)'s cross, The score is now tied at 2-2 between the Home Team and the Away Team." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player32 scored a goal.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player32 | 5     | 1     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

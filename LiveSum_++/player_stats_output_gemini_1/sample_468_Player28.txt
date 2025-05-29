@@ -1,0 +1,16 @@
+Analyzing the snippets for Player28:
+- "Player28(Away Team)'s right footed shot from outside the box is blocked after an attempted assist by Player29(Away Team), following a foul by Player8(Home Team)." -> Counts as 1 Shot because the snippet explicitly states "Player28(Away Team)'s right footed shot".
+- "Player28(Away Team)'s shot from the left side of the box is blocked with Player29(Away Team)'s assistance." -> Counts as 1 Shot because the snippet explicitly states "Player28(Away Team)'s shot".
+- "Player28(Away Team) missed a header from the center of the box, it went high and wide to the left, with an assist from Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states "Player28(Away Team) missed a header".
+- "Player28(Away Team)'s right footed shot from a difficult angle and long range on the left is blocked after an attempt from a corner kick by the Away Team, assisted by Player26(Away Team)." -> Counts as 1 Shot because the snippet explicitly states "Player28(Away Team)'s right footed shot".
+- "Player28(Away Team)'s attempt from a direct free kick is too high." -> Counts as 1 Shot and 1 Free Kick because the snippet explicitly states "Player28(Away Team)'s attempt from a direct free kick".
+- "Player28(Away Team)'s shot from the center of the box with his right foot narrowly misses to the right, assisted by Player26(Away Team) with a through ball." -> Counts as 1 Shot because the snippet explicitly states "Player28(Away Team)'s shot".
+- "Player28(Away Team)'s shot from outside the box is saved in the bottom left corner, with an assist from Player32(Away Team)." -> Counts as 1 Shot because the snippet explicitly states "Player28(Away Team)'s shot".
+- "Player28(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states "Player28(Away Team) commits a foul".
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 6     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,11 @@
+Analyzing the snippets for Player3:
+- "Player3(Home Team) attempts a left-footed shot from over 35 yards out that goes wide to the left after a corner." -> Counts as 1 Shot because the snippet explicitly states Player3 attempts a shot.
+- "Player3(Home Team) is currently sidelined due to an injury, causing a delay in the match." -> No countable event because the snippet does not mention any of the defined events.
+- "Player3(Home Team) commits a foul, resulting in Player29(Away Team) winning a free kick on the right wing, ." -> Counts as 1 Foul because the snippet explicitly states Player3 commits a foul.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

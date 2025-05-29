@@ -1,0 +1,15 @@
+Analyzing the snippets for Player28:
+- "Player28(Away Team) scores with a header from close range, assisted by Player26(Away Team) with a cross, The Away Team leads 1-0 against the Home Team." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player28 scores with a header.
+- "Player28(Away Team)'s shot from outside the box is blocked with the help of Player27(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player28's shot is blocked.
+- "Player28(Away Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player28 earned a free kick.
+- "Player28(Away Team) receives a yellow card." -> Counts as 1 Yellow Card because the snippet explicitly states Player28 received a yellow card.
+- "Player28(Away Team) attempts a through ball, but Player27(Away Team) is in an offside position." -> No countable event, as the target player is not in offside position.
+- "Player28(Away Team)'s right footed shot from outside the box is blocked, assisted by Player27(Away Team), while Player26(Away Team)'s header from very close range is saved in the center of the goal, assisted by Player28(Away Team) with a cross." -> Counts as 1 Shot and 1 Assist because the snippet explicitly states Player28's shot is blocked and that Player28 assisted Player26's header with a cross.
+- "Player28(Away Team)'s right footed shot from the center of the box is blocked by the defense after being assisted by Player29(Away Team), resulting in Player6(Home Team) winning a free kick in the attacking half." -> Counts as 1 Shot because the snippet explicitly states Player28's right footed shot is blocked.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 4     | 1     | 1       | 1          | 0     | 1            | 0         | 0        |
+```

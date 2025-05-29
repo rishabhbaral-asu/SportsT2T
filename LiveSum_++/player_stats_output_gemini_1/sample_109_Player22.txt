@@ -1,0 +1,11 @@
+Analyzing the snippets for Player22:
+
+- "Player22(Away Team) attempts a through ball to Player27(Away Team), who is caught offside." -> Counts as 0 because the player is attempting a through ball, but there is no shot, goal, assist, foul, free kick, yellow card, red card, or offside explicitly mentioned for Player22. Player27 is the one offside.
+- "Player22(Away Team)'s left-footed shot from the left side of the box in the top left corner." -> Counts as 1 Shot because the snippet explicitly states Player22 took a shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

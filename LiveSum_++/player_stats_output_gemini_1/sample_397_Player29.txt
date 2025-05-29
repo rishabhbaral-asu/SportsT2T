@@ -1,0 +1,12 @@
+Analyzing the snippets for Player29:
+
+- "Player29(Away Team) scores with a powerful right-footed shot from the left side of the box, assisted by Player27(Away Team), Home Team 0, Away Team 2." -> Counts as 1 Shot and 1 Goal because the snippet explicitly states Player29 scored and that scoring counts as a shot.
+- "Player29(Away Team)'s header from the center of the box was too high, missing the goal, The cross was provided by Player23(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player29's header was an attempt on goal (even though it missed).
+- "Player29(Away Team)'s header from the center of the box is blocked by a defender after being assisted by Player27(Away Team) with a cross, resulting in a corner kick for the Away Team." -> Counts as 1 Shot because the snippet explicitly states Player29's header was an attempt on goal, even though it was blocked.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 3     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

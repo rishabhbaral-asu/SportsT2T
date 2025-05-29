@@ -1,0 +1,11 @@
+Analyzing the snippets for Player22:
+* "Player22(Away Team) wins a free kick in their defensive half after a foul by Player11(Home Team), ." -> Counts as 1 Free Kick because the snippet explicitly states Player22 wins a free kick.
+* "Player22(Away Team)'s header from the center of the box was close but missed to the left, assisted by Player27(Away Team) with a cross after a corner." -> Counts as 1 Shot because the snippet explicitly states Player22's header was an attempt on goal.
+* "Player22(Away Team) of the Home Team is injured during the delay in the match after obtaining a corner kick." -> No countable event because the snippet does not mention any of the defined events.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

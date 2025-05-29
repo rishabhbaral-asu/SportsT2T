@@ -1,0 +1,17 @@
+Analyzing the snippets for Player26:
+
+- "Player26(Away Team) of the Away Team attempts a through ball, but Player29(Away Team) is offside." -> No event counted because Player26 attempted a through ball and not offside.
+- "Player26(Away Team) earns a free kick in the opponent's half." -> Counts as 1 Free Kick because the snippet explicitly states Player26 earned a free kick.
+- "Player26(Away Team) attempts a through ball, but Player25(Away Team) is flagged offside." -> No event counted because Player26 attempted a through ball and not offside.
+- "Player26(Away Team) commits a foul on Player15(Home Team), resulting in a free kick being awarded in the defensive half." -> Counts as 1 Foul because the snippet explicitly states Player26 committed a foul.
+- "Player26(Away Team) is causing a delay in the match due to an injury." -> No event counted because no defined event is mentioned.
+- "Player26(Away Team) receives a yellow card for a rough challenge." -> Counts as 1 Yellow Card and 1 Foul because the snippet explicitly states Player26 received a yellow card for a rough challenge, which is a foul.
+- "Player26(Away Team)'s shot from outside the box is blocked with Player24(Away Team)'s assistance." -> Counts as 1 Shot because the snippet explicitly states Player26 took a shot.
+- "Player26(Away Team) earns a free kick on the right side of the field." -> Counts as 1 Free Kick because the snippet explicitly states Player26 earned a free kick.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 1     | 0     | 0       | 2          | 1     | 1            | 0         | 0        |
+```

@@ -1,0 +1,13 @@
+Analyzing the snippets for Player27:
+- "Player27(Away Team) scores with a right-footed shot from the center of the box, assisted by Player23(Away Team), The Away Team leads 1-0 against the Home Team." -> Counts as 1 Goal and 1 Shot because the snippet explicitly states Player27 scored a goal.
+- "Player27(Away Team) commits a foul." -> Counts as 1 Foul because the snippet explicitly states Player27 committed a foul.
+- "Player27(Away Team)'s shot from outside the box with his right foot was close but missed to the left, assisted by Player29(Away Team)." -> Counts as 1 Shot because the snippet explicitly states Player27's shot missed.
+- "Player27(Away Team)'s attempt from outside the box is blocked by the defense, with an assist from Player23(Away Team), resulting in a corner kick for the Away Team." -> Counts as 1 Shot because the snippet explicitly states Player27's attempt was blocked.
+- "Player27(Away Team) receives a yellow card." -> Counts as 1 Yellow Card because the snippet explicitly states Player27 received a yellow card.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 3     | 1     | 0       | 0          | 1     | 1            | 0         | 0        |
+```
