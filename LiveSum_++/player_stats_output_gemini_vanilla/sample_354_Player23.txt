@@ -1,0 +1,47 @@
+Okay, let's analyze the commentary snippets for Player23.
+
+1.  **Player Name:** Player23
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player23(Away Team) commits a foul."
+        *   Fouls: Increment by 1 (Fouls = 1)
+
+    *   Snippet 2: "Player23(Away Team) receives a yellow card for a rough tackle."
+        *   Yellow Cards: Increment by 1 (Yellow Cards = 1)
+
+    *   Snippet 3: "Player23(Away Team) commits a foul."
+        *   Fouls: Increment by 1 (Fouls = 2)
+
+    *   Snippet 4: "Player23(Away Team) receives a second yellow card for a reckless foul."
+        *   Yellow Cards: This is interpreted as a second yellow card, and the Red Card count is incremented
+        *   Red Cards: Increment by 1 (Red Cards = 1)
+        *   Yellow Cards: No increment, as it's noted as a *second* yellow, implying the first yellow was already accounted for.
+
+4.  **Final Counts:**
+
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 2
+    *   Yellow Cards = 1
+    *   Red Cards = 1
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 0     | 0     | 0       | 0          | 2     | 1            | 1         | 0        |
+```

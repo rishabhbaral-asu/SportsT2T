@@ -1,0 +1,32 @@
+Okay, let's start by identifying the player name and initializing the counts.
+
+Player Name: Player11
+
+Initial Counts:
+Shots: 0, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+Now, let's analyze each commentary snippet:
+
+Snippet 1: "Player11(Home Team) commits a foul."
+*   Fouls: Player11 commits a foul, so increment Fouls by 1. Fouls = 1
+
+Snippet 2: "Player11(Home Team) commits a foul."
+*   Fouls: Player11 commits a foul, so increment Fouls by 1. Fouls = 2
+
+Snippet 3: "Player11(Home Team) with a right-footed shot from the right side of the box, assisted by Player8(Home Team), The score now stands at Home Team 2, Away Team 1."
+*   Shots: Player11 took a shot, so increment Shots by 1. Shots = 1
+*   Goals: The snippet implies the shot resulted in a goal because the score changed and it was a shot on target, so we can infer goal. Goals = 1.
+*   Assists: Player11 was assisted by Player8, so Player11 gets no assists. Assists = 0
+
+Snippet 4: "Player11(Home Team) misses the header to the right from the center of the box."
+*   Shots: Player11 missed a header, which is a shot attempt, so increment Shots by 1. Shots = 2
+
+Final Counts:
+Shots: 2, Goals: 1, Assists: 0, Free Kicks: 0, Fouls: 2, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 1     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

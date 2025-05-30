@@ -1,0 +1,42 @@
+Okay, let's analyze the commentary snippets for Player2 and compile the statistics.
+
+1.  **Identify Target Player:** The target player is Player2.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player2(Home Team)'s shot from the center of the box is blocked by the defense, with an assist from Player10(Home Team)."
+        *   `Shot`: Player2 took a shot that was blocked. Increment Shots to 1.
+
+    *   **Snippet 2:** "Player2(Home Team) attempts a right footed shot from outside the box, but it goes high and wide to the right with the help of Player7(Home Team)'s assist."
+        *   `Shot`: Player2 attempted a shot that went high and wide. Increment Shots to 2.
+
+    *   **Snippet 3:** "Player2(Home Team) misses the attempt with a right footed shot from outside the box after a set piece."
+        *   `Shot`: Player2 missed the attempt with a shot. Increment Shots to 3.
+
+4.  **Final Counts:**
+
+    *   Shots = 3
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 3     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

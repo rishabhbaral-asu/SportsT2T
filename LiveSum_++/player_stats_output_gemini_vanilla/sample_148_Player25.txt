@@ -1,0 +1,51 @@
+Okay, I'm ready to process the provided inputs and generate the player statistics table.
+
+**1. Identify the target player name:**
+
+The target player name is Player25.
+
+**2. Initialize event counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze each commentary snippet and increment counts:**
+
+*   **Snippet 1:** "Player25(Away Team) committed a foul."
+    *   Fouls += 1 (Explicitly states Player25 committed a foul)
+
+*   **Snippet 2:** "Player25(Away Team) earns a free kick on the left side of the field."
+    *   Free Kicks += 1 (Explicitly states Player25 earned a free kick)
+
+*   **Snippet 3:** "Player25(Away Team) commits a foul, resulting in Player11(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player11(Home Team)'s team."
+    *   Fouls += 1 (Explicitly states Player25 committed a foul)
+
+*   **Snippet 4:** "Player25(Away Team) receives a yellow card for a rough tackle."
+    *   Yellow Cards += 1 (Explicitly states Player25 received a yellow card)
+
+*   **Snippet 5:** "Player25(Away Team)'s shot from outside the box is saved in the center of the goal, with an assist from Player29(Away Team)."
+    *   Shots += 1 (Explicitly states Player25 took a shot)
+
+**4. Final Counts:**
+
+Shots = 1
+Goals = 0
+Assists = 0
+Free Kicks = 1
+Fouls = 2
+Yellow Cards = 1
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 0     | 0       | 1          | 2     | 1            | 0         | 0        |
+```

@@ -1,0 +1,24 @@
+Okay, let's start by identifying the target player and initializing the statistics table.
+
+The target player is Player22.
+
+Now, let's analyze the commentary snippets and update the counts accordingly, following the strict guidelines.
+
+*   **Snippet 1:** "Player22(Away Team) fouls Player11(Home Team), resulting in a free kick being awarded on the right wing."
+    *   Fouls: Player22 commits a foul. Increment Fouls by 1.
+    *   Free Kicks: Player22 committed the foul resulting in a free kick for the other team. This does NOT count as a free kick for Player22.
+
+*   **Snippet 2:** "Player22(Away Team) commits a foul."
+    *   Fouls: Player22 commits a foul. Increment Fouls by 1.
+
+*   **Snippet 3:** "Player22(Away Team) earns a free kick in their own half after being fouled by Player11(Home Team)."
+    *   Free Kicks: Player22 earns a free kick. Increment Free Kicks by 1.
+
+Now, let's compile the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 0     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

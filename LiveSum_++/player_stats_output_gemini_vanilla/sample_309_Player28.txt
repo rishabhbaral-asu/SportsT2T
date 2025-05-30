@@ -1,0 +1,39 @@
+Okay, I will analyze the provided commentary snippets for Player28 and generate the summary table.
+
+**Player Name:** Player28
+
+**Commentary Snippets:**
+
+*   Player28(Away Team) scores with a right-footed shot from the center of the box, assisted by Player27(Away Team), The score is now tied at 1-1 between the Home Team and the Away Team.
+*   Player28(Away Team)'s left footed shot from the left side of the box narrowly misses to the right, with an assist from Player27(Away Team).
+*   Player28(Away Team) earns a free kick in the opponent's half.
+
+**Analysis:**
+
+*   **Snippet 1:** "Player28(Away Team) scores with a right-footed shot from the center of the box, assisted by Player27(Away Team), The score is now tied at 1-1 between the Home Team and the Away Team."
+    *   Mentions "scores" - Increment Goals by 1.
+    *   Mentions "shot" - Increment Shots by 1.
+    *   Mentions "assisted by Player27" - This means Player28 was assisted, not assisting. Do not increment Assists.
+*   **Snippet 2:** "Player28(Away Team)'s left footed shot from the left side of the box narrowly misses to the right, with an assist from Player27(Away Team)."
+    *   Mentions "shot" - Increment Shots by 1.
+    *   Mentions "assisted by Player27" - Player28 was assisted; do not increment Assists.
+*   **Snippet 3:** "Player28(Away Team) earns a free kick in the opponent's half."
+    *   Mentions "earns a free kick" - Increment Free Kicks by 1.
+
+**Final Counts:**
+
+*   Shots: 2
+*   Goals: 1
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 2     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

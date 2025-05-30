@@ -1,0 +1,36 @@
+Okay, let's analyze the commentary snippets for Player26.
+
+1.  **Player Name:** Player26
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player26(Away Team) misses the target with a high left-footed shot from long range."
+        *   Shots: Increment by 1 (explicitly mentions a shot).
+        *   Current counts: Shots = 1, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+    *   Snippet 2: "Player26(Away Team)'s left footed shot from outside the box just misses to the right, with an assist from Player25(Away Team)."
+        *   Shots: Increment by 1 (explicitly mentions a shot).
+        *   Assists: Do not increment. The snippet mentions Player25 assisting Player26, not Player26 assisting someone else.
+        *   Current counts: Shots = 2, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+    *   Snippet 3: "Player26(Away Team)'s shot from outside the box with their left foot was saved in the bottom right corner, with an assist from Player30(Away Team)."
+        *   Shots: Increment by 1 (explicitly mentions a shot).
+        *   Assists: Do not increment. The snippet mentions Player30 assisting Player26.
+        *   Current counts: Shots = 3, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 3     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

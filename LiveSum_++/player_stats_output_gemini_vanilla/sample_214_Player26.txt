@@ -1,0 +1,29 @@
+Okay, let's break this down step by step.
+
+1.  **Identify Target Player:** The target player is Player26.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Snippets:**
+    *   Snippet 1: "Player26(Away Team) commits a foul." - Fouls += 1
+    *   Snippet 2: "Player26(Away Team) commits a foul on Player9(Home Team), who is awarded a free kick in the attacking half, ." - Fouls += 1
+    *   Snippet 3: "Player26(Away Team) receives a yellow card for a rough tackle." - Yellow Cards += 1
+    *   Snippet 4: "Player26(Away Team) misses the target with a right-footed shot from outside the box." - Shots += 1
+    *   Snippet 5: "Player26(Away Team)'s shot from the center of the box is blocked by Player23(Away Team), following a foul." - Shots += 1
+    *   Snippet 6: "Player26(Away Team)'s shot from outside the box is blocked after being set up by Player24(Away Team)." - Shots += 1
+
+4. **Compile Results:**
+
+* Shots: 3
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 2
+* Yellow Cards: 1
+* Red Cards: 0
+* Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 3     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

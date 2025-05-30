@@ -1,0 +1,29 @@
+Okay, let's analyze the commentary snippets for Player29 and compile the statistics.
+
+**Player Name:** Player29
+
+**Commentary Snippets:**
+
+*   "Player29(Away Team) fouls."
+*   "Player29(Away Team) scores for the Away Team with a right footed shot from the center of the box, assisted by Player20(Away Team), The score is now Home Team 0, Away Team 1."
+*   "Player29(Away Team) earns a free kick in their own half."
+*   "Player29(Away Team) commits a foul."
+
+**Step-by-step analysis:**
+
+1.  **Shots:** The second snippet says "Player29(Away Team) scores for the Away Team with a right footed shot". This implies a shot was taken, so increment the shot counter by 1.
+2.  **Goals:** The second snippet says "Player29(Away Team) scores". Increment the goal counter by 1.
+3.  **Assists:** The second snippet says "assisted by Player20(Away Team)". Since the assist was given by Player20 and not Player29, the assist counter remains 0.
+4.  **Free Kicks:** The third snippet says "Player29(Away Team) earns a free kick". This indicates that Player29 was fouled and won a free kick. Increment the free kick counter by 1.
+5.  **Fouls:** The first snippet says "Player29(Away Team) fouls". Increment the fouls counter by 1. The fourth snippet says "Player29(Away Team) commits a foul.". Increment the fouls counter by 1. Total fouls = 2.
+6.  **Yellow Cards:** There are no mentions of yellow cards for Player29.
+7.  **Red Cards:** There are no mentions of red cards for Player29.
+8.  **Offsides:** There are no mentions of Player29 being offside.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 1     | 1     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

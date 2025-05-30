@@ -1,0 +1,64 @@
+Okay, let's analyze the commentary snippets for Player25.
+
+1.  **Player Name:**
+    `<PLAYER_NAME>`
+    `Player25`
+    `</PLAYER_NAME>`
+    The target player is Player25.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Commentary Analysis:**
+
+    *   Snippet 1: "Player25(Away Team)'s left footed shot from the right side of the box narrowly misses to the right, with an assist from Player27(Away Team)."
+        *   Shots: Player25 took a shot. Increment Shots to 1.
+        *   Goals: No goal scored by Player25.
+        *   Assists: Player25 did *not* provide the assist; Player27 did.
+        *   Free Kicks: No free kick event for Player25 is mentioned.
+        *   Fouls: No foul committed by Player25 is mentioned.
+
+    *   Snippet 2: "Player25(Away Team)'s left footed shot from outside the box, assisted by Player28(Away Team), was blocked, resulting in Player29(Away Team) winning a free kick in the defensive half."
+        *   Shots: Player25 took a shot. Increment Shots to 2.
+        *   Goals: No goal scored by Player25.
+        *   Assists: Player25 did *not* provide the assist.
+        *   Free Kicks: No free kick event for Player25 is mentioned.
+        *   Fouls: No foul committed by Player25 is mentioned.
+
+    *   Snippet 3: "Player25(Away Team) earns a free kick in the attacking half after being fouled by Player4(Home Team)."
+        *   Shots: No shot taken.
+        *   Goals: No goal scored.
+        *   Assists: No assist provided.
+        *   Free Kicks: Player25 earned a free kick. Increment Free Kicks to 1.
+        *   Fouls: No foul committed.
+
+    *   Snippet 4: "Player25(Away Team) commits a foul, resulting in Player3(Home Team) winning a free kick in their own defensive half, The referee blows the whistle."
+        *   Shots: No shot.
+        *   Goals: No goal.
+        *   Assists: No assist.
+        *   Free Kicks: No free kick taken by Player25 mentioned.
+        *   Fouls: Player25 committed a foul. Increment Fouls to 1.
+
+4.  **Final Counts:**
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

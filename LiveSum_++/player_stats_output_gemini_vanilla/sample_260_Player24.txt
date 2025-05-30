@@ -1,0 +1,38 @@
+Okay, let's break this down step by step.
+
+1.  **Identify Player Name:** The player we are tracking is Player24.
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player24(Away Team) commits a foul, leading to Player7(Home Team) winning a free kick in the defensive half, This results in a free kick being awarded to Player7(Home Team) in their own defensive territory after Player24(Away Team) commits a foul."
+        *   "commits a foul" - This clearly indicates a foul committed by Player24. Increment Fouls by 1.
+        * Player 7 wins a free kick due to the foul.
+
+    *   **Snippet 2:** "Player24(Away Team) is causing a delay in the match due to an injury."
+        *   This snippet does not contain any of the keywords related to the tracked events (Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, Offsides). It only mentions an injury causing a delay. No counts are incremented.
+
+4. **Compile Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

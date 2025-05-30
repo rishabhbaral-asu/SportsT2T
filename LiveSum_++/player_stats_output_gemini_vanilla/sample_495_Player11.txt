@@ -1,0 +1,54 @@
+Okay, let's analyze the commentary snippets for Player11 and compile the statistics.
+
+**1. Player Identification:**
+
+The target player is Player11.
+
+**2. Initialization:**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player11(Home Team) earns a free kick on the left side of the field."
+    *   This snippet explicitly states that Player11 *earns a free kick*. This counts as a Free Kick (Taken).
+    *   Free Kicks = 1
+
+*   **Snippet 2:** "Player11(Home Team)'s left footed shot from a tough angle on the left is saved in the bottom right corner."
+    *   This snippet explicitly mentions Player11 taking a shot that was saved. This counts as a Shot.
+    *   Shots = 1
+
+*   **Snippet 3:** "Player11(Home Team) narrowly misses a right-footed shot from the right side of the box, assisted by Player10(Home Team) with a headed pass, as Player26(Away Team) is penalized for a hand ball."
+    *   This snippet mentions Player11 missing a shot. This counts as a Shot.
+    *   Shots = 2
+
+*   **Snippet 4:** "Player11(Home Team) scores with a right-footed shot from the center of the box, assisted by Player10(Home Team) with a headed pass after a set piece, Home Team leads 1-0 against Away Team."
+    *   This snippet mentions Player11 scoring a goal. This counts as both a Goal and a Shot.
+    *   Shots = 3
+    *   Goals = 1
+
+**4. Final Counts:**
+
+*   Shots = 3
+*   Goals = 1
+*   Assists = 0
+*   Free Kicks = 1
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 3     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

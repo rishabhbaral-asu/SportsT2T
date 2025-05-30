@@ -1,0 +1,29 @@
+Okay, let's process the input step by step to generate the final summary table.
+
+1.  **Identify Target Player:**
+    The target player is Player22.
+
+2.  **Initialize Counts:**
+    Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player22(Away Team) scores with a close-range right-footed shot to the bottom right corner, assisted by Player21(Away Team) after a corner kick, Home Team now trails 1-2 against Away Team."
+        *   **Shots:** Player22 scores, so increment Shots by 1.
+        *   **Goals:** Player22 scores, so increment Goals by 1.
+        *   **Assists:** Player22 was assisted by Player21, so Player22 gets 0 assists.
+        *   **Free Kicks:** No mention of a free kick, but goals count as a Free Kick. Increment Free Kicks by 1
+        *   **Fouls:** No mention of a foul.
+        *   **Yellow Cards:** No mention of a yellow card.
+        *   **Red Cards:** No mention of a red card.
+        *   **Offsides:** No mention of offsides.
+
+4.  **Final Counts:**
+    Shots = 1, Goals = 1, Assists = 0, Free Kicks = 1, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 1     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,42 @@
+Okay, let's start by identifying the target player and initializing the statistics.
+
+Target Player: Player14
+
+Initial Statistics:
+* Shots: 0
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 0
+* Yellow Cards: 0
+* Red Cards: 0
+* Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player14(Home Team) earns a free kick in their own half after being fouled by Player24(Away Team)."
+
+*   This snippet explicitly states that Player14 earned a free kick as a result of being fouled. Therefore, Free Kicks is incremented by 1.
+*   No goals, assists, shots, fouls, yellow cards, red cards, or offsides are mentioned.
+
+Snippet 2: "Player14(Home Team) earns a free kick in the opponent's half."
+
+*   This snippet explicitly states that Player14 earned a free kick. Therefore, Free Kicks is incremented by 1.
+*   No goals, assists, shots, fouls, yellow cards, red cards, or offsides are mentioned.
+
+Final Statistics:
+* Shots: 0
+* Goals: 0
+* Assists: 0
+* Free Kicks: 2
+* Fouls: 0
+* Yellow Cards: 0
+* Red Cards: 0
+* Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player14 | 0     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

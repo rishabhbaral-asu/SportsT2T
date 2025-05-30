@@ -1,0 +1,29 @@
+Okay, let's process the player commentary snippets for Player15.
+
+First, identify the target player: Player15
+
+Now, initialize the counts for all events to 0.
+
+Next, analyze each commentary snippet and increment the counts based on the rules.
+
+*   **Snippet 1:** "Player15(Home Team)'s shot from outside the box is blocked after being assisted by Player7(Home Team)."
+    *   The snippet explicitly states "Player15's shot". Increment the Shots count by 1. It does not say anything about a goal, assist, free kick, foul, or card for Player15.
+
+*   **Snippet 2:** "Player15(Home Team) with a great pass."
+    *   The snippet does not explicitly state that this pass led to a goal. Therefore, no assist is recorded.
+
+*   **Snippet 3:** "Player15(Home Team) receives a yellow card for a rough tackle."
+    *   The snippet explicitly states "Player15 receives a yellow card". Increment the Yellow Cards count by 1.
+    *   The snippet also mentions a "rough tackle", thus it is implied that the player commits a foul. Increment the fouls count by 1.
+
+*   **Snippet 4:** "Player15(Home Team) commits a foul on Player23(Away Team), resulting in a free kick being awarded to Player3(Home Team) on the left wing."
+    *   The snippet explicitly states "Player15 commits a foul". Increment the Fouls count by 1.
+
+Now, consolidate the counts into the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player15 | 1     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

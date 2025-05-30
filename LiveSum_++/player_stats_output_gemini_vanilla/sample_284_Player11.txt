@@ -1,0 +1,24 @@
+Okay, I'm ready to analyze the commentary snippets for Player11 and compile the statistics.
+
+**Reasoning:**
+
+1.  **Player Name:** The target player is Player11.
+2.  **Initialization:** Initialize all event counts to 0 for Player11.
+3.  **Snippet Analysis (Applying Absolute Strict Counting):**
+
+    *   **Snippet 1:** "Player11(Home Team)'s shot from outside the box is saved in the bottom left corner after a through ball from Player8(Home Team)." - Contains "shot", attributed to Player11. Shots = 1.
+    *   **Snippet 2:** "Player11(Home Team)'s shot from the left side of the box is blocked after an assist from Player10(Home Team)." - Contains "shot", attributed to Player11. Shots = 2.
+    *   **Snippet 3:** "Player11(Home Team) of the Home Team as Player2(Home Team) attempts a through ball." - No relevant keywords or actions performed *by* Player11. No changes to counts.
+    *   **Snippet 4:** "Player11(Home Team)'s shot from the center of the box is blocked with the help of Player2(Home Team)." - Contains "shot", attributed to Player11. Shots = 3.
+    *   **Snippet 5:** "Player11(Home Team)'s shot from the center of the box is blocked by the defense after being set up by Player8(Home Team)'s cross." - Contains "shot", attributed to Player11. Shots = 4.
+    *   **Snippet 6:** "Player11(Home Team)'s shot with their right foot from the center of the box into the bottom right corner." - Contains "shot" and implies a "goal", attributed to Player11. Shots = 5, Goals = 1.
+    *   **Snippet 7:** "Player11(Home Team)'s header from the center of the box is saved in the bottom left corner after a cross from Player5(Home Team)." - Contains "header" (as a shot) and "saved", attributed to Player11. Shots = 6.
+    *   **Snippet 8:** "Player11(Home Team)'s shot from the right side of the box is blocked after being assisted by Player8(Home Team) with a through ball, resulting in a corner kick for the Home Team." - Contains "shot", attributed to Player11. Shots = 7.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 7     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

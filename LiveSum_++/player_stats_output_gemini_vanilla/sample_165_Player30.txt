@@ -1,0 +1,25 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
+
+1.  **Identify the target player name from `<PLAYER_NAME>`:**
+    The target player is Player30.
+
+2.  **Initialize counts for all player-specific events to 0:**
+    Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+3.  **Analyze each snippet within `<PLAYER_COMMENTARY_SNIPPETS>`:**
+
+    *   Snippet 1: "Player30(Away Team)'s shot from outside the box is saved in the bottom right corner with an assist from Player27(Away Team)."
+        *   "shot" attributed to Player30: Shots += 1
+        *   "assist" attributed to Player27, so Player30's Assists remains 0.
+
+4.  **Final Count:**
+    Shots = 1, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player30 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

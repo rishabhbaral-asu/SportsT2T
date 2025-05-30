@@ -1,0 +1,49 @@
+Okay, let's process the input step by step according to the instructions.
+
+1.  **Identify Target Player:** The target player is Player22.
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player22(Away Team)'s left footed shot from outside the box was blocked with an assist from Player24(Away Team)."
+        *   "shot" is present and explicitly attributed to Player22. Increment Shots: Shots = 1.
+        *   The assist is FROM Player24, not Player22.
+
+    *   **Snippet 2:** "Player22(Away Team) misses a header to the right from the center of the box after a cross from Player34(Away Team) following a corner."
+        *   "header" is present and explicitly an attempt on goal attributed to Player22. Increment Shots: Shots = 2
+        *   The cross is FROM Player34, not Player22.
+
+    *   **Snippet 3:** "Player22(Away Team) fouls Player16(Home Team), resulting in a free kick in the defensive half."
+        *   "fouls" is present and explicitly committed by Player22. Increment Fouls: Fouls = 1.
+        * No free kick was taken by the player, but rather conceded, so no increment.
+
+    *   **Snippet 4:** "Player22(Away Team) receives a yellow card for a rough tackle."
+        *   "yellow card" is present and explicitly received by Player22. Increment Yellow Cards: Yellow Cards = 1.
+        *   "rough tackle" implies a foul. Since the snippet also mentions the yellow card resulting from the tackle, the foul is attributed to Player22, but this event was already counted.
+
+4. **Compile Results:**
+
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 2     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

@@ -1,0 +1,31 @@
+Okay, let's start by identifying the target player and initializing the event counts.
+
+Target Player: Player10
+
+Initialized Counts:
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Now, let's analyze each commentary snippet and increment the counts accordingly, applying the strict counting rules.
+
+Snippet 1: "Player10(Home Team) misses the header from the center of the box, it's too high, The cross was provided by Player8(Home Team)."
+*   Shots: The phrase "misses the header" indicates an attempt on goal, so increment Shots by 1.
+
+Snippet 2: "Player10(Home Team) earns a free kick in the opponent's half."
+*   Free Kicks: The phrase "earns a free kick" indicates Player10 won a free kick. Increment Free Kicks by 1.
+
+Snippet 3: "Player10(Home Team) is currently delayed in the match due to an injury."
+*   No relevant events are mentioned, so no counts are incremented.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

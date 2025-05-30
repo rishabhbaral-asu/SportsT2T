@@ -1,0 +1,46 @@
+Okay, I'm ready to process the player commentary snippets and generate the summary table.
+
+**1. Identify the target player name:**
+
+The target player is Player11.
+
+**2. Initialize event counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze each snippet and increment counts:**
+
+*   **Snippet 1:** "Player11(Home Team)'s left footed shot from outside the box was blocked with an assist from Player3(Home Team)."
+    *   Mentions "shot" by Player11. Increment Shots: Shots = 1
+    *   Mentions assist *from* Player3, *not* Player11, so no assist credited to Player11.
+
+*   **Snippet 2:** "Player11(Home Team)'s header from the center of the box, assisted by Player9(Home Team) with a cross, is just too high, resulting in a missed attempt as Player26(Away Team) wins a free kick in the defensive half."
+    *   Mentions "header" which is an attempt on goal, which is a "shot" by Player11. Increment Shots: Shots = 2
+    *   Mentions assist *from* Player9, *not* Player11, so no assist credited to Player11.
+    *   Mentions Player26 winning a free kick, not Player11, so no free kick credited to Player11 and no foul credited to Player11.
+
+*   **Snippet 3:** "Player11(Home Team) scores with a left-footed shot from the center of the box, assisted by Player9(Home Team), Home Team leads 2-0 against Away Team."
+    *   Mentions "scores" by Player11. Increment Goals: Goals = 1
+    *   Mentions "shot" by Player11. Increment Shots: Shots = 3
+    *   Mentions assist *from* Player9, *not* Player11, so no assist credited to Player11.
+
+*   **Snippet 4:** "Player11(Home Team) earns a free kick in the opponent's half."
+    *   Mentions Player11 "earns a free kick," so Player11 wins a free kick. Increment Free Kicks: Free Kicks = 1
+
+*   **Snippet 5:** "Player11(Home Team) earns a free kick on the right side of the field."
+    *   Mentions Player11 "earns a free kick," so Player11 wins a free kick. Increment Free Kicks: Free Kicks = 2
+
+**4. Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 3     | 1     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

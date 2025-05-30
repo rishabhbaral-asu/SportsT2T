@@ -1,0 +1,30 @@
+Okay, let's start by identifying the player name and initializing the counts.
+
+The player name is Player2.
+
+Now, let's initialize the counts:
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player2(Home Team) has committed a hand ball."
+This snippet indicates Player2 committed a foul (hand ball).
+Therefore, Fouls += 1
+
+Snippet 2: "Player2(Home Team)'s shot from outside the box is saved in the bottom left corner with an assist from Player6(Home Team)."
+This snippet mentions Player2 taking a shot. The shot was saved, but it is still a shot attempt.
+Therefore, Shots += 1
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

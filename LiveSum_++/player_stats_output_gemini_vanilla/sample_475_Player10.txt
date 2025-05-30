@@ -1,0 +1,53 @@
+Okay, let's start.
+
+1.  **Player Name:** `Player10`
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Commentary Snippet Analysis:**
+
+    *   **Snippet 1:** "Player10(Home Team) misses the goal with a right-footed shot from outside the box, assisted by Player3(Home Team) after a corner kick."
+        *   "misses the goal...shot" - This clearly indicates a shot taken by Player10. Increment Shots.
+        *   Shots = 1
+        *   This snippet indicates Player10 was assisted by Player3, therefore we DO NOT increment assists for Player10.
+        *   Free Kicks = 0
+        *   Fouls = 0
+        *   Yellow Cards = 0
+        *   Red Cards = 0
+        *   Offsides = 0
+
+    *   **Snippet 2:** "Player10(Home Team)'s attempt from outside the box, assisted by Player9(Home Team), missed to the right, while Player8(Home Team)'s shot was blocked."
+        *   "attempt" - This clearly indicates a shot taken by Player10. Increment Shots.
+        *   Shots = 2
+        *   This snippet indicates Player10 was assisted by Player9, therefore we DO NOT increment assists for Player10.
+        *   Free Kicks = 0
+        *   Fouls = 0
+        *   Yellow Cards = 0
+        *   Red Cards = 0
+        *   Offsides = 0
+
+4. **Final Counts:**
+
+*   Shots: 2
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

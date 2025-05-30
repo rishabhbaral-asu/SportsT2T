@@ -1,0 +1,20 @@
+Okay, let's start by identifying the player and initializing the counts.
+
+Player Name: Player25
+
+Now, let's process the commentary snippets.
+
+Commentary Snippet 1: "Player25(Away Team) of the Away Team as Player29(Away Team) was caught offside on the through ball."
+*   This snippet states Player25 was involved in a play where Player29 was caught offside. Player25 was not caught offside, so no offside is counted for them. This snippet does not include any of the other keywords.
+
+Commentary Snippet 2: "Player25(Away Team) has been given a yellow card."
+*   This snippet explicitly states Player25 received a yellow card. Therefore, the Yellow Cards count is incremented.
+
+Now, let's compile the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 0     | 0     | 0       | 0          | 0     | 1            | 0         | 0        |
+```

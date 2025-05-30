@@ -1,0 +1,48 @@
+Okay, let's analyze the commentary snippets for Player25 and compile the statistics.
+
+**1. Identify Target Player:**
+
+The target player is Player25.
+
+**2. Initialize Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player25(Away Team) earns a free kick in the opponent's half of the field."
+    *   This snippet indicates Player25 earned a free kick. Therefore, increment "Free Kicks" by 1.
+
+*   **Snippet 2:** "Player25(Away Team) commits a foul, resulting in Player10(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player10(Home Team)'s team."
+    *   This snippet indicates Player25 committed a foul. Therefore, increment "Fouls" by 1.
+
+*   **Snippet 3:** "Player25(Away Team) receives a yellow card for a harsh tackle."
+    *   This snippet indicates Player25 received a yellow card. Therefore, increment "Yellow Cards" by 1.
+
+*   **Snippet 4:** "Player25(Away Team) earns a free kick in the opponent's territory due to a foul committed by Player9(Home Team)."
+    *   This snippet indicates Player25 earned a free kick. Therefore, increment "Free Kicks" by 1.
+
+**4. Final Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 2
+*   Fouls: 1
+*   Yellow Cards: 1
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 0     | 0     | 0       | 2          | 1     | 1            | 0         | 0        |
+```

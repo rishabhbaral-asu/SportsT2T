@@ -1,0 +1,76 @@
+Okay, let's start by identifying the target player and initializing the event counts.
+
+Target Player: Player6
+
+Initial Event Counts:
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Now, let's analyze each commentary snippet and increment the counts accordingly, based on the strict rules.
+
+Snippet 1: "Player6(Home Team)'s left footed shot from the left side of the box goes wide to the right, with an assist from Player10(Home Team)."
+
+*   Shots: The snippet explicitly mentions "shot" by Player6, so increment Shots by 1.
+*   Goals: No goal mentioned.
+*   Assists: No assist *by* Player6 is mentioned. Player6 *received* an assist, which doesn't count.
+*   Free Kicks: No free kick related action by player6
+*   Fouls: No foul mentioned.
+*   Yellow Cards: No yellow card mentioned.
+*   Red Cards: No red card mentioned.
+*   Offsides: No offside mentioned.
+
+Snippet 2: "Player6(Home Team)'s shot from outside the box is blocked with the help of Player9(Home Team)."
+
+*   Shots: The snippet explicitly mentions "shot" by Player6, so increment Shots by 1.
+*   Goals: No goal mentioned.
+*   Assists: No assist mentioned.
+*   Free Kicks: No free kick related action by player6
+*   Fouls: No foul mentioned.
+*   Yellow Cards: No yellow card mentioned.
+*   Red Cards: No red card mentioned.
+*   Offsides: No offside mentioned.
+
+Snippet 3: "Player6(Home Team) scores with a header from the center of the box to the bottom right corner, assisted by Player9(Home Team) with a cross, Home Team leads 1-0 against Away Team."
+
+*   Shots: The snippet explicitly mentions "scores," so this counts as a shot, increment Shots by 1.
+*   Goals: The snippet explicitly mentions "scores," so increment Goals by 1.
+*   Assists: No assist *by* Player6 is mentioned. Player6 *received* an assist, which doesn't count.
+*   Free Kicks: No free kick related action by player6
+*   Fouls: No foul mentioned.
+*   Yellow Cards: No yellow card mentioned.
+*   Red Cards: No red card mentioned.
+*   Offsides: No offside mentioned.
+
+Snippet 4: "Player6(Home Team) earns a free kick in the opponent's half."
+
+*   Shots: No shot mentioned.
+*   Goals: No goal mentioned.
+*   Assists: No assist mentioned.
+*   Free Kicks: Player6 earns a free kick, which counts as a Free Kick, increment Free Kicks by 1.
+*   Fouls: No foul mentioned.
+*   Yellow Cards: No yellow card mentioned.
+*   Red Cards: No red card mentioned.
+*   Offsides: No offside mentioned.
+
+Final Event Counts:
+*   Shots: 3
+*   Goals: 1
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 3     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

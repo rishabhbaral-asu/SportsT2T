@@ -1,0 +1,21 @@
+Okay, let's analyze the commentary snippets for Player21.
+
+1.  **Player Name:** The target player is Player21.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Snippets:**
+
+*   **Snippet 1:** "Player21(Away Team) commits a foul, resulting in Player9(Home Team) winning a free kick in the attacking half, ."
+    *   The snippet explicitly states "Player21 commits a foul". So, Fouls = 1.
+    *   The snippet also states Player9 won a free kick. While this happened *because* of the foul, it does *not* state that Player21 took/attempted a free kick or was fouled. Therefore, Free Kicks remains at 0.
+
+*   **Snippet 2:** "Player21(Away Team) receives a yellow card for a foul."
+    *   The snippet explicitly states "Player21 receives a yellow card". So, Yellow Cards = 1.
+
+4.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 1, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 0     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

@@ -1,0 +1,50 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
+
+**Input:**
+* **Player Name:**
+    <PLAYER_NAME>
+    Player18
+    </PLAYER_NAME>
+* **Commentary Snippets:**
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player18(Away Team) committed a hand ball.
+- Player18(Away Team) has been sent off with a red card.
+    </PLAYER_COMMENTARY_SNIPPETS>
+
+**Process:**
+
+1.  **Player Identification:** The target player is Player18.
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+3.  **Snippet Analysis:**
+    *   Snippet 1: "Player18(Away Team) committed a hand ball."
+        *   This snippet explicitly states Player18 committed a hand ball, which is considered a foul.
+        *   Increment Fouls: Fouls = 0 + 1 = 1
+    *   Snippet 2: "Player18(Away Team) has been sent off with a red card."
+        *   This snippet explicitly states Player18 received a red card.
+        *   Increment Red Cards: Red Cards = 0 + 1 = 1
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 1
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player18 | 0     | 0     | 0       | 0          | 1     | 0            | 1         | 0        |
+```

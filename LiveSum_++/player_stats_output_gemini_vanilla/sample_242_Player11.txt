@@ -1,0 +1,54 @@
+Okay, I will analyze the commentary snippets for Player11 and compile the requested statistics.
+
+**Step-by-step reasoning:**
+
+1.  **Identify Target Player:** The target player is Player11.
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player11(Home Team) from the Home Team attempts a through ball, but Player5(Home Team) is offside."
+        *   Player11 attempts a through ball, but it leads to an offside. This does not count as a shot, goal, assist, free kick or foul.
+        *   Offsides: Player11 did not commit the offside, another player did. No count.
+        *   **No Change**
+
+    *   **Snippet 2:** "Player11(Home Team) commits a foul."
+        *   Explicitly states Player11 committed a foul.
+        *   Fouls: Increment to 1.
+        *   **Fouls = 1**
+
+    *   **Snippet 3:** "Player11(Home Team) misses the target with a high shot from a tough angle on the left side."
+        *   Explicitly states Player11 missed the target with a shot.
+        *   Shots: Increment to 1.
+        *   **Shots = 1**
+
+    *   **Snippet 4:** "Player11(Home Team) is currently sidelined due to an injury, causing a delay in the match."
+        *   This snippet describes Player11 being injured. This doesn't directly affect any of the tracked statistics.
+        *   **No Change**
+
+4.  **Final Counts:**
+
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

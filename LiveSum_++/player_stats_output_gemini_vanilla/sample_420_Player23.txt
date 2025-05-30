@@ -1,0 +1,40 @@
+Okay, let's start.
+
+**1. Identify the target player:**
+The target player is Player23.
+
+**2. Initialize counts:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze commentary snippets:**
+
+*   **Snippet 1:** "Player23(Away Team) commits a foul, resulting in Player6(Home Team) winning a free kick on the right wing, ."
+    *   Fouls: The snippet explicitly states "Player23(Away Team) commits a foul". Increment Fouls by 1. Fouls = 1.
+    * Free Kicks: The snippet says that Player6 won a free kick as a result of Player23's foul, however, this does not count as Player23 taking a free kick.
+
+*   **Snippet 2:** "Player23(Away Team) receives a yellow card for a rough tackle."
+    *   Yellow Cards: The snippet explicitly states "Player23(Away Team) receives a yellow card". Increment Yellow Cards by 1. Yellow Cards = 1.
+
+**4. Final Counts:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 1
+Yellow Cards = 1
+Red Cards = 0
+Offsides = 0
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 0     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

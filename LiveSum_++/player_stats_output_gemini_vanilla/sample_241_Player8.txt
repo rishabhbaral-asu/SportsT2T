@@ -1,0 +1,21 @@
+Okay, let's start by identifying the player name.
+The player name is Player8.
+
+Now, let's initialize the counts for all events to 0.
+
+Next, I will process each commentary snippet and increment the counts accordingly.
+
+*   **Snippet 1:** "Player8(Home Team) with a great pass."
+    This snippet mentions a pass by Player8, but it does not say that this pass led to a goal. Therefore, the assist count remains at 0.
+
+*   **Snippet 2:** "Player8(Home Team) commits a foul."
+    This snippet explicitly states that Player8 committed a foul. Therefore, the foul count increments to 1.
+
+Now, let's create the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

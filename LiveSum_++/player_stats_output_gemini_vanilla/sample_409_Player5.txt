@@ -1,0 +1,37 @@
+Okay, let's analyze the commentary snippets for Player5 and compile the statistics.
+
+1.  **Player Name:** The target player is Player5.
+2.  **Initialization:** We initialize Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, and Offsides to 0.
+
+Now, we process each commentary snippet:
+
+*   **Snippet 1:** "Player5(Home Team) from the Home Team tried passing to Player9(Home Team), but Player9(Home Team) was offside."
+    *   Player5 is mentioned. The snippet indicates Player5 attempted a pass that led to Player9 being offside. This is neither a shot, goal, assist, free kick, foul, nor a card. Player5 is the passer and Player9 is offside, so offsides do not increment.
+
+*   **Snippet 2:** "Player5(Home Team) commits a foul."
+    *   Player5 is mentioned. The snippet explicitly states Player5 committed a foul. Fouls is incremented by 1.
+
+*   **Snippet 3:** "Player5(Home Team) receives a yellow card for a rough challenge."
+    *   Player5 is mentioned. The snippet explicitly states Player5 receives a yellow card. Yellow Cards is incremented by 1.
+    *   The snippet also indicates the reason for the yellow card was a "rough challenge", which is another instance of Player5 committing a foul. Fouls is incremented by 1.
+
+*   **Snippet 4:** "Player5(Home Team) commits a foul."
+    *   Player5 is mentioned. The snippet explicitly states Player5 committed a foul. Fouls is incremented by 1.
+
+**Final Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 3
+*   Yellow Cards: 1
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 0     | 0     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

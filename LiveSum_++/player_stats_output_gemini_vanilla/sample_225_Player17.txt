@@ -1,0 +1,41 @@
+Okay, let's analyze the commentary snippets for Player17.
+
+1.  **Player Name:** Player17
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player17(Home Team)'s header is saved in the top left corner after a cross from Player5(Home Team)."
+        *   Player17 performs a header (attempt on goal) which is saved.
+        *   Increment Shots: Shots = 1
+    *   Snippet 2: "Player17(Home Team) misses a right footed shot from the right side of the box assisted by Player15(Home Team), as Player10(Home Team) is caught offside from Player5(Home Team)'s through ball."
+        *   Player17 misses a shot.
+        *   Increment Shots: Shots = 2
+        * Player17 was assisted but this does not increment Player17's assists.
+        * Player10 being offside has no affect on Player17's stats.
+
+4.  **Final Counts:**
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player17 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,21 @@
+Okay, let's analyze the commentary snippets for Player14 and generate the requested markdown table.
+
+**Player Name:** Player14
+
+**Commentary Snippets:**
+
+*   "Player14(Home Team)'s left footed shot from the center of the box is blocked with an assist from Player9(Home Team), resulting in a corner kick for the Home Team." - This snippet contains "shot" for Player14, so Shots increments to 1. It does not count as an assist for Player14 as Player14 received an assist from Player9.
+*   "Player14(Home Team)'s shot from the center of the box is blocked with the help of Player10(Home Team)." - This snippet contains "shot" for Player14, so Shots increments to 2.
+*   "Player14(Home Team)'s shot from outside the box with their left foot is saved in the middle of the goal, with an assist from Player10(Home Team)." - This snippet contains "shot" for Player14, so Shots increments to 3. It does not count as an assist for Player14 as Player14 received an assist from Player10.
+*   "Player14(Home Team)'s shot from outside the box is blocked with the help of Player15(Home Team)." - This snippet contains "shot" for Player14, so Shots increments to 4.
+*   "Player14(Home Team) commits a foul on Player23(Away Team), who earns a free kick on the right wing." - This snippet contains "foul" committed by Player14, so Fouls increments to 1.
+*   "Player14(Home Team) scores with a right-footed shot from outside the box, assisted by Player10(Home Team), giving the Home Team a 2-1 lead over the Away Team." - This snippet contains "scores" and "shot" for Player14, so Shots increments to 5 and Goals increments to 1. It does not count as an assist for Player14 as Player14 received an assist from Player10.
+*   "Player14(Home Team) scores for the Home Team, making it 3-1 with a close-range shot into the bottom left corner, assisted by Player7(Home Team)." - This snippet contains "scores" and "shot" for Player14, so Shots increments to 6 and Goals increments to 2. It does not count as an assist for Player14 as Player14 received an assist from Player7.
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player14 | 6     | 2     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

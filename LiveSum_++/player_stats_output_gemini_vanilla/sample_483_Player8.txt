@@ -1,0 +1,38 @@
+Okay, let's analyze the commentary snippets for Player8 and compile the statistics.
+
+1.  **Player Name:** Player8
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Commentary Snippet Analysis:**
+
+    *   Snippet 1: "Player8(Home Team) earns a free kick in the opponent's half."
+        *   This snippet explicitly states Player8 earned a free kick. Therefore, increment Free Kicks by 1.
+
+    *   Snippet 2: "Player8(Home Team) attempts to pass the ball forward to Player2(Home Team), but Player2(Home Team) is in an offside position."
+        *   This snippet explicitly states Player2 is offside, not Player8. Player8 attempting to pass doesn't qualify for Shots, Goals, or Assists based on provided Keywords.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

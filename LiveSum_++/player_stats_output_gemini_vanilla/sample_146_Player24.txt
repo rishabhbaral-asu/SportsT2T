@@ -1,0 +1,49 @@
+Okay, let's analyze the commentary snippets for Player24 and compile the statistics.
+
+**1. Identify Target Player:**
+
+The target player is Player24.
+
+**2. Initialize Counts:**
+
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player24(Away Team)'s attempt from outside the box on a direct free kick was just a little too high."
+    *   This snippet indicates Player24 attempted a shot and also took a direct free kick.
+    *   Increment Shots: 0 + 1 = 1
+    *   Increment Free Kicks: 0 + 1 = 1
+
+*   **Snippet 2:** "Player24(Away Team) attempts a through ball, but Player25(Away Team) is caught offside."
+    *   This snippet indicates Player24 attempted a through ball but it did not result in a goal, and Player25 was offside, so this is NOT an assist.
+    *   Increment Offsides: 0 + 0 = 0
+
+*   **Snippet 3:** "Player24(Away Team)'s header from the center of the box is blocked after being assisted by Player29(Away Team) with a cross."
+    *   This snippet indicates Player24 attempted a header which was blocked, so it counts as a shot.
+    *   Increment Shots: 1 + 1 = 2
+
+**4. Final Counts:**
+
+Shots: 2
+Goals: 0
+Assists: 0
+Free Kicks: 1
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 2     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

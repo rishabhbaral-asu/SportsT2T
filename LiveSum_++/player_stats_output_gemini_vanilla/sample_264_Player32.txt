@@ -1,0 +1,45 @@
+Okay, let's start by identifying the target player and initializing the counts.
+
+Target Player: Player32
+
+Initial Counts:
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Now, let's analyze each commentary snippet and increment the counts accordingly.
+
+Snippet 1: "Player32(Away Team) misses the target with a left-footed shot from outside the box after a set piece."
+
+*   Shots: Player32 misses a shot. Increment Shots to 1.
+
+Snippet 2: "Player32(Away Team) wins a free kick in the attacking half and assists Player28(Away Team), whose right footed shot from outside the box is saved in the top right corner."
+
+*   Free Kicks: Player32 wins a free kick. Increment Free Kicks to 1.
+*   Assists: Player32 assists Player28, leading to a shot (saved, but still an assist). Increment Assists to 1.
+
+Snippet 3: "Player32(Away Team) commits a foul on Player6(Home Team), who earns a free kick on the right wing."
+
+*   Fouls: Player32 commits a foul. Increment Fouls to 1.
+
+Final Counts:
+*   Shots: 1
+*   Goals: 0
+*   Assists: 1
+*   Free Kicks: 1
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player32 | 1     | 0     | 1       | 1          | 1     | 0            | 0         | 0        |
+```

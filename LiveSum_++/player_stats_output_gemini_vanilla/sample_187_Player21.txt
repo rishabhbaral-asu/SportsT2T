@@ -1,0 +1,36 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player21 and generate the final summary table.
+
+**Player Name:** Player21
+
+**Commentary Snippets:**
+
+*   Player21(Away Team) commits a foul.
+*   Player21(Away Team)'s close-range header from a corner kick assisted by Player27(Away Team) narrowly misses to the right.
+*   Player21(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team.
+*   Player21(Away Team) misses a header to the left from the center of the box after a corner kick, assisted by Player24(Away Team).
+
+**Analysis:**
+
+1.  **Fouls:** The first snippet explicitly states "Player21(Away Team) commits a foul." Therefore, Fouls count is incremented by 1.
+2.  **Shots:** The second snippet says "Player21(Away Team)'s close-range header from a corner kick assisted by Player27(Away Team) narrowly misses to the right.". The phrase 'header' and 'misses' implies an attempt on goal, thus counting as a shot, so shots is incremented by 1.
+3.  **Assists:** The second snippet mentions "assisted by Player27", so we do not increment assists for Player21.
+4.  **Offsides:** The third snippet involves Player29 being offside, not Player21. Therefore offsides is not incremented for Player21.
+5.  **Shots:** The fourth snippet says "Player21(Away Team) misses a header to the left from the center of the box after a corner kick, assisted by Player24(Away Team).". The phrase 'header' and 'misses' implies an attempt on goal, thus counting as a shot, so shots is incremented by 1.
+
+**Event Counts:**
+
+*   Shots: 2
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

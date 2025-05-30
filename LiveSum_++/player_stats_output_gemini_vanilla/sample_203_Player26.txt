@@ -1,0 +1,34 @@
+Okay, let's analyze the commentary snippets for Player26.
+
+*   **Player Name:** Player26
+
+*   **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+*   **Commentary Snippet 1:** "Player26(Away Team) misses the shot with his right foot from outside the box, it goes high and wide to the left, Player27(Away Team) assisted with a headed pass."
+    *   "misses the shot" indicates a shot. Shots = 1.
+    *   Player27 assisted Player26, therefore Player26 did not provide an assist.
+    * No other events are triggered.
+
+*   **Commentary Snippet 2:** "Player26(Away Team) earns a free kick on the left side of the field."
+    *   "earns a free kick" indicates a free kick (taken). Free Kicks = 1.
+    *   No other events are triggered.
+
+*   **Commentary Snippet 3:** "Player26(Away Team) misses the goal with a right-footed shot from outside the box, assisted by Player22(Away Team)."
+    *   "misses the goal with a right-footed shot" indicates a shot. Shots = 2
+    *   Player22 assisted Player26, so Player26 did not provide an assist.
+    *   No other events are triggered.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 2     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

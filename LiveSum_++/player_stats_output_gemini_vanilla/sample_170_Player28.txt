@@ -1,0 +1,34 @@
+Okay, let's break this down step by step.
+
+1.  **Player Identification:** The target player is Player28.
+
+2.  **Initialization:** We initialize all event counts for Player28 to 0.
+
+3.  **Snippet Analysis:** We go through each snippet and count events ONLY if they are explicitly and unambiguously attributed to Player28.
+
+    *   **Snippet 1:** "Player28(Away Team) misses the target with a right-footed shot from outside the box."
+        *   This is explicitly a shot by Player28. Shots = 1.
+
+    *   **Snippet 2:** "Player28(Away Team) misses the shot with his right foot from the center of the box, it goes over the goal, Player24(Away Team) assisted with a through ball."
+        *   This is explicitly a shot by Player28. Shots = 2.
+
+    *   **Snippet 3:** "Player28(Away Team) earns a free kick in the opponent's half."
+        *   This is explicitly a free kick earned/won by Player28, therefore Player28 takes the kick. Free Kicks = 1
+
+4.  **Final Counts:** After analyzing all snippets, the final counts are:
+
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 2     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

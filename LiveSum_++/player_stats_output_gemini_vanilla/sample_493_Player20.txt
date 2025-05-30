@@ -1,0 +1,43 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for Player20 and count explicitly mentioned events.
+
+1.  **Identify Player Name:** The target player is Player20.
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player20(Away Team) earns a free kick in their own half."
+        *   This snippet explicitly states Player20 "earns a free kick".
+        *   Increment Free Kicks by 1.
+        *   Current counts: Shots: 0, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+    *   Snippet 2: "Player20(Away Team) fouls Player10(Home Team), who wins a free kick on the left wing, This results in a set piece opportunity for Player10(Home Team)."
+        *   This snippet explicitly states Player20 "fouls Player10".
+        *   Increment Fouls by 1.
+        *   Current counts: Shots: 0, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 1, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

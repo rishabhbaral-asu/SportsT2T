@@ -1,0 +1,20 @@
+Okay, let's start.
+
+First, the player name is Player25.
+Second, the initial counts are Shots=0, Goals=0, Assists=0, Free Kicks=0, Fouls=0, Yellow Cards=0, Red Cards=0, Offsides=0.
+
+Now, analyze the snippets:
+
+*   Snippet 1: "Player25(Away Team) earns a free kick in their own half."
+    *   This snippet indicates that Player25 earned a free kick. Therefore, Free Kicks is incremented by 1. Free Kicks = 1
+*   Snippet 2: "Player25(Away Team) commits a foul."
+    *   This snippet indicates that Player25 committed a foul. Therefore, Fouls is incremented by 1. Fouls = 1
+
+Final counts: Shots=0, Goals=0, Assists=0, Free Kicks=1, Fouls=1, Yellow Cards=0, Red Cards=0, Offsides=0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

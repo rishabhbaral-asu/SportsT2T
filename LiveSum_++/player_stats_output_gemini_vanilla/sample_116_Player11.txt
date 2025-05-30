@@ -1,0 +1,49 @@
+Okay, let's analyze the commentary snippets for Player11 and generate the statistics table.
+
+**1. Identify the target player:**
+
+The target player is Player11.
+
+**2. Initialize counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze each snippet:**
+
+*   **Snippet 1:** "Player11(Home Team)'s shot from the left side of the box is saved by the goalkeeper in the bottom left corner, with an assist from Player10(Home Team)."
+    *   Shots: Player11 takes a shot. Increment Shots to 1.
+    *   Goals: No goal is scored.
+    *   Assists: Player11 receives an assist, so no assist is counted for Player11.
+*   **Snippet 2:** "Player11(Home Team) earns a free kick in their own half."
+    *   Free Kicks: Player11 earns a free kick. Increment Free Kicks to 1.
+*   **Snippet 3:** "Player11(Home Team) earns a free kick in the attacking half, leading to a corner kick for the Home Team, ."
+    *   Free Kicks: Player11 earns a free kick. Increment Free Kicks to 2.
+*   **Snippet 4:** "Player11(Home Team) assisted by Player2(Home Team)."
+    *   Assists: Player11 receives an assist from Player2, so we do not increment the assist count for Player11.
+*   **Snippet 5:** "Player11(Home Team) commits a foul."
+    *   Fouls: Player11 commits a foul. Increment Fouls to 1.
+
+**4. Final Counts:**
+
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 2
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 1     | 0     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

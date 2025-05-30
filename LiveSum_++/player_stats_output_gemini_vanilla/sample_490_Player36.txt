@@ -1,0 +1,30 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player36 and generate the summary table.
+
+**1. Player Name:**
+The target player is Player36.
+
+**2. Initialize Counts:**
+Shots: 0, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+**3. Analyze Snippets:**
+
+*   **Snippet 1:** "Player36(Away Team) commits a foul, resulting in Player12(Home Team) winning a free kick on the left wing, This leads to a set piece opportunity for Player12(Home Team)."
+    *   Fouls: Player36 commits a foul. Increment Fouls by 1.
+    *   Free Kicks: The snippet says player36 committed the foul. This means Player36 conceded the free kick, which counts as a foul.
+
+*   **Snippet 2:** "Player36(Away Team) commits a foul, resulting in Player14(Home Team) being awarded a free kick on the left wing, The ref blows the whistle."
+    *   Fouls: Player36 commits a foul. Increment Fouls by 1.
+     *   Free Kicks: The snippet says player36 committed the foul. This means Player36 conceded the free kick, which counts as a foul.
+
+*   **Snippet 3:** "Player36(Away Team) earns a free kick in their own half."
+    *   Free Kicks: Player36 earns a free kick. Increment Free Kicks by 1.
+
+**4. Final Counts:**
+Shots: 0, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 2, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player36 | 0     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

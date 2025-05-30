@@ -1,0 +1,32 @@
+Okay, let's start by identifying the target player and initializing the event counts.
+
+Target Player: Player2
+
+Initial Counts:
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player2(Home Team) earns a free kick in the opponent's half."
+*   This snippet indicates Player2 earned a free kick. Increment Free Kicks: Free Kicks = 0 + 1 = 1
+
+Snippet 2: "Player2(Home Team) attempts a left-footed shot from outside the box, but it narrowly misses to the right with an assist from Player8(Home Team)."
+*   This snippet indicates Player2 attempted a shot. Increment Shots: Shots = 0 + 1 = 1
+*   This snippet indicates Player2 was assisted by Player8, therefore Player2 did not provide an assist.
+
+Snippet 3: "Player2(Home Team) earns a free kick in their own half after being fouled by Player23(Away Team)."
+*   This snippet indicates Player2 earned a free kick. Increment Free Kicks: Free Kicks = 1 + 1 = 2
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 1     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

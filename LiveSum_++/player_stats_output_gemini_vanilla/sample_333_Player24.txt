@@ -1,0 +1,46 @@
+Okay, let's analyze the commentary snippets for Player24.
+
+1.  **Player Name:** The target player is Player24.
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player24(Away Team) earns a free kick in their own half."
+        *   Free Kicks: Player24 earns a free kick, so increment Free Kicks by 1. Free Kicks = 1.
+
+    *   Snippet 2: "Player24(Away Team) earns a free kick in their own half."
+        *   Free Kicks: Player24 earns a free kick, so increment Free Kicks by 1. Free Kicks = 2.
+
+    *   Snippet 3: "Player24(Away Team) scores with a right footed free kick to the top left corner, making it Home Team 1, Away Team 1."
+        *   Goals: Player24 scores a goal, so increment Goals by 1. Goals = 1.
+        *   Shots: Scoring a goal counts as a shot, so increment Shots by 1. Shots = 1.
+        *   Free Kicks: Player24 scores from a free kick so increment Free Kicks by 1. Free Kicks = 3
+
+    *   Snippet 4: "Player24(Away Team) earns a free kick in their own half."
+        *   Free Kicks: Player24 earns a free kick, so increment Free Kicks by 1. Free Kicks = 4.
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 4
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 1     | 1     | 0       | 4          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,62 @@
+Okay, let's analyze the commentary snippets for Player33 and compile the statistics.
+
+1.  **Identify Player Name:** The target player is Player33.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player33(Away Team) misses the goal with a high and wide right-footed shot from outside the box, with an assist from Player22(Away Team)."
+        *   `Shot`: The snippet explicitly states Player33 missed a shot. Increment Shots to 1.
+        *   `Goals`: No goal scored by Player33.
+        *   `Assist`: Player33 received an assist, but did not provide one. No increment.
+        *   `Free Kicks`: No free kick taken by Player33.
+        *   `Fouls`: No foul committed by Player33.
+        *   `Yellow Cards`: No yellow card for Player33.
+        *   `Red Cards`: No red card for Player33.
+        *   `Offsides`: No offside mentioned.
+
+    *   **Snippet 2:** "Player33(Away Team)'s shot from outside the box is blocked with Player27(Away Team)'s assistance."
+        *   `Shot`: The snippet explicitly states Player33 had a shot. Increment Shots to 2.
+        *   `Goals`: No goal scored by Player33.
+        *   `Assist`: Player33 received an assist, but did not provide one. No increment.
+        *   `Free Kicks`: No free kick taken by Player33.
+        *   `Fouls`: No foul committed by Player33.
+        *   `Yellow Cards`: No yellow card for Player33.
+        *   `Red Cards`: No red card for Player33.
+        *   `Offsides`: No offside mentioned.
+
+    *   **Snippet 3:** "Player33(Away Team) fouls as the Home Team wins a corner kick."
+        *   `Shot`: No shot taken by Player33.
+        *   `Goals`: No goal scored by Player33.
+        *   `Assist`: Player33 did not provide an assist. No increment.
+        *   `Free Kicks`: Player33 did not take a free kick, so no increment
+        *   `Fouls`: The snippet explicitly states Player33 committed a foul. Increment Fouls to 1.
+        *   `Yellow Cards`: No yellow card for Player33.
+        *   `Red Cards`: No red card for Player33.
+        *   `Offsides`: No offside mentioned.
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player33 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

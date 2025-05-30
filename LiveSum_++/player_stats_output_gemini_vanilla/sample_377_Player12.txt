@@ -1,0 +1,32 @@
+Okay, let's break down the commentary and compile the stats for Player12.
+
+1.  **Player Name:** The target player is Player12.
+
+2.  **Initialization:** We start with all stats at 0 for Player12: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+3.  **Commentary Analysis:**
+
+    *   **Snippet 1:** "Player12(Home Team)'s attempt from a tough angle and long distance on the left with his right foot goes over the goal from a direct free kick."
+        *   The snippet explicitly states "Player12's attempt". This qualifies as a shot. Increment Shots to 1.
+        *   The snippet explicitly states "...from a direct free kick". This qualifies as a free kick taken. Increment Free Kicks to 1.
+
+    *   **Snippet 2:** "Player12(Home Team)'s difficult right-footed shot from a tight angle is saved in the center of the goal, after Player19(Away Team) concedes a penalty for a foul in the penalty area."
+        *   The snippet explicitly states "Player12's difficult right-footed shot". This qualifies as a shot. Increment Shots to 2.
+        *   The penalty was conceded by Player19, not Player12, so this does not count as a Free Kick or Foul for Player12.
+
+4.  **Final Counts:**
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player12 | 2     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

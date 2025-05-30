@@ -1,0 +1,50 @@
+Okay, let's analyze the commentary snippets for Player8 and generate the requested markdown table.
+
+**Player Name:** Player8
+
+**Commentary Snippets:**
+
+- Player8(Home Team) commits a foul on Player27(Away Team), who earns a free kick in the attacking half, This results in a set piece opportunity for Player27(Away Team)'s team.
+- Player8(Home Team) commits a foul on Player27(Away Team), resulting in a free kick for Player27(Away Team) on the right wing, .
+- Player8(Home Team)'s shot from the left side of the box narrowly misses to the left, with an assist from Player6(Home Team) after a corner.
+- Player8(Home Team)'s header from the center of the box was too high, despite the assist from Player2(Home Team) with a cross.
+- Player8(Home Team) earns a free kick in the opponent's half.
+
+**Step-by-step Analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1:** "Player8(Home Team) commits a foul on Player27(Away Team), who earns a free kick in the attacking half, This results in a set piece opportunity for Player27(Away Team)'s team."
+    *   Fouls: Player8 commits a foul. Increment Fouls by 1.
+    *   Current Counts: Shots=0, Goals=0, Assists=0, Free Kicks=0, Fouls=1, Yellow Cards=0, Red Cards=0, Offsides=0
+
+3.  **Snippet 2:** "Player8(Home Team) commits a foul on Player27(Away Team), resulting in a free kick for Player27(Away Team) on the right wing, ."
+    *   Fouls: Player8 commits a foul. Increment Fouls by 1.
+    *   Current Counts: Shots=0, Goals=0, Assists=0, Free Kicks=0, Fouls=2, Yellow Cards=0, Red Cards=0, Offsides=0
+
+4.  **Snippet 3:** "Player8(Home Team)'s shot from the left side of the box narrowly misses to the left, with an assist from Player6(Home Team) after a corner."
+    *   Shots: Player8 takes a shot. Increment Shots by 1.
+    *   Current Counts: Shots=1, Goals=0, Assists=0, Free Kicks=0, Fouls=2, Yellow Cards=0, Red Cards=0, Offsides=0
+
+5.  **Snippet 4:** "Player8(Home Team)'s header from the center of the box was too high, despite the assist from Player2(Home Team) with a cross."
+    *   Shots: Player8 takes a header, which counts as a shot. Increment Shots by 1.
+    *   Current Counts: Shots=2, Goals=0, Assists=0, Free Kicks=0, Fouls=2, Yellow Cards=0, Red Cards=0, Offsides=0
+
+6.  **Snippet 5:** "Player8(Home Team) earns a free kick in the opponent's half."
+    *   Free Kicks: Player8 earns a free kick. Increment Free Kicks by 1.
+    *   Current Counts: Shots=2, Goals=0, Assists=0, Free Kicks=1, Fouls=2, Yellow Cards=0, Red Cards=0, Offsides=0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 2     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

@@ -1,0 +1,33 @@
+Okay, let's start by identifying the player name and initializing the counts.
+
+Player Name: Player24
+
+Now, let's process the commentary snippets and increment the counts accordingly, following the strict counting rules.
+
+*   **Snippet 1:** "Player24(Away Team)'s attempt from outside the box is saved in the top centre of the goal, assisted by Player26(Away Team), as Player9(Home Team) wins a free kick in the defensive half."
+    *   Shots: "attempt" is a keyword. Increment Shots to 1.
+    *   Goals: No goal is explicitly mentioned.
+    *   Assists: Player24 was assisted, therefore they do not get an assist.
+    *   Free Kicks: Player9 wins a free kick, so Player24 does not get a free kick.
+*   **Snippet 2:** "Player24(Away Team)'s shot from the right side of the box is blocked."
+    *   Shots: "shot" is a keyword. Increment Shots to 2.
+    *   Goals: No goal is explicitly mentioned.
+    *   Assists: No assist is mentioned.
+    *   Free Kicks: No free kick is mentioned.
+*   **Snippet 3:** "Player24(Away Team) earns a free kick in their own half."
+    *   Shots: No shot is mentioned.
+    *   Goals: No goal is mentioned.
+    *   Assists: No assist is mentioned.
+    *   Free Kicks: "earns a free kick" is a keyword. Increment Free Kicks to 1.
+*   **Snippet 4:** "Player24(Away Team) earns a free kick in their own half."
+    *   Shots: No shot is mentioned.
+    *   Goals: No goal is mentioned.
+    *   Assists: No assist is mentioned.
+    *   Free Kicks: "earns a free kick" is a keyword. Increment Free Kicks to 2.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 2     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

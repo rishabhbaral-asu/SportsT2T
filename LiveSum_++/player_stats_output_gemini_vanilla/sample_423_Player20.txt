@@ -1,0 +1,45 @@
+Okay, let's break down the process step by step.
+
+1.  **Identify Target Player:** The target player is Player20.
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player20(Away Team) commits a foul."
+        *   Fouls: Increment to 1 (explicitly states Player20 committed a foul).
+
+    *   Snippet 2: "Player20(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team."
+        *   No relevant events for Player20. Player20 attempting a through ball does not qualify for any of our counting metrics. The offside is by a different player, Player29.
+
+    *   Snippet 3: "Player20(Away Team)'s long-range shot is blocked with Player28(Away Team)'s assistance."
+        *   Shots: Increment to 1 (explicitly states Player20 took a shot).
+        *   Assists: Do not increment. Player20 was assisted, not providing the assist.
+
+    *   Snippet 4: "Player20(Away Team) fouls Player5(Home Team), resulting in a free kick in the defensive half."
+        *   Fouls: Increment to 2 (explicitly states Player20 committed a foul).
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 2
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

@@ -1,0 +1,39 @@
+Okay, let's analyze the commentary snippets for Player24 and generate the summary table.
+
+1.  **Player Name:** The target player is Player24.
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+    *   Snippet 1: "Player24(Away Team)'s left-footed shot from the left side of the box, assisted by Player23(Away Team), is blocked after a foul by Player5(Home Team)."
+        *   Player24 takes a shot. Increment Shots: Shots = 1.
+        *   The shot is blocked after a foul *by Player5*. This does NOT count as a foul for Player24.
+        *   Player24 is assisted by Player23. This does NOT count as an assist for Player24.
+    *   Snippet 2: "Player24(Away Team)'s shot from the center of the box is saved by the goalkeeper, with an assist from Player29(Away Team)."
+        *   Player24 takes a shot. Increment Shots: Shots = 2.
+        *   The shot is saved.
+        *   Player24 is assisted by Player29. This does NOT count as an assist for Player24.
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

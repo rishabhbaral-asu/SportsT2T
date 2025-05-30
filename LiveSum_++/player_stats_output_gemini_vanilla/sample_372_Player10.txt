@@ -1,0 +1,107 @@
+Okay, let's break down the process step-by-step.
+
+1.  **Identify Target Player:** The target player is Player10.
+
+2.  **Initialize Counts:** We start with all counts at 0 for Player10.
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+3.  **Analyze Commentary Snippets:** We go through each snippet and increment the counts based on the instructions.
+
+    *   Snippet 1: "Player10(Home Team)'s shot from the left side of the box is blocked."
+        *   Shots: The player's shot was blocked, so increment Shots by 1.
+        *   Shots = 1
+
+    *   Snippet 2: "Player10(Home Team) earns a free kick in the opponent's half."
+        *   Free Kicks: Player10 earns a free kick. Increment Free Kicks by 1.
+        *   Free Kicks = 1
+
+    *   Snippet 3: "Player10(Home Team) earns a free kick from the left side."
+        *   Free Kicks: Player10 earns a free kick. Increment Free Kicks by 1.
+        *   Free Kicks = 2
+
+    *   Snippet 4: "Player10(Home Team) commits a foul."
+        *   Fouls: Player10 commits a foul. Increment Fouls by 1.
+        *   Fouls = 1
+
+    *   Snippet 5: "Player10(Home Team) commits a foul."
+        *   Fouls: Player10 commits a foul. Increment Fouls by 1.
+        *   Fouls = 2
+
+    *   Snippet 6: "Player10(Home Team) receives a yellow card."
+        *   Yellow Cards: Player10 receives a yellow card. Increment Yellow Cards by 1.
+        *   Yellow Cards = 1
+
+    *   Snippet 7: "Player10(Home Team) earns a free kick on the left side of the field."
+        *   Free Kicks: Player10 earns a free kick. Increment Free Kicks by 1.
+        *   Free Kicks = 3
+
+    *   Snippet 8: "Player10(Home Team) earns a free kick on the left side of the field."
+        *   Free Kicks: Player10 earns a free kick. Increment Free Kicks by 1.
+        *   Free Kicks = 4
+
+**Updated Counts:**
+    * Shots = 1
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 4
+    * Fouls = 2
+    * Yellow Cards = 1
+    * Red Cards = 0
+    * Offsides = 0
+    * Reanalyzing from scratch.
+
+    *   Snippet 1: "Player10(Home Team)'s shot from the left side of the box is blocked."
+        *   Shots: Increment Shots by 1.
+        *   Shots = 1
+
+    *   Snippet 2: "Player10(Home Team) earns a free kick in the opponent's half."
+        *   Free Kicks: Increment Free Kicks by 1.
+        *   Free Kicks = 1
+
+    *   Snippet 3: "Player10(Home Team) earns a free kick from the left side."
+        *   Free Kicks: Increment Free Kicks by 1.
+        *   Free Kicks = 2
+
+    *   Snippet 4: "Player10(Home Team) commits a foul."
+        *   Fouls: Increment Fouls by 1.
+        *   Fouls = 1
+
+    *   Snippet 5: "Player10(Home Team) commits a foul."
+        *   Fouls: Increment Fouls by 1.
+        *   Fouls = 2
+
+    *   Snippet 6: "Player10(Home Team) receives a yellow card."
+        *   Yellow Cards: Increment Yellow Cards by 1.
+        *   Yellow Cards = 1
+
+    *   Snippet 7: "Player10(Home Team) earns a free kick on the left side of the field."
+        *   Free Kicks: Increment Free Kicks by 1.
+        *   Free Kicks = 3
+
+    *   Snippet 8: "Player10(Home Team) earns a free kick on the left side of the field."
+        *   Free Kicks: Increment Free Kicks by 1.
+        *   Free Kicks = 4
+    *   Fouls = 2
+**Updated Counts:**
+    * Shots = 1
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 4
+    * Fouls = 2
+    * Yellow Cards = 1
+    * Red Cards = 0
+    * Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 1     | 0     | 0       | 4          | 2     | 1            | 0         | 0        |
+```

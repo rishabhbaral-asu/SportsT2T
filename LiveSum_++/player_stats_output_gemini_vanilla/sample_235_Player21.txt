@@ -1,0 +1,39 @@
+Okay, let's break this down step by step.
+
+1.  **Identify Target Player:** The target player is Player21.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player21(Away Team) misses a header to the left from the center of the box, assisted by Player24(Away Team) with a cross."
+        *   "misses a header" implies a shot. So, Shots = 1. The fact that Player21 was assisted by Player24 has no impact on Player21's assist count (which remains 0).
+    *   **Snippet 2:** "Player21(Away Team)'s right foot at close range in the bottom left corner."
+         * This snippet lacks explicit information that Player21 shot, scored, or attempted to score a goal. It is only descriptive of where Player21's right foot was. Thus, there are no events to count.
+    *   **Snippet 3:** "Player21(Away Team) commits a foul."
+        *   "commits a foul" explicitly states a foul. So, Fouls = 1.
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

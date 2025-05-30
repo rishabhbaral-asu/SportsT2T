@@ -1,0 +1,26 @@
+Okay, let's analyze the commentary snippets for Player2 and create the summary table.
+
+1.  **Player Name:** Player2
+
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player2(Home Team) fouls Player29(Away Team) and concedes a free kick in their own defensive half."
+        *   Fouls: The snippet explicitly states "Player2 fouls Player29", so increment Fouls by 1.
+        *   Free Kicks: The snippet says that Player2 committed a foul, which led to a free kick. This does NOT count as Player2 taking a free kick.
+
+    *   **Snippet 2:** "Player2(Home Team) attempts a through ball, but Player11(Home Team) is offside for the Home Team."
+        *   Offsides: This snippet does not indicate that Player2 was offside. It says Player11 was. So, Offsides remains 0.
+
+    *   **Snippet 3:** "Player2(Home Team) is currently experiencing a delay in the match due to an injury."
+        *   No relevant events for Player2 in this snippet.
+
+4.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

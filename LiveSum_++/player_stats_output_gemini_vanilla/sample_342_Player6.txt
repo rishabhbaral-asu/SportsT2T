@@ -1,0 +1,37 @@
+Okay, let's analyze the provided commentary snippets for Player6.
+
+**Player Name:** Player6
+
+**Commentary Snippets:**
+
+*   "Player6(Home Team) fouls Player25(Away Team), who wins a free kick on the left wing, This results in a set piece opportunity for Player25(Away Team)."
+*   "Player6(Home Team)'s left footed shot from a tough angle was saved in the bottom left corner with an assist from Player9(Home Team)."
+
+**Step-by-step analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1 Analysis:** "Player6(Home Team) fouls Player25(Away Team), who wins a free kick on the left wing, This results in a set piece opportunity for Player25(Away Team)."
+    *   The snippet explicitly states "Player6 fouls Player25". Therefore, Fouls = 1.
+    *   The snippet also mentions that Player25 wins a free kick as a result of being fouled by Player6, so this does not count as Player6 taking the free kick. Free Kicks remains 0.
+
+3.  **Snippet 2 Analysis:** "Player6(Home Team)'s left footed shot from a tough angle was saved in the bottom left corner with an assist from Player9(Home Team)."
+    *   The snippet explicitly states "Player6's left footed shot". Therefore, Shots = 1.
+    *   The snippet does not state that Player6 scored. Goals remains 0.
+    *   The snippet indicates Player6's shot was assisted by Player9, so this does *not* count as an assist for Player6. Assists remains 0.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,42 @@
+Okay, let's analyze the commentary snippets for Player26 and generate the final summary table.
+
+**Player Name:** Player26
+
+**Commentary Snippets:**
+- Player26(Away Team) fouls Player7(Home Team), winning a free kick in their own defensive half.
+- Player26(Away Team)'s left footed shot from outside the box is blocked, resulting in a corner kick for the Away Team.
+- Player26(Away Team)'s left footed shot from outside the box is blocked.
+- Player26(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team.
+
+**Step-by-step Analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1: Player26(Away Team) fouls Player7(Home Team), winning a free kick in their own defensive half.**
+    *   "fouls" - Player26 committed a foul. Fouls = 1
+    * "winning a free kick" - Player26 won a free kick. Free Kicks = 1
+
+3.  **Snippet 2: Player26(Away Team)'s left footed shot from outside the box is blocked, resulting in a corner kick for the Away Team.**
+    *   "shot" - Player26 took a shot. Shots = 1
+
+4.  **Snippet 3: Player26(Away Team)'s left footed shot from outside the box is blocked.**
+    *   "shot" - Player26 took a shot. Shots = 2
+
+5.  **Snippet 4: Player26(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team.**
+    * The commentary mentions Player29 is offside, not Player26. Offsides = 0
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

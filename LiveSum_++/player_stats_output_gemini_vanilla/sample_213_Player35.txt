@@ -1,0 +1,32 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
+
+**Input:**
+* **Player Name:**
+```
+<PLAYER_NAME>
+Player35
+</PLAYER_NAME>
+```
+* **Commentary Snippets:**
+```
+<PLAYER_COMMENTARY_SNIPPETS>
+- Player35(Away Team) has committed a hand ball.
+</PLAYER_COMMENTARY_SNIPPETS>
+```
+
+1.  **Identify the target player name:** Player35.
+2.  **Initialize counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze each snippet:**
+    * Snippet 1: "Player35(Away Team) has committed a hand ball."
+        *   The snippet explicitly states that Player35 committed a hand ball. Hand ball is a foul. Therefore, increment Fouls.
+4.  **Increment counts:**
+    *   Fouls: Increment from 0 to 1.
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player35 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

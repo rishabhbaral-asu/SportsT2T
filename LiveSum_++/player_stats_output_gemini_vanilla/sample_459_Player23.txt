@@ -1,0 +1,44 @@
+Okay, I'm ready to process the player commentary snippets and generate the final summary table.
+
+**Step 1: Identify the target player.**
+
+The target player is Player23.
+
+**Step 2: Initialize event counts.**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**Step 3: Analyze commentary snippets and increment counts.**
+
+*   **Snippet 1:** "Player23(Away Team) commits a foul."
+    *   The snippet explicitly states that Player23 committed a foul.
+    *   Increment Fouls: Fouls = 0 + 1 = 1
+
+*   **Snippet 2:** "Player23(Away Team) missed the header from the right side of the six-yard box, going wide to the left, Player31(Away Team) assisted with a cross after a corner kick."
+    *   The snippet explicitly states that Player23 missed a header. This implies a shot.
+    *   Increment Shots: Shots = 0 + 1 = 1
+
+**Step 4: Finalize the counts**
+
+Shots = 1
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 1
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

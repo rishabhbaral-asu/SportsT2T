@@ -1,0 +1,87 @@
+Okay, let's analyze the commentary snippets for Player27.
+
+1.  **Player Name:** The target player is Player27.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player27(Away Team) from the Away Team attempts a through ball, but Player29(Away Team) is offside."
+        *   No shot, goal, assist, free kick, foul, or card is explicitly mentioned. Player27 attempts a through ball but no goal or assist resulted. Player29 is offside, not Player27.
+        *   Offsides = 0
+        *   Shots = 0
+        *   Goals = 0
+        *   Assists = 0
+        *   Free Kicks = 0
+        *   Fouls = 0
+        *   Yellow Cards = 0
+        *   Red Cards = 0
+
+    *   Snippet 2: "Player27(Away Team) scores a header from close range to tie the game 1-1, assisted by Player22(Away Team) with a header after a corner kick."
+        *   Player27 scores a goal, so increment Goals and Shots.
+        *   Goals = 1
+        *   Shots = 1
+        *   Assists = 0 (because Player27 was *assisted by* someone else, not the other way around).
+        *   Free Kicks = 0
+        *   Fouls = 0
+        *   Yellow Cards = 0
+        *   Red Cards = 0
+        *   Offsides = 0
+
+    *   Snippet 3: "Player27(Away Team) commits a foul."
+        *   Player27 commits a foul, so increment Fouls.
+        *   Fouls = 1
+        *   Shots = 1
+        *   Goals = 1
+        *   Assists = 0
+        *   Free Kicks = 0
+        *   Yellow Cards = 0
+        *   Red Cards = 0
+        *   Offsides = 0
+
+    *   Snippet 4: "Player27(Away Team) earns a free kick on the left wing after being fouled by Player2(Home Team)."
+        *   Player27 earns a free kick after being fouled. This means Player27 *wins* a free kick. Increment Free Kicks.
+            *   Free Kicks = 1
+        *   Fouls = 1
+        *   Shots = 1
+        *   Goals = 1
+        *   Assists = 0
+        *   Yellow Cards = 0
+        *   Red Cards = 0
+        *   Offsides = 0
+
+    *   Snippet 5: "Player27(Away Team) has been given a yellow card."
+        *   Player27 receives a yellow card, so increment Yellow Cards.
+        *   Yellow Cards = 1
+        *   Fouls = 1
+        *   Shots = 1
+        *   Goals = 1
+        *   Assists = 0
+        *   Free Kicks = 1
+        *   Red Cards = 0
+        *   Offsides = 0
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 1     | 1     | 0       | 1          | 1     | 1            | 0         | 0        |
+```

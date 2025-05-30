@@ -1,0 +1,49 @@
+Okay, let's analyze the commentary snippets for Player11.
+
+1.  **Player Name:** Player11
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player11(Home Team) commits a foul, resulting in Player25(Away Team) winning a free kick in their own half."
+        *   Fouls: Player11 commits a foul. Increment Fouls by 1.
+        *   Free Kicks: Player11 committing a foul does *not* count as a Free Kick for Player11.
+    *   Snippet 2: "Player11(Home Team) misses the goal with a right footed shot from the left side of the box, assisted by Player7(Home Team) after a set piece."
+        *   Shots: Player11 misses a shot. Increment Shots by 1.
+    *   Snippet 3: "Player11(Home Team)'s header from the center of the box is saved by the goalkeeper after a cross from Player7(Home Team)."
+        *   Shots: Player11's header is saved. Increment Shots by 1.
+    *   Snippet 4: "Player11(Home Team) is currently sidelined due to an injury, causing a delay in the match."
+        *   No event for Player11.
+    *   Snippet 5: "Player11(Home Team) of the Home Team attempts a through ball to Player9(Home Team), who is caught offside and then commits a hand ball."
+        *   No assist as the attempt did not result in a goal.
+    *   Snippet 6: "Player11(Home Team)'s left-footed shot from the left side of the box is saved in the top center of the goal, assisted by Player18(Home Team), while Player9(Home Team) hits the bar with a right-footed shot from the right side of the six-yard box."
+        *   Shots: Player11's shot is saved. Increment Shots by 1.
+    *   Snippet 7: "Player11(Home Team) misses with a right footed shot from outside the box, with an assist from Player7(Home Team)."
+        *   Shots: Player11 misses a shot. Increment Shots by 1.
+
+4.  **Final Counts:**
+
+    *   Shots: 4
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 4     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

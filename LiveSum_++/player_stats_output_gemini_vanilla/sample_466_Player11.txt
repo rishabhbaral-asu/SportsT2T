@@ -1,0 +1,41 @@
+Okay, let's analyze the commentary snippets for Player11 and generate the final summary table.
+
+1.  **Player Name:** Player11
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player11(Home Team)'s shot from the center of the box is saved in the top right corner by the goalkeeper after an assist from Player1(Home Team)."
+        *   Shots: The snippet explicitly mentions "Player11's shot", so increment Shots by 1.
+        *   Goals: The snippet mentions the shot was saved; hence, no goal.
+        *   Assists: The snippet mentions that Player11 was assisted, so do not increment the assist count for Player11.
+    *   Snippet 2: "Player11(Home Team) scores from close range in the center of the goal after a corner kick, Home Team and Away Team are now tied at 1-1."
+        *   Shots: The snippet explicitly mentions "scores", which implies a shot, so increment Shots by 1.
+        *   Goals: The snippet explicitly mentions "scores", so increment Goals by 1.
+        *   Assists: The snippet does not mention Player11 assisting anyone, so do not increment assists.
+
+4.  **Final Counts:**
+    *   Shots: 2
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

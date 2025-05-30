@@ -1,0 +1,48 @@
+Okay, let's analyze the commentary snippets for Player8.
+
+**1. Player Identification:**
+The target player is Player8.
+
+**2. Initialization:**
+We initialize all event counts to 0 for Player8.
+
+**3. Snippet Analysis & Event Counting:**
+
+*   **Snippet 1:** "Player8(Home Team) earns a free kick in the opponent's half."
+    *   This indicates Player8 won a free kick.
+    *   Free Kicks: Increment to 1.
+
+*   **Snippet 2:** "Player8(Home Team) misses the target with a high shot from outside the box."
+    *   This indicates Player8 took a shot.
+    *   Shots: Increment to 1.
+
+*   **Snippet 3:** "Player8(Home Team)'s shot from the left side of the box is blocked with the help of Player10(Home Team)."
+    *   This indicates Player8 took a shot.
+    *   Shots: Increment to 2.
+
+*   **Snippet 4:** "Player8(Home Team) of the Home Team is offside after Player2(Home Team) attempts a through ball."
+    *   This indicates Player8 was offside.
+    *   Offsides: Increment to 1.
+
+*   **Snippet 5:** "Player8(Home Team)'s shot from the right side of the box narrowly misses to the right, with an assist from Player6(Home Team)."
+    *   This indicates Player8 took a shot.
+    *   Shots: Increment to 3.
+    *   This does **NOT** count as an assist for Player8.
+
+**4. Final Counts:**
+
+*   Shots: 3
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 1
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 3     | 0     | 0       | 1          | 0     | 0            | 0         | 1        |
+```

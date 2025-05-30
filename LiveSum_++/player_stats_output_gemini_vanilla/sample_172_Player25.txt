@@ -1,0 +1,25 @@
+Okay, let's analyze the commentary snippets for Player25 and compile the statistics.
+
+**Player Name:** Player25
+
+**Commentary Snippets:**
+
+*   Player25(Away Team) earns a free kick in the opponent's half.
+*   Player25(Away Team) commits a foul.
+*   Player25(Away Team) receives a yellow card for a rough tackle.
+*   Player25(Away Team) commits a foul.
+*   Player25(Away Team)'s attempt from outside the box after a corner goes over the crossbar.
+
+Reasoning:
+
+1.  **Free Kicks:** "Player25(Away Team) earns a free kick in the opponent's half." - This explicitly states Player25 earned a free kick, which counts as a Free Kick. Count: 1
+2.  **Fouls:** "Player25(Away Team) commits a foul." - This explicitly states Player25 committed a foul. Count: 1. The snippet appears again, so count is updated to 2.
+3.  **Yellow Cards:** "Player25(Away Team) receives a yellow card for a rough tackle." - This explicitly states Player25 received a yellow card. Count: 1. Note that even though the card was for a "rough tackle" it does not increment the foul count beyond what's already counted.
+4.  **Shots:** "Player25(Away Team)'s attempt from outside the box after a corner goes over the crossbar." - This explicitly states Player25 made an attempt (shot) that went over the crossbar. Count: 1
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 0     | 0       | 1          | 2     | 1            | 0         | 0        |
+```

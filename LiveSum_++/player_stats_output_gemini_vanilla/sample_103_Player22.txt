@@ -1,0 +1,49 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for Player22 and count explicit occurrences of defined events.
+
+1.  **Identify the target player name:** Player22
+
+2.  **Initialize counts:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+3.  **Analyze each snippet:**
+
+    *   **Snippet 1:** "Player22(Away Team) earns a free kick in their own defensive half."
+        *   Player22 earns a free kick.
+        *   Free Kicks (Taken): Increment by 1 (Player22 earned a free kick)
+
+    *   **Snippet 2:** "Player22(Away Team)'s shot from outside the box is blocked with his right foot, assisted by Player28(Away Team)."
+        *   Player22's shot is blocked.
+        *   Shots: Increment by 1 (Player22 took a shot)
+        *   Assists: No increment. Player22 was assisted, not the other way around.
+
+    *   **Snippet 3:** "Player22(Away Team) misses the target with a close-range shot from outside the penalty area."
+        *   Player22 misses the target with a shot.
+        *   Shots: Increment by 1 (Player22 took a shot)
+
+4.  **Compile final counts:**
+    * Shots = 0 + 1 + 1 = 2
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0 + 1 = 1
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+5.  **Create the Final Summary Table:**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 2     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,53 @@
+Okay, let's analyze the commentary snippets for Player11 and generate the final summary table.
+
+**1. Identify the target player name:**
+
+The target player is Player11.
+
+**2. Initialize counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze each snippet and increment counts:**
+
+*   **Snippet 1:** "Player11(Home Team) earns a free kick on the left side of the field."
+    *   "earns a free kick" indicates Player11 was fouled, so Free Kicks += 1.
+*   **Snippet 2:** "Player11(Home Team)'s shot from the center of the box is blocked."
+    *   "shot" indicates Player11 took a shot, so Shots += 1.
+*   **Snippet 3:** "Player11(Home Team) receives a yellow card for a rough tackle."
+    *   "yellow card" indicates Player11 received a yellow card, so Yellow Cards += 1.
+*   **Snippet 4:** "Player11(Home Team) of the Home Team after Player4(Home Team) attempts a through ball."
+    *   This snippet mentions Player11, but doesn't attribute any specific action so no change to any stat.
+*   **Snippet 5:** "Player11(Home Team) earns a free kick in their own half."
+    *   "earns a free kick" indicates Player11 was fouled, so Free Kicks += 1.
+*   **Snippet 6:** "Player11(Home Team)'s shot from the left side of the box is saved in the center of the goal by the goalkeeper, with an assist from Player9(Home Team), while Player28(Away Team)'s shot from the center of the box is blocked with an assist from Player25(Away Team)."
+    *   "shot" indicates Player11 took a shot, so Shots += 1.
+*   **Snippet 7:** "Player11(Home Team) from the Home Team attempts a pass to Player10(Home Team), but unfortunately Player10(Home Team) is offside."
+    *   This snippet mentions Player11 attempting a pass, but since the player who received the pass was offside the pass did not lead to a goal, so it does not count as an assist.
+*   **Snippet 8:** "Player11(Home Team) commits a foul on Player28(Away Team), who wins a free kick in their defensive half."
+    *   "commits a foul" indicates Player11 committed a foul, so Fouls += 1.
+
+**4. Final Counts:**
+
+Shots = 2
+Goals = 0
+Assists = 0
+Free Kicks = 2
+Fouls = 1
+Yellow Cards = 1
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 0     | 0       | 2          | 1     | 1            | 0         | 0        |
+```

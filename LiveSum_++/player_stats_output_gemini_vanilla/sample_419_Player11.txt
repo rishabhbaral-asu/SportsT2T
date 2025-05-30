@@ -1,0 +1,45 @@
+Okay, let's break down the provided information step-by-step to generate the player statistics table.
+
+1.  **Identify Target Player:** The target player is Player11.
+
+2.  **Initialize Counts:** We start with all event counts set to 0 for Player11.
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player11(Home Team) earns a free kick on the left side of the field."
+        *   This explicitly states Player11 earned a free kick.
+        *   Increment Free Kicks (taken) by 1.
+
+    *   **Snippet 2:** "Player11(Home Team) commits a foul, resulting in Player22(Away Team) being awarded a free kick in their own defensive half."
+        *   This explicitly states Player11 committed a foul.
+        *   Increment Fouls (committed) by 1.
+
+    *   **Snippet 3:** "Player11(Home Team) commits a foul on Player28(Away Team), who wins a free kick in their defensive half."
+        *   This explicitly states Player11 committed a foul.
+        *   Increment Fouls (committed) by 1.
+
+    *   **Snippet 4:** "Player11(Home Team) scores with a left-footed shot from the center of the box, tying the game at 1-1 for the Home Team against the Away Team."
+        *   This explicitly states Player11 scored a goal.
+        *   Increment Goals by 1.
+        *   Increment Shots by 1.
+
+    *   **Snippet 5:** "Player11(Home Team)'s header from the left side of the six yard box was too high after being assisted by Player14(Home Team) with a cross from a corner."
+        *   This explicitly states Player11 took a header (an attempt on goal).
+        *   Increment Shots by 1.
+
+4.  **Compile Final Counts:**
+    *   Shots: 2
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 2
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 1     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

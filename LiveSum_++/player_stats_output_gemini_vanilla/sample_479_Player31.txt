@@ -1,0 +1,45 @@
+Okay, let's analyze the provided commentary snippets for Player31 and generate the final summary table.
+
+**Step-by-step breakdown:**
+
+1.  **Identify Target Player:** The target player is Player31.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player31(Away Team)'s shot from outside the box is saved in the center of the goal, assisted by Player27(Away Team), with a delay in the match due to Player6(Home Team)'s injury."
+        *   The snippet explicitly states "Player31's shot". Increment Shots count by 1.
+        *   The snippet also mentions Player31 was "assisted by Player27". This does **not** increment Player31's assist count.
+        *   Current counts: Shots = 1, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+    *   **Snippet 2:** "Player31(Away Team) scores with a right footed shot from the center of the box, assisted by Player27(Away Team), The Home Team now trails the Away Team by one goal."
+        *   The snippet explicitly states "Player31 scores". Increment Goals count by 1.
+        *   Since a goal was scored, and Player31 shot and scored, increment Shots by 1 as well.
+        *   The snippet also mentions Player31 was "assisted by Player27". This does **not** increment Player31's assist count.
+        *   Current counts: Shots = 2, Goals = 1, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player31 | 2     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

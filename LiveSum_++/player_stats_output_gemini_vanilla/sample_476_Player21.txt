@@ -1,0 +1,62 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
+
+**Input:**
+* **Player Name:** The name of the single player to track.
+    <PLAYER_NAME>
+    Player21
+    </PLAYER_NAME>
+* **Commentary Snippets:** A list of commentary text snippets potentially mentioning the player.
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player21(Away Team)'s header from the center of the box is saved in the top left corner after an assist from Player25(Away Team) with a cross.
+- Player21(Away Team) missed the header from the center of the box after a set piece situation.
+    </PLAYER_COMMENTARY_SNIPPETS>
+
+1. **Identify Target Player:** The target player is Player21.
+2. **Initialize Counts:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+3. **Analyze Snippets:**
+    * Snippet 1: "Player21(Away Team)'s header from the center of the box is saved in the top left corner after an assist from Player25(Away Team) with a cross."
+        * Shots: Player21 had a header that was saved. Increment Shots by 1.
+        * Goals: No goal scored.
+        * Assists: Player21 did not provide an assist. Player25 assisted Player21, but the target player is Player21.
+        * Free Kicks: No free kick or penalty mentioned.
+        * Fouls: No foul mentioned.
+        * Yellow Cards: No yellow card mentioned.
+        * Red Cards: No red card mentioned.
+        * Offsides: No offside mentioned.
+    * Snippet 2: "Player21(Away Team) missed the header from the center of the box after a set piece situation."
+        * Shots: Player21 missed a header. Increment Shots by 1.
+        * Goals: No goal scored.
+        * Assists: No assist mentioned.
+        * Free Kicks: No free kick mentioned.
+        * Fouls: No foul mentioned.
+        * Yellow Cards: No yellow card mentioned.
+        * Red Cards: No red card mentioned.
+        * Offsides: No offside mentioned.
+
+4. **Final Counts:**
+    * Shots = 2
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

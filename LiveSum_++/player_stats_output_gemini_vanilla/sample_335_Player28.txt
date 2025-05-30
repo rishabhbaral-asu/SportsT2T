@@ -1,0 +1,52 @@
+Okay, let's start by identifying the target player and initializing the event counts.
+
+Target Player: Player28
+
+Initialized Counts:
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player28(Away Team) misses the target with a high shot from outside the box, with an assist from Player26(Away Team)."
+*   Shots: The phrase "misses the target with a high shot" explicitly indicates Player28 took a shot. Increment Shots count.
+*   Goals: No goal is mentioned.
+*   Assists: The phrase "with an assist from Player26(Away Team)" means Player28 received an assist from another player, so no assist to count for the target player.
+*   Free Kicks: No free kick related events.
+*   Fouls: No fouls mentioned.
+*   Yellow Cards: No yellow cards mentioned.
+*   Red Cards: No red cards mentioned.
+*   Offsides: No offsides mentioned.
+
+Snippet 2: "Player28(Away Team) commits a foul."
+*   Shots: No shots mentioned.
+*   Goals: No goals mentioned.
+*   Assists: No assists mentioned.
+*   Free Kicks: No free kick related events.
+*   Fouls: The phrase "commits a foul" explicitly indicates Player28 committed a foul. Increment Fouls count.
+*   Yellow Cards: No yellow cards mentioned.
+*   Red Cards: No red cards mentioned.
+*   Offsides: No offsides mentioned.
+
+Final Counts:
+Shots: 1
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 1
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

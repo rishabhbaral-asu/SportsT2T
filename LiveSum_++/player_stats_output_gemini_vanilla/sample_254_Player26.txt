@@ -1,0 +1,56 @@
+Okay, I'm ready to analyze the commentary snippets and generate the player statistics table.
+
+**Player Name:** Player26
+
+**Commentary Snippets:**
+
+*   Player26(Away Team) commits a foul on Player5(Home Team), awarding them a free kick in their own defensive half.
+*   Player26(Away Team)'s left footed shot from the right side of the box is blocked with an assist from Player28(Away Team).
+*   Player26(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team.
+*   Player26(Away Team)'s left-footed shot from a tough angle is saved by Player27(Away Team) in the top center of the goal, while Player22(Away Team)'s shot from the center of the box is blocked.
+
+**Reasoning:**
+
+1.  **Player Name:** Player26
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player26(Away Team) commits a foul on Player5(Home Team), awarding them a free kick in their own defensive half."
+        *   Explicitly states Player26 commits a foul.
+        *   Fouls = 1
+    *   **Snippet 2:** "Player26(Away Team)'s left footed shot from the right side of the box is blocked with an assist from Player28(Away Team)."
+        *   Explicitly states Player26 took a shot that was blocked.
+        *   Shots = 1
+    *   **Snippet 3:** "Player26(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team."
+        *   Player26 attempts a pass that results in offside; however, the pass does not lead to a goal, so the assist count will remain 0.
+        *   Offsides = 0 (The offside is attributed to another player, not Player26)
+    *   **Snippet 4:** "Player26(Away Team)'s left-footed shot from a tough angle is saved by Player27(Away Team) in the top center of the goal, while Player22(Away Team)'s shot from the center of the box is blocked."
+        *   Explicitly states Player26 took a shot that was saved.
+        *   Shots = 2
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

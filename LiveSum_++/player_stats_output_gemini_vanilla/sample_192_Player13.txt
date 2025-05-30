@@ -1,0 +1,35 @@
+Okay, let's analyze the commentary snippets for Player13 and generate the final summary table.
+
+1.  **Player Name:** The target player is Player13.
+2.  **Initialization:** Initialize all event counts to 0 for Player13: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player13(Home Team) scores with a right-footed shot from the right side of the box, assisted by Player6(Home Team), Home Team 1, Away Team 2."
+        *   Goals: The snippet explicitly states "Player13 scores", so increment Goals by 1.
+        *   Shots: The snippet explicitly states "Player13 scores with a right-footed shot", so increment Shots by 1.
+        *   Assists: The snippet states Player13 was *assisted by* Player6, so Player13 is not providing the assist, hence assists remains 0.
+
+    *   **Snippet 2:** "Player13(Home Team) scores with a close-range shot from Player10(Home Team)'s header, making it 2-2 between the Home Team and the Away Team."
+        *   Goals: The snippet explicitly states "Player13 scores", so increment Goals by 1.
+        *   Shots: The snippet explicitly states "Player13 scores with a close-range shot", so increment Shots by 1.
+        *   Assists: The snippet does not indicate Player13 provided an assist, so Assists remains 0.
+
+    *   **Snippet 3:** "Player13(Home Team)'s shot from outside the box is blocked."
+        *   Shots: The snippet explicitly states "Player13's shot...is blocked", so increment Shots by 1.
+
+4.  **Final Counts:**
+    *   Shots: 0 + 1 + 1 + 1= 3
+    *   Goals: 0 + 1 + 1= 2
+    *   Assists: 0 + 0 + 0 = 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player13 | 3     | 2     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

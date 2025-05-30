@@ -1,0 +1,28 @@
+Okay, let's analyze the commentary snippets for Player3 and compile the statistics.
+
+**Player Name:** Player3
+
+**Commentary Snippets:**
+
+*   "Player3(Home Team) commits a foul."
+*   "Player3(Home Team)'s header from the center of the box was just a bit too high after being assisted by Player6(Home Team) with a cross from a corner."
+*   "Player3(Home Team) missed the header from the center of the box to the left after being assisted by Player7(Home Team) with a cross during a set piece."
+
+**Step-by-step analysis:**
+
+1.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+2.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player3(Home Team) commits a foul." - This explicitly states that Player3 committed a foul. Increment Fouls by 1. Fouls = 1.
+    *   Snippet 2: "Player3(Home Team)'s header from the center of the box was just a bit too high after being assisted by Player6(Home Team) with a cross from a corner." - This describes a header attempt (shot) by Player3. Increment Shots by 1. Shots = 1.
+    *   Snippet 3: "Player3(Home Team) missed the header from the center of the box to the left after being assisted by Player7(Home Team) with a cross during a set piece." - This describes a missed header attempt (shot) by Player3. Increment Shots by 1. Shots = 2.
+
+3.  **Final Counts:** Shots = 2, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

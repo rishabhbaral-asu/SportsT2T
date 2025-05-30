@@ -1,0 +1,37 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player25 and compile the requested statistics.
+**Player Name:** Player25
+**Commentary Snippets:**
+- Player25(Away Team) misses the target with a left-footed shot from outside the box, with an assist from Player20(Away Team).
+- Player25(Away Team)'s header from the center of the box was just a tad too high after being assisted by Player28(Away Team) with a cross.
+- Player25(Away Team)'s attempt from outside the box with his left foot was too high.
+- Player25(Away Team) commits a foul.
+- Player25(Away Team) receives a yellow card for a foul.
+- Player25(Away Team) commits a foul, giving Player11(Home Team) a free kick in their defensive half.
+
+**Analysis:**
+1.  **Shots:**
+    *   Snippet 1: "Player25(Away Team) misses the target with a left-footed shot from outside the box" - Explicitly states a shot, so increment Shots by 1.
+    *   Snippet 2: "Player25(Away Team)'s header from the center of the box was just a tad too high" - Explicitly states a header attempt (shot), so increment Shots by 1.
+    *   Snippet 3: "Player25(Away Team)'s attempt from outside the box with his left foot was too high." - Explicitly states an attempt(shot), so increment shots by 1.
+    *   Total Shots: 3
+2.  **Goals:** No snippets mention Player25 scoring a goal. Total Goals: 0
+3.  **Assists:** No snippets mention Player25 providing an assist. All assists mentioned are *to* Player25. Total Assists: 0
+4.  **Free Kicks:**
+    *   Snippet 6: "Player25(Away Team) commits a foul, giving Player11(Home Team) a free kick in their defensive half." Player25 is not taking a free kick; this snippet mentions Player25 committed a foul that resulted in a free kick for the opponent.
+    *   Total Free Kicks: 0
+5.  **Fouls:**
+    *   Snippet 4: "Player25(Away Team) commits a foul." - Explicitly states Player25 committed a foul, so increment Fouls by 1.
+    *   Snippet 6: "Player25(Away Team) commits a foul, giving Player11(Home Team) a free kick in their defensive half." - Explicitly states Player25 committed a foul, so increment Fouls by 1.
+    *   Total Fouls: 2
+6.  **Yellow Cards:**
+    *   Snippet 5: "Player25(Away Team) receives a yellow card for a foul." - Explicitly states Player25 received a yellow card, so increment Yellow Cards by 1.
+    *   Total Yellow Cards: 1
+7.  **Red Cards:** No snippets mention Player25 receiving a red card. Total Red Cards: 0
+8.  **Offsides:** No snippets mention Player25 being offsides. Total Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 3     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

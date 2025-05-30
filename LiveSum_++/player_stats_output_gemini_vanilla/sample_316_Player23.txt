@@ -1,0 +1,43 @@
+Okay, let's analyze the commentary snippets for Player23 and generate the final summary table.
+
+**1. Identify Target Player:**
+
+The target player is Player23.
+
+**2. Initialize Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   Snippet 1: "Player23(Away Team) earns a free kick in the opponent's half."
+    *   This snippet explicitly states that Player23 "earns a free kick". Therefore, increment Free Kicks by 1.
+
+*   Snippet 2: "Player23(Away Team)'s shot from the center of the box is saved by the goalkeeper with an assist from Player28(Away Team), resulting in a corner kick for the Away Team."
+    *   This snippet explicitly states "Player23's shot". Therefore, increment Shots by 1. The assist is explicitly from Player28, so Player23 receives 0 assists.
+
+**4. Final Counts:**
+
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**5. Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,45 @@
+Okay, let's analyze the commentary snippets for Player2.
+
+1.  **Player Name:** The target player is Player2.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player2(Home Team) attempts a pass to Player11(Home Team), but he is offside."
+        *   Offsides: Player11 is offside, not Player2.
+        *   No other events apply.
+
+    *   Snippet 2: "Player2(Home Team) commits a foul."
+        *   Fouls: Player2 commits a foul. Increment Fouls by 1. Fouls = 1
+
+    *   Snippet 3: "Player2(Home Team) commits a foul."
+        *   Fouls: Player2 commits a foul. Increment Fouls by 1. Fouls = 2
+
+    *   Snippet 4: "Player2(Home Team) earns a free kick in the opponent's half."
+        * Free Kicks: Player2 earns a free kick. Increment Free Kicks by 1. Free Kicks = 1
+
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 2
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 0     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

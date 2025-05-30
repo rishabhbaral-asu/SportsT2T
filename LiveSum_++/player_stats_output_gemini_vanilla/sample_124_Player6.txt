@@ -1,0 +1,35 @@
+Okay, let's analyze the commentary snippets for Player6 and compile the statistics.
+
+**Player Name:** Player6
+
+**Commentary Snippets:**
+
+*   "Player6(Home Team) from the Home Team has scored an own goal, The Home Team is now leading 3-1 against the Away Team."
+*   "Player6(Home Team) experienced a brief injury delay but is back in the game as they are now ready to continue without any further delays."
+
+**Step-by-step analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1 Analysis:** "Player6(Home Team) from the Home Team has scored an own goal, The Home Team is now leading 3-1 against the Away Team."
+    *   **Own Goal:** This counts as a goal. Goals = 1.
+    *   **Own Goal:** This counts as a shot. Shots = 1.
+
+3.  **Snippet 2 Analysis:** "Player6(Home Team) experienced a brief injury delay but is back in the game as they are now ready to continue without any further delays."
+    *   This snippet doesn't contain any of the keywords associated with the tracked events, so no counters are incremented.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 1     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,36 @@
+Okay, let's analyze the provided commentary snippets for Player26.
+
+**Player Name:** Player26
+
+**Commentary Snippets:**
+
+*   "Player26(Away Team) attempts a through ball, but Player29(Away Team) is caught offside."
+*   "Player26(Away Team) earns a free kick in their own half."
+
+**Step-by-step analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1 Analysis:** "Player26(Away Team) attempts a through ball, but Player29(Away Team) is caught offside."
+    *   This snippet mentions "Player26 attempts a through ball". While it does not directly say shot, goal, or assist, it *indirectly* refers to an attempted pass, which is not counted. Player29 is caught offside, not Player26. This does not count as Player26 being offside.
+    *   No changes to any counts.
+
+3.  **Snippet 2 Analysis:** "Player26(Away Team) earns a free kick in their own half."
+    *   This snippet explicitly states that Player26 "earns a free kick". This falls under the definition of a 'Free Kick'.
+    *   Free Kicks = 1
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

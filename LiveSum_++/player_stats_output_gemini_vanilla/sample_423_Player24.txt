@@ -1,0 +1,62 @@
+Okay, let's break down the process step by step, applying the instructions rigorously to ensure accurate event counting for the specified player.
+
+**1. Identify Target Player:**
+
+The target player is Player24.
+
+**2. Initialize Event Counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player24(Away Team)'s shot from the center of the box, assisted by Player23(Away Team), goes high and wide to the right."
+    *   Explicitly mentions "shot" by Player24.
+    *   Shots = 1
+    *   Although Player24 had a shot, the phrase "assisted by Player23" prevents this snippet from incrementing assists for Player24.
+
+*   **Snippet 2:** "Player24(Away Team) missed a shot with their right foot from the right side of the box, assisted by Player26(Away Team)."
+    *   Explicitly mentions "missed a shot" by Player24.
+    *   Shots = 2
+    *   The phrase "assisted by Player26" prevents this snippet from incrementing assists for Player24.
+
+*   **Snippet 3:** "Player24(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team."
+    *   Does *not* explicitly indicate Player24 provided an assist.
+    *   Player29 is offside, not Player24. Therefore, Offsides does not increment.
+
+*   **Snippet 4:** "Player24(Away Team) commits a foul."
+    *   Explicitly mentions "commits a foul" by Player24.
+    *   Fouls = 1
+
+*   **Snippet 5:** "Player24(Away Team) scores with a right-footed shot from outside the box, putting the Home Team ahead 2-1 against the Away Team."
+    *   Explicitly mentions "scores" by Player24.
+    *   Goals = 1
+    *   Explicitly mentions "shot" by Player24
+    *   Shots = 3
+
+**4. Final Counts:**
+
+Shots = 3
+Goals = 1
+Assists = 0
+Free Kicks = 0
+Fouls = 1
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**5. Final Summary Table:**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 3     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

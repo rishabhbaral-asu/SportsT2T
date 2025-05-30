@@ -1,0 +1,29 @@
+Okay, let's analyze the commentary snippets for Player25 and generate the statistics table.
+
+**Player Name:** Player25
+
+**Commentary Snippets:**
+
+*   Player25(Away Team)'s shot from outside the box with their left foot was saved in the top left corner with an assist from Player29(Away Team).
+*   Player25(Away Team) commits a foul.
+*   Player25(Away Team) commits a foul.
+*   Player25(Away Team) is causing a delay in the match due to an injury.
+
+**Step-by-step analysis:**
+
+1.  **Shots:** The first snippet states "Player25(Away Team)'s shot...was saved". This is an explicit shot by Player25, so increment Shots by 1.
+2.  **Goals:** The first snippet describes a shot that was saved, so Goals remains 0.
+3.  **Assists:** The first snippet states that the shot was "with an assist from Player29(Away Team)". Player25 was *not* giving the assist. Assists remains 0.
+4.  **Free Kicks:** No explicit mention of Player25 taking a free kick or penalty, or winning a free kick/penalty. Free Kicks remains 0.
+5.  **Fouls:** The second and third snippets say "Player25(Away Team) commits a foul.". Fouls increments by 2.
+6.  **Yellow Cards:** No mention of a yellow card for Player25. Yellow Cards remains 0.
+7.  **Red Cards:** No mention of a red card for Player25. Red Cards remains 0.
+8.  **Offsides:** No mention of Player25 being offsides. Offsides remains 0.
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

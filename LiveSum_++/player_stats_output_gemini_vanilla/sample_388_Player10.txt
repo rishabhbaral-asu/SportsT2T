@@ -1,0 +1,31 @@
+Okay, let's start by identifying the player and initializing the counts.
+
+Player Name: Player10
+
+Initial counts:
+Shots: 0, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+Now, analyze each commentary snippet:
+
+*   Snippet 1: "Player10(Home Team) attempts a pass to Player11(Home Team), but Player11(Home Team) is called offside for being in an illegal position."
+    *   This snippet mentions Player10 attempting a pass, but it does not explicitly say that the pass led to a goal, so no assist is awarded. Player11 is offside, but it is not attributed to Player10.
+    *   Shots: 0, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+*   Snippet 2: "Player10(Home Team) earns a free kick on the left side of the field."
+    *   Player10 earns a free kick, meaning he was fouled or an infringement occurred against him, which awards a free kick for his team and counts as a free kick for Player10.
+    *   Shots: 0, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+*   Snippet 3: "Player10(Home Team) earns a free kick on the left side of the field."
+    *   Player10 earns a free kick, meaning he was fouled or an infringement occurred against him, which awards a free kick for his team and counts as a free kick for Player10.
+    *   Shots: 0, Goals: 0, Assists: 0, Free Kicks: 2, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+*   Snippet 4: "Player10(Home Team) of the Home Team attempts a through ball, but Player5(Home Team) is ruled offside."
+    *   Player10 attempts a through ball. Player5 is offside, so no assist awarded to Player10.
+    *   Shots: 0, Goals: 0, Assists: 0, Free Kicks: 2, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 0     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

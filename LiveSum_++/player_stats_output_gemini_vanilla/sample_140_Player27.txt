@@ -1,0 +1,51 @@
+Okay, I'm ready to process the input and generate the player statistics table.
+
+**Player Name:** Player27
+
+**Commentary Snippets:**
+- Player27(Away Team)'s attempt from outside the box is blocked with an assist from Player29(Away Team).
+- Player27(Away Team) outside the box.
+- Player27(Away Team)'s shot from the left side of the box is blocked with the help of Player32(Away Team).
+
+**Reasoning:**
+
+1. **Shots:**
+   - Snippet 1: "Player27(Away Team)'s attempt from outside the box is blocked..." - This explicitly states Player27 made an attempt, so Shots = 1.
+   - Snippet 3: "Player27(Away Team)'s shot from the left side of the box is blocked..." - This explicitly states Player27 took a shot, so Shots = 1.
+   - Total Shots = 1 + 1 = 2
+
+2. **Goals:**
+   - No snippets explicitly mention Player27 scoring a goal.
+   - Total Goals = 0
+
+3. **Assists:**
+   - Snippet 1 mentions "...with an assist from Player29(Away Team)". This means Player27 *received* an assist, not *provided* one, therefore Player27's assist count should NOT be increased.
+   - Snippet 3 mentions "...with the help of Player32(Away Team)". This means Player27 *received* an assist, not *provided* one, therefore Player27's assist count should NOT be increased.
+   - Total Assists = 0
+
+4. **Free Kicks:**
+    - No snippets explicitly mention Player27 taking a free kick or winning a free kick/penalty.
+    - Total Free Kicks = 0
+
+5. **Fouls:**
+   - No snippets explicitly mention Player27 committing a foul.
+   - Total Fouls = 0
+
+6. **Yellow Cards:**
+   - No snippets explicitly mention Player27 receiving a yellow card.
+   - Total Yellow Cards = 0
+
+7. **Red Cards:**
+   - No snippets explicitly mention Player27 receiving a red card.
+   - Total Red Cards = 0
+
+8. **Offsides:**
+    - No snippets explicitly mention Player27 being offsides
+    - Total Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

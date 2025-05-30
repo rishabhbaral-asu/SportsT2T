@@ -1,0 +1,60 @@
+Okay, I'm ready to process the player commentary and generate the statistics table.
+
+**Step 1: Identify Target Player**
+
+The target player is Player34.
+
+**Step 2: Initialize Event Counts**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**Step 3: Analyze Commentary Snippets**
+
+*   **Snippet 1:** "Player34(Away Team) scores with a header from the center of the box to the bottom left corner, assisted by Player24(Away Team) after a set piece, Home Team leads 2-1 against Away Team."
+
+    *   **Shots:** The snippet mentions "scores with a header", so it's a shot on goal. Shots = 1
+    *   **Goals:** The snippet explicitly states "scores", so Goals = 1.
+    *   **Assists:** The snippet indicates Player34 was *assisted by* Player24. Therefore, no assist is given to Player34. Assists = 0
+    *   **Free Kicks:** No mention of free kicks being taken by Player34 or a penalty or Player34 being fouled. Free Kicks = 0
+    *   **Fouls:** No mention of Player34 committing a foul. Fouls = 0
+    *   **Yellow Cards:** No mention of a yellow card for Player34. Yellow Cards = 0
+    *   **Red Cards:** No mention of a red card for Player34. Red Cards = 0
+    *   **Offsides:** No mention of Player34 being offsides. Offsides = 0
+
+*   **Snippet 2:** "Player34(Away Team) misses the header to the right after a cross from Player31(Away Team)."
+
+    *   **Shots:** The snippet says "misses the header", so it's a shot. Shots = 2
+    *   **Goals:** The snippet does not say a goal was scored. Goals = 1
+    *   **Assists:** The snippet indicates Player34 was *assisted by* Player31. Therefore, no assist is given to Player34. Assists = 0
+    *   **Free Kicks:** No mention of free kicks being taken by Player34 or a penalty or Player34 being fouled. Free Kicks = 0
+    *   **Fouls:** No mention of Player34 committing a foul. Fouls = 0
+    *   **Yellow Cards:** No mention of a yellow card for Player34. Yellow Cards = 0
+    *   **Red Cards:** No mention of a red card for Player34. Red Cards = 0
+    *   **Offsides:** No mention of Player34 being offsides. Offsides = 0
+
+**Step 4: Compile Final Counts**
+
+Shots = 2
+Goals = 1
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**Step 5: Create Summary Table**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player34 | 2     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,41 @@
+Okay, let's analyze the commentary snippets for Player7 and compile the statistics.
+
+**Player Name:** Player7
+
+**Commentary Snippets:**
+- Player7(Home Team) earns a free kick in their own half.
+- Player7(Home Team) scores with a right-footed shot from the center of the box into the bottom right corner.
+- Player7(Home Team) earns a free kick in the attacking half after being fouled by Player21(Away Team).
+
+**Step-by-step Analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1:** "Player7(Home Team) earns a free kick in their own half."
+    *   "earns a free kick" - This indicates Player7 was fouled and therefore a free kick was taken, thus a Free Kick.
+    *   Free Kicks = 1
+
+3.  **Snippet 2:** "Player7(Home Team) scores with a right-footed shot from the center of the box into the bottom right corner."
+    *   "scores" - This increments the Goals count.
+    *   "shot" - This increments the Shots count.
+    *   Goals = 1
+    *   Shots = 1
+
+4.  **Snippet 3:** "Player7(Home Team) earns a free kick in the attacking half after being fouled by Player21(Away Team)."
+    *   "earns a free kick" - This indicates Player7 was fouled and therefore a free kick was taken, thus a Free Kick.
+    *   Free Kicks = 2
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 1     | 1     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

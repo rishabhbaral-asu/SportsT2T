@@ -1,0 +1,57 @@
+Okay, let's analyze the commentary snippets for Player21 and compile the statistics.
+
+**1. Identify Target Player:**
+
+The target player is Player21.
+
+**2. Initialize Counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze Snippets and Increment Counts:**
+
+*   **Snippet 1:** "Player21(Away Team) attempts a pass to Player29(Away Team), but Player29(Away Team) is offside."
+    *   This snippet does *not* describe a shot, goal, assist, free kick or foul by Player21. It describes a pass that led to an offside. Therefore, Offsides = 0.
+*   **Snippet 2:** "Player21(Away Team)'s header from the center of the box was close but missed to the right, assisted by Player24(Away Team) with a cross after a corner."
+    *   This describes a shot (header) by Player21. It explicitly says it was a header *attempt* that missed. Therefore, Shots = 1.
+    *   It also states that Player21 was assisted by Player24. This does *not* count as an assist *for* Player21, so Assists = 0.
+    *   Goals = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+*   **Snippet 3:** "Player21(Away Team) fouls Player9(Home Team), giving them a free kick in the attacking half."
+    *   This explicitly states Player21 committed a foul. Therefore, Fouls = 1.
+    *   Free Kicks = 0 (Because Player21 gave away the free kick, they didn't take it.)
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+*   **Snippet 4:** "Player21(Away Team) has been cautioned with a yellow card for a rough tackle."
+    *   This explicitly states Player21 received a yellow card. Therefore, Yellow Cards = 1.
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 1     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

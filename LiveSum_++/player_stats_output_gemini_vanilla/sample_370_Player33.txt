@@ -1,0 +1,41 @@
+Okay, let's start by identifying the target player and initializing the event counts.
+
+Target Player: Player33
+
+Initialized Counts:
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player33(Away Team) earns a free kick in their own half."
+
+*   "earns a free kick" is a keyword for Free Kicks (taken).
+*   The actor is explicitly Player33.
+*   Increment Free Kicks (taken) count: Free Kicks = 0 + 1 = 1
+
+Snippet 2: "Player33(Away Team)'s right footed shot from outside the box is blocked after a foul by Player25(Away Team)."
+
+*   "shot" is a keyword for Shots.
+*   The actor is explicitly Player33.
+*   Increment Shots count: Shots = 0 + 1 = 1
+
+Snippet 3: "Player33(Away Team) commits a foul, giving Player10(Home Team) a free kick in their own defensive half."
+
+*   "commits a foul" is a keyword for Fouls.
+*   The actor is explicitly Player33.
+*   Increment Fouls count: Fouls = 0 + 1 = 1
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player33 | 1     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

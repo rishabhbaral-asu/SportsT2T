@@ -1,0 +1,65 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
+
+1.  **Identify the target player name:**
+    The target player is Player27.
+
+2.  **Initialize counts:**
+    Shots = 0
+    Goals = 0
+    Assists = 0
+    Free Kicks = 0
+    Fouls = 0
+    Yellow Cards = 0
+    Red Cards = 0
+    Offsides = 0
+
+3.  **Analyze each snippet:**
+
+    *   **Snippet 1:** "Player27(Away Team)'s shot from the center of the box is saved by the goalkeeper, with an assist from Player26(Away Team)."
+        *   Shots: Player27 takes a shot, so increment Shots to 1.
+        *   Goals: No goal scored by Player27.
+        *   Assists: Player27 did not provide an assist.
+        *   Free Kicks: No mention of free kicks.
+        *   Fouls: No mention of fouls committed by Player27.
+        *   Yellow Cards: No mention of yellow cards.
+        *   Red Cards: No mention of red cards.
+        *   Offsides: No mention of offsides.
+
+    *   **Snippet 2:** "Player27(Away Team)'s right footed shot from outside the box, assisted by Player29(Away Team), is blocked, with Player8(Home Team) winning a free kick in the defensive half."
+        *   Shots: Player27 takes a shot, so increment Shots to 2.
+        *   Goals: No goal scored by Player27.
+        *   Assists: Player27 did not provide an assist.
+        *   Free Kicks: No mention of Player27 taking a free kick. Player8 wins a free kick, which has nothing to do with player27.
+        *   Fouls: No mention of fouls committed by Player27.
+        *   Yellow Cards: No mention of yellow cards.
+        *   Red Cards: No mention of red cards.
+        *   Offsides: No mention of offsides.
+
+    *   **Snippet 3:** "Player27(Away Team) scores with a right-footed shot from outside the box, assisted by Player21(Away Team) after a corner kick, Home Team 0, Away Team 1."
+        *   Shots: Player27 scores a goal, so increment Shots to 3.
+        *   Goals: Player27 scores a goal, so increment Goals to 1.
+        *   Assists: Player27 did not provide an assist.
+        *   Free Kicks: No mention of free kicks.
+        *   Fouls: No mention of fouls committed by Player27.
+        *   Yellow Cards: No mention of yellow cards.
+        *   Red Cards: No mention of red cards.
+        *   Offsides: No mention of offsides.
+
+4.  **Final Counts:**
+    Shots = 3
+    Goals = 1
+    Assists = 0
+    Free Kicks = 0
+    Fouls = 0
+    Yellow Cards = 0
+    Red Cards = 0
+    Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 3     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

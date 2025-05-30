@@ -1,0 +1,53 @@
+Okay, let's start by identifying the player name and initializing the event counts.
+
+Player Name: Player21
+
+Initialized Counts:
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Now, let's analyze each commentary snippet and increment the counts accordingly, following the strict counting rules.
+
+Snippet 1: "Player21(Away Team) is fouled in the box."
+*   Free Kicks: Player21 is fouled, so increment Free Kicks by 1.
+
+Snippet 2: "Player21(Away Team) earns a free kick on the left side of the field."
+*   Free Kicks: Player21 earns a free kick, so increment Free Kicks by 1.
+
+Snippet 3: "Player21(Away Team)'s left footed shot from a difficult angle on the left is saved in the bottom right corner, while Player20(Away Team)'s right footed shot from outside the box, assisted by Player29(Away Team), is too high."
+*   Shots: Player21 takes a shot, so increment Shots by 1.
+
+Snippet 4: "Player21(Away Team)'s shot from the left side of the box narrowly misses to the right."
+*   Shots: Player21 takes a shot, so increment Shots by 1.
+
+Snippet 5: "Player21(Away Team) is on the ground, but it looks like he faked that fall."
+*   No events to count as there is no explicit foul.
+
+Snippet 6: "Player21(Away Team) receives a yellow card."
+*   Yellow Cards: Player21 receives a yellow card, so increment Yellow Cards by 1.
+
+Snippet 7: "Player21(Away Team)'s left footed shot from the left side of the box goes over the goal."
+*   Shots: Player21 takes a shot, so increment Shots by 1.
+
+Final Counts:
+Shots: 3
+Goals: 0
+Assists: 0
+Free Kicks: 2
+Fouls: 0
+Yellow Cards: 1
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 3     | 0     | 0       | 2          | 0     | 1            | 0         | 0        |
+```

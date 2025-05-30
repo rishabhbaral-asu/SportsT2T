@@ -1,0 +1,26 @@
+Okay, let's analyze the commentary snippets for Player22.
+
+**Player Name:** Player22
+
+**Commentary Snippets:**
+- Player22(Away Team) missed a close-range header to the left, with an assist from Player26(Away Team) after a corner kick.
+- Player22(Away Team) commits a foul and Player1(Home Team) is awarded a free kick in their own half.
+- Player22(Away Team) has been given a yellow card for a rough challenge.
+
+**Event Tracking:**
+
+*   **Shots:** The first snippet mentions "Player22(Away Team) missed a close-range header to the left". This is an explicit shot attempt, so increment Shots by 1.
+*   **Goals:** No goal is mentioned in any of the snippets. Goals remains 0.
+*   **Assists:** The first snippet indicates that Player22 was *assisted by* Player26. Thus, the assist count for Player22 remains 0.
+*   **Free Kicks:** The second snippet describes Player22 committing a foul, which results in Player1 being awarded a free kick. This does not count as a free kick *taken* by Player22. Free Kicks remain at 0.
+*   **Fouls:** The second snippet says "Player22(Away Team) commits a foul". So, increment Fouls by 1.
+*   **Yellow Cards:** The third snippet states "Player22(Away Team) has been given a yellow card". Increment Yellow Cards by 1.
+*   **Red Cards:** No red card is mentioned. Red Cards remain at 0.
+*   **Offsides:** No offsides are mentioned. Offsides remain at 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 1     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

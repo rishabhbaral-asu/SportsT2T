@@ -1,0 +1,52 @@
+Okay, let's start by identifying the target player and initializing the counts.
+
+Target Player: Player2
+
+Initial Counts:
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player2(Home Team) misses his shot from outside the box with a high right-footed shot from a direct free kick."
+*   Shots: The player "misses his shot", so Shots increments by 1.
+*   Goals: No goal is scored.
+*   Assists: No assist is mentioned.
+*   Free Kicks: The player takes a direct free kick, so Free Kicks increments by 1.
+*   Fouls: No foul is mentioned.
+*   Yellow Cards: No yellow card is mentioned.
+*   Red Cards: No red card is mentioned.
+*   Offsides: No offside is mentioned.
+
+Snippet 2: "Player2(Home Team)'s shot from the right side of the box was just a little too high, assisted by Player10(Home Team)."
+*   Shots: The player took a shot, so Shots increments by 1.
+*   Goals: No goal is scored.
+*   Assists: Player2 was *assisted by* Player10, so no assists are added for Player2.
+*   Free Kicks: No free kick is mentioned.
+*   Fouls: No foul is mentioned.
+*   Yellow Cards: No yellow card is mentioned.
+*   Red Cards: No red card is mentioned.
+*   Offsides: No offside is mentioned.
+
+Final Counts:
+Shots: 2
+Goals: 0
+Assists: 0
+Free Kicks: 1
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 2     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

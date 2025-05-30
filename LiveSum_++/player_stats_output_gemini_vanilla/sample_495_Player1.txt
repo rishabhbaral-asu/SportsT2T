@@ -1,0 +1,46 @@
+Okay, let's start by extracting the player name and commentary snippets.
+
+Player Name: Player1
+
+Commentary Snippets:
+- Player1(Home Team) earns a free kick in their own half.
+- Player1(Home Team) is being delayed in the match due to an injury.
+
+Now, let's initialize the counts for each event to 0.
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Now, analyze each snippet:
+
+Snippet 1: "Player1(Home Team) earns a free kick in their own half."
+
+This snippet indicates Player1 earned a free kick. Thus, Free Kicks is incremented.
+Free Kicks = 1
+
+Snippet 2: "Player1(Home Team) is being delayed in the match due to an injury."
+
+This snippet does not explicitly mention any of the events we are tracking other than that Player1 is injured.
+
+Final Counts:
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 1
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player1 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

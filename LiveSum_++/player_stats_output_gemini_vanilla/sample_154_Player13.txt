@@ -1,0 +1,42 @@
+Okay, let's analyze the commentary snippets for Player13.
+
+1.  **Player Name:** Player13
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player13(Home Team) misses the goal with a high and wide right-footed shot from outside the box, assisted by Player14(Home Team)."
+        *   "misses the goal with a ... shot" indicates a shot attempt. Increment Shots count by 1.
+        *   No goal scored.
+        *   The phrase "assisted by Player14" means Player13 did *not* provide the assist.
+    *   Snippet 2: "Player13(Home Team) fouls Player23(Away Team), who earns a free kick in their defensive half."
+        *   "fouls" indicates a foul committed by Player13. Increment Fouls count by 1.
+        *   This does not count as a Free Kick (taken) by Player13, but instead it is Player13 committing a foul. The act of Player13 fouling someone gives the other player a free kick but does not mean Player13 is taking one.
+    *   Snippet 3: "Player13(Home Team) commits a foul."
+        *   "commits a foul" explicitly indicates a foul committed by Player13. Increment Fouls count by 1.
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 2
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player13 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

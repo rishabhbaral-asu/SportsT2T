@@ -1,0 +1,37 @@
+Okay, let's analyze the commentary snippets for Player3 and compile the statistics.
+
+1.  **Player Name:** The target player is Player3.
+
+2.  **Initialization:** We initialize the counts for all events to 0 for Player3.
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player3(Home Team) earns a free kick in their own half."
+        *   This snippet indicates Player3 *earned* a free kick. This implies Player3 was fouled and therefore counts as a Free Kick (taken).
+        *   Free Kicks: Increment to 1.
+
+    *   **Snippet 2:** "Player3(Home Team) commits a foul, resulting in Player29(Away Team) winning a free kick in their own defensive half."
+        *   This snippet explicitly states Player3 committed a foul.
+        *   Fouls: Increment to 1.
+
+    *   **Snippet 3:** "Player3(Home Team) commits a foul, resulting in Player24(Away Team) being awarded a free kick in their own defensive half."
+        *   This snippet explicitly states Player3 committed a foul.
+        *   Fouls: Increment to 2.
+
+4.  **Final Counts:**
+
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 2
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 0     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

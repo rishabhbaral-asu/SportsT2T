@@ -1,0 +1,39 @@
+Okay, let's analyze the commentary snippets for Player5.
+
+1.  **Player Name:** Player5
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player5(Home Team) from the Home Team attempts a pass to Player10(Home Team), but Player10(Home Team) was offside."
+        *   Offside event is for Player10, not Player5. No action for Player5.
+    *   Snippet 2: "Player5(Home Team) earns a free kick on the left side of the field."
+        *   "earns a free kick" keyword found. Increment Free Kicks count. Free Kicks = 1
+    *   Snippet 3: "Player5(Home Team) is currently sidelined due to an injury, causing a delay in the match."
+        *   This snippet does not contain any of the target events.
+
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

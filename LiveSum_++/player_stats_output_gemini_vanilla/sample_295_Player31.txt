@@ -1,0 +1,37 @@
+Okay, let's analyze the commentary snippets for Player31 and generate the requested markdown table.
+
+1.  **Identify Target Player:** The target player is Player31.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player31(Away Team)'s left footed shot from the right side of the box is saved in the center of the goal after an assist from Player27(Away Team)."
+        *   The snippet mentions "Player31's ... shot". Increment Shots: Shots = 0 + 1 = 1.
+        *   The snippet mentions "Player27(Away Team)" assists Player31. This does **NOT** qualify as Player31 providing an assist, so the assist count remains 0.
+        *   The snippet does not explicitly mention goals, free kicks, fouls, yellow cards, red cards, or offsides committed by Player31.
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player31 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

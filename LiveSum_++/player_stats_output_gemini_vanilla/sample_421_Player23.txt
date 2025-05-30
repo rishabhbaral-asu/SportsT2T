@@ -1,0 +1,30 @@
+Okay, let's start by identifying the player name and initializing the counters.
+
+Player Name: Player23
+
+Now, let's initialize the counters:
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player23(Away Team) commits a foul."
+This snippet explicitly states that Player23 committed a foul. So, increment Fouls.
+Fouls = 1
+
+Snippet 2: "Player23(Away Team)'s shot from the center of the box is blocked."
+This snippet explicitly states that Player23 took a shot which was blocked. So, increment Shots.
+Shots = 1
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,26 @@
+Okay, let's analyze the commentary snippets for Player22 and create the final summary table.
+
+1.  **Identify the target player:** Player22
+
+2.  **Initialize counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+3.  **Analyze the snippets:**
+
+    *   **Snippet 1:** "Player22(Away Team) scores with a close-range left-footed shot, assisted by Player21(Away Team)'s header after a set piece, Home Team leads 2-1 against Away Team."
+        *   This snippet explicitly states Player22 scores a goal.
+        *   Goals += 1
+        *   The snippet mentions "shot", thus we increment Shots.
+        *   Shots += 1
+        *   The snippet indicates Player22 was *assisted by* Player21, therefore we do not count an assist for Player22.
+    *   **Snippet 2:** "Player22(Away Team) receives a yellow card."
+        *   This snippet explicitly states Player22 receives a yellow card.
+        *   Yellow Cards += 1
+
+4.  **Compile the final counts:** Shots = 1, Goals = 1, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 1, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 1     | 1     | 0       | 0          | 0     | 1            | 0         | 0        |
+```

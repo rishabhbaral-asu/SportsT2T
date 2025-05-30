@@ -1,0 +1,51 @@
+Okay, let's analyze the commentary snippets for Player26 and compile the statistics.
+
+**Player Name:** Player26
+
+**Commentary Snippets:**
+- Player26(Away Team) earns a free kick in their own half.
+- Player26(Away Team) commits a foul.
+- Player26(Away Team) commits a foul.
+- Player26(Away Team) receives a yellow card for a rough tackle.
+- Player26(Away Team) commits a foul, giving Player13(Home Team) a free kick in the attacking half.
+
+**Step-by-step analysis:**
+
+1. **Initialization:**
+   - Shots = 0
+   - Goals = 0
+   - Assists = 0
+   - Free Kicks = 0
+   - Fouls = 0
+   - Yellow Cards = 0
+   - Red Cards = 0
+   - Offsides = 0
+
+2. **Snippet 1: "Player26(Away Team) earns a free kick in their own half."**
+   - The player earns a free kick. This increments the 'Free Kicks' count by 1.
+   - Free Kicks = 1
+
+3. **Snippet 2: "Player26(Away Team) commits a foul."**
+   - The player commits a foul. This increments the 'Fouls' count by 1.
+   - Fouls = 1
+
+4. **Snippet 3: "Player26(Away Team) commits a foul."**
+   - The player commits a foul. This increments the 'Fouls' count by 1.
+   - Fouls = 2
+
+5. **Snippet 4: "Player26(Away Team) receives a yellow card for a rough tackle."**
+   - The player receives a yellow card. This increments the 'Yellow Cards' count by 1.
+   - The player commits a foul by making a rough tackle (yellow card indicates this). This increments the 'Fouls' count by 1.
+   - Yellow Cards = 1
+   - Fouls = 3
+
+6. **Snippet 5: "Player26(Away Team) commits a foul, giving Player13(Home Team) a free kick in the attacking half."**
+   - The player commits a foul. This increments the 'Fouls' count by 1.
+   - Fouls = 4
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 0     | 0     | 0       | 1          | 4     | 1            | 0         | 0        |
+```

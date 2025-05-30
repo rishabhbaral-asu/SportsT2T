@@ -1,0 +1,42 @@
+Okay, let's analyze the commentary snippets for Player28.
+
+1.  **Player Name:** Player28
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player28(Away Team) commits a foul, resulting in Player10(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player10(Home Team)'s team."
+        *   Player28 commits a foul: Increment Fouls by 1.
+        *   Player28 caused Player10 to win a free kick. This does not count as a free kick for Player28 since Player28 did not take it or win a free kick himself.
+
+    *   Snippet 2: "Player28(Away Team) commits a foul."
+        *   Player28 commits a foul: Increment Fouls by 1.
+
+    *   Snippet 3: "Player28(Away Team) earns a free kick in the opponent's half after being fouled by Player8(Home Team)."
+        *   Player28 earns a free kick: Increment Free Kicks by 1.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 2
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 0     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

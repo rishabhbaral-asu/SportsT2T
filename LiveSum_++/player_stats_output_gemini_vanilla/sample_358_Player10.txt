@@ -1,0 +1,44 @@
+Okay, let's analyze the commentary snippets for Player10 and generate the final summary table.
+
+1.  **Player Name:** The target player is Player10.
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player10(Home Team) handles the ball, causing an offside for the Home Team as Player7(Home Team) attempts a through ball to Player11(Home Team), who is caught offside, ."
+        *   Player10 handles the ball, causing an offside. This explicitly attributes the handball to Player10 which counts as a foul committed. Increment Fouls.
+        *   Home team is caught offside but there is nothing to increment the offside count for Player10, so leave as zero.
+    *   Snippet 2: "Player10(Home Team) commits a foul and Player24(Away Team) is awarded a free kick in their own defensive half."
+        *   Player10 commits a foul. Increment Fouls.
+    *   Snippet 3: "Player10(Home Team)'s left-footed shot from the center of the box into the top left corner, assisted by Player11(Home Team)."
+        *   Player10 took a shot. Increment Shots.
+        *   Player10 scored a goal. Increment Goals.
+        *   Player10 was assisted by Player11. Do NOT increment assists for Player10, as they were the receiver.
+    *   Snippet 4: "Player10(Home Team) commits a foul, resulting in Player21(Away Team) winning a free kick in their own defensive half."
+        *   Player10 commits a foul. Increment Fouls.
+    *   Snippet 5: "Player10(Home Team) earns a free kick in the attacking half after being fouled by Player28(Away Team)."
+        *   Player10 earns a free kick. Increment Free Kicks.
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 3
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 1     | 1     | 0       | 1          | 3     | 0            | 0         | 0        |
+```

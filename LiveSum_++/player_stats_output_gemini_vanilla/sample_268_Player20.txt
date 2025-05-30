@@ -1,0 +1,47 @@
+Okay, let's analyze the commentary snippets and compile the statistics for Player20.
+
+**1. Identify Target Player:**
+
+The target player is Player20.
+
+**2. Initialize Counts:**
+
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**3. Analyze Snippets:**
+
+*   **Snippet 1:** "Player20(Away Team) commits a foul on Player10(Home Team), who earns a free kick on the left wing, This results in a set-piece opportunity for Player10(Home Team)'s team."
+
+    *   Fouls: Player20 commits a foul. Increment Fouls by 1.
+    *   Free Kicks: Player20 commits a foul.
+    *   Free Kicks: Player10 wins a free kick due to the foul.
+
+*   **Snippet 2:** "Player20(Away Team) scores with a right-footed shot from the right side of the six-yard box, assisted by Player28(Away Team), The Home Team is now trailing 1-3 against the Away Team."
+
+    *   Goals: Player20 scores a goal. Increment Goals by 1.
+    *   Shots: Player20 scores with a shot. Increment Shots by 1.
+
+**4. Final Counts:**
+
+Shots: 1
+Goals: 1
+Assists: 0
+Free Kicks: 0
+Fouls: 1
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 1     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

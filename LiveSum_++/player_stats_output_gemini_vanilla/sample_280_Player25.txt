@@ -1,0 +1,36 @@
+Okay, let's analyze the commentary snippets for Player25 and compile the statistics.
+
+**Player Name:** Player25
+
+**Commentary Snippets:**
+
+*   Player25(Away Team) commits a foul as Player17(Home Team)'s left-footed shot from outside the box is blocked.
+*   Player25(Away Team) is currently being delayed in the match due to an injury.
+
+**Step-by-step Analysis:**
+
+1.  **Player Name Identification:** The target player is Player25.
+2.  **Initialization:** Initialize Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet Analysis:**
+    *   Snippet 1: "Player25(Away Team) commits a foul as Player17(Home Team)'s left-footed shot from outside the box is blocked."
+        *   Fouls: The snippet explicitly states "Player25 commits a foul". Therefore, increment Fouls by 1.
+        *   Shots: The shot from the opposing player. Thus shots are not affected for the target player.
+    *   Snippet 2: "Player25(Away Team) is currently being delayed in the match due to an injury."
+        *   This snippet does not mention any of the tracked events. No counts are incremented.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,55 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player28 and generate the final summary table.
+
+**1. Identify Target Player:**
+
+The target player is Player28.
+
+**2. Initialize Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player28(Away Team) earns a free kick in their own defensive half."
+    *   Player28 earns a free kick. This increments Free Kicks by 1.
+    *   Free Kicks: 1
+
+*   **Snippet 2:** "Player28(Away Team) scores for the Away Team with a left-footed free kick to the top right corner, The score is now Home Team 0, Away Team 1."
+    *   Player28 scores a goal. This increments Goals by 1.
+    *   Player28 scores a goal. This increments Shots by 1.
+    *   Player28 scores from a free kick. This increments Free Kicks by 1.
+    *   Goals: 1
+    *   Shots: 1
+    *   Free Kicks: 2
+
+*   **Snippet 3:** "Player28(Away Team) scores with a right-footed shot from the center of the box, assisted by Player27(Away Team), The Away Team now leads 2-0 against the Home Team."
+    *   Player28 scores a goal. This increments Goals by 1.
+    *   Player28 scores a goal. This increments Shots by 1.
+    *   Goals: 2
+    *   Shots: 2
+    *   Player28 was assisted by Player27, so no assist should be credited to Player28.
+
+**4. Final Counts:**
+
+*   Shots: 2
+*   Goals: 2
+*   Assists: 0
+*   Free Kicks: 2
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 2     | 2     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

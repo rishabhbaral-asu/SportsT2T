@@ -1,0 +1,34 @@
+Okay, let's analyze the commentary snippets for Player9 and generate the summary table.
+
+**Player Name:** Player9
+
+**Commentary Snippets:**
+
+*   "Player9(Home Team) commits a foul, resulting in Player22(Away Team) being awarded a free kick in their own defensive half."
+*   "Player9(Home Team)'s right foot in the center of the box, putting them ahead 1-0 against the Away Team."
+*   "Player9(Home Team)'s shot from the center of the box is saved by the goalkeeper after an assist from Player8(Home Team) with a cross."
+
+**Analysis:**
+
+1.  **Player9 commits a foul:** This snippet explicitly states Player9 committed a foul. Increment Fouls by 1.
+2.  **Player9 scores a goal:** This snippet indicates Player9 scored a goal. Increment Goals by 1 and Shots by 1 (as scoring a goal counts as a shot).
+3.  **Player9's shot is saved:** This snippet describes Player9 taking a shot that was saved. Increment Shots by 1. However it also specifies that Player8 assisted him, therefore no assist can be counted for Player9.
+
+**Event Counts:**
+
+*   Shots: 1 (goal) + 1 (saved shot) = 2
+*   Goals: 1
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 2     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

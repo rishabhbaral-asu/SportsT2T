@@ -1,0 +1,35 @@
+Okay, let's analyze the commentary snippets for Player14.
+
+1.  **Player Name:** Player14
+2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+**Snippet Analysis:**
+
+*   **Snippet 1:** "Player14(Home Team) scores with a header from the center of the box to the bottom left corner, assisted by Player5(Home Team) with a cross after a set piece, Home Team now has 3 goals, while Away Team has 4."
+    *   Goals: Player14 scores a goal. Increment Goals by 1.
+    *   Shots: Scoring a goal counts as a shot. Increment Shots by 1.
+    *   Assists: Player14 was *assisted by* another player. Therefore, no assist is counted for Player14.
+
+*   **Snippet 2:** "Player14(Home Team) earns a free kick on the right side of the field."
+    *   Free Kicks: Player14 earns a free kick. Increment Free Kicks by 1.
+
+*   **Snippet 3:** "Player14(Home Team)'s shot from outside the box is blocked."
+    *   Shots: Player14's shot is blocked. Increment Shots by 1.
+
+**Final Counts:**
+
+*   Shots: 2
+*   Goals: 1
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player14 | 2     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

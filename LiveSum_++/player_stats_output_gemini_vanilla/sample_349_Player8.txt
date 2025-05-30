@@ -1,0 +1,20 @@
+Okay, let's analyze the commentary snippets for Player8 and generate the summary table.
+
+1.  **Player Name:** The target player is Player8.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player8(Home Team) commits a foul." - Player8 commits a foul. Increment Fouls: Fouls = 1.
+    *   Snippet 2: "Player8(Home Team) earns a free kick in their own half." - Player8 earns a free kick. Increment Free Kicks: Free Kicks = 1.
+    *   Snippet 3: "Player8(Home Team) fouls Player23(Away Team), earning a free kick in the attacking half." - Player8 commits a foul. Increment Fouls: Fouls = 2.
+    *   Snippet 4: "Player8(Home Team) commits a foul." - Player8 commits a foul. Increment Fouls: Fouls = 3.
+    *   Snippet 5: "Player8(Home Team) receives a yellow card for a rough tackle." - Player8 receives a yellow card. Increment Yellow Cards: Yellow Cards = 1.
+    *   Snippet 6: "Player8(Home Team) earns a free kick in the attacking half, leading to a corner kick for the Home Team, ." - Player8 earns a free kick. Increment Free Kicks: Free Kicks = 2.
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 0     | 0     | 0       | 2          | 3     | 1            | 0         | 0        |
+```

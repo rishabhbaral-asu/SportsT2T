@@ -1,0 +1,25 @@
+Okay, let's start.
+
+1.  **Player Name:** Player28
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player28(Away Team)'s shot from the center of the box is blocked."
+    *   The snippet explicitly mentions Player28 taking a shot.
+    *   Increment Shots: Shots = 1.
+*   **Snippet 2:** "Player28(Away Team)'s right footed shot from the left side of the box hits the bar, with an assist from Player27(Away Team)."
+    *   The snippet explicitly mentions Player28 taking a shot.
+    *   Increment Shots: Shots = 2.
+    *   The snippet mentions Player27 assisting Player28, so Player28 did not provide the assist, therefore do not increment Assists.
+*   **Snippet 3:** "Player28(Away Team) commits a foul."
+    *   The snippet explicitly mentions Player28 committing a foul.
+    *   Increment Fouls: Fouls = 1.
+
+4.  **Final Counts:** Shots = 2, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

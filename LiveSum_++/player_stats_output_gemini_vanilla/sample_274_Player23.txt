@@ -1,0 +1,32 @@
+Okay, let's process the input step by step to create the final summary table.
+
+1.  **Identify Target Player:**
+    The target player is Player23.
+
+2.  **Initialize Counts:**
+    Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player23(Away Team) misses the header from the center of the box, high and wide to the left, after being assisted by Player26(Away Team) with a cross."
+        *   "misses the header" indicates a shot attempt. So, Shots = 1.
+
+    *   Snippet 2: "Player23(Away Team) commits a foul."
+        *   "commits a foul" indicates a foul committed. So, Fouls = 1.
+
+    *   Snippet 3: "Player23(Away Team) commits a foul."
+        *   "commits a foul" indicates a foul committed. So, Fouls = 2.
+
+    *   Snippet 4: "Player23(Away Team) receives a yellow card for a rough tackle."
+        *   "receives a yellow card" indicates a yellow card received. So, Yellow Cards = 1.
+        *   "rough tackle" indicates a foul. So, Fouls = 3.
+
+4.  **Final Counts:**
+    Shots = 1, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 3, Yellow Cards = 1, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 1     | 0     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

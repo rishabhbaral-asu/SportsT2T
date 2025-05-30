@@ -1,0 +1,52 @@
+Okay, I'm ready to analyze the commentary snippets for Player11 and generate the requested markdown table.
+
+**Player Name:** Player11
+
+**Commentary Snippets:**
+
+*   Player11(Home Team) attempts a pass to Player10(Home Team), but Player10(Home Team) is offside.
+*   Player11(Home Team)'s shot from the left side of the box narrowly misses to the left, with an assist from Player7(Home Team).
+*   Player11(Home Team) commits a foul.
+*   Player11(Home Team)'s header from the center of the box hits the crossbar, with an assist from Player16(Home Team)'s cross.
+
+**Step-by-step Analysis:**
+
+1.  **Shots:**
+    *   Snippet 2: "Player11(Home Team)'s shot from the left side of the box narrowly misses to the left, with an assist from Player7(Home Team)." - This explicitly mentions a shot by Player11. Increment Shots by 1.
+    *   Snippet 4: "Player11(Home Team)'s header from the center of the box hits the crossbar, with an assist from Player16(Home Team)'s cross." - This explicitly mentions a header by Player11 which hits the crossbar (attempt on goal). Increment Shots by 1.
+    Total Shots = 2
+
+2.  **Goals:**
+    *   No snippet explicitly mentions Player11 scoring a goal.
+    Total Goals = 0
+
+3.  **Assists:**
+    *   No snippet explicitly mentions Player11 providing an assist (i.e., a pass or action *by* Player11 leading directly to a goal).
+    Total Assists = 0
+
+4.  **Free Kicks:**
+    *   No snippet mentions Player11 taking a free kick or winning a free kick.
+    Total Free Kicks = 0
+
+5.  **Fouls:**
+    *   Snippet 3: "Player11(Home Team) commits a foul." - This explicitly states Player11 committed a foul. Increment Fouls by 1.
+    Total Fouls = 1
+
+6.  **Yellow Cards:**
+    *   No snippet mentions Player11 receiving a yellow card.
+    Total Yellow Cards = 0
+
+7.  **Red Cards:**
+    *   No snippet mentions Player11 receiving a red card.
+    Total Red Cards = 0
+
+8.  **Offsides:**
+    *   Snippet 1: "Player11(Home Team) attempts a pass to Player10(Home Team), but Player10(Home Team) is offside." Player11 passes to Player10 who is offside. Player11 is not offside.
+    Total Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

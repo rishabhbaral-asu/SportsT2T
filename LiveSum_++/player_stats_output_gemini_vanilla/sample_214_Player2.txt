@@ -1,0 +1,53 @@
+Okay, let's start by identifying the target player and initializing the event counts.
+
+Target Player: Player2
+
+Initial Counts:
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Now, let's analyze each commentary snippet and increment the counts based on the instructions.
+
+Snippet 1: "Player2(Home Team)'s left footed shot from the right side of the box is saved in the center of the goal, with an assist from Player9(Home Team)."
+
+*   The snippet explicitly states "Player2's shot" and "saved". Therefore, increment 'Shots' by 1.
+*   There is no mention of a goal.
+*   Player2 is said to have had an assist *from* another player. No assist for Player2.
+
+Updated Counts:
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Snippet 2: "Player2(Home Team)'s close-range left-footed shot into the bottom right corner, assisted by Player5(Home Team) with a cross from a set piece."
+
+*   The snippet explicitly states "Player2's shot" and implies a goal. Therefore, increment 'Shots' by 1 and 'Goals' by 1.
+*   Player2 is said to be *assisted by* another player, hence no assist for Player2.
+
+Updated Counts:
+*   Shots: 2
+*   Goals: 1
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 2     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

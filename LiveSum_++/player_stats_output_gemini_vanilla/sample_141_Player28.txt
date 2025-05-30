@@ -1,0 +1,43 @@
+Okay, let's analyze the commentary snippets for Player28.
+
+1.  **Player Name:** The target player is Player28.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player28(Away Team) commits a foul."
+        *   Fouls += 1 (Explicitly states Player28 committed a foul)
+    *   Snippet 2: "Player28(Away Team) has earned a free kick in their own half."
+        *   Free Kicks += 1 (Explicitly states Player28 earned a free kick)
+    *   Snippet 3: "Player28(Away Team) attempts a pass to Player25(Away Team), who is caught offside."
+        *   Offsides = 0 (Player28 passed the ball, a teammate was offside, this doesn't count as an offside for Player28)
+    *   Snippet 4: "Player28(Away Team)'s shot from the center of the box is blocked, resulting in a corner kick for the Away Team."
+        *   Shots += 1 (Explicitly states Player28 took a shot)
+    *   Snippet 5: "Player28(Away Team) earns a free kick in their own half."
+        *   Free Kicks += 1 (Explicitly states Player28 earned a free kick)
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 2
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 1     | 0     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

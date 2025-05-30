@@ -1,0 +1,40 @@
+Okay, let's analyze the commentary snippets for Player25.
+
+1.  **Player Name:** Player25
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player25(Away Team) scores a penalty with a right footed shot to the bottom right corner, giving the Away Team a 1-0 lead over the Home Team."
+        *   Goal: The snippet explicitly states "Player25 scores", so increment Goals by 1.
+        *   Shot: The snippet mentions that the goal was made with a shot. This counts as a shot. Increment Shots by 1.
+        *   Free Kick: The snippet mentions Player25 scoring a penalty, so increment Free Kicks by 1.
+
+    *   Snippet 2: "Player25(Away Team) earns a free kick in the opponent's half."
+        *   Free Kick: The snippet says Player25 earns a free kick, so increment Free Kicks by 1.
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 2
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 1     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,31 @@
+Okay, I will follow the instructions meticulously to analyze the commentary snippets and generate the player statistics table.
+First, I identify the target player: Player28.
+Next, I initialize all event counts to 0 for Player28.
+Then, I will go through each commentary snippet and increment the counts based on the presence of the specified keywords, applying the **Absolute Strict Counting & Unambiguous Attribution** rule.
+
+Here's the breakdown of each snippet:
+
+*   **Snippet 1:** "Player28(Away Team)'s left footed shot from the left side of the box hits the right post, assisted by Player27(Away Team) with a through ball."
+    *   Mentions "shot", so Shots += 1.
+    *   Mentions "post", implying it was a shot on goal that hit the woodwork.
+    *   Mentions Player28 was assisted by Player27. This does not count as an assist for Player28, but implies the shot occured.
+
+*   **Snippet 2:** "Player28(Away Team)'s header from the center of the box was just a tad too high after being assisted by Player20(Away Team) with a cross."
+    *   Mentions "header," which implies a shot on goal. Shots += 1.
+    *   Mentions Player28 was assisted by Player20. This does not count as an assist for Player28.
+
+*   **Snippet 3:** "Player28(Away Team) misses the shot with their right foot from a tough angle on the right side, just wide of the left post."
+    *   Mentions "misses the shot", so Shots += 1.
+
+*   **Snippet 4:** "Player28(Away Team) misses the target with a left-footed shot from outside the box, assisted by Player27(Away Team)."
+    *   Mentions "shot", so Shots += 1.
+    * Mentions Player28 was assisted by Player27. This does not count as an assist for Player28.
+
+Now I compile the counts into the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 4     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

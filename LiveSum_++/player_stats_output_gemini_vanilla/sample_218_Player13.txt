@@ -1,0 +1,37 @@
+Okay, let's break down the commentary and compile the stats for Player13.
+
+1.  **Player Name:** `Player13`
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Commentary Snippet Analysis:**
+
+    *   Snippet 1: "Player13(Home Team) scores with a header from the center of the box to the bottom left corner, assisted by Player16(Home Team) with a cross, Home Team leads 2-1 against Away Team."
+        *   The snippet explicitly states "Player13 scores". So, Goals += 1.
+        *   The snippet explicitly describes that the goal was a header. Since the action led to a goal for the player, Shots += 1.
+        *   The snippet indicates "assisted by Player16". So, the goal was scored by Player13, but Player13 *received* the assist, therefore the player is not credited with providing an assist.
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player13 | 1     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

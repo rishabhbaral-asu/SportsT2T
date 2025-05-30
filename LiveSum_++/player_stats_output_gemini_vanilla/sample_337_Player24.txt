@@ -1,0 +1,24 @@
+Okay, let's start by identifying the player name.
+The player name is Player24.
+Now, let's initialize the counts for all the events to 0.
+Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+Now, we will go through each commentary snippet and increment the counts based on the instructions.
+
+Snippet 1: "Player24(Away Team)'s shot from outside the box is saved in the center of the goal with an assist from Player26(Away Team)."
+This snippet mentions Player24 taking a shot. So, Shots = 1.
+It does not say Player24 scored a goal. So Goals = 0.
+The snippet says Player24's shot had an assist from Player26. Player24 did not provide the assist. Assists = 0.
+This snippet doesn't mention a free kick. Free Kicks = 0.
+This snippet doesn't mention a foul. Fouls = 0.
+This snippet doesn't mention a yellow card. Yellow Cards = 0.
+This snippet doesn't mention a red card. Red Cards = 0.
+This snippet doesn't mention an offside. Offsides = 0.
+
+Now, we create the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

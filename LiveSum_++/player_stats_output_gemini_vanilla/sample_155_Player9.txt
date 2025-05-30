@@ -1,0 +1,41 @@
+Okay, let's process the input step by step.
+
+1.  **Identify Player Name:** The target player is Player9.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player9(Home Team)'s shot from outside the box is blocked."
+        *   This snippet explicitly states Player9 took a shot.
+        *   Increment Shots: Shots = 1
+
+    *   Snippet 2: "Player9(Home Team) misses the target with a right-footed shot from outside the box, with an assist from Player8(Home Team)."
+        *   This snippet explicitly states Player9 took a shot.
+        *   Increment Shots: Shots = 2
+        *   The snippet explicitly states the Player8 assisted player9, therefore the player does not get an assist.
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

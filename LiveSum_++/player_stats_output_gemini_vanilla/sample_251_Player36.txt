@@ -1,0 +1,38 @@
+Okay, let's analyze the commentary snippets for Player36 and compile the statistics.
+
+1.  **Player Name:** Player36
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player36(Away Team) misses the target with a right-footed shot from the left side of the box, assisted by Player23(Away Team)."
+        *   The snippet explicitly states "Player36 misses the target with a ... shot".
+        *   Therefore, Shots += 1.
+        *   The snippet mentions Player23 assisted Player36. Because we are analyzing for Player36, this DOES NOT count as an assist for Player36.
+
+4.  **Final Counts:**
+
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player36 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

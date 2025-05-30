@@ -1,0 +1,66 @@
+Okay, I'm ready to analyze the commentary snippets and generate the player statistics table.
+
+**1. Identify Target Player:**
+
+The target player is Player28.
+
+**2. Initialize Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   Snippet 1: "Player28(Away Team)'s shot from outside the box is blocked with the help of Player24(Away Team)."
+    *   Shot: Player28 took a shot that was blocked. Increment Shots to 1.
+    *   Goals: No goals scored.
+    *   Assists: Player28 received help and did not provide any assist.
+    *   Free Kicks: No Free Kick event.
+    *   Fouls: No foul committed.
+    *   Yellow Cards: No yellow card.
+    *   Red Cards: No red card.
+    *   Offsides: No offside.
+
+*   Snippet 2: "Player28(Away Team) wins a free kick in the defensive half as Player27(Away Team) attempts a through ball to Player29(Away Team), who is caught offside for the Away Team."
+    *   Shot: No shot.
+    *   Goals: No goals scored.
+    *   Assists: No assist.
+    *   Free Kicks: Player28 wins a free kick. Increment Free Kicks to 1.
+    *   Fouls: No foul committed.
+    *   Yellow Cards: No yellow card.
+    *   Red Cards: No red card.
+    *   Offsides: No offside by Player28.
+
+*   Snippet 3: "Player28(Away Team)'s shot from the center of the box was blocked after being assisted by Player25(Away Team)."
+    *   Shot: Player28 took a shot that was blocked. Increment Shots to 2.
+    *   Goals: No goals scored.
+    *   Assists: Player28 was assisted by someone else, so no assist is awarded to Player28.
+    *   Free Kicks: No Free Kick event.
+    *   Fouls: No foul committed.
+    *   Yellow Cards: No yellow card.
+    *   Red Cards: No red card.
+    *   Offsides: No offside.
+
+**4. Final Counts:**
+
+*   Shots: 2
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 2     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,49 @@
+Okay, let's analyze the commentary snippets for Player31 and generate the summary table.
+
+**Player Name:** Player31
+
+**Commentary Snippets:**
+- Player31(Away Team) commits a foul, allowing Player5(Home Team) to win a free kick in the attacking half, This results in a set-piece opportunity for Player5(Home Team)'s team.
+- Player31(Away Team) receives a yellow card for a rough tackle.
+- Player31(Away Team) misses the header from the center of the box, it goes high and wide to the right, Player29(Away Team) assisted with a cross after a corner.
+
+**Step-by-step analysis:**
+
+1.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+2.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player31(Away Team) commits a foul, allowing Player5(Home Team) to win a free kick in the attacking half, This results in a set-piece opportunity for Player5(Home Team)'s team."
+        *   Fouls: The snippet explicitly states "Player31 commits a foul". Increment Fouls by 1.
+        *   Free Kicks: Player31 conceded a foul. The statement "allowing Player5 to win a free kick" does not count as a free kick *taken* by Player31.
+    *   **Snippet 2:** "Player31(Away Team) receives a yellow card for a rough tackle."
+        *   Yellow Cards: The snippet explicitly states "Player31 receives a yellow card". Increment Yellow Cards by 1.
+    *   **Snippet 3:** "Player31(Away Team) misses the header from the center of the box, it goes high and wide to the right, Player29(Away Team) assisted with a cross after a corner."
+        *   Shots: The snippet explicitly mentions "Player31 misses the header". Increment Shots by 1.
+        *   Goals: No goal is mentioned, so Goals remains 0.
+        *   Assists: Player31 was assisted by Player29. Hence, Assists remains 0.
+
+3.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player31 | 1     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

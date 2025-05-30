@@ -1,0 +1,44 @@
+Okay, let's analyze the commentary snippets for Player19.
+
+1.  **Player Name:** Player19
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Commentary Snippet Analysis:**
+
+    *   Snippet 1: "Player19(Away Team) earns a free kick in their own half."
+        *   Player19 earns a free kick. This means an opponent fouled Player19, so Player19 *wins* a free kick. Free Kicks + 1
+
+    *   Snippet 2: "Player19(Away Team) is causing a delay in the match due to an injury."
+        *   This snippet doesn't mention any of the tracked events.
+
+    *   Snippet 3: "Player19(Away Team) from the Away Team attempts a through ball, but Player28(Away Team) is offside."
+        *   This does not count as an assist for Player19 because Player28 was offside; the pass did not *directly* lead to a goal.
+
+    *   Snippet 4: "Player19(Away Team) attempts a through ball, but Player28(Away Team) is called offside for the Away Team."
+        *   Similar to snippet 3, this does not count as an assist.
+
+4. **Updated Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player19 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

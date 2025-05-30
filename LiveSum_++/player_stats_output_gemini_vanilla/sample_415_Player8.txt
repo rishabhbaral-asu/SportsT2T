@@ -1,0 +1,41 @@
+Okay, let's analyze the commentary snippets for Player8.
+
+1.  **Player Name:** Player8
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player8(Home Team)'s header from the center of the box was too high after being assisted by Player6(Home Team) with a cross from a corner."
+        *   This snippet mentions a header by Player8, which is an attempt on goal. Therefore, Shots = 1. It does not mention a goal. Since Player8 was *assisted by* another player, Assists remains 0.
+
+    *   Snippet 2: "Player8(Home Team) commits a foul."
+        *   This snippet explicitly states Player8 committed a foul. Therefore, Fouls = 1.
+
+    *   Snippet 3: "Player8(Home Team) receives a yellow card for a harsh tackle."
+        *   This snippet explicitly states Player8 received a yellow card. Therefore, Yellow Cards = 1. It does not describe a foul beyond the yellow card, so the count for Fouls remains at 1.
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 1     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

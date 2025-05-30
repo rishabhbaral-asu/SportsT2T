@@ -1,0 +1,39 @@
+Okay, let's analyze the provided commentary snippets for Player10 and generate the final summary table.
+
+**Step 1: Identify the target player name.**
+
+The target player is Player10.
+
+**Step 2: Initialize all event counts to 0.**
+
+Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+**Step 3: Analyze each commentary snippet and increment counts based on explicit mentions and keywords.**
+
+*   **Snippet 1: "Player10(Home Team)'s shot from the center of the box is blocked after a cross from Player11(Home Team)."**
+    *   "shot" is present. Increment Shots.
+    *   Shots = 1
+
+*   **Snippet 2: "Player10(Home Team) misses the target with a high and wide shot from outside the box, assisted by Player9(Home Team)."**
+    *   "shot" is present. Increment Shots.
+     * "assisted by Player9(Home Team)." This means Player 10 did not give the assist.
+    *   Shots = 2
+
+*   **Snippet 3: "Player10(Home Team)'s shot from the center of the box is saved by the goalkeeper, with an assist from Player9(Home Team)."**
+    *   "shot" and "saved" are present. Increment Shots.
+    *   "assisted by Player9(Home Team)." This means Player 10 did not give the assist.
+    *   Shots = 3
+
+*   **Snippet 4: "Player10(Home Team)'s shot from the left side of the box is blocked by the defender, assisted by Player9(Home Team), resulting in a corner kick for the Home Team."**
+    *   "shot" and "blocked" are present. Increment Shots.
+     * "assisted by Player9(Home Team)." This means Player 10 did not give the assist.
+    *   Shots = 4
+
+**Step 4: Construct the Final Summary Table.**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 4     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

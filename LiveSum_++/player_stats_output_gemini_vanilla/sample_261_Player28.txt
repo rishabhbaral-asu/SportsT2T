@@ -1,0 +1,51 @@
+Okay, let's analyze the commentary snippets for Player28 and generate the summary table.
+
+**Player Name:**
+Player28
+
+**Commentary Snippets:**
+- Player28(Away Team)'s attempt from outside the box is blocked, with an assist from Player27(Away Team).
+- Player28(Away Team) earns a free kick in the opponent's half.
+- Player28(Away Team)'s close-range header, assisted by Player23(Away Team) with a cross, was blocked due to a foul committed by Player7(Home Team).
+
+**Event Tracking:**
+
+*   **Shots:**
+    *   Snippet 1: "Player28(Away Team)'s attempt from outside the box is blocked..." - This is a shot attempt that was blocked, so increment Shots by 1.
+    *   Snippet 3: "Player28(Away Team)'s close-range header...was blocked..." - This is another shot attempt (header) that was blocked, so increment Shots by 1.
+    Total Shots = 2
+
+*   **Goals:**
+    *   No snippets explicitly mention Player28 scoring a goal.
+    Total Goals = 0
+
+*   **Assists:**
+    *   No snippets explicitly mention Player28 providing an assist for a goal. Even though Player28 gets assists, the assist must be made *by* Player28 to another player.
+    Total Assists = 0
+
+*   **Free Kicks (Taken):**
+    *   Snippet 2: "Player28(Away Team) earns a free kick in the opponent's half." - Player28 earned/wins the free kick, therefore he is taking the kick. Increment Free Kicks by 1.
+    Total Free Kicks = 1
+
+*   **Fouls (Committed):**
+    *   Snippet 3: "Player28(Away Team)'s close-range header...was blocked due to a foul committed by Player7(Home Team)." Player7 committed the foul, not Player28.
+    Total Fouls = 0
+
+*   **Yellow Cards:**
+    *   No snippets mention Player28 receiving a yellow card.
+    Total Yellow Cards = 0
+
+*   **Red Cards:**
+    *   No snippets mention Player28 receiving a red card.
+    Total Red Cards = 0
+
+*   **Offsides:**
+    *   No snippets mention Player28 being offsides.
+    Total Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 2     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

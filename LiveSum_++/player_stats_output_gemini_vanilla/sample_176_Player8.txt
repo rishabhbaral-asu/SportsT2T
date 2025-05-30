@@ -1,0 +1,29 @@
+Okay, let's break this down step by step.
+
+1.  **Identify Target Player:** The target player is Player8.
+
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player8(Home Team)'s left footed shot from outside the box hits the crossbar off a direct free kick."
+        *   Mentions "shot" and "free kick". Increment Shots and Free Kicks.
+        *   Shots = 1, Free Kicks = 1
+    *   **Snippet 2:** "Player8(Home Team) commits a foul."
+        *   Mentions "foul". Increment Fouls.
+        *   Fouls = 1
+    *   **Snippet 3:** "Player8(Home Team) earns a free kick in their own half."
+        *   Mentions "earns a free kick". Increment Free Kicks.
+        *   Free Kicks = 2
+    *   **Snippet 4:** "Player8(Home Team)'s left-footed shot from outside the box is saved in the top center of the goal, resulting in a corner kick for the Home Team."
+        *   Mentions "shot" and "saved". Increment Shots.
+        *   Shots = 2
+
+4.  **Final Counts:** Shots = 2, Goals = 0, Assists = 0, Free Kicks = 2, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 2     | 0     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

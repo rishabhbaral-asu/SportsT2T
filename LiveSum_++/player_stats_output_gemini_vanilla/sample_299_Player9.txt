@@ -1,0 +1,40 @@
+Okay, let's analyze the commentary snippets for Player9 and create the summary table.
+
+1.  **Player Name:** Player9
+2.  **Initialization:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player9(Home Team) commits a foul, resulting in Player27(Away Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player27(Away Team)."
+        *   Fouls: Player9 commits a foul. Increment Fouls by 1. Fouls = 1
+        *   Free Kicks: Player9 commits a foul resulting in a free kick for the opposition. Since Player9 did not take the free kick, Free Kicks remains 0.
+
+    *   Snippet 2: "Player9(Home Team) receives a yellow card for a rough tackle."
+        *   Yellow Cards: Player9 receives a yellow card. Increment Yellow Cards by 1. Yellow Cards = 1
+
+    *   Snippet 3: "Player9(Home Team) earns a free kick on the left side of the field."
+        *   Free Kicks: Player9 earns a free kick. Increment Free Kicks by 1. Free Kicks = 1
+
+    *   Snippet 4: "Player9(Home Team) earns a free kick in the opponent's half."
+        *   Free Kicks: Player9 earns a free kick. Increment Free Kicks by 1. Free Kicks = 2
+
+    *   Snippet 5: "Player9(Home Team)'s header from the centre of the box and Player10(Home Team)'s right-footed shot from outside the box were both blocked."
+        *   Shots: Player9's header was blocked. Increment Shots by 1. Shots = 1
+
+    *   Snippet 6: "Player9(Home Team) commits a foul."
+        *   Fouls: Player9 commits a foul. Increment Fouls by 1. Fouls = 2
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 1     | 0     | 0       | 2          | 2     | 1            | 0         | 0        |
+```

@@ -1,0 +1,82 @@
+Okay, let's analyze the commentary snippets for Player3 and compile the statistics.
+
+1.  **Player Name:** Player3
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player3(Home Team)'s header from a tough angle on the left is saved in the top left corner after being assisted by Player2(Home Team) with a cross, resulting in a corner kick for the Home Team."
+        *   Shots: Player3 takes a header that is saved, so increment Shots by 1.
+        *   Goals: No goal is scored, so Goals remains 0.
+        *   Assists: Player3 was *assisted by* Player2, so Assists remains 0.
+        *   Free Kicks: Not applicable, so Free Kicks remains 0.
+        *   Fouls: Not applicable, so Fouls remains 0.
+        *   Yellow Cards: Not applicable, so Yellow Cards remains 0.
+        *   Red Cards: Not applicable, so Red Cards remains 0.
+        *   Offsides: Not applicable, so Offsides remains 0.
+
+    *   Snippet 2: "Player3(Home Team) commits a foul on Player28(Away Team), who earns a free kick on the right wing."
+        *   Shots: Not applicable, so Shots remains 1.
+        *   Goals: Not applicable, so Goals remains 0.
+        *   Assists: Not applicable, so Assists remains 0.
+        *   Free Kicks: Not applicable - Player3 committed a foul, and Player28 earns a free kick; this does not increment Player3's free kicks.
+        *   Fouls: Player3 commits a foul, so increment Fouls by 1.
+        *   Yellow Cards: Not applicable, so Yellow Cards remains 0.
+        *   Red Cards: Not applicable, so Red Cards remains 0.
+        *   Offsides: Not applicable, so Offsides remains 0.
+
+    *   Snippet 3: "Player3(Home Team) receives a yellow card for a rough tackle."
+        *   Shots: Not applicable, so Shots remains 1.
+        *   Goals: Not applicable, so Goals remains 0.
+        *   Assists: Not applicable, so Assists remains 0.
+        *   Free Kicks: Not applicable, so Free Kicks remains 0.
+        *   Fouls: Not applicable - already counted as a foul when the yellow card was given.
+        *   Yellow Cards: Player3 receives a yellow card, so increment Yellow Cards by 1.
+        *   Red Cards: Not applicable, so Red Cards remains 0.
+        *   Offsides: Not applicable, so Offsides remains 0.
+
+    *   Snippet 4: "Player3(Home Team) commits a foul."
+        *   Shots: Not applicable, so Shots remains 1.
+        *   Goals: Not applicable, so Goals remains 0.
+        *   Assists: Not applicable, so Assists remains 0.
+        *   Free Kicks: Not applicable, so Free Kicks remains 0.
+        *   Fouls: Player3 commits a foul, so increment Fouls by 1.
+        *   Yellow Cards: Not applicable, so Yellow Cards remains 1.
+        *   Red Cards: Not applicable, so Red Cards remains 0.
+        *   Offsides: Not applicable, so Offsides remains 0.
+
+     *   Snippet 5: "Player3(Home Team) commits a foul."
+        *   Shots: Not applicable, so Shots remains 1.
+        *   Goals: Not applicable, so Goals remains 0.
+        *   Assists: Not applicable, so Assists remains 0.
+        *   Free Kicks: Not applicable, so Free Kicks remains 0.
+        *   Fouls: Player3 commits a foul, so increment Fouls by 1.
+        *   Yellow Cards: Not applicable, so Yellow Cards remains 1.
+        *   Red Cards: Not applicable, so Red Cards remains 0.
+        *   Offsides: Not applicable, so Offsides remains 0.
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 3
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 1     | 0     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

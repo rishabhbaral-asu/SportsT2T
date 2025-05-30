@@ -1,0 +1,36 @@
+Okay, let's analyze the commentary snippets for Player11.
+
+1.  **Player Name:** The target player is Player11.
+
+2.  **Initialization:** We initialize all event counts to 0 for Player11: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player11(Home Team) is offside after Player6(Home Team) attempts a through ball for the home team."
+        *   Player11 is explicitly mentioned as being offside.
+        *   Offsides = 1
+
+    *   **Snippet 2:** "Player11(Home Team) commits a foul."
+        *   Player11 is explicitly mentioned as committing a foul.
+        *   Fouls = 1
+
+    *   **Snippet 3:** "Player11(Home Team) earns a free kick on the right side of the field."
+        * Player11 is explicitly mentioned as earning a free kick
+        * Free Kicks = 1
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 1
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 1        |
+```

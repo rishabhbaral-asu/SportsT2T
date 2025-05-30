@@ -1,0 +1,46 @@
+Okay, let's analyze the commentary snippets for Player29 and generate the summary table.
+
+**Steps:**
+
+1.  **Identify Target Player:** The target player is Player29.
+2.  **Initialize Counts:** Initialize Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, and Offsides to 0.
+3.  **Analyze Snippets & Increment Counts:**
+
+*   **Snippet 1:** "Player29(Away Team)'s left-footed shot from the left side of the box is blocked, resulting in a corner kick for the Away Team."
+    *   Shots: Increment by 1 (explicitly stated "shot").
+*   **Snippet 2:** "Player29(Away Team) commits a foul, resulting in Player3(Home Team) winning a free kick in their own defensive half."
+    *   Fouls: Increment by 1 (explicitly states "commits a foul").
+*   **Snippet 3:** "Player29(Away Team)'s left footed shot from the left side of the box is blocked by the defense, resulting in a corner kick for the Away Team after an assist from Player28(Away Team)."
+    *   Shots: Increment by 1 (explicitly stated "shot").
+*   **Snippet 4:** "Player29(Away Team) commits a foul."
+    *   Fouls: Increment by 1 (explicitly states "commits a foul").
+*   **Snippet 5:** "Player29(Away Team)'s shot from the left side of the box was saved in the center of the goal, with an assist from Player28(Away Team)."
+    *   Shots: Increment by 1 (explicitly stated "shot").
+*   **Snippet 6:** "Player29(Away Team) misses the target with a high shot from the center of the box."
+    *   Shots: Increment by 1 (explicitly stated "shot").
+*   **Snippet 7:** "Player29(Away Team) scores with a right-footed shot from the center of the box, putting the Home Team on the scoreboard with 1 goal against the Away Team's 2."
+    *   Shots: Increment by 1 (explicitly stated "shot").
+    *   Goals: Increment by 1 (explicitly stated "scores").
+*   **Snippet 8:** "Player29(Away Team) commits a foul."
+    *   Fouls: Increment by 1 (explicitly states "commits a foul").
+*   **Snippet 9:** "Player29(Away Team) receives a yellow card for a rough tackle."
+    *   Yellow Cards: Increment by 1 (explicitly states "yellow card").
+*   **Snippet 10:** "Player29(Away Team) was briefly sidelined due to an injury, but the delay is now over and they are prepared to resume play."
+    *   No event to increment.
+
+4.  **Compile Final Counts:**
+    *   Shots: 6
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 3
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 6     | 1     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

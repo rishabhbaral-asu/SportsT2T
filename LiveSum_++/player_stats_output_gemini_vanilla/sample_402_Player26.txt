@@ -1,0 +1,30 @@
+Okay, let's analyze the commentary snippets for Player26 and compile the statistics.
+
+1.  **Player Name:** The target player is Player26.
+2.  **Initialization:** Initialize Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, and Offsides to 0 for Player26.
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player26(Away Team) commits a foul, resulting in Player3(Home Team) being awarded a free kick in their own defensive half."
+        *   The snippet explicitly states that Player26 commits a foul.
+        *   Increment Fouls by 1.
+        *   The snippet also states that Player3 won a free kick AS A RESULT of Player26 committing a foul. This does NOT increment Player26's free kicks.
+    *   **Snippet 2:** "Player26(Away Team) commits a foul, resulting in Player15(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player15(Home Team)'s team."
+        *   The snippet explicitly states that Player26 commits a foul.
+        *   Increment Fouls by 1.
+        *   The snippet also states that Player15 won a free kick AS A RESULT of Player26 committing a foul. This does NOT increment Player26's free kicks.
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 2
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 0     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

@@ -1,0 +1,28 @@
+Okay, let's analyze the commentary snippets for Player3 and generate the requested markdown table.
+
+**Player Name:**
+Player3
+
+**Commentary Snippets:**
+- Player3(Home Team) commits a foul and Player5(Home Team) attempts a through ball, but Player11(Home Team) is caught offside for the Home Team.
+
+**Reasoning:**
+
+1.  **Initialization:** We start with all event counts for Player3 initialized to 0.
+2.  **Snippet Analysis:** The first snippet states "Player3(Home Team) commits a foul". This explicitly attributes a foul to Player3, so the "Fouls" count is incremented by 1. The rest of the snippet is about other players and offsides, so we ignore that.
+3.  **Final Counts:** Based on the analysis, the final counts are:
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

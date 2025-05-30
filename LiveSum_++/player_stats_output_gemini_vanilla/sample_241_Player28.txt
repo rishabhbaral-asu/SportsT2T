@@ -1,0 +1,63 @@
+Okay, let's analyze the commentary snippets for Player28 and generate the final summary table.
+
+**Step-by-step reasoning:**
+
+1.  **Player Identification:** The target player is Player28.
+
+2.  **Initialization:** Initialize all event counters to 0 for Player28.
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player28(Away Team) misses the shot with his right foot from outside the box, assisted by Player29(Away Team)."
+        *   Shots: Increment by 1 (explicitly mentions "misses the shot").
+        *   Assists: Do not increment (Player28 did not provide the assist).
+
+    *   **Snippet 2:** "Player28(Away Team) commits a foul."
+        *   Fouls: Increment by 1 (explicitly mentions "commits a foul").
+
+    *   **Snippet 3:** "Player28(Away Team) has committed a hand ball."
+        *   Fouls: Increment by 1 (explicitly mentions "committed a hand ball").
+
+    *   **Snippet 4:** "Player28(Away Team) commits a foul."
+        *   Fouls: Increment by 1 (explicitly mentions "commits a foul").
+
+    *   **Snippet 5:** "Player28(Away Team)'s shot from the center of the box is blocked after a headed pass from Player22(Away Team)."
+        *   Shots: Increment by 1 (explicitly mentions "shot").
+        *   Assists: Do not increment (Player28 did not provide the assist).
+
+    *   **Snippet 6:** "Player28(Away Team) commits a foul."
+        *   Fouls: Increment by 1 (explicitly mentions "commits a foul").
+
+    *   **Snippet 7:** "Player28(Away Team) receives a yellow card for a foul."
+        *   Fouls: Implicitly mentions "foul" because the yellow card is explicitly for a foul. Increment by 1.
+        *   Yellow Cards: Increment by 1 (explicitly mentions "yellow card").
+
+    *   **Snippet 8:** "Player28(Away Team) earns a free kick in the defensive half, but his left-footed shot from outside the box, assisted by Player23(Away Team), narrowly misses to the left."
+        *   Free Kicks: Increment by 1 (Player28 earns a free kick but more importantly takes a shot during a free kick).
+        *   Shots: Increment by 1 (explicitly mentions "shot").
+        *   Assists: Do not increment (Player28 did not provide the assist).
+
+    *   **Snippet 9:** "Player28(Away Team) has committed a hand ball."
+        *   Fouls: Increment by 1 (explicitly mentions "committed a hand ball").
+
+    *   **Snippet 10:** "Player28(Away Team) misses the header to the right after a cross from Player26(Away Team)."
+        *   Shots: Increment by 1 (explicitly mentions "misses the header").
+        *   Assists: Do not increment (Player28 did not provide the assist).
+
+4.  **Final Counts:**
+
+    *   Shots: 5
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 6
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 5     | 0     | 0       | 1          | 6     | 1            | 0         | 0        |
+```

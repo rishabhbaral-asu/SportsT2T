@@ -1,0 +1,55 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player14 and generate the final summary table.
+
+**Player Name:** Player14
+
+**Commentary Snippets:**
+- Player14(Home Team)'s header from the center of the box was too high after a cross from Player10(Home Team) following a corner kick.
+- Player14(Home Team) of the Home Team attempts a through ball, but Player11(Home Team) is flagged for being offside.
+- Player14(Home Team) receives a yellow card.
+
+**Step-by-step Analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1:** "Player14(Home Team)'s header from the center of the box was too high after a cross from Player10(Home Team) following a corner kick."
+    *   The snippet mentions "header" which implies an attempt on goal. Therefore, Shots += 1.
+    *   The snippet does not mention a goal being scored. Therefore, Goals remains 0.
+    *   The snippet does not mention Player14 providing an assist. Therefore, Assists remains 0.
+    *   The snippet does not mention a free kick. Therefore, Free Kicks remains 0.
+    *   The snippet does not mention a foul. Therefore, Fouls remains 0.
+    *   The snippet does not mention any cards. Therefore, Yellow Cards and Red Cards remain 0.
+    *   The snippet does not mention offside. Therefore, Offsides remains 0.
+
+3.  **Snippet 2:** "Player14(Home Team) of the Home Team attempts a through ball, but Player11(Home Team) is flagged for being offside."
+    *   The snippet does not mention a shot. Therefore, Shots remains 1.
+    *   The snippet does not mention a goal. Therefore, Goals remains 0.
+    *   The snippet does not mention an assist. Therefore, Assists remains 0.
+    *   The snippet does not mention a free kick. Therefore, Free Kicks remains 0.
+    *   The snippet does not mention a foul. Therefore, Fouls remains 0.
+    *   The snippet does not mention any cards. Therefore, Yellow Cards and Red Cards remain 0.
+    *   The snippet does not mention Player14 being offside, but Player11. Therefore, Offsides remains 0.
+
+4.  **Snippet 3:** "Player14(Home Team) receives a yellow card."
+    *   The snippet does not mention a shot. Therefore, Shots remains 1.
+    *   The snippet does not mention a goal. Therefore, Goals remains 0.
+    *   The snippet does not mention an assist. Therefore, Assists remains 0.
+    *   The snippet does not mention a free kick. Therefore, Free Kicks remains 0.
+    *   The snippet does not mention a foul. Therefore, Fouls remains 0.
+    *   The snippet explicitly mentions a yellow card. Therefore, Yellow Cards += 1.
+    *   The snippet does not mention a red card. Therefore, Red Cards remains 0.
+    *   The snippet does not mention offside. Therefore, Offsides remains 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player14 | 1     | 0     | 0       | 0          | 0     | 1            | 0         | 0        |
+```

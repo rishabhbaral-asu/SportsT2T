@@ -1,0 +1,37 @@
+Okay, let's process the commentary snippets for Player14.
+
+1.  **Player Name:** Player14
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player14(Home Team) scores with a header from close range to the bottom left corner, assisted by Player6(Home Team) after a corner kick."
+        *   Goals: Player14 scores, so increment Goals by 1.
+        *   Shots: Scoring a goal implies a shot, so increment Shots by 1.
+        *   Assists: Player14 was *assisted by* Player6, so no assist is counted for Player14.
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player14 | 1     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,39 @@
+Okay, let's analyze the commentary snippets for Player4.
+
+1.  **Player Name:** Player4
+
+2.  **Initialization:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player4(Home Team)'s header from the center of the box was too high after being assisted by Player10(Home Team) with a cross from a set piece situation."
+        *   The snippet mentions a header by Player4, which is an attempt on goal. Therefore, increment Shots by 1. Since the header was too high and not a goal, Goals remains at 0. Player4 was assisted by Player10, therefore Player4 does not get an assist.
+
+    *   **Snippet 2:** "Player4(Home Team) commits a foul on Player25(Away Team), who earns a free kick on the right wing, ."
+        *   The snippet explicitly states that Player4 committed a foul. Therefore, increment Fouls by 1. Player25 winning a free kick as a result does not count toward a free kick taken by Player4.
+
+4.  **Final Counts:**
+
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,49 @@
+Okay, let's analyze the commentary snippets for Player11.
+
+1.  **Player Name:** Player11
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player11(Home Team) scores with a left-footed shot from close range after a corner kick."
+        *   Goal: Player11 scores a goal. Goals += 1
+        *   Shot: Scoring implies a shot. Shots += 1
+
+    *   Snippet 2: "Player11(Home Team) scores a goal with a left-footed shot from the center of the box, putting the Home Team ahead 2-0 against the Away Team."
+        *   Goal: Player11 scores a goal. Goals += 1
+        *   Shot: Scoring implies a shot. Shots += 1
+
+    *   Snippet 3: "Player11(Home Team) earns a free kick on the left side of the field."
+        *   Free Kick: Player11 earns a free kick. Free Kicks += 1
+
+    *   Snippet 4: "Player11(Home Team)'s penalty kick into the bottom left corner."
+        *   Free Kick: Explicit mention of Player11 taking a penalty kick counts as a free kick. Free Kicks += 1
+        
+    *   Snippet 5: "Player11(Home Team)'s shot from the center of the box was too high, with an assist from Player10(Home Team)."
+        *   Shot: Player11 takes a shot. Shots += 1
+
+4.  **Final Counts:**
+    *   Shots = 3
+    *   Goals = 2
+    *   Assists = 0
+    *   Free Kicks = 2
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 3     | 2     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

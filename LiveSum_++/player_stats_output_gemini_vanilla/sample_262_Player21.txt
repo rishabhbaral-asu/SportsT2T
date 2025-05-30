@@ -1,0 +1,32 @@
+Okay, let's process the input step by step.
+
+1.  **Player Name:** The target player is Player21.
+
+2.  **Initialization:** Initialize all event counts for Player21 to 0.
+
+3.  **Commentary Snippet Analysis:**
+
+    *   **Snippet 1:** "Player21(Away Team) fouls Player10(Home Team) on the left wing, resulting in a free kick."
+        *   Fouls: The snippet explicitly states "Player21 fouls Player10", so increment Fouls by 1.
+        *   Free Kicks: The snippet states that Player21 fouled Player10 "resulting in a free kick." Since Player21 committed the foul, it does not count as a Free Kick taken.
+    *   **Snippet 2:** "Player21(Away Team) receives a yellow card for a rough tackle."
+        *   Yellow Cards: The snippet explicitly states "Player21 receives a yellow card", so increment Yellow Cards by 1.
+    *   **Snippet 3:** "Player21(Away Team) earns a free kick in their own half."
+        *   Free Kicks: The snippet explicitly mentions "Player21 earns a free kick", so increment Free Kicks by 1.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 1
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 0     | 0     | 0       | 1          | 1     | 1            | 0         | 0        |
+```

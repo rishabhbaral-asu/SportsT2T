@@ -1,0 +1,39 @@
+Okay, let's analyze the commentary snippets for Player24 and compile the statistics.
+
+1.  **Player Name:** The target player is Player24.
+
+2.  **Initialization:** We initialize the event counts for Player24 to 0.
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player24(Away Team)'s attempt from outside the box is blocked with his right foot, assisted by Player26(Away Team), after a foul by Player2(Home Team)."
+        *   This snippet mentions "attempt" which counts as a shot.
+        *   It also mentions Player24 was assisted, but this doesn't increment Player24's assist count because they received the assist.
+        *   The snippet also mentions a foul by Player2, not Player24, so no foul is counted for Player24.
+        *   Shots: Increment to 1.
+
+    *   **Snippet 2:** "Player24(Away Team) commits a foul."
+        *   This snippet explicitly states Player24 committed a foul.
+        *   Fouls: Increment to 1.
+
+    *   **Snippet 3:** "Player24(Away Team) receives a yellow card for a rough tackle."
+        *   This snippet explicitly states Player24 received a yellow card.
+        *   Yellow Cards: Increment to 1.
+
+4.  **Final Counts:**
+
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 1     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

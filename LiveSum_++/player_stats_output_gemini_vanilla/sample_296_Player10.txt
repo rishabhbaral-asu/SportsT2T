@@ -1,0 +1,19 @@
+Okay, let's analyze the commentary snippets for Player10.
+
+**Player Name:** Player10
+
+**Commentary Snippets:**
+
+*   "Player10(Home Team) commits a foul." - This is an explicit foul committed by Player10. Fouls = 1
+*   "Player10(Home Team)'s shot from the center of the box is saved by the goalkeeper, assisted by Player8(Home Team), while Player2(Home Team)'s shot from the right side of the box misses to the left." - Player10 takes a shot, which is saved. Shots = 1. Since Player10 was assisted by another player, Player10 gets no assist here.
+*   "Player10(Home Team) earns a free kick in their own half." - Player10 earns a free kick. Free Kicks = 1
+*   "Player10(Home Team)'s shot from the left side of the box is blocked with the help of Player7(Home Team)." - Player10 takes a shot, which is blocked. Shots = 2
+
+Now, let's compile the counts into the markdown table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,22 @@
+Okay, let's analyze the commentary snippets for Player16.
+
+1.  **Player Name:** Player16
+2.  **Initial Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+**Commentary Snippet Analysis:**
+
+*   Snippet 1: "Player16(Home Team) earns a free kick in their own half."
+    *   This snippet indicates Player16 *earned* a free kick, implying they were fouled or won the free kick. This should count as a "Free Kick".
+    *   Free Kicks = 1
+
+*   Snippet 2: "Player16(Home Team) commits a foul, resulting in Player30(Away Team) winning a free kick in their own half."
+    *   This snippet explicitly states Player16 committed a foul.
+    *   Fouls = 1
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player16 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

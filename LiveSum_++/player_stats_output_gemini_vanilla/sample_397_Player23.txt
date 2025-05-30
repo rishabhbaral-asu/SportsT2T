@@ -1,0 +1,62 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
+
+**Input:**
+* **Player Name:**
+    ```xml
+    <PLAYER_NAME>
+    Player23
+    </PLAYER_NAME>
+    ```
+* **Commentary Snippets:**
+    ```xml
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player23(Away Team) earns a free kick in his own half.
+- Player23(Away Team) commits a hand ball.
+- Player23(Away Team) earns a free kick in his own half.
+    </PLAYER_COMMENTARY_SNIPPETS>
+    ```
+
+1. **Player Name:** The target player is Player23.
+
+2. **Initialize Counts:**
+   - Shots: 0
+   - Goals: 0
+   - Assists: 0
+   - Free Kicks: 0
+   - Fouls: 0
+   - Yellow Cards: 0
+   - Red Cards: 0
+   - Offsides: 0
+
+3. **Analyze Commentary Snippets:**
+
+   - Snippet 1: "Player23(Away Team) earns a free kick in his own half."
+     - Player23 earns a free kick. This counts as a Free Kick (taken).
+     - Free Kicks: 1
+
+   - Snippet 2: "Player23(Away Team) commits a hand ball."
+     - Player23 commits a hand ball. This counts as a Foul.
+     - Fouls: 1
+
+   - Snippet 3: "Player23(Away Team) earns a free kick in his own half."
+     - Player23 earns a free kick. This counts as a Free Kick (taken).
+     - Free Kicks: 2
+
+4. **Final Counts:**
+   - Shots: 0
+   - Goals: 0
+   - Assists: 0
+   - Free Kicks: 2
+   - Fouls: 1
+   - Yellow Cards: 0
+   - Red Cards: 0
+   - Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 0     | 0     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

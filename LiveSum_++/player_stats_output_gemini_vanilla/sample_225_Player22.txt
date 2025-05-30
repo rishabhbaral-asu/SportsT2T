@@ -1,0 +1,47 @@
+Okay, let's analyze the commentary snippets for Player22 and generate the final summary table.
+
+**1. Identify the target player:**
+
+The target player is Player22.
+
+**2. Initialize event counts:**
+
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**3. Analyze commentary snippets:**
+
+*   **Snippet 1:** "Player22(Away Team) commits a foul on Player11(Home Team), who then wins a free kick in their defensive half."
+    *   Fouls: Player22 commits a foul, so increment Fouls by 1.
+    *   Free Kicks: Player11 wins a free kick, but this does not count as Player22 taking a free kick.
+
+*   **Snippet 2:** "Player22(Away Team) fouls Player10(Home Team), who wins a free kick on the right wing."
+    *   Fouls: Player22 fouls Player10, so increment Fouls by 1.
+    *   Free Kicks: Player10 wins a free kick, but this does not count as Player22 taking a free kick.
+
+*   **Snippet 3:** "Player22(Away Team) has committed a hand ball."
+    *   Fouls: Player22 committed a hand ball, so increment Fouls by 1.
+
+**4. Final Counts:**
+
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 3
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 0     | 0     | 0       | 0          | 3     | 0            | 0         | 0        |
+```

@@ -1,0 +1,19 @@
+Okay, let's analyze the commentary snippets for Player2.
+
+1.  **Player Name:** The target player is Player2.
+2.  **Initial Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet Analysis:**
+    *   **Snippet 1:** "Player2(Home Team) misses the header from the center of the box, sent high and wide to the right after being assisted by Player9(Home Team) with a cross following a corner, as Player36(Away Team) commits a foul."
+        *   The snippet explicitly states "Player2 misses the header". Thus, Shots increment to 1.
+        *   The snippet mentions that Player2 was *assisted by* another player (Player9), so Player2 gets no assist here.
+    *   **Snippet 2:** "Player2(Home Team) earns a free kick in their own half."
+        *   The snippet states "Player2 earns a free kick". This means that Player2 wins a free kick, which increments the Free Kicks count to 1.
+    *   **Snippet 3:** "Player2(Home Team) commits a foul on Player36(Away Team), who then earns a free kick in their own defensive half."
+        *   The snippet states "Player2 commits a foul". Thus, Fouls increment to 1.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 1     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

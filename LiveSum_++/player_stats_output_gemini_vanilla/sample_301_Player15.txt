@@ -1,0 +1,29 @@
+Okay, let's start by identifying the target player and initializing the counts.
+
+Target Player: Player15
+
+Initial Counts:
+Shots: 0, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player15(Home Team)'s shot from outside the box is blocked after an assist from Player8(Home Team)."
+
+*   Shots: The snippet mentions "Player15's shot", so increment Shots by 1.
+*   Goals: The snippet does not mention a goal.
+*   Assists: The snippet indicates Player15 received an assist from Player8, so Player15 did not *give* an assist.
+*   Free Kicks: No mention of a free kick.
+*   Fouls: No mention of a foul committed by Player15.
+*   Yellow Cards: No mention of a yellow card.
+*   Red Cards: No mention of a red card.
+*   Offsides: No mention of offsides.
+
+Updated Counts:
+Shots: 1, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player15 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

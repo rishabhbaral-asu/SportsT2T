@@ -1,0 +1,41 @@
+Okay, let's break this down step-by-step.
+
+1.  **Identify Target Player:** The target player is Player10.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player10(Home Team)'s shot from outside the box is blocked with the help of Player8(Home Team)."
+        *   Explicitly mentions a shot by Player10.
+        *   Shots = 1
+
+    *   **Snippet 2:** "Player10(Home Team)'s header from the center of the box goes wide left after an assist from Player6(Home Team) with a cross."
+        *   Explicitly mentions a header by Player10, which is an attempt on goal.
+        *   Shots = 2
+        *   This snippet states that Player6 assisted Player10, so Player10 did *not* provide the assist. Assists remain at 0.
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,50 @@
+Okay, let's analyze the commentary snippets for Player11 step by step and create the final summary table.
+
+1.  **Player Name:** The target player is Player11.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player11(Home Team) misses the target with a right-footed shot from the center of the box, assisted by Player6(Home Team)."
+        *   Shots += 1 (because Player11 missed a shot)
+        *   Assists: No increment, as the player *received* the assist, not provided it.
+    *   Snippet 2: "Player11(Home Team)'s header from the center of the box is saved by the goalkeeper after a cross from Player2(Home Team)."
+        *   Shots += 1 (because Player11's header was saved)
+        *   Assists: No increment, as the player *received* the assist, not provided it.
+    *   Snippet 3: "Player11(Home Team) commits a foul, resulting in Player24(Away Team) winning a free kick in the attacking half, This leads to a set-piece opportunity for Player24(Away Team)'s team."
+        *   Fouls += 1 (Player11 commits a foul)
+        *   Free Kicks: No increment here, it was a result of the foul that player 11 committed.
+    *   Snippet 4: "Player11(Home Team)'s shot from the center of the box with his right foot in the bottom right corner."
+        *   Shots += 1 (Player11 took a shot)
+    *   Snippet 5: "Player11(Home Team)'s shot from the left side of the box is saved in the bottom right corner by the goalkeeper after an assist from Player9(Home Team)."
+        *   Shots += 1 (Player11's shot was saved)
+        *   Assists: No increment, as the player *received* the assist, not provided it.
+    *   Snippet 6: "Player11(Home Team)'s header from the center of the box was too high, missing the target despite the assist from Player9(Home Team) with a cross."
+        *   Shots += 1 (Player11's header missed)
+        *   Assists: No increment, as the player *received* the assist, not provided it.
+
+4.  **Final Counts:**
+    *   Shots = 5
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 5     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

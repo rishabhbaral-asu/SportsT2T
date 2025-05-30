@@ -1,0 +1,42 @@
+Okay, let's analyze the commentary snippets for Player2 and compile the statistics.
+
+1.  **Player Name:** Player2
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player2(Home Team) gets a free kick in their own defensive half."
+        *   Free Kicks: Player2 "gets a free kick" - increment Free Kicks by 1.
+        *   Current Counts: Shots: 0, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+    *   Snippet 2: "Player2(Home Team) is currently sidelined due to an injury, causing a delay in the match."
+        *   No relevant events for tracking.
+        *   Current Counts: Shots: 0, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+    *   Snippet 3: "Player2(Home Team) commits a foul, resulting in Player28(Away Team) being awarded a free kick in their own defensive half."
+        *   Fouls: Player2 "commits a foul" - increment Fouls by 1.
+        *   Current Counts: Shots: 0, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 1, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+    *   Snippet 4: "Player2(Home Team) commits a foul, resulting in Player23(Away Team) winning a free kick on the left wing, ."
+        *   Fouls: Player2 "commits a foul" - increment Fouls by 1.
+        *   Current Counts: Shots: 0, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 2, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+    *   Snippet 5: "Player2(Home Team) earns a free kick in their own half."
+        *   Free Kicks: Player2 "earns a free kick" - increment Free Kicks by 1.
+        *   Current Counts: Shots: 0, Goals: 0, Assists: 0, Free Kicks: 2, Fouls: 2, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 0     | 0     | 0       | 2          | 2     | 0            | 0         | 0        |
+```

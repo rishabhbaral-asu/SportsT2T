@@ -1,0 +1,58 @@
+Okay, let's analyze the commentary snippets for Player2 and generate the summary table.
+
+**1. Identify the target player:**
+
+The target player is Player2.
+
+**2. Initialize event counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze the commentary snippets:**
+
+*   **Snippet 1:** "Player2(Home Team) scores with a left-footed shot from the right side of the box, assisted by Player9(Home Team)."
+
+    *   **Shots:** The snippet mentions "scores," which implies a shot on goal. Increment Shots by 1.
+    *   **Goals:** The snippet mentions "scores." Increment Goals by 1.
+    *   **Assists:** The snippet states "assisted by Player9." This means Player2 received the assist, so Player2's assist count is NOT incremented, according to the Instructions.
+    *   **Free Kicks:** No keywords related to free kicks are present.
+    *   **Fouls:** No keywords related to fouls are present.
+    *   **Yellow Cards:** No keywords related to yellow cards are present.
+    *   **Red Cards:** No keywords related to red cards are present.
+    *   **Offsides:** No keywords related to offsides are present.
+
+*   **Snippet 2:** "Player2(Home Team) misses the target with a right-footed shot from outside the box after a corner."
+
+    *   **Shots:** The snippet mentions "shot." Increment Shots by 1.
+    *   **Goals:** The snippet mentions "misses the target", so no goal.
+    *   **Assists:** No keywords related to assists are present.
+    *   **Free Kicks:** No keywords related to free kicks are present.
+    *   **Fouls:** No keywords related to fouls are present.
+    *   **Yellow Cards:** No keywords related to yellow cards are present.
+    *   **Red Cards:** No keywords related to red cards are present.
+    *   **Offsides:** No keywords related to offsides are present.
+
+**4. Final Counts:**
+
+Shots = 2
+Goals = 1
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 2     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

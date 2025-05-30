@@ -1,0 +1,47 @@
+Okay, I'm ready to process the provided data and generate the player statistics table.
+
+**1. Identify Target Player:**
+
+The target player is Player25.
+
+**2. Initialize Counters:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player25(Away Team) commits a foul, giving Player6(Home Team) a free kick in their defensive half."
+    *   Fouls: Increment by 1 (explicitly states "commits a foul").
+*   **Snippet 2:** "Player25(Away Team)'s shot from outside the box is saved by the goalkeeper with Player24(Away Team)'s assist."
+    *   Shots: Increment by 1 (explicitly states "shot").
+    *   The snippet specifies that Player24 assisted Player25, meaning Player25 did not provide the assist, so Assists remains 0.
+*   **Snippet 3:** "Player25(Away Team) has committed a hand ball."
+    *   Fouls: Increment by 1 (explicitly states "committed a hand ball").
+*   **Snippet 4:** "Player25(Away Team) has been cautioned with a yellow card for handling the ball."
+    *   Yellow Cards: Increment by 1 (explicitly states "yellow card").
+
+**4. Final Counts:**
+
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 2
+*   Yellow Cards: 1
+*   Red Cards: 0
+*   Offsides: 0
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

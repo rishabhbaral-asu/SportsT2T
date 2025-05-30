@@ -1,0 +1,54 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player25 and generate the final summary table.
+
+**1. Identify Target Player:**
+
+The target player is Player25.
+
+**2. Initialize Counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player25(Away Team) committed a foul."
+    *   The snippet explicitly states Player25 committed a foul.
+    *   Increment Fouls: Fouls = 1
+
+*   **Snippet 2:** "Player25(Away Team) attempts a through ball, but Player24(Away Team) is offside for the Away Team."
+    *   This snippet states Player24 is offside, NOT Player25.
+    *   No change to Offsides
+
+*   **Snippet 3:** "Player25(Away Team) misses the shot with his right foot from outside the box, it goes over the goal, Player26(Away Team) assisted the play."
+    *   The snippet explicitly states Player25 missed a shot.
+    *   Increment Shots: Shots = 1
+    *   No Goal scored
+    *   The snippet mentions Player26 assisted the play. This does not imply that Player25 had an assist.
+
+*   **Snippet 4:** "Player25(Away Team) is causing a delay in the match due to an injury."
+    *   No relevant actions performed by player.
+
+**4. Final Counts:**
+
+Shots = 1
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 1
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**5. Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

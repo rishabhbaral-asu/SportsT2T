@@ -1,0 +1,17 @@
+Okay, let's start.
+
+1.  **Identify Target Player:** The target player is Player3.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Snippets:**
+    *   **Snippet 1:** "Player3(Home Team) attempts a pass to Player11(Home Team), who is flagged for being offside." This snippet mentions Player3 attempting a pass, but it does not indicate a goal or assist. It also mentions an offside, but it's Player11 who is offside, not Player3. So no stats are changed here for Player3.
+
+    *   **Snippet 2:** "Player3(Home Team) commits a foul, resulting in Player29(Away Team) being awarded a free kick in their own defensive half." This snippet explicitly states Player3 commits a foul. Therefore, Fouls is incremented.
+
+4.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

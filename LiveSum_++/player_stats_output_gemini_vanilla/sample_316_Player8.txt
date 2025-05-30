@@ -1,0 +1,46 @@
+Okay, let's analyze the commentary snippets for Player8 and generate the summary table.
+
+**1. Identify Target Player:**
+
+The target player is Player8.
+
+**2. Initialize Counts:**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**3. Analyze Snippets and Increment Counts (Applying Strict Counting):**
+
+*   **Snippet 1:** "Player8(Home Team) commits a foul, resulting in Player28(Away Team) winning a free kick on the left wing, This leads to a set piece opportunity for Player28(Away Team)."
+
+    *   Fouls: The snippet explicitly states "Player8(Home Team) commits a foul". Increment Fouls by 1.
+    * Free Kicks: The snippet explicity states that "Player28(Away Team) winning a free kick" as a *result* of Player8's foul. Player8 is not *taking* the free kick, rather Player8 committed the foul that gave away the free kick, so no increment here.
+*   **Snippet 2:** "Player8(Home Team) scores a penalty with a left footed shot to the bottom right corner, making it Home Team 3, Away Team 1."
+
+    *   Shots: The snippet explicitly states "Player8(Home Team) scores a penalty with a left footed shot". Increment Shots by 1.
+    *   Goals: The snippet explicitly states "Player8(Home Team) scores a penalty". Increment Goals by 1.
+    *   Free Kicks: The snippet explicitly states that Player8 "scores a penalty", so increment Free Kicks by 1.
+
+**4. Final Counts:**
+
+*   Shots = 1
+*   Goals = 1
+*   Assists = 0
+*   Free Kicks = 1
+*   Fouls = 1
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 1     | 1     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,52 @@
+Okay, I'm ready to process the commentary snippets for Player29 and generate the summary table.
+
+**1. Identify Target Player:**
+
+The target player is Player29.
+
+**2. Initialize Counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player29(Away Team) is fouled in the penalty area by Player4(Home Team)."
+    *   Player29 is explicitly mentioned as being fouled. This implies Player29 wins a penalty.
+    *   Increment Free Kicks: Free Kicks = 0 + 1 = 1
+
+*   **Snippet 2:** "Player29(Away Team) misses the penalty as the goalkeeper saves the shot with his right foot in the bottom left corner."
+    *   Player29 is explicitly mentioned as missing the penalty, which means he took a shot.
+    *   Increment Shots: Shots = 0 + 1 = 1
+    * Player29 took a penalty so this counts as a Free Kick. The first snippet also already registered the free kick, so we do not add to this total again.
+
+*   **Snippet 3:** "Player29(Away Team)'s shot from the center of the box is saved by the goalkeeper after being set up by Player23(Away Team) with a cross."
+    *   Player29 is explicitly mentioned taking a shot that was saved.
+    *   Increment Shots: Shots = 1 + 1 = 2
+    *   Player29 was *assisted by* Player23, so no assist for Player29.
+
+**4. Final Counts:**
+
+Shots = 2
+Goals = 0
+Assists = 0
+Free Kicks = 1
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**5. Final Summary Table:**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 2     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

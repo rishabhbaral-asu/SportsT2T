@@ -1,0 +1,45 @@
+Okay, I'm ready to analyze the commentary snippets and compile the statistics for the specified player.
+
+**Player Name:**
+Player28
+
+**Commentary Snippets:**
+- Player28(Away Team) commits a foul and Player6(Home Team) earns a free kick in the opponent's half, This results in a free kick in the attacking half for Player6(Home Team).
+- Player28(Away Team) misses the shot with his left foot from the center of the box, it goes high and wide to the left, Player24(Away Team) assisted with a headed pass.
+- Player28(Away Team)'s shot from outside the box with his left foot is saved in the bottom right corner, thanks to an assist from Player25(Away Team).
+- Player28(Away Team)'s attempt from the center of the box, assisted by Player20(Away Team), is blocked after the Away Team obtains a corner kick.
+
+**Step-by-step Analysis:**
+
+1.  **Player Identification:** The target player is Player28.
+2.  **Initialization:** Initialize all event counts to 0 for Player28.
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player28(Away Team) commits a foul and Player6(Home Team) earns a free kick in the opponent's half, This results in a free kick in the attacking half for Player6(Home Team)."
+        *   Fouls: Player28 commits a foul. Increment Fouls by 1.
+
+    *   **Snippet 2:** "Player28(Away Team) misses the shot with his left foot from the center of the box, it goes high and wide to the left, Player24(Away Team) assisted with a headed pass."
+        *   Shots: Player28 misses a shot. Increment Shots by 1.
+
+    *   **Snippet 3:** "Player28(Away Team)'s shot from outside the box with his left foot is saved in the bottom right corner, thanks to an assist from Player25(Away Team)."
+        *   Shots: Player28's shot is saved. Increment Shots by 1.
+
+    *   **Snippet 4:** "Player28(Away Team)'s attempt from the center of the box, assisted by Player20(Away Team), is blocked after the Away Team obtains a corner kick."
+        *   Shots: Player28's attempt is blocked. Increment Shots by 1.
+
+4.  **Final Counts:**
+    *   Shots: 3
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 3     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

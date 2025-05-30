@@ -1,0 +1,44 @@
+Okay, let's start by identifying the player name and initializing the event counts.
+
+Player Name: Player5
+
+Now, let's initialize the counts for each event:
+
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Now, let's analyze the commentary snippets one by one:
+
+Snippet 1: "Player5(Home Team) fouls Player24(Away Team), resulting in a free kick in the defensive half."
+
+*   Fouls: The snippet explicitly states "Player5 fouls Player24". So, increment Fouls by 1.
+    Fouls: 1
+
+Snippet 2: "Player5(Home Team)'s shot from outside the box is blocked with his left foot, assisted by Player11(Home Team)."
+
+*   Shots: The snippet explicitly states "Player5's shot". So, increment Shots by 1.
+    Shots: 1
+
+Final counts:
+
+Shots: 1
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 1
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

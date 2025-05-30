@@ -1,0 +1,30 @@
+Okay, let's analyze the commentary snippets for Player6.
+
+1.  **Player Name:** The target player is Player6.
+2.  **Initialization:** We initialize Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, and Offsides to 0.
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player6(Home Team) commits a foul." - This is an explicit foul committed by Player6. Fouls = 1.
+    *   Snippet 2: "Player6(Home Team) fouls Player23(Away Team), who wins a free kick in their defensive half." - This is another explicit foul committed by Player6, and also indicates that Player6 fouled Player23. Fouls = 2.
+    *   Snippet 3: "Player6(Home Team) scores with a left-footed shot from outside the box into the top right corner, assisted by Player10(Home Team) with a headed pass." - Player6 scores a goal and takes a shot. Goals = 1, Shots = 1. Since Player6 was assisted by Player10, Player6 does not receive an assist in this case.
+    *   Snippet 4: "Player6(Home Team)'s injury delay has ended and the match is ready to resume." - No relevant event.
+    *   Snippet 5: "Player6(Home Team) commits a foul on Player23(Away Team), who earns a free kick on the left wing." - This is another explicit foul committed by Player6. Fouls = 3.
+    *   Snippet 6: "Player6(Home Team) is currently experiencing a delay in the match due to an injury." - No relevant event.
+    *   Snippet 7: "Player6(Home Team) earns a free kick on the left side of the field." - Player6 earns a free kick (taken). Free Kicks = 1.
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 3
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 1     | 1     | 0       | 1          | 3     | 0            | 0         | 0        |
+```

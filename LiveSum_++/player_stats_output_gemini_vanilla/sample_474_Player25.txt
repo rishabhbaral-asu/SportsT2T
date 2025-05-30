@@ -1,0 +1,35 @@
+Okay, let's start by identifying the target player.
+
+*   **Player Name:** Player25
+
+Now, let's initialize the event counts to zero:
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Next, analyze each commentary snippet and increment the counts based on the instructions.
+
+*   **Snippet 1:** "Player25(Away Team) commits a foul."
+
+    *   This snippet explicitly states Player25 committed a foul.
+    *   Increment Fouls: Fouls = 0 + 1 = 1
+
+*   **Snippet 2:** "Player25(Away Team)'s header from the left side of the six yard box was too high, missing the target, The attempt was assisted by Player28(Away Team) with a cross after a set piece."
+
+    *   This snippet explicitly states Player25 had a header that missed the target. Therefore, this counts as a shot.
+    *   Increment Shots: Shots = 0 + 1 = 1
+
+Now, compile the final counts into the summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

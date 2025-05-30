@@ -1,0 +1,25 @@
+Okay, let's process the input and generate the final summary table.
+
+**1. Identify Target Player:**
+The target player is Player6.
+
+**2. Initialize Event Counts:**
+Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player6(Home Team)'s left-footed shot from the left side of the box hits the crossbar, with an assist from Player10(Home Team)."
+    *   This snippet explicitly states that Player6 took a shot. Therefore, Shots = 1. The shot hit the crossbar, implying it was a shot on goal. There is NO goal.
+    *   The snippet explicitly mentions an assist *from* Player10, not Player6, so assists for Player6 remains 0.
+*   **Snippet 2:** "Player6(Home Team) commits a foul."
+    *   This snippet explicitly states that Player6 committed a foul. Therefore, Fouls = 1.
+
+**4. Final Counts:**
+Shots = 1, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,19 @@
+Okay, let's start.
+
+1.  **Player Name:** The target player is Player31.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Snippets:**
+    *   **Snippet 1:** "Player31(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick in their defensive half, ."
+        *   Fouls: The snippet explicitly states "Player31 commits a foul". Increment Fouls by 1. Fouls = 1.
+        *   Free Kicks: This does not count as a free kick taken for Player31.
+    *   **Snippet 2:** "Player31(Away Team) misses the goal to the right after a cross from Player29(Away Team) in the center of the box."
+        *   Shots: The snippet mentions "Player31 misses the goal". Increment Shots by 1. Shots = 1.
+        *   Goals: The snippet does not indicate that Player31 scored a goal.
+4.  **Final Counts:** Shots = 1, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player31 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

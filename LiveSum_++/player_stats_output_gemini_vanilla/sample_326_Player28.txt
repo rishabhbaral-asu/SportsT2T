@@ -1,0 +1,33 @@
+Okay, let's start by identifying the target player and initializing the event counts.
+
+**Target Player:** Player28
+
+Now, let's initialize the event counts:
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player28(Away Team) misses the header to the left after being assisted by Player25(Away Team) with a cross from a corner."
+
+*   Shots: The snippet says "misses the header", indicating an attempt on goal. So, Shots = 1
+*   Goals: There is no goal mentioned.
+*   Assists: The snippet indicates Player28 was assisted *by* Player25, so we do NOT increment Player28's assist count.
+*   Free Kicks: There is no mention of a free kick or penalty.
+*   Fouls: There is no mention of a foul.
+*   Yellow Cards: There is no mention of a yellow card.
+*   Red Cards: There is no mention of a red card.
+*   Offsides: There is no mention of an offside.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

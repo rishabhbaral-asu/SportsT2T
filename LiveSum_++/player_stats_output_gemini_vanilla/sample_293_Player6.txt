@@ -1,0 +1,51 @@
+Okay, let's start.
+
+1.  **Identify Target Player:** The target player is Player6.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player6(Home Team) commits a foul."
+        *   Fouls += 1
+
+    *   Snippet 2: "Player6(Home Team) fouls Player27(Away Team), who wins a free kick on the left wing."
+        *   Fouls += 1
+
+    *   Snippet 3: "Player6(Home Team) fouls Player26(Away Team), resulting in a free kick in the defensive half."
+        *   Fouls += 1
+
+    *   Snippet 4: "Player6(Home Team) commits a foul."
+        *   Fouls += 1
+
+    *   Snippet 5: "Player6(Home Team) is being held up due to an injury."
+        * No event counted
+
+    *   Snippet 6: "Player6(Home Team) has been given a yellow card."
+        *   Yellow Cards += 1
+
+4.  **Compile Final Counts:**
+
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 4
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 0     | 0     | 0       | 0          | 4     | 1            | 0         | 0        |
+```

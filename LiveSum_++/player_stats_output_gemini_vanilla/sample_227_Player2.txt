@@ -1,0 +1,38 @@
+Okay, let's start by identifying the target player and initializing the event counts.
+
+Target Player: Player2
+
+Initialized Counts:
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player2(Home Team) earns a free kick on the right side of the field."
+*   This snippet explicitly states that Player2 earned a free kick. Therefore, we increment the "Free Kicks" count by 1.
+
+Snippet 2: "Player2(Home Team) misses the header from the right side of the box, it goes high and wide to the right, The cross was provided by Player9(Home Team) after a corner."
+* This snippet explicitly states Player2 misses the header. This is an attempt on goal, so we increment "Shots" by 1.
+
+Final Counts:
+Shots: 1
+Goals: 0
+Assists: 0
+Free Kicks: 1
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

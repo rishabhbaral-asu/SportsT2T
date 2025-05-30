@@ -1,0 +1,72 @@
+Okay, let's break this down step by step.
+
+1.  **Identify Target Player:** The target player is Player27.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player27(Away Team) misses the target with a right-footed shot from long range, assisted by Player21(Away Team)."
+        *   Shots: Player27 misses a shot. Increment Shots to 1.
+        *   Goals: No goal scored.
+        *   Assists: Player27 was assisted, so no assist for Player27.
+        *   Free Kicks: No free kick event.
+        *   Fouls: No foul committed.
+        *   Offsides: No offside.
+
+    *   **Snippet 2:** "Player27(Away Team)'s right footed shot from the center of the box is saved in the top right corner, resulting in a corner kick for the Away Team."
+        *   Shots: Player27 had a shot saved. Increment Shots to 2.
+        *   Goals: No goal scored.
+        *   Assists: No assist.
+        *   Free Kicks: No free kick event.
+        *   Fouls: No foul committed.
+        *   Offsides: No offside.
+
+    *   **Snippet 3:** "Player27(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team."
+        *   Shots: No shot.
+        *   Goals: No goal.
+        *   Assists: No assist, the pass did not lead to a goal.
+        *   Free Kicks: No free kick.
+        *   Fouls: No foul.
+        *   Offsides: Player29 is offside, not Player27.
+
+    *   **Snippet 4:** "Player27(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick in their own defensive half."
+        *   Shots: No shot.
+        *   Goals: No goal.
+        *   Assists: No assist.
+        *   Free Kicks: No free kick taken by Player27, but Player27 committed a foul.
+        *   Fouls: Player27 commits a foul. Increment Fouls to 1.
+        *   Offsides: No offside.
+
+    *   **Snippet 5:** "Player27(Away Team)'s header from the center of the box is saved in the top left corner after being assisted by Player21(Away Team) with a cross, resulting in a corner kick for the Away Team."
+        *   Shots: Player27 had a header saved. Increment Shots to 3.
+        *   Goals: No goal scored.
+        *   Assists: Player27 was assisted, so no assist.
+        *   Free Kicks: No free kick event.
+        *   Fouls: No foul committed.
+        *   Offsides: No offside.
+
+4.  **Final Counts:**
+    *   Shots = 3
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 3     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

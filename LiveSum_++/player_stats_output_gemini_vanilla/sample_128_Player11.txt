@@ -1,0 +1,37 @@
+Okay, let's start by identifying the target player and initializing the counts for all events.
+
+Target Player: Player11
+
+Initial Counts:
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Now, let's analyze the commentary snippets and increment the counts based on the defined rules:
+
+Snippet 1: "Player11(Home Team) from the Home Team attempts a through ball, but Player9(Home Team) is caught offside."
+
+*   This snippet mentions "Player11(Home Team) attempts a through ball, but Player9(Home Team) is caught offside.". Player11 is clearly identified. There is no mention of Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, or Red Cards attributed to Player11. The mention of Player9 being offside directly following the through ball attempt from Player11 explicitly states that Player11 did not assist. Player11 is mentioned directly being involved in play that leads to another player being caught offside.
+*   Offsides: Player11 attempts a through ball that leads to offside. But Player11 wasn't the player Offside; Therefore, do not add to the Offsides count.
+
+Updated Counts:
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 0     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

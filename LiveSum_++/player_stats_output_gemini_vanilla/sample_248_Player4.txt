@@ -1,0 +1,29 @@
+Okay, I'm ready to process the commentary snippets and generate the player statistics table.
+
+**Player Name:** Player4
+
+**Commentary Snippets:**
+
+*   Player4(Home Team)'s close-range left-footed shot is saved in the center of the goal, with an assist from Player10(Home Team).
+*   Player4(Home Team) earns a free kick in their own half.
+*   Player4(Home Team) earns a free kick in their own half, leading to a corner kick for the Home Team, .
+*   Player4(Home Team) commits a foul.
+
+**Reasoning:**
+
+1.  **Shots:** The first snippet mentions "Player4(Home Team)'s close-range left-footed shot is saved". This is an explicit shot attempt by Player4, so the Shot count is incremented to 1.
+2.  **Goals:** The snippets do not mention Player4 scoring a goal.
+3.  **Assists:** The snippets mention "with an assist from Player10(Home Team)." This means Player4 received an assist, but did not *provide* one, so the assist count remains 0.
+4.  **Free Kicks:** The second snippet mentions "Player4(Home Team) earns a free kick in their own half." and the third snippet mentions "Player4(Home Team) earns a free kick in their own half, leading to a corner kick for the Home Team, .". The definition of free kicks taken includes when a player "earns a free kick". Therefore free kick count is incremented by one for each mentioning and has the total count of 2.
+5.  **Fouls:** The fourth snippet mentions "Player4(Home Team) commits a foul.". This is an explicit foul committed by Player4, so the Foul count is incremented to 1.
+6.  **Yellow Cards:** The snippets do not mention Player4 receiving a yellow card.
+7.  **Red Cards:** The snippets do not mention Player4 receiving a red card.
+8.  **Offsides:** The snippets do not mention Player4 being offside.
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 1     | 0     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

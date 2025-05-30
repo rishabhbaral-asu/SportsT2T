@@ -1,0 +1,46 @@
+Okay, let's analyze the commentary snippets for Player25 and compile the statistics.
+
+1.  **Player Name:** Player25
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player25(Away Team) commits a foul, resulting in Player9(Home Team) winning a free kick on the left side of the field."
+        *   Fouls: Player25 commits a foul. Increment Fouls by 1.
+        *   Free Kicks: Player25 commits a foul resulting in a free kick awarded to Player9; this does NOT count as a free kick *taken* by Player25. Player9 is the one who takes it.
+
+    *   **Snippet 2:** "Player25(Away Team)'s attempted shot from outside the box is saved in the top left corner, resulting in a corner kick for the Away Team."
+        *   Shots: Player25 attempts a shot. Increment Shots by 1.
+
+    *   **Snippet 3:** "Player25(Away Team) earns a free kick in their own half."
+        * Free Kicks: Player25 earns a free kick. Increment Free Kicks by 1.
+
+    *   **Snippet 4:** "Player25(Away Team) attempts a shot from outside the box with his right foot, but it goes over the goal from a direct free kick."
+        * Shots: Player25 attempts a shot. Increment Shots by 1.
+        * Free Kicks: Player25 takes a direct free kick. Increment Free Kicks by 1.
+
+4.  **Final Counts:**
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 2
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 2     | 0     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,45 @@
+Okay, let's analyze the commentary snippets for Player22 and compile the statistics.
+
+**Player Name:** Player22
+
+**Commentary Snippets:**
+- Player22(Away Team) commits a foul, resulting in Player9(Home Team) winning a free kick in their own defensive half, This leads to a free kick for Player9(Home Team) after Player22(Away Team)'s foul in the defensive half.
+- Player22(Away Team) receives a yellow card for a rough tackle.
+
+**Step-by-step analysis:**
+
+1.  **Identify the target player:** Player22
+
+2.  **Initialize counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Snippets:**
+    *   Snippet 1: "Player22(Away Team) commits a foul, resulting in Player9(Home Team) winning a free kick in their own defensive half, This leads to a free kick for Player9(Home Team) after Player22(Away Team)'s foul in the defensive half."
+        *   The snippet explicitly states "Player22 commits a foul". Therefore, increment Fouls by 1.
+        *   The snippet also states the foul resulted in Player9 winning a free kick. This does not count as a Free Kick *taken* by Player22.
+    *   Snippet 2: "Player22(Away Team) receives a yellow card for a rough tackle."
+        *   The snippet explicitly states "Player22 receives a yellow card". Therefore, increment Yellow Cards by 1.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 0     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

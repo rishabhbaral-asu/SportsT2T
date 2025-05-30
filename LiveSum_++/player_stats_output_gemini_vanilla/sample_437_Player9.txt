@@ -1,0 +1,27 @@
+Okay, let's start.
+
+1.  **Identify the target player name:**
+    The target player is Player9.
+
+2.  **Initialize counts:**
+    Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+3.  **Analyze the commentary snippets:**
+
+    *   **Snippet 1:** "Player9(Home Team) earns a free kick in their own half."
+        *   The snippet explicitly states that Player9 "earns a free kick". This counts as a Free Kick (taken) for Player9.
+        *   Free Kicks = 1
+
+    *   **Snippet 2:** "Player9(Home Team) of the Home Team is caught offside after Player2(Home Team) attempts a through ball."
+        *   The snippet explicitly states that Player9 "is caught offside". This counts as an Offside for Player9.
+        *   Offsides = 1
+
+4.  **Final Counts:**
+    Shots = 0, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 1
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 1        |
+```

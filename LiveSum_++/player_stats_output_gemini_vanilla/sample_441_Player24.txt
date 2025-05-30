@@ -1,0 +1,46 @@
+Okay, let's analyze the commentary snippets for Player24 and compile the statistics.
+
+1.  **Player Name:** Player24
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player24(Away Team)'s shot from outside the box is saved in the middle of the goal."
+        *   The snippet explicitly mentions "shot" by Player24.
+        *   Shots += 1
+
+    *   **Snippet 2:** "Player24(Away Team)'s right footed shot from the right side of the box is blocked with an assist from Player27(Away Team)."
+        *   The snippet explicitly mentions "shot" by Player24.
+        *   Shots += 1
+      * The snippet also mentions "assist from Player27", it does not count as an assist for Player24.
+
+    *   **Snippet 3:** "Player24(Away Team) misses the target with a right-footed shot from outside the box, after receiving a headed pass from Player21(Away Team)."
+        *   The snippet explicitly mentions "shot" by Player24.
+        *   Shots += 1
+     * The snippet does not imply that Player24 assisted a goal.
+
+4.  **Final Counts:**
+    *   Shots = 3
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 3     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

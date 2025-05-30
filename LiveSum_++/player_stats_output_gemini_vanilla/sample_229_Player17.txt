@@ -1,0 +1,37 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for Player17 and count explicit occurrences of defined events.
+
+**Input:**
+* **Player Name:**
+    <PLAYER_NAME>
+    Player17
+    </PLAYER_NAME>
+* **Commentary Snippets:**
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player17(Home Team)'s header from the left side of the box, assisted by Player8(Home Team) following a corner kick, goes high and wide to the left.
+    </PLAYER_COMMENTARY_SNIPPETS>
+
+**Process:**
+
+1.  **Identify the target player name:** Player17
+2.  **Initialize counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+3.  **Analyze the snippet:**
+
+    *   "Player17(Home Team)'s header from the left side of the box, assisted by Player8(Home Team) following a corner kick, goes high and wide to the left."
+        *   **Shots:** The snippet mentions "header...goes high and wide to the left", explicitly stating an attempt on goal by Player17. Increment Shots by 1.
+        *   **Goals:** The snippet does not explicitly mention a goal scored by Player17.
+        *   **Assists:** The snippet states "assisted by Player8(Home Team)". Player17 was *assisted by* Player8, therefore, Player17 does *not* get an assist.
+        *   **Free Kicks:** The snippet does not contain any keywords related to free kicks or penalties taken by Player17.
+        *   **Fouls:** The snippet does not contain any keywords related to fouls committed by Player17.
+        *   **Yellow Cards:** The snippet does not contain any keywords related to yellow cards received by Player17.
+        *   **Red Cards:** The snippet does not contain any keywords related to red cards received by Player17.
+        *   **Offsides:** The snippet does not contain any keywords related to Player17 being offside.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player17 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

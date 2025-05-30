@@ -1,0 +1,53 @@
+Okay, let's start by identifying the target player and initializing the counts.
+
+**1. Player Identification:**
+
+The target player is Player23.
+
+**2. Initializing Counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyzing Commentary Snippets:**
+
+*   **Snippet 1:** "Player23(Away Team) commits a foul."
+    *   This snippet explicitly states that Player23 committed a foul.
+    *   Increment Fouls: Fouls = 1
+
+*   **Snippet 2:** "Player23(Away Team) commits a foul."
+    *   This snippet explicitly states that Player23 committed a foul.
+    *   Increment Fouls: Fouls = 2
+
+*   **Snippet 3:** "Player23(Away Team)'s shot from the center of the box is blocked."
+    *   This snippet explicitly states that Player23 took a shot.
+    *   Increment Shots: Shots = 1
+
+*   **Snippet 4:** "Player23(Away Team) commits a foul."
+    *   This snippet explicitly states that Player23 committed a foul.
+    *   Increment Fouls: Fouls = 3
+
+**4. Final Counts:**
+
+Shots = 1
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 3
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**5. Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 1     | 0     | 0       | 0          | 3     | 0            | 0         | 0        |
+```

@@ -1,0 +1,36 @@
+Okay, let's analyze the commentary snippets for Player27 and compile the statistics.
+
+**Player Name:** Player27
+
+**Commentary Snippets:**
+
+*   "Player27(Away Team) attempts a pass, but Player26(Away Team) is offside." - Player27 attempts a pass but it does not lead to a goal, so no assist. Player26 is offside, not Player27.
+
+*   "Player27(Away Team) is holding up the game due to an injury." - This does not fit any of the defined event types, so nothing is counted.
+
+*   "Player27(Away Team)'s shot from the center of the box is saved by the goalkeeper, assisted by Player24(Away Team)." - Player27 takes a shot, so Shots increment. Player27 was assisted, so no assist is counted for Player27.
+
+*   "Player27(Away Team)'s right footed shot from outside the box is blocked with an assist from Player32(Away Team), resulting in a corner kick for the Away Team." - Player27 takes a shot, so Shots increment. Player27 was assisted, so no assist is counted for Player27.
+
+*   "Player27(Away Team) earns a free kick in the opponent's half." - Player27 earns a free kick, so Free Kicks increment.
+
+*   "Player27(Away Team) attempted a shot with his right foot from outside the box but it was too high, with an assist from Player32(Away Team)." - Player27 takes a shot, so Shots increment. Player27 was assisted, so no assist is counted for Player27.
+
+**Final Counts:**
+
+*   Shots: 3
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 3     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

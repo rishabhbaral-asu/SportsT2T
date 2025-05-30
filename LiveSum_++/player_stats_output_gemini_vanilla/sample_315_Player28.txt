@@ -1,0 +1,62 @@
+Okay, let's analyze the commentary snippets for Player28.
+
+1.  **Player Name:** The target player is Player28.
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player28(Away Team) misses a left-footed shot from the left side of the box, assisted by Player27(Away Team), as Player10(Home Team) wins a free kick in the attacking half."
+        *   Shots: Player28 misses a shot, so increment Shots to 1.
+        *   Goals: No goal scored.
+        *   Assists: Player28 was *assisted by* Player27. So, no assist is credited to Player28.
+        *   Free Kicks: Player10 wins a free kick, not Player28, so no increment.
+        *   Fouls: No foul committed by Player28.
+        *   Yellow Cards: No yellow card.
+        *   Red Cards: No red card.
+        *   Offsides: No offside.
+
+    *   **Snippet 2:** "Player28(Away Team)'s left footed shot from outside the box narrowly misses to the right on a direct free kick."
+        *   Shots: Player28 takes a shot, so increment Shots to 2.
+        *   Goals: No goal scored.
+        *   Assists: No assist.
+        *   Free Kicks: Player28 takes a free kick, so increment Free Kicks to 1.
+        *   Fouls: No foul.
+        *   Yellow Cards: No yellow card.
+        *   Red Cards: No red card.
+        *   Offsides: No offside.
+
+    *   **Snippet 3:** "Player28(Away Team) commits a foul."
+        *   Shots: No shot.
+        *   Goals: No goal.
+        *   Assists: No assist.
+        *   Free Kicks: No free kick taken.
+        *   Fouls: Player28 commits a foul, so increment Fouls to 1.
+        *   Yellow Cards: No yellow card.
+        *   Red Cards: No red card.
+        *   Offsides: No offside.
+
+4.  **Final Counts:**
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

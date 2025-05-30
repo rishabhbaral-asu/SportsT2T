@@ -1,0 +1,24 @@
+Okay, let's start by identifying the target player and initializing the event counts.
+
+1.  **Target Player:** Player24
+
+2.  **Initial Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Now, let's analyze the commentary snippets:
+
+*   **Snippet 1:** "Player24(Away Team) commits a foul, giving Player6(Home Team) a free kick in the attacking half."
+
+    *   This snippet explicitly states that Player24 committed a foul.
+    *   Increment Fouls: Fouls = 1
+
+*   **Snippet 2:** "Player24(Away Team) receives a yellow card for a reckless foul."
+
+    *   This snippet explicitly states that Player24 received a yellow card.
+    *   Increment Yellow Cards: Yellow Cards = 1
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 0     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

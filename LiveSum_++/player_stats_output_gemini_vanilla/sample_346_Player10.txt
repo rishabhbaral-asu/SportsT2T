@@ -1,0 +1,35 @@
+Okay, let's analyze the commentary snippets for Player10 and generate the statistics table.
+
+**1. Player Identification:**
+The target player is Player10.
+
+**2. Initialization:**
+Shots: 0, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player10(Home Team) commits a foul."
+    *   Fouls: Increment to 1.
+
+*   **Snippet 2:** "Player10(Home Team) earns a free kick on the right side of the field."
+    *   Free Kicks: Increment to 1.
+
+*   **Snippet 3:** "Player10(Home Team) commits a foul."
+    *   Fouls: Increment to 2.
+
+*   **Snippet 4:** "Player10(Home Team) fouls Player28(Away Team), who wins a free kick in the attacking half, This results in a set piece opportunity for the attacking team."
+    * Fouls: Increment to 3.
+    * The phrase "wins a free kick" is not attributed to the target player, Player10. It is Player28.
+    *Yellow cards: Increment to 1 (since it results in disciplinary cards)
+    Yellow cards: Increment to 1 (since it results in disciplinary cards)
+
+**4. Final Counts:**
+Shots: 0, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 5, Yellow Cards: 1, Red Cards: 0, Offsides: 0
+
+**5. Summary Table Generation:**
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 0     | 0     | 0       | 1          | 5     | 1            | 0         | 0        |
+```

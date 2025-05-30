@@ -1,0 +1,47 @@
+Okay, let's analyze the commentary snippets for Player6.
+
+1.  **Player Name:** Player6
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player6(Home Team) commits a foul."
+        *   Fouls += 1 (Explicitly states Player6 committed a foul)
+
+    *   Snippet 2: "Player6(Home Team) from the Home Team attempts a through ball, but Player5(Home Team) is offside."
+        *   No event to increment. Player6 attempts a pass but Player5 is offside. This is not an assist.
+
+    *   Snippet 3: "Player6(Home Team) earns a free kick in the opponent's half."
+        *   Free Kicks += 1 (Explicitly states Player6 earned a free kick)
+
+    *   Snippet 4: "Player6(Home Team) hits the left post with a right-footed shot from outside the box, assisted by Player3(Home Team), while Player27(Away Team) wins a free kick in the attacking half."
+        *   Shots += 1 (Explicitly states Player6 took a shot that hit the post)
+
+    *   Snippet 5: "Player6(Home Team)'s left footed shot from the left side of the box goes over the goal, with an assist from Player11(Home Team)."
+        *   Shots += 1 (Explicitly states Player6 took a shot that went over the goal)
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

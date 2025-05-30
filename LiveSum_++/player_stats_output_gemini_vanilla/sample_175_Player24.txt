@@ -1,0 +1,56 @@
+Okay, let's analyze the provided commentary snippets for Player24 and generate the final summary table.
+
+**1. Player Name:**
+
+The target player is Player24.
+
+**2. Initialization:**
+
+We initialize all event counts to 0 for Player24.
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player24(Away Team) earns a free kick in their own half."
+    *   This indicates Player24 won a free kick.
+    *   Free Kicks: Increment to 1.
+*   **Snippet 2:** "Player24(Away Team)'s left footed shot from the left side of the box goes high, with an assist from Player27(Away Team)."
+    *   This indicates Player24 took a shot.
+    *   Shots: Increment to 1.
+    *   This indicates Player24 did *not* give an assist.
+*   **Snippet 3:** "Player24(Away Team) commits a foul."
+    *   This indicates Player24 committed a foul.
+    *   Fouls: Increment to 1.
+*   **Snippet 4:** "Player24(Away Team) has committed a foul."
+    *   This indicates Player24 committed a foul.
+    *   Fouls: Increment to 2.
+*   **Snippet 5:** "Player24(Away Team) of the Away Team attempts a through ball, but Player20(Away Team) is flagged for being offside."
+    *   This indicates Player24 attempted a through ball, but another player was offside. This is NOT counted as an offside for Player24.
+*   **Snippet 6:** "Player24(Away Team) scores with a left footed shot from the left side of the box, assisted by Player27(Away Team), into the bottom right corner."
+    *   This indicates Player24 scored a goal.
+    *   Goals: Increment to 1.
+    *   Shots: Increment to 2.
+    *   This indicates Player24 did *not* give an assist.
+*   **Snippet 7:** "Player24(Away Team) attempts a through ball, but Player32(Away Team) is offside for the Away Team."
+    *   This indicates Player24 attempted a through ball, but another player was offside. This is NOT counted as an offside for Player24.
+*   **Snippet 8:** "Player24(Away Team) commits a foul."
+    *   This indicates Player24 committed a foul.
+    *   Fouls: Increment to 3.
+
+**4. Final Counts:**
+
+*   Shots: 2
+*   Goals: 1
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 3
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 2     | 1     | 0       | 1          | 3     | 0            | 0         | 0        |
+```

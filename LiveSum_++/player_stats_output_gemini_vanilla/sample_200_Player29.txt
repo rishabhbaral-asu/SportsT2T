@@ -1,0 +1,39 @@
+Okay, I will follow the instructions to analyze the commentary snippets for the specified player and generate the final summary table.
+
+**Player Name:** Player29
+
+**Commentary Snippets:**
+
+*   Player29(Away Team) commits a foul.
+*   Player29(Away Team)'s shot from the right side of the box narrowly misses to the left, with an assist from Player27(Away Team).
+*   Player29(Away Team) scores with a left-footed shot from the center of the box, assisted by Player27(Away Team), The score is now tied at 1-1 between the Home Team and the Away Team.
+*   Player29(Away Team) is causing a delay in the match due to an injury.
+*   Player29(Away Team) misses a header from the center of the box to the left, assisted by Player26(Away Team) with a cross.
+
+**Analysis:**
+
+1.  **Player:** Player29
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player29(Away Team) commits a foul."
+        *   Fouls: Increment by 1 (explicitly states Player29 commits a foul). Fouls = 1
+    *   **Snippet 2:** "Player29(Away Team)'s shot from the right side of the box narrowly misses to the left, with an assist from Player27(Away Team)."
+        *   Shots: Increment by 1 (explicitly states Player29 took a shot). Shots = 1
+    *   **Snippet 3:** "Player29(Away Team) scores with a left-footed shot from the center of the box, assisted by Player27(Away Team), The score is now tied at 1-1 between the Home Team and the Away Team."
+        *   Goals: Increment by 1 (explicitly states Player29 scores). Goals = 1
+        *   Shots: Increment by 1 (Scoring a goal also counts as a shot). Shots = 2
+    *   **Snippet 4:** "Player29(Away Team) is causing a delay in the match due to an injury."
+        *   No relevant events to count.
+    *   **Snippet 5:** "Player29(Away Team) misses a header from the center of the box to the left, assisted by Player26(Away Team) with a cross."
+        *   Shots: Increment by 1 (explicitly states Player29 missed a header, which is an attempt on goal). Shots = 3
+
+4.  **Final Counts:** Shots = 3, Goals = 1, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 3     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

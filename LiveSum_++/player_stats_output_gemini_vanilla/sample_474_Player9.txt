@@ -1,0 +1,52 @@
+Okay, let's analyze the commentary snippets for Player9.
+
+Here's the step-by-step breakdown:
+
+1.  **Player Name:** `Player9`
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player9(Home Team) commits a foul, resulting in Player25(Away Team) earning a free kick in their own defensive half."
+        *   Player9 commits a foul. Increment Fouls: Fouls = 1
+
+    *   Snippet 2: "Player9(Home Team) earns a free kick on the left side."
+        *   Player9 earns a free kick. Increment Free Kicks: Free Kicks = 1
+
+    *   Snippet 3: "Player9(Home Team) fouls Player20(Away Team), who wins a free kick in their defensive half."
+        *   Player9 commits a foul. Increment Fouls: Fouls = 2
+
+    *   Snippet 4: "Player9(Home Team) commits a foul, resulting in Player28(Away Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player28(Away Team)'s team."
+        *   Player9 commits a foul. Increment Fouls: Fouls = 3
+
+    *   Snippet 5: "Player9(Home Team) commits a foul, resulting in Player27(Away Team) earning a free kick in their own defensive half."
+        *   Player9 commits a foul. Increment Fouls: Fouls = 4
+
+    *   Snippet 6: "Player9(Home Team) commits a foul, resulting in Player28(Away Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player28(Away Team)'s team."
+        *   Player9 commits a foul. Increment Fouls: Fouls = 5
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 5
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 0     | 0     | 0       | 1          | 5     | 0            | 0         | 0        |
+```

@@ -1,0 +1,21 @@
+Okay, let's start by identifying the player name and initializing the counts.
+
+Player Name: Player5
+
+Now, let's analyze the commentary snippets and increment the counts based on the rules.
+
+Snippet 1: "Player5(Home Team)'s left footed shot from outside the box is saved in the bottom right corner, assisted by Player9(Home Team), resulting in a corner kick for the Home Team."
+- This snippet explicitly mentions "shot" by Player5. So, Shots += 1.
+- It does not say Player5 scored a goal, assisted, committed a foul, received a card, or was offsides.
+
+Snippet 2: "Player5(Home Team) commits a foul."
+- This snippet explicitly mentions "commits a foul" by Player5. So, Fouls += 1.
+
+Now, let's compile the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

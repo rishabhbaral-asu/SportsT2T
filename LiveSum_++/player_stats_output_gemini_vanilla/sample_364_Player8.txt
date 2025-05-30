@@ -1,0 +1,48 @@
+Okay, I will analyze the commentary snippets for Player8 and generate the summary table.
+
+**Player Name:** Player8
+
+**Commentary Snippets:**
+- Player8(Home Team) attempted a through ball, but Player11(Home Team) was offside.
+- Player8(Home Team)'s shot from the center of the box is blocked, resulting in a corner kick for the Home Team.
+- Player8(Home Team)'s left footed shot from outside the box narrowly misses to the left on a direct free kick.
+- Player8(Home Team) fouls Player25(Away Team), resulting in a free kick in the defensive half.
+
+**Step-by-step analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1:** "Player8(Home Team) attempted a through ball, but Player11(Home Team) was offside."
+    *   No shots, goals, assists, free kicks, fouls, or cards are mentioned. Player8 attempting a through ball that results in Player11 being offside does not qualify as an assist for Player8. The offside is for Player11, not Player8.
+    *   Offsides = 0 (No offside for Player8)
+
+3.  **Snippet 2:** "Player8(Home Team)'s shot from the center of the box is blocked, resulting in a corner kick for the Home Team."
+    *   Explicitly mentions "shot" by Player8.
+    *   Shots = 1
+    *   Other events remain at 0.
+
+4.  **Snippet 3:** "Player8(Home Team)'s left footed shot from outside the box narrowly misses to the left on a direct free kick."
+    *   Explicitly mentions "shot" by Player8.
+    *   Explicitly mentions "direct free kick" taken by Player8. This is a "Free Kick (Taken)".
+    *   Shots = 2
+    *   Free Kicks = 1
+
+5.  **Snippet 4:** "Player8(Home Team) fouls Player25(Away Team), resulting in a free kick in the defensive half."
+    *   Explicitly mentions "fouls" committed by Player8.
+    *   Fouls = 1
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

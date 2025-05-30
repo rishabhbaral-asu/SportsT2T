@@ -1,0 +1,34 @@
+Okay, let's process the input.
+
+1.  **Player Name:** Player4
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Commentary Snippet Analysis:**
+
+    *   Snippet 1: "Player4(Home Team) commits a foul."
+        *   Fouls: Increment to 1.
+    *   Snippet 2: "Player4(Home Team) misses a header to the right from the center of the box, assisted by Player5(Home Team), following a set piece, resulting in a missed attempt, Player21(Away Team) is injured, causing a delay in the match."
+        *   Shots: Increment to 1 (explicit mention of a missed header)
+    *   Snippet 3: "Player4(Home Team) commits a foul on Player20(Away Team), who wins a free kick in their defensive half."
+        *   Fouls: Increment to 2.
+    *   Snippet 4: "Player4(Home Team) commits a foul, resulting in Player31(Away Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player31(Away Team)'s team."
+        *   Fouls: Increment to 3.
+    *   Snippet 5: "Player4(Home Team) receives a yellow card for a rough tackle."
+        *   Yellow Cards: Increment to 1.
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 1     | 0     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

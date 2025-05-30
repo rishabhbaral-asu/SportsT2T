@@ -1,0 +1,64 @@
+Okay, I'm ready to analyze the commentary snippets and generate the player statistics table.
+
+**1. Identify Target Player:**
+
+The target player is Player5.
+
+**2. Initialize Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player5(Home Team) misses the target with a left-footed shot from outside the box, assisted by Player7(Home Team) from a direct free kick."
+    *   Shots: Increment to 1 (explicitly mentioned "misses the target with a shot").
+    *   Goals: No goal mentioned.
+    *   Assists: No assist given *by* Player5.
+    *   Free Kicks: No free kick was taken *by* Player5.
+    *   Fouls: No foul mentioned.
+    *   Yellow Cards: No yellow card mentioned.
+    *   Red Cards: No red card mentioned.
+    *   Offsides: No offside mentioned.
+*   **Snippet 2:** "Player5(Home Team)'s header from the center of the box is saved by the goalkeeper, with an assist from Player7(Home Team)."
+    *   Shots: Increment to 2 (explicitly mentioned "header" is an attempt on goal and it was saved).
+    *   Goals: No goal mentioned.
+    *   Assists: No assist given *by* Player5.
+    *   Free Kicks: No free kick mentioned.
+    *   Fouls: No foul mentioned.
+    *   Yellow Cards: No yellow card mentioned.
+    *   Red Cards: No red card mentioned.
+    *   Offsides: No offside mentioned.
+*   **Snippet 3:** "Player5(Home Team) receives a yellow card."
+    *   Shots: No shot mentioned.
+    *   Goals: No goal mentioned.
+    *   Assists: No assist mentioned.
+    *   Free Kicks: No free kick mentioned.
+    *   Fouls: No foul mentioned.
+    *   Yellow Cards: Increment to 1 (explicitly mentioned "yellow card").
+    *   Red Cards: No red card mentioned.
+    *   Offsides: No offside mentioned.
+
+**4. Final Counts:**
+
+*   Shots: 2
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 1
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 2     | 0     | 0       | 0          | 0     | 1            | 0         | 0        |
+```

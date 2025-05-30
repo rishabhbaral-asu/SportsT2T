@@ -1,0 +1,39 @@
+Okay, let's analyze the commentary snippets for Player9 and generate the final summary table.
+
+1.  **Identify the target player:** The target player is Player9.
+
+2.  **Initialize counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze each snippet and increment counts (strict counting):**
+
+    *   Snippet 1: "Player9(Home Team) has committed a foul." - Fouls = 1
+    *   Snippet 2: "Player9(Home Team) attempts a pass to Player10(Home Team), but Player10(Home Team) is offside." - No events to count for Player9.
+    *   Snippet 3: "Player9(Home Team) is fouled in the penalty area." - Free Kicks = 1 (Player9 wins a penalty)
+    *   Snippet 4: "Player9(Home Team) misses the target with a right-footed shot from outside the box, assisted by Player13(Home Team)." - Shots = 1
+    *   Snippet 5: "Player9(Home Team) commits a foul, resulting in Player26(Away Team) winning a free kick in their own defensive half, This leads to a set piece opportunity for Player26(Away Team)'s team." - Fouls = 2
+    *   Snippet 6: "Player9(Home Team)'s shot from the left side of the box is blocked with his right foot, assisted by Player10(Home Team)." - Shots = 2
+
+4. **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 2
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 2     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

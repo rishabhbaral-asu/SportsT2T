@@ -1,0 +1,44 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player4 and generate the summary table.
+
+1.  **Identify Target Player:** The target player is Player4.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player4(Home Team) commits a foul."
+        *   Fouls: Increment to 1.
+    *   Snippet 2: "Player4(Home Team) misses a header from the left side of the six yard box to the right, assisted by Player10(Home Team) with a cross after a corner."
+        *   Shots: Increment to 1 because a header is an attempt on goal.
+    *   Snippet 3: "Player4(Home Team) fouls Player24(Away Team), who wins a free kick in the attacking half."
+        *   Fouls: Increment to 2.
+    *   Snippet 4: "Player4(Home Team) commits a foul."
+        *   Fouls: Increment to 3.
+    *   Snippet 5: "Player4(Home Team) commits a foul."
+        *   Fouls: Increment to 4.
+
+4.  **Compile Final Counts:**
+
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 4
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 1     | 0     | 0       | 0          | 4     | 0            | 0         | 0        |
+```

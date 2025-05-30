@@ -1,0 +1,43 @@
+Okay, let's analyze the commentary snippets for Player11 and compile the statistics.
+
+**1. Player Name:**
+The target player is Player11.
+
+**2. Initialization:**
+We initialize all event counts to 0 for Player11.
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player11(Home Team) scores with a right footed shot to the bottom left corner from the penalty spot."
+    *   This snippet explicitly states Player11 scored a goal ("scores").
+    *   Since it was a goal, it also counts as a shot.
+    *   The fact that it was from the penalty spot also means it was a free kick.
+
+*   **Snippet 2:** "Player11(Home Team)'s attempt from the left side of the box was blocked after being assisted by Player8(Home Team), while Player6(Home Team)'s shot from the right side narrowly missed the target with the help of Player2(Home Team)."
+    *   This snippet says "Player11's attempt...was blocked", meaning Player11 took a shot.
+    *   Since Player11 was assisted, this does not count as an assist for Player11.
+
+*   **Snippet 3:** "Player11(Home Team) scores with a close-range shot to give the Home Team a 2-1 lead, assisted by Player5(Home Team)'s cross."
+    *   This snippet explicitly states Player11 scored a goal ("scores").
+    *   Since it was a goal, it also counts as a shot.
+     *   Since Player11 was assisted, this does not count as an assist for Player11.
+
+**4. Counting:**
+
+Based on the snippet analysis, the event counts for Player11 are:
+
+*   Shots: 1 + 1 + 1 = 3
+*   Goals: 1 + 1 = 2
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 3     | 2     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

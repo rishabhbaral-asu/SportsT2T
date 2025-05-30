@@ -1,0 +1,49 @@
+Okay, let's break down the process step by step.
+
+1.  **Identify Target Player:** The target player is Player7.
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player7(Home Team) misses the target with a high right-footed shot from outside the box, with an assist from Player6(Home Team)."
+        *   Mentions "shot" explicitly attributed to Player7. Shots += 1
+        *   Assisted by Player6, so no assist for Player7.
+    *   **Snippet 2:** "Player7(Home Team) earns a free kick on the right wing after being fouled by Player26(Away Team)."
+        *   Mentions "free kick" earned by Player7. Free Kicks += 1
+    *   **Snippet 3:** "Player7(Home Team) earns a free kick on the left wing after being fouled by Player26(Away Team)."
+        *   Mentions "free kick" earned by Player7. Free Kicks += 1
+    *   **Snippet 4:** "Player7(Home Team) commits a foul."
+        *   Mentions "foul" committed by Player7. Fouls += 1
+    *   **Snippet 5:** "Player7(Home Team) commits a foul, resulting in Player26(Away Team) winning a free kick on the right wing, ."
+        *   Mentions "foul" committed by Player7. Fouls += 1
+    *   **Snippet 6:** "Player7(Home Team) receives a yellow card for a rough tackle."
+        *   Mentions "yellow card" received by Player7. Yellow Cards += 1
+    *   **Snippet 7:** "Player7(Home Team)'s shot from outside the box is blocked."
+        *   Mentions "shot" explicitly attributed to Player7. Shots += 1
+    *   **Snippet 8:** "Player7(Home Team) wins a free kick in the defensive half, with Player10(Home Team)'s left footed shot from a tough angle on the left being saved in the top left corner, assisted by Player5(Home Team)."
+        *   Mentions "free kick" won by Player7. Free Kicks += 1
+
+4.  **Final Counts:**
+
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 3
+    *   Fouls = 2
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 2     | 0     | 0       | 3          | 2     | 1            | 0         | 0        |
+```

@@ -1,0 +1,29 @@
+Okay, let's analyze the commentary snippets for Player26.
+
+**Player Name:** Player26
+
+**Commentary Snippets:**
+
+*   Player26(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick in their own defensive half. - Foul + Free Kick(won)
+*   Player26(Away Team) is currently delayed due to an injury on the field. - No event.
+*   Player26(Away Team) is awarded a free kick in their own defensive half after being fouled by Player11(Home Team). - Free Kick(won)
+*   Player26(Away Team) commits a foul. - Foul
+*   Player26(Away Team)'s attempt from outside the box with his right foot goes wide to the left after a corner kick. - Shot
+
+**Event Counts:**
+
+*   **Shots:** The 5th snippet mentions "Player26(Away Team)'s attempt...goes wide". So, Shots = 1.
+*   **Goals:** No snippets mention Player26 scoring a goal. So, Goals = 0.
+*   **Assists:** No snippets explicitly state Player26 provided an assist. So, Assists = 0.
+*   **Free Kicks (Taken):** The 1st snippet mentions Player26 commits a foul, resulting in Player7(Home Team) winning a free kick, we don't increment it because the player is not taking the free kick. The 3rd snippet states "Player26(Away Team) is awarded a free kick". So, Free Kicks = 1.
+*   **Fouls (Committed):** The 1st snippet mentions "Player26(Away Team) commits a foul". The 4th snippet mentions "Player26(Away Team) commits a foul.". So, Fouls = 2.
+*   **Yellow Cards:** No snippets mention Player26 receiving a yellow card. So, Yellow Cards = 0.
+*   **Red Cards:** No snippets mention Player26 receiving a red card. So, Red Cards = 0.
+*   **Offsides:** No snippets mention Player26 being offsides. So, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 1     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

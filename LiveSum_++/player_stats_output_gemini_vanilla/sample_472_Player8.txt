@@ -1,0 +1,39 @@
+Okay, I will follow the instructions to analyze the commentary snippets for the specified player and generate the final summary table.
+
+**Player Name:** Player8
+
+**Commentary Snippets:**
+
+*   Player8(Home Team) commits a foul.
+*   Player8(Home Team) receives a yellow card for a reckless tackle.
+*   Player8(Home Team)'s header from the center of the box goes high and wide to the left after a cross from Player7(Home Team) during a set piece situation.
+*   Player8(Home Team) scores with a header from the center of the box, assisted by Player10(Home Team) with a cross, Home Team leads 2-0 against Away Team.
+*   Player8(Home Team) misses the header to the right after a cross from Player10(Home Team).
+
+**Analysis:**
+
+1.  **Fouls:** The first snippet states "Player8(Home Team) commits a foul." This is a direct statement of a foul committed by Player8, so the foul count is incremented to 1.
+2.  **Yellow Cards:** The second snippet states "Player8(Home Team) receives a yellow card for a reckless tackle." This clearly indicates Player8 received a yellow card, so the yellow card count is incremented to 1.
+3.  **Shots:** The third snippet states "Player8(Home Team)'s header from the center of the box goes high and wide to the left...". This is explicitly a shot attempt (header) by Player8, so the shot count is incremented to 1.
+4.  **Goals:** The fourth snippet states "Player8(Home Team) scores with a header from the center of the box...". This indicates Player8 scored a goal, so both the goal and shot count are incremented by 1 each. Shots = 1 + 1 = 2 and Goals = 1.
+5.  **Assists:** The fourth snippet indicates that Player8 scored, assisted by Player10. Since Player8 was assisted by another player, the assist count for Player8 remains 0.
+6.  **Shots:** The fifth snippet states "Player8(Home Team) misses the header to the right after a cross from Player10(Home Team)." This is explicitly a shot attempt (header) by Player8, so the shot count is incremented to 1. Shots = 2 + 1 = 3.
+
+**Final Counts:**
+
+*   Shots: 3
+*   Goals: 1
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 1
+*   Yellow Cards: 1
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 3     | 1     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

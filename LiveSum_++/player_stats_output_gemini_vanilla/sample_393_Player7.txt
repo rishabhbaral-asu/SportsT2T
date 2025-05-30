@@ -1,0 +1,50 @@
+Okay, let's analyze the commentary snippets for Player7 and compile the statistics.
+
+**Step 1: Identify the target player name.**
+
+The target player name is Player7.
+
+**Step 2: Initialize counts.**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**Step 3: Analyze each snippet and increment counts based on the rules.**
+
+*   **Snippet 1:** "Player7(Home Team)'s shot from outside the box is blocked with the help of Player3(Home Team)."
+    *   Mentions a shot by Player7. Increment Shots.
+    *   Shots = 1
+
+*   **Snippet 2:** "Player7(Home Team)'s right-footed shot from close range into the bottom right corner after a corner kick."
+    *   Mentions a shot by Player7 that went in. Increment Shots and Goals.
+    *   Shots = 2
+    *   Goals = 1
+
+*   **Snippet 3:** "Player7(Home Team)'s shot from outside the box is blocked after being set up by Player10(Home Team)."
+    *   Mentions a shot by Player7. Increment Shots.
+    *   Shots = 3
+
+*   **Snippet 4:** "Player7(Home Team) fouls Player24(Away Team), earning a free kick on the right wing."
+    *   Mentions Player7 committing a foul. Increment Fouls.
+    *   Fouls = 1
+
+*   **Snippet 5:** "Player7(Home Team) fouls Player28(Away Team), who wins a free kick in their defensive half."
+    *   Mentions Player7 committing a foul. Increment Fouls.
+    *   Fouls = 2
+
+**Step 4: No Yellow Cards, Red Cards, Assists or Offsides detected.**
+
+**Step 5: Final Summary Table**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 3     | 1     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

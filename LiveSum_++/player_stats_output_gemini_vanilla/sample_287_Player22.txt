@@ -1,0 +1,19 @@
+Okay, let's start.
+
+1.  **Identify Player Name:** The target player is Player22.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player22(Away Team) scores with a close-range header to put the Away Team ahead 1-0, assisted by Player26(Away Team) after a corner kick."
+        *   This snippet explicitly states Player22 "scores". Therefore, Goals += 1.
+        *   This snippet explicitly states Player22 "scores" which counts as a shot. Therefore Shots += 1.
+        *   The snippet says Player22 was *assisted by* Player26. Therefore, Assists remains 0.
+
+4.  **Final Counts:** Shots = 1, Goals = 1, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 1     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

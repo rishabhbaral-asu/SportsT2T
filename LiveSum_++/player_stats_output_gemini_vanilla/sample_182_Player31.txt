@@ -1,0 +1,37 @@
+Okay, I understand. I will analyze the provided commentary snippets for the specified player, count the occurrences of each defined event based on the strict rules, and present the results in a markdown table.
+
+**Player Name:**
+Player31
+
+**Commentary Snippets:**
+- Player31(Away Team) commits a foul.
+- Player31(Away Team) earns a free kick on the left side of the field.
+- Player31(Away Team) commits a foul.
+
+Reasoning:
+
+1.  **Player Identification:** The target player is Player31.
+2.  **Initialization:** Initialize all event counts to 0.
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player31(Away Team) commits a foul." - This explicitly states Player31 committed a foul. Increment Fouls by 1.
+    *   **Snippet 2:** "Player31(Away Team) earns a free kick on the left side of the field." - This explicitly states Player31 earned a free kick. Increment Free Kicks by 1.
+    *   **Snippet 3:** "Player31(Away Team) commits a foul." - This explicitly states Player31 committed a foul. Increment Fouls by 1.
+
+4.  **Final Counts:**
+
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 2
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player31 | 0     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

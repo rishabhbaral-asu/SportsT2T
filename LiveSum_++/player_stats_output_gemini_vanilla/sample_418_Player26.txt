@@ -1,0 +1,44 @@
+Okay, let's analyze the commentary snippets for Player26 and compile the statistics.
+
+1.  **Player Name:** Player26
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Commentary Snippet Analysis:**
+
+    *   Snippet 1: "Player26(Away Team) has given away a penalty by committing a foul in the penalty area."
+        *   Fouls: The phrase "committing a foul" explicitly states Player26 committed a foul. Increment Fouls by 1.
+        *   Free Kicks: The phrase "given away a penalty" implies a free kick was given, but this is due to a foul. No Free Kick is awarded to the player who commits the foul.
+
+    *   Snippet 2: "Player26(Away Team) misses the target with a shot from the center of the box, assisted by Player28(Away Team)."
+        *   Shots: The phrase "misses the target with a shot" explicitly states Player26 took a shot. Increment Shots by 1.
+        *   Assists: The snippet says Player26 was *assisted by* Player28, not the other way around. Therefore, no assist is counted for Player26.
+
+    *   Snippet 3: "Player26(Away Team) commits a foul."
+        *   Fouls: The phrase "commits a foul" explicitly states Player26 committed a foul. Increment Fouls by 1.
+
+4.  **Final Counts:**
+
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 2
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

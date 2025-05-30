@@ -1,0 +1,44 @@
+Okay, let's analyze the provided commentary snippets for Player22.
+
+1.  **Player Name:** Player22
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player22(Away Team) earns a free kick in their own half."
+        *   Player22 earns a free kick. This counts as a Free Kick.
+        *   Free Kicks = 1
+
+    *   Snippet 2: "Player22(Away Team) of the Away Team attempts a through ball, but Player35(Away Team) is flagged for being offside."
+        *   Player22 attempts a through ball that leads to offside. This does not count towards shots, goals, assists, fouls, yellow cards, red cards, or free kicks for Player22.
+        *   Offsides = 0 (Player22 did not commit an offside, the teammate did)
+
+    *   Snippet 3: "Player22(Away Team) earns a free kick in their own half."
+        *   Player22 earns a free kick. This counts as a Free Kick.
+        *   Free Kicks = 2
+
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 2
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 0     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

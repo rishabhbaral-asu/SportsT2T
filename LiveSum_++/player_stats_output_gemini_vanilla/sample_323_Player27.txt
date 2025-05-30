@@ -1,0 +1,49 @@
+Okay, let's analyze the commentary snippets for Player27.
+
+**1. Player Identification:**
+The target player is Player27.
+
+**2. Initialization:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player27(Away Team)'s shot from the center of the box with his right foot was close, but ultimately missed to the left."
+    *   Explicitly mentions "shot" by Player27.
+    *   Shots = 1
+
+*   **Snippet 2:** "Player27(Away Team) is currently sidelined due to an injury, causing a delay in the match."
+    *   This snippet does not contain any of the tracked events.
+
+*   **Snippet 3:** "Player27(Away Team) earns a free kick on the left side of the field."
+    *   Explicitly mentions Player27 "earns a free kick." This counts as the player taking a free kick.
+    *   Free Kicks = 1
+
+*   **Snippet 4:** "Player27(Away Team)'s shot from outside the box is saved in the bottom right corner with an assist from Player20(Away Team)."
+    *   Explicitly mentions "shot" by Player27.
+    *   Assists = 0 (because Player27 was assisted, we are not counting assists *given* by the player).
+    *   Shots = 2
+
+**4. Final Counts:**
+Shots = 2
+Goals = 0
+Assists = 0
+Free Kicks = 1
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 2     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

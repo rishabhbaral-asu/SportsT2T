@@ -1,0 +1,36 @@
+Okay, let's analyze the provided commentary snippets for Player5 and compile the requested statistics.
+
+**1. Player Name:**
+The target player is Player5.
+
+**2. Initialization:**
+We initialize all event counters to 0 for Player5.
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player5(Home Team) is experiencing a delay in the match due to an injury." - This snippet does not contain any of the defined events.
+
+*   **Snippet 2:** "Player5(Home Team) commits a foul." - This snippet explicitly states Player5 committed a foul. Increment Fouls by 1.
+
+*   **Snippet 3:** "Player5(Home Team) receives a yellow card for a rough tackle." - This snippet explicitly states Player5 received a yellow card. Increment Yellow Cards by 1. This also implies a foul. Increment Fouls by 1.
+
+*   **Snippet 4:** "Player5(Home Team) fouls Player21(Away Team) in the defensive half, awarding a free kick." - This snippet explicitly states Player5 committed a foul. Increment Fouls by 1.
+
+*   **Snippet 5:** "Player5(Home Team) receives a second yellow card for a reckless challenge." - This snippet explicitly states Player5 received a second yellow card. Increment Yellow Cards by 1 and Red Cards by 1. This also implies a foul. Increment Fouls by 1.
+
+**4. Final Counts:**
+* Shots: 0
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 4
+* Yellow Cards: 2
+* Red Cards: 1
+* Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 0     | 0     | 0       | 0          | 4     | 2            | 1         | 0        |
+```

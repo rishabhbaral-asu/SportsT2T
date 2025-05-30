@@ -1,0 +1,48 @@
+Okay, I'm ready to analyze the commentary snippets and generate the player statistics table.
+
+**1. Identify Target Player:**
+
+The target player is Player5.
+
+**2. Initialize Counts:**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player5(Home Team)'s shot from the center of the box is blocked after a cross from Player10(Home Team)."
+    *   Explicitly states "shot" by Player5.
+    *   Shots = 1
+
+*   **Snippet 2:** "Player5(Home Team) misses a close-range header to the left after being assisted by Player10(Home Team) with a cross from a set piece situation."
+    *   Explicitly states a "header" and states that Player5 "misses" it. We will count "header" as a type of "shot".
+    *   Shots = 2
+
+*   **Snippet 3:** "Player5(Home Team)."
+    *   No relevant events mentioned.
+
+**4. Final Counts:**
+
+*   Shots = 2
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,48 @@
+Okay, let's analyze the commentary snippets for Player8 and compile the statistics.
+
+1.  **Identify Target Player:** The target player is Player8.
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player8(Home Team) from outside the box is saved in the top centre of the goal after an assist from Player4(Home Team)."
+        *   This snippet describes a shot by Player8 that was saved. Therefore, increment Shots by 1.
+        *   No goal is scored.
+        *   No assist is made by Player8, they were *assisted by* Player4 so we do not increment assists.
+
+    *   **Snippet 2:** "Player8(Home Team) commits a foul."
+        *   This snippet explicitly states Player8 committed a foul. Increment Fouls by 1.
+
+    *   **Snippet 3:** "Player8(Home Team)'s left-footed shot from the left side of the box, assisted by Player7(Home Team), is saved in the bottom left corner, while Player9(Home Team)'s header from the center of the box, assisted by Player10(Home Team) with a cross, is saved in the top center of the goal."
+        *   This snippet describes a shot by Player8 that was saved. Increment Shots by 1.
+        *   No goal is scored.
+        *   No assist is made by Player8, they were *assisted by* Player7 so we do not increment assists.
+
+    *   **Snippet 4:** "Player8(Home Team) earns a free kick on the right side of the field."
+        *   This snippet states Player8 earned a free kick. Increment Free Kicks by 1.
+
+4.  **Final Counts:**
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,45 @@
+Okay, I'm ready to analyze the commentary snippets and generate the player statistics table.
+
+**1. Identify Target Player:**
+
+The target player is Player7.
+
+**2. Initialize Counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze Snippets:**
+
+*   **Snippet 1:** "Player7(Home Team)'s shot from the left side of the box is saved in the bottom left corner, with an assist from Player8(Home Team)."
+    *   "shot" is present, so Shots += 1
+    *   No goal is scored.
+    *   Assist provided **by** Player8, not Player7, so Assists remains 0.
+*   **Snippet 2:** "Player7(Home Team) earns a free kick in their own half."
+    *   "earns a free kick" is present, so Free Kicks += 1
+*   **Snippet 3:** "Player7(Home Team) is currently delayed in the match due to an injury."
+    *   No relevant events are mentioned.
+
+**4. Final Counts:**
+
+Shots = 1
+Goals = 0
+Assists = 0
+Free Kicks = 1
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

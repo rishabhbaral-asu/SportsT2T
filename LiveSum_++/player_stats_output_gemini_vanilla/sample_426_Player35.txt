@@ -1,0 +1,44 @@
+Okay, let's analyze the commentary snippets and compile the statistics for Player35.
+
+**Player Name:** Player35
+
+**Commentary Snippets:**
+- Player35(Away Team) commits a foul, resulting in Player4(Home Team) winning a free kick on the left wing, The foul was committed by Player35(Away Team), allowing Player4(Home Team) to win a free kick on the left wing.
+- Player35(Away Team) committed a foul.
+
+**Step-by-step Analysis:**
+
+1. **Initialization:**
+   - Shots = 0
+   - Goals = 0
+   - Assists = 0
+   - Free Kicks = 0
+   - Fouls = 0
+   - Yellow Cards = 0
+   - Red Cards = 0
+   - Offsides = 0
+
+2. **Snippet 1 Analysis:** "Player35(Away Team) commits a foul, resulting in Player4(Home Team) winning a free kick on the left wing, The foul was committed by Player35(Away Team), allowing Player4(Home Team) to win a free kick on the left wing."
+   - "commits a foul" - This explicitly states Player35 committed a foul. Increment Fouls by 1.
+The sentence also describes the result of the foul as "Player4(Home Team) winning a free kick". This does not mean Player35 took a free kick, nor won one.
+   - Player35 commits a foul is mentioned twice, but the foul count is only incremented once, as it is the same incident.
+
+3. **Snippet 2 Analysis:** "Player35(Away Team) committed a foul."
+   - "committed a foul" - This explicitly states Player35 committed a foul. Increment Fouls by 1.
+
+4. **Final Counts:**
+   - Shots = 0
+   - Goals = 0
+   - Assists = 0
+   - Free Kicks = 0
+   - Fouls = 2
+   - Yellow Cards = 0
+   - Red Cards = 0
+   - Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player35 | 0     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

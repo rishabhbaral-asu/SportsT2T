@@ -1,0 +1,65 @@
+Okay, I'm ready to analyze the commentary snippets and generate the player statistics table.
+
+**Player Name:** Player26
+
+**Commentary Snippets:**
+
+*   Player26(Away Team)'s shot from the center of the box is saved by the goalkeeper after being assisted by Player24(Away Team) with a cross, following a foul by Player11(Home Team).
+*   Player26(Away Team)'s shot from outside the box is saved in the bottom left corner, assisted by Player28(Away Team).
+*   Player26(Away Team)'s shot from outside the box is saved in the bottom left corner after an assist from Player23(Away Team).
+
+**Step-by-step Analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1 Analysis:** "Player26(Away Team)'s shot from the center of the box is saved by the goalkeeper after being assisted by Player24(Away Team) with a cross, following a foul by Player11(Home Team)."
+    *   "shot": Player26 took a shot. Shots = 1
+    *   No goal scored.
+    *   Player26 was *assisted by* another player; therefore, no assist for Player26.
+    *   No free kick taken by Player26
+    *   No foul committed by Player26.
+    *   No card given to Player26.
+    *   No offside mentioned.
+
+3.  **Snippet 2 Analysis:** "Player26(Away Team)'s shot from outside the box is saved in the bottom left corner, assisted by Player28(Away Team)."
+    *   "shot": Player26 took a shot. Shots = 2
+    *   No goal scored.
+    *   Player26 was *assisted by* another player; therefore, no assist for Player26.
+    *   No free kick taken by Player26
+    *   No foul committed by Player26.
+    *   No card given to Player26.
+    *   No offside mentioned.
+
+4.  **Snippet 3 Analysis:** "Player26(Away Team)'s shot from outside the box is saved in the bottom left corner after an assist from Player23(Away Team)."
+    *   "shot": Player26 took a shot. Shots = 3
+    *   No goal scored.
+    *   Player26 was *assisted by* another player; therefore, no assist for Player26.
+    *   No free kick taken by Player26
+    *   No foul committed by Player26.
+    *   No card given to Player26.
+    *   No offside mentioned.
+
+5.  **Final Counts:**
+    *   Shots = 3
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 3     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

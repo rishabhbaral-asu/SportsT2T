@@ -1,0 +1,37 @@
+Okay, let's analyze the commentary snippets for Player28 and compile the statistics.
+
+**1. Player Identification:**
+The target player is Player28.
+
+**2. Initialization:**
+Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player28(Away Team) commits a foul."
+    *   Fouls: Increment by 1. Fouls = 1
+
+*   **Snippet 2:** "Player28(Away Team) attempts a through ball, but Player24(Away Team) is offside for the Away Team."
+    * No relevant event for tracking.
+
+*   **Snippet 3:** "Player28(Away Team) commits a foul, resulting in Player6(Home Team) winning a free kick on the right wing, ."
+    *   Fouls: Increment by 1. Fouls = 2
+
+*   **Snippet 4:** "Player28(Away Team)'s left footed shot from the centre of the box, assisted by Player26(Away Team), is blocked after the Away Team obtains a corner kick."
+    *   Shots: Increment by 1. Shots = 1
+
+*   **Snippet 5:** "Player28(Away Team) earns a free kick on the left side of the field."
+    *   Free Kicks: Increment by 1. Free Kicks = 1
+
+*   **Snippet 6:** "Player28(Away Team)'s shot with his left foot is saved in the middle of the goal."
+    *   Shots: Increment by 1. Shots = 2
+
+**4. Final Counts:**
+Shots = 2, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 2, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 2     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

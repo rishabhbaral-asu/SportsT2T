@@ -1,0 +1,46 @@
+Okay, I'm ready to process the input and generate the player statistics table.
+
+**Player Name:** Player4
+
+**Commentary Snippets:**
+- Player4(Home Team) earns a free kick in their own half.
+- Player4(Home Team) and Player33(Away Team) both commit fouls.
+
+**Reasoning:**
+
+1.  **Player Identification:** The target player is Player4.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+    *   **Snippet 1:** "Player4(Home Team) earns a free kick in their own half."
+        *   This explicitly states that Player4 earned a free kick. Therefore, Free Kicks is incremented by 1.
+        *   Free Kicks = 1
+    *   **Snippet 2:** "Player4(Home Team) and Player33(Away Team) both commit fouls."
+        *   This explicitly states that Player4 committed a foul. Therefore, Fouls is incremented by 1.
+        *   Fouls = 1
+
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

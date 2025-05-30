@@ -1,0 +1,22 @@
+Okay, let's start by identifying the player name and initializing the counts.
+
+Player Name: Player1
+
+Initial Counts:
+Shots: 0, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+Now, analyze each commentary snippet:
+
+Snippet 1: "Player1(Home Team) is awarded a free kick in their own defensive half, ."
+
+Analysis: This snippet states that Player1 was awarded a free kick. This means Player1 wins a free kick, so Free Kicks should be incremented.
+
+Updated Counts:
+Shots: 0, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player1 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

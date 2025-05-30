@@ -1,0 +1,48 @@
+Okay, let's analyze the commentary snippets for Player35.
+
+1.  **Player Name:** Player35
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player35(Away Team) commits a foul, resulting in Player11(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player11(Home Team)'s team."
+        *   Fouls: Player35 commits a foul. Increment Fouls by 1.
+        *   Free Kicks: Player35 commits a foul and Player11 wins a free kick as a result. This does not count as a free kick taken by Player35.
+
+    *   **Snippet 2:** "Player35(Away Team) commits a foul, resulting in Player11(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player11(Home Team)'s team."
+        *   Fouls: Player35 commits a foul. Increment Fouls by 1.
+        *   Free Kicks: Player35 commits a foul and Player11 wins a free kick as a result. This does not count as a free kick taken by Player35.
+
+    *   **Snippet 3:** "Player35(Away Team) commits a foul on Player11(Home Team), resulting in a free kick being awarded on the left wing."
+        *   Fouls: Player35 commits a foul. Increment Fouls by 1.
+        *   Free Kicks: Player35 commits a foul and Player11 wins a free kick as a result. This does not count as a free kick taken by Player35.
+
+    *   **Snippet 4:** "Player35(Away Team) receives a yellow card for a rough tackle."
+        *   Yellow Cards: Player35 receives a yellow card. Increment Yellow Cards by 1.
+        *   Fouls: The yellow card was for a rough tackle, implies a foul was committed, however this foul has already been counted through explicit indication, and so should not be counted again.
+
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 3
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player35 | 0     | 0     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

@@ -1,0 +1,41 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player18 and compile the statistics.
+
+1.  **Player Name:** Player18
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player18(Home Team) commits a foul, resulting in Player22(Away Team) winning a free kick in their own half."
+        *   Fouls: Player18 commits a foul. Increment Fouls count. Fouls = 1
+        *   Free Kicks: Player18 commits a foul resulting in Player22 winning a free kick. Player18 did not take the free kick, Player18 gave away a free kick. Increment Free Kicks count. Free Kicks = 1
+    *   Snippet 2: "Player18(Home Team) receives a yellow card for a rough tackle."
+        *   Yellow Cards: Player18 receives a yellow card. Increment Yellow Cards count. Yellow Cards = 1
+
+    *   Snippet 3: "Player18(Home Team) earns a free kick on the left wing after being fouled by Player21(Away Team)."
+        *   Free Kicks: Player18 earns a free kick, so he is on the receiving end of a foul. Increment Free Kicks count. Free Kicks = 2
+
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 2
+    *   Fouls = 1
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player18 | 0     | 0     | 0       | 2          | 1     | 1            | 0         | 0        |
+```

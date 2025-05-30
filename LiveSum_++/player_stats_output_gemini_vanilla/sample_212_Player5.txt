@@ -1,0 +1,43 @@
+Okay, let's process the input step-by-step.
+
+1.  **Player Name:** The target player is Player5.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Commentary Snippet Analysis:**
+
+    *   Snippet 1: "Player5(Home Team) earns a free kick on the left wing after a foul by Player28(Away Team), ."
+        *   Player5 earns a free kick. Increment Free Kicks: Free Kicks = 1
+    *   Snippet 2: "Player5(Home Team) commits a foul."
+        *   Player5 commits a foul. Increment Fouls: Fouls = 1
+    *   Snippet 3: "Player5(Home Team) commits a foul, resulting in Player36(Away Team) winning a free kick on the right wing, ."
+        *   Player5 commits a foul. Increment Fouls: Fouls = 2
+    *   Snippet 4: "Player5(Home Team) receives a yellow card for a rough tackle."
+        *   Player5 receives a yellow card. Increment Yellow Cards: Yellow Cards = 1
+    *   Snippet 5: "Player5(Home Team) earns a free kick in the attacking half after being fouled by Player25(Away Team)."
+        *   Player5 earns a free kick. Increment Free Kicks: Free Kicks = 2
+
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 2
+    *   Fouls = 2
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 0     | 0     | 0       | 2          | 2     | 1            | 0         | 0        |
+```

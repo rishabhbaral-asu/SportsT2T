@@ -1,0 +1,51 @@
+Okay, let's analyze the commentary snippets for Player9 and compile the statistics.
+
+**Player Name:** Player9
+
+**Commentary Snippets Analysis:**
+
+*   **Snippet 1:** "Player9(Home Team) commits a foul, leading to Player27(Away Team) winning a free kick in the attacking half, This results in a set piece opportunity for Player27(Away Team)'s team."
+    *   Fouls: Player9 commits a foul. Increment Fouls by 1.
+    *   Free Kicks: Player9 commits a foul, leading to the opposing player winning a free kick. This does not count as a Free Kick (taken) for Player9, but the foul is already counted.
+*   **Snippet 2:** "Player9(Home Team) misses the goal with a right-footed shot from outside the box, assisted by Player11(Home Team)."
+    *   Shots: Player9 misses a shot. Increment Shots by 1.
+    *   Goals: No goal scored.
+    *   Assists: Player9 was assisted, so no assist for Player9.
+*   **Snippet 3:** "Player9(Home Team)'s shot from outside the box is blocked after an assist from Player7(Home Team)."
+    *   Shots: Player9's shot is blocked. Increment Shots by 1.
+    *   Goals: No goal scored.
+    *   Assists: Player9 was assisted, so no assist for Player9.
+*   **Snippet 4:** "Player9(Home Team) fails to take advantage of a great opportunity as their penalty is saved by the goalkeeper with a shot to the bottom left corner."
+    *   Shots: Player9's penalty is saved, which is a shot. Increment Shots by 1.
+    *   Goals: No goal scored.
+    *   Free Kicks: Player9 takes a penalty. Increment Free Kicks by 1.
+    *   Assists: No assist.
+*   **Snippet 5:** "Player9(Home Team) wins a free kick in the attacking half, but Player5(Home Team)'s left-footed shot from outside the box is blocked."
+    *   Free Kicks: Player9 wins a free kick. Increment Free Kicks by 1.
+    *   Shots: Player5 takes a shot, not Player9.
+    *   Goals: No goal scored by Player9.
+    *   Assists: No assist by Player9.
+*   **Snippet 6:** "Player9(Home Team) from taking a right-footed shot from outside the box."
+    *   Shots: This snippet suggests an attempt to take a shot, but doesn't explicitly state that Player9 took a shot. Since the snippet doesn't explicitly state the shot was taken, do not increment.
+*   **Snippet 7:** "Player9(Home Team)'s shot from outside the box is saved in the center of the goal, with an assist from Player6(Home Team)."
+    *   Shots: Player9's shot is saved. Increment Shots by 1.
+    *   Goals: No goal scored.
+    *   Assists: Player9 was assisted, so no assist for Player9.
+
+**Final Counts:**
+
+*   Shots: 4
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 2
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 4     | 0     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

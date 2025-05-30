@@ -1,0 +1,45 @@
+Okay, let's start!
+
+**Objective:** Analyze commentary snippets for Player20 and count explicit occurrences of defined events.
+
+**Player Name:** Player20
+
+**Commentary Snippets:**
+- Player20(Away Team) scores with a close-range header to the bottom left corner, assisted by Player27(Away Team).
+
+**Initialization:**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**Snippet Analysis:**
+
+*   "Player20(Away Team) scores with a close-range header to the bottom left corner, assisted by Player27(Away Team)."
+
+    *   **Goals:** The snippet explicitly states "Player20 scores". Increment Goals count by 1.
+    *   **Shots:** Scoring a goal implies a shot. Increment Shots count by 1.
+    *   **Assists:** The snippet indicates Player20 was assisted, not that Player20 provided the assist. Therefore, no assist is added to Player20.
+
+**Final Counts:**
+
+*   Shots = 1
+*   Goals = 1
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 1     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

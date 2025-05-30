@@ -1,0 +1,42 @@
+Okay, let's analyze the commentary snippets for Player20 and generate the final summary table.
+
+**1. Initialize Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**2. Analyze Commentary Snippets:**
+
+*   **Snippet 1: "Player20(Away Team) commits a foul."**
+    *   Fouls: Increment by 1 (Player20 explicitly commits a foul). Fouls = 1
+*   **Snippet 2: "Player20(Away Team) commits a foul on the left wing, resulting in Player6(Home Team) winning a free kick."**
+    *   Fouls: Increment by 1 (Player20 explicitly commits a foul). Fouls = 2
+    *   Free Kicks: Increment by 1 (Player20 is penalized for a foul which gives Player6 a free kick). Free Kicks = 1
+*   **Snippet 3: "Player20(Away Team) receives a yellow card for a harsh tackle."**
+    *   Yellow Cards: Increment by 1 (Player20 explicitly receives a yellow card). Yellow Cards = 1
+*   **Snippet 4: "Player20(Away Team) earns a free kick in their own half."**
+    *   Free Kicks: Increment by 1 (Player20 explicitly earns a free kick). Free Kicks = 2
+
+**3. Final Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 2
+*   Fouls: 2
+*   Yellow Cards: 1
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 0     | 0     | 0       | 2          | 2     | 1            | 0         | 0        |
+```

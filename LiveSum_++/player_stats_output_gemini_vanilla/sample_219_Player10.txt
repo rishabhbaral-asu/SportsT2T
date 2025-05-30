@@ -1,0 +1,48 @@
+Okay, let's break this down step by step.
+
+1.  **Identify Target Player:**
+    *   The target player is Player10.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player10(Home Team) earns a free kick in the opponent's half."
+        *   This snippet indicates Player10 earned a free kick (was fouled).
+        *   Increment Free Kicks: Free Kicks = 0 + 1 = 1
+
+    *   **Snippet 2:** "Player10(Home Team) commits a foul."
+        *   This snippet indicates Player10 committed a foul.
+        *   Increment Fouls: Fouls = 0 + 1 = 1
+
+    *   **Snippet 3:** "Player10(Home Team)'s left footed shot from outside the box goes over the goal in a direct free kick attempt."
+        *   This snippet indicates Player10 took a shot.
+        *   Increment Shots: Shots = 0 + 1 = 1
+
+4. Update the foul count.
+    *   The existing foul count is already 1. No changes required.
+
+5. **Compile Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 1     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

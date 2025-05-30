@@ -1,0 +1,49 @@
+Okay, I'm ready to analyze the commentary snippets and provide the player statistics in the specified markdown table format.
+
+**1. Identify Target Player:**
+
+The target player is Player4.
+
+**2. Initialize Counts:**
+
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player4(Home Team) scoring a header from the center of the box to the top left corner, assisted by Player7(Home Team) during a set piece."
+
+    *   `Goal`: The snippet explicitly states "scoring a header," so Goals count is incremented by 1.
+    *   `Shots`: Scoring a goal also counts as a shot, so Shots count is incremented by 1.
+    *   `Assists`: The snippet mentions "assisted by Player7," meaning Player4 did not provide the assist, so the Assists count remains 0.
+    *   Free Kicks, Fouls, Yellow Cards, Red Cards, Offsides: No relevant keywords are present.
+
+*   **Snippet 2:** "Player4(Home Team)'s header from the center of the box is saved in the bottom right corner after a cross from Player18(Home Team)."
+
+    *   `Shots`: The snippet explicitly states "Player4's header...is saved" indicating an attempt on goal, so Shots count is incremented by 1.
+    *   Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, Offsides: No relevant keywords are present.
+
+**4. Final Counts:**
+
+Shots: 2
+Goals: 1
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 2     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,40 @@
+Okay, let's analyze the commentary snippets for Player2 and generate the summary table.
+
+1.  **Player Name:** The target player is Player2.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player2(Home Team) misses the shot with his right foot from a tough angle on the right, assisted by Player5(Home Team)'s cross."
+        *   The snippet explicitly states "Player2 misses the shot". Therefore, Shots = 1.
+        *   The snippet also mentions Player5 assisted, so it doesn't give Player2 an assist.
+
+    *   **Snippet 2:** "Player2(Home Team) from the Home Team has scored an own goal, making the score 3-1 in favor of the Home Team over the Away Team."
+        *   The snippet explicitly states "Player2 scored an own goal". Therefore, Goals = 1.
+        *   Since a goal was scored, Shots also becomes 2.
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 2     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

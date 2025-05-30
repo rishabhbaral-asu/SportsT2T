@@ -1,0 +1,52 @@
+Okay, I'm ready to analyze the commentary snippets and generate the requested markdown table.
+
+**Step 1: Identify the target player name.**
+
+The target player is Player9.
+
+**Step 2: Initialize event counts.**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**Step 3: Analyze each commentary snippet and increment counts based on strict criteria.**
+
+*   **Snippet 1:** "Player9(Home Team)'s left-footed shot from the left side of the six-yard box is blocked after an assist from Player3(Home Team)."
+    *   Shots: Increment by 1 (explicitly mentioned "shot" by Player9)
+    *   Assists: No increment (Player9 *received* an assist, not provided one)
+
+*   **Snippet 2:** "Player9(Home Team) earns a free kick in the opponent's half."
+    *   Free Kicks: Increment by 1 (Player9 "earns a free kick")
+
+*   **Snippet 3:** "Player9(Home Team) earns a free kick on the left wing after being fouled by Player23(Away Team)."
+    *   Free Kicks: Increment by 1 (Player9 "earns a free kick")
+
+*   **Snippet 4:** "Player9(Home Team)'s attempt was saved in the center of the goal by the goalkeeper after being assisted by Player10(Home Team), while Player4(Home Team)'s shot from the center of the box missed high and wide to the right."
+    *   Shots: Increment by 1 (explicitly mentioned "attempt was saved" by Player9)
+    *   Assists: No increment (Player9 *received* an assist, not provided one)
+
+**Step 4: Compile the final counts.**
+
+Shots = 2
+Goals = 0
+Assists = 0
+Free Kicks = 2
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**Step 5: Generate the markdown table.**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 2     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

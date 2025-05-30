@@ -1,0 +1,54 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
+
+**Input:**
+* **Player Name:** The name of the single player to track.
+    <PLAYER_NAME>
+    Player24
+    </PLAYER_NAME>
+* **Commentary Snippets:** A list of commentary text snippets potentially mentioning the player.
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player24(Away Team) commits a foul.
+- Player24(Away Team) earns a free kick in the opponent's half.
+- Player24(Away Team) earns a free kick in their own half.
+- Player24(Away Team) scores with a right-footed shot from the center of the box, putting the Home Team ahead 1-2 against the Away Team.
+    </PLAYER_COMMENTARY_SNIPPETS>
+
+1.  **Identify the target player name:** `Player24`
+
+2.  **Initialize event counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+3.  **Analyze commentary snippets:**
+
+    *   **Snippet 1:** "Player24(Away Team) commits a foul."
+        *   The snippet explicitly states that Player24 committed a foul. Increment `Fouls` by 1.
+        *   Fouls = 1
+    *   **Snippet 2:** "Player24(Away Team) earns a free kick in the opponent's half."
+        *   The snippet explicitly states that Player24 earns a free kick. Increment `Free Kicks` by 1.
+        *   Free Kicks = 1
+    *   **Snippet 3:** "Player24(Away Team) earns a free kick in their own half."
+        *   The snippet explicitly states that Player24 earns a free kick. Increment `Free Kicks` by 1.
+        *   Free Kicks = 2
+    *   **Snippet 4:** "Player24(Away Team) scores with a right-footed shot from the center of the box, putting the Home Team ahead 1-2 against the Away Team."
+        *   The snippet explicitly states that Player24 scores. Increment `Goals` by 1.
+        *   Goals = 1
+        *   The snippet explicitly states Player24 took a shot on goal. Increment `Shots` by 1.
+        *   Shots = 1
+
+4. **Final Counts:**
+    * Shots = 1
+    * Goals = 1
+    * Assists = 0
+    * Free Kicks = 2
+    * Fouls = 1
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 1     | 1     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

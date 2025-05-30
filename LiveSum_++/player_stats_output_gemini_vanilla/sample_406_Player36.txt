@@ -1,0 +1,40 @@
+Okay, let's analyze the commentary snippets for Player36 and generate the final summary table.
+
+**1. Player Identification:**
+
+The target player is Player36.
+
+**2. Initialization:**
+
+We initialize all event counts to 0 for Player36.
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player36(Away Team) commits a foul, resulting in Player5(Home Team) winning a free kick in their own defensive half."
+    *   Fouls: Player36 commits a foul. Increment Fouls by 1.
+    *   Free Kicks: Player36 commits a foul that results in Player5 winning a free kick. This does not count as Player36 taking a free kick, nor winning a free kick.
+
+*   **Snippet 2:** "Player36(Away Team) commits a foul."
+    *   Fouls: Player36 commits a foul. Increment Fouls by 1.
+
+*   **Snippet 3:** "Player36(Away Team) receives a yellow card for a rough foul."
+    *   Fouls: The phrase "rough foul" indicates a foul committed by Player36. We already counted this foul as part of the yellow card, so this does not increment the count again.
+    *   Yellow Cards: Player36 receives a yellow card. Increment Yellow Cards by 1.
+
+**4. Final Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 2
+*   Yellow Cards: 1
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player36 | 0     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

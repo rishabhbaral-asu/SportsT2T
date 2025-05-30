@@ -1,0 +1,46 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player25 and create the final summary table.
+
+1.  **Identify Player Name:** The target player name is Player25.
+
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player25(Away Team)'s attempt at goal is denied by a block, after being set up by Player28(Away Team) in the center of the box."
+        *   Shots: The snippet explicitly states "attempt at goal" by Player25, so increment Shots by 1.
+        *   Goals: The attempt was blocked so no goal was scored.
+        *   Assists: Player25 was set up for the shot, so Player25 gave no assist and therefore Assistants should remain 0.
+        *   Free Kicks: No free kick was involved in this action.
+        *   Fouls: No foul was committed by Player25.
+        *   Yellow Cards: No yellow card was issued.
+        *   Red Cards: No red card was issued.
+        *   Offsides: No offside was committed.
+
+    *   **Snippet 2:** "Player25(Away Team) attempts a pass to Player23(Away Team), who is caught offside."
+        *   Shots: No shot.
+        *   Goals: No goal.
+        *   Assists: No goal was scored so no assist should be awarded.
+        *   Free Kicks: No free kick was involved.
+        *   Fouls: No foul was committed by Player25.
+        *   Yellow Cards: No yellow card was issued.
+        *   Red Cards: No red card was issued.
+        *   Offsides: Player23 was offside and not Player25 so this should not be counted.
+
+    *   **Snippet 3:** "Player25(Away Team) commits a foul, resulting in Player16(Home Team) winning a free kick in their own defensive half, This leads to a set piece opportunity for Player16(Home Team)."
+        *   Shots: No shot.
+        *   Goals: No goal.
+        *   Assists: No assist.
+        *   Free Kicks: No free kick was explicitly taken by Player25, and the wording confirms Player25 committed the foul.
+        *   Fouls: The snippet explicitly states "commits a foul" by Player25, so increment Fouls by 1.
+        *   Yellow Cards: No yellow card was issued.
+        *   Red Cards: No red card was issued.
+        *   Offsides: No offside.
+
+4.  **Compile Final Counts:** Shots = 1, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

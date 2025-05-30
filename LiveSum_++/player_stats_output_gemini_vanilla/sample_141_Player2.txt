@@ -1,0 +1,37 @@
+Okay, let's analyze the commentary snippets for Player2 and generate the statistics table.
+
+1.  **Player Name:** The target player is Player2.
+
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player2(Home Team) misses the target with a high and wide shot from the right side of the box, after receiving a cross from Player10(Home Team) following a corner kick."
+        *   This snippet describes a shot by Player2. Shots = 1.
+        *   This snippet describes no goals, assists, free kicks, fouls, yellow cards, red cards or offsides.
+
+    *   Snippet 2: "Player2(Home Team)'s shot from the right side of the box is saved in the bottom right corner after an assist from Player7(Home Team)."
+        *   This snippet describes a shot by Player2. Shots = 2.
+        *   This snippet describes no goals, assists, free kicks, fouls, yellow cards, red cards or offsides.
+
+    *   Snippet 3: "Player2(Home Team)'s header from the center of the box is saved in the top left corner after a cross from Player8(Home Team)."
+        *   This snippet describes a shot by Player2 (header). Shots = 3.
+        *   This snippet describes no goals, assists, free kicks, fouls, yellow cards, red cards or offsides.
+
+    *   Snippet 4: "Player2(Home Team) commits a foul."
+        *   This snippet explicitly states Player2 committed a foul. Fouls = 1.
+        *   This snippet describes no goals, assists, free kicks, yellow cards, red cards or offsides.
+
+    *   Snippet 5: "Player2(Home Team) receives a yellow card for a foul."
+        *   This snippet explicitly states Player2 received a yellow card. Yellow Cards = 1.
+        *   This snippet also states that Player2 committed a foul, even though this was implied by the yellow card. Fouls = 2.
+        *   This snippet describes no goals, assists, free kicks, red cards or offsides.
+
+4.  **Final Counts:** Shots = 3, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 2, Yellow Cards = 1, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 3     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

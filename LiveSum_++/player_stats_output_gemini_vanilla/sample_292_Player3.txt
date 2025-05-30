@@ -1,0 +1,33 @@
+Okay, I'm ready to process the player statistics.
+
+**1. Identify Target Player:**
+The target player is Player3.
+
+**2. Initialize Counts:**
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player3(Home Team) is currently being delayed in the match due to an injury." - This does not describe any of the tracked events.
+
+*   **Snippet 2:** "Player3(Home Team) misses the header from the center of the box, it goes high and wide to the right, Player9(Home Team) assisted with a cross after a corner." - Player3 misses a header (attempt on goal).
+    *   Shots: 0 + 1 = 1
+
+*   **Snippet 3:** "Player3(Home Team) with a header into the bottom right corner, assisted by Player11(Home Team)'s cross from a corner kick." - Player3 scores a goal.
+    *   Shots: 1 + 1 = 2
+    *   Goals: 0 + 1 = 1
+
+**4. Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 2     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

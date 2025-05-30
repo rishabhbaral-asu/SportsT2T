@@ -1,0 +1,57 @@
+Okay, let's process the input step by step.
+
+1.  **Player Name:** The target player is Player6.
+2.  **Initialization:** Initialize all counts to 0: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+3.  **Commentary Snippet Analysis:**
+
+    *   **Snippet 1:** "Player6(Home Team)'s shot from the right side of the box is saved in the bottom left corner after an assist from Player8(Home Team)."
+        *   Shots: Increment by 1 (explicitly mentions "shot" by Player6).
+        *   Goals: No goal is mentioned.
+        *   Assists: No assist for Player6 in this snippet as Player6 is the one shooting, not assisting.
+
+    *   **Snippet 2:** "Player6(Home Team) scoring from close range with their right foot, assisted by Player11(Home Team)'s cross."
+        *   Shots: Increment by 1 (scoring is also a shot).
+        *   Goals: Increment by 1 (explicitly mentions "scoring").
+        *   Assists: No assist for Player6 in this snippet as Player6 is the one scoring, not assisting.
+
+    *   **Snippet 3:** "Player6(Home Team) fouls Player28(Away Team), who wins a free kick in their defensive half."
+        *   Shots: No shot mentioned.
+        *   Goals: No goal mentioned.
+        *   Assists: No assist mentioned.
+        *   Free Kicks: No free kick taken by Player6, but free kick is awarded to the opposing team because of a foul by Player6.
+        *   Fouls: Increment by 1 (explicitly mentions "fouls" by Player6).
+
+    *   **Snippet 4:** "Player6(Home Team) commits a foul."
+        *   Shots: No shot mentioned.
+        *   Goals: No goal mentioned.
+        *   Assists: No assist mentioned.
+        *   Fouls: Increment by 1 (explicitly mentions "commits a foul" by Player6).
+
+    *   **Snippet 5:** "Player6(Home Team) commits a foul."
+        *   Shots: No shot mentioned.
+        *   Goals: No goal mentioned.
+        *   Assists: No assist mentioned.
+        *   Fouls: Increment by 1 (explicitly mentions "commits a foul" by Player6).
+
+    *   **Snippet 6:** "Player6(Home Team)'s shot from outside the box is saved in the center of the goal, with an assist from Player8(Home Team)."
+        *   Shots: Increment by 1 (explicitly mentions "shot" by Player6).
+        *   Goals: No goal is mentioned.
+        *   Assists: No assist for Player6 as Player6 is the shooter and is assisted by Player8.
+
+4.  **Final Counts:**
+    *   Shots: 0 + 1 + 1 + 0 + 0 + 0 + 1 = 3
+    *   Goals: 0 + 0 + 1 + 0 + 0 + 0 + 0 = 1
+    *   Assists: 0 + 0 + 0 + 0 + 0 + 0 + 0 = 0
+    *   Free Kicks: 0 + 0 + 0 + 0 + 0 + 0 + 0 = 0
+    *   Fouls: 0 + 0 + 0 + 1 + 1 + 1 + 0 = 3
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 3     | 1     | 0       | 0          | 3     | 0            | 0         | 0        |
+```

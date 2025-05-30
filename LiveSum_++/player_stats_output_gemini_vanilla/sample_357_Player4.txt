@@ -1,0 +1,24 @@
+Okay, let's analyze the commentary snippets for Player4 and compile the statistics.
+
+**Player Name:** Player4
+
+**Commentary Snippets:**
+
+- Player4(Home Team) earns a free kick in their defensive half after being fouled by Player26(Away Team).
+- Player4(Home Team) commits a foul.
+- Player4(Home Team) commits a foul, allowing Player27(Away Team) to win a free kick on the right wing, The referee awards Player27(Away Team) a free kick on the right wing after Player4(Home Team) fouls.
+- Player4(Home Team) receives a yellow card for a rough tackle.
+
+**Step-by-step analysis:**
+
+1.  **Free Kicks (Taken):** The first snippet states "Player4(Home Team) earns a free kick in their defensive half after being fouled by Player26(Away Team)." This indicates Player4 wins a free kick. Therefore, Free Kicks count incremented by 1.
+2.  **Fouls (Committed):** The second snippet states "Player4(Home Team) commits a foul." This is a direct statement of a foul committed by Player4. Therefore, Fouls count incremented by 1. The third snippet states "Player4(Home Team) commits a foul, allowing Player27(Away Team) to win a free kick on the right wing, The referee awards Player27(Away Team) a free kick on the right wing after Player4(Home Team) fouls." Player4 commits an additional foul. Fouls count is incremented by 1.
+3.  **Yellow Cards:** The fourth snippet states "Player4(Home Team) receives a yellow card for a rough tackle." Yellow Cards count incremented by 1.
+4.  **Shots, Goals, Assists, Red Cards, Offsides:** There are no explicit mentions of shots, goals, assists, red cards or offsides attributed to Player4 in any of the snippets. Therefore, these counts remain at 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 0     | 0     | 0       | 1          | 2     | 1            | 0         | 0        |
+```

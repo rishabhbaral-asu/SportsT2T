@@ -1,0 +1,43 @@
+Okay, let's analyze the commentary snippets for Player7 and generate the summary table.
+
+**Steps:**
+
+1.  **Identify Target Player:** The target player is Player7.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player7(Home Team) commits a foul." - Fouls += 1
+    *   Snippet 2: "Player7(Home Team)'s shot from the center of the box is saved in the middle of the goal." - Shots += 1
+    *   Snippet 3: "Player7(Home Team) of the Home Team attempts a through ball, but Player2(Home Team) is flagged for offside." - No event to increment for Player7, offside applies to Player2.
+    *   Snippet 4: "Player7(Home Team) commits a foul." - Fouls += 1
+    *   Snippet 5: "Player7(Home Team) commits a foul, resulting in Player29(Away Team) winning a free kick in their own defensive half." - Fouls += 1
+    *   Snippet 6: "Player7(Home Team) earns a free kick in the attacking half after a foul by Player27(Away Team)." - Free Kicks += 1
+    *   Snippet 7: "Player7(Home Team)'s right footed shot from outside the box is blocked by the defense, while Player14(Home Team)'s attempt is saved by the goalkeeper in the center of the goal, both assisted by their teammates." - Shots += 1
+    *   Snippet 8: "Player7(Home Team) earns a free kick in the opponent's half." - Free Kicks += 1
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 2
+    *   Fouls = 3
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 2     | 0     | 0       | 2          | 3     | 0            | 0         | 0        |
+```

@@ -1,0 +1,29 @@
+Okay, let's start by identifying the target player.
+The target player is Player5.
+
+Now, let's initialize the counts for all events to 0.
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Now, let's analyze the commentary snippets.
+Snippet 1: "Player5(Home Team) commits a foul, resulting in Player28(Away Team) winning a free kick on the left wing, The referee blows his whistle."
+- "commits a foul" is present, and Player5 is the actor, so increment Fouls. Fouls = 1
+- Player5 caused Player28 to win a free kick. This does not count as Player5 taking a free kick, but rather a foul.
+
+Snippet 2: "Player5(Home Team) earns a free kick from the right side."
+- "earns a free kick" is present, and Player5 is the actor, so increment Free Kicks. Free Kicks = 1
+
+Now, let's create the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

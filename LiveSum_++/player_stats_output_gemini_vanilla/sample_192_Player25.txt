@@ -1,0 +1,43 @@
+Okay, I will follow the instructions to analyze the commentary snippets and generate the final summary table for the specified player.
+
+**Player Name:** Player25
+
+**Commentary Snippets:**
+
+*   Player25(Away Team) commits a foul.
+*   Player25(Away Team) attempts a through ball, but Player28(Away Team) is caught offside.
+*   Player25(Away Team) earns a free kick in their own half.
+*   Player25(Away Team)'s long-range shot is blocked with his right foot, assisted by Player27(Away Team).
+*   Player25(Away Team)'s right footed shot from outside the box is blocked by a defender after being assisted by Player28(Away Team), while Player27(Away Team)'s left footed shot from the center of the box narrowly misses to the left after a set piece.
+
+**Analysis:**
+
+1.  **Player Name:** Player25
+2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+**Snippet Analysis and Count Increment:**
+
+*   **Snippet 1:** "Player25(Away Team) commits a foul." - Foul count increments to 1.
+*   **Snippet 2:** "Player25(Away Team) attempts a through ball, but Player28(Away Team) is caught offside." - Offsides count does *not* increment for Player25 because Player28 is offside, not Player25. No Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, or Red Cards are mentioned.
+*   **Snippet 3:** "Player25(Away Team) earns a free kick in their own half." - Free Kicks count increments to 1 (Player25 earned it).
+*   **Snippet 4:** "Player25(Away Team)'s long-range shot is blocked with his right foot, assisted by Player27(Away Team)." - Shot count increments to 1. The player was assisted but did not provide an assist.
+*   **Snippet 5:** "Player25(Away Team)'s right footed shot from outside the box is blocked by a defender after being assisted by Player28(Away Team), while Player27(Away Team)'s left footed shot from the center of the box narrowly misses to the left after a set piece." - Shot count increments to 2. Player27 is not Player25.
+
+**Final Counts:**
+
+*   Shots: 2
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

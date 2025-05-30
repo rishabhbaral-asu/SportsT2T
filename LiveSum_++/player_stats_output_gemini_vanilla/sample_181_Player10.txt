@@ -1,0 +1,44 @@
+Okay, let's analyze the commentary snippets for Player10 and compile the statistics.
+
+**1. Player Identification:**
+The target player is Player10.
+
+**2. Initialization:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player10(Home Team)'s left footed shot from outside the box goes wide to the right, assisted by Player8(Home Team)."
+    *   Shots: Increment to 1 (explicitly stated "shot").
+    *   Assists: No increment. The snippet states Player10 was *assisted by* Player8, not the other way around.
+*   **Snippet 2:** "Player10(Home Team)'s left footed shot from outside the box following a set piece situation goes over the goal."
+    *   Shots: Increment to 2 (explicitly stated "shot").
+*   **Snippet 3:** "Player10(Home Team) commits a foul, resulting in Player26(Away Team) winning a free kick on the right wing, This leads to a set piece opportunity for Player26(Away Team)."
+    *   Fouls: Increment to 1 (explicitly stated "commits a foul").
+    *   Free Kicks: Increment to 1 (Player26 wins a free kick *as a result* of Player10's foul).
+*   **Snippet 4:** "Player10(Home Team) attempted a through ball to Player8(Home Team), but Player8(Home Team) was offside."
+    *   Offsides: Increment to 1 (explicitly stated "was offside" regarding the receiving player of Player10's pass, meaning Player10's pass led to an offside).
+
+**4. Final Counts:**
+Shots = 2
+Goals = 0
+Assists = 0
+Free Kicks = 1
+Fouls = 1
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,44 @@
+Okay, let's analyze the commentary snippets for Player7.
+
+1.  **Player Name:** Player7
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player7(Home Team) from the Home Team attempts a through ball, but Player11(Home Team) is offside."
+        *   This snippet does not contain any event keywords. Player7 attempts a through ball, but it doesn't result in a shot, goal, assist or free kick, foul or card. It does result in Player11 being offside. Therefore no change to any counter. Offsides count stays at 0 because Player7 wasn't offside, another player was.
+
+    *   Snippet 2: "Player7(Home Team) misses the target with a high shot from the center of the box."
+        *   This snippet contains "shot". Since Player7 is explicitly mentioned taking the shot and it is a missed shot (on or off target still counts as a shot) we increment the Shots count.
+        *   Shots = 1
+
+    *   Snippet 3: "Player7(Home Team)'s right-footed shot from outside the box is blocked with an assist from Player14(Home Team), resulting in a corner kick for the Home Team."
+        *   This snippet contains "shot". Since Player7 is explicitly mentioned taking the shot and it is blocked (a blocked shot still counts as a shot) we increment the Shots count.
+        *   It also mentions an assist *from* Player14, which means Player7 did not give the assist.
+        *   Shots = 2
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

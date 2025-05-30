@@ -1,0 +1,38 @@
+Okay, let's analyze the commentary snippets for Player21.
+
+1.  **Player Name:** Player21
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player21(Away Team) gives away a penalty with a foul in the box."
+        *   "foul" is present. This implies Player21 committed a foul. Increment Fouls by 1.
+        *   "penalty" is present and the context indicates Player21 conceded it, therefore the player is committing a foul.
+    *   Snippet 2: "Player21(Away Team) earns a free kick in their own half after a foul by Player10(Home Team)."
+        *   "free kick" is present. Player21 earned the free kick. Increment Free Kicks by 1.
+
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,24 @@
+Okay, let's analyze the commentary snippets for Player10 and generate the statistics table.
+
+**Player Name:** Player10
+
+**Commentary Snippets:**
+- Player10(Home Team) commits a foul on Player21(Away Team), who earns a free kick in their own defensive half.
+- Player10(Home Team) earns a free kick on the right side of the field.
+
+**Analysis:**
+
+1.  **Initialization:** We initialize Shots, Goals, Assists, Free Kicks (taken), Fouls (committed), Yellow Cards, Red Cards, and Offsides to 0 for Player10.
+2.  **Snippet 1:** "Player10(Home Team) commits a foul on Player21(Away Team), who earns a free kick in their own defensive half."
+    *   Fouls (Committed): The snippet explicitly states "Player10 commits a foul". Increment Fouls by 1.
+    *   Free Kicks (Taken): Player10 commits a foul which leads Player21 to earn a free kick, as Player10 commits the foul.
+3.  **Snippet 2:** "Player10(Home Team) earns a free kick on the right side of the field."
+    *   Free Kicks (Taken): The snippet explicitly states "Player10 earns a free kick". Increment Free Kicks by 1.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,49 @@
+Okay, let's analyze the commentary snippets for Player6 and generate the summary table.
+
+**1. Player Name:**
+
+The target player is Player6.
+
+**2. Initialization:**
+
+We initialize all event counts to 0 for Player6: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player6(Home Team) commits a foul."
+    *   This snippet explicitly states Player6 committed a foul.
+    *   Increment Fouls: Fouls = 1
+
+*   **Snippet 2:** "Player6(Home Team) earns a free kick in the opponent's half after being fouled by Player22(Away Team)."
+    *   This snippet explicitly states Player6 earned a free kick.
+    *   Increment Free Kicks: Free Kicks = 1
+
+*   **Snippet 3:** "Player6(Home Team) just missed a shot with their right foot from outside the box, assisted by Player7(Home Team) after a set piece."
+    *   This snippet explicitly states Player6 missed a shot.
+    *   Increment Shots: Shots = 1
+
+*   **Snippet 4:** "Player6(Home Team)'s shot from outside the box is saved in the center of the goal, assisted by Player15(Home Team)."
+    *   This snippet explicitly states Player6 took a shot that was saved.
+    *   Increment Shots: Shots = 2
+
+*   **Snippet 5:** "Player6(Home Team) fouls Player23(Away Team), resulting in a free kick in the defensive half."
+    *   This snippet explicitly states Player6 committed a foul.
+    *   Increment Fouls: Fouls = 2
+
+**4. Final Counts:**
+
+*   Shots: 2
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 2
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 2     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

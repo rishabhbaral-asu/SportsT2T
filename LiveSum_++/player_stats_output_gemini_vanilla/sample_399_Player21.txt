@@ -1,0 +1,35 @@
+Okay, let's analyze the commentary snippets for Player21.
+
+1.  **Player Name:** Player21
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Commentary Analysis:**
+    *   Snippet 1: "Player21(Away Team) commits a foul, blocking Player18(Home Team)'s attempt with his right footed shot from outside the box."
+        *   Fouls: The snippet explicitly states "Player21 commits a foul". Increment Fouls by 1.
+        *   Shots: The snippet explicitly states "blocking Player18(Home Team)'s attempt with his right footed shot". Even though Player21 blocked the shot, the snippet does NOT say Player21 took a shot. Shots count remains 0.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,45 @@
+Okay, let's analyze the commentary snippets for Player4.
+
+**1. Player Identification:**
+The target player is Player4.
+
+**2. Initialization:**
+We initialize the counts for Player4 as follows:
+* Shots: 0
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 0
+* Yellow Cards: 0
+* Red Cards: 0
+* Offsides: 0
+
+**3. Snippet Analysis:**
+
+*   Snippet 1: "Player4(Home Team) scores for the Home Team with a left-footed shot from close range, assisted by Player11(Home Team) after a corner kick, The score is now 1-0 in favor of the Home Team."
+    *   Goals: The snippet explicitly states "Player4 scores", so we increment the Goals count by 1.
+    *   Shots: The snippet explicitly states "Player4 scores" which implies a shot, so we increment the Shots count by 1.
+    *   Assists: The snippet explicitly states "assisted by Player11", meaning Player4 *received* the assist, but did not *give* one, thus we do not increment the Assist count.
+    * Free Kicks: This snippet does not explicitly mention any free kicks taken or won by the Player4.
+    * Fouls: No foul is mentioned to be committed by Player4.
+    * Yellow Cards: No yellow card is mentioned.
+    * Red Cards: No red card is mentioned.
+    * Offsides: No offside is mentioned.
+
+**4. Final Counts:**
+Based on the analysis, the final counts for Player4 are:
+* Shots: 1
+* Goals: 1
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 0
+* Yellow Cards: 0
+* Red Cards: 0
+* Offsides: 0
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 1     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

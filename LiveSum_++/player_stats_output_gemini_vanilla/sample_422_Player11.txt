@@ -1,0 +1,65 @@
+Okay, I will follow the instructions to analyze the commentary snippets for the specified player and generate the final summary table.
+
+1.  **Player Name:** The target player is Player11.
+2.  **Initialize Counts:** I will initialize Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, and Offsides to 0.
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player11(Home Team)'s shot from the center of the box is saved by the goalkeeper in the bottom right corner, with an assist from Player8(Home Team)."
+        *   Shots: Increment by 1 (explicitly stated Player11's shot).
+        *   Goals: No goal scored, so no increment.
+        *   Assists: No assist as Player11 *received* the assist.
+
+    *   **Snippet 2:** "Player11(Home Team) misses the target with a high shot from the center of the box after a corner kick."
+        *   Shots: Increment by 1 (explicitly stated Player11 missed a shot).
+        *   Goals: No goal scored, so no increment.
+        *   Assists: No assist.
+
+    *   **Snippet 3:** "Player11(Home Team) from the Home Team is caught offside after a through ball is attempted by Player9(Home Team)."
+        *   Shots: No shot, so no increment.
+        *   Goals: No goal scored, so no increment.
+        *   Assists: No assist.
+        *   Offsides: Increment by 1 (explicitly stated Player11 is caught offside).
+
+    *   **Snippet 4:** "Player11(Home Team) commits a foul."
+        *   Fouls: Increment by 1 (explicitly stated Player11 commits a foul).
+        *   Shots: No shot, so no increment.
+        *   Goals: No goal scored, so no increment.
+        *   Assists: No assist.
+
+    *   **Snippet 5:** "Player11(Home Team) commits a foul."
+        *   Fouls: Increment by 1 (explicitly stated Player11 commits a foul).
+        *   Shots: No shot, so no increment.
+        *   Goals: No goal scored, so no increment.
+        *   Assists: No assist.
+
+    *   **Snippet 6:** "Player11(Home Team) scores with a right-footed shot from the center of the box, assisted by Player8(Home Team) after a quick break."
+        *   Shots: Increment by 1 (explicitly stated Player11 scores).
+        *   Goals: Increment by 1 (explicitly stated Player11 scores).
+        *   Assists: No assist as Player11 *received* the assist.
+
+    *   **Snippet 7:** "Player11(Home Team)'s shot from the center of the box is blocked by the defense, resulting in a corner kick for the Home Team after an assist from Player9(Home Team)."
+        *   Shots: Increment by 1 (explicitly stated Player11's shot).
+        *   Goals: No goal scored, so no increment.
+        *   Assists: No assist as Player11 *received* the assist.
+
+    *   **Snippet 8:** "Player11(Home Team) misses a shot with his right foot from the center of the box, to the left, after receiving a cross from Player8(Home Team)."
+        *   Shots: Increment by 1 (explicitly stated Player11 misses a shot).
+        *   Goals: No goal scored, so no increment.
+        *   Assists: No assist as Player11 *received* the assist.
+
+4.  **Final Counts:**
+    *   Shots: 1 + 1 + 1 + 1 + 1 = 5
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1 + 1 = 2
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 1
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 5     | 1     | 0       | 0          | 2     | 0            | 0         | 1        |
+```

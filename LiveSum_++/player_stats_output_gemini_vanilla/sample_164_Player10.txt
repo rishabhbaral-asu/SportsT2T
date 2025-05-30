@@ -1,0 +1,19 @@
+Okay, let's analyze the commentary snippets for Player10 and generate the statistics table.
+
+**Player Name:** Player10
+
+**Commentary Snippets:**
+
+*   "Player10(Home Team)'s shot from the left side of the box is saved in the bottom left corner after a headed pass from Player8(Home Team)." - Contains "shot", so increment Shots by 1.
+*   "Player10(Home Team)'s shot from the left side of the box is saved in the center of the goal, with an assist from Player6(Home Team)." - Contains "shot", so increment Shots by 1.
+*   "Player10(Home Team)'s left footed shot from outside the box, assisted by Player14(Home Team), misses to the right after a foul by Player25(Away Team)." - Contains "shot", so increment Shots by 1.
+*   "Player10(Home Team) fouls Player36(Away Team), resulting in a free kick in the defensive half." - Contains "fouls", so increment Fouls by 1.
+
+Now, we can populate the table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 3     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

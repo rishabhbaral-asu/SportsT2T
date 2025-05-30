@@ -1,0 +1,40 @@
+Okay, let's analyze the commentary snippets for Player25 and generate the summary table.
+
+1.  **Identify Player:** The target player is Player25.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player25(Away Team)'s attempt from outside the box is saved at the top center of the goal."
+        *   This snippet explicitly mentions Player25 attempting a shot that was saved.
+        *   Increment Shots: Shots = 1
+
+    *   Snippet 2: "Player25(Away Team) attempts a through ball, but Player24(Away Team) is caught offside."
+        *   This snippet mentions Player25 attempting a through ball, but it doesn't state that the through ball *led* to a goal. It resulted in Player24 being offside.
+        *   Offsides = 0
+
+4.  **Compile Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,40 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for Player21 and count explicit occurrences of defined events.
+
+1.  **Identify Target Player:** The target player is Player21.
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player21(Away Team) earns a free kick in their own half after being fouled by Player2(Home Team)."
+        *   This snippet indicates Player21 *earned* a free kick. Thus, it increments the `Free Kicks` count by 1.
+
+    *   Snippet 2: "Player21(Away Team) attempts a through ball, but Player29(Away Team) is caught in an offside position."
+        *   This snippet indicates Player21 attempted a through ball, but Player29 was offside. This does not count as an offside for Player21, it does not count as a shot, goal, assist, foul, yellow card, red card, or free kick. Offsides remains at 0.
+
+4.  **Compile Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

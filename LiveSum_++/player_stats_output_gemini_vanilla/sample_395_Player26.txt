@@ -1,0 +1,43 @@
+Okay, let's analyze the commentary snippets for Player26 and compile the statistics.
+
+1.  **Player Name:** Player26
+
+2.  **Initialization:**
+    * Shots: 0
+    * Goals: 0
+    * Assists: 0
+    * Free Kicks: 0
+    * Fouls: 0
+    * Yellow Cards: 0
+    * Red Cards: 0
+    * Offsides: 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player26(Away Team) earns a free kick on the right side of the field."
+        *   "earns a free kick" is a keyword for Free Kicks. The action is explicitly attributed to Player26.
+        *   Free Kicks: 1
+
+    *   Snippet 2: "Player26(Away Team) attempts a through ball, but Player24(Away Team) is offside for the Away Team."
+        *   Player26 attempts a pass which leads to Player24 being offside. This does not count as an assist, nor as a shot, goal, free kick or foul. It does however increase the offside count for Player24, but not for Player26. No change to statistics for Player26.
+
+    *   Snippet 3: "Player26(Away Team) fouls Player7(Home Team), who wins a free kick in their defensive half."
+        *   "fouls" is a keyword for Fouls. The action is explicitly attributed to Player26.
+        *   Fouls: 1
+
+4.  **Final Counts:**
+    * Shots: 0
+    * Goals: 0
+    * Assists: 0
+    * Free Kicks: 1
+    * Fouls: 1
+    * Yellow Cards: 0
+    * Red Cards: 0
+    * Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

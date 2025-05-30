@@ -1,0 +1,53 @@
+Okay, I'm ready to process the commentary snippets and generate the player statistics table.
+
+**Player Name:** Player9
+
+**Commentary Snippets:**
+
+*   Player9(Home Team) misses the header to the right from the center of the box after a cross from Player10(Home Team).
+*   Player9(Home Team) commits a foul.
+*   Player9(Home Team)'s header from the center of the box is blocked with an assist from Player8(Home Team).
+*   Player9(Home Team)'s header from the center of the box is saved in the bottom right corner after a cross from Player8(Home Team).
+*   Player9(Home Team) earns a free kick in their own half.
+*   Player9(Home Team) earns a free kick in their own half after being fouled by Player26(Away Team).
+*   Player9(Home Team) commits a foul, allowing Player24(Away Team) to earn a free kick in the attacking half.
+
+Reasoning:
+
+1.  **Shots:**
+    *   "Player9(Home Team) misses the header to the right from the center of the box...": This is a shot (header attempt) - count 1.
+    *   "Player9(Home Team)'s header from the center of the box is blocked...": This is a shot (header attempt) - count 1.
+    *   "Player9(Home Team)'s header from the center of the box is saved...": This is a shot (header attempt) - count 1.
+    Total Shots: 3
+
+2.  **Goals:** None of the snippets explicitly state that Player9 scored a goal.
+    Total Goals: 0
+
+3.  **Assists:** None of the snippets state that Player9 provided an assist.
+    Total Assists: 0
+
+4.  **Free Kicks (Taken):**
+    *   "Player9(Home Team) earns a free kick in their own half.": This counts as Player9 winning a free kick which also means Player9 takes the free kick - count 1
+    *   "Player9(Home Team) earns a free kick in their own half after being fouled by Player26(Away Team).": This counts as Player9 winning a free kick which also means Player9 takes the free kick - count 1
+    Total Free Kicks: 2
+
+5.  **Fouls (Committed):**
+    *   "Player9(Home Team) commits a foul.": Count 1.
+    *   "Player9(Home Team) commits a foul, allowing Player24(Away Team) to earn a free kick in the attacking half.": Count 1.
+    Total Fouls: 2
+
+6.  **Yellow Cards:** None.
+    Total Yellow Cards: 0
+
+7.  **Red Cards:** None.
+    Total Red Cards: 0
+
+8.  **Offsides:** None.
+    Total Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 3     | 0     | 0       | 2          | 2     | 0            | 0         | 0        |
+```

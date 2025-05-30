@@ -1,0 +1,54 @@
+Okay, let's analyze the commentary snippets for Player27.
+
+1.  **Player Name:** The target player is Player27.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player27(Away Team)'s left footed shot from outside the box on a direct free kick goes high and wide to the left, missing the goal."
+        *   Shots: Increment by 1 (explicitly a shot). Shots = 1.
+        *   Free Kicks: Increment by 1 (explicitly a direct free kick). Free Kicks = 1.
+        *   Goals: No goal mentioned.
+        *   Assists: No assist mentioned.
+        *   Fouls: No foul mentioned.
+        *   Yellow Cards: No yellow card mentioned.
+        *   Red Cards: No red card mentioned.
+        *   Offsides: No offside mentioned.
+
+    *   **Snippet 2:** "Player27(Away Team)'s shot from outside the box is blocked."
+        *   Shots: Increment by 1 (explicitly a shot). Shots = 2.
+        *   Free Kicks: No free kick mentioned.
+        *   Goals: No goal mentioned.
+        *   Assists: No assist mentioned.
+        *   Fouls: No foul mentioned.
+        *   Yellow Cards: No yellow card mentioned.
+        *   Red Cards: No red card mentioned.
+        *   Offsides: No offside mentioned.
+
+    *   **Snippet 3:** "Player27(Away Team)'s shot from the right side of the box is too high, assisted by Player25(Away Team)."
+        *   Shots: Increment by 1 (explicitly a shot). Shots = 3.
+        *   Free Kicks: No free kick mentioned.
+        *   Goals: No goal mentioned.
+        *   Assists: No assist mentioned (Player27 was *assisted by* someone else, not giving the assist).
+        *   Fouls: No foul mentioned.
+        *   Yellow Cards: No yellow card mentioned.
+        *   Red Cards: No red card mentioned.
+        *   Offsides: No offside mentioned.
+
+    *   **Snippet 4:** "Player27(Away Team) scores with a right footed shot from the center of the box, assisted by Player28(Away Team), The game is now tied at 2-2 between the Home Team and the Away Team."
+        *   Shots: Increment by 1 (explicitly a shot, and scoring counts as a shot). Shots = 4.
+        *   Goals: Increment by 1 (explicitly scores). Goals = 1.
+        *   Assists: No assist mentioned (Player27 was *assisted by* someone else, not giving the assist).
+        *   Free Kicks: No free kick mentioned.
+        *   Fouls: No foul mentioned.
+        *   Yellow Cards: No yellow card mentioned.
+        *   Red Cards: No red card mentioned.
+        *   Offsides: No offside mentioned.
+
+4.  **Final Counts:** Shots = 4, Goals = 1, Assists = 0, Free Kicks = 1, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 4     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

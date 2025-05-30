@@ -1,0 +1,37 @@
+Okay, I'm ready to process the soccer commentary snippets and generate the player statistics table.
+
+**Step-by-step breakdown:**
+
+1.  **Identify Target Player:** The target player is Player22.
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player22(Away Team)'s header from the center of the box is blocked after receiving a cross from Player29(Away Team)."
+        *   The snippet describes "Player22's header" which was blocked. Since it is a header, and is blocked, it qualifies as a shot.
+        *   Shots: Increment to 1.
+
+4.  **Compile Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,52 @@
+Okay, let's analyze the commentary snippets for Player2.
+
+1.  **Player Name:** The target player is Player2.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player2(Home Team) earns a free kick in their own half."
+        *   Player2 earns a free kick. Increment Free Kicks by 1.
+        *   Free Kicks = 1
+
+    *   Snippet 2: "Player2(Home Team) earns a free kick on the right side of the field."
+        *   Player2 earns a free kick. Increment Free Kicks by 1.
+        *   Free Kicks = 2
+
+    *   Snippet 3: "Player2(Home Team) earns a free kick in their own half."
+        *   Player2 earns a free kick. Increment Free Kicks by 1.
+        *   Free Kicks = 3
+
+    *   Snippet 4: "Player2(Home Team)'s shot from outside the box is blocked with Player7(Home Team)'s assistance."
+        *   Player2's shot is blocked. Increment Shots by 1.
+        *   Shots = 1
+
+    *   Snippet 5: "Player2(Home Team)'s shot from the center of the box was blocked, assisted by Player15(Home Team), while Player10(Home Team)'s shot was saved in the top center of the goal, assisted by Player13(Home Team) with a cross."
+        * Player2's shot was blocked. Increment Shots by 1.
+        * Shots = 2
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 3
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 2     | 0     | 0       | 3          | 0     | 0            | 0         | 0        |
+```

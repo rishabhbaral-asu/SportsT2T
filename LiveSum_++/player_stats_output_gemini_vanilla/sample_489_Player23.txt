@@ -1,0 +1,22 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player23 and compile the statistics.
+
+1.  **Identify the target player:** Player23
+2.  **Initialize event counts to 0:** Shots=0, Goals=0, Assists=0, Free Kicks=0, Fouls=0, Yellow Cards=0, Red Cards=0, Offsides=0
+3.  **Analyze each snippet and increment counts:**
+    *   Snippet 1: "Player23(Away Team) earns a free kick in their own half."
+        *   This snippet explicitly states Player23 earned a free kick.
+        *   Increment Free Kicks: Free Kicks = 1
+    *   Snippet 2: "Player23(Away Team)'s left footed shot from the left side of the box, assisted by Player25(Away Team) with a cross, is saved in the centre of the goal after the Away Team obtains a corner kick."
+        *   This snippet explicitly states Player23 took a shot.
+        *   Increment Shots: Shots = 1
+        *   The snippet does not mention Player23 scoring a goal.
+        *   The snippet indicates that Player23 was *assisted by* another player (Player25), so do not increment Player23's assists.
+
+4.  **Final Counts:** Shots=1, Goals=0, Assists=0, Free Kicks=1, Fouls=0, Yellow Cards=0, Red Cards=0, Offsides=0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

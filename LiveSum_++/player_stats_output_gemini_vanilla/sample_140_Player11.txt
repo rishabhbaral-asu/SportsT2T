@@ -1,0 +1,67 @@
+Okay, let's analyze the commentary snippets for Player11.
+
+1.  **Player Name:** Player11
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player11(Home Team)'s left-footed shot from a tough angle just missed to the left, with an assist from Player9(Home Team)."
+        *   Shots += 1 (Explicitly states "shot" by Player11)
+        *   No Goal.
+        *   No Assist (Player11 *received* an assist, did not *give* one)
+
+    *   Snippet 2: "Player11(Home Team) misses the goal with a right-footed shot from outside the box, assisted by Player7(Home Team)."
+        *   Shots += 1 (Explicitly states "shot" by Player11)
+        *   No Goal.
+        *   No Assist (Player11 *received* an assist, did not *give* one)
+
+    *   Snippet 3: "Player11(Home Team) misses the target with a shot from outside the box with their right foot."
+        *   Shots += 1 (Explicitly states "shot" by Player11)
+        *   No Goal.
+        *   No Assist.
+
+    *   Snippet 4: "Player11(Home Team) commits a foul."
+        *   Fouls += 1 (Explicitly states "commits a foul")
+
+    *   Snippet 5: "Player11(Home Team)'s shot from outside the box is blocked after being assisted by Player4(Home Team)."
+        *   Shots += 1 (Explicitly states "shot" by Player11)
+        *   No Goal.
+        *   No Assist (Player11 *received* an assist, did not *give* one)
+
+    *   Snippet 6: "Player11(Home Team) assisted Player9(Home Team) with a shot from outside the box that was blocked."
+        *   Assists += 1 (Explicitly states "assisted" by Player11)
+        *   No Goal
+        *   No Shot
+
+    *   Snippet 7: "Player11(Home Team)'s right foot from outside the box after obtaining a corner kick."
+        * No Shots (no clear shot mention, but only a right foot attempt after obtaining a corner)
+        * No Free Kick (no mention of free kick being taken).
+
+    *   Snippet 8: "Player11(Home Team) commits a foul."
+        *   Fouls += 1 (Explicitly states "commits a foul")
+
+4.  **Final Counts:**
+    *   Shots = 4
+    *   Goals = 0
+    *   Assists = 1
+    *   Free Kicks = 0
+    *   Fouls = 2
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 4     | 0     | 1       | 0          | 2     | 0            | 0         | 0        |
+```

@@ -1,0 +1,42 @@
+Okay, let's break down the process step by step.
+
+1.  **Identify Target Player:** The target player is Player11.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player11(Home Team)'s shot from the right side of the box is blocked with the help of Player2(Home Team)."
+        *   The snippet explicitly states "Player11's shot".
+        *   Increment Shots: Shots = 0 + 1 = 1
+
+    *   **Snippet 2:** "Player11(Home Team) scores with a right footed shot from the center of the box, assisted by Player10(Home Team), Home Team leads 2-1 against Away Team."
+        *   The snippet explicitly states "Player11 scores".
+        *   Increment Goals: Goals = 0 + 1 = 1
+        *   The snippet also indicates Player11 made a shot that resulted in a goal.
+        *   Increment Shots: Shots = 1+ 1 = 2
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

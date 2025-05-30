@@ -1,0 +1,28 @@
+Okay, let's analyze the commentary snippets for Player3 and compile the statistics.
+
+**Player Name:** Player3
+
+**Commentary Snippets:**
+
+*   "Player3(Home Team) fouls Player27(Away Team), who wins a free kick on the left wing."
+*   "Player3(Home Team) receives a yellow card for a foul."
+*   "Player3(Home Team)'s header from the center of the box was saved in the top right corner after a cross from Player11(Home Team)."
+
+**Step-by-step analysis:**
+
+1.  **Fouls:** The first snippet states "Player3(Home Team) fouls Player27(Away Team)". This is an explicit foul committed by Player3, so increment Fouls by 1.
+2.  **Yellow Cards:** The second snippet states "Player3(Home Team) receives a yellow card for a foul." This is an explicit yellow card received by Player3, so increment Yellow Cards by 1.
+3.  **Shots:** The third snippet states "Player3(Home Team)'s header from the center of the box was saved in the top right corner". This is an explicit shot (header attempt) by Player3, so increment Shots by 1.
+4.  **Free Kicks:** The first snippet states "Player3(Home Team) fouls Player27(Away Team), who wins a free kick...". Player3 committed the foul, but did not *take* the free kick. Fouls is incremented above. Therefore do not increment Free Kicks.
+5.  **Goals:** None of the snippets mention Player3 scoring a goal.
+6.  **Assists:** None of the snippets mention Player3 providing an assist.
+7.  **Red Cards:** None of the snippets mention Player3 receiving a red card.
+8.  **Offsides:** None of the snippets mention Player3 being offside.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 1     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

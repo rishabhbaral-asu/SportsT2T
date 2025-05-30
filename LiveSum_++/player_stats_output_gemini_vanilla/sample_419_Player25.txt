@@ -1,0 +1,49 @@
+Okay, I will follow the instructions meticulously to analyze the commentary snippets for Player25 and generate the final summary table.
+
+**1. Identify the target player:**
+
+The target player is Player25.
+
+**2. Initialize event counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze each snippet and increment counts:**
+
+*   **Snippet 1:** "Player25(Away Team) scores with a close-range right-footed shot to the bottom left corner, assisted by Player21(Away Team) after a corner kick, The Away Team takes the lead 1-0 against the Home Team."
+    *   Goals: Player25 scores a goal. Increment Goals to 1.
+    *   Shots: Player25 scores with a shot. Increment Shots to 1.
+    *   Assists: Player25 *receives* an assist, so we do *not* increment Assists.
+
+*   **Snippet 2:** "Player25(Away Team) commits a foul, resulting in Player6(Home Team) winning a free kick in their own defensive half, The foul by Player25(Away Team) gives Player6(Home Team) a free kick in their defensive half."
+    *   Fouls: Player25 commits a foul. Increment Fouls to 1.
+    *   Free Kicks: Player25 committing a foul that resulted in Player6 winning a free kick, does not result in incrementing Free Kicks for Player25
+
+*   **Snippet 3:** "Player25(Away Team)'s header from the center of the box is saved by the goalkeeper after a cross from Player7(Home Team)."
+    *   Shots: Player25's header is saved, indicating a shot. Increment Shots to 2.
+
+**4. Final Counts:**
+
+*   Shots: 2
+*   Goals: 1
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 2     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

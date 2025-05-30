@@ -1,0 +1,39 @@
+Okay, let's start.
+
+1.  **Identify the target player name:** The target player name is Player24.
+2.  **Initialize counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze commentary snippets:**
+    *   Snippet 1: "Player24(Away Team) commits a foul."
+        *   This snippet explicitly states Player24 committed a foul. Increment Fouls by 1.
+        *   Fouls: 1
+    *   Snippet 2: "Player24(Away Team) scores with a left-footed shot from close range into the bottom left corner, making it Home Team 1, Away Team 3."
+        *   This snippet explicitly states Player24 scored a goal. Increment Goals by 1.
+        *   This snippet also explicitly mentions Player24's shot resulting in a goal. Increment Shots by 1.
+        *   Goals: 1
+        *   Shots: 1
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 1     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

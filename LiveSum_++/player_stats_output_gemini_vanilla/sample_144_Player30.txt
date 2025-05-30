@@ -1,0 +1,46 @@
+Okay, let's analyze the commentary snippets for Player30.
+
+* **Player Name:** Player30
+* **Commentary Snippets:**
+    *   "Player30(Away Team) earns a free kick in their own half after an offside call against the Away Team, as Player29(Away Team) attempts a through ball that is caught offside by Player28(Away Team)."
+    *   "Player30(Away Team) commits a foul, resulting in Player10(Home Team) being awarded a free kick in the attacking half, ."
+    *   "Player30(Away Team) misses the header to the right after a cross from Player20(Away Team) following a corner kick."
+
+Here's the step-by-step breakdown and event counting:
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1 Analysis:** "Player30(Away Team) earns a free kick in their own half after an offside call against the Away Team, as Player29(Away Team) attempts a through ball that is caught offside by Player28(Away Team)."
+    *   Player30 "earns a free kick". This increments Free Kicks by 1.
+    *   Offsides against Away Team don't affect Player30's offside count since it was not Player30 who was called offside.
+
+3.  **Snippet 2 Analysis:** "Player30(Away Team) commits a foul, resulting in Player10(Home Team) being awarded a free kick in the attacking half, ."
+    *   Player30 "commits a foul". This increments Fouls by 1.
+
+4.  **Snippet 3 Analysis:** "Player30(Away Team) misses the header to the right after a cross from Player20(Away Team) following a corner kick."
+    *   Player30 "misses the header". This clearly implies an attempt on goal, so it's a shot. Increment Shots by 1.
+
+5.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player30 | 1     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

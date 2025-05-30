@@ -1,0 +1,44 @@
+Okay, let's break this down step by step.
+
+1.  **Identify Target Player:** The target player is Player6.
+
+2.  **Initialize Counts:**
+
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player6(Home Team) commits a foul."
+        *   This explicitly states Player6 committed a foul.
+        *   Increment Fouls: Fouls = 1
+
+    *   Snippet 2: "Player6(Home Team) scores a goal with a header from the center of the box, assisted by Player2(Home Team) with a cross, The game is now tied 1-1 between the Home Team and the Away Team."
+        *   This explicitly states Player6 scored a goal.
+        *   Increment Goals: Goals = 1
+        *   Increment Shots: Shots = 1 (because a goal is also a shot attempt)
+        *   No assist is counted for Player6 because it mentions he was *assisted by* Player2.
+
+4.  **Final Counts:**
+
+    *   Shots: 1
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 1     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

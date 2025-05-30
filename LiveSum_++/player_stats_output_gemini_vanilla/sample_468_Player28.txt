@@ -1,0 +1,60 @@
+Okay, let's break down the task. I need to analyze the commentary snippets, identify mentions of "Player28," and count the occurrences of specific soccer events (Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, Offsides) exclusively for that player, based on the provided keywords and definitions. I will apply a strict interpretation of each snippet and only count if the event is explicitly stated and unambiguously attributed to Player28.
+
+Here's the step-by-step analysis:
+
+1.  **Player Name:** Player28
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player28(Away Team)'s right footed shot from outside the box is blocked after an attempted assist by Player29(Away Team), following a foul by Player8(Home Team)."
+        *   Shots: +1 (explicitly states "shot")
+        *   Fouls: 0 (Player28 did not commit the foul)
+
+    *   Snippet 2: "Player28(Away Team)'s shot from the left side of the box is blocked with Player29(Away Team)'s assistance."
+        *   Shots: +1 (explicitly states "shot")
+
+    *   Snippet 3: "Player28(Away Team) missed a header from the center of the box, it went high and wide to the left, with an assist from Player27(Away Team)."
+        *   Shots: +1 (explicitly mentions the header was an attempt on goal that missed)
+
+    *   Snippet 4: "Player28(Away Team)'s right footed shot from a difficult angle and long range on the left is blocked after an attempt from a corner kick by the Away Team, assisted by Player26(Away Team)."
+        *   Shots: +1 (explicitly states "shot")
+
+    *   Snippet 5: "Player28(Away Team)'s attempt from a direct free kick is too high."
+        *   Shots: 0 (Attempt does not explicitly imply it was a shot, and other attempts that are not shots or headers do not count as shots)
+        *   Free Kicks: +1 (explicitly states "free kick")
+
+    *   Snippet 6: "Player28(Away Team)'s shot from the center of the box with his right foot narrowly misses to the right, assisted by Player26(Away Team) with a through ball."
+        *   Shots: +1 (explicitly states "shot")
+
+    *   Snippet 7: "Player28(Away Team)'s shot from outside the box is saved in the bottom left corner, with an assist from Player32(Away Team)."
+        *   Shots: +1 (explicitly states "shot")
+
+    *   Snippet 8: "Player28(Away Team) commits a foul."
+        *   Fouls: +1 (explicitly states "commits a foul")
+
+4.  **Final Counts:**
+    *   Shots: 6
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 6     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

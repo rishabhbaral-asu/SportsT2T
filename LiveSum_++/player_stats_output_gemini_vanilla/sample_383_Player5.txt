@@ -1,0 +1,43 @@
+Okay, let's analyze the commentary snippets for Player5.
+
+1.  **Player Name:** `Player5`
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player5(Home Team)'s header from the right side of the box is saved in the center of the goal after an assist from Player10(Home Team) with a cross."
+        *   The snippet explicitly mentions "Player5's header". This is an attempt on goal and is saved. Therefore, Shots += 1.
+        *   The snippet mentions "saved", so no goal scored.
+        *   The snippet states Player10 provided the assist, therefore Player5's Assists remains 0.
+
+    *   Snippet 2: "Player5(Home Team)'s attempt from the center of the box, assisted by Player7(Home Team) with a cross, is saved in the center of the goal after the Home Team obtains a corner kick."
+        *   The snippet mentions "Player5's attempt". This is an attempt on goal and is saved. Therefore, Shots += 1.
+        *   The snippet mentions "saved", so no goal scored.
+        *   The snippet states Player7 provided the assist, therefore Player5's Assists remains 0.
+
+4.  **Final Counts:**
+
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

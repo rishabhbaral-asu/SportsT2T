@@ -1,0 +1,32 @@
+Okay, let's analyze the commentary snippets for Player7 and generate the summary table.
+
+1.  **Identify the target player:** Player7
+
+2.  **Initialize event counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player7(Home Team) attempts a pass, but Player9(Home Team) is offside."
+        *   This snippet does not explicitly indicate Player7 took a shot, scored a goal, made an assist, took a free kick, committed a foul, or received a card. It only mentions Player7 attempting a pass that led to Player9 being offside. This does not count as an assist for Player7. It also mentions offside, but this refers to Player9, not Player7. No events are added. Offsides = 0
+
+    *   **Snippet 2:** "Player7(Home Team) commits a foul, resulting in Player26(Away Team) winning a free kick in the attacking half, ."
+        *   This snippet explicitly states "Player7(Home Team) commits a foul". This increments the 'Fouls' count.
+        *   Fouls = 1
+
+4.  **Compile Final Counts:**
+
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

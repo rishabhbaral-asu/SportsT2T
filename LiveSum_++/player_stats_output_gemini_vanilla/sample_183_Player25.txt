@@ -1,0 +1,27 @@
+Okay, let's analyze the commentary snippets for Player25.
+
+1.  **Player Name:** Player25
+
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player25(Away Team) commits a foul."
+        *   Fouls: Increment to 1 because it explicitly states Player25 commits a foul.
+
+    *   Snippet 2: "Player25(Away Team) receives a yellow card for a reckless foul."
+        *   Yellow Cards: Increment to 1 because it explicitly states Player25 receives a yellow card.
+        *   Fouls: This snippet also mentions a foul, and since the yellow card is *for* a reckless foul, it is explicitly stating that Player25 committed a foul. Fouls is incremented again. Fouls = 2
+
+    *   Snippet 3: "Player25(Away Team) misses the goal with a left footed shot from the left side of the six yard box, assisted by Player29(Away Team)."
+        *   Shots: Increment to 1 because it explicitly states Player25 misses the goal with a shot.
+        *   Assists: No assist is counted for Player25 because the player was assisted *by* someone else.
+
+4.  **Final Counts:** Shots = 1, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 2, Yellow Cards = 1, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

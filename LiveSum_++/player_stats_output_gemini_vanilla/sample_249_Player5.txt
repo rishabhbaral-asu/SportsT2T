@@ -1,0 +1,41 @@
+Okay, let's analyze the commentary snippets for Player5.
+
+1.  **Player Name:** Player5
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player5(Home Team) from the Home Team scored an own goal, putting the Home Team at a disadvantage with a score of 0-1 in favor of the Away Team."
+        *   The snippet clearly states Player5 scored a goal (albeit an own goal).
+        *   Increment Goals: Goals = 1
+        *   Increment Shots: Shots = 1 (since scoring a goal implies a shot)
+
+    *   **Snippet 2:** "Player5(Home Team)'s left-footed shot from the left side of the box and Player15(Home Team)'s right-footed shot from the same area are both blocked, with assistance from Player10(Home Team)."
+        *   The snippet explicitly states Player5 took a shot that was blocked.
+        *   Increment Shots: Shots = 1
+
+4.  **Final Counts:**
+    *   Shots: 2
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 2     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

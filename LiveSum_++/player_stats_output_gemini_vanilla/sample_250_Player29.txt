@@ -1,0 +1,50 @@
+Okay, let's break down the commentary snippets for Player29 and compile the statistics.
+
+**1. Player Name:**
+The target player is Player29.
+
+**2. Initialization:**
+We initialize all counts to 0: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player29(Away Team) scores with a right-footed shot from the center of the box, giving the Away Team a 1-0 lead over the Home Team."
+    *   Goal: Increment Goals by 1.
+    *   Shot: Increment Shots by 1 (because a goal is a shot).
+
+*   **Snippet 2:** "Player29(Away Team) scores with a close-range right footed shot, assisted by Player27(Away Team) with a cross, The Away Team now leads 2-0 against the Home Team."
+    *   Goal: Increment Goals by 1.
+    *   Shot: Increment Shots by 1 (because a goal is a shot).
+    *   Assist: The snippet indicates Player29 was *assisted by* Player27, so Player29's Assist count is *not* incremented (remains 0).
+
+*   **Snippet 3:** "Player29(Away Team) earns a free kick in their own half after being fouled by Player7(Home Team)."
+    *   Free Kick: Increment Free Kicks by 1 (Player29 wins a free kick).
+
+*   **Snippet 4:** "Player29(Away Team) commits a foul, resulting in Player5(Home Team) winning a free kick on the left wing."
+    *   Fouls: Increment Fouls by 1 (Player29 commits a foul).
+
+*   **Snippet 5:** "Player29(Away Team) receives a yellow card."
+    *   Yellow Cards: Increment Yellow Cards by 1.
+
+*   **Snippet 6:** "Player29(Away Team) is causing a delay in the match due to an injury."
+    *   No relevant event.
+
+*   **Snippet 7:** "Player29(Away Team) earns a free kick in their own half."
+    *   Free Kick: Increment Free Kicks by 1 (Player29 wins a free kick).
+
+**4. Final Counts:**
+Shots: 2
+Goals: 2
+Assists: 0
+Free Kicks: 2
+Fouls: 1
+Yellow Cards: 1
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 2     | 2     | 0       | 2          | 1     | 1            | 0         | 0        |
+```

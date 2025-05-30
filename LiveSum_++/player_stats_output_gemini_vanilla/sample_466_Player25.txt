@@ -1,0 +1,21 @@
+Okay, let's analyze the commentary snippets for Player25 and generate the summary table.
+
+**Player Name:** Player25
+
+**Commentary Snippets:**
+- Player25(Away Team) commits a foul, resulting in Player9(Home Team) winning a free kick in their own defensive half.
+
+**Analysis:**
+
+1.  **Player Name:** Player25
+2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+3.  **Snippet 1:** "Player25(Away Team) commits a foul, resulting in Player9(Home Team) winning a free kick in their own defensive half."
+    *   The snippet explicitly states "Player25 commits a foul". So, Fouls += 1.
+    * The phrase "winning a free kick" implies that Player25 committed the foul that led to the free kick, but it is for Player9 not Player25.
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

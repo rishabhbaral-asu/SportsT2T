@@ -1,0 +1,38 @@
+Okay, let's start by identifying the target player and initializing the event counts.
+
+Target Player: Player31
+
+Initialized Counts:
+* Shots: 0
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 0
+* Yellow Cards: 0
+* Red Cards: 0
+* Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player31(Away Team) fouls Player3(Home Team), resulting in a free kick in the defensive half, This leads to a set piece opportunity for the team in their own half."
+*   This snippet explicitly states "Player31 fouls Player3". Therefore, increment Fouls by 1.
+
+Snippet 2: "Player31(Away Team) commits a foul, resulting in Player2(Home Team) winning a free kick in their defensive half."
+*   This snippet explicitly states "Player31 commits a foul". Therefore, increment Fouls by 1.
+
+Final Counts:
+* Shots: 0
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 2
+* Yellow Cards: 0
+* Red Cards: 0
+* Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player31 | 0     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

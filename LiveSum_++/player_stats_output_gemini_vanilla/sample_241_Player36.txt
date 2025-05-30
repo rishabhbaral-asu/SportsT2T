@@ -1,0 +1,24 @@
+Okay, let's analyze the commentary snippets for Player36 and generate the requested markdown table.
+
+**Player Name:** Player36
+
+**Commentary Snippets:**
+- Player36(Away Team) commits a foul, resulting in Player4(Home Team) being awarded a free kick in their own defensive half.
+
+**Reasoning:**
+
+1.  **Player Identification:** The target player is Player36.
+2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet Analysis:**
+    *   "Player36(Away Team) commits a foul, resulting in Player4(Home Team) being awarded a free kick in their own defensive half."
+        *   Fouls: The snippet explicitly states "Player36 commits a foul". Increment Fouls by 1. Fouls = 1.
+        *   Free Kicks: There is no indication that Player36 is taking the free kick. Player4 is the one being awarded the free kick because of the foul. No increment in Free Kicks.
+
+4. **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player36 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

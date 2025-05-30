@@ -1,0 +1,50 @@
+Okay, let's analyze the commentary snippets for Player29 and compile the statistics.
+
+**Player Name:** Player29
+
+**Commentary Snippets:**
+- Player29(Away Team) earns a free kick in their own half after a foul by Player3(Home Team).
+- Player29(Away Team) earns a free kick in the opponent's half.
+- Player29(Away Team)'s close-range header misses to the left after being assisted by Player21(Away Team) with a headed pass from a corner.
+
+**Step-by-step analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1 Analysis:** "Player29(Away Team) earns a free kick in their own half after a foul by Player3(Home Team)."
+    *   Player29 earns a free kick, so Free Kicks increment by 1.
+    *   Free Kicks = 1
+
+3.  **Snippet 2 Analysis:** "Player29(Away Team) earns a free kick in the opponent's half."
+    *   Player29 earns a free kick, so Free Kicks increment by 1.
+    *   Free Kicks = 2
+
+4.  **Snippet 3 Analysis:** "Player29(Away Team)'s close-range header misses to the left after being assisted by Player21(Away Team) with a headed pass from a corner."
+    *   Player29's header misses, which is a shot, so Shots increment by 1.
+    *   Shots = 1
+    *   This snippet also specifies that Player29 was *assisted by* Player21. Since the target player is Player29, no assist is counted for them.
+
+**Final Counts:**
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 2
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 1     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

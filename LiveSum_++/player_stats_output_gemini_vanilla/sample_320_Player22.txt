@@ -1,0 +1,20 @@
+Okay, let's start by identifying the target player and initializing the counts.
+
+The target player is Player22.
+
+Now, let's initialize the event counts to 0: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Now we iterate through the commentary snippets and increment the counts accordingly.
+
+Snippet 1: "Player22(Away Team) commits a foul."
+This snippet explicitly states that Player22 committed a foul. Therefore, Fouls = 1.
+
+Snippet 2: "Player22(Away Team) earns a free kick in their own half."
+This snippet explicitly states that Player22 earned a free kick. Therefore Free Kicks = 1.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

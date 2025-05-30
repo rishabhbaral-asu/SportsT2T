@@ -1,0 +1,39 @@
+Okay, I will analyze the provided commentary snippets for Player28 and generate the final summary table with the counts for each specified event.
+
+**Here's the step-by-step breakdown:**
+
+1.  **Player Name:** Player28
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player28(Away Team) with a great pass." - This does not explicitly state that the pass led to a goal, so no assist is recorded.
+    *   Snippet 2: "Player28(Away Team) earns a free kick in their own half." - This explicitly mentions the player earning a free kick. Increment Free Kicks by 1.
+    *   Snippet 3: "Player28(Away Team) earns a free kick in the opponent's territory." - This explicitly mentions the player earning a free kick. Increment Free Kicks by 1.
+    *   Snippet 4: "Player28(Away Team) scores with a left-footed shot from outside the box, assisted by Player25(Away Team), The score is now tied at 1-1 between the Home Team and the Away Team." - This explicitly states that Player28 scores. Increment Goals by 1 and Shots by 1. The assist was provided by another player, Player25, so no assist is added for Player28.
+    *   Snippet 5: "Player28(Away Team) is currently experiencing a delay in the match due to an injury." - No relevant events to count.
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 2
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 1     | 1     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

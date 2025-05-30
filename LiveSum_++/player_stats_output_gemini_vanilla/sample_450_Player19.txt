@@ -1,0 +1,25 @@
+Okay, let's start.
+
+1.  **Identify Player Name:** The target player is Player19.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Commentary Snippets:**
+    *   Snippet 1: "Player19(Away Team) from the Away Team attempted a through ball, but Player26(Away Team) was in an offside position."
+        *   The snippet mentions Player19 attempting a through ball, which resulted in Player26 being offside. This means Player19 made a pass, however the snippet doesn't explicitly state that it was a pass that **directly led** to a goal. Thus, no assist is awarded here.
+        *   It *does* however explicitly state that Player26 was in an offside position after Player19's action. This gives us one offside count for Player26 and one attempted pass. No actions for the target player however.
+
+4.  **Increment Counts (Applying Strict Counting):**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player19 | 0     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

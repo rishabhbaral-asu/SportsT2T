@@ -1,0 +1,31 @@
+Okay, let's break this down step by step.
+
+1.  **Player Name:** The target player is Player35.
+
+2.  **Initialization:** We initialize all event counts to 0 for Player35.
+
+3.  **Commentary Snippet Analysis:**
+
+    *   **Snippet 1:** "Player35(Away Team) earns a free kick in the opponent's territory."
+        *   This snippet explicitly states Player35 "earns a free kick". According to the rules, earning a free kick counts as a Free Kick (Taken). Therefore, increment Free Kicks by 1.
+
+    *   **Snippet 2:** "Player35(Away Team) commits a foul."
+        *   This snippet explicitly states Player35 "commits a foul". Therefore, increment Fouls by 1.
+
+4.  **Final Counts:**
+
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player35 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,47 @@
+Okay, let's analyze the commentary snippets for Player25 and compile the statistics.
+
+**1. Identify Target Player:**
+The target player is Player25.
+
+**2. Initialize Counts:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze Snippets:**
+
+*   **Snippet 1:** "Player25(Away Team) attempts a through ball, but Player29(Away Team) is flagged offside."
+    *   No explicit shot, goal, assist, free kick or foul committed.
+    *   Player25 attempts a through ball but Player29 is offside. No action should be counted.
+    *   Offsides = 0
+*   **Snippet 2:** "Player25(Away Team) earns a free kick in their own half."
+    *   Free Kicks: Player25 earns a free kick. Increment Free Kicks.
+    *   Free Kicks = 1
+*   **Snippet 3:** "Player25(Away Team) commits a foul."
+    *   Fouls: Player25 commits a foul. Increment Fouls.
+    *   Fouls = 1
+*   **Snippet 4:** "Player25(Away Team) earns a free kick in their own defensive half after being fouled by Player10(Home Team)."
+    *   Free Kicks: Player25 earns a free kick. Increment Free Kicks.
+    *   Free Kicks = 2
+
+**4. Final Counts:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 2
+Fouls = 1
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 0     | 0     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

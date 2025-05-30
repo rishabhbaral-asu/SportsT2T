@@ -1,0 +1,44 @@
+Okay, let's analyze the commentary snippets for Player24 and generate the summary table.
+
+**Player Name:** Player24
+
+**Commentary Snippets:**
+- Player24(Away Team) commits a foul, resulting in Player8(Home Team) winning a free kick in their own defensive half, The foul was committed by Player24(Away Team), leading to Player8(Home Team) being awarded a free kick in their own defensive half.
+- Player24(Away Team) misses the target with a close right-footed shot from outside the box on a direct free kick.
+
+**Step-by-step Analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1 Analysis:** "Player24(Away Team) commits a foul, resulting in Player8(Home Team) winning a free kick in their own defensive half, The foul was committed by Player24(Away Team), leading to Player8(Home Team) being awarded a free kick in their own defensive half."
+    *   "commits a foul" - This explicitly states Player24 committed a foul. Increment Fouls by 1.
+    *   The snippet mentions a free kick, but it is awarded *to* Player8 *because* of Player24's foul, not taken by Player24. Therefore, we do not increment Free Kicks.
+
+3.  **Snippet 2 Analysis:** "Player24(Away Team) misses the target with a close right-footed shot from outside the box on a direct free kick."
+    *   "shot" - This explicitly states Player24 took a shot. Increment Shots by 1.
+    *   "direct free kick" - This explicitly states Player24 took a free kick. Increment Free Kicks by 1.
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 1     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,60 @@
+Okay, let's process the player commentary snippets step-by-step to generate the final summary table.
+
+1.  **Identify Target Player:**
+    The target player is Player9.
+
+2.  **Initialize Counts:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+3.  **Analyze Snippets and Increment Counts:**
+
+    *   Snippet 1: "Player9(Home Team) is fouled in the box."
+        *   Free Kicks: Player9 is fouled, so increment Free Kicks by 1.
+
+    *   Snippet 2: "Player9(Home Team)'s shot from outside the box was blocked after being assisted by Player10(Home Team)."
+        *   Shots: Player9's shot was blocked, so increment Shots by 1.
+        *   Assists: Player9 was assisted, so no increment to Assists.
+
+    *   Snippet 3: "Player9(Home Team) earns a free kick from the left side."
+        *   Free Kicks: Player9 earns a free kick, so increment Free Kicks by 1.
+
+    *   Snippet 4: "Player9(Home Team) earns a free kick on the left side of the field."
+        *   Free Kicks: Player9 earns a free kick, so increment Free Kicks by 1.
+
+    *   Snippet 5: "Player9(Home Team) misses the shot with his left foot from the center of the box, it goes high and wide to the left, assisted by Player13(Home Team) with a header."
+        *   Shots: Player9 misses a shot, so increment Shots by 1.
+        *   Assists: Player9 was assisted, so no increment to Assists.
+
+    *   Snippet 6: "Player9(Home Team) has committed a hand ball."
+        *   Fouls: Player9 committed a hand ball, so increment Fouls by 1.
+
+    *   Snippet 7: "Player9(Home Team)'s attempt from outside the box is blocked with the help of Player8(Home Team)'s assistance."
+        * Shots: Player9's attempt was blocked, so increment Shots by 1.
+        * Assists: Player9 was assisted, so no increment to Assists.
+
+    *   Snippet 8: "Player9(Home Team) is currently sidelined due to an injury, causing a delay in the match."
+        *   No relevant events to increment.
+
+4.  **Final Counts:**
+    * Shots = 4
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 3
+    * Fouls = 1
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 4     | 0     | 0       | 3          | 1     | 0            | 0         | 0        |
+```

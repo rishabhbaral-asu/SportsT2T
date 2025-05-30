@@ -1,0 +1,68 @@
+Okay, let's process the provided information step-by-step to generate the final summary table.
+
+1.  **Identify Target Player:** The target player is Player10.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player10(Home Team)'s shot from outside the box with their right foot was saved in the bottom left corner, with an assist from Player5(Home Team)."
+        *   Shots += 1
+
+    *   Snippet 2: "Player10(Home Team)'s shot from the left side of the box is saved in the center of the goal after an assist from Player8(Home Team)."
+        *   Shots += 1
+
+    *   Snippet 3: "Player10(Home Team) commits a foul."
+        *   Fouls += 1
+
+    *   Snippet 4: "Player10(Home Team) earns a free kick in the opponent's half."
+        *   Free Kicks += 1
+
+    *   Snippet 5: "Player10(Home Team)'s shot from outside the box is blocked."
+        *   Shots += 1
+
+    *   Snippet 6: "Player10(Home Team) attempts a through ball, but Player3(Home Team) is offside for the Home Team."
+        *   Offsides = 0 (Player10 did not commit the offsides, but Player3 did)
+
+    *   Snippet 7: "Player10(Home Team)'s right-footed shot from outside the box is blocked by the defense, with an assist from Player4(Home Team), resulting in a corner kick for the Home Team."
+        *   Shots += 1
+
+    *   Snippet 8: "Player10(Home Team) fouls Player35(Away Team), who wins a free kick in their defensive half."
+        *   Fouls += 1
+
+    *   Snippet 9: "Player10(Home Team) is booked after fouling Player 2(Away Team)."
+        *   Fouls +=1
+        *   Yellow Cards += 1
+
+    *   Snippet 10: "Player10(Home Team) commits a reckless challenge."
+        *   Fouls += 1
+
+    *   Snippet 11: "Player10(Home Team) commits a foul and is given a second yellow card."
+        *   Fouls += 1
+        *   Yellow Cards += 1
+        *   Red Cards += 1
+
+4.  **Final Counts:**
+    *   Shots = 4
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 5
+    *   Yellow Cards = 1
+    *   Red Cards = 1
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 4     | 0     | 0       | 1          | 5     | 1              | 1         | 0        |
+```

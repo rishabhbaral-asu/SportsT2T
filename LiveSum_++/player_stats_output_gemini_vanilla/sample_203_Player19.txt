@@ -1,0 +1,38 @@
+Okay, let's start by identifying the player name and initializing the event counts.
+
+Player Name: Player19
+
+Initialized Counts:
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player19(Away Team) of the Away Team attempts a through ball, but Player29(Away Team) is offside."
+This snippet explicitly mentions Player19 attempting a through ball, which results in Player29 being offside. This does **not** qualify as an assist, shot, goal, free kick, foul, yellow card, or red card for Player19. However, it does mean Player19 was not offside, Player29 was, and Player19 attempted a through ball but the through ball event itself does not trigger any count.
+
+Snippet 2: "Player19(Away Team) attempts a through ball, but Player29(Away Team) is flagged offside."
+This is very similar to the first snippet and has the same outcome, Player19 attempted a through ball, Player29 was offside. This does **not** qualify as an assist, shot, goal, free kick, foul, yellow card, or red card for Player19.
+
+Updated Counts (after all snippets):
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player19 | 0     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

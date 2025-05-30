@@ -1,0 +1,40 @@
+Okay, let's analyze the commentary snippets for Player8.
+
+1.  **Player Name:** Player8
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player8(Home Team) earns a free kick in their own half." - Player8 earns a free kick. Free Kicks += 1
+    *   Snippet 2: "Player8(Home Team) earns a free kick from the right side." - Player8 earns a free kick. Free Kicks += 1
+    *   Snippet 3: "Player8(Home Team)'s shot from outside the box is blocked." - Player8's shot is blocked. Shots += 1
+    *   Snippet 4: "Player8(Home Team) earns a free kick on the left wing, leading to a corner kick for the Home Team, ." - Player8 earns a free kick. Free Kicks += 1
+    *   Snippet 5: "Player8(Home Team) commits a foul." - Player8 commits a foul. Fouls += 1
+    *   Snippet 6: "Player8(Home Team)'s shot from the right side of the six yard box is blocked with the help of Player10(Home Team)." - Player8's shot is blocked. Shots += 1
+
+4.  **Final Counts:**
+
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 3
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 2     | 0     | 0       | 3          | 1     | 0            | 0         | 0        |
+```

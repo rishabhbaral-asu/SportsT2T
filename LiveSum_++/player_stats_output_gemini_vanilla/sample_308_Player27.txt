@@ -1,0 +1,43 @@
+Okay, let's analyze the commentary snippets for Player27.
+
+1.  **Player Name:** The target player is Player27.
+2.  **Initialization:** Initialize all counters to 0: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player27(Away Team) attempts a shot with their right foot from outside the box but misses to the left with the help of Player29(Away Team)."
+        *   Shots: Player27 attempts a shot. Increment Shots to 1.
+        *   Goals: No goal scored.
+        *   Assists: The snippet indicates Player27 *received help* from Player29, so this does not count as an assist for Player27.
+        *   Free Kicks: No mention of a free kick being taken or won.
+        *   Fouls: No foul committed.
+
+    *   **Snippet 2:** "Player27(Away Team) of the Away Team attempts a through ball, but Player20(Away Team) is flagged for being offside."
+        *   Shots: No shot attempt.
+        *   Goals: No goal scored.
+        *   Assists: No goal scored.
+        *   Free Kicks: No free kick.
+        *   Fouls: No foul committed.
+        *   Offsides: While Player20 is offside, this has no bearing on whether Player27 committed that offence.
+
+    *   **Snippet 3:** "Player27(Away Team) commits a foul on Player6(Home Team), resulting in a free kick for the attacking team."
+        *   Shots: No shot attempt.
+        *   Goals: No goal scored.
+        *   Assists: No assist.
+        *   Free Kicks: Player27 commits a foul, so this does not count as a free kick *taken* by Player27.
+        *   Fouls: Player27 commits a foul. Increment Fouls to 1.
+
+    *   **Snippet 4:** "Player27(Away Team) misses the target with a left-footed shot from the center of the box, with an assist from Player28(Away Team)."
+        *   Shots: Player27 takes a shot. Increment Shots to 2.
+        *   Goals: No goal scored.
+        *   Assists: Player28 provided the assist. Player27 receives the assist. So, Player27 does not get an assist.
+        *   Free Kicks: No free kick.
+        *   Fouls: No foul.
+
+4.  **Final Counts:** Shots = 2, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,43 @@
+Okay, let's analyze the commentary snippets for Player36 and generate the requested markdown table.
+
+**Player Name:** Player36
+
+**Commentary Snippets:**
+
+*   "Player36(Away Team) and Player11(Home Team) both commit fouls."
+*   "Player36(Away Team)'s header from the left side of the six yard box, assisted by Player25(Away Team) following a corner kick, goes high and wide to the left."
+*   "Player36(Away Team) scoring a header from close range to the bottom left corner, assisted by Player28(Away Team)."
+
+**Step-by-step Analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1:** "Player36(Away Team) and Player11(Home Team) both commit fouls."
+    *   This snippet explicitly states Player36 committed a foul.
+    *   Fouls = 1
+
+3.  **Snippet 2:** "Player36(Away Team)'s header from the left side of the six yard box, assisted by Player25(Away Team) following a corner kick, goes high and wide to the left."
+    *   This snippet explicitly states Player36 made a header which went high and wide. Therefore, it counts as a shot.
+    *   Shots = 1
+
+4.  **Snippet 3:** "Player36(Away Team) scoring a header from close range to the bottom left corner, assisted by Player28(Away Team)."
+    *   This snippet explicitly states Player36 scored a goal.
+    *   Goals = 1
+    *   Since it's a goal, and the player took a shot, we also increment the shot counter.
+    *   Shots = 2
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player36 | 2     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

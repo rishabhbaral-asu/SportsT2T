@@ -1,0 +1,41 @@
+Okay, let's start.
+
+1.  **Player Name:** The target player is Player26.
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+*   Snippet 1: "Player26(Away Team) attempts a through ball, but Player27(Away Team) is offside."
+    *   The snippet mentions Player26 attempting a through ball, leading to another player being offside. It does not explicitly state an assist. It *does not* describe a shot, goal, free kick, foul, or card. It does not explicitly state that Player26 is offside, hence no increment to offsides for the target player.
+    *   Assists = 0, Offsides = 0.
+
+*   Snippet 2: "Player26(Away Team)'s left footed shot from a tough angle on the left is saved in the center of the goal, assisted by Player28(Away Team) with a through ball."
+    *   The snippet explicitly states "Player26(Away Team)'s left footed shot". This clearly indicates a shot by Player26. Therefore, Shots = 1.
+    *   The snippet states that the shot was saved; there is no goal. Therefore, Goals = 0.
+    *   The snippet also mentions that Player26's shot was "assisted by Player28". Since Player26 was assisted *by* someone else, Player26 did not provide an assist. Therefore, Assists = 0.
+    *   The snippet does not mention any free kicks, fouls, or cards.
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

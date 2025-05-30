@@ -1,0 +1,42 @@
+Okay, let's start.
+
+1.  **Player Name:** The target player is Player3.
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Commentary Snippet Analysis:**
+
+    *   **Snippet 1:** "Player3(Home Team)'s header from the left side of the six yard box hits the bar after a cross from Player10(Home Team) following a corner."
+        *   "hits the bar" implies a shot attempt. Increment Shots by 1.
+        *   No goals, assists, free kicks, fouls, or cards mentioned.
+        *   Offsides is not mentioned.
+
+    *   **Snippet 2:** "Player3(Home Team) commits a foul."
+        *   Explicitly states Player3 committed a foul. Increment Fouls by 1.
+        *   No goals, assists, free kicks, shots or cards mentioned.
+        *   Offsides is not mentioned.
+
+4.  **Final Counts:**
+
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

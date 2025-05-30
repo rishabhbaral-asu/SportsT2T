@@ -1,0 +1,48 @@
+Okay, let's analyze the commentary snippets for Player11 and generate the final summary table.
+
+**1. Identify the target player name:**
+
+The target player is Player11.
+
+**2. Initialize event counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze each snippet:**
+
+*   **Snippet 1:** "Player11(Home Team) earns a free kick in the opponent's half."
+    *   Player11 earns a free kick, so Free Kicks += 1.
+
+*   **Snippet 2:** "Player11(Home Team) commits a foul."
+    *   Player11 commits a foul, so Fouls += 1.
+
+*   **Snippet 3:** "Player11(Home Team) receives a yellow card for a rough tackle."
+    *   Player11 receives a yellow card, so Yellow Cards += 1.
+
+*   **Snippet 4:** "Player11(Home Team) commits a foul, resulting in Player25(Away Team) being awarded a free kick in the attacking half."
+    *   Player11 commits a foul, so Fouls += 1.
+
+**4. Final Counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 1
+Fouls = 2
+Yellow Cards = 1
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 0     | 0     | 0       | 1          | 2     | 1            | 0         | 0        |
+```

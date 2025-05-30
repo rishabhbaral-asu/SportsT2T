@@ -1,0 +1,50 @@
+Okay, let's analyze the commentary snippets for Player25.
+
+1.  **Player Name:** The target player is Player25.
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player25(Away Team) commits a foul on Player11(Home Team), resulting in a free kick being awarded on the left wing, ."
+        *   Fouls: Player25 commits a foul, so increment Fouls by 1.
+        *   Free Kicks: This does not count as the player taking a free kick; it counts as the player committing a foul, which results in a free kick for the opposing team.
+
+    *   **Snippet 2:** "Player25(Away Team) scores with a left footed shot from the center of the box, assisted by Player28(Away Team), The Away Team now leads 1-0 against the Home Team."
+        *   Shots: Player25 scores, so it's a shot. Increment Shots by 1.
+        *   Goals: Player25 scores a goal, so increment Goals by 1.
+        *   Assists: Player25 was assisted by Player28, therefore do not count assist for Player25.
+
+    *   **Snippet 3:** "Player25(Away Team) commits a foul."
+        *   Fouls: Player25 commits a foul, so increment Fouls by 1.
+
+    *   **Snippet 4:** "Player25(Away Team)'s attempt to pass to Player29(Away Team) is thwarted by an offside call."
+        *   Offsides: Player25 is called offside, so increment Offsides by 1.
+
+    *   **Snippet 5:** "Player25(Away Team) has received a yellow card."
+        *   Yellow Cards: Player25 receives a yellow card, so increment Yellow Cards by 1.
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 2
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 1
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 1     | 0       | 0          | 2     | 1            | 0         | 1        |
+```

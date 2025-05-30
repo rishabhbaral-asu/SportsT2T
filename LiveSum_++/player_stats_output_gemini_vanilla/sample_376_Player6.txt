@@ -1,0 +1,51 @@
+Okay, let's analyze the commentary snippets for Player6.
+
+1.  **Player Name:** Player6
+
+2.  **Initialization:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player6(Home Team) misses the target with a right-footed shot from outside the box."
+        *   Shots: Increment by 1. (Shot - Missed)
+
+    *   Snippet 2: "Player6(Home Team)'s shot from outside the box is blocked with the help of Player10(Home Team)."
+        *   Shots: Increment by 1. (Shot - Blocked)
+
+    *   Snippet 3: "Player6(Home Team)'s shot from outside the box is blocked."
+        *   Shots: Increment by 1. (Shot - Blocked)
+
+    *   Snippet 4: "Player6(Home Team) fouls Player25(Away Team), who wins a free kick in their defensive half."
+        *   Fouls: Increment by 1. (Foul committed)
+        *   Free Kicks: Player6 committed a foul; this doesn't increment Player6's free kick count.
+
+    *   Snippet 5: "Player6(Home Team)'s left-footed shot from the left side of the box is blocked, resulting in a corner kick for the Home Team."
+        *   Shots: Increment by 1. (Shot - Blocked)
+
+    *   Snippet 6: "Player6(Home Team) commits a foul."
+        *   Fouls: Increment by 1. (Foul committed)
+
+4.  **Final Counts:**
+    *   Shots: 4
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 2
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 4     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

@@ -1,0 +1,25 @@
+Okay, let's analyze the commentary snippets for Player24 and compile the statistics.
+
+1.  **Player Name:** `Player24`
+
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player24(Away Team) has committed a hand ball."
+        *   `Fouls`: The phrase "committed a hand ball" clearly indicates a foul by Player24. Increment `Fouls` by 1. `Fouls` = 1
+    *   Snippet 2: "Player24(Away Team) with the foul."
+        *   `Fouls`: The phrase "with the foul" clearly indicates a foul by Player24. Increment `Fouls` by 1. `Fouls` = 2
+    *   Snippet 3: "Player24(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team."
+        *   No relevant event for Player24 is specified. Player29 is offside, but Player24 is not.
+    *   Snippet 4: "Player24(Away Team) commits a foul."
+        *   `Fouls`: The phrase "commits a foul" clearly indicates a foul by Player24. Increment `Fouls` by 1. `Fouls` = 3
+
+4.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 3, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 0     | 0     | 0       | 0          | 3     | 0            | 0         | 0        |
+```

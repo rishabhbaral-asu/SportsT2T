@@ -1,0 +1,40 @@
+Okay, let's start.
+
+1.  **Identify the target player name:** The target player is Player23.
+2.  **Initialize counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+3.  **Analyze commentary snippets:**
+
+    *   Snippet 1: "Player23(Away Team) commits a foul, giving Player7(Home Team) a free kick on the right wing."
+        *   Fouls: Player23 commits a foul. Increment Fouls by 1.
+        *   Free Kicks: Player23's foul resulted in a free kick, so this doesn't count towards Player23.
+    *   Snippet 2: "Player23(Away Team) commits a foul."
+        *   Fouls: Player23 commits a foul. Increment Fouls by 1.
+    *   Snippet 3: "Player23(Away Team) attempts a through ball, but Player24(Away Team) is caught offside."
+        *   Offsides: Player24 is caught offside, not Player23. Player23 attempted a through ball, but there is no assist, shot or anything relevant here for Player23.
+    *   Snippet 4: "Player23(Away Team) commits a foul."
+        *   Fouls: Player23 commits a foul. Increment Fouls by 1.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 3
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 0     | 0     | 0       | 0          | 3     | 0            | 0         | 0        |
+```

@@ -1,0 +1,40 @@
+Okay, let's analyze the commentary snippets for Player36 and generate the summary table.
+
+**Steps:**
+
+1.  **Identify Player Name:** The target player is Player36.
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+3.  **Analyze Snippets:**
+    *   **Snippet 1: "Player36(Away Team) commits a foul."**
+        *   Fouls: The snippet explicitly states Player36 commits a foul. Increment Fouls by 1. Fouls = 1.
+    *   **Snippet 2: "Player36(Away Team)'s left footed shot from the right side of the box is saved in the middle of the goal after an assist from Player28(Away Team)."**
+        *   Shots: The snippet explicitly states Player36 took a shot which was saved. Increment Shots by 1. Shots = 1.
+        *   Assists: The snippet indicates Player36 received an assist *from* Player28. Thus, Player36 does not *give* the assist. No assist incremented.
+    *   **Snippet 3: "Player36(Away Team) scores with a right-footed shot from the center of the box, putting the Away Team up 2-0 against the Home Team."**
+        *   Goals: The snippet explicitly states Player36 scores a goal. Increment Goals by 1. Goals = 1.
+        *   Shots: The snippet explicitly states Player36 took a shot and scored. Increment Shots by 1. Shots = 2 (1 from the previous snippet and 1 from the current one).
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player36 | 2     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

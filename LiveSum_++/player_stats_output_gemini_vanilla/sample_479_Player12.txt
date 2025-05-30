@@ -1,0 +1,35 @@
+Okay, let's start by identifying the player name.
+
+**Player Name:** Player12
+
+Now, let's initialize the counts for all events to 0.
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+**Snippet 1:** Player12(Home Team) commits a foul, resulting in Player27(Away Team) earning a free kick in the attacking half of Player29(Away Team)'s team.
+
+*   "commits a foul" - This indicates Player12 committed a foul.
+    *   Fouls: 0 + 1 = 1
+
+**Snippet 2:** Player12(Home Team) earns a free kick in their own half.
+
+*   "earns a free kick" - This indicates Player12 won a free kick.
+    *   Free Kicks: 0 + 1 = 1
+
+Now, create the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player12 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

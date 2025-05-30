@@ -1,0 +1,44 @@
+Okay, let's break this down step-by-step.
+
+1.  **Player Identification:** The target player is Player31.
+
+2.  **Initialization:** Initialize all event counts to 0 for Player31.
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player31(Away Team)'s shot from outside the box is blocked with Player24(Away Team)'s assistance."
+        *   Shots: Player31 takes a shot, so increment Shots by 1.
+        *   Goals: No goal is scored.
+        *   Assists: Player31 receives assistance, so do not increment assists.
+        *   Free Kicks: No free kick event is mentioned.
+        *   Fouls: No foul is committed by Player31.
+        *   Yellow Cards: No yellow card.
+        *   Red Cards: No red card.
+        *   Offsides: No offside mentioned.
+
+    *   **Snippet 2:** "Player31(Away Team)'s left footed shot from a tough angle is saved in the bottom right corner, as Player15(Home Team) wins a free kick in their own defensive half."
+        *   Shots: Player31 takes a shot, so increment Shots by 1.
+        *   Goals: No goal is scored.
+        *   Assists: No assist is made by Player31.
+        *   Free Kicks: Player15 wins a free kick, not Player31. Thus, no Free Kick should be given to Player31.
+        *   Fouls: No foul is committed by Player31.
+        *   Yellow Cards: No yellow card.
+        *   Red Cards: No red card.
+        *   Offsides: No offside mentioned.
+
+4.  **Final Counts:**
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player31 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

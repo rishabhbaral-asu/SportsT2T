@@ -1,0 +1,38 @@
+Okay, let's analyze the provided commentary snippets for Player2 and compile the statistics.
+
+1.  **Player Name:** The target player is Player2.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player2(Home Team) commits a hand ball, resulting in a corner kick for the Away Team."
+        *   Fouls: Player2 commits a hand ball, which is a foul. Increment Fouls by 1.
+        *   Current counts: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+    *   Snippet 2: "Player2(Home Team) earns a free kick in their own half."
+        *   Free Kicks: Player2 earns a free kick. Increment Free Kicks by 1.
+        *   Current counts: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+    *   Snippet 3: "Player2(Home Team) fouls Player23(Away Team) on the left wing, resulting in a free kick."
+        *   Fouls: Player2 commits a foul. Increment Fouls by 1.
+        *   Current counts: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 2, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+    *   Snippet 4: "Player2(Home Team) receives a yellow card for a rough challenge."
+        *   Yellow Cards: Player2 receives a yellow card. Increment Yellow Cards by 1.
+        *   Current counts: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 2, Yellow Cards = 1, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 0     | 0     | 0       | 1          | 2     | 1            | 0         | 0        |
+```

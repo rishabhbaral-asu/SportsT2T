@@ -1,0 +1,29 @@
+Okay, let's analyze the commentary snippets for Player7.
+
+**Player Name:** Player7
+
+**Commentary Snippets:**
+
+*   "Player7(Home Team) attempts a through ball, but Player6(Home Team) is offside for the Home Team." - This implies Player7 made a pass that *would have* been an assist, but it was negated by an offside. It is NOT an explicit assist, nor is it a shot, goal, foul, card, or free kick. We increment Offsides by 0.
+
+*   "Player7(Home Team) commits a foul." - This is a clear statement of a foul committed by Player7.
+
+*   "Player7(Home Team) earns a free kick in their own half." - This explicitly states Player7 earned a free kick.
+
+**Event Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

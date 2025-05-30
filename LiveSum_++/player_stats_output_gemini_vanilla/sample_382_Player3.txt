@@ -1,0 +1,30 @@
+Okay, let's analyze the commentary snippets for Player3 and compile the statistics.
+
+**Player Name:** Player3
+
+**Commentary Snippets:**
+
+*   "Player3(Home Team) commits a foul on Player28(Away Team), resulting in a free kick being awarded on the left wing."
+*   "Player3(Home Team) misses a header to the right from the centre of the box after being assisted by Player6(Home Team) with a cross following a corner kick for the Home Team."
+*   "Player3(Home Team)'s header from the left side of the six yard box narrowly misses the top left corner after being assisted by Player6(Home Team) with a cross from a corner."
+
+**Step-by-step analysis:**
+
+1.  **Fouls:** The first snippet states "Player3(Home Team) commits a foul...". This is a clear and direct attribution of a foul to Player3. So, Fouls is incremented by 1.
+2.  **Shots:**
+    *   The second snippet states "Player3(Home Team) misses a header...". A missed header is considered a shot. So, Shots is incremented by 1.
+    *   The third snippet states "Player3(Home Team)'s header from the left side of the six yard box narrowly misses...". This is another shot attempt. So shots is incremented by 1.
+3.  **Goals:** Neither snippet mentions Player3 scoring a goal. Goals remains 0.
+4.  **Assists:** Both snippets mentioning headers include "after being assisted by Player6(Home Team)". Player3 did *not* assist anyone. Assists remains 0.
+5.  **Free Kicks:** The first snippet mentions Player3 committed a foul, resulting in a free kick for the opposition, so this doesn't count as a free kick *taken* by Player3. Free Kicks remains 0.
+6.  **Yellow Cards:** Neither snippet mentions Player3 receiving a yellow card. Yellow Cards remains 0.
+7.  **Red Cards:** Neither snippet mentions Player3 receiving a red card. Red Cards remains 0.
+8.  **Offsides:** Neither snippet mentions Player3 being offside. Offsides remains 0.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

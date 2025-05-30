@@ -1,0 +1,36 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
+
+**Input:**
+* **Player Name:** The name of the single player to track.
+    <PLAYER_NAME>
+    Player20
+    </PLAYER_NAME>
+* **Commentary Snippets:** A list of commentary text snippets potentially mentioning the player.
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player20(Away Team) earns a free kick in their own half.
+- Player20(Away Team) earns a free kick in their own half.
+    </PLAYER_COMMENTARY_SNIPPETS>
+
+1.  **Identify the target player name:** The target player is Player20.
+2.  **Initialize counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze each snippet:**
+    * Snippet 1: "Player20(Away Team) earns a free kick in their own half." - This mentions Player20 earning a free kick. This is a Free Kick (taken) as Player20 wins the free kick. Free Kicks = 1.
+    * Snippet 2: "Player20(Away Team) earns a free kick in their own half." - This mentions Player20 earning a free kick. This is a Free Kick (taken) as Player20 wins the free kick. Free Kicks = 2.
+4.  **Final Counts:**
+    * Shots: 0
+    * Goals: 0
+    * Assists: 0
+    * Free Kicks: 2
+    * Fouls: 0
+    * Yellow Cards: 0
+    * Red Cards: 0
+    * Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 0     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

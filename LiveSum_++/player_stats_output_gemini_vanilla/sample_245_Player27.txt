@@ -1,0 +1,20 @@
+Okay, let's break down the commentary snippets for Player27 and compile the statistics.
+
+**Player Name:** Player27
+
+**Commentary Snippets:**
+
+*   "Player27(Away Team) attempts a through ball, but Player24(Away Team) is offside for the Away Team." - This doesn't increment any stat. The through ball attempt isn't a shot, free kick, or foul, and the offside is for Player24, not Player27.
+*   "Player27(Away Team) earns a free kick in their own half." - This increments the Free Kicks stat because Player27 earned a free kick.
+*   "Player27(Away Team)'s left-footed shot from outside the box is saved in the bottom left corner, assisted by Player24(Away Team), resulting in a corner kick for the Away Team." - This increments the Shots stat. It does *not* increment assists for Player27 because they received the assist, not gave it.
+*   "Player27(Away Team) misses the target with a left-footed shot from outside the box after a corner from Player24(Away Team)." - This increments the Shots stat.
+*   "Player27(Away Team) has committed a hand ball." - This increments the Fouls stat.
+*   "Player27(Away Team) of the Away Team attempts a through ball, but Player20(Away Team) is flagged for being in an offside position." - No stats are incremented for Player27 here. The offside is for Player20, not Player27.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

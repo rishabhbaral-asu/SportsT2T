@@ -1,0 +1,50 @@
+Okay, let's analyze the commentary snippets for Player32 and generate the statistics table.
+
+1.  **Identify Target Player:** The target player is Player32.
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player32(Away Team) scores with a right-footed shot from the center of the box, assisted by Player28(Away Team) with a through ball, Home Team leads 3-2 against Away Team."
+        *   Goals: The snippet explicitly states "Player32 scores". Increment Goals to 1.
+        *   Shots: The snippet mentions "shot" and "scores". Increment Shots to 1.
+        *   Assists: The snippet mentions "assisted by Player28", therefore, no assist can be attributed to Player32.
+        *   Free Kicks: No free kick event is mentioned.
+        *   Fouls: No foul event is mentioned.
+        *   Yellow Cards: No yellow card event is mentioned.
+        *   Red Cards: No red card event is mentioned.
+        *   Offsides: No offside event is mentioned.
+    *   **Snippet 2:** "Player32(Away Team)'s attempt from a direct free kick with his right foot just misses to the left of the goal."
+        *   Goals: No goal is scored.
+        *   Shots: The snippet explicitly states "attempt". Increment Shots to 2.
+        *   Assists: No assist event is mentioned.
+        *   Free Kicks: The snippet explicitly mentions "free kick". Increment Free Kicks to 1.
+        *   Fouls: No foul event is mentioned.
+        *   Yellow Cards: No yellow card event is mentioned.
+        *   Red Cards: No red card event is mentioned.
+        *   Offsides: No offside event is mentioned.
+
+4.  **Final Counts:**
+    *   Shots: 2
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player32 | 2     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

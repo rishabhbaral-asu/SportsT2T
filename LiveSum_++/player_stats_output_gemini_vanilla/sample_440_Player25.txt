@@ -1,0 +1,46 @@
+Okay, I will analyze the commentary snippets for Player25 and generate the final summary table.
+
+**1. Identify the target player name:**
+
+The target player is Player25.
+
+**2. Initialize counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze commentary snippets:**
+
+*   **Snippet 1:** "Player25(Away Team) commits a foul on Player8(Home Team), awarding Player8(Home Team) a free kick on the left wing, ."
+    *   Fouls: Player25 commits a foul. Increment Fouls by 1.
+    *   The free kick awarded is not to Player25, so Free Kicks remains 0.
+*   **Snippet 2:** "Player25(Away Team) earns a free kick in the opponent's half."
+    *   Free Kicks: Player25 earns a free kick. Increment Free Kicks by 1.
+*   **Snippet 3:** "Player25(Away Team) commits a foul, resulting in Player6(Home Team) winning a free kick in their own defensive half."
+    *   Fouls: Player25 commits a foul. Increment Fouls by 1.
+    *   The free kick awarded is not to Player25, so Free Kicks remains 1.
+
+**4. Final Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 2
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 0     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

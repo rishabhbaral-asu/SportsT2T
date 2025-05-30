@@ -1,0 +1,44 @@
+Okay, let's analyze the commentary snippets for Player5 and compile the statistics.
+
+**1. Identify Target Player:**
+
+The target player is Player5.
+
+**2. Initialize Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player5(Home Team) commits a foul."
+    *   Fouls: Increment by 1 (explicitly states Player5 committed a foul).
+    *   Current Counts: Shots: 0, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 1, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+*   **Snippet 2:** "Player5(Home Team) earns a free kick in their own half."
+    *   Free Kicks: Increment by 1 (explicitly states Player5 earns a free kick).
+    *   Current Counts: Shots: 0, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 1, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+*   **Snippet 3:** "Player5(Home Team) scores for the Home Team with a left-footed free kick, making it 2-0 against the Away Team."
+    *   Goals: Increment by 1 (explicitly states Player5 scores).
+    *   Shots: Increment by 1 (scoring a goal implies a shot).
+    *   Free Kicks: Increment by 1 (explicitly states Player5 scores from a free kick).
+    *   Current Counts: Shots: 1, Goals: 1, Assists: 0, Free Kicks: 2, Fouls: 1, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+*   **Snippet 4:** "Player5(Home Team)'s left-footed shot from outside the box in the top right corner."
+    *   Shots: Increment by 1 (explicitly states Player5 shot).
+    *   Current Counts: Shots: 2, Goals: 1, Assists: 0, Free Kicks: 2, Fouls: 1, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 2     | 1     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

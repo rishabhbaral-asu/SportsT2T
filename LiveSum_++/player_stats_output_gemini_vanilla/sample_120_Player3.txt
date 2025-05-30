@@ -1,0 +1,40 @@
+Okay, let's break down the commentary snippets for Player3 and generate the requested markdown table.
+
+1. **Player Name:** The target player is Player3.
+
+2. **Initialization:** We initialize all event counters to 0 for Player3.
+
+3. **Snippet Analysis:**
+
+*   **Snippet 1:** "Player3(Home Team)'s left footed shot from long distance on the left side, assisted by Player11(Home Team)."
+    *   Shots: Player3 takes a shot. Increment Shots to 1.
+    *   Goals: No goal mentioned.
+    *   Assists: Player3 was *assisted by* Player11, so no assist is counted for Player3.
+
+*   **Snippet 2:** "Player3(Home Team) commits a foul leading to an attempt by Player26(Away Team) with his right foot from outside the box, which is saved in the bottom right corner."
+    *   Fouls: Player3 commits a foul. Increment Fouls to 1.
+
+*   **Snippet 3:** "Player3(Home Team) commits a foul, resulting in Player14(Home Team) winning a free kick on the right wing, ."
+    *   Fouls: Player3 commits a foul. Increment Fouls to 2.
+    *   Free Kicks: This does not count as Player3 taking a free kick. It's Player3 committing a foul.
+
+*   **Snippet 4:** "Player3(Home Team) earns a free kick on the left wing after being fouled by Player26(Away Team)."
+    *   Free Kicks: Player3 earns a free kick after being fouled. Increment Free Kicks to 1.
+
+4. **Final Counts:**
+
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 2
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 1     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

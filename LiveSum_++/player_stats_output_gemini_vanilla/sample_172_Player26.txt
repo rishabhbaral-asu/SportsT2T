@@ -1,0 +1,41 @@
+Okay, let's analyze the commentary snippets for Player26 and generate the final summary table.
+
+**Player Name:** Player26
+
+**Commentary Snippets:**
+
+*   "Player26(Away Team) commits a foul."
+*   "Player26(Away Team)'s header from the center of the box veers to the right, missing the goal, The cross was provided by Player27(Away Team) following a corner kick."
+*   "Player26(Away Team) earns a free kick in their own half."
+*   "Player26(Away Team)'s shot from outside the box is saved in the bottom right corner after an assist from Player24(Away Team)."
+
+**Step-by-step analysis:**
+
+1.  **Player Name:** Player26
+
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player26(Away Team) commits a foul." - This explicitly states Player26 committed a foul. Increment Fouls by 1. Fouls = 1
+    *   Snippet 2: "Player26(Away Team)'s header from the center of the box veers to the right, missing the goal, The cross was provided by Player27(Away Team) following a corner kick." - This describes a header attempt by Player26. Since a header is an attempt on goal, it counts as a shot. Increment Shots by 1. Shots = 1
+    *   Snippet 3: "Player26(Away Team) earns a free kick in their own half." - This explicitly states Player26 earned a free kick. Increment Free Kicks by 1. Free Kicks = 1
+    *   Snippet 4: "Player26(Away Team)'s shot from outside the box is saved in the bottom right corner after an assist from Player24(Away Team)." - This explicitly states Player26 took a shot which was saved. Increment Shots by 1. Shots = 2
+
+4. **Compile Results:**
+
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

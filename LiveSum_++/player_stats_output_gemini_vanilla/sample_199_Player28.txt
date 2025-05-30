@@ -1,0 +1,46 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player28 and generate the final summary table.
+
+1.  **Identify Player Name:** The target player is Player28.
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player28(Away Team) commits a foul."
+        *   Fouls: Increment by 1 (explicitly states Player28 commits a foul).
+        *   Fouls = 1
+    *   Snippet 2: "Player28(Away Team) misses the target with a left-footed shot from the left side of the box after being set up by Player25(Away Team) during a quick counterattack."
+        *   Shots: Increment by 1 (explicitly states Player28 misses a shot).
+        *   Shots = 1
+    *   Snippet 3: "Player28(Away Team) scores with a right-footed shot from the center of the box, assisted by Player26(Away Team), Home Team 0, Away Team 1."
+        *   Goals: Increment by 1 (explicitly states Player28 scores).
+        *   Shots: Increment by 1 (explicitly states Player28 scores with a shot).
+        *   Shots = 2
+        *   Goals = 1
+    *   Snippet 4: "Player28(Away Team) receives a yellow card for celebrating too much."
+        *   Yellow Cards: Increment by 1 (explicitly states Player28 receives a yellow card).
+        *   Yellow Cards = 1
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 2     | 1     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

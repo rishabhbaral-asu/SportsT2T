@@ -1,0 +1,29 @@
+Okay, let's analyze the commentary snippets for Player28 and compile the statistics.
+
+**Player Name:** Player28
+
+**Commentary Snippets:**
+
+*   "Player28(Away Team) attempts a through ball to Player23(Away Team), but she is caught offside, thus winning a free kick for the Away Team in their defensive half."
+*   "Player28(Away Team) commits a foul."
+*   "Player28(Away Team) takes a shot with their left foot from the left side of the box, but the goalkeeper saves it in the bottom right corner, with an assist from Player27(Away Team)."
+*   "Player28(Away Team) is currently being delayed in the match due to an injury."
+
+**Step-by-step Analysis:**
+
+1.  **Shots:** The third snippet states "Player28(Away Team) takes a shot...". Therefore, the shot count is incremented by 1.
+2.  **Goals:** No snippet explicitly states that Player28 scored a goal.
+3.  **Assists:** The third snippet indicates Player28 took a shot, which was saved with an assist from Player27. It does not mention Player28 providing an assist. Therefore, the assist count remains 0.
+4.  **Free Kicks:** The first snippet says Player28 attempts a through ball, but Player23 is caught offside "thus winning a free kick". This means the free kick was awarded as a result of the offside, not because of a foul *on* Player28, and Player28 is not explicitly mentioned as taking the free kick. The offside event is attributed to Player23 not Player28, therefore, no free kick is awarded here to Player28.
+5.  **Fouls:** The second snippet states "Player28(Away Team) commits a foul.". Therefore, the foul count is incremented by 1.
+6.  **Yellow Cards:** No snippet mentions Player28 receiving a yellow card.
+7.  **Red Cards:** No snippet mentions Player28 receiving a red card.
+8.  **Offsides:** The first snippet mentions Player28 attempting a through ball that results in Player23 being offside and awarding a free kick to the other team. Since the offside is attributed to Player23 not Player28, there is no increase in the offsides count for Player28.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

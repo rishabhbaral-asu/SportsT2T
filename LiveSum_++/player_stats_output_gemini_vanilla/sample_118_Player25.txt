@@ -1,0 +1,29 @@
+Okay, let's analyze the commentary snippets for Player25.
+
+**Player Name:** Player25
+
+**Commentary Snippets:**
+
+*   "Player25(Away Team) scores with a right-footed shot from outside the box, giving the Away Team a 1-0 lead over the Home Team."
+*   "Player25(Away Team) attempts a through ball, but Player27(Away Team) is offside for the Away Team."
+*   "Player25(Away Team) commits a foul, resulting in Player9(Home Team) winning a free kick in the attacking half, ."
+*   "Player25(Away Team) receives a yellow card for a harsh foul."
+
+**Analysis:**
+
+1.  **Shots:** The first snippet states "Player25(Away Team) scores with a right-footed shot". Therefore, the shot count is incremented by 1.
+2.  **Goals:** The first snippet states "Player25(Away Team) scores". Therefore, the goal count is incremented by 1.
+3.  **Assists:** The second snippet mentions Player25 attempting a through ball, but it does not lead to a goal; therefore, the assist count remains 0.
+4.  **Free Kicks:** The third snippet states "Player25(Away Team) commits a foul, resulting in Player9(Home Team) winning a free kick". This does *not* mean Player25 took a free kick. The count remains 0.
+5.  **Fouls:** The third snippet states "Player25(Away Team) commits a foul". Therefore, the foul count is incremented by 1.
+6.  **Yellow Cards:** The fourth snippet states "Player25(Away Team) receives a yellow card". Therefore, the yellow card count is incremented by 1.
+7.  **Red Cards:** There is no mention of a red card for Player25.
+8.  **Offsides:** The second snippet mentions Player27 being offside, not Player25.
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 1     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

@@ -1,0 +1,51 @@
+Okay, let's analyze the commentary snippets for Player24 and generate the summary table.
+
+**1. Player Identification:**
+The target player is Player24.
+
+**2. Initialization:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Snippet Analysis & Counting:**
+
+*   **Snippet 1:** "Player24(Away Team)'s shot from outside the box is blocked."
+    *   Explicitly states Player24 took a shot.
+    *   Shots = 1
+
+*   **Snippet 2:** "Player24(Away Team) commits a foul, resulting in Player3(Home Team) winning a free kick on the left wing, ."
+    *   Explicitly states Player24 committed a foul.
+    *   Fouls = 1
+
+*   **Snippet 3:** "Player24(Away Team) earns a free kick in their own half."
+    *   Explicitly states Player24 earned a free kick
+    *   Free Kicks = 1
+
+*   **Snippet 4:** "Player24(Away Team) scores with a left footed shot from a free kick to tie the game at 1-1."
+    *   Explicitly states Player24 scored a goal.
+    *   Goals = 1
+    *   Shots = 2 (since scoring is a shot)
+    * Explicitly mentions scoring from a free kick, so this does not contribute to the Free Kicks taken count.
+
+**4. Final Counts:**
+Shots = 2
+Goals = 1
+Assists = 0
+Free Kicks = 1
+Fouls = 1
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 2     | 1     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

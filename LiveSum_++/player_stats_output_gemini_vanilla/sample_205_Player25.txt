@@ -1,0 +1,42 @@
+Okay, let's process the commentary snippets for Player25.
+
+**1. Player Identification:**
+The target player is Player25.
+
+**2. Initialization:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Snippet Analysis and Event Counting:**
+
+*   **Snippet 1:** "Player25(Away Team) commits a foul on Player7(Home Team), resulting in a free kick for Player7(Home Team)'s team in the attacking half."
+    *   Fouls: The snippet explicitly states "Player25 commits a foul". Increment Fouls count. Fouls = 1.
+    *   Free Kicks: The result of the foul was a free kick awarded to the opposing team, not taken by Player25, so do not increment free kicks for player25.
+*   **Snippet 2:** "Player25(Away Team) commits a foul."
+    *   Fouls: The snippet explicitly states "Player25 commits a foul". Increment Fouls count. Fouls = 2
+*   **Snippet 3:** "Player25(Away Team) receives a yellow card for a rough tackle."
+    *   Yellow Cards: The snippet explicitly states "Player25 receives a yellow card". Increment Yellow Cards count. Yellow Cards = 1
+    *   Fouls: A yellow card was received for a "rough tackle", so "rough tackle" implies committing a foul. Increment Fouls count. Fouls = 3
+
+**4. Final Counts:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 3
+Yellow Cards = 1
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 0     | 0     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

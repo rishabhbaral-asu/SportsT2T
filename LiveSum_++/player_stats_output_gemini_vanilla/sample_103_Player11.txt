@@ -1,0 +1,27 @@
+Okay, let's start by identifying the player name and initializing the counts.
+
+Player Name: Player11
+
+Now, let's process the commentary snippets one by one and increment the counts accordingly.
+
+Snippet 1: "Player11(Home Team) of the Home Team attempts a pass to Player4(Home Team), but Player4(Home Team) is offside."
+*   Offsides: Player11 attempted a pass leading to an offside, but it's Player4 who is offside, not Player11. So Player11 is not offside, and no increments are made.
+
+Snippet 2: "Player11(Home Team) commits a foul."
+*   Fouls: The snippet explicitly states that Player11 commits a foul. So, increment Fouls by 1.
+
+Snippet 3: "Player11(Home Team)'s left footed shot from the left side of the box is saved in the center of the goal."
+*   Shots: The snippet explicitly states Player11 took a shot that was saved. Increment Shots by 1.
+*   Goals: The shot was saved, so there is no goal.
+
+Snippet 4: "Player11(Home Team) commits a foul on Player25(Away Team), resulting in a free kick being awarded on the right wing."
+* Fouls: The snippet explicitly states Player11 commits a foul. Increment Fouls by 1.
+
+Now, let's compile the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

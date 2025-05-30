@@ -1,0 +1,39 @@
+Okay, let's analyze the commentary snippets for Player32.
+
+1.  **Player Name:** Player32
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Commentary Analysis:**
+
+    *   Snippet 1: "Player32(Away Team) commits a foul, resulting in Player5(Home Team) winning a free kick in their defensive half."
+        *   Fouls: The snippet explicitly states "Player32 commits a foul". Increment Fouls by 1.
+        *   Free Kicks: Although the result of the foul was a free kick awarded to the opposition, Player32 committed a foul so we do not increment the free kick count.
+
+    *   Snippet 2: "Player32(Away Team) receives a yellow card."
+        *   Yellow Cards: The snippet explicitly states "Player32 receives a yellow card". Increment Yellow Cards by 1.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player32 | 0     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

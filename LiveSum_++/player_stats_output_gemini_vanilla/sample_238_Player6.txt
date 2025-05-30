@@ -1,0 +1,48 @@
+Okay, let's analyze the commentary snippets for Player6 and generate the statistics table.
+
+**1. Identify Target Player:**
+
+The target player is Player6.
+
+**2. Initialize Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player6(Home Team)'s shot from the center of the box was blocked by a defender, with an assist from Player7(Home Team)."
+    *   Shots: Player6 took a shot. Increment to 1.
+    *   Goals: No goal scored.
+    *   Assists: Player6 received an assist, but did not give one. Do not increment.
+*   **Snippet 2:** "Player6(Home Team) commits a foul."
+    *   Fouls: Player6 committed a foul. Increment to 1.
+*   **Snippet 3:** "Player6(Home Team) fouls Player25(Away Team), resulting in a free kick in the defensive half."
+    *   Fouls: Player6 committed a foul. Increment to 1.
+*   **Snippet 4:** "Player6(Home Team)'s shot from the center of the box is blocked."
+    *   Shots: Player6 took a shot. Increment to 2.
+
+**4. Final Counts:**
+
+*   Shots: 2
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 2
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**5. Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 2     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

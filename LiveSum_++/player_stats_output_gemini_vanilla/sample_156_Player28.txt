@@ -1,0 +1,25 @@
+Okay, let's start by identifying the target player and initializing the event counts.
+
+*   **Player Name:** Player28
+
+Now, let's initialize the counts for each event to 0.
+
+Next, analyze each commentary snippet and increment the relevant counts for Player28 based on the keywords and strict attribution rules.
+
+*   **Snippet 1:** "Player28(Away Team) commits a foul."
+    *   The snippet explicitly states that Player28 committed a foul.
+    *   Increment Fouls by 1.
+
+*   **Snippet 2:** "Player28(Away Team) scores with a right-footed shot from the right side of the box, giving the Away Team a 1-0 lead over the Home Team."
+    *   The snippet explicitly states that Player28 scored a goal.
+    *   Increment Goals by 1.
+    *   Since a goal counts as a shot, increment Shots by 1.
+
+Now, let's compile the final counts into the summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 1     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

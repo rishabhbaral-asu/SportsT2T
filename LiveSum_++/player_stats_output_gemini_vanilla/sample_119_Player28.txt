@@ -1,0 +1,50 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player28 and create the final summary table.
+
+**1. Identify Target Player:**
+
+The target player is Player28.
+
+**2. Initialize Counts:**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player28(Away Team) commits a foul on Player4(Home Team), who wins a free kick in the defensive half, This results in a set piece opportunity for the team."
+    *   Fouls: Player28 commits a foul. Increment Fouls by 1.
+    *   Free Kicks: Player4 wins a free kick as a result of a foul by Player28, therefore no Free Kick is taken by Player28, Player28 commits a foul. No increment.
+
+*   **Snippet 2:** "Player28(Away Team)'s shot from the center of the box is saved by the goalkeeper after a cross from Player21(Away Team)."
+    *   Shots: Player28's shot is saved. Increment Shots by 1.
+    *   Goals: No goal is scored.
+    *   Assists: No assist is made by Player28
+    *   Free Kicks: No free kick event.
+
+*   **Snippet 3:** "Player28(Away Team) commits a foul."
+    *   Fouls: Player28 commits a foul. Increment Fouls by 1.
+
+**4. Final Counts:**
+
+*   Shots = 1
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 2
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

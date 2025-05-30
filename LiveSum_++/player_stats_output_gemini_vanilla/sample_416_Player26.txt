@@ -1,0 +1,48 @@
+Okay, let's analyze the commentary snippets for Player26 and compile the statistics.
+
+1.  **Player Name:** The target player is Player26.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player26(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team."
+        *   No shot, goal, assist, foul, or card. This snippet indicates Player26 *attempted* a pass (a through ball), but it resulted in Player29 being offside. Player26 attempting a pass that leads to offside is not an assist.
+        * Offsides = 0 (Offside is attributed to Player29, not Player26)
+        *   Free Kicks = 0
+
+    *   **Snippet 2:** "Player26(Away Team)'s header from the center of the box assisted by Player29(Away Team) goes wide to the right."
+        *   Player26 makes a header (shot) which goes wide.
+        *   Shots = 1
+        *   Goals = 0
+        *   Assists = 0 (Crucially, the snippet specifies that Player26 was *assisted by* Player29, so no assist should be attributed to Player26.)
+        *   Free Kicks = 0
+        *   Fouls = 0
+        *   Yellow Cards = 0
+        *   Red Cards = 0
+        *   Offsides = 0
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

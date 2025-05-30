@@ -1,0 +1,49 @@
+Okay, let's analyze the commentary snippets for Player11 and compile the statistics.
+
+**1. Player Identification:**
+The target player is Player11.
+
+**2. Initialization:**
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**3. Snippet Analysis and Event Counting:**
+
+*   **Snippet 1:** "Player11(Home Team) earns a free kick in the opponent's half."
+    *   This indicates Player11 *won* a free kick. Therefore, increment Free Kicks by 1.
+    *   Free Kicks = 1
+
+*   **Snippet 2:** "Player11(Home Team) scoring a header from close range to the top left corner, assisted by Player7(Home Team)'s cross."
+    *   This indicates Player11 scored a goal. Therefore, increment Goals by 1.
+    *   This also counts as a shot, so increment Shots by 1.
+    *   Goals = 1
+    *   Shots = 1
+    *   The snippet mentions Player11 was *assisted by* Player7. This means Player11 did *not* provide the assist, so we do *not* increment assists for Player11.
+
+*   **Snippet 3:** "Player11(Home Team) commits a foul."
+    *   This explicitly states Player11 committed a foul. Therefore, increment Fouls by 1.
+    *   Fouls = 1
+
+**4. Final Counts:**
+
+*   Shots = 1
+*   Goals = 1
+*   Assists = 0
+*   Free Kicks = 1
+*   Fouls = 1
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 1     | 1     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

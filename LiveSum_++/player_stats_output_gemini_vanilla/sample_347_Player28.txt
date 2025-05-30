@@ -1,0 +1,55 @@
+Okay, let's analyze the commentary snippets for Player28 and compile the statistics.
+
+1.  **Player Name:** Player28
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player28(Away Team) commits a foul, allowing Player2(Home Team) to win a free kick in their defensive half."
+        *   Fouls: Player28 commits a foul. Increment Fouls by 1. Fouls = 1
+        *   Free Kicks: Player2 wins a free kick *because* Player28 fouled him, which means Player28 effectively *conceded* the free kick. This does *not* count as Player28 taking a free kick.
+    *   Snippet 2: "Player28(Away Team) earns a free kick in their own half."
+        *   Free Kicks: Player28 earns a free kick. Increment Free Kicks by 1. Free Kicks = 1
+    *   Snippet 3: "Player28(Away Team)'s left-footed shot from the center of the box goes wide to the left, with an assist from Player27(Away Team)."
+        *   Shots: Player28 takes a shot. Increment Shots by 1. Shots = 1
+        *   Assists: Player28 was *assisted by* Player27. Do *not* increment assists for Player28.
+    *   Snippet 4: "Player28(Away Team) earns a free kick in their own half."
+        *   Free Kicks: Player28 earns a free kick. Increment Free Kicks by 1. Free Kicks = 2
+    *   Snippet 5: "Player28(Away Team) is currently experiencing a delay in the match due to an injury."
+        *   No relevant events to count.
+    *   Snippet 6: "Player28(Away Team) commits a foul."
+        *   Fouls: Player28 commits a foul. Increment Fouls by 1. Fouls = 2
+    *   Snippet 7: "Player28(Away Team) missed the header from the center of the box to the left, after being assisted by Player29(Away Team) with a cross."
+        *   Shots: Player28 attempts a header on goal (missed). Increment Shots by 1. Shots = 2
+        *   Assists: Player28 was *assisted by* Player29. Do *not* increment assists for Player28.
+    *   Snippet 8: "Player28(Away Team) commits a foul."
+        *   Fouls: Player28 commits a foul. Increment Fouls by 1. Fouls = 3
+    *   Snippet 9: "Player28(Away Team) receives a yellow card for a foul."
+        *   Yellow Cards: Player28 receives a yellow card. Increment Yellow Cards by 1. Yellow Cards = 1
+        *   Fouls: Player28 commits a foul and receives a yellow card *for* that foul. Increment Fouls by 1. Fouls = 4
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 2
+    *   Fouls = 4
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 2     | 0     | 0       | 2          | 4     | 1            | 0         | 0        |
+```

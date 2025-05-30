@@ -1,0 +1,54 @@
+Okay, let's analyze the commentary snippets for Player28 and compile the statistics.
+
+**Step 1: Identify the target player.**
+
+The target player is Player28.
+
+**Step 2: Initialize the counts.**
+
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**Step 3: Analyze each snippet and increment the counts.**
+
+*   **Snippet 1:** "Player28(Away Team) fouls Player2(Home Team), who earns a free kick on the right wing."
+
+    *   Fouls: Player28 commits a foul, so increment Fouls by 1.
+    *   Free Kicks: Player2 earns a free kick, this does not count as Player28 taking a free kick but rather counts as the foul, so the free kick count stays at 0 for Player28.
+
+*   **Snippet 2:** "Player28(Away Team) commits a foul."
+
+    *   Fouls: Player28 commits a foul, so increment Fouls by 1.
+
+*   **Snippet 3:** "Player28(Away Team)'s shot from the left side of the box is blocked by the defense, resulting in a corner kick for the Away Team."
+
+    *   Shots: Player28 takes a shot that is blocked, so increment Shots by 1.
+
+*   **Snippet 4:** "Player28(Away Team)'s shot from the center of the box is blocked with his right foot, assisted by Player31(Away Team)."
+
+    *   Shots: Player28 takes a shot that is blocked, so increment Shots by 1.
+    *   Assists: This snippet states Player28 was *assisted by* Player31. Therefore, this does not count as an assist for Player28.
+
+**Step 4: Final Counts**
+
+Shots: 2
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 2
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 2     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

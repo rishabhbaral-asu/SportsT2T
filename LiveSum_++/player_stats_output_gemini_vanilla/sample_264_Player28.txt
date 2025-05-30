@@ -1,0 +1,32 @@
+Okay, I'm ready to process the input.
+
+**Step-by-step breakdown:**
+
+1.  **Player Name:** The target player is Player28.
+2.  **Initialization:** I'll initialize the counts for Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, and Offsides to 0 for Player28.
+3.  **Snippet Analysis:** I will now analyze each commentary snippet, applying the **Absolute Strict Counting & Unambiguous Attribution** rule:
+
+    *   **Snippet 1:** "Player28(Away Team) scores with a right footed shot from outside the box, putting the Away Team ahead 1-0 against the Home Team."
+        *   This snippet explicitly states Player28 scored a goal. Therefore, Goals count increments by 1.
+        *   Since scoring a goal counts as a shot, the Shots count increments by 1.
+    *   **Snippet 2:** "Player28(Away Team) with a risky move."
+        *   This snippet mentions a "risky move", but it does not indicate any specific event that can be categorized into the provided event definitions. I will not increment any counts.
+    *   **Snippet 3:** "Player28(Away Team) earns a free kick on the left side of the field."
+        *   This snippet explicitly states that Player28 earned a free kick. Therefore, the Free Kicks count increments by 1.
+
+4. **Final Counts:**
+    * Shots: 1
+    * Goals: 1
+    * Assists: 0
+    * Free Kicks: 1
+    * Fouls: 0
+    * Yellow Cards: 0
+    * Red Cards: 0
+    * Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 1     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

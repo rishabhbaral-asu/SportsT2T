@@ -1,0 +1,21 @@
+Okay, let's start by identifying the player and initializing the counts.
+
+1.  **Player Name:** Player3
+
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Now, let's analyze the commentary snippets:
+
+*   **Snippet 1:** "Player3(Home Team) attempts a through ball, but Player10(Home Team) is flagged offside."
+    *   This snippet mentions Player3 attempting a through ball, but it does not explicitly state that the through ball led to a goal (assist). It also mentions Player10 being offside. So no assist and no offside for player3.
+*   **Snippet 2:** "Player3(Home Team) misses a header to the left from the centre of the box after a corner kick, assisted by Player7(Home Team)."
+    *   This snippet mentions Player3 missing a header, which is a shot attempt. Hence Shots = 1.
+
+Now, let's construct the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

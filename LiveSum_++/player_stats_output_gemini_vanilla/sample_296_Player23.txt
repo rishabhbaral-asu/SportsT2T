@@ -1,0 +1,46 @@
+Okay, let's analyze the commentary snippets for Player23.
+
+**1. Player Identification:**
+The target player is Player23.
+
+**2. Initialization:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Snippet Analysis & Counting:**
+
+*   **Snippet 1:** "Player23(Away Team) commits a foul."
+    *   This snippet explicitly states that Player23 committed a foul.
+    *   Fouls = 1
+
+*   **Snippet 2:** "Player23(Away Team) receives a yellow card for a harsh tackle."
+    *   This snippet explicitly states that Player23 received a yellow card.
+    *   Yellow Cards = 1
+
+*   **Snippet 3:** "Player23(Away Team) from the Away Team attempts a through ball, but Player22(Away Team) is flagged for being offside."
+    *   This snippet explicitly states that Player23 attempted a through ball, but Player22 was offside. This does not count as an assist.
+    *   Offsides = 0
+
+**4. Final Counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 1
+Yellow Cards = 1
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 0     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

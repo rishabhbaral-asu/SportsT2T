@@ -1,0 +1,37 @@
+Okay, let's start by identifying the target player and initializing the event counts.
+
+Target Player: Player22
+
+Initial Counts:
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Now, let's analyze each commentary snippet and increment the counts accordingly, based on the provided instructions.
+
+Snippet 1: "Player22(Away Team)'s header from the center of the box is blocked after a cross from Player28(Away Team)."
+
+*   "header" - implies attempt on goal so increment shots
+    Shots: 1
+
+Snippet 2: "Player22(Away Team) misses the header to the right after Player25(Away Team)'s cross from the center of the box."
+
+*   "misses the header" - implies attempt on goal so increment shots.
+    Shots: 2
+
+Snippet 3: "Player22(Away Team)'s shot from the center of the box just missed to the left, with an assist from Player20(Away Team) after a corner."
+
+*   "shot" - explicitly a shot.
+    Shots: 3
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 3     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

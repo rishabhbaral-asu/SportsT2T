@@ -1,0 +1,49 @@
+Okay, I'm ready to process the player commentary snippets.
+
+**Player Name:**
+Player12
+
+**Commentary Snippets:**
+- Player12(Home Team) narrowly misses the goal with a left-footed shot from outside the box, assisted by Player8(Home Team).
+
+**Reasoning:**
+
+1.  **Player Identification:** The target player is Player12.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+    *   Snippet 1: "Player12(Home Team) narrowly misses the goal with a left-footed shot from outside the box, assisted by Player8(Home Team)."
+        *   **Shots:** The snippet explicitly states "shot" taken by Player12. Increment Shots to 1.
+        *   **Goals:** The snippet mentions "misses the goal", meaning it's not a goal. Goals remains 0.
+        *   **Assists:** The snippet states Player12 was "assisted by Player8". This means Player12 *received* the assist, not gave one. Assists remains 0.
+        *   **Free Kicks:** No mention of free kicks. Free Kicks remains 0.
+        *   **Fouls:** No mention of fouls committed by Player12. Fouls remains 0.
+        *   **Yellow Cards:** No mention of yellow cards. Yellow Cards remains 0.
+        *   **Red Cards:** No mention of red cards. Red Cards remains 0.
+        *   **Offsides:** No mention of offsides. Offsides remains 0.
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player12 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

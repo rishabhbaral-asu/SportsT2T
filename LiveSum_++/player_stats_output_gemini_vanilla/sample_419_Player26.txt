@@ -1,0 +1,26 @@
+Okay, let's analyze the commentary snippets for Player26 and generate the final summary table.
+
+**Player Name:** Player26
+
+**Commentary Snippets:**
+
+*   Player26(Away Team) commits a foul on Player11(Home Team), who then wins a free kick on the left wing.
+
+**Reasoning:**
+
+1.  **Player Identification:** The target player is Player26.
+2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet Analysis:**
+    *   "Player26(Away Team) commits a foul on Player11(Home Team), who then wins a free kick on the left wing."
+        *   **Fouls:** The snippet explicitly states "Player26 commits a foul". So, Fouls = 1.
+        *   **Free Kicks:** The snippet says "Player11 wins a free kick", NOT Player26. The keyword "wins a free kick" only applies if Player26 is winning the free kick. Here, Player26 conceded the free kick, which means that this does not count as a "free kick taken" for Player26. Therefore, Free Kicks = 0.
+        *   **Other events:** No other events (Shots, Goals, Assists, Yellow Cards, Red Cards, Offsides) are explicitly mentioned in relation to Player26.
+
+4.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,37 @@
+Okay, let's analyze the commentary snippets for Player27 and generate the requested markdown table.
+
+1.  **Identify Target Player:** The target player is Player27.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player27(Away Team) attempts a through ball, but Player26(Away Team) is caught offside." - No relevant events to count, as the attempt resulted in an offside for a different player. This is not considered an attempt/shot on goal. Offsides event is not for the target player.
+    *   Snippet 2: "Player27(Away Team) commits a foul." - The snippet explicitly states Player27 commits a foul. Increment Fouls count.
+        *   Fouls = 1
+    *   Snippet 3: "Player27(Away Team) draws a foul in the penalty area resulting in a penalty." - The snippet explicitly states that Player27 draws a foul. This implies that Player27 wins a penalty and therefore counts as a free kick.
+        * Free Kicks = 1
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

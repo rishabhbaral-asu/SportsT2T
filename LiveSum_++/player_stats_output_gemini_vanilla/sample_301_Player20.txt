@@ -1,0 +1,26 @@
+Okay, let's analyze the commentary snippets for Player20 and compile the statistics.
+
+**Player Name:** Player20
+
+**Commentary Snippets:**
+- Player20(Away Team) commits a foul, resulting in Player5(Home Team) winning a free kick in their own defensive half.
+- Player20(Away Team) receives a yellow card for a rough tackle.
+- Player20(Away Team) scores with a header from the center of the box to the top right corner, assisted by Player28(Away Team) with a cross after a corner kick, Home Team now has 1 goal, while Away Team has 2.
+
+**Analysis:**
+
+*   **Shots:** The third snippet states "Player20(Away Team) scores with a header...". Since a goal is a type of shot, increment Shots by 1.
+*   **Goals:** The third snippet states "Player20(Away Team) scores with a header...". Increment Goals by 1.
+*   **Assists:** The third snippet states Player20 was *assisted by* another player. Therefore, Player20 did not provide an assist. Assists remains 0.
+*   **Free Kicks:** The first snippet mentions Player20 committing a foul, which resulted in a free kick for the opposing team, this does not increment the free kick counter for the player, instead it increments the foul counter. Free Kicks remains 0.
+*   **Fouls:** The first snippet states "Player20(Away Team) commits a foul...". Increment Fouls by 1.
+*   **Yellow Cards:** The second snippet states "Player20(Away Team) receives a yellow card...". Increment Yellow Cards by 1.
+*   **Red Cards:** No mention of a red card for Player20. Red Cards remains 0.
+*   **Offsides:** No mention of offsides for Player20. Offsides remains 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 1     | 1     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

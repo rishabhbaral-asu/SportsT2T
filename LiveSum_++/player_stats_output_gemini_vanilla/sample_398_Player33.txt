@@ -1,0 +1,45 @@
+Okay, let's analyze the commentary snippets for Player33 and generate the summary table.
+
+**Player Name:**
+Player33
+
+**Commentary Snippets:**
+- Player33(Away Team) commits a foul.
+- Player33(Away Team) of the Away Team attempts a through ball, but Player31(Away Team) is flagged for being in an offside position.
+
+**Step-by-step analysis:**
+
+1. **Initialize Counts:**
+   - Shots = 0
+   - Goals = 0
+   - Assists = 0
+   - Free Kicks = 0
+   - Fouls = 0
+   - Yellow Cards = 0
+   - Red Cards = 0
+   - Offsides = 0
+
+2. **Analyze Snippets:**
+   - **Snippet 1:** "Player33(Away Team) commits a foul."
+     - This snippet explicitly states that Player33 committed a foul.
+     - Increment Fouls: Fouls = 1
+   - **Snippet 2:** "Player33(Away Team) of the Away Team attempts a through ball, but Player31(Away Team) is flagged for being in an offside position."
+     - This snippet indicates Player33 attempted a through ball but does not explicitly state that Player33 was taking a shot on goal, or assisting. Nor can "attempts a through ball" be counted as a free kick or foul. Also, the offside is for player31 not player33.
+     - No other increments.
+
+3. **Final Counts:**
+   - Shots = 0
+   - Goals = 0
+   - Assists = 0
+   - Free Kicks = 0
+   - Fouls = 1
+   - Yellow Cards = 0
+   - Red Cards = 0
+   - Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player33 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

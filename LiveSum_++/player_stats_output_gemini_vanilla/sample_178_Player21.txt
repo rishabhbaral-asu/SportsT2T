@@ -1,0 +1,43 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for Player21 and count explicit occurrences of defined events for that player.
+
+**Input:**
+* **Player Name:**
+    <PLAYER_NAME>
+    Player21
+    </PLAYER_NAME>
+* **Commentary Snippets:**
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player21(Away Team) misses the header from the centre of the box after a corner kick, with Player24(Away Team) assisting with the cross.
+    </PLAYER_COMMENTARY_SNIPPETS>
+
+**Process:**
+
+1.  **Identify Player Name:** The target player is Player21.
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+3.  **Analyze Snippets:**
+    *   Snippet 1: "Player21(Away Team) misses the header from the centre of the box after a corner kick, with Player24(Away Team) assisting with the cross."
+        *   Shots: "misses the header" indicates an attempt on goal, so increment Shots to 1.
+        *   Goals: No goal is scored.
+        *   Assists: The snippet specifies Player24 assisting Player21, meaning Player21 did not provide the assist; therefore, assists remains 0.
+        *   Free Kicks: No free kick events are mentioned.
+        *   Fouls: No foul events are mentioned.
+        *   Yellow Cards: No yellow card events are mentioned.
+        *   Red Cards: No red card events are mentioned.
+        *   Offsides: No offside events are mentioned.
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

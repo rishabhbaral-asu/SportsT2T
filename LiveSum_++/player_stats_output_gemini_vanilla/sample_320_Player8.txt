@@ -1,0 +1,54 @@
+Okay, let's break this down step by step.
+
+1. **Player Identification:** The target player is Player8.
+
+2. **Initialization:** We start with all event counts at 0 for Player8.
+
+3. **Snippet Analysis:** We will now meticulously analyze each snippet, incrementing the appropriate counters ONLY when the action is explicitly and unambiguously attributed to Player8.
+
+*   **Snippet 1:** "Player8(Home Team)'s shot with his left foot from the center of the box was saved in the middle of the goal, with an assist from Player9(Home Team)."
+    *   Shots: The snippet explicitly states "Player8's shot", so increment Shots by 1.
+    *   Goals: The shot was "saved," so there's no goal.
+    *   Assists: Player8 *received* an assist from Player9, thus Player8 did not *give* an assist, so no assist is counted.
+    *   Free Kicks: No free kick-related keywords are present.
+    *   Fouls: No foul-related keywords are present.
+    *   Yellow Cards: No yellow card-related keywords are present.
+    *   Red Cards: No red card-related keywords are present.
+    *   Offsides: No offside-related keywords are present.
+
+*   **Snippet 2:** "Player8(Home Team) misses the top right corner with a close right-footed shot from the center of the box."
+    *   Shots: The snippet explicitly states "Player8 misses... with a shot", so increment Shots by 1.
+    *   Goals: The shot "misses," so there's no goal.
+    *   Assists: No assist-related keywords are present.
+    *   Free Kicks: No free kick-related keywords are present.
+    *   Fouls: No foul-related keywords are present.
+    *   Yellow Cards: No yellow card-related keywords are present.
+    *   Red Cards: No red card-related keywords are present.
+    *   Offsides: No offside-related keywords are present.
+
+*   **Snippet 3:** "Player8(Home Team)'s header from the center of the box is saved in the top right corner after a cross from Player10(Home Team)."
+    *   Shots: The snippet explicitly states "Player8's header", and a header *is* an attempt on goal, so increment Shots by 1.
+    *   Goals: The header was "saved," so there's no goal.
+    *   Assists: Player8 *received* a cross (assist) from Player10, so Player8 did not *give* an assist. Do not increment.
+    *   Free Kicks: No free kick-related keywords are present.
+    *   Fouls: No foul-related keywords are present.
+    *   Yellow Cards: No yellow card-related keywords are present.
+    *   Red Cards: No red card-related keywords are present.
+    *   Offsides: No offside-related keywords are present.
+
+4. **Final Count:**
+    *   Shots: 3
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 3     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

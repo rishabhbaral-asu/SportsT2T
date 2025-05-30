@@ -1,0 +1,36 @@
+Okay, let's start.
+
+First, I identify the player name: Player33.
+
+Next, I initialize all event counts to zero: Shots=0, Goals=0, Assists=0, Free Kicks=0, Fouls=0, Yellow Cards=0, Red Cards=0, Offsides=0.
+
+Now I will analyze the commentary snippets one by one, applying the strict counting rules.
+
+Snippet 1: "Player33(Away Team) misses the target with a high right-footed shot from outside the box, assisted by Player26(Away Team)."
+*   Shots: The snippet says "Player33 misses the target with a...shot". So, Shots = 1.
+*   Goals: The snippet does not mention a goal scored by Player33. So, Goals = 0.
+*   Assists: The snippet says Player33 was assisted *by* another player. So, Assists = 0.
+*   Free Kicks: No mention of free kicks, penalty kicks, or fouls committed against the player so Free Kicks = 0.
+*   Fouls: No mention of fouls committed by the player so Fouls = 0.
+*   Yellow Cards: No mention of a yellow card for the player, so Yellow Cards = 0.
+*   Red Cards: No mention of a red card for the player, so Red Cards = 0.
+*   Offsides: No mention of offsides for the player, so Offsides = 0.
+
+Snippet 2: "Player33(Away Team) misses the goal with a right-footed shot from the left side of the box, assisted by Player27(Away Team)."
+*   Shots: The snippet says "Player33 misses the goal with a...shot". So, Shots = 1 + 1 = 2.
+*   Goals: The snippet does not mention a goal scored by Player33. So, Goals = 0.
+*   Assists: The snippet says Player33 was assisted *by* another player. So, Assists = 0.
+*   Free Kicks: No mention of free kicks, penalty kicks, or fouls committed against the player so Free Kicks = 0.
+*   Fouls: No mention of fouls committed by the player so Fouls = 0.
+*   Yellow Cards: No mention of a yellow card for the player, so Yellow Cards = 0.
+*   Red Cards: No mention of a red card for the player, so Red Cards = 0.
+*   Offsides: No mention of offsides for the player, so Offsides = 0.
+
+Now, create the final summary table:
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player33 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

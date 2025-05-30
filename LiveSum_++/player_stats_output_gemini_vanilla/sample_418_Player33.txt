@@ -1,0 +1,45 @@
+Okay, I'm ready to analyze the commentary snippets for the specified player and generate the final summary table.
+
+**Player Name:**
+Player33
+
+**Commentary Snippets:**
+- Player33(Away Team) commits a foul, resulting in Player6(Home Team) winning a free kick in their own defensive half.
+- Player33(Away Team) commits a foul, resulting in Player5(Home Team) winning a free kick in their own defensive half, This leads to a set piece opportunity for Player5(Home Team).
+
+**Step-by-step analysis:**
+
+1.  **Player Identification:** The target player is Player33.
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+3.  **Snippet Analysis:**
+    *   **Snippet 1:** "Player33(Away Team) commits a foul, resulting in Player6(Home Team) winning a free kick in their own defensive half."
+        *   Fouls: Player33 commits a foul. Increment Fouls by 1. Fouls = 1
+        * Free Kicks: Although Player6 wins a free kick, Player33 does not take one. The snippet only mentions that Player33 committed a foul. Free Kicks = 0
+    *   **Snippet 2:** "Player33(Away Team) commits a foul, resulting in Player5(Home Team) winning a free kick in their own defensive half, This leads to a set piece opportunity for Player5(Home Team)."
+        *   Fouls: Player33 commits a foul. Increment Fouls by 1. Fouls = 2
+        * Free Kicks: Although Player5 wins a free kick, Player33 does not take one. The snippet only mentions that Player33 committed a foul. Free Kicks = 0
+
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 2
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player33 | 0     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

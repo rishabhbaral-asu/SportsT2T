@@ -1,0 +1,45 @@
+Okay, let's analyze the commentary snippets for Player24.
+
+1.  **Player Name:** The target player is Player24.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player24(Away Team) commits a foul, resulting in Player9(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for the attacking team."
+        *   Fouls: Player24 commits a foul. Increment Fouls by 1. Fouls = 1
+        *   Free Kicks: Player24 commits a foul resulting in Player9 winning a free kick. This does NOT count as a free kick TAKEN by Player24.
+
+    *   Snippet 2: "Player24(Away Team) attempts a through ball, but Player20(Away Team) is offside for the Away Team."
+        *   Offsides: Player20 is offside. This does not count for Player24.
+
+    *   Snippet 3: "Player24(Away Team) commits a foul on Player9(Home Team), resulting in a free kick being awarded on the left wing."
+        *   Fouls: Player24 commits a foul. Increment Fouls by 1. Fouls = 2
+
+    *   Snippet 4: "Player24(Away Team) receives a yellow card."
+        *   Yellow Cards: Player24 receives a yellow card. Increment Yellow Cards by 1. Yellow Cards = 1
+
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 2
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 0     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

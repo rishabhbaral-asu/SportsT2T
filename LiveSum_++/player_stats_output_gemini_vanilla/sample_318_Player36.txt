@@ -1,0 +1,52 @@
+Okay, let's analyze the commentary snippets for Player36 and generate the requested markdown table.
+
+1.  **Player Name:** Player36
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player36(Away Team) misses a header to the right from the center of the box after a corner kick, assisted by Player25(Away Team)."
+        *   Shots += 1 (Explicitly mentions "header" which is an attempt on goal and "misses")
+        *   Assists += 0 (Player36 was assisted, not the one assisting)
+    *   Snippet 2: "Player36(Away Team) scores with a right-footed shot from outside the box, assisted by Player29(Away Team), Home Team leads 2-1 against Away Team."
+        *   Shots += 1 (Explicitly mentions "shot" and "scores")
+        *   Goals += 1 (Explicitly mentions "scores")
+        *   Assists += 0 (Player36 was assisted, not the one assisting)
+    *   Snippet 3: "Player36(Away Team) earns a free kick in the opponent's half."
+        *   Free Kicks += 1 (Explicitly mentions "earns a free kick")
+    *   Snippet 4: "Player36(Away Team)'s shot from outside the box is blocked by the defender after being assisted by Player28(Away Team), resulting in a corner kick for the Away Team."
+        *   Shots += 1 (Explicitly mentions "shot")
+        *   Assists += 0 (Player36 was assisted, not the one assisting)
+    *   Snippet 5: "Player36(Away Team) earns a free kick in the opponent's half."
+        *   Free Kicks += 1 (Explicitly mentions "earns a free kick")
+    *   Snippet 6: "Player36(Away Team) earns a free kick in the opponent's half."
+        *   Free Kicks += 1 (Explicitly mentions "earns a free kick")
+    *   Snippet 7: "Player36(Away Team)'s left footed shot from a tough angle was saved in the bottom left corner after being assisted by Player33(Away Team) with a through ball, resulting in Player28(Away Team) winning a free kick in the attacking half."
+        *   Shots += 1 (Explicitly mentions "shot" and "saved")
+        *   Assists += 0 (Player36 was assisted, not the one assisting)
+
+4.  **Final Counts:**
+    *   Shots = 4
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 3
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player36 | 4     | 1     | 0       | 3          | 0     | 0            | 0         | 0        |
+```

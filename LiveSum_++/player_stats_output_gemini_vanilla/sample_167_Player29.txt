@@ -1,0 +1,46 @@
+Okay, let's analyze the commentary snippets for Player29 and create the summary table.
+
+**1. Identify the target player:**
+
+The target player is Player29.
+
+**2. Initialize counts:**
+
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**3. Analyze each snippet:**
+
+*   **Snippet 1: "Player29(Away Team) commits a foul."**
+    *   Fouls: The snippet explicitly states "Player29 commits a foul." Increment Fouls by 1. Fouls = 1
+
+*   **Snippet 2: "Player29(Away Team)'s attempt from the center of the box is blocked, resulting in a corner kick for the Away Team."**
+    *   Shots: The snippet mentions "Player29's attempt...is blocked." Increment Shots by 1. Shots = 1
+
+*   **Snippet 3: "Player29(Away Team)'s header from the center of the box was just a little too high, missing the goal, Player25(Away Team) assisted the play."**
+    *   Shots: The snippet mentions "Player29's header ... missing the goal". Increment Shots by 1. Shots = 2
+    *   Assists: The snippet explicitly states "Player25(Away Team) assisted the play", therefore Player29 did not assist the play, so assists remains at 0
+
+**4. Final Counts:**
+
+Shots: 2
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 1
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

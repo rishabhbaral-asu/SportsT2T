@@ -1,0 +1,37 @@
+Okay, let's break this down step by step.
+
+1.  **Identify Player Name:** The target player is Player33.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player33(Away Team) earns a free kick in their own half."
+        *   This snippet explicitly states Player33 earns a free kick. This means Player33 wins a free kick. Therefore, increment Free Kicks by 1.
+
+4.  **Compile Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+5.  **Create Final Summary Table:**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player33 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

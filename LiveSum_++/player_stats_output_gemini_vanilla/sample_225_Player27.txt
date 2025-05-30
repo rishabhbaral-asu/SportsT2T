@@ -1,0 +1,71 @@
+Okay, let's analyze the commentary snippets for Player27.
+
+Based on the provided instructions, I will initialize the counts for all events to 0. Then, I will iterate through each commentary snippet and increment the appropriate counters based on the explicit mentions of events performed by Player27.
+
+**Commentary Snippet 1:** "Player27(Away Team) misses the goal with a right-footed shot from outside the box, assisted by Player28(Away Team)."
+*   Shots: Increment by 1 (explicitly mentions Player27 missing a shot).
+*   Goals: No increment (the shot was missed).
+*   Assists: No increment (Player27 received an assist, did not provide one).
+*   Free Kicks: No increment
+*   Fouls: No increment
+*   Yellow Cards: No increment
+*   Red Cards: No increment
+*   Offsides: No increment
+
+**Commentary Snippet 2:** "Player27(Away Team) scores with a right-footed shot from the center of the box, giving the Away Team a 1-0 lead over the Home Team."
+*   Shots: Increment by 1 (explicitly mentions Player27 scoring with a shot).
+*   Goals: Increment by 1 (explicitly mentions Player27 scoring a goal).
+*   Assists: No increment.
+*   Free Kicks: No increment
+*   Fouls: No increment
+*   Yellow Cards: No increment
+*   Red Cards: No increment
+*   Offsides: No increment
+
+**Commentary Snippet 3:** "Player27(Away Team) earns a free kick in the opponent's half."
+*   Shots: No increment
+*   Goals: No increment
+*   Assists: No increment.
+*   Free Kicks: Increment by 1 (explicitly mentions Player27 earning a free kick).
+*   Fouls: No increment
+*   Yellow Cards: No increment
+*   Red Cards: No increment
+*   Offsides: No increment
+
+**Commentary Snippet 4:** "Player27(Away Team)'s right footed shot from outside the box is saved in the centre of the goal, with Player7(Home Team) being penalized for a hand ball."
+*   Shots: Increment by 1 (explicitly mentions Player27 taking a shot that was saved)
+*   Goals: No increment
+*   Assists: No increment.
+*   Free Kicks: No increment
+*   Fouls: No increment
+*   Yellow Cards: No increment
+*   Red Cards: No increment
+*   Offsides: No increment
+
+**Commentary Snippet 5:** "Player27(Away Team) scores for the Away Team with a right footed shot from close range."
+*   Shots: Increment by 1 (explicitly mentions Player27 scoring with a shot).
+*   Goals: Increment by 1 (explicitly mentions Player27 scoring).
+*   Assists: No increment.
+*   Free Kicks: No increment
+*   Fouls: No increment
+*   Yellow Cards: No increment
+*   Red Cards: No increment
+*   Offsides: No increment
+
+**Final Count:**
+
+*   Shots: 1 + 1 + 1 + 1 = 4
+*   Goals: 1 + 1 = 2
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 4     | 2     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

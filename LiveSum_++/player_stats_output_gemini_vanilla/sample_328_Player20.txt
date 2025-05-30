@@ -1,0 +1,42 @@
+Okay, let's analyze the commentary snippets for Player20 and generate the statistics table.
+
+1.  **Player Name:** Player20
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player20(Away Team) misses the target with a right-footed shot from the right side of the box, with an assist from Player25(Away Team)."
+        *   "misses the target with a right-footed shot" indicates a shot by Player20.
+        *   Shots += 1
+        *   "assist from Player25(Away Team)" indicates Player20 received an assist, not gave one, so assists remain 0.
+
+    *   Snippet 2: "Player20(Away Team)'s right footed shot from outside the box is saved in the bottom right corner, assisted by Player35(Away Team) with a headed pass, resulting in a corner kick for the Away Team."
+        *   "right footed shot" indicates a shot by Player20.
+        *   Shots += 1
+        *   "assisted by Player35(Away Team)" indicates Player20 received an assist, not gave one, so assists remain 0.
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

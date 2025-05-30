@@ -1,0 +1,48 @@
+Okay, let's analyze the provided commentary snippets for Player3 and generate the statistics table.
+
+**Player Name:** Player3
+
+**Commentary Snippets:**
+- Player3(Home Team) earns a free kick in their own half.
+- Player3(Home Team) earns a free kick in their own half.
+- Player3(Home Team) is injured.
+
+**Step-by-step analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1: "Player3(Home Team) earns a free kick in their own half."**
+    *   The phrase "earns a free kick" indicates Player3 was fouled, wins a free kick or was brought down. Therefore, Free Kicks is incremented by 1.
+    *   Free Kicks = 1
+
+3.  **Snippet 2: "Player3(Home Team) earns a free kick in their own half."**
+    *   The phrase "earns a free kick" indicates Player3 was fouled, wins a free kick or was brought down. Therefore, Free Kicks is incremented by 1.
+    *   Free Kicks = 2
+
+4.  **Snippet 3: "Player3(Home Team) is injured."**
+    *   This snippet does not relate to any of the tracked events.
+
+5.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 2
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 0     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

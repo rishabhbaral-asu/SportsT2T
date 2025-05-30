@@ -1,0 +1,48 @@
+Okay, let's break this down step-by-step.
+
+1.  **Identify Target Player:** The target player is Player10.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player10(Home Team)'s left footed shot from outside the box is blocked after being assisted by Player6(Home Team), resulting in a corner kick for the Home Team."
+        *   Shots: Player10 takes a shot, which is blocked. Increment Shots to 1.
+        *   Assists: The snippet indicates Player10 was assisted by Player6, so no assist for Player10.
+
+    *   **Snippet 2:** "Player10(Home Team) commits a foul."
+        *   Fouls: Player10 commits a foul. Increment Fouls to 1.
+
+    *   **Snippet 3:** "Player10(Home Team) receives a yellow card for a rough tackle."
+        *   Yellow Cards: Player10 receives a yellow card. Increment Yellow Cards to 1.
+        *   Fouls: Player10 commits a "rough tackle", increment Fouls to 2
+
+4. Consolidate counts and add free kicks if required
+      *No mention of Free Kick, but the rough tackle that caused a Yellow Card also counts as a foul.
+5.  The only instance of a Free Kick is from the blocked shot that resulted in a corner.
+   * It does not imply that Player10 wins a free kick or takes the kick; as such no increments
+
+5.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 2
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 1     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

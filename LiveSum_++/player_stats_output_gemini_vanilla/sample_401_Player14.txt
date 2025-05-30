@@ -1,0 +1,49 @@
+Okay, let's process the input and generate the player statistics table.
+
+**Step 1: Identify Target Player**
+
+The target player is Player14.
+
+**Step 2: Initialize Counts**
+
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**Step 3: Analyze Commentary Snippets**
+
+Snippet 1: "Player14(Home Team) scores with a close-range right-footed shot to the top right corner, assisted by Player10(Home Team), Home Team leads 2-1 against Away Team."
+
+*   **Shots:** The snippet explicitly states "scores with a close-range right-footed shot," which implies a shot. Increment Shots to 1.
+*   **Goals:** The snippet explicitly states "scores." Increment Goals to 1.
+*   **Assists:** The snippet explicitly states "assisted by Player10". Since Player14 is the target player and was assisted by another player, the assist count remains 0.
+*   **Free Kicks:** No explicit mentions of free kicks. Count remains 0.
+*   **Fouls:** No explicit mentions of fouls. Count remains 0.
+*   **Yellow Cards:** No explicit mentions of yellow cards. Count remains 0.
+*   **Red Cards:** No explicit mentions of red cards. Count remains 0.
+*   **Offsides:** No explicit mentions of offsides. Count remains 0.
+
+**Step 4: Final Counts**
+
+Shots: 1
+Goals: 1
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**Step 5: Construct Final Summary Table**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player14 | 1     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

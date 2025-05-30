@@ -1,0 +1,66 @@
+Okay, let's break down the task and process the provided input step-by-step.
+
+**1. Identify Target Player:**
+
+The target player is `Player2`.
+
+**2. Initialize Counters:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player2(Home Team)'s left-footed shot from outside the box is saved in the center of the goal with an assist from Player9(Home Team)."
+    *   Shots: Increment by 1 (explicitly mentions "shot")
+    *   Goals: No increment (no mention of "goal" or "scores")
+    *   Assists: No increment (Player2 received an assist, they didn't provide one)
+    *   Free Kicks: No increment
+    *   Fouls: No increment
+    *   Yellow Cards: No increment
+    *   Red Cards: No increment
+    *   Offsides: No increment
+
+*   **Snippet 2:** "Player2(Home Team) commits a foul on Player27(Away Team), who earns a free kick in the attacking half, This results in a free kick for Player27(Away Team) in the attacking half."
+    *   Shots: No increment
+    *   Goals: No increment
+    *   Assists: No increment
+    *   Free Kicks: No increment. Player2 committed the foul, so it does not count as a free kick *taken*.
+    *   Fouls: Increment by 1 (explicitly mentions "commits a foul")
+    *   Yellow Cards: No increment
+    *   Red Cards: No increment
+    *   Offsides: No increment
+
+*   **Snippet 3:** "Player2(Home Team) commits a foul."
+    *   Shots: No increment
+    *   Goals: No increment
+    *   Assists: No increment
+    *   Free Kicks: No increment
+    *   Fouls: Increment by 1 (explicitly mentions "commits a foul")
+    *   Yellow Cards: No increment
+    *   Red Cards: No increment
+    *   Offsides: No increment
+
+**4. Final Counts:**
+
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 2
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

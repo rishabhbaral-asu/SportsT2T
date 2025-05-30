@@ -1,0 +1,45 @@
+Okay, let's analyze the commentary snippets for Player27.
+
+1.  **Player Name:** Player27
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player27(Away Team)'s shot from outside the box is saved in the center of the goal, with an assist from Player25(Away Team)."
+        *   Player27 is explicitly mentioned taking a shot. Shots = 1.
+        *   The snippet explicitly states "with an assist from Player25", meaning Player27 did not provide the assist. Assists = 0.
+
+    *   Snippet 2: "Player27(Away Team)'s left footed shot from outside the box missed the target by inches on a direct free kick."
+        *   Player27 is explicitly mentioned taking a shot. Shots = 1 + 1 = 2.
+        *   Player27 is explicitly mentioned taking a free kick. Free Kicks = 1
+
+    *   Snippet 3: "Player27(Away Team) from the Away Team attempts a through ball, but Player33(Away Team) is flagged for offside."
+        *   Player27 attempts a through ball, but this does not explicitly state that Player27 is providing an assist or setting up another player for a goal. There's no goal resulting from the play so no assist is given.
+        *   Player33 is flagged for offside, but this doesn't directly relate to Player27 committing the offside.
+        *   Offsides = 0
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 2     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

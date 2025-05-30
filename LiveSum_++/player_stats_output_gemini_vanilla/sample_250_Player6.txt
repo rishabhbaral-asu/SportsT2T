@@ -1,0 +1,38 @@
+Okay, let's analyze the commentary snippets for Player6.
+
+1.  **Player Name:** Player6
+
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player6(Home Team) fouls Player29(Away Team), leading to a free kick for the defensive team."
+        *   Fouls: Player6 commits a foul. Increment Fouls to 1.
+
+    *   Snippet 2: "Player6(Home Team) misses the header from the right side of the six-yard box, it was too high, Player10(Home Team) assisted with a cross after a corner."
+        *   Shots: Player6 misses a header. Since a header is an attempt on goal, increment Shots to 1.
+
+    *   Snippet 3: "Player6(Home Team) commits a foul."
+        *   Fouls: Player6 commits a foul. Increment Fouls to 2.
+
+    *   Snippet 4: "Player6(Home Team) commits a foul."
+        *   Fouls: Player6 commits a foul. Increment Fouls to 3.
+
+    *   Snippet 5: "Player6(Home Team) receives a yellow card for a rough tackle."
+        *   Yellow Cards: Player6 receives a yellow card. Increment Yellow Cards to 1.
+        *   Fouls: Player6 commits a foul (rough tackle). Increment Fouls to 4.
+
+    *   Snippet 6: "Player6(Home Team) attempts a pass to Player14(Home Team), but Player14(Home Team) is offside."
+        *   Offsides: Player14 is offside but Player6 attempted a pass. No offside for Player6.
+
+    *   Snippet 7: "Player6(Home Team)'s shot from outside the box is blocked with Player8(Home Team)'s assistance."
+        *   Shots: Player6's shot is blocked. Increment Shots to 2.
+
+4.  **Final Counts:** Shots = 2, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 4, Yellow Cards = 1, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 2     | 0     | 0       | 0          | 4     | 1            | 0         | 0        |
+```

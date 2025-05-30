@@ -1,0 +1,36 @@
+Okay, let's analyze the commentary snippets for Player6 and generate the summary table.
+
+**Player Name:** Player6
+
+**Commentary Snippets:**
+
+*   Player6(Home Team) earns a free kick on the right side of the field.
+*   Player6(Home Team)'s left footed shot from outside the box was blocked with an assist from Player10(Home Team).
+*   Player6(Home Team) commits a foul.
+*   Player6(Home Team)'s shot from outside the box is saved in the bottom right corner, while Player11(Home Team)'s shot from the six yard box is too high after a corner.
+
+**Analysis:**
+
+1.  **Free Kicks:** The first snippet explicitly states "Player6(Home Team) earns a free kick". This counts as 1 Free Kick.
+2.  **Shots:** The second snippet mentions "Player6(Home Team)'s left footed shot from outside the box was blocked". This is 1 shot.
+3.  **Assists:** The second snippet mentions "with an assist from Player10(Home Team)". This is an assist *for* Player10, not Player6, so no assist is counted for Player6.
+4.  **Fouls:** The third snippet states "Player6(Home Team) commits a foul." This counts as 1 Foul.
+5.  **Shots:** The fourth snippet states "Player6(Home Team)'s shot from outside the box is saved in the bottom right corner". This is another shot, therefore we increment the shot count.
+
+**Final Counts:**
+
+*   Shots: 2
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

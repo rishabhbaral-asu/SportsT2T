@@ -1,0 +1,30 @@
+Okay, let's start by extracting the player name and initializing the event counts.
+
+Player Name: Player18
+
+Now, let's initialize the counts for each event:
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: Player18(Home Team) attempts a pass to Player28(Away Team), who is caught in an offside position.
+
+*   This snippet mentions Player18 attempting a pass. The target is Player28 being offside. Since there is no clear indication that the pass resulted in a goal, there is no assist here. Also, there's no mention of shots, goals, free kicks, fouls, or cards for Player18.
+*   Offsides: The offside is attributed to Player28, so no increment for Player18.
+
+Now, create the final summary table:
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player18 | 0     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

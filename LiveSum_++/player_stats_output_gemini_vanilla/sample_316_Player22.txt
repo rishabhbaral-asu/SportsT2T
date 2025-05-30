@@ -1,0 +1,45 @@
+Okay, let's analyze the provided commentary snippets for Player22 and generate the statistics table.
+
+**1. Identify Target Player:**
+
+The target player is Player22.
+
+**2. Initialize Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player22(Away Team) earns a free kick in their own defensive zone."
+    *   This snippet indicates Player22 earned a free kick. Thus, increment 'Free Kicks' by 1.
+*   **Snippet 2:** "Player22(Away Team) scores with a left-footed shot from close range to the bottom left corner, assisted by Player20(Away Team), The Home Team now leads 5-3 against the Away Team."
+    *   This snippet indicates Player22 scored a goal. Increment 'Goals' by 1.
+    *   Since Player22 scored a goal, it means Player22 also had a shot. Increment 'Shots' by 1.
+    *   The snippet also mentions that Player22 was *assisted by* Player20. This does not count as an assist *for* Player22.
+
+**4. Final Counts:**
+
+*   Shots: 1
+*   Goals: 1
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**5. Final Summary Table:**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 1     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

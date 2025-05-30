@@ -1,0 +1,63 @@
+Okay, let's analyze the commentary snippets for Player8.
+
+1.  **Player Name:** Player8
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player8(Home Team) misses the shot with his left foot from outside the box, assisted by Player11(Home Team)."
+        *   Shots: Player8 misses a shot, so increment Shots by 1.
+        *   Goals: No goal scored.
+        *   Assists: Player8 was assisted, so no assist for Player8.
+        *   Free Kicks: No free kick event.
+        *   Fouls: No foul committed.
+        *   Yellow Cards: No yellow card.
+        *   Red Cards: No red card.
+        *   Offsides: No offside.
+
+    *   Snippet 2: "Player8(Home Team) attempts a pass to Player10(Home Team), who is caught offside."
+        *   Shots: No shot attempt.
+        *   Goals: No goal.
+        *   Assists: No assist, player10 was offside, so the pass did not result in a goal.
+        *   Free Kicks: No free kick event.
+        *   Fouls: No foul.
+        *   Yellow Cards: No yellow card.
+        *   Red Cards: No red card.
+        *   Offsides: Player8 did not go offside, player10 did.
+        *   Offsides: No offside.
+
+    *   Snippet 3: "Player8(Home Team) commits a foul, resulting in Player23(Away Team) winning a free kick in their own defensive half, This leads to a set piece opportunity for Player23(Away Team)'s team."
+        *   Shots: No shot.
+        *   Goals: No goal.
+        *   Assists: No assist.
+        *   Free Kicks: No free kick taken by Player8.
+        *   Fouls: Player8 commits a foul, so increment Fouls by 1.
+        *   Yellow Cards: No yellow card.
+        *   Red Cards: No red card.
+        *   Offsides: No offside.
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

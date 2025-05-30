@@ -1,0 +1,37 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for Player22 and count explicit occurrences of defined events.
+
+**Input:**
+* **Player Name:**
+    ```
+    <PLAYER_NAME>
+    Player22
+    </PLAYER_NAME>
+    ```
+* **Commentary Snippets:**
+    ```
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player22(Away Team) earns a free kick in their own half.
+    </PLAYER_COMMENTARY_SNIPPETS>
+    ```
+
+**Instructions:**
+
+1.  **Identify the target player name:** Player22
+2.  **Initialize counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+3.  **Analyze each snippet:**
+
+    *   Snippet 1: "Player22(Away Team) earns a free kick in their own half."
+        *   The snippet explicitly states "Player22 earns a free kick". This falls under the "Free Kicks (Taken)" definition due to the explicit mention of winning a free kick. Increment Free Kicks count.
+
+4.  **Increment Counts:**
+    * Free Kicks: 1
+
+5. **Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

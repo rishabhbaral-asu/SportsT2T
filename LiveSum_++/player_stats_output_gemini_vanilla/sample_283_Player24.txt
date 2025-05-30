@@ -1,0 +1,54 @@
+Okay, let's start by identifying the target player and initializing the event counts.
+
+Target Player: Player24
+
+Initial Counts:
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player24(Away Team)'s shot from outside the box is saved in the bottom right corner with an assist from Player28(Away Team)."
+
+*   This snippet explicitly states that Player24 took a shot.
+*   Therefore, Shots count is incremented by 1.
+*   The shot was saved, so there is no goal.
+*   The snippet mentions an assist from Player28. Since we are tracking Player24, this does not count as an assist for Player24.
+
+Updated Counts:
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Snippet 2: "Player24(Away Team) receives a yellow card."
+
+*   This snippet explicitly states that Player24 received a yellow card.
+*   Therefore, Yellow Cards count is incremented by 1.
+
+Updated Counts:
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 1
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 1     | 0     | 0       | 0          | 0     | 1            | 0         | 0        |
+```

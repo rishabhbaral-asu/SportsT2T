@@ -1,0 +1,50 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player21 and generate the final summary table.
+
+**1. Identify Target Player:**
+
+The target player is Player21.
+
+**2. Initialize Counts:**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**3. Analyze Snippets:**
+
+*   **Snippet 1:** "Player21(Away Team) concedes a foul, allowing Player10(Home Team) to win a free kick in the attacking half."
+    *   Fouls: Player21 concedes a foul. Increment Fouls by 1.
+    *   Free Kicks: Player21 concedes a foul, so this doesn't count as a free kick, as it is counted as a foul.
+*   **Snippet 2:** "Player21(Away Team) commits a foul on Player10(Home Team), who earns a free kick on the left wing, The referee blows the whistle."
+    *   Fouls: Player21 commits a foul. Increment Fouls by 1.
+*   **Snippet 3:** "Player21(Away Team) scores with a close-range header to the top left corner, assisted by Player25(Away Team) from a set piece, The score is now tied at 1-1 between the Home Team and the Away Team."
+    *   Shots: Player21 scores a goal with a header. Increment Shots by 1.
+    *   Goals: Player21 scores a goal. Increment Goals by 1.
+    *   Assists: Player21 was assisted by Player25, so this does not count as an assist for Player21.
+*   **Snippet 4:** "Player21(Away Team) commits a foul."
+    *   Fouls: Player21 commits a foul. Increment Fouls by 1.
+*   **Snippet 5:** "Player21(Away Team) receives a yellow card for a harsh foul."
+    *   Fouls: The snippet also mentions "harsh foul". Increment Fouls by 1.
+    *   Yellow Cards: Player21 receives a yellow card. Increment Yellow Cards by 1.
+**4. Final Counts:**
+
+*   Shots = 1
+*   Goals = 1
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 4
+*   Yellow Cards = 1
+*   Red Cards = 0
+*   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 1     | 1     | 0       | 0          | 4     | 1            | 0         | 0        |
+```

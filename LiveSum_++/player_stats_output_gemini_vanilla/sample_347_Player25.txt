@@ -1,0 +1,23 @@
+Okay, I will follow the instructions to analyze the commentary snippets and generate the summary table for the specified player.
+
+**Player Name:** Player25
+
+**Commentary Snippets:**
+- Player25(Away Team) commits a foul, allowing Player9(Home Team) to win a free kick in the attacking half.
+
+**Analysis:**
+
+1. **Identify Target Player:** The target player is Player25.
+2. **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3. **Analyze Snippets:**
+   - Snippet 1: "Player25(Away Team) commits a foul, allowing Player9(Home Team) to win a free kick in the attacking half."
+     - Fouls: The snippet explicitly states "Player25 commits a foul". Therefore, Fouls is incremented by 1.
+     - Free Kicks: Player25 committed a foul, that does not count as a free kick taken for Player25.
+4. **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

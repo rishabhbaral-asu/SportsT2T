@@ -1,0 +1,45 @@
+Okay, let's analyze the commentary snippets for Player3 and compile the statistics.
+
+**1. Identify Target Player:**
+
+The target player is Player3.
+
+**2. Initialize Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player3(Home Team)'s shot from the center of the box is blocked after receiving a headed pass from Player5(Home Team)."
+    *   Shots: Increment to 1 (explicitly states "shot")
+
+*   **Snippet 2:** "Player3(Home Team) commits a foul."
+    *   Fouls: Increment to 1 (explicitly states "commits a foul")
+
+*   **Snippet 3:** "Player3(Home Team)'s header from the centre of the box is saved in the top centre of the goal, assisted by Player8(Home Team) with a cross, while Player29(Away Team)'s left-footed shot from the left side of the six-yard box is close but misses to the left, assisted by Player27(Away Team)."
+    *   Shots: Increment to 2 (explicitly states "header" and "saved", implying it was an attempt on goal)
+
+**4. Final Counts:**
+
+*   Shots: 2
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

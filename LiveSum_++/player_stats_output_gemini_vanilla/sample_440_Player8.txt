@@ -1,0 +1,39 @@
+Okay, let's analyze the commentary snippets for Player8 and generate the final summary table.
+
+1.  **Identify Target Player:** The target player is Player8.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+    *   Snippet 1: "Player8(Home Team)'s shot from outside the box is blocked."
+        *   The snippet explicitly states that Player8 took a shot.
+        *   Shots = 1
+    *   Snippet 2: "Player8(Home Team)'s left footed shot from outside the box is saved in the center of the goal with an assist from Player10(Home Team)."
+        *   The snippet explicitly states that Player8 took a shot.
+        *   Shots = 2
+        *   The snippet explicitly states that Player8's shot was assisted by Player10. This does NOT increment Player8's assists.
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

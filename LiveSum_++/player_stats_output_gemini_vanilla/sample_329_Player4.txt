@@ -1,0 +1,39 @@
+Okay, let's break this down step by step.
+
+1.  **Identify Target Player:** The target player is Player4.
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player4(Home Team)'s header into the bottom right corner off a cross from Player10(Home Team) after a corner kick."
+        *   This snippet clearly states Player4 scored a goal with a header. Thus it is also a shot.
+        *   Goals += 1
+        *   Shots += 1
+
+    *   **Snippet 2:** "Player4(Home Team) tried to pass the ball to Player11(Home Team), but Player11(Home Team) was in an offside position."
+        *   This snippet states that Player11 was offside after Player4 passed to him. This means Player4 did not commit an offside. Offside applies to the player in the offside position (Player11), not the passer (Player4). Offsides are not counted for Player4.
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 1     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,47 @@
+Okay, let's analyze the commentary snippets for Player4 and generate the statistics table.
+
+**Player Name:** Player4
+
+**Commentary Snippets:**
+- Player4(Home Team) scoring from close range with his right foot to the bottom left corner, assisted by Player7(Home Team) after a corner kick.
+- Player4(Home Team) missed a close-range header after a cross from Player5(Home Team) following a corner.
+
+**Analysis:**
+
+*   **Snippet 1:** "Player4(Home Team) scoring from close range with his right foot to the bottom left corner, assisted by Player7(Home Team) after a corner kick."
+    *   **Shots:** The snippet states "scoring," which implies a shot and a goal. Increment Shots by 1.
+    *   **Goals:** The snippet states "scoring." Increment Goals by 1.
+    *   **Assists:** The snippet states "assisted by Player7(Home Team)". Since Player4 *received* the assist, this does NOT count as an assist for Player4.
+    *   **Free Kicks:** No mention of free kicks or penalties.
+    *   **Fouls:** No mention of fouls.
+    *   **Yellow Cards:** No mention of yellow cards.
+    *   **Red Cards:** No mention of red cards.
+    *   **Offsides:** No mention of offsides.
+
+*   **Snippet 2:** "Player4(Home Team) missed a close-range header after a cross from Player5(Home Team) following a corner."
+    *   **Shots:** The snippet states "missed a close-range header" meaning an attempt on goal. Increment Shots by 1.
+    *   **Goals:** The snippet states "missed," so no goal is scored.
+    *   **Assists:** No mention of Player4 providing assistance to another player.
+    *   **Free Kicks:** No mention of free kicks or penalties.
+    *   **Fouls:** No mention of fouls.
+    *   **Yellow Cards:** No mention of yellow cards.
+    *   **Red Cards:** No mention of red cards.
+    *   **Offsides:** No mention of offsides.
+
+**Final Counts:**
+
+*   Shots: 1 + 1 = 2
+*   Goals: 1
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 2     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

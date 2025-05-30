@@ -1,0 +1,39 @@
+Okay, let's analyze the commentary snippets for Player3 and compile the statistics.
+
+1.  **Player Name:** Player3
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player3(Home Team) earns a free kick in their own defensive half."
+        *   This indicates Player3 *earned* a free kick. This means a foul was committed *against* Player3. It falls under the `free kick` keywords as `earns a free kick`. Therefore increment Free Kicks by 1.
+
+    *   Snippet 2: "Player3(Home Team) attempts a through ball, but Player11(Home Team) is offside for the Home Team."
+        *   This mentions Player3 *attempted* a through ball, which led to Player11 being offside. There are no shots, goals, assists, free kicks, fouls, yellow cards, or red cards associated with Player3 in this snippet. Player3 being mentioned does not mean a tracked event occurred (unless there's a clear indication)
+        * Offsides are not attributed to the passing player, only to the player flagged as being offside.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

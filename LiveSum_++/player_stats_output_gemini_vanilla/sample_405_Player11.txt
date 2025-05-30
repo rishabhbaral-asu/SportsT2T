@@ -1,0 +1,61 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for Player11 and count explicit occurrences of defined events.
+
+**Input:**
+*   **Player Name:**
+    ```
+    <PLAYER_NAME>
+    Player11
+    </PLAYER_NAME>
+    ```
+*   **Commentary Snippets:**
+    ```
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player11(Home Team)'s header from the center of the box goes wide to the right after a cross from Player2(Home Team).
+    - Player11(Home Team) commits a foul, resulting in Player25(Away Team) being awarded a free kick in their own defensive half.
+    - Player11(Home Team)'s shot from the right side of the box is blocked with the help of Player8(Home Team).
+    </PLAYER_COMMENTARY_SNIPPETS>
+    ```
+
+**Step-by-step breakdown:**
+
+1.  **Player Name:** The target player is Player11.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player11(Home Team)'s header from the center of the box goes wide to the right after a cross from Player2(Home Team)."
+        *   "header" implies an attempt on goal. Therefore, Shots += 1.
+
+    *   **Snippet 2:** "Player11(Home Team) commits a foul, resulting in Player25(Away Team) being awarded a free kick in their own defensive half."
+        *   "commits a foul" clearly indicates a foul committed by Player11. Therefore, Fouls += 1.
+
+    *   **Snippet 3:** "Player11(Home Team)'s shot from the right side of the box is blocked with the help of Player8(Home Team)."
+        *   "shot" implies an attempt on goal. Therefore, Shots += 1.
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

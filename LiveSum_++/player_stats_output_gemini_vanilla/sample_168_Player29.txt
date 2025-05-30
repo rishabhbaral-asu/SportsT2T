@@ -1,0 +1,38 @@
+Okay, let's analyze the commentary snippets for Player29 and compile the statistics.
+
+**Player Name:** Player29
+
+**Commentary Snippets:**
+
+- Player29(Away Team) fouls Player3(Home Team), winning a free kick in their defensive half, This results in a free kick for Player3(Home Team) in their defensive half.
+- Player29(Away Team) commits a foul.
+- Player29(Away Team) receives a yellow card for a rough tackle.
+- Player29(Away Team) misses the header to the right from the center of the box.
+- Player29(Away Team)'s shot from the center of the box with his right foot was close, but ultimately missed to the right with an assist from Player26(Away Team).
+
+**Step-by-step Analysis:**
+
+1.  **Identify Player:** The target player is Player29.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player29(Away Team) fouls Player3(Home Team), winning a free kick in their defensive half, This results in a free kick for Player3(Home Team) in their defensive half."
+        *   Player29 commits a foul: Fouls = 1
+        *   Player29 wins a free kick: Free Kicks = 1
+    *   **Snippet 2:** "Player29(Away Team) commits a foul."
+        *   Player29 commits a foul: Fouls = 1. Total Fouls = 2
+    *   **Snippet 3:** "Player29(Away Team) receives a yellow card for a rough tackle."
+        *   Player29 receives a yellow card: Yellow Cards = 1
+    *   **Snippet 4:** "Player29(Away Team) misses the header to the right from the center of the box."
+        *   Player29 misses a header (attempt on goal): Shots = 1
+    *   **Snippet 5:** "Player29(Away Team)'s shot from the center of the box with his right foot was close, but ultimately missed to the right with an assist from Player26(Away Team)."
+        *   Player29 takes a shot: Shots = 1. Total Shots = 2
+        *   Player29 receives an assist - No assist is given as Player29 is not assisting another player to score
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 2     | 0     | 0       | 1          | 2     | 1            | 0         | 0        |
+```

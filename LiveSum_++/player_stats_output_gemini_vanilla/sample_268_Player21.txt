@@ -1,0 +1,54 @@
+Okay, let's analyze the commentary snippets for Player21 and generate the requested markdown table.
+
+**1. Player Name:**
+The target player is Player21.
+
+**2. Initialization:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player21(Away Team) earns a free kick in their own half."
+    *   Player21 earns a free kick. This increments Free Kicks.
+    *   Free Kicks = 1
+
+*   **Snippet 2:** "Player21(Away Team) commits a foul."
+    *   Player21 commits a foul. This increments Fouls.
+    *   Fouls = 1
+
+*   **Snippet 3:** "Player21(Away Team) fouls Player11(Home Team), resulting in a free kick for the defensive team."
+    *   Player21 commits a foul. This increments Fouls.
+    *   Fouls = 2
+
+*   **Snippet 4:** "Player21(Away Team) receives a yellow card."
+    *   Player21 receives a yellow card. This increments Yellow Cards.
+    *   Yellow Cards = 1
+
+*   **Snippet 5:** "Player21(Away Team) earns a free kick in their own half."
+    *   Player21 earns a free kick. This increments Free Kicks.
+    *   Free Kicks = 2
+
+**4. Final Counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 2
+Fouls = 2
+Yellow Cards = 1
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 0     | 0     | 0       | 2          | 2     | 1            | 0         | 0        |
+```

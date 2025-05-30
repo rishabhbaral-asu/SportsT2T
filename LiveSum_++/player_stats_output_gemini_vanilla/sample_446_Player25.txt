@@ -1,0 +1,26 @@
+Okay, let's process the input and create the summary table.
+
+**Player Name:** Player25
+
+**Commentary Snippets:**
+
+- Player25(Away Team) attempts a through ball, but Player29(Away Team) is offside.
+- Player25(Away Team) commits a foul and Player10(Home Team) earns a free kick in the opponent's half.
+- Player25(Away Team) commits a foul, resulting in Player2(Home Team) being awarded a free kick in their own defensive half.
+- Player25(Away Team) receives a yellow card for a rough challenge.
+
+**Reasoning:**
+
+1.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+2.  **Snippet 1:** "Player25(Away Team) attempts a through ball, but Player29(Away Team) is offside." This mentions an offside for Player29, and there is no shot, goal, assist, free kick, foul, or card for Player25. Offsides = 0. No changes to other counts.
+3.  **Snippet 2:** "Player25(Away Team) commits a foul and Player10(Home Team) earns a free kick in the opponent's half." The phrase "commits a foul" increases the Fouls count by 1. Fouls = 1. The mention of "earns a free kick" here does not involve Player25 taking a free kick.
+4.  **Snippet 3:** "Player25(Away Team) commits a foul, resulting in Player2(Home Team) being awarded a free kick in their own defensive half." Another instance of "commits a foul" increases the Fouls count by 1. Fouls = 2. The mention of "free kick" here does not involve Player25 taking a free kick.
+5.  **Snippet 4:** "Player25(Away Team) receives a yellow card for a rough challenge." This explicitly states "yellow card", so Yellow Cards is incremented. Yellow Cards = 1.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 0     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

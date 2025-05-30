@@ -1,0 +1,44 @@
+Okay, let's analyze the commentary snippets for Player14.
+
+1.  **Player Name:** Player14
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player14(Home Team) attempts a through ball, but Player17(Home Team) is caught offside."
+        *   Offsides: Player17 is offside, not Player14. No change to Player14's Offsides count.
+        *   No keywords for Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, or Red Cards are present and attributable to Player14. No changes to these counts.
+    *   **Snippet 2:** "Player14(Home Team) commits a foul."
+        *   Fouls: The snippet explicitly states "Player14 commits a foul". Increment Fouls by 1.
+        *   Fouls: 1
+    *   **Snippet 3:** "Player14(Home Team) has just been booked with a yellow card for a reckless challenge."
+        *   Yellow Cards: The snippet explicitly states "Player14 has just been booked with a yellow card". Increment Yellow Cards by 1.
+        *   Fouls: The snippet mentions a "reckless challenge", thus it will count as a foul. Increment Fouls by 1
+        *   Yellow Cards: 1
+        *   Fouls: 2
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 2
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player14 | 0     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

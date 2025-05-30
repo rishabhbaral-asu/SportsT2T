@@ -1,0 +1,31 @@
+Okay, I will follow the instructions meticulously to analyze the commentary snippets and generate the summary table.
+
+**Player Name:** Player13
+
+**Commentary Snippets:**
+- Player13(Home Team) commits a foul.
+- Player13(Home Team) receives a yellow card for a rough tackle.
+
+**Step-by-step reasoning:**
+
+1.  **Player Identification:** The target player is Player13.
+2.  **Initialization:** Initialize all event counts to 0.
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1: "Player13(Home Team) commits a foul."**
+        *   This snippet explicitly states that Player13 committed a foul. Increment the 'Fouls' count by 1.
+        *   Current counts: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+    *   **Snippet 2: "Player13(Home Team) receives a yellow card for a rough tackle."**
+        *   This snippet explicitly states that Player13 received a yellow card. Increment the 'Yellow Cards' count by 1.
+        * The snippet also describes a "rough tackle". Since the yellow card was given for the tackle, the tackle is considered a foul. The first snippet already counted the foul, so we are not counting another foul for this snippet.
+        *   Current counts: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 1, Red Cards = 0, Offsides = 0.
+
+4.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 1, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player13 | 0     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

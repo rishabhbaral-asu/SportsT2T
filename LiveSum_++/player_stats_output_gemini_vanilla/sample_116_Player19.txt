@@ -1,0 +1,29 @@
+Okay, let's analyze the provided commentary snippets for Player19 and generate the statistics table.
+
+**Player Name:** Player19
+
+**Commentary Snippets:**
+
+*   Player19(Away Team) commits a foul.
+*   Player19(Away Team)'s shot from the left side of the box goes high and wide to the left, with an assist from Player29(Away Team).
+*   Player19(Away Team) commits a foul.
+*   Player19(Away Team) commits a foul.
+
+**Step-by-step analysis:**
+
+1.  **Player Identification:** The target player is Player19.
+2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet Analysis:**
+    *   **Snippet 1:** "Player19(Away Team) commits a foul." - This clearly states Player19 committed a foul. Increment Fouls by 1. (Fouls = 1)
+    *   **Snippet 2:** "Player19(Away Team)'s shot from the left side of the box goes high and wide to the left, with an assist from Player29(Away Team)." - This indicates Player19 took a shot. Increment Shots by 1. (Shots = 1). The snippet also mentions that Player29 gave the assist, so no assist is attributed to Player19.
+    *   **Snippet 3:** "Player19(Away Team) commits a foul." - Player19 committed another foul. Increment Fouls by 1. (Fouls = 2)
+    *   **Snippet 4:** "Player19(Away Team) commits a foul." - Player19 committed another foul. Increment Fouls by 1. (Fouls = 3)
+
+4.  **Final Counts:** Shots = 1, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 3, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player19 | 1     | 0     | 0       | 0          | 3     | 0            | 0         | 0        |
+```

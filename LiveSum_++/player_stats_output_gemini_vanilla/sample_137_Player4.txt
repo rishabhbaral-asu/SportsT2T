@@ -1,0 +1,48 @@
+Okay, let's process the input and generate the player statistics table.
+
+**1. Identify Target Player:**
+
+The target player is Player4.
+
+**2. Initialize Counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   Snippet 1: "Player4(Home Team) misses the goal with a left-footed shot from outside the box."
+
+    *   Shots: The snippet explicitly states "Player4 misses the goal with a ... shot". Increment Shots by 1.
+    *   Goals: The snippet mentions "misses the goal", not a goal. Goals remains 0.
+    *   Assists: No mention of an assist by Player4. Assists remains 0.
+    *   Free Kicks: No mention of a free kick. Free Kicks remains 0.
+    *   Fouls: No mention of a foul. Fouls remains 0.
+    *   Yellow Cards: No mention of a yellow card. Yellow Cards remains 0.
+    *   Red Cards: No mention of a red card. Red Cards remains 0.
+    *   Offsides: No mention of offsides. Offsides remains 0.
+
+**4. Final Counts:**
+
+Shots = 1
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**5. Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,57 @@
+Okay, let's process the provided information step-by-step to generate the final summary table.
+
+1.  **Identify Player Name:**
+    The player name is Player3.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player3(Home Team) earns a free kick in their own defensive half."
+        *   "earns a free kick" - Free Kick count incremented by 1.
+        *   Free Kicks = 1
+
+    *   Snippet 2: "Player3(Home Team)'s header from the right side of the six yard box is saved in the bottom right corner after being assisted by Player7(Home Team) with a cross, resulting in a corner kick for the Home Team."
+        *   "header" - Shot count incremented by 1.
+        *   Shots = 1
+
+    *   Snippet 3: "Player3(Home Team) misses a header to the left from the center of the box after being assisted by Player7(Home Team) with a cross from a corner."
+        *   "misses a header" - Shot count incremented by 1.
+        *   Shots = 2
+
+    *   Snippet 4: "Player3(Home Team)'s shot with his left foot from the right side of the box is blocked."
+        *   "shot" - Shot count incremented by 1.
+        *   Shots = 3
+
+    *   Snippet 5: "Player3(Home Team) commits a foul."
+        *   "commits a foul" - Foul count incremented by 1.
+        *   Fouls = 1
+
+    *   Snippet 6: "Player3(Home Team) has been cautioned with a yellow card for a foul."
+        *   "yellow card" - Yellow Card count incremented by 1.
+        *   Yellow Cards = 1
+
+4.  **Final Counts:**
+    *   Shots = 3
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 3     | 0     | 0       | 1          | 1     | 1            | 0         | 0        |
+```

@@ -1,0 +1,42 @@
+Okay, let's analyze the commentary snippets for Player26.
+
+**1. Player Identification:**
+
+The target player is Player26.
+
+**2. Initialization:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player26(Away Team) commits a foul on Player5(Home Team), who wins a free kick in their defensive half."
+    *   The snippet explicitly states "Player26 commits a foul". Therefore, Fouls = 1. Player5 wins a free kick because Player26 committed the foul. This does NOT count as a free kick *taken* by Player26.
+*   **Snippet 2:** "Player26(Away Team) committing a foul."
+    *   The snippet explicitly states "Player26 committing a foul." Therefore, Fouls = 2.
+
+**4. Final Counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 2
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**5. Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 0     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

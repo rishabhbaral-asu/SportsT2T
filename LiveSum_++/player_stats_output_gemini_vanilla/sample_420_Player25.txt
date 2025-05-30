@@ -1,0 +1,44 @@
+Okay, let's analyze the commentary snippets for Player25 and generate the summary table.
+
+**1. Identify Target Player:**
+
+The target player is Player25.
+
+**2. Initialize Counts:**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player25(Away Team) attempts a through ball, but Player28(Away Team) is caught in an offside position."
+    *   Player25 attempts a through ball which leads to Player28 being offside. This does not count as an assist.
+    *   Player25 is passing the ball to Player28, who is then offside. This means Player25 is not offside, but Player28 is. Therefore offsides remains 0.
+*   **Snippet 2:** "Player25(Away Team) earns a free kick in the attacking half after a foul on Player6(Home Team)."
+    *   Player25 earns a free kick. Therefore, Free Kicks = Free Kicks + 1 = 1.
+    *   The event is unambiguously attributed to Player25.
+
+**4. Final Counts:**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 1
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**5. Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

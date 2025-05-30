@@ -1,0 +1,50 @@
+Okay, let's process the player commentary snippets step by step to extract the required statistics for Player29.
+
+1.  **Identify Player Name:** The target player is Player29.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player29(Away Team) scores from the penalty spot with a right-footed shot into the bottom left corner."
+        *   Goal: Increment Goals by 1 (Goal = 1)
+        *   Shot: Increment Shots by 1 (Shots = 1)
+        *   Free Kick: Increment Free Kicks by 1 (Free Kicks = 1)
+
+    *   Snippet 2: "Player29(Away Team) commits a foul."
+        *   Foul: Increment Fouls by 1 (Fouls = 1)
+
+    *   Snippet 3: "Player29(Away Team)'s shot from outside the box is blocked with Player27(Away Team) assisting."
+        *   Shot: Increment Shots by 1 (Shots = 2)
+        *   Assist: No assist to Player29 in this snippet
+
+    *   Snippet 4: "Player29(Away Team)'s right footed shot from outside the box is saved in the center of the goal, resulting in a corner kick for the Home Team."
+        *   Shot: Increment Shots by 1 (Shots = 3)
+
+    *   Snippet 5: "Player29(Away Team)'s shot from the center of the box is blocked."
+        *   Shot: Increment Shots by 1 (Shots = 4)
+
+4.  **Final Counts:**
+    *   Shots = 4
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 4     | 1     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

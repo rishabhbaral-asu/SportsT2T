@@ -1,0 +1,25 @@
+Okay, let's start by identifying the target player and initializing the event counts.
+
+Target Player: Player35
+
+Initial Event Counts:
+Shots: 0, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+Now, let's analyze each commentary snippet and increment the counts accordingly, following the strict counting rules:
+
+Snippet 1: "Player35(Away Team) commits a foul."
+*   Fouls: The snippet explicitly states Player35 committed a foul, so increment Fouls by 1. Fouls = 1.
+
+Snippet 2: "Player35(Away Team)'s left footed shot from outside the box is blocked after being assisted by Player25(Away Team)."
+*   Shots: The snippet explicitly states Player35 took a shot (blocked), so increment Shots by 1. Shots = 1.
+*   Assists: The snippet explicitly states Player35 was *assisted by* Player25; thus, Player35 is not providing the assist, so the Assist count remains at 0.
+
+Snippet 3: "Player35(Away Team) earns a free kick in their own half."
+*   Free Kicks: The snippet explicitly states Player35 earned a free kick. Increment Free Kicks by 1. Free Kicks = 1.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player35 | 1     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

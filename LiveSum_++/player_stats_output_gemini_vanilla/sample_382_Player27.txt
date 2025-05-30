@@ -1,0 +1,37 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for Player27 and count explicit occurrences of defined events.
+
+**Input:**
+* **Player Name:**
+    <PLAYER_NAME>
+    Player27
+    </PLAYER_NAME>
+* **Commentary Snippets:**
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player27(Away Team) earns a free kick in their own half.
+    - Player27(Away Team) fouls Player2(Home Team), earning a free kick in their own defensive half.
+    - Player27(Away Team) scoring a brilliant long-range shot with their right foot into the top left corner.
+    - Player27(Away Team) earns a free kick on the right side of the field.
+    - Player27(Away Team)'s attempt from outside the box with his right foot narrowly misses to the left after a corner.
+    </PLAYER_COMMENTARY_SNIPPETS>
+
+**Reasoning:**
+
+1.  **Player Name:** The target player is Player27.
+2.  **Initialization:** Initialize all event counts to 0 for Player27: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet Analysis:**
+    *   **Snippet 1:** "Player27(Away Team) earns a free kick in their own half." - Player27 earns a free kick, so Free Kicks += 1.
+    *   **Snippet 2:** "Player27(Away Team) fouls Player2(Home Team), earning a free kick in their own defensive half." - Player27 commits a foul, so Fouls += 1.
+    *   **Snippet 3:** "Player27(Away Team) scoring a brilliant long-range shot with their right foot into the top left corner." - Player27 scores a goal, so Goals += 1 and Shots += 1.
+    *   **Snippet 4:** "Player27(Away Team) earns a free kick on the right side of the field." - Player27 earns a free kick, so Free Kicks += 1.
+    *   **Snippet 5:** "Player27(Away Team)'s attempt from outside the box with his right foot narrowly misses to the left after a corner." - Player27 attempts a shot, so Shots += 1.
+
+4.  **Final Counts:** Shots = 2, Goals = 1, Assists = 0, Free Kicks = 2, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 2     | 1     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

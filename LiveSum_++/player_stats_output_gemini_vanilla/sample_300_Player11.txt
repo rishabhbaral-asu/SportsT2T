@@ -1,0 +1,45 @@
+Okay, I'm ready to process the player commentary snippets and generate the requested markdown table.
+
+**1. Identify Target Player:**
+
+The target player is Player11.
+
+**2. Initialize Counts:**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player11(Home Team) missed the shot with his right foot from the right side of the box, after receiving a through ball from Player6(Home Team)."
+    *   "missed the shot" - This indicates a shot by Player11.
+    *   Shots = 1
+*   **Snippet 2:** "Player11(Home Team) just missed a shot with their right foot from the right side of the box, the ball veering to the left, The attempt was assisted by Player6(Home Team) with a through ball."
+    *   "missed a shot" - This indicates a shot by Player11.
+    *   Shots = 2
+
+**4. Final Counts:**
+
+*   Shots = 2
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**5. Create Markdown Table:**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

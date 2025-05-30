@@ -1,0 +1,33 @@
+Okay, let's analyze the commentary snippets for Player22.
+
+1.  **Player Name:** `Player22`
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+**Snippet Analysis:**
+
+*   Snippet 1: `Player22(Away Team) misses the target with a high right-footed shot from outside the box, assisted by Player27(Away Team) with a cross after a corner.`
+    *   The snippet explicitly states that Player22 missed a shot. So, increment Shots by 1.
+    *   Since Player22 missed the shot it is not a goal, thus Goal = 0.
+    *   Player22 was assisted by Player27. The snippet indicates Player22 was the receiver, not the giver, of the assist, so Assists remains 0.
+    *   No other events are mentioned.
+*   Snippet 2: `Player22(Away Team) earns a free kick in their own half.`
+    *   The snippet says Player22 earns a free kick. Therefore, increment Free Kicks by 1.
+    *   No other events are mentioned.
+
+**Final Counts:**
+
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

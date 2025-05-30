@@ -1,0 +1,48 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player27 and generate the final summary table.
+
+**1. Identify the target player name:**
+
+The target player is Player27.
+
+**2. Initialize event counts to 0:**
+
+Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+**3. Analyze each snippet and increment counts:**
+
+*   **Snippet 1:** "Player27(Away Team)'s left footed shot from outside the box is blocked, resulting in a corner kick for the Away Team."
+    *   Mentions "shot" by Player27. Increment Shots = 1.
+    *   No mention of goals, assists, free kicks, fouls, cards, or offsides.
+
+*   **Snippet 2:** "Player27(Away Team)'s left-footed shot from outside the box goes wide to the right with an assist from Player24(Away Team)."
+    *   Mentions "shot" by Player27. Increment Shots = 2.
+    *   Player24 provided the assist, not Player27, so do not increment assists for Player27.
+
+*   **Snippet 3:** "Player27(Away Team) commits a foul."
+    *   Mentions "foul" committed by Player27. Increment Fouls = 1.
+    *   No mention of goals, assists, free kicks, shots, cards, or offsides.
+
+*   **Snippet 4:** "Player27(Away Team)'s left footed shot from outside the box goes high and wide to the left, with an assist from Player30(Away Team)."
+    *   Mentions "shot" by Player27. Increment Shots = 3.
+    *   Player30 provided the assist, not Player27, so do not increment assists for Player27.
+
+*   **Snippet 5:** "Player27(Away Team)'s header from the right side of the six yard box was too high after being assisted by Player22(Away Team) with a cross from a corner."
+    *   Mentions "header" attempt on goal by Player27. Increment Shots = 4.
+        Player22 provided the assist, not Player27, so do not increment assists for Player27.
+
+*   **Snippet 6:** "Player27(Away Team)'s left-footed shot from outside the box goes over the goal."
+    *   Mentions "shot" by Player27. Increment Shots = 5.
+    *   No mention of goals, assists, free kicks, fouls, cards, or offsides.
+
+**4. Final Counts:**
+
+Shots = 5, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+**5. Final Summary Table:**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 5     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,37 @@
+Okay, let's analyze the commentary snippets for Player16 and generate the final summary table.
+
+**Player Name:** Player16
+
+**Commentary Snippets:**
+
+*   "Player16(Home Team) commits a foul."
+*   "Player16(Home Team) earns a free kick in the opponent's half."
+*   "Player16(Home Team) earns a free kick in their own half."
+*   "Player16(Home Team) commits a foul, resulting in Player26(Away Team) being awarded a free kick in the opponent's half."
+*   "Player16(Home Team) attempts a through ball to Player14(Home Team), but he is caught offside and commits a foul."
+
+**Analysis:**
+
+1.  **Fouls:**
+    *   Snippet 1: "Player16(Home Team) commits a foul." - Foul count incremented by 1.
+    *   Snippet 4: "Player16(Home Team) commits a foul, resulting in Player26(Away Team) being awarded a free kick in the opponent's half." - Foul count incremented by 1.
+    *   Snippet 5: "Player16(Home Team) attempts a through ball to Player14(Home Team), but he is caught offside and commits a foul." - Foul count incremented by 1.
+    Total fouls = 3
+
+2.  **Free Kicks:**
+    *   Snippet 2: "Player16(Home Team) earns a free kick in the opponent's half." - Free Kick count incremented by 1.
+    *   Snippet 3: "Player16(Home Team) earns a free kick in their own half." - Free Kick count incremented by 1.
+    Total free kicks = 2
+
+3.  **Offsides:**
+    * Snippet 5: "Player16(Home Team) attempts a through ball to Player14(Home Team), but he is caught offside and commits a foul." Since Player16 attempts a through ball, it does not mean that Player16 is caught offside. Therefore, Offside count remains at 0.
+
+4.  **Shots, Goals, Assists, Yellow Cards, Red Cards:**
+    *   None of the snippets explicitly mention Player16 taking a shot, scoring a goal, providing an assist, or receiving a yellow/red card. Therefore, these counts remain at 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player16 | 0     | 0     | 0       | 2          | 3     | 0            | 0         | 0        |
+```

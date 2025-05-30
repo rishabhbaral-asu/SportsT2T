@@ -1,0 +1,27 @@
+Okay, I'm ready to process the inputs and generate the player statistics table.
+
+**Player Name:** Player23
+
+**Commentary Snippets:**
+- Player23(Away Team) earns a free kick on the left side of the field.
+- Player23(Away Team)'s left-footed shot from outside the box is saved in the top left corner, assisted by Player32(Away Team), resulting in a corner kick for the Away Team.
+- Player23(Away Team) earns a free kick on the right side of the field.
+- Player23(Away Team) commits a foul.
+
+**Reasoning:**
+
+1.  **Shots:** The second snippet mentions "Player23(Away Team)'s left-footed shot". This is an explicit shot attempt by Player23, so we increment Shots by 1.
+2.  **Goals:** No snippet explicitly mentions Player23 scoring a goal.
+3.  **Assists:** The second snippet mentions "assisted by Player32(Away Team)". This means Player23 *received* the assist, not *provided* it. No assist is counted for Player23.
+4.  **Free Kicks:** The first snippet mentions "Player23(Away Team) earns a free kick". The third snippet mentions "Player23(Away Team) earns a free kick". This results in 2 free kicks.
+5.  **Fouls:** The fourth snippet mentions "Player23(Away Team) commits a foul". This is a clear foul committed by Player23, so we increment Fouls by 1.
+6.  **Yellow Cards:** No snippet explicitly mentions Player23 receiving a yellow card.
+7.  **Red Cards:** No snippet explicitly mentions Player23 receiving a red card.
+8.  **Offsides:** No snippet explicitly mentions Player23 being offsides.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 1     | 0     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

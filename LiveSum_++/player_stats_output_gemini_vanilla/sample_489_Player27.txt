@@ -1,0 +1,28 @@
+Okay, let's analyze the commentary snippets for Player27 and create the summary table.
+
+1.  **Player Name:** The target player is Player27.
+2.  **Initialization:** We initialize all event counts to 0 for Player27.
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player27(Away Team) commits a foul." - This clearly states Player27 committed a foul. Increment Fouls by 1.
+    *   **Snippet 2:** "Player27(Away Team) earns a free kick in their own half." - This explicitly states that Player27 earned a free kick. Increment Free Kicks by 1.
+    *   **Snippet 3:** "Player27(Away Team)'s shot from the center of the box is blocked by the defense, resulting in a corner kick for the Away Team after an assist from Player20(Away Team)." - This indicates Player27 took a shot. Increment Shots by 1.
+    *   **Snippet 4:** "Player27(Away Team)'s shot from outside the box is saved in the center of the goal, while Player26(Away Team)'s shot from the right side of the box narrowly misses to the left." - This snippet describes a shot by Player27. Increment Shots by 1.
+    *   **Snippet 5:** "Player27(Away Team) attempts a through ball to Player33(Away Team), who is caught offside." - This indicates Player27 attempted a pass to player 33, who was caught offside. There's no mention of an assist here so Offsides is incremented by 1.
+
+4.  **Final Counts:**
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

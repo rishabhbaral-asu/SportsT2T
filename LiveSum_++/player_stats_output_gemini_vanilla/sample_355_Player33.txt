@@ -1,0 +1,28 @@
+Okay, let's break this down step by step.
+
+1.  **Player Name:** The target player is Player33.
+2.  **Initialization:** We start with Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Commentary Snippet Analysis:**
+
+    *   **Snippet 1:** "Player33(Away Team) has committed a hand ball." - This is explicitly a foul committed by Player33. Fouls = 1.
+    *   **Snippet 2:** "Player33(Away Team) commits a foul." - This is explicitly a foul committed by Player33. Fouls = 2.
+    *   **Snippet 3:** "Player33(Away Team) has committed a hand ball." - This is explicitly a foul committed by Player33. Fouls = 3.
+    *   **Snippet 4:** "Player33(Away Team) receives a yellow card." - Player33 receives a yellow card. Yellow Cards = 1.
+    *   **Snippet 5:** "Player33(Away Team) scores with a header from a close distance to the bottom left corner, assisted by Player26(Away Team) with a cross after a corner kick, The score is now tied 2-2 between the Home Team and the Away Team." - Player33 scores a goal and this was a shot on goal. Goals = 1, Shots = 1. No assist is recorded for Player33 as the snippet explicitly states Player26 assisted Player33.
+
+4. **Final Count:**
+    * Shots: 1
+    * Goals: 1
+    * Assists: 0
+    * Free Kicks: 0
+    * Fouls: 3
+    * Yellow Cards: 1
+    * Red Cards: 0
+    * Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player33 | 1     | 1     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

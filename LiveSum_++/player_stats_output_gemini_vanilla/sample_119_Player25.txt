@@ -1,0 +1,51 @@
+Okay, let's analyze the commentary snippets for Player25.
+
+**1. Player Name:**
+The target player is Player25.
+
+**2. Initialization:**
+We initialize the counts for all events to 0.
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player25(Away Team) earns a free kick in the opponent's half."
+    *   `Free Kicks`: Player25 "earns a free kick". Increment `Free Kicks` by 1.
+
+*   **Snippet 2:** "Player25(Away Team)'s header from the left side of the six-yard box is saved in the top center of the goal after being assisted by Player27(Away Team) with a cross, while Player22(Away Team)'s left-footed shot from the center of the box narrowly misses to the left following a corner."
+    *   `Shots`: Player25's "header" is saved. This is an attempt on goal so increment Shots by 1.
+    *   `Assists`: Player25 was assisted, so no assist for Player25.
+
+*   **Snippet 3:** "Player25(Away Team) earns a free kick in their opponent's territory."
+    *   `Free Kicks`: Player25 "earns a free kick". Increment `Free Kicks` by 1.
+
+*   **Snippet 4:** "Player25(Away Team) receives a yellow card."
+    *   `Yellow Cards`: Player25 "receives a yellow card". Increment `Yellow Cards` by 1.
+
+*   **Snippet 5:** "Player25(Away Team) fouls Player3(Home Team), resulting in a free kick in the defensive half."
+    *   `Fouls`: Player25 "fouls Player3". Increment `Fouls` by 1.
+
+*   **Snippet 6:** "Player25(Away Team)'s shot from outside the box is blocked by the opposition with an assist from Player5(Home Team), resulting in a corner kick for the Away Team."
+    *   `Shots`: Player25's "shot" is blocked. Increment `Shots` by 1.
+    *   `Assists`: Player25 was assisted, so no assist for Player25.
+
+*   **Snippet 7:** "Player25(Away Team)'s shot from outside the box is saved in the center of the goal, with an assist from Player26(Away Team)."
+    *   `Shots`: Player25's "shot" is saved. Increment `Shots` by 1.
+    *   `Assists`: Player25 was assisted, so no assist for Player25.
+
+**4. Final Counts:**
+
+*   Shots: 4
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 2
+*   Fouls: 1
+*   Yellow Cards: 1
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 4     | 0     | 0       | 2          | 1     | 1            | 0         | 0        |
+```

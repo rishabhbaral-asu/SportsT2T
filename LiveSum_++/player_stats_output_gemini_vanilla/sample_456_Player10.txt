@@ -1,0 +1,39 @@
+Okay, let's process the input step by step to generate the final summary table.
+
+**1. Identify the target player:**
+The target player is Player10.
+
+**2. Initialize event counts:**
+Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+**3. Analyze commentary snippets:**
+
+*   **Snippet 1:** "Player10(Home Team)'s right footed shot from the left side of the box narrowly misses to the right, despite being assisted by Player11(Home Team)."
+    *   "shot" is present, so increment Shots by 1.
+    Shots = 1
+
+*   **Snippet 2:** "Player10(Home Team) commits a foul, resulting in Player25(Away Team) winning a free kick in their defensive half, This leads to a set piece opportunity for Player25(Away Team)'s team."
+    *   "foul" is present and explicitly committed by Player10, so increment Fouls by 1.
+    Fouls = 1
+
+*   **Snippet 3:** "Player10(Home Team)'s shot from the center of the box was too high, with an assist from Player5(Home Team)."
+    *   "shot" is present, so increment Shots by 1.
+    Shots = 2
+
+*   **Snippet 4:** "Player10(Home Team)'s shot from outside the box narrowly misses to the right, with an assist from Player5(Home Team)."
+    *   "shot" is present, so increment Shots by 1.
+    Shots = 3
+
+*   **Snippet 5:** "Player10(Home Team) scores from the center of the box with an assist from Player4(Home Team) after a corner kick, Home Team leads 3-0 against Away Team."
+    *   "scores" is present, so increment Goals by 1.
+    *   "goal" is implied by "scores" so increment Shots by 1.
+    Goals = 1
+    Shots = 4
+
+**4. Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 4     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

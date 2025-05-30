@@ -1,0 +1,26 @@
+Okay, I'm ready to process the input and generate the player statistics table.
+
+**Step-by-step reasoning:**
+
+1.  **Identify Target Player:** The target player is Player14.
+
+2.  **Initialize Counters:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player14(Home Team) commits a foul." - Explicitly states Player14 commits a foul. Increment Fouls: Fouls = 1.
+    *   **Snippet 2:** "Player14(Home Team) commits a foul, giving Player20(Away Team) a free kick in their own defensive half." - Explicitly states Player14 commits a foul. Increment Fouls: Fouls = 2.
+    *   **Snippet 3:** "Player14(Home Team) receives a yellow card for a rough tackle." - Explicitly states Player14 receives a yellow card. Increment Yellow Cards: Yellow Cards = 1.
+    *   **Snippet 4:** "Player14(Home Team) takes a shot with his right foot from outside the box but misses to the left, with an assist from Player6(Home Team)." - Explicitly states Player14 takes a shot. Increment Shots: Shots = 1. It also explicitly mentions an assist *from Player6*, so Player14 gets no assist.
+    *   **Snippet 5:** "Player14(Home Team)'s shot from the left side of the box goes wide on the left, with an assist from Player8(Home Team)." - Explicitly states Player14 takes a shot. Increment Shots: Shots = 2. It also explicitly mentions an assist *from Player8*, so Player14 gets no assist.
+    *   **Snippet 6:** "Player14(Home Team) is currently delayed in the match due to an injury." - No relevant action for the defined statistics.
+    *   **Snippet 7:** "Player14(Home Team) has committed a hand ball." - Explicitly states Player14 committed a hand ball which counts as a foul. Increment Fouls: Fouls = 3.
+
+4.  **Final Counts:** Shots = 2, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 3, Yellow Cards = 1, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player14 | 2     | 0     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

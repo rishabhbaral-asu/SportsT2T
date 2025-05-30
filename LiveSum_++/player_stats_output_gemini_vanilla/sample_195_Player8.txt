@@ -1,0 +1,48 @@
+Okay, let's analyze the commentary snippets for Player8 and generate the final summary table.
+
+**1. Player Name:**
+The target player is Player8.
+
+**2. Initialize Counts:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player8(Home Team) earns a free kick on the right side of the field."
+    *   This explicitly states that Player8 earned a free kick.
+    *   Free Kicks = 1
+
+*   **Snippet 2:** "Player8(Home Team)'s shot from the center of the box is saved by the goalkeeper, with an assist from Player9(Home Team)."
+    *   This explicitly states Player8 took a shot.
+    *   Shots = 1
+
+*   **Snippet 3:** "Player8(Home Team) attempts a through ball, but Player15(Home Team) is offside for the Home Team."
+    *   This explicitly states that Player8 attempted a through ball, leading to Player15 being offside, but does not count as an assist. No event increment.
+
+*   **Snippet 4:** "Player8(Home Team)'s shot from outside the box with his left foot is saved in the bottom left corner, with an assist from Player5(Home Team)."
+    *   This explicitly states Player8 took a shot.
+    *   Shots = 2
+
+**4. Final Counts:**
+Shots = 2
+Goals = 0
+Assists = 0
+Free Kicks = 1
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 2     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

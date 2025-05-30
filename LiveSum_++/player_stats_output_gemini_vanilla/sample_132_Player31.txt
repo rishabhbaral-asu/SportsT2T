@@ -1,0 +1,41 @@
+Okay, let's break down the process step by step.
+
+1.  **Player Identification:**
+    The target player is Player31.
+
+2.  **Initialization:**
+    Shots = 0
+    Goals = 0
+    Assists = 0
+    Free Kicks = 0
+    Fouls = 0
+    Yellow Cards = 0
+    Red Cards = 0
+    Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player31(Away Team) is fouled in the box."
+        *   The player is fouled. Thus, they win a free kick/penalty. Increment Free Kicks by 1.
+        Free Kicks = 1
+
+    *   Snippet 2: "Player31(Away Team) commits a foul, giving Player3(Home Team) a free kick in their own defensive half."
+        *   The player commits a foul. Increment Fouls by 1.
+        Fouls = 1
+
+4.  **Final Count:**
+    Shots = 0
+    Goals = 0
+    Assists = 0
+    Free Kicks = 1
+    Fouls = 1
+    Yellow Cards = 0
+    Red Cards = 0
+    Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player31 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

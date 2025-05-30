@@ -1,0 +1,30 @@
+Okay, let's analyze the commentary snippets for Player10.
+
+*   **Player Name:** Player10
+
+*   **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+*   **Snippet Analysis:**
+
+    *   Snippet 1: "Player10(Home Team)'s shot from the center of the box is blocked with the help of Player8(Home Team)." - Contains "shot". Increment Shots to 1.
+    *   Snippet 2: "Player10(Home Team) earns a free kick in the opponent's half after being fouled by Player21(Away Team)." - Contains "free kick" and "fouled by". Increment Free Kicks to 1.
+    *   Snippet 3: "Player10(Home Team)'s shot from the right side of the six yard box is blocked by the defense after being assisted by Player11(Home Team), resulting in a corner kick for the Home Team." - Contains "shot". Increment Shots to 2.
+    *   Snippet 4: "Player10(Home Team) commits a foul." - Contains "foul". Increment Fouls to 1.
+    *   Snippet 5: "Player10(Home Team)'s header from the center of the box goes over the goal, with an assist from Player8(Home Team)'s cross after a corner kick." - Contains "header" which is an attempt on goal. Increment Shots to 3.
+    *   Snippet 6: "Player10(Home Team) earns a free kick in the opponent's half after being fouled by Player24(Away Team)." - Contains "free kick" and "fouled by". Free Kicks has already been incremented once in snippet 2, so no further increment is needed here.
+    *   Snippet 7: "Player10(Home Team)'s shot from outside the box is blocked." - Contains "shot". Increment Shots to 4.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 4     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

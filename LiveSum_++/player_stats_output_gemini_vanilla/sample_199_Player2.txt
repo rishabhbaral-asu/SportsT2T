@@ -1,0 +1,51 @@
+Okay, let's analyze the commentary snippets for Player2 and generate the summary table.
+
+**Step 1: Identify the target player.**
+The target player is Player2.
+
+**Step 2: Initialize counts.**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**Step 3: Analyze each snippet and increment counts.**
+
+*   **Snippet 1:** "Player2(Home Team) earns a free kick on the right side of the field."
+    *   Free Kicks: Player2 earns a free kick, so Free Kicks = 1.
+
+*   **Snippet 2:** "Player2(Home Team) wins a free kick in the defensive half, with Player7(Home Team)'s right footed shot from outside the box saved in the bottom right corner, assisted by Player8(Home Team)."
+    * Free Kicks: Player2 wins a free kick, so Free Kicks = 2
+
+*   **Snippet 3:** "Player2(Home Team) misses the target with a high right-footed shot from outside the box."
+    *   Shots: Player2 misses a shot, so Shots = 1.
+
+*   **Snippet 4:** "Player2(Home Team)'s attempt with his right foot from outside the box is blocked, resulting in a corner kick for the Home Team."
+    *   Shots: Player2's attempt is blocked, so Shots = 2.
+
+*   **Snippet 5:** "Player2(Home Team) commits a foul."
+    *   Fouls: Player2 commits a foul, so Fouls = 1.
+
+*   **Snippet 6:** "Player2(Home Team) receives a yellow card for a rough tackle."
+    *   Yellow Cards: Player2 receives a yellow card, so Yellow Cards = 1.
+
+**Step 4: Final Counts**
+Shots = 2
+Goals = 0
+Assists = 0
+Free Kicks = 2
+Fouls = 1
+Yellow Cards = 1
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 2     | 0     | 0       | 2          | 1     | 1            | 0         | 0        |
+```

@@ -1,0 +1,37 @@
+Okay, let's analyze the commentary snippets for Player9 and compile the statistics.
+
+**Player Name:** Player9
+
+**Commentary Snippets:**
+- Player9(Home Team) commits a foul and Player24(Away Team) earns a free kick in their own half.
+- Player9(Home Team) commits a foul.
+
+**Step-by-step Analysis:**
+
+1.  **Initialization:** We initialize all event counts for Player9 to 0.
+
+2.  **Snippet 1 Analysis:** "Player9(Home Team) commits a foul and Player24(Away Team) earns a free kick in their own half."
+    *   The phrase "commits a foul" explicitly states that Player9 committed a foul. Increment Fouls by 1.
+
+3.  **Snippet 2 Analysis:** "Player9(Home Team) commits a foul."
+    *   The phrase "commits a foul" explicitly states that Player9 committed a foul. Increment Fouls by 1.
+
+4. **Free Kick Analysis**: Although Player24 wins a free kick in the first snippet, this is not related to player9 and therefore is not counted
+
+**Final Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 2
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 0     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

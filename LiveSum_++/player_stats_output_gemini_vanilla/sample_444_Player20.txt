@@ -1,0 +1,44 @@
+Okay, let's analyze the commentary snippets for Player20 and compile the statistics.
+
+**Player Name:** Player20
+
+**Commentary Snippets:**
+- Player20(Away Team) attempts a through ball, but Player28(Away Team) is offside for the Away Team.
+- Player20(Away Team) attempts a through ball, but Player28(Away Team) is caught offside.
+- Player20(Away Team) earns a free kick in their own half.
+
+Here's the step-by-step breakdown:
+
+1. **Player Name:** Player20
+
+2. **Initialize Counts:**
+   * Shots = 0
+   * Goals = 0
+   * Assists = 0
+   * Free Kicks = 0
+   * Fouls = 0
+   * Yellow Cards = 0
+   * Red Cards = 0
+   * Offsides = 0
+
+3. **Analyze Snippets:**
+   * **Snippet 1:** "Player20(Away Team) attempts a through ball, but Player28(Away Team) is offside for the Away Team." - This does not count as a shot, goal, assist, foul, yellow card, or red card. It does not count as an offside for Player20 as it was Player28.
+   * **Snippet 2:** "Player20(Away Team) attempts a through ball, but Player28(Away Team) is caught offside." - Same as above. No change in stats
+   * **Snippet 3:** "Player20(Away Team) earns a free kick in their own half." - Player20 earned a free kick, therefore Free Kicks is incremented by 1.
+
+4. **Final Counts:**
+   * Shots = 0
+   * Goals = 0
+   * Assists = 0
+   * Free Kicks = 1
+   * Fouls = 0
+   * Yellow Cards = 0
+   * Red Cards = 0
+   * Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

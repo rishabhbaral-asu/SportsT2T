@@ -1,0 +1,74 @@
+Okay, let's break down the commentary snippets for Player10 and compile the statistics.
+
+**Player Name:** Player10
+
+**Commentary Snippets Analysis:**
+
+*   **Snippet 1:** "Player10(Home Team) misses the goal with a right-footed shot from outside the box, assisted by Player8(Home Team)."
+    *   Mentions "misses the goal" and "shot", so increment Shots by 1.
+    *   Does not mention a goal being scored, so Goals remains 0.
+    *   Player10 was *assisted by* Player8, not the other way around, so Assists remains 0.
+    *   Free Kicks remains 0.
+    *   Fouls remains 0.
+    *   Yellow Cards remains 0.
+    *   Red Cards remains 0.
+    *   Offsides remains 0.
+
+*   **Snippet 2:** "Player10(Home Team) is awarded a free kick in their own defensive half."
+    *   "awarded a free kick" implies the player *wins* a free kick, so increment Free Kicks by 1.
+    *   Shots remains 0.
+    *   Goals remains 0.
+    *   Assists remains 0.
+    *   Fouls remains 0.
+    *   Yellow Cards remains 0.
+    *   Red Cards remains 0.
+    *   Offsides remains 0.
+
+*   **Snippet 3:** "Player10(Home Team) is causing a delay in the match due to an injury."
+    *   No action related to shots, goals, assists, free kicks, fouls, or cards.
+    *   Shots remains 0.
+    *   Goals remains 0.
+    *   Assists remains 0.
+    *   Free Kicks remains 1.
+    *   Fouls remains 0.
+    *   Yellow Cards remains 0.
+    *   Red Cards remains 0.
+    *   Offsides remains 0.
+
+*   **Snippet 4:** "Player10(Home Team)'s header from the center of the box is blocked after being assisted by Player11(Home Team) with a cross, resulting in a corner kick for the Home Team."
+    *   Mentions "header" and "blocked", so it is a shot attempt. Increment Shots by 1.
+    *   Goals remains 0.
+    *   Assists remains 0.
+    *   Free Kicks remains 1.
+    *   Fouls remains 0.
+    *   Yellow Cards remains 0.
+    *   Red Cards remains 0.
+    *   Offsides remains 0.
+
+*   **Snippet 5:** "Player10(Home Team) earns a free kick on the left side of the field."
+    *   "earns a free kick" implies the player *wins* a free kick, so increment Free Kicks by 1.
+    *   Shots remains 1.
+    *   Goals remains 0.
+    *   Assists remains 0.
+    *   Fouls remains 0.
+    *   Yellow Cards remains 0.
+    *   Red Cards remains 0.
+    *   Offsides remains 0.
+
+*   **Snippet 6:** "Player10(Home Team) earns a free kick in the opponent's half."
+    *   "earns a free kick" implies the player *wins* a free kick, so increment Free Kicks by 1.
+    *   Shots remains 1.
+    *   Goals remains 0.
+    *   Assists remains 0.
+    *   Fouls remains 0.
+    *   Yellow Cards remains 0.
+    *   Red Cards remains 0.
+    *   Offsides remains 0.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 2     | 0     | 0       | 3          | 0     | 0            | 0         | 0        |
+```

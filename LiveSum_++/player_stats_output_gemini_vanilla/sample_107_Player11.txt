@@ -1,0 +1,66 @@
+Okay, I'm ready to analyze the commentary snippets and generate the player statistics table.
+
+**Step 1: Identify the target player name.**
+
+The target player name is Player11.
+
+**Step 2: Initialize counts for all events to 0.**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**Step 3: Analyze each commentary snippet and increment counts based on the instructions.**
+
+*   **Snippet 1:** "Player11(Home Team)'s shot from outside the box with his right foot goes wide to the right, with an assist from Player3(Home Team)."
+    *   Shots: Increment by 1 (Player11's shot)
+    *   Goals: No goal scored.
+    *   Assists: No assist for Player11 in this case.
+
+*   **Snippet 2:** "Player11(Home Team) earns a free kick on the right side."
+    *   Free Kicks: Increment by 1 (Player11 earned a free kick)
+
+*   **Snippet 3:** "Player11(Home Team)'s shot from outside the box goes high and wide to the right, missing the target."
+    *   Shots: Increment by 1 (Player11's shot)
+    *   Goals: No goal scored.
+
+*   **Snippet 4:** "Player11(Home Team)'s left footed shot into the bottom right corner from the left side of the box."
+    *   Shots: Increment by 1 (Player11's shot)
+
+*   **Snippet 5:** "Player11(Home Team) commits a foul."
+    *   Fouls: Increment by 1 (Player11 commits a foul)
+
+*   **Snippet 6:** "Player11(Home Team)'s header from the center of the box is saved in the top left corner after a cross from Player10(Home Team)."
+    *   Shots: Increment by 1 (Player11's header)
+    *   Goals: No goal scored.
+    *   Assists: No assist for Player11 here.
+
+*   **Snippet 7:** "Player11(Home Team)'s right footed shot from outside the box narrowly misses to the right on a direct free kick."
+    *   Shots: Increment by 1 (Player11's shot)
+    *   Free Kicks: No additional free kick is explicitly earned in this snippet, just that it's a shot during a free kick.
+
+*   **Snippet 8:** "Player11(Home Team) commits a foul."
+    *   Fouls: Increment by 1 (Player11 commits a foul)
+
+**Step 4: Compile the statistics.**
+
+Shots = 5
+Goals = 0
+Assists = 0
+Free Kicks = 1
+Fouls = 2
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 5     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

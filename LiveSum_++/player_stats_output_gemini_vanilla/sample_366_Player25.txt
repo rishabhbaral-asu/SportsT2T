@@ -1,0 +1,37 @@
+Okay, let's analyze the commentary snippets for Player25 and compile the statistics.
+
+**Player Name:** Player25
+
+**Commentary Snippets:**
+- Player25(Away Team) concedes a penalty after fouling Player10(Home Team) in the penalty area for the Home Team.
+- Player25(Away Team) receives a yellow card for a rough tackle.
+
+**Step-by-step analysis:**
+
+1.  **Player Identification:** The target player is Player25.
+2.  **Initialization:** Initialize Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, and Offsides to 0.
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player25(Away Team) concedes a penalty after fouling Player10(Home Team) in the penalty area for the Home Team."
+        *   The snippet explicitly states that Player25 committed a foul which resulted in conceding a penalty. Therefore, increment Fouls by 1.
+        *   Because the penalty conceded was a result of a foul committed by the target player, it does NOT count as a free kick for the target player, Player25.
+
+    *   **Snippet 2:** "Player25(Away Team) receives a yellow card for a rough tackle."
+        *   The snippet explicitly states that Player25 received a yellow card. Therefore, increment Yellow Cards by 1.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 0     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

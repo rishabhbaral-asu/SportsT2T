@@ -1,0 +1,45 @@
+Okay, let's analyze the commentary snippets for Player11.
+
+1.  **Player Name:** Player11
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player11(Home Team)'s left-footed shot from outside the box hits the crossbar on a direct free kick."
+        *   Shots: +1 (Explicitly states "shot")
+        *   Free Kicks: +1 (Explicitly states "direct free kick")
+
+    *   Snippet 2: "Player11(Home Team) commits a foul."
+        *   Fouls: +1 (Explicitly states "commits a foul")
+
+    *   Snippet 3: "Player11(Home Team) attempts a through ball, but Player14(Home Team) is offside for the Home Team."
+        * Offsides: +0 (Player11 did not commit an offside, another player did).
+
+    *   Snippet 4: "Player11(Home Team)'s left footed shot from the right side of the six yard box is blocked after being assisted by Player7(Home Team) with a headed pass, resulting in a corner kick for the Home Team."
+        * Shots: +1 (Explicitly states "shot")
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

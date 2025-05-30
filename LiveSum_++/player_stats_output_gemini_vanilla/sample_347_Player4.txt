@@ -1,0 +1,42 @@
+Okay, let's analyze the commentary snippets for Player4 and compile the statistics.
+
+1.  **Identify Target Player:** The target player is Player4.
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player4(Home Team) from the Home Team attempts a through ball, but Player11(Home Team) is caught offside."
+        *   This snippet does *not* contain any of our keywords for shots, goals, assists, free kicks or fouls. It mentions Player4 attempting a through ball, but since this attempt did not lead to a goal directly there is no explicit mention of the assist, so Player4 receives no increase to their assist count. It doesn't involve a shot. Player11 is caught offside, not Player4.
+        *   No count changes.
+
+    *   Snippet 2: "Player4(Home Team) misses the goal with a left footed shot from outside the box, assisted by Player7(Home Team) with a header."
+        *   "misses the goal with a ... shot" indicates an attempt on goal; therefore, shots is incremented.
+        *   No goal was scored, so goals remain unchanged.
+        *   The snippet indicates Player4 was *assisted by* Player7, meaning Player4 *received* the assist, not provided it. So, no change to assists.
+        *   No change to Free Kicks, Fouls, Yellow Cards or Red Cards.
+
+4. **Compile Final Counts:**
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

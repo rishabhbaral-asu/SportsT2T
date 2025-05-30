@@ -1,0 +1,44 @@
+Okay, let's start by identifying the player and initializing the counts.
+
+Player Name: Player20
+
+Counts:
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Now, let's analyze each snippet:
+
+Snippet 1: "Player20(Away Team) earns a free kick on the right side of the field."
+*   This snippet indicates Player20 earned a free kick. This means they were likely fouled.
+*   Increment Free Kicks: Free Kicks = 0 + 1 = 1
+
+Snippet 2: "Player20(Away Team) commits a foul."
+*   This snippet explicitly states Player20 committed a foul.
+*   Increment Fouls: Fouls = 0 + 1 = 1
+
+Snippet 3: "Player20(Away Team) receives a yellow card for a rough tackle."
+*   This snippet explicitly states Player20 received a yellow card.
+*   Increment Yellow Cards: Yellow Cards = 0 + 1 = 1
+
+Final Counts:
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 1
+Fouls = 1
+Yellow Cards = 1
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 0     | 0     | 0       | 1          | 1     | 1            | 0         | 0        |
+```

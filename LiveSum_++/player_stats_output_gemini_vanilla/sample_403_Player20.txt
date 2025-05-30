@@ -1,0 +1,47 @@
+Okay, let's analyze the commentary snippets for Player20.
+
+1.  **Player Name:** Player20
+
+2.  **Initialization:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player20(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for the attacking team."
+        *   Fouls: Player20 commits a foul. Increment Fouls to 1.
+        *   Free Kicks: Player7 wins a free kick *as a result* of Player20's foul. Do not increment Free Kicks for Player20, this is a foul.
+    *   Snippet 2: "Player20(Away Team) receives a yellow card for a rough tackle."
+        *   Yellow Cards: Player20 receives a yellow card. Increment Yellow Cards to 1.
+    *   Snippet 3: "Player20(Away Team)'s shot from the center of the box is saved by the goalkeeper with assistance from Player33(Away Team), resulting in a corner kick for the Away Team."
+        *   Shots: Player20 takes a shot. Increment Shots to 1.
+    *   Snippet 4: "Player20(Away Team) misses the target with a high and wide shot from outside the box after a corner kick."
+        *   Shots: Player20 takes a shot. Increment Shots to 2.
+    *   Snippet 5: "Player20(Away Team) commits a foul."
+        *   Fouls: Player20 commits a foul. Increment Fouls to 2.
+    *   Snippet 6: "Player20(Away Team) has been shown a second yellow card for a reckless challenge."
+        *   Yellow Cards: Player20 receives a second yellow card. Increment Yellow Cards to 2.
+        *   Red Cards: Player20 is shown a second yellow card. Increment Red Cards to 1.
+
+4.  **Final Counts:**
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 2
+    *   Yellow Cards: 2
+    *   Red Cards: 1
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 2     | 0     | 0       | 0          | 2     | 2            | 1         | 0        |
+```

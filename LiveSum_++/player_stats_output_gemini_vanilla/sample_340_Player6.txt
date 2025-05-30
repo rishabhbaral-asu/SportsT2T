@@ -1,0 +1,43 @@
+Okay, let's analyze the commentary snippets for Player6 and generate the final summary table.
+
+**1. Player Name:** Player6
+
+**2. Initializing Counts:**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**3. Analyzing Snippets:**
+
+*   **Snippet 1:** "Player6(Home Team)'s shot from the center of the box is saved by the goalkeeper, with an assist from Player11(Home Team), while Player26(Away Team)'s through ball to Player28(Away Team) is called offside for the Away Team."
+    *   "Player6(Home Team)'s shot...saved": Increment Shots by 1.
+    *   Assist is *to* Player6, not *from* Player6, so no assist is recorded for Player6.
+*   **Snippet 2:** "Player6(Home Team) misses the target with a shot from outside the box, assisted by Player9(Home Team)."
+    *   "Player6(Home Team) misses the target with a shot": Increment Shots by 1.
+    *   Assist is *to* Player6, not *from* Player6, so no assist is recorded for Player6.
+*   **Snippet 3:** "Player6(Home Team)'s attempt from outside the box with his right foot is blocked by Player35(Away Team)'s handball."
+    *   "Player6(Home Team)'s attempt...is blocked": Increment Shots by 1.
+
+**4. Final Counts:**
+
+*   Shots = 3
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 3     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

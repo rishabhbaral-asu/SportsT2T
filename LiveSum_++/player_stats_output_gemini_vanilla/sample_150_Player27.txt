@@ -1,0 +1,64 @@
+Okay, I'm ready to process the player commentary snippets and generate the final summary table.
+
+**1. Identify Target Player:**
+
+The target player is Player27.
+
+**2. Initialize Event Counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player27(Away Team)'s attempt from the centre of the box is saved by the goalkeeper after being set up by Player29(Away Team), while Player26(Away Team)'s shot from outside the box goes over the goal."
+    *   "attempt" indicates a shot by Player27. Increment Shots: Shots = 1
+    *   No goal scored.
+    *   No assist provided.
+    *   No free kick.
+    *   No foul.
+    *   No card.
+    *   No offside.
+
+*   **Snippet 2:** "Player27(Away Team)'s shot from the right side of the box is blocked after receiving a through ball from Player29(Away Team)."
+    *   "shot" indicates a shot by Player27. Increment Shots: Shots = 2
+    *   No goal scored.
+    *   No assist provided.
+    *   No free kick.
+    *   No foul.
+    *   No card.
+    *   No offside.
+
+*   **Snippet 3:** "Player27(Away Team) receives a yellow card."
+    *   Yellow card received by Player27. Increment Yellow Cards: Yellow Cards = 1
+    *   No shot.
+    *   No goal.
+    *   No assist.
+    *   No free kick.
+    *   No foul.
+    *   No red card.
+    *   No offside.
+
+**4. Final Counts:**
+
+Shots = 2
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 1
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 2     | 0     | 0       | 0          | 0     | 1            | 0         | 0        |
+```

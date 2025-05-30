@@ -1,0 +1,49 @@
+Okay, let's analyze the commentary snippets for Player23 and compile the statistics.
+
+**Player Name:** Player23
+
+**Commentary Snippets:**
+
+*   "Player23(Away Team) earns a free kick in their own half."
+*   "Player23(Away Team) is currently sidelined due to an injury, causing a delay in the match."
+*   "Player23(Away Team) earns a free kick in their own half."
+*   "Player23(Away Team)'s left footed shot from outside the box was blocked with an assist from Player31(Away Team)."
+
+**Step-by-step analysis:**
+
+1.  **Player Name:** The target player is Player23.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player23(Away Team) earns a free kick in their own half." - Player23 earns a free kick. This increments the "Free Kicks" count. Free Kicks = 1
+    *   **Snippet 2:** "Player23(Away Team) is currently sidelined due to an injury, causing a delay in the match." - This snippet does not mention any relevant action.
+    *   **Snippet 3:** "Player23(Away Team) earns a free kick in their own half." - Player23 earns a free kick. This increments the "Free Kicks" count. Free Kicks = 2
+    *   **Snippet 4:** "Player23(Away Team)'s left footed shot from outside the box was blocked with an assist from Player31(Away Team)." - Player23 took a shot that was blocked. This increments the "Shots" count. Player23 was assisted by another player. This does not give Player23 an assist. Shots = 1
+
+4.  **Final Counts:**
+
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 2
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 1     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

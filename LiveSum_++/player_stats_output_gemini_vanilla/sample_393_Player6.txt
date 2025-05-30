@@ -1,0 +1,44 @@
+Okay, let's start by identifying the target player and initializing the counts.
+
+Target Player: Player6
+
+Initial Counts:
+* Shots: 0
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 0
+* Yellow Cards: 0
+* Red Cards: 0
+* Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player6(Home Team) took a shot with their right foot from the left side of the box, with an assist from Player5(Home Team)."
+
+*   Shots: The snippet explicitly states "Player6 took a shot". Increment Shots to 1.
+*   Goals: No goal mentioned.
+*   Assists: The snippet states "with an assist from Player5". This means Player6 *received* an assist, not gave one. So, no assist for Player6.
+*   Free Kicks: Not mentioned.
+*   Fouls: Not mentioned.
+*   Yellow Cards: Not mentioned.
+*   Red Cards: Not mentioned.
+*   Offsides: Not mentioned.
+
+Snippet 2: "Player6(Home Team)'s right footed shot from the right side of the box is saved in the bottom right corner by the goalkeeper, assisted by Player7(Home Team), resulting in a corner kick for the Home Team."
+
+*   Shots: The snippet explicitly states "Player6's right footed shot". Increment Shots to 2 (1 + 1).
+*   Goals: No goal mentioned.
+*   Assists: The snippet states "assisted by Player7". This means Player6 *received* an assist, not gave one. So, no assist for Player6.
+*   Free Kicks: Not mentioned.
+*   Fouls: Not mentioned.
+*   Yellow Cards: Not mentioned.
+*   Red Cards: Not mentioned.
+*   Offsides: Not mentioned.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

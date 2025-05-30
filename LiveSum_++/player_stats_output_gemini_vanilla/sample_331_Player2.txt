@@ -1,0 +1,41 @@
+Okay, let's analyze the commentary snippets for Player2 and generate the summary table.
+
+**Player Name:** Player2
+
+**Commentary Snippets:**
+
+*   "Player2(Home Team) commits a foul, resulting in Player29(Away Team) winning a free kick in their own defensive half."
+*   "Player2(Home Team) receives a yellow card for a rough foul."
+*   "Player2(Home Team)'s shot from the center of the box was blocked with the help of Player8(Home Team)."
+*   "Player2(Home Team)'s shot from the right side of the six yard box was saved by the goalkeeper with the help of a cross from Player7(Home Team)."
+
+**Analysis:**
+
+1.  **Fouls:** The first snippet states "Player2(Home Team) commits a foul". This explicitly attributes a foul to Player2. Therefore, increment Fouls by 1.
+2.  **Yellow Cards:** The second snippet says "Player2(Home Team) receives a yellow card". This clearly indicates Player2 received a yellow card. Therefore, increment Yellow Cards by 1.
+3.  **Shots:** The third snippet says "Player2(Home Team)'s shot from the center of the box was blocked". This clearly indicates Player2 had a shot that was blocked. Therefore, increment Shots by 1.
+4.  **Shots:** The fourth snippet says "Player2(Home Team)'s shot from the right side of the six yard box was saved by the goalkeeper". This clearly indicates Player2 had a shot that was saved. Therefore, increment Shots by 1.
+5.  **Goals:** No snippet mentions Player2 scoring a goal.
+6.  **Assists:** No snippet mentions Player2 providing an assist.
+7.  **Free Kicks:** The first snippet mentions Player2 committing a foul, resulting in Player29 winning a free kick; this does not mean that Player2 took a free kick, nor did Player2 win a free kick. Therefore Free Kicks = 0.
+8.  **Red Cards:** No snippet mentions Player2 receiving a red card.
+9.  **Offsides:** No snippet mentions Player2 being offside.
+
+**Final Counts:**
+
+*   Shots: 2
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 1
+*   Yellow Cards: 1
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 2     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

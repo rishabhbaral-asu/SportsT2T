@@ -1,0 +1,40 @@
+Okay, let's analyze the commentary snippets for Player8 step-by-step and generate the final summary table.
+
+1.  **Player Name:** The target player is Player8.
+
+2.  **Initialization:** We initialize the counts for all events to 0 for Player8.
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player8(Home Team) commits a foul."
+        *   This snippet explicitly states Player8 committed a foul.
+        *   Increment Fouls: Fouls = 0 + 1 = 1
+
+    *   **Snippet 2:** "Player8(Home Team) attempts a pass to Player7(Home Team), but Player7(Home Team) is offside."
+        *   This snippet mentions Player8 attempting a pass, leading to Player7 being offside.
+        *   No explicit mention of assist, shot, free kick or foul. Only count offsides for the target player if they are explicitly offside. No offside here.
+
+    *   **Snippet 3:** "Player8(Home Team)'s left footed shot from outside the box is blocked, resulting in a corner kick for the Home Team."
+        *   This snippet explicitly states Player8 took a shot.
+        *   Increment Shots: Shots = 0 + 1 = 1
+
+    *   **Snippet 4:** "Player8(Home Team) commits a foul, resulting in Player24(Away Team) winning a free kick in their own defensive half."
+        *   This snippet explicitly states Player8 committed a foul.
+        *   Increment Fouls: Fouls = 1 + 1 = 2
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 2
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

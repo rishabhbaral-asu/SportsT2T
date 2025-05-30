@@ -1,0 +1,27 @@
+Okay, let's start by identifying the player name and initializing the counts.
+
+Player Name: Player33
+
+Now, let's initialize the counts for all the events:
+Shots: 0, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player33(Away Team)'s shot from outside the box is blocked."
+- This snippet mentions "shot" explicitly attributed to Player33.
+- Increment Shots: Shots = 0 + 1 = 1
+
+Snippet 2: "Player33(Away Team)'s shot from the left side of the box is blocked after an assist from Player31(Away Team)."
+- This snippet mentions "shot" explicitly attributed to Player33.
+- Increment Shots: Shots = 1 + 1 = 2
+- Although there is mention of assist in the snippet, this assist is not attributed to Player33 so the assist count remains at 0.
+
+Final Counts:
+Shots: 2, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player33 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

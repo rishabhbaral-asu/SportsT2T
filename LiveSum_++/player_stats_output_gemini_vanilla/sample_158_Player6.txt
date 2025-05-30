@@ -1,0 +1,46 @@
+Okay, let's analyze the commentary snippets for Player6 and generate the summary table.
+
+1.  **Player Name:** Player6
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Commentary Snippet Analysis:**
+
+    *   **Snippet 1:** "Player6(Home Team) commits a foul."
+        *   The snippet explicitly states "Player6 commits a foul."
+        *   Increment Fouls: Fouls = 1
+
+    *   **Snippet 2:** "Player6(Home Team) misses the penalty with a close shot to the left, leaving him disappointed."
+        *   The snippet explicitly states "Player6 misses the penalty". Missing a penalty counts as a shot. Taking a penalty shot also means the player took a free kick.
+        *   Increment Shots: Shots = 1
+        *   Increment Free Kicks: Free Kicks = 1
+
+    *   **Snippet 3:** "Player6(Home Team)'s shot from the right side of the box is saved in the center of the goal, assisted by Player7(Home Team)."
+        *   The snippet explicitly mentions "Player6's shot".
+        *   Increment Shots: Shots = 2
+        * The snippet indicates Player6 was assisted by Player7, meaning Player6 did not provide the assist. No change to Assists.
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

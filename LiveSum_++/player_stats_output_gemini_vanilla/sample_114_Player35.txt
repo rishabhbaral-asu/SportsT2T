@@ -1,0 +1,47 @@
+Okay, let's analyze the commentary snippets for Player35 and generate the summary table.
+
+1.  **Player Name:** The target player is Player35.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player35(Away Team) earns a free kick on the left side of the field."
+        *   Player35 earns a free kick. This increments Free Kicks.
+        *   Free Kicks = 1
+
+    *   **Snippet 2:** "Player35(Away Team)'s attempt from outside the box with his right foot was high and wide to the right, with an assist from Player26(Away Team)."
+        *   Player35 made an attempt (shot). This increments Shots.
+        *   Shots = 1
+
+    *   **Snippet 3:** "Player35(Away Team) scores with a left-footed shot from the left side of the box, assisted by Player28(Away Team), Home Team 0, Away Team 4."
+        *   Player35 scores a goal. This increments Goals.
+        *   Player35 taking a shot is explicitly mentioned (scoring implies a shot). This increments Shots.
+        *   Goals = 1
+        *   Shots = 2
+
+4.  **Final Counts:**
+
+    *   Shots = 2
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player35 | 2     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

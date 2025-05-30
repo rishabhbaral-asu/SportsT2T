@@ -1,0 +1,47 @@
+Okay, let's analyze the commentary snippets for Player24.
+
+1. **Player Name:** The target player is Player24.
+
+2. **Initial Counts:**
+    * Shots: 0
+    * Goals: 0
+    * Assists: 0
+    * Free Kicks: 0
+    * Fouls: 0
+    * Yellow Cards: 0
+    * Red Cards: 0
+    * Offsides: 0
+
+3. **Commentary Snippet Analysis:**
+
+    * Snippet 1: "Player24(Away Team) commits a foul."
+        * Fouls: Increment by 1. Fouls = 1
+
+    * Snippet 2: "Player24(Away Team) attempts a through ball, but Player27(Away Team) is caught in an offside position."
+        * Offsides: No explicit mention of Player24 being offside.
+        * No Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, or Red Cards in this snippet.
+
+    * Snippet 3: "Player24(Away Team) commits a foul and Player9(Home Team) earns a free kick on the left side of the field."
+        * Fouls: Increment by 1. Fouls = 2
+        * Free Kicks: Player24 conceding a free kick, so this does not count as a "Free Kick (taken)"
+
+    * Snippet 4: "Player24(Away Team) narrowly misses a header from the center of the box to the right, assisted by Player29(Away Team) with a cross, resulting in a corner kick for the Home Team."
+        * Shots: Increment by 1. Shots = 1. The snippet explicitly mentions a header attempt.
+        * No Goals, Assists, Free Kicks, Fouls, Yellow Cards, or Red Cards in this snippet.
+
+4. **Final Counts:**
+    * Shots: 1
+    * Goals: 0
+    * Assists: 0
+    * Free Kicks: 0
+    * Fouls: 2
+    * Yellow Cards: 0
+    * Red Cards: 0
+    * Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

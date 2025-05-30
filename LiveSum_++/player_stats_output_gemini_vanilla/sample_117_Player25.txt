@@ -1,0 +1,27 @@
+Okay, I'm ready to analyze the commentary snippets for the specified player and generate the markdown table.
+
+**Here's the breakdown of my process:**
+
+1.  **Identify Target Player:** The target player is Player25.
+2.  **Initialize Counts:** I'll start with all event counts set to 0 for Player25.
+3.  **Analyze Snippets:** I'll go through each snippet, applying the strict counting rules to determine if any events should be incremented for Player25.
+
+**Snippet Analysis:**
+
+*   **Snippet 1: "Player25(Away Team) earns a free kick in their own half."**
+    *   This snippet explicitly states that Player25 "earns a free kick." This falls under the "Free Kicks (Taken)" definition (as Player25 "wins a free kick").
+    *   Increment Free Kicks (Taken) count by 1.
+*   **Snippet 2: "Player25(Away Team)'s left footed shot from the left side of the box is saved in the bottom left corner with an assist from Player28(Away Team)."**
+    *   This snippet explicitly states that Player25 took a "shot".
+    *   Increment Shots count by 1.
+    *   The shot was "saved", so it's not a goal.
+    *   The snippet includes "with an assist from Player28". This indicates Player25 received the assist, so Player25 does not give an assist, meaning there is no assist to count for Player25.
+    *   Increment Assists count by 0 (remains at 0).
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,56 @@
+Okay, I'm ready to analyze the commentary snippets for Player28 and compile the statistics.
+
+**Player Name:** Player28
+
+**Commentary Snippets:**
+
+*   Player28(Away Team) earns a free kick in the opposition's half after a foul committed by Player4(Home Team).
+*   Player28(Away Team) scores with a right-footed shot from a tough angle on the left side, assisted by Player22(Away Team), The Away Team now leads 2-0 against the Home Team.
+*   Player28(Away Team) commits a foul.
+
+**Step-by-step analysis:**
+
+1.  **Player Name:** The target player is Player28.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player28(Away Team) earns a free kick in the opposition's half after a foul committed by Player4(Home Team)."
+        *   This snippet explicitly states that Player28 "earns a free kick". This increments the 'Free Kicks' count.
+        *   Free Kicks = 1
+
+    *   **Snippet 2:** "Player28(Away Team) scores with a right-footed shot from a tough angle on the left side, assisted by Player22(Away Team), The Away Team now leads 2-0 against the Home Team."
+        *   This snippet explicitly states that Player28 "scores". This increments both the 'Goals' and 'Shots' counts.
+        *   Shots = 1
+        *   Goals = 1
+        *   Since this snippet mentions Player28 was assisted, it DOES NOT increase Player28's assists.
+
+    *   **Snippet 3:** "Player28(Away Team) commits a foul."
+        *   This snippet explicitly states that Player28 "commits a foul". This increments the 'Fouls' count.
+        *   Fouls = 1
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 1     | 1     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

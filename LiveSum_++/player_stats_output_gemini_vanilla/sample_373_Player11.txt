@@ -1,0 +1,52 @@
+Okay, let's analyze the commentary snippets for Player11.
+
+**1. Player Identification:**
+
+The target player is Player11.
+
+**2. Initialization:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Snippet Analysis and Event Counting:**
+
+*   **Snippet 1:** "Player11(Home Team) misses a header to the left from the center of the box after a cross from Player2(Home Team) following a corner."
+    *   `misses a header` indicates a shot attempt.
+    *   Shots = 1
+*   **Snippet 2:** "Player11(Home Team) earns a free kick in the opponent's half."
+    *   `earns a free kick` indicates a free kick won/taken.
+    *   Free Kicks = 1
+*   **Snippet 3:** "Player11(Home Team) earns a free kick in the attacking half after being fouled by Player22(Away Team)."
+    *   `earns a free kick` indicates a free kick won/taken.
+    *   Free Kicks = 2
+*   **Snippet 4:** "Player11(Home Team)'s shot from the center of the box was saved in the bottom left corner with an assist from Player9(Home Team)."
+    *   `shot` indicates a shot attempt.
+    *   Shots = 2
+*   **Snippet 5:** "Player11(Home Team) of the Home Team is caught offside after Player2(Home Team) attempts a through ball."
+    *   `caught offside` indicates an offside.
+    *   Offsides = 1
+
+**4. Final Counts:**
+
+Shots = 2
+Goals = 0
+Assists = 0
+Free Kicks = 2
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 1
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 0     | 0       | 2          | 0     | 0            | 0         | 1        |
+```

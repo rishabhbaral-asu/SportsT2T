@@ -1,0 +1,39 @@
+Okay, let's process the provided input step by step.
+
+1.  **Identify Target Player:**
+    The target player is Player6.
+
+2.  **Initialize Event Counts:**
+    Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player6(Home Team)'s shot with his left foot from the right side of the box is saved in the middle of the goal, with an assist from Player11(Home Team)."
+        *   Explicitly mentions "shot" by Player6. Increment Shots: Shots = 1
+        *   Explicitly mentions "assist from Player11", meaning Player6 did not provide the assist, so Assists remains 0.
+
+    *   **Snippet 2:** "Player6(Home Team)'s attempt from outside the box was blocked with the help of Player9(Home Team)."
+        *   Explicitly mentions "attempt" by Player6, which we consider a shot. Increment Shots: Shots = 2
+
+    *   **Snippet 3:** "Player6(Home Team) is awarded a free kick in the opponent's half."
+        *   Explicitly mentions Player6 is "awarded a free kick", implying he wins/earns a free kick. Increment Free Kicks: Free Kicks = 1
+
+    *   **Snippet 4:** "Player6(Home Team) receives a yellow card."
+        *   Explicitly mentions Player6 "receives a yellow card". Increment Yellow Cards: Yellow Cards = 1
+
+    *   **Snippet 5:** "Player6(Home Team)'s left footed shot from the right side of the box narrowly misses to the right, with an assist from Player10(Home Team)."
+        *   Explicitly mentions "shot" by Player6. Increment Shots: Shots = 3
+        *   Explicitly mentions "assist from Player10", meaning Player6 did not provide the assist, so Assists remains 0.
+
+    *   **Snippet 6:** "Player6(Home Team) commits a foul, resulting in Player23(Away Team) being awarded a free kick in the attacking half."
+        *   Explicitly mentions Player6 "commits a foul". Increment Fouls: Fouls = 1
+
+4.  **Final Counts:**
+    Shots = 3, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 1, Yellow Cards = 1, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 3     | 0     | 0       | 1          | 1     | 1            | 0         | 0        |
+```

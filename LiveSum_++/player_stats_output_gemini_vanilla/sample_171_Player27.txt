@@ -1,0 +1,32 @@
+Okay, let's analyze the commentary snippets for Player27 and generate the statistics table.
+
+**Player Name:** Player27
+
+**Commentary Snippets:**
+
+*   Player27(Away Team)'s shot from the center of the box narrowly misses to the right, with an assist from Player25(Away Team).
+*   Player27(Away Team) earns a free kick on the right side of the field.
+*   Player27(Away Team) earns a free kick on the right side of the field.
+*   Player27(Away Team) commits a foul, resulting in Player7(Home Team) being awarded a free kick in their own defensive half.
+*   Player27(Away Team) earns a free kick in the opponent's half.
+
+**Event Tracking:**
+
+*   **Shots:** The first snippet states "Player27(Away Team)'s shot from the center of the box narrowly misses to the right". This is a shot, so increment Shots by 1.
+*   **Goals:** No goal is mentioned for Player27.
+*   **Assists:** The first snippet says "...with an assist from Player25(Away Team)". This explicitly means Player25 provided the assist, not Player27. Therefore, Player27 has 0 assists.
+*   **Free Kicks (Taken):** The second snippet states "Player27(Away Team) earns a free kick on the right side of the field." Increment Free Kicks by 1.
+* The third snippet states "Player27(Away Team) earns a free kick on the right side of the field." Increment Free Kicks by 1.
+* The fifth snippet states "Player27(Away Team) earns a free kick in the opponent's half." Increment Free Kicks by 1.
+*   **Fouls (Committed):** The fourth snippet states "Player27(Away Team) commits a foul...". Increment Fouls by 1.
+*   **Yellow Cards:** No yellow cards are mentioned for Player27.
+*   **Red Cards:** No red cards are mentioned for Player27.
+*   **Offsides:** No offsides are mentioned for Player27.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 1     | 0     | 0       | 3          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,41 @@
+Okay, let's analyze the commentary snippets for Player31.
+
+1.  **Player Name:** Player31
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player31(Away Team) commits a foul."
+        *   Fouls: The snippet explicitly states "Player31 commits a foul." Increment Fouls by 1.
+        *   Fouls = 1
+
+    *   Snippet 2: "Player31(Away Team)'s left footed shot from outside the box is saved in the bottom right corner, assisted by Player24(Away Team), while Player32(Away Team)'s right footed shot from the centre of the box misses to the left."
+        *   Shots: The snippet explicitly mentions "Player31's left footed shot". Increment Shots by 1.
+        *   Shots = 1
+        *   Assists: Player24 assisted player31 but we are only counting events attributed to Player 31. So there are no assists for Player31 in this snippet.
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player31 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

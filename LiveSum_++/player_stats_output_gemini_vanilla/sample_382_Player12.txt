@@ -1,0 +1,23 @@
+Okay, let's start by identifying the player and initializing the counts.
+
+Player Name: Player12
+
+Now, let's analyze each commentary snippet and update the counts accordingly.
+
+Snippet 1: "Player12(Home Team) commits a foul."
+*   Fouls: Player12 commits a foul, so increment Fouls by 1.
+
+Snippet 2: "Player12(Home Team) commits a foul."
+*   Fouls: Player12 commits a foul, so increment Fouls by 1.
+
+Snippet 3: "Player12(Home Team) commits a foul, resulting in Player27(Away Team) winning a free kick in the attacking half, ."
+*   Fouls: Player12 commits a foul, so increment Fouls by 1.
+
+Now, construct the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player12 | 0     | 0     | 0       | 0          | 3     | 0            | 0         | 0        |
+```

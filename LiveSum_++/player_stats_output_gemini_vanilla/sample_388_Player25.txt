@@ -1,0 +1,23 @@
+Okay, let's start by identifying the player name and initializing the counts.
+
+Player Name: Player25
+
+Now, let's process the commentary snippets one by one and increment the relevant counts, following the strict counting rules:
+
+*   **Snippet 1:** "Player25(Away Team) earns a free kick in their own half after a foul by Player8(Home Team)."
+    *   'Free Kicks': Player25 earns a free kick. Count = 1.
+*   **Snippet 2:** "Player25(Away Team) earns a free kick in their own half."
+    *   'Free Kicks': Player25 earns a free kick. Count = 1.
+*   **Snippet 3:** "Player25(Away Team) earns a free kick in their own half."
+    *   'Free Kicks': Player25 earns a free kick. Count = 1.
+*   **Snippet 4:** "Player25(Away Team) missed the target with a right-footed shot from outside the box, with an assist from Player28(Away Team)."
+    *   'Shots': Player25 missed the target with a shot. Count = 1.
+
+Now, let's compile the final counts and generate the markdown table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 0     | 0       | 3          | 0     | 0            | 0         | 0        |
+```

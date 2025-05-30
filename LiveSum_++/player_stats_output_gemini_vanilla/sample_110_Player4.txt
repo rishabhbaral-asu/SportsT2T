@@ -1,0 +1,76 @@
+Okay, let's analyze the commentary snippets for Player4 and generate the summary table.
+
+**1. Player Name:**
+
+The target player is Player4.
+
+**2. Initialize Counts:**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player4(Home Team) misses the target with a high and wide shot from the center of the box, assisted by Player2(Home Team) with a header."
+    *   Shots: Player4 misses a shot, so increment Shots by 1. Shots = 1.
+    *   Goals: No goal mentioned.
+    *   Assists: No assist given by Player4.
+    *   Free Kicks: No free kick.
+    *   Fouls: No foul.
+    *   Yellow Cards: No yellow card.
+    *   Red Cards: No red card.
+    *   Offsides: No offside.
+
+*   **Snippet 2:** "Player4(Home Team) commits a foul and Player28(Away Team) earns a free kick in the opposition's half."
+    *   Shots: No shot.
+    *   Goals: No goal.
+    *   Assists: No assist.
+    *   Free Kicks: No free kick taken by Player4. The free kick awarded to Player28 as a result of the foul does not count as Player4 taking a free kick.
+    *   Fouls: Player4 commits a foul, so increment Fouls by 1. Fouls = 1
+    *   Yellow Cards: No yellow card.
+    *   Red Cards: No red card.
+    *   Offsides: No offside.
+
+*   **Snippet 3:** "Player4(Home Team) commits a foul."
+    *   Shots: No shot.
+    *   Goals: No goal.
+    *   Assists: No assist.
+    *   Free Kicks: No free kick.
+    *   Fouls: Player4 commits a foul, so increment Fouls by 1. Fouls = 2
+    *   Yellow Cards: No yellow card.
+    *   Red Cards: No red card.
+    *   Offsides: No offside.
+
+*   **Snippet 4:** "Player4(Home Team)'s shot from outside the box is blocked by the opposition with the help of Player11(Home Team)."
+    *   Shots: Player4's shot is blocked, so increment Shots by 1. Shots = 2.
+    *   Goals: No goal.
+    *   Assists: No assist.
+    *   Free Kicks: No free kick.
+    *   Fouls: No foul.
+    *   Yellow Cards: No yellow card.
+    *   Red Cards: No red card.
+    *   Offsides: No offside.
+
+**4. Final Counts:**
+
+*   Shots: 2
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 2
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 2     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

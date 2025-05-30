@@ -1,0 +1,24 @@
+Okay, let's analyze the commentary snippets for Player2 and generate the final summary table.
+
+**Steps:**
+
+1.  **Identify Target Player:** The target player is Player2.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player2(Home Team) commits a foul, resulting in Player23(Away Team) winning a free kick in their own defensive half."
+        *   Player2 commits a foul. Increment Fouls by 1. Fouls = 1
+    *   **Snippet 2:** "Player2(Home Team) scores a goal with a header from close range, putting the Home Team ahead 1-0 against the Away Team."
+        *   Player2 scores a goal. Increment Goals by 1. Goals = 1
+        *   Player2 scores a goal. Increment Shots by 1. Shots = 1
+    *   **Snippet 3:** "Player2(Home Team) is currently delayed in the match due to an injury."
+        *   This snippet does not contain any event that affects the counts.
+
+4.  **Final Counts:** Shots = 1, Goals = 1, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 1     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

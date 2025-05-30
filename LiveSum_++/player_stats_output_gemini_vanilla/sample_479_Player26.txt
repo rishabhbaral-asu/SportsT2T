@@ -1,0 +1,36 @@
+Okay, let's analyze the commentary snippets for Player26 and generate the summary table.
+
+1.  **Identify Target Player:** The target player is Player26.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player26(Away Team) misses the goal with a left-footed shot from outside the box, assisted by Player24(Away Team)."
+        *   "misses the goal with a...shot" - This indicates a shot by Player26. Increment Shots by 1.
+        *   The snippet states Player26 was *assisted by* Player24. This does *not* count as an assist *for* Player26.
+
+4.  **Compile Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

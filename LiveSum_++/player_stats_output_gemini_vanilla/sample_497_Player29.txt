@@ -1,0 +1,29 @@
+Okay, let's analyze the commentary snippets for Player29 and compile the statistics.
+
+**1. Player Identification:**
+The target player is Player29.
+
+**2. Initialization:**
+Initialize all counters to 0:
+Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player29(Away Team) commits a foul, resulting in Player1(Home Team) being awarded a free kick in their own defensive half."
+    *   This snippet explicitly states that Player29 commits a foul. Therefore, increment the 'Fouls' counter.
+    *   Fouls = 1
+
+*   **Snippet 2:** "Player29(Away Team)'s right footed shot from outside the box is saved in the centre of the goal, assisted by Player28(Away Team), while Player27(Away Team)'s left footed shot from outside the box is saved in the bottom right corner."
+    *   This snippet explicitly states that Player29 took a shot that was saved. Therefore, increment the 'Shots' counter.
+    *   Shots = 1
+    *   This snippet explicitly says Player29 was assisted by Player28. Thus no assist is counted for Player29.
+
+**4. Final Counts:**
+Shots = 1, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

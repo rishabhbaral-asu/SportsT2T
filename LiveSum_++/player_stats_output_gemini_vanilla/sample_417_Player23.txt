@@ -1,0 +1,46 @@
+Okay, I'm ready to analyze the commentary snippets and generate the player statistics table.
+
+**1. Identify Target Player:**
+
+The target player is Player23.
+
+**2. Initialize Counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player23(Away Team)'s left footed shot from outside the box goes wide to the right, with an assist from Player28(Away Team)."
+
+    *   `shot`: The snippet explicitly states "Player23(Away Team)'s left footed shot". Increment Shots count by 1.
+    *   `assist`: The snippet mentions "with an assist from Player28(Away Team)". Player23 was assisted, so do not increment assists.
+
+    Updated counts: Shots = 1, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Goals = 0, Offsides = 0
+
+*   **Snippet 2:** "Player23(Away Team) earns a free kick on the left side."
+
+    *   `free kick`: The snippet explicitly states "Player23(Away Team) earns a free kick". Increment Free Kicks count by 1.
+
+    Updated counts: Shots = 1, Assists = 0, Free Kicks = 1, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Goals = 0, Offsides = 0
+
+*   **Snippet 3:** "Player23(Away Team)'s left footed shot from the center of the box goes wide to the left, with an assist from Player25(Away Team) after a set piece."
+
+    *   `shot`: The snippet explicitly states "Player23(Away Team)'s left footed shot". Increment Shots count by 1.
+    *   `assist`: The snippet mentions "with an assist from Player25(Away Team)". Player23 was assisted, so do not increment assists.
+
+    Updated counts: Shots = 2, Assists = 0, Free Kicks = 1, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Goals = 0, Offsides = 0
+
+**4. Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 2     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

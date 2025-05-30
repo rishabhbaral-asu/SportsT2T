@@ -1,0 +1,41 @@
+Okay, let's start by identifying the target player name and initializing the counts.
+
+Target Player: Player23
+
+Initial Counts:
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Now, let's analyze each commentary snippet:
+
+*   Snippet 1: "Player23(Away Team) earns a free kick in their own half."
+    *   This snippet indicates Player23 earned a free kick. This means Player23 was fouled and won the free kick. Thus, increment "Free Kicks" by 1.
+
+*   Snippet 2: "Player23(Away Team) earns a free kick in their own half."
+    *   This snippet indicates Player23 earned a free kick. This means Player23 was fouled and won the free kick. Thus, increment "Free Kicks" by 1.
+
+*   Snippet 3: "Player23(Away Team) commits a foul."
+    *   This snippet indicates Player23 committed a foul. Thus, increment "Fouls" by 1.
+
+Final Counts:
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 2
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 0     | 0     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

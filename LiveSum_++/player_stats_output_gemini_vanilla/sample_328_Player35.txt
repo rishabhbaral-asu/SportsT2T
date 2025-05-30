@@ -1,0 +1,22 @@
+Okay, let's start by identifying the player name and initializing the counts.
+
+Player Name: Player35
+
+Now, let's process the commentary snippets.
+
+Snippet 1: "Player35(Away Team) commits a foul, resulting in Player18(Home Team) winning a free kick in their defensive half, The referee blows the whistle."
+
+*   This snippet explicitly states that Player35 commits a foul. So, we increment the 'Fouls' count by 1.
+
+Snippet 2: "Player35(Away Team) receives a yellow card for a rough tackle."
+
+*   This snippet explicitly states Player35 receives a yellow card. So, we increment the 'Yellow Cards' count by 1.
+
+Now, let's compile the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player35 | 0     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

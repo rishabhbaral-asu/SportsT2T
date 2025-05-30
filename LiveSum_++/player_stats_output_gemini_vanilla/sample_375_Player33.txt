@@ -1,0 +1,39 @@
+Okay, let's analyze the commentary snippets for Player33 and compile the statistics.
+
+1.  **Player Name:** Player33
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player33(Away Team) receives a yellow card for a foul."
+        *   Yellow Cards: Increment to 1 (explicitly stated).
+        *   Fouls: No explicit mention of foul. This snippet says they received a Yellow card *for* a foul, but does not state they committed a foul, and therefore we cannot infer and increment it.
+
+    *   Snippet 2: "Player33(Away Team) fouls Player12(Home Team), resulting in a free kick in the defensive half."
+        *   Fouls: Increment to 1 (explicitly states Player33 fouls Player12).
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player33 | 0     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

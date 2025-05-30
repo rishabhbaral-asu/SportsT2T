@@ -1,0 +1,43 @@
+Okay, let's break down the process step-by-step, focusing on Player5 and applying the strict counting rules.
+
+1.  **Identify Target Player:** The target player is Player5.
+
+2.  **Initialize Counts:**
+    * Shots: 0
+    * Goals: 0
+    * Assists: 0
+    * Free Kicks: 0
+    * Fouls: 0
+    * Yellow Cards: 0
+    * Red Cards: 0
+    * Offsides: 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player5(Home Team) fouls Player24(Away Team), who earns a free kick on the right wing."
+        *   Fouls: Player5 is explicitly stated to have committed a foul. Increment Fouls by 1.
+        *   Free Kicks: Player5 committed a foul. Player24 earned a free kick. This does not mean Player5 takes a free kick. Do not increment.
+
+    *   **Snippet 2:** "Player5(Home Team) of the Home Team attempts a through ball to Player10(Home Team), but Player10(Home Team) is flagged for being offside."
+        *   Offsides: Player10 is offside. Not Player5. Do not increment.
+
+    *   **Snippet 3:** "Player5(Home Team), earns a free kick on the left wing following a foul by Player6(Home Team)."
+        *   Free Kicks: Player5 explicitly earned a free kick (taken). Increment Free Kicks by 1.
+
+4.  **Final Counts:**
+
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,45 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for Player33 and count explicit occurrences of defined events.
+
+**Input:**
+*   **Player Name:**
+    ```
+    Player33
+    ```
+*   **Commentary Snippets:**
+    ```
+    - Player33(Away Team) commits a foul, resulting in Player2(Home Team) winning a free kick in their own defensive half.
+- Player33(Away Team)'s shot from the right side of the box is blocked with Player36(Away Team)'s assistance.
+    ```
+
+**Instructions (Part 2 - Finalized for Strictness):**
+
+1.  **Identify the target player name:** Player33
+2.  **Initialize counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+3.  **Analyze each snippet:**
+    *   Snippet 1: "Player33(Away Team) commits a foul, resulting in Player2(Home Team) winning a free kick in their own defensive half."
+        *   "commits a foul" explicitly states Player33 committed a foul. Increment Fouls.
+        *   Fouls = 1
+        *The second part of the sentence talks about player 2 winning a free kick, but that does not relate to Player33 taking a free kick.
+    *   Snippet 2: "Player33(Away Team)'s shot from the right side of the box is blocked with Player36(Away Team)'s assistance."
+        *   "shot" explicitly states Player33 took a shot. Increment Shots.
+        *   Shots = 1
+        *   The snippet states that Player36 assisted Player33. This does *not* count as an assist for Player33.
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player33 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

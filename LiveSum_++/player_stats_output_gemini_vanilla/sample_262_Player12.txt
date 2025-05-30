@@ -1,0 +1,48 @@
+Okay, let's analyze the commentary snippets for Player12 and generate the requested markdown table.
+
+**Player Name:** Player12
+
+**Commentary Snippets:**
+
+*   Player12(Home Team) attempts a through ball, but Player10(Home Team) is offside.
+*   Player12(Home Team) earns a free kick in their own half.
+*   Player12(Home Team) misses a close-range header to the right after being assisted by Player2(Home Team) with a cross from a set piece situation.
+
+**Step-by-step analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1:** "Player12(Home Team) attempts a through ball, but Player10(Home Team) is offside."
+    *   This mentions an attempted through ball, which does not fall under any of the tracked events. Player10 is offside, but this does not affect Player12's stats.
+
+3.  **Snippet 2:** "Player12(Home Team) earns a free kick in their own half."
+    *   Player12 earns a free kick. Thus, Free Kicks = 1.
+
+4.  **Snippet 3:** "Player12(Home Team) misses a close-range header to the right after being assisted by Player2(Home Team) with a cross from a set piece situation."
+    *   Player12 misses a header, which qualifies as a shot. Thus, Shots = 1.
+
+**Final Count:**
+
+*   Shots = 1
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 1
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player12 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

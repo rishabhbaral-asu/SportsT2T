@@ -1,0 +1,43 @@
+Okay, let's start by identifying the player name and initializing the event counts.
+
+Player Name: Player25
+
+Now, let's initialize the counts for each event to 0.
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Next, let's analyze each commentary snippet:
+
+Snippet 1: "Player25(Away Team) earns a free kick in their own half."
+
+*   The snippet mentions Player25 earning a free kick. This falls under the "Free Kicks (taken)" category, because he wins a free kick.
+
+Free Kicks = 1
+
+Snippet 2: "Player25(Away Team) took a shot from outside the box after a set piece but unfortunately it was too high and wide to the right."
+
+*   The snippet mentions Player25 taking a shot. This falls under the "Shots" category.
+
+Shots = 1
+
+Snippet 3: "Player25(Away Team) commits a foul."
+
+* The snippet mentions Player25 committing a foul. This falls under the "Fouls" category.
+
+Fouls = 1
+
+Now, let's compile the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

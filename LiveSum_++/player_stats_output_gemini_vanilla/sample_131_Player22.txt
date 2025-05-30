@@ -1,0 +1,52 @@
+Okay, let's analyze the commentary snippets for Player22 and generate the final summary table.
+
+**1. Identify the target player:**
+
+The target player is Player22.
+
+**2. Initialize event counts:**
+
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**3. Analyze commentary snippets:**
+
+*   Snippet 1: "Player22(Away Team) fouls Player8(Home Team), awarding a free kick in the defensive half."
+    *   Fouls: Player22 commits a foul. Increment Fouls by 1. Fouls = 1
+    *   Free Kicks: A foul was committed by Player22 which resulted in a free kick. Player22 is explicitly mentioned to have committed the foul so we increment the Foul count. The free kick is awarded to another player so Player22 does not take it.
+
+*   Snippet 2: "Player22(Away Team) earns a free kick in the opponent's half."
+    *   Free Kicks: Player22 earns a free kick. Increment Free Kicks by 1. Free Kicks = 1
+
+*   Snippet 3: "Player22(Away Team) earns a free kick in the opponent's half."
+    *   Free Kicks: Player22 earns a free kick. Increment Free Kicks by 1. Free Kicks = 2
+
+*   Snippet 4: "Player22(Away Team) earns a free kick in their own half."
+    *   Free Kicks: Player22 earns a free kick. Increment Free Kicks by 1. Free Kicks = 3
+
+*   Snippet 5: "Player22(Away Team) attempts a through ball, but Player28(Away Team) is offside for the Away Team."
+    *   Offsides: No offside event explicitly attributable to Player22. Player28 is offside.
+
+**4. Final Counts:**
+
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 3
+Fouls: 1
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 0     | 0     | 0       | 3          | 1     | 0            | 0         | 0        |
+```

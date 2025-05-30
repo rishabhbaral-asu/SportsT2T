@@ -1,0 +1,40 @@
+Okay, let's break this down step by step.
+
+1.  **Identify Target Player:** The target player is Player4.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player4(Home Team) misses the goal with a left footed shot from the center of the box, assisted by Player6(Home Team) with a header."
+        *   The snippet explicitly states "Player4 misses the goal with a [...] shot". This increments the 'Shots' count by 1.
+        *   Since Player4 missed, this doesn't increment 'Goals'.
+        *   The snippet explicitly states Player4 was *assisted by* Player6, so no assist for Player4.
+
+    *   **Snippet 2:** "Player4(Home Team) earns a free kick in their own defensive half."
+        *   The snippet explicitly states "Player4 earns a free kick". This increments the 'Free Kicks' count by 1.
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

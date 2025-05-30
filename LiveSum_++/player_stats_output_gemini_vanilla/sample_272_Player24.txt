@@ -1,0 +1,25 @@
+Okay, let's start by identifying the target player name.
+The target player name is Player24.
+
+Now, let's initialize the event counts for Player24:
+Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Now, let's analyze each commentary snippet:
+- Snippet 1: "Player24(Away Team)'s left footed shot from outside the box is blocked."
+    - This snippet explicitly states Player24 took a shot, so Shots = 1.
+- Snippet 2: "Player24(Away Team) commits a hand ball."
+    - This snippet explicitly states Player24 committed a foul (hand ball), so Fouls = 1.
+- Snippet 3: "Player24(Away Team) receives a yellow card."
+    - This snippet explicitly states Player24 received a yellow card, so Yellow Cards = 1.
+- Snippet 4: "Player24(Away Team) of the Away Team attempts to pass the ball to Player35(Away Team), but Player35(Away Team) is offside."
+    - This snippet explicitly states Player35 was offside; Player24's action of passing did not directly lead to a goal, hence no assist is awarded to Player24. Offsides = 0.
+
+Final counts for Player24:
+Shots = 1, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 1, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 1     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

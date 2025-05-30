@@ -1,0 +1,45 @@
+Okay, let's break down the commentary snippets and count the events for Player10.
+
+**1. Player Identification:**
+The target player is Player10.
+
+**2. Initialization:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player10(Home Team) scores with a header from close range to the bottom right corner, assisted by Player5(Home Team) with a cross."
+    *   Goals: Player10 scores, so Goals = 1.
+    *   Shots: Scoring a goal implies a shot, so Shots = 1.
+    *   Assists: Player10 was *assisted by* Player5, so no assist is counted for Player10.
+*   **Snippet 2:** "Player10(Home Team) of the Home Team is caught offside after Player2(Home Team) attempts a through ball."
+    *   Offsides: Player10 is caught offside, so Offsides = 1
+*   **Snippet 3:** "Player10(Home Team) earns a free kick in the opponent's half."
+    *   Free Kicks: Player10 earns a free kick, so Free Kicks = 1.
+*   **Snippet 4:** "Player10(Home Team) is injured."
+    *   No relevant event to count.
+
+**4. Final Counts:**
+Shots = 1
+Goals = 1
+Assists = 0
+Free Kicks = 1
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 1
+
+**5. Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 1     | 1     | 0       | 1          | 0     | 0            | 0         | 1        |
+```

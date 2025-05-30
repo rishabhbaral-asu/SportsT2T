@@ -1,0 +1,52 @@
+Okay, let's analyze the commentary snippets for Player20 step-by-step and create the final summary table.
+
+1.  **Player Name:** The target player is Player20.
+
+2.  **Initialization:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+3.  **Commentary Snippet Analysis:**
+
+    *   Snippet 1: "Player20(Away Team) earns a free kick in their own half."
+        *   Player20 earns a free kick. This means Player20 wins a free kick. Increment Free Kicks by 1.
+        *   Free Kicks = 1
+
+    *   Snippet 2: "Player20(Away Team) fouls Player5(Home Team), giving them a free kick in their defensive half."
+        *   Player20 commits a foul. Increment Fouls by 1.
+        *   Fouls = 1
+
+    *   Snippet 3: "Player20(Away Team) commits a foul."
+        *   Player20 commits a foul. Increment Fouls by 1.
+        *   Fouls = 2
+
+    *   Snippet 4: "Player20(Away Team) receives a yellow card for a rough tackle."
+        *   Player20 receives a yellow card. Increment Yellow Cards by 1.
+        *   Yellow Cards = 1
+
+    *   Snippet 5: "Player20(Away Team) attempts a through ball, but Player22(Away Team) is caught offside for the Away Team."
+        * Player20 attempts a through ball which resulted in an offside for Player22. This does not count as an assist for Player20 because the play was called dead due to the offside.
+        * There is no mention of a shot, goal, assist, foul, yellow card or red card for Player20 in this snippet. There *is* an offside, but it is attributed to Player22, not Player20. So we do *not* increment Offsides.
+
+4. **Final Count:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 1
+    * Fouls = 2
+    * Yellow Cards = 1
+    * Red Cards = 0
+    * Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 0     | 0     | 0       | 1          | 2     | 1            | 0         | 0        |
+```

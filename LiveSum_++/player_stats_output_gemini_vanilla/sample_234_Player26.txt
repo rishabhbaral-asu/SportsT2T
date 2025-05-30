@@ -1,0 +1,57 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player26 and compile the statistics into a markdown table.
+
+1.  **Player Name:** Player26
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player26(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team."
+        *   Player26 attempts a through ball. This does not count as a shot or assist. No relevant events.
+        * Offsides = 0
+
+    *   Snippet 2: "Player26(Away Team) commits a foul, allowing Player8(Home Team) to win a free kick in the attacking half."
+        *   "Player26 commits a foul" - Fouls = 1
+        * Free Kicks = 0
+
+    *   Snippet 3: "Player26(Away Team)'s shot from outside the box is saved by the goalkeeper, with an assist from Player25(Away Team)."
+        *   "Player26's shot" - Shots = 1
+        *   Goals = 0 (shot was saved)
+        *   Assists = 0 (Player26 was assisted by Player25, so Player26 does not get credit for an assist in this snippet).
+
+    *   Snippet 4: "Player26(Away Team) commits a foul, resulting in Player5(Home Team) winning a free kick in their own defensive half."
+        *   "Player26 commits a foul" - Fouls = 2
+         * Free Kicks = 0
+
+    *   Snippet 5: "Player26(Away Team) attempts a through ball to Player29(Away Team), who is caught offside."
+        * No relevant events to count
+         * Offsides = 0
+
+    *   Snippet 6: "Player26(Away Team)'s shot from outside the box is blocked."
+        *   "Player26's shot" - Shots = 2
+        *   Goals = 0 (shot was blocked)
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 2
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 2     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

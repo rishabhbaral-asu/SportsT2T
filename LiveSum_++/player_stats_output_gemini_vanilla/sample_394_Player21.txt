@@ -1,0 +1,46 @@
+Okay, let's analyze the provided commentary snippets for Player21.
+
+1.  **Player Name:** Player21
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player21(Away Team)'s header from the center of the box is saved in the middle of the goal."
+        *   "header" implies an attempt on goal, and the word "saved" confirms it was a shot. So, Shots += 1
+
+    *   Snippet 2: "Player21(Away Team) committed a foul."
+        *   Explicitly states a foul committed by Player21. So, Fouls += 1
+
+    *   Snippet 3: "Player21(Away Team) commits a foul."
+        *   Explicitly states a foul committed by Player21. So, Fouls += 1
+
+    *   Snippet 4: "Player21(Away Team) scores with a header from the center of the box to the bottom left corner, assisted by Player26(Away Team) with a cross after a corner kick, The score is now Home Team 2, Away Team 2, Goal!."
+        *   Explicitly states Player21 "scores", so Goals += 1
+        *   Scoring a goal is also a shot, so Shots += 1
+        *   Player21 was *assisted by* someone else, so Assists remains 0
+
+4.  **Final Counts:**
+    *   Shots = 1 + 1 = 2
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1 + 1 = 2
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 2     | 1     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

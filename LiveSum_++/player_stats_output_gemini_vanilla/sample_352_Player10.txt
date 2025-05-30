@@ -1,0 +1,24 @@
+Okay, let's break this down step by step.
+
+1.  **Player Name:** The target player is Player10.
+
+2.  **Initialization:** We initialize all counts to 0: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+3.  **Commentary Snippet Analysis:**
+
+    *   Snippet 1: "Player10(Home Team) misses the mark with a high shot from the center of the box, assisted by Player2(Home Team)'s cross."
+        *   Shots: The snippet mentions "shot" explicitly attributed to Player10, so we increment Shots to 1.
+        *   Goals: No goal is scored in this snippet. Goals remains 0.
+        *   Assists: The snippet states Player10 was "assisted by Player2". Thus, Player10 did NOT provide the assist, so Assists remains 0.
+        *   Free Kicks: No free kick related keywords are present. Free Kicks remains 0.
+        *   Fouls: No foul-related keywords are present. Fouls remains 0.
+        *   Yellow Cards: No yellow card-related keywords. Yellow Cards remains 0.
+        *   Red Cards: No red card-related keywords. Red Cards remains 0.
+        *   Offsides: No offside-related keywords. Offsides remains 0.
+
+4. Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

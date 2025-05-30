@@ -1,0 +1,27 @@
+Okay, let's analyze the commentary snippets for Player21.
+
+**Player Name:** Player21
+
+**Commentary Snippets:**
+
+*   "Player21(Away Team)'s close-range attempt is just too high after being assisted by Player27(Away Team)'s cross from a corner."
+*   "Player21(Away Team) earns a free kick in the opponent's half."
+
+**Step-by-step analysis:**
+
+1.  **Shots:** The first snippet explicitly mentions "Player21's close-range attempt". So, we increment the shot count by 1.
+2.  **Goals:** The first snippet says the attempt "is just too high" meaning it was not a goal. Therefore, the goal count remains 0.
+3.  **Assists:** The first snippet mentions that Player21 was "assisted by Player27". This does not count as an assist *for* Player21. Therefore, the assist count remains 0.
+4.  **Free Kicks:** The second snippet explicitly states that "Player21 earns a free kick". Therefore, increment the free kick count by 1.
+5.  **Fouls:** Neither snippet contains information suggesting that Player21 committed a foul. The count remains 0.
+6.  **Yellow Cards:** Neither snippet mentions Player21 receiving a yellow card. The count remains 0.
+7.  **Red Cards:** Neither snippet mentions Player21 receiving a red card. The count remains 0.
+8.  **Offsides:** Neither snippet mentions Player21 being offside. The count remains 0.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

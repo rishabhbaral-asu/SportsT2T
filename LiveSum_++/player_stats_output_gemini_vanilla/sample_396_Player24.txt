@@ -1,0 +1,28 @@
+Okay, let's break this down step by step.
+
+1.  **Player Name:** The target player is Player24.
+
+2.  **Initialization:** We initialize all event counts for Player24 to 0.
+
+3.  **Commentary Analysis:** We go through each snippet and count events attributed to Player24, using the keywords and definitions provided, following the strict counting rule.
+
+    *   Snippet 1: "Player24(Away Team) commits a foul, giving Player4(Home Team) a free kick in their own defensive half."
+        *   Fouls: The snippet explicitly states "Player24 commits a foul". So, increment Fouls by 1.
+        *   Free Kicks: Although a free kick is mentioned, it is being given *to* Player4, not taken *by* Player24, and it is a direct consequence of Player24 committing a foul. So do not increment free kicks.
+
+4.  **Final Count:** Based on the analysis:
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

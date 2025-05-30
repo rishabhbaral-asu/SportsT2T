@@ -1,0 +1,30 @@
+Okay, let's break down the task. I need to analyze the commentary snippets, identify mentions of "Player21", and count the occurrences of specific events (Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, Offsides) based on the provided keywords and definitions. I will apply the strict counting rules.
+
+**Player Name:** Player21
+
+**Commentary Snippets:**
+
+*   Player21(Away Team) commits a foul.
+*   Player21(Away Team) earns a free kick in their own half.
+*   Player21(Away Team)'s left-footed shot from the left side of the box is blocked.
+*   Player21(Away Team) earns a free kick on the left side of the field.
+*   Player21(Away Team) commits a foul.
+*   Player21(Away Team)'s left footed shot from outside the box is blocked.
+
+**Event Counting:**
+
+*   **Shots:** Snippets 3 and 6 explicitly mention "shot" by Player21. So, Shots = 2.
+*   **Goals:** No snippet mentions Player21 scoring a goal. So, Goals = 0.
+*   **Assists:** No snippet mentions Player21 providing an assist. So, Assists = 0.
+*   **Free Kicks:** Snippets 2 and 4 explicitly mention Player21 earning a free kick. "earns a free kick" implies the player was fouled, and is awarded a free kick. So, Free Kicks = 2.
+*   **Fouls:** Snippets 1 and 5 explicitly mention Player21 committing a foul. So, Fouls = 2.
+*   **Yellow Cards:** No snippet mentions Player21 receiving a yellow card. So, Yellow Cards = 0.
+*   **Red Cards:** No snippet mentions Player21 receiving a red card. So, Red Cards = 0.
+*   **Offsides:** No snippet mentions Player21 being offsides. So, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 2     | 0     | 0       | 2          | 2     | 0            | 0         | 0        |
+```

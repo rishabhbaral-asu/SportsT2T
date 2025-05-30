@@ -1,0 +1,58 @@
+Okay, let's break down the process step by step.
+
+1.  **Identify Target Player:** The target player is Player29.
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player29(Away Team) earns a free kick on the left side of the field."
+        *   Player29 earns a free kick. Increment Free Kicks by 1.
+        *   Free Kicks: 1
+
+    *   Snippet 2: "Player29(Away Team)'s shot from outside the box is saved in the top left corner."
+        *   Player29's shot is saved. Increment Shots by 1.
+        *   Shots: 1
+
+    *   Snippet 3: "Player29(Away Team) misses the goal with a right footed shot from outside the box, assisted by Player24(Away Team)."
+        *   Player29 misses a shot. Increment Shots by 1.
+        *   Assisted by Player24. No assist for Player29.
+        *   Shots: 2
+
+    *   Snippet 4: "Player29(Away Team)'s shot from the center of the box is blocked with the help of Player25(Away Team)."
+        *   Player29's shot is blocked. Increment Shots by 1.
+        *   Shots: 3
+
+    *   Snippet 5: "Player29(Away Team)'s header from the center of the box was too high after being assisted by Player27(Away Team) with a cross from a corner."
+        *   Player29's header was too high (shot). Increment Shots by 1.
+        *   Assisted by Player27. No assist for Player29.
+        *   Shots: 4
+
+    *   Snippet 6: "Player29(Away Team) committed a foul."
+        *   Player29 committed a foul. Increment Fouls by 1.
+        *   Fouls: 1
+
+4.  **Final Counts:**
+    *   Shots: 4
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 4     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

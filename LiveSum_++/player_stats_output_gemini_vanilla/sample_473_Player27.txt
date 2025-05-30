@@ -1,0 +1,41 @@
+Okay, let's analyze the commentary snippets for Player27 and compile the statistics.
+
+**Player Name:** Player27
+
+**Commentary Snippets:**
+- Player27(Away Team) misses a close left footed shot from the left side of the six yard box, assisted by Player29(Away Team).
+
+**Step-by-step Analysis:**
+
+1.  **Player Identification:** The target player is Player27.
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+3.  **Snippet Analysis:**
+    *   Snippet 1: "Player27(Away Team) misses a close left footed shot from the left side of the six yard box, assisted by Player29(Away Team)."
+        *   The snippet explicitly states "Player27 misses a [...] shot". Therefore, Shots is incremented by 1.
+        *   The snippet mentions Player27 was "assisted by Player29". Since Player27 was assisted, this doesn't count as an assist *for* Player27.
+        *   No other events are explicitly mentioned for Player27 in this snippet.
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

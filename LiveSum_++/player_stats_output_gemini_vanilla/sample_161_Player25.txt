@@ -1,0 +1,44 @@
+Okay, let's analyze the commentary snippets for Player25 and generate the summary table.
+
+1.  **Player Name:** Player25
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Commentary Snippet Analysis:**
+
+    *   Snippet 1: "Player25(Away Team) earns a free kick in their own half."
+        *   Free Kicks: The player "earns a free kick", which explicitly means a free kick was won. Increment Free Kicks by 1. Current Free Kicks: 1
+        *   Other events: No other events are explicitly mentioned for Player25.
+
+    *   Snippet 2: "Player25(Away Team) fouls Player9(Home Team), earning a free kick in the defensive half."
+        *   Fouls: The player "fouls" another player. Increment Fouls by 1. Current Fouls: 1
+        *   Other events: No other events are explicitly mentioned for Player25. Note the "earning a free kick" is attributed to player 9, and therefore should not be counted as a "free kick" event for Player25
+
+    *   Snippet 3: "Player25(Away Team) receives a yellow card for a reckless challenge."
+        *   Yellow Cards: The player "receives a yellow card". Increment Yellow Cards by 1. Current Yellow Cards: 1
+        *   Other events: No other events are explicitly mentioned for Player25.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 1
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 0     | 0     | 0       | 1          | 1     | 1            | 0         | 0        |
+```

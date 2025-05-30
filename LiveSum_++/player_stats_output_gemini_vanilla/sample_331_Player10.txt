@@ -1,0 +1,56 @@
+Okay, let's analyze the commentary snippets for Player10 and generate the final summary table.
+
+**Step 1: Identify the target player.**
+
+The target player is Player10.
+
+**Step 2: Initialize the counts.**
+
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**Step 3: Analyze each snippet and increment the counts based on the definitions and keywords.**
+
+*   **Snippet 1:** "Player10(Home Team)'s shot from the right side of the box is saved in the top centre of the goal after an assist from Player11(Home Team)."
+    *   Shots: Increment by 1 (shot)
+    * The snippet indicates that Player11 gave the assist; so Player10 does not get an assist here.
+
+*   **Snippet 2:** "Player10(Home Team)'s shot from the left side of the box is blocked with the help of Player9(Home Team)."
+    *   Shots: Increment by 1 (shot)
+
+*   **Snippet 3:** "Player10(Home Team)'s right footed shot from outside the box is saved in the top right corner, assisted by Player7(Home Team), resulting in a corner kick for the Home Team."
+    *   Shots: Increment by 1 (shot)
+    * Player7 is the one who assisted Player10; so Player10 does not get an assist here.
+
+*   **Snippet 4:** "Player10(Home Team) misses a right-footed shot from the left side of the box, assisted by Player17(Home Team), after a foul by Player2(Home Team)."
+    *   Shots: Increment by 1 (shot)
+    * Player17 assisted; so Player10 does not get an assist here.
+    * No foul committed by Player10.
+
+*   **Snippet 5:** "Player10(Home Team) misses the goal with a right footed shot from the right side of the box, assisted by Player17(Home Team)."
+    *   Shots: Increment by 1 (shot)
+    * Player17 assisted; so Player10 does not get an assist here.
+
+**Step 4: Create the final summary table.**
+
+Shots: 5
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 5     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

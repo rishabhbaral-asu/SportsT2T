@@ -1,0 +1,45 @@
+Okay, I'm ready to process the input and generate the player statistics table.
+
+**1. Identify Target Player:**
+
+The target player is Player3.
+
+**2. Initialize Event Counts:**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player3(Home Team) scores with a header from the center of the box to the bottom left corner, assisted by Player7(Home Team) with a cross after a set piece, Home Team 1, Away Team 3."
+    *   "scores" - Increment Goals by 1.
+    *   "header" and "scores" - Increment Shots by 1 (goal counts as shot).
+    *   No assist for Player3 because snippet shows Player3 was assisted by someone else.
+*   **Snippet 2:** "Player3(Home Team) commits a foul, resulting in Player31(Away Team) winning a free kick in their own defensive half."
+    *   "commits a foul" - Increment Fouls by 1.
+    *   Player3 commits a foul. Player31 wins a free kick. Do not increment "Free Kicks" for Player3 as it was conceded, not won or taken.
+
+**4. Compile Final Counts:**
+
+*   Shots = 1
+*   Goals = 1
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 1
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 1     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

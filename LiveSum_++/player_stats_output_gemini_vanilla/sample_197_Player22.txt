@@ -1,0 +1,29 @@
+Okay, let's break down the task. I need to process the provided commentary snippets, identify mentions of "Player22," and meticulously count the occurrences of specific soccer events (Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, Offsides) that are explicitly attributed to Player22. I will adhere strictly to the provided definitions and the "Absolute Strict Counting & Unambiguous Attribution" rule.
+
+Here's how I'll approach it step-by-step:
+
+1.  **Identify Target Player:** The target player is Player22.
+
+2.  **Initialize Counters:** Initialize all event counters to 0.
+
+3.  **Analyze Snippets:**
+    *   **Snippet 1:** "Player22(Away Team) from the Away Team attempts a through ball, but Player29(Away Team) is flagged for offside." - This mentions "attempts a through ball" by Player22, but does not result in any goal. This snippet does not mention 'shots', 'goals', 'assists', 'free kicks', 'fouls', 'yellow cards', or 'red cards'. It does indicate Player29 is offside but does not mention Player22 being offside. No counts are incremented.
+    *   **Snippet 2:** "Player22(Away Team) earns a free kick in the attacking half after being fouled by Player11(Home Team)." - Player22 earns a free kick, therefore, Free Kicks +1.
+    *   **Snippet 3:** "Player22(Away Team) earns a free kick in their own half after being fouled by Player11(Home Team)." - Player22 earns a free kick, therefore, Free Kicks +1.
+
+4.  **Compile Results:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 2
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 0     | 0     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

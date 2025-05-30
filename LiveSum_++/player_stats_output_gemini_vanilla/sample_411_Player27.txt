@@ -1,0 +1,66 @@
+Okay, I'm ready to analyze the commentary snippets and generate the player statistics table.
+
+**1. Identify Target Player:**
+
+The target player is Player27.
+
+**2. Initialize Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player27(Away Team) strikes the right post with a shot from outside the box, assisted by Player28(Away Team) with a header."
+    *   Shots: The phrase "strikes the right post with a shot" clearly indicates an attempt on goal by Player27. Increment Shots to 1.
+    *   Goals: No goal is mentioned.
+    *   Assists: The snippet mentions Player27 was *assisted by* Player28. This doesn't count as an assist *for* Player27.
+    *   Free Kicks: No free kick related event is mentioned.
+    *   Fouls: No foul is mentioned.
+    *   Yellow Cards: No yellow card is mentioned.
+    *   Red Cards: No red card is mentioned.
+    *   Offsides: No offside is mentioned.
+
+*   **Snippet 2:** "Player27(Away Team) commits a foul, resulting in Player4(Home Team) winning a free kick in their own defensive half, This leads to a set piece opportunity for Player4(Home Team)."
+    *   Shots: No shot is mentioned.
+    *   Goals: No goal is mentioned.
+    *   Assists: No assist is mentioned.
+    *   Free Kicks: Player27 commits a foul, winning Player4 a free kick, this is a Foul and not a Free Kick for Player27
+    *   Fouls: The phrase "commits a foul" clearly indicates a foul committed by Player27. Increment Fouls to 1.
+    *   Yellow Cards: No yellow card is mentioned.
+    *   Red Cards: No red card is mentioned.
+    *   Offsides: No offside is mentioned.
+
+*   **Snippet 3:** "Player27(Away Team) is currently sidelined due to an injury, causing a delay in the match."
+    *   Shots: No shot is mentioned.
+    *   Goals: No goal is mentioned.
+    *   Assists: No assist is mentioned.
+    *   Free Kicks: No free kick is mentioned.
+    *   Fouls: No foul is mentioned.
+    *   Yellow Cards: No yellow card is mentioned.
+    *   Red Cards: No red card is mentioned.
+    *   Offsides: No offside is mentioned.
+
+**4. Final Counts:**
+
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

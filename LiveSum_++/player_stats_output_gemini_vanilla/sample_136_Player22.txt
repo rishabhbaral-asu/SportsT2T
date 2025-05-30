@@ -1,0 +1,40 @@
+Okay, let's analyze the commentary snippets for Player22.
+
+1.  **Player Name:** Player22
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player22(Away Team) narrowly misses a high and wide shot from outside the box with his right foot, as Player26(Away Team) earns a free kick in the defensive half."
+        *   "shot" is present and attributed to Player22. Increment Shots: Shots = 1
+        *   "earns a free kick" is present, but it is attributed to Player26 not Player22, so do not increment Free Kicks.
+
+    *   Snippet 2: "Player22(Away Team) earns a free kick in their own half."
+        *   "earns a free kick" is present and attributed to Player22. Increment Free Kicks: Free Kicks = 1
+
+4.  **Final Counts:**
+
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

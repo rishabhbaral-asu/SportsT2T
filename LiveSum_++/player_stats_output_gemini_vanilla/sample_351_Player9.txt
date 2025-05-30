@@ -1,0 +1,40 @@
+Okay, let's analyze the commentary snippets for Player9.
+
+*   **Player Name:** Player9
+*   **Commentary Snippets:**
+    *   "Player9(Home Team) commits a foul."
+    *   "Player9(Home Team)'s attempt from outside the box with his right foot narrowly misses to the left on the direct free kick."
+
+Now, let's initialize the counts:
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Analyzing the snippets:
+
+*   Snippet 1: "Player9(Home Team) commits a foul." - This explicitly states Player9 committed a foul. Increment Fouls by 1.
+*   Snippet 2: "Player9(Home Team)'s attempt from outside the box with his right foot narrowly misses to the left on the direct free kick." - This explicitly states Player9 attempted a shot (narrowly misses) and the shot was a direct free kick. Increment Shots by 1. Increment Free Kicks by 1.
+
+Final counts:
+
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 1     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

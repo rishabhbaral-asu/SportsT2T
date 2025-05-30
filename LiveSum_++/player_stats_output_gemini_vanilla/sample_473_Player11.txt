@@ -1,0 +1,47 @@
+Okay, let's process the provided input step-by-step to generate the final summary table.
+
+1.  **Identify the target player:** The target player is `Player11`.
+
+2.  **Initialize event counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze commentary snippets:**
+
+    *   **Snippet 1:** "Player11(Home Team)'s right footed shot from the centre of the box hits the right post, assisted by Player6(Home Team) with a cross, while Player7(Home Team)'s attempt misses to the right."
+        *   Shots: Player11 took a shot that hit the post. Increment Shots count to 1.
+        *   Goals: No goal scored by Player11.
+        *   Assists: Player11 was *assisted by* another player, so no assist is counted for Player11.
+    *   **Snippet 2:** "Player11(Home Team) commits a foul."
+        *   Fouls: Player11 committed a foul. Increment Fouls count to 1.
+    *   **Snippet 3:** "Player11(Home Team) misses the shot with his left foot from the center of the box, assisted by Player7(Home Team) with a cross after a set piece."
+        *   Shots: Player11 missed a shot. Increment Shots count to 2.
+        *   Goals: No goal scored by Player11.
+        *   Assists: Player11 was *assisted by* another player, so no assist is counted for Player11.
+    *   **Snippet 4:** "Player11(Home Team) commits a foul."
+        *   Fouls: Player11 committed a foul. Increment Fouls count to 2.
+    *   **Snippet 5:** "Player11(Home Team) commits a foul, giving Player23(Away Team) a free kick in their own defensive half."
+        *   Fouls: Player11 committed a foul. Increment Fouls count to 3.
+
+4.  **Compile final counts:**
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 3
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 0     | 0       | 0          | 3     | 0            | 0         | 0        |
+```

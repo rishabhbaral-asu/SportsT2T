@@ -1,0 +1,112 @@
+Okay, let's analyze the commentary snippets for Player7.
+
+*   **Player Name:** Player7
+*   **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+*   **Snippet Analysis:**
+    1.  "Player7(Home Team)'s shot from outside the box is saved by the goalkeeper in the bottom left corner, with an assist from Player8(Home Team)."
+        *   Shots += 1 (Explicitly states "shot")
+        *   Goals += 0
+        *   Assists += 0 (Player8 assisted Player7)
+        *   Free Kicks += 0
+        *   Fouls += 0
+        *   Yellow Cards += 0
+        *   Red Cards += 0
+        *   Offsides += 0
+    2.  "Player7(Home Team) has committed a hand ball."
+        *   Shots += 0
+        *   Goals += 0
+        *   Assists += 0
+        *   Free Kicks += 0
+        *   Fouls += 1 (Explicitly states "committed a hand ball")
+        *   Yellow Cards += 0
+        *   Red Cards += 0
+        *   Offsides += 0
+    3.  "Player7(Home Team) earns a free kick in the opponent's half after being fouled by Player20(Away Team)."
+        *   Shots += 0
+        *   Goals += 0
+        *   Assists += 0
+        *   Free Kicks += 1 (Explicitly stated Player7 earns a free kick)
+        *   Fouls += 0
+        *   Yellow Cards += 0
+        *   Red Cards += 0
+        *   Offsides += 0
+    4.   "Player7(Home Team) earns a free kick in the opponent's half."
+        *   Shots += 0
+        *   Goals += 0
+        *   Assists += 0
+        *   Free Kicks += 1 (Explicitly stated Player7 earns a free kick)
+        *   Fouls += 0
+        *   Yellow Cards += 0
+        *   Red Cards += 0
+        *   Offsides += 0
+    5.  "Player7(Home Team) misses the target with a high right-footed shot from outside the box on a direct free kick."
+        *   Shots += 1 (Explicitly states "shot")
+        *   Goals += 0
+        *   Assists += 0
+        *   Free Kicks += 1 (Explicitly stated Player7 took a direct free kick)
+        *   Fouls += 0
+        *   Yellow Cards += 0
+        *   Red Cards += 0
+        *   Offsides += 0
+    6.  "Player7(Home Team) earns a free kick on the left side of the field."
+        *   Shots += 0
+        *   Goals += 0
+        *   Assists += 0
+        *   Free Kicks += 1 (Explicitly stated Player7 earns a free kick)
+        *   Fouls += 0
+        *   Yellow Cards += 0
+        *   Red Cards += 0
+        *   Offsides += 0
+    7.  "Player7(Home Team) earns a free kick in their own defensive half after being fouled by Player21(Away Team)."
+        *   Shots += 0
+        *   Goals += 0
+        *   Assists += 0
+        *   Free Kicks += 1 (Explicitly stated Player7 earns a free kick)
+        *   Fouls += 0
+        *   Yellow Cards += 0
+        *   Red Cards += 0
+        *   Offsides += 0
+    8.  "Player7(Home Team) scores with a right footed shot from the center of the box, assisted by Player9(Home Team) with a headed pass, Home Team leads 2-1 against Away Team."
+        *   Shots += 1 (Explicitly states "shot" and "scores")
+        *   Goals += 1 (Explicitly states "scores")
+        *   Assists += 0 (Player9 assisted Player7)
+        *   Free Kicks += 0
+        *   Fouls += 0
+        *   Yellow Cards += 0
+        *   Red Cards += 0
+        *   Offsides += 0
+    9.  "Player7(Home Team) receives a yellow card for celebrating too much."
+        *   Shots += 0
+        *   Goals += 0
+        *   Assists += 0
+        *   Free Kicks += 0
+        *   Fouls += 0
+        *   Yellow Cards += 1 (Explicitly states "yellow card")
+        *   Red Cards += 0
+        *   Offsides += 0
+
+*   **Final Counts:**
+    *   Shots = 4
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 5
+    *   Fouls = 1
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 4     | 1     | 0       | 5          | 1     | 1            | 0         | 0        |
+```

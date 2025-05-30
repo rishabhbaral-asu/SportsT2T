@@ -1,0 +1,37 @@
+Okay, let's analyze the commentary snippets for Player10 and create the summary table.
+
+1.  **Player Name:** `Player10`
+
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player10(Home Team)'s shot from outside the box is saved in the bottom right corner with an assist from Player5(Home Team)."
+        *   Shots: Increment by 1 (explicitly mentioned "shot").
+        *   Assists: Do not increment as Player10 is receiving an assist, not providing one.
+    *   **Snippet 2:** "Player10(Home Team) attempts a through ball, but Player11(Home Team) is offside for the Home Team."
+        *   Offsides: Do not increment as Player10 is not offside, Player11 is.
+    *   **Snippet 3:** "Player10(Home Team)'s shot from outside the box is saved in the bottom right corner with the help of Player6(Home Team)."
+        *   Shots: Increment by 1 (explicitly mentioned "shot").
+        *   Assists: Do not increment as Player10 is receiving an assist, not providing one.
+    *   **Snippet 4:** "Player10(Home Team)'s shot from the left side of the box is blocked with the help of Player5(Home Team)."
+        *   Shots: Increment by 1 (explicitly mentioned "shot").
+        *   Assists: Do not increment as Player10 is receiving an assist, not providing one.
+    *   **Snippet 5:** "Player10(Home Team)'s left footed shot from the left side of the box is saved in the bottom left corner with an assist from Player6(Home Team)."
+        *   Shots: Increment by 1 (explicitly mentioned "shot").
+        *   Assists: Do not increment as Player10 is receiving an assist, not providing one.
+    *   **Snippet 6:** "Player10(Home Team) commits a foul, resulting in Player29(Away Team) winning a free kick on the right wing, ."
+        *   Fouls: Increment by 1 (explicitly mentioned "commits a foul").
+
+    *   **Snippet 7:** "Player10(Home Team)'s shot from the center of the box narrowly misses the top right corner, with an assist from Player14(Home Team)."
+        *   Shots: Increment by 1 (explicitly mentioned "shot").
+        *   Assists: Do not increment as Player10 is receiving an assist, not providing one.
+
+4.  **Final Counts:** Shots = 5, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 5     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,34 @@
+Okay, let's break down the process step by step for Player29.
+
+1.  **Player Name:** The target player is Player29.
+
+2.  **Initialization:** We start with all event counts at 0 for Player29.
+
+3.  **Commentary Snippet Analysis:** We will now go through each snippet and increment the appropriate counters based on the instructions.
+
+    *   **Snippet 1:** "Player29(Away Team) earns a free kick in the attacking half after a foul on Player8(Home Team)." - Player29 earns a free kick. So, Free Kicks (taken) += 1.
+    *   **Snippet 2:** "Player29(Away Team)'s shot from the center of the box is saved by the goalkeeper in the bottom left corner after a through ball from Player27(Away Team)." - Player29's shot is saved. So, Shots += 1.
+    *   **Snippet 3:** "Player29(Away Team)'s shot from outside the box is blocked with the help of Player28(Away Team)." - Player29's shot is blocked. So, Shots += 1.
+    *   **Snippet 4:** "Player29(Away Team)'s left footed shot from the center of the box is blocked with an assist from Player21(Away Team), resulting in a corner kick for the Away Team." - Player29's shot is blocked, being assisted does not count for Player29. So, Shots += 1.
+    *   **Snippet 5:** "Player29(Away Team) commits a foul." - Player29 commits a foul. So, Fouls += 1.
+    *   **Snippet 6:** "Player29(Away Team)'s left footed shot from the left side of the box is blocked with an assist from Player26(Away Team)." - Player29's shot is blocked, being assisted does not count for Player29. So, Shots += 1.
+    *   **Snippet 7:** "Player29(Away Team)'s shot from outside the box is blocked with the help of Player26(Away Team)." - Player29's shot is blocked. So, Shots += 1.
+    *   **Snippet 8:** "Player29(Away Team)'s left footed shot from the centre of the box is saved in the bottom left corner after being assisted by Player23(Away Team), while Player27(Away Team)'s left footed shot from outside the box is blocked with the help of Player25(Away Team)." - Player29's shot is saved, being assisted does not count for Player29. So, Shots += 1.
+    *   **Snippet 9:** "Player29(Away Team) misses the header from the center of the box, it was too high, Player27(Away Team) assisted with the cross." - Player29 misses the header (shot). So, Shots += 1.
+
+4.  **Final Counts:**
+    *   Shots: 7
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 7     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

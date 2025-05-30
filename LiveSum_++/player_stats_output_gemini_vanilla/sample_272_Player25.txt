@@ -1,0 +1,39 @@
+Okay, let's analyze the commentary snippets for Player25.
+
+1.  **Player Name:** Player25
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player25(Away Team) commits a foul." - Fouls += 1
+    *   Snippet 2: "Player25(Away Team) commits a foul." - Fouls += 1
+    *   Snippet 3: "Player25(Away Team) commits a foul." - Fouls += 1
+    *   Snippet 4: "Player25(Away Team) misses a header to the left after a cross from Player24(Away Team) during a set piece." - Shots += 1 (header attempt on goal)
+    *   Snippet 5: "Player25(Away Team) misses the target with a high and wide shot from outside the box, assisted by Player29(Away Team)'s headed pass." - Shots += 1
+    *   Snippet 6: "Player25(Away Team) attempts a through pass to Player34(Away Team), but Player34(Away Team) is flagged for being offside." - Offsides = 0 (Player25 did not commit the offside).
+
+4.  **Final Counts:**
+
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 3
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 2     | 0     | 0       | 0          | 3     | 0            | 0         | 0        |
+```

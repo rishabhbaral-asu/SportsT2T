@@ -1,0 +1,48 @@
+Okay, let's analyze the commentary snippets for Player26.
+
+1.  **Player Name:** Player26
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player26(Away Team) is causing a delay in the match due to an injury." - No relevant events.
+
+    *   Snippet 2: "Player26(Away Team) scores with a right-footed shot from the center of the box, leveling the score at 1-1 between the Home Team and the Away Team." - Player26 scores a goal (and took a shot).
+        *   Shots = 1
+        *   Goals = 1
+
+    *   Snippet 3: "Player26(Away Team) has committed a hand ball." - Player26 committed a foul (hand ball).
+        *   Fouls = 1
+
+    *   Snippet 4: "Player26(Away Team) misses the penalty as the goalkeeper saves the shot with his right foot in the middle of the goal." - Player26 took a penalty kick (which is a shot and a free kick)
+        *   Shots = 2
+        *   Free Kicks = 1
+
+    *   Snippet 5: "Player26(Away Team) commits a foul, resulting in Player14(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player14(Home Team)'s team." - Player26 committed a foul.
+        *   Fouls = 2
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 2
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 2     | 1     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

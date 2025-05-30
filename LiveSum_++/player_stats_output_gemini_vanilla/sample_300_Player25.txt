@@ -1,0 +1,35 @@
+Okay, let's analyze the commentary snippets for Player25 and generate the summary table.
+
+**Player Name:** Player25
+
+**Commentary Snippets:**
+- Player25(Away Team) scores a penalty with a right-footed shot to the bottom left corner, making the score Home Team 0, Away Team 2.
+- Player25(Away Team) earns a free kick in their own half.
+
+**Analysis:**
+
+*   **Snippet 1:** "Player25(Away Team) scores a penalty with a right-footed shot to the bottom left corner, making the score Home Team 0, Away Team 2."
+    *   Goal: Player25 scores a goal. Increment Goals by 1.
+    *   Shot: Player25 scores, which implies a shot. Increment Shots by 1.
+    *   Free Kick: Player25 scores a penalty, so increment free kick by 1.
+
+*   **Snippet 2:** "Player25(Away Team) earns a free kick in their own half."
+    *   Free Kick: Player25 earns a free kick. Increment Free Kicks by 1.
+
+**Counts:**
+
+*   Shots: 1
+*   Goals: 1
+*   Assists: 0
+*   Free Kicks: 2 (1 for the penalty scored, 1 for earning a free kick)
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 1     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

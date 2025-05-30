@@ -1,0 +1,49 @@
+Okay, I'm ready to analyze the commentary snippets and compile the player statistics.
+
+**1. Identify Target Player:**
+
+The target player is Player32.
+
+**2. Initialize Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player32(Away Team) earns a free kick in their own half."
+    *   Player32 earns a free kick. Increment Free Kicks. Free Kicks = 1
+
+*   **Snippet 2:** "Player32(Away Team)'s shot from the center of the box after a corner is too high."
+    *   Player32 takes a shot. Increment Shots. Shots = 1
+
+*   **Snippet 3:** "Player32(Away Team)'s header from the center of the box was just a little too high after being assisted by Player29(Away Team) with a cross from a corner."
+    *   Player32 takes a header (shot). Increment Shots. Shots = 2
+
+*   **Snippet 4:** "Player32(Away Team) missed a header from the center of the box, it was just slightly too high, The cross came from Player29(Away Team) after a corner kick."
+    *   Player32 takes a header (shot). Increment Shots. Shots = 3
+
+**4. Final Counts:**
+
+*   Shots: 3
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player32 | 3     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

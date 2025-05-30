@@ -1,0 +1,51 @@
+Okay, let's analyze the commentary snippets for Player27.
+
+1.  **Player Name:** Player27
+
+2.  **Initialization:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player27(Away Team) scores with a left-footed shot from outside the box, assisted by Player25(Away Team), The Home Team and Away Team are now tied at 1-1."
+        *   Player27 scores: Increment Goals by 1.
+        *   Player27 scores with a shot: Increment Shots by 1.
+        *   Player27 was assisted by Player25: This does not count as an assist for Player27.
+
+    *   **Snippet 2:** "Player27(Away Team)'s right footed shot from the left side of the box is blocked after being assisted by Player29(Away Team), with the attempt ultimately blocked due to a foul by Player28(Away Team)."
+        *   Player27 shot is blocked: Increment Shots by 1.
+        *   Player27 was assisted by Player29: This does not count as an assist for Player27.
+
+    *   **Snippet 3:** "Player27(Away Team) commits a foul."
+        *   Player27 commits a foul: Increment Fouls by 1.
+
+    *   **Snippet 4:** "Player27(Away Team) commits a foul."
+        *   Player27 commits a foul: Increment Fouls by 1.
+
+    *   **Snippet 5:** "Player27(Away Team) receives a yellow card for a rough tackle."
+        *   Player27 receives a yellow card: Increment Yellow Cards by 1.
+
+4.  **Final Counts:**
+
+    *   Shots: 2
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 2
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 2     | 1     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

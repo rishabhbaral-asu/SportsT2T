@@ -1,0 +1,71 @@
+Okay, let's break this down step-by-step.
+
+1.  **Player Name:** The target player is Player29.
+
+2.  **Initialization:** We start with all event counts at 0 for Player29.
+
+3.  **Commentary Analysis:** We will meticulously analyze each snippet, incrementing counts *only* when the event is explicitly attributed to Player29.
+
+**Snippet 1:** "Player29(Away Team) misses the target with a high right-footed shot from outside the box, with an assist from Player23(Away Team)."
+    * Shots: Player29 misses a shot, so Shots += 1.
+    * Goals: No goal.
+    * Assists: Player29 receives an assist, not provides one, so Assists += 0.
+
+**Snippet 2:** "Player29(Away Team)'s left footed shot from the left side of the box is blocked after being assisted by Player27(Away Team)."
+    * Shots: Player29's shot is blocked, so Shots += 1.
+    * Goals: No goal.
+    * Assists: Player29 receives an assist, not provides one, so Assists += 0.
+
+**Snippet 3:** "Player29(Away Team)'s header from the right side of the six yard box goes high and wide to the right, after being assisted by Player28(Away Team) with a cross from a corner."
+    * Shots: Player29's header goes high and wide, so Shots += 1.
+    * Goals: No goal.
+    * Assists: Player29 receives an assist, not provides one, so Assists += 0.
+
+**Snippet 4:** "Player29(Away Team) scores with a left-footed shot from the center of the box, assisted by Player22(Away Team), The score is now tied at 1-1 between the Home Team and the Away Team."
+    * Shots: Player29 scores, so Shots += 1.
+    * Goals: Player29 scores, so Goals += 1.
+    * Assists: Player29 receives an assist, not provides one, so Assists += 0.
+
+**Snippet 5:** "Player29(Away Team)'s shot from the center of the box is saved in the bottom right corner by the goalkeeper after being assisted by Player26(Away Team)."
+    * Shots: Player29's shot is saved, so Shots += 1.
+    * Goals: No goal.
+    * Assists: Player29 receives an assist, not provides one, so Assists += 0.
+
+**Snippet 6:** "Player29(Away Team) has earned a free kick in the opponent's half."
+    * Free Kicks: Player29 earns a free kick, so Free Kicks += 1
+    * Shots: No shot.
+    * Goals: No goal.
+    * Assists: No assist.
+
+**Snippet 7:** "Player29(Away Team)'s shot from the right side is blocked."
+    * Shots: Player29's shot is blocked, so Shots += 1.
+    * Goals: No goal.
+    * Assists: No assist.
+
+**Snippet 8:** "Player29(Away Team) scores with a left-footed shot from the center of the box, assisted by Player27(Away Team), making the score Home Team 2, Away Team 2."
+    * Shots: Player29 scores, so Shots += 1.
+    * Goals: Player29 scores, so Goals += 1.
+    * Assists: Player29 receives an assist, not provides one, so Assists += 0.
+
+**Snippet 9:** "Player29(Away Team)'s shot from outside the box is blocked by the defense, assisted by Player26(Away Team), resulting in a corner kick for the Away Team."
+    * Shots: Player29's shot is blocked, so Shots += 1.
+    * Goals: No goal.
+    * Assists: Player29 receives an assist, not provides one, so Assists += 0.
+
+4.  **Final Counts:**
+
+*   Shots: 8
+*   Goals: 2
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 8     | 2     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

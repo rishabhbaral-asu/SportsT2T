@@ -1,0 +1,36 @@
+Okay, let's analyze the commentary snippets for Player13.
+
+1.  **Player Name:** Player13
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Commentary Snippet Analysis:**
+
+    *   Snippet 1: "Player13(Home Team) with a risky move." - This does not contain any keywords. No count is incremented.
+    *   Snippet 2: "Player13(Home Team) receives a yellow card for a dangerous foul." - This explicitly states Player13 receives a yellow card. Increment Yellow Cards by 1. It also states that the player committed a dangerous foul, so we must increment the count of fouls by 1.
+    *   Snippet 3: "Player13(Home Team) commits a foul, resulting in Player21(Away Team) winning a free kick in their defensive half." - This explicitly states Player13 committed a foul. Increment Fouls by 1. This also indicates Player 13 committed a foul that resulted in Player21 winning a free kick, but we don't count a free kick for Player13 here.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 2
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player13 | 0     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

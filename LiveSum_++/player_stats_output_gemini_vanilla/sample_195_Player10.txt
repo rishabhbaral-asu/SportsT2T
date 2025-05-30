@@ -1,0 +1,47 @@
+Okay, let's analyze the commentary snippets for Player10.
+
+1.  **Player Name:** The target player is Player10.
+
+2.  **Initialization:** We initialize the counts for Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, and Offsides to 0.
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player10(Home Team)'s left-footed shot assisted by Player8(Home Team)."
+        *   Mentions "shot" by Player10. Increment Shots by 1.
+        *   Mentions "assisted by Player8". This doesn't count as an assist *for* Player10.
+
+    *   **Snippet 2:** "Player10(Home Team)'s shot from the center of the box is blocked."
+        *   Mentions "shot" by Player10. Increment Shots by 1.
+
+    *   **Snippet 3:** "Player10(Home Team)'s shot from outside the box is blocked after being assisted by Player8(Home Team)."
+        *   Mentions "shot" by Player10. Increment Shots by 1.
+        *   Mentions "assisted by Player8". This doesn't count as an assist *for* Player10.
+
+    *   **Snippet 4:** "Player10(Home Team)'s shot from close range was blocked by the defense, with an assist from Player9(Home Team)."
+        *   Mentions "shot" by Player10. Increment Shots by 1.
+        *   Mentions "assist from Player9". This does not count as an assist for Player10.
+
+    *   **Snippet 5:** "Player10(Home Team)'s left footed shot from outside the box, assisted by Player15(Home Team), is blocked resulting in a corner kick for the Home Team."
+        *   Mentions "shot" by Player10. Increment Shots by 1.
+        *   Mentions "assisted by Player15". This doesn't count as an assist *for* Player10.
+
+    *   **Snippet 6:** "Player10(Home Team)'s shot from the center of the box, assisted by Player15(Home Team), goes over the goal."
+        *   Mentions "shot" by Player10. Increment Shots by 1.
+        *   Mentions "assisted by Player15". This doesn't count as an assist *for* Player10.
+
+4.  **Final Counts:**
+    *   Shots: 6
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 6     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

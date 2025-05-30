@@ -1,0 +1,45 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
+
+**Input:**
+*   **Player Name:**
+    <PLAYER_NAME>
+    Player36
+    </PLAYER_NAME>
+*   **Commentary Snippets:**
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player36(Away Team)'s header from the center of the box was close but missed to the left, assisted by Player20(Away Team) after a set piece.
+    </PLAYER_COMMENTARY_SNIPPETS>
+
+**Instructions (Part 2 - Finalized for Strictness):**
+
+1.  **Identify the target player name:** Player36
+
+2.  **Initialize counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze each snippet:**
+
+    *   Snippet 1: "Player36(Away Team)'s header from the center of the box was close but missed to the left, assisted by Player20(Away Team) after a set piece."
+        *   The snippet explicitly states "Player36's header". Since a header can be a shot, this counts as a Shot.
+        *   The snippet explicitly states the header "missed". It was therefore not a goal.
+        *   The snippet states "assisted by Player20(Away Team)". This means Player36 was the *receiver* of the assist, not the provider. Therefore, no assist is counted for Player36.
+        * No other events are mentioned.
+
+4.  **Increment Counts:**
+    *   Shots: 1
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player36 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

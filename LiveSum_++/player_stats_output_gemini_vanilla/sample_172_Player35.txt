@@ -1,0 +1,47 @@
+Okay, let's analyze the commentary snippets for Player35 and compile the statistics.
+
+1.  **Player Name:** Player35
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player35(Away Team)'s shot from outside the box is saved in the center of the goal."
+        *   Mentions "shot". Increment Shots: Shots = 1
+
+    *   Snippet 2: "Player35(Away Team) earns a free kick in the opponent's half."
+        *   Mentions "earns a free kick". Increment Free Kicks: Free Kicks = 1
+
+    *   Snippet 3: "Player35(Away Team)'s right footed shot from outside the box is denied in the top right corner."
+        *   Mentions "shot". Increment Shots: Shots = 2
+
+    *   Snippet 4: "Player35(Away Team) is on the ground, but it looks like he faked it."
+        *   No relevant event for tracking.
+
+    *   Snippet 5: "Player35(Away Team) receives a yellow card."
+        *   Mentions "yellow card". Increment Yellow Cards: Yellow Cards = 1
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 0
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player35 | 2     | 0     | 0       | 1          | 0     | 1            | 0         | 0        |
+```

@@ -1,0 +1,43 @@
+Okay, let's analyze the commentary snippets for Player27.
+
+1.  **Player Name:** The target player is Player27.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player27(Away Team) committed a hand ball."
+        *   Fouls: Increment Fouls by 1 because of "hand ball (committed)". Fouls = 1
+    *   **Snippet 2:** "Player27(Away Team) misses a header from the left side of the box with an assist from Player28(Away Team)."
+        *   Shots: Increment Shots by 1 because of "misses a header". Shots = 1
+    *   **Snippet 3:** "Player27(Away Team) commits a foul, resulting in Player2(Home Team) winning a free kick in their defensive half."
+        *   Fouls: Increment Fouls by 1 because of "commits a foul". Fouls = 2
+    *   **Snippet 4:** "Player27(Away Team)'s shot from the center of the box with his left foot is saved in the bottom right corner, assisted by Player24(Away Team)."
+        *   Shots: Increment Shots by 1 because of "shot" and "saved". Shots = 2
+    *   **Snippet 5:** "Player27(Away Team) misses the target with a right-footed shot from outside the box, it goes high and wide to the right, with an assist from Player29(Away Team)."
+        *   Shots: Increment Shots by 1 because of "shot" and "misses". Shots = 3
+
+4.  **Final Counts:**
+    *   Shots = 3
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 2
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 3     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

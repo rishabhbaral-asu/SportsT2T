@@ -1,0 +1,37 @@
+Okay, let's analyze the commentary snippets for Player24.
+
+**1. Player Identification:**
+The target player is Player24.
+
+**2. Initialization:**
+Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+**3. Snippet Analysis and Event Counting:**
+
+*   **Snippet 1:** "Player24(Away Team) commits a foul."
+    *   Fouls: Increment Fouls by 1. Fouls = 1
+
+*   **Snippet 2:** "Player24(Away Team) is holding up the game due to an injury."
+    *   No relevant events.
+
+*   **Snippet 3:** "Player24(Away Team)'s shot from the center of the box is saved by the goalkeeper after being assisted by Player27(Away Team) with a cross."
+    *   Shots: Increment Shots by 1. Shots = 1
+
+*   **Snippet 4:** "Player24(Away Team) fouls Player9(Home Team), resulting in a free kick in the defensive half."
+    *   Fouls: Increment Fouls by 1. Fouls = 2
+
+*   **Snippet 5:** "Player24(Away Team)'s shot from the center of the box is saved in the bottom right corner with an assist from Player26(Away Team)."
+    *   Shots: Increment Shots by 1. Shots = 2
+
+*   **Snippet 6:** "Player24(Away Team)'s shot from outside the box is saved in the bottom left corner with the help of Player26(Away Team)."
+    *   Shots: Increment Shots by 1. Shots = 3
+
+**4. Final Counts:**
+Shots = 3, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 2, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 3     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

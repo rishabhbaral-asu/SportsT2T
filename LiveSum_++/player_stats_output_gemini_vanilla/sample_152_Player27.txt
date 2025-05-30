@@ -1,0 +1,31 @@
+Okay, let's analyze the commentary snippets for Player27 and generate the statistics table.
+
+**Player Name:** Player27
+
+**Commentary Snippets:**
+
+*   Player27(Away Team) earns a free kick on the right side of the field.
+*   Player27(Away Team) is awarded a free kick on the right wing.
+*   Player27(Away Team) commits a foul.
+*   Player27(Away Team) receives a yellow card for a rough tackle.
+*   Player27(Away Team) attempts a pass to Player29(Away Team), but Player29(Away Team) is offside.
+*   Player27(Away Team) just earned a free kick in their own half.
+*   Player27(Away Team) commits a foul.
+
+**Event Tracking:**
+
+*   **Shots:** No explicit mentions of shots taken by Player27. Count = 0
+*   **Goals:** No explicit mentions of goals scored by Player27. Count = 0
+*   **Assists:** No explicit mentions of assists provided by Player27. The mention of a pass to Player29 does not qualify as an assist since it did not lead to a goal. Count = 0
+*   **Free Kicks (Taken):** The snippets mention Player27 "earns a free kick", "is awarded a free kick", and "just earned a free kick". This explicitly indicates that Player27 wins the free kick. Thus each occurrence adds to the free kick count. Count = 3
+*   **Fouls (Committed):** The snippets state Player27 "commits a foul" twice. Count = 2
+*   **Yellow Cards:** The snippet states Player27 "receives a yellow card". Count = 1
+*   **Red Cards:** No explicit mentions of red cards received by Player27. Count = 0
+*   **Offsides:** The snippet "Player27(Away Team) attempts a pass to Player29(Away Team), but Player29(Away Team) is offside." does not mean player27 is offside, just that their pass led to a teammate being called offside. Count = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 0     | 0     | 0       | 3          | 2     | 1            | 0         | 0        |
+```

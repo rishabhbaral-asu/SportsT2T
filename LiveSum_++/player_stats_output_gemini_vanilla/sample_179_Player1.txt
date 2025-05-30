@@ -1,0 +1,23 @@
+Okay, let's start by identifying the player name and initializing the counts.
+
+Player Name: Player1
+
+Now, let's process each commentary snippet and increment the counts accordingly.
+
+Snippet 1: "Player1(Home Team) earns a free kick in their own half."
+*   Free Kicks: Player1 earns a free kick, so increment Free Kicks by 1.
+
+Snippet 2: "Player1(Home Team) is experiencing a delay in the match due to an injury."
+*   No relevant event to increment.
+
+Snippet 3: "Player1(Home Team) has been cautioned with a yellow card."
+*   Yellow Cards: Player1 receives a yellow card, so increment Yellow Cards by 1.
+
+Now, let's compile the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player1 | 0     | 0     | 0       | 1          | 0     | 1            | 0         | 0        |
+```

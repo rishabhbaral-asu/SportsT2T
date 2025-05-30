@@ -1,0 +1,29 @@
+Okay, let's start by identifying the player and initializing the counts.
+
+Player Name: Player24
+
+Now, let's process each commentary snippet:
+
+Snippet 1: "Player24(Away Team) commits a foul, giving Player9(Home Team) a free kick on the left wing, ."
+*   Fouls: The snippet explicitly states "Player24 commits a foul". Increment Fouls by 1.
+
+Snippet 2: "Player24(Away Team) attempts a through ball, but Player32(Away Team) is called offside for the Away Team."
+*   Offsides: The snippet states "Player24 attempts a through ball, but Player32 is called offside for the Away Team." This does not mean player24 is offside.
+*   Offsides: Since Player32 is the one called offside and not Player24, do not increment offsides.
+
+Final Count:
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

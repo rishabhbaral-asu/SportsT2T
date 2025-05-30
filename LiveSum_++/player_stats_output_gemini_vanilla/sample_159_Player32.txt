@@ -1,0 +1,22 @@
+Okay, let's start by identifying the player name and initializing the counts.
+Player Name: Player32
+
+Now, let's process the commentary snippets and count the events.
+
+Commentary Snippet 1: "Player32(Away Team) commits a foul, resulting in Player8(Home Team) winning a free kick in the attacking half, ."
+
+*   Fouls: The snippet explicitly states "Player32 commits a foul". Increment Fouls by 1.
+*   Free Kicks: The snippet indicates "resulting in Player8(Home Team) winning a free kick". This does not count as a free kick taken by Player32.
+
+Commentary Snippet 2: "Player32(Away Team) commits a foul."
+
+*   Fouls: The snippet explicitly states "Player32 commits a foul". Increment Fouls by 1.
+
+Now, let's construct the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player32 | 0     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

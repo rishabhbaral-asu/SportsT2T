@@ -1,0 +1,39 @@
+Okay, let's break this down step by step.
+
+1.  **Identify Target Player:** The target player is Player27.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player27(Away Team) attempts a through ball but Player28(Away Team) is offside." - This doesn't explicitly say Player27 *took* a shot or *provided* an assist. It implies an *attempt* but it's a through ball attempt, not a shot on goal. Player28 is offside. Offsides = 0 for Player27. Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0.
+    *   Snippet 2: "Player27(Away Team)'s shot from outside the box is saved in the bottom right corner with assistance from Player28(Away Team)." - Explicitly states Player27 took a shot. So, Shots = 1. No goal. Assists = 0. Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0.
+    *   Snippet 3: "Player27(Away Team) earns a free kick on the right side of the field." - Explicitly states Player27 earned a free kick. Free Kicks = 1. Shots = 1, Goals = 0, Assists = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+    *   Snippet 4: "Player27(Away Team)'s shot from the right side of the box was blocked, with an assist from Player24(Away Team)." - Explicitly mentions Player27 took a shot. Shots = 2. Player24 assisted Player27, so Assists = 0 for Player27. Goals = 0, Free Kicks = 1, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+    *   Snippet 5: "Player27(Away Team)'s shot from outside the box is blocked with Player24(Away Team)'s assistance." - Explicitly mentions Player27 took a shot. Shots = 3. Player24 assisted Player27, so Assists = 0 for Player27. Goals = 0, Free Kicks = 1, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+    *   Snippet 6: "Player27(Away Team)'s attempt from outside the box is blocked by the defense, resulting in a corner kick for the Away Team." - It's a blocked attempt, so it's a shot. Shots = 4. Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+4.  **Final Counts:**
+    *   Shots = 4
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 4     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

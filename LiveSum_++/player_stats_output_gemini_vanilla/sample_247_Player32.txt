@@ -1,0 +1,41 @@
+Okay, I'm ready to analyze the commentary snippets and generate the player statistics table.
+
+**Player Name:** Player32
+
+**Commentary Snippets:**
+- Player32(Away Team) attempts a pass to Player27(Away Team), but Player27(Away Team) is offside.
+- Player32(Away Team) misses the target with a high right-footed shot from long range.
+- Player32(Away Team)'s attempt with his right foot from outside the box is blocked, resulting in a corner kick for the Home Team.
+
+**Reasoning:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1 Analysis:** "Player32(Away Team) attempts a pass to Player27(Away Team), but Player27(Away Team) is offside."
+    *   The snippet indicates Player32 attempted a pass, but Player27 was offside. This results in offside for Player27, NOT Player32. Therefore, no Offside is assigned to Player32. No Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, or Red Cards are indicated.
+
+3.  **Snippet 2 Analysis:** "Player32(Away Team) misses the target with a high right-footed shot from long range."
+    *   The snippet states Player32 missed a shot.
+    *   Shots = 1
+    *   No Goals, Assists, Free Kicks, Fouls, Yellow Cards, or Red Cards are indicated.
+
+4.  **Snippet 3 Analysis:** "Player32(Away Team)'s attempt with his right foot from outside the box is blocked, resulting in a corner kick for the Home Team."
+    * The snippet states Player32's shot was blocked.
+    * Shots = 2 (1 + 1)
+    * No Goals, Assists, Free Kicks, Fouls, Yellow Cards, or Red Cards are indicated.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player32 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

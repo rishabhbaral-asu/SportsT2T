@@ -1,0 +1,36 @@
+Okay, let's analyze the commentary snippets for Player21 and generate the summary table.
+
+**Player Name:** Player21
+
+**Commentary Snippets:**
+- Player21(Away Team) attempts a through ball, but Player24(Away Team) is offside for the Away Team.
+- Player21(Away Team) has given away a penalty with a foul in the box.
+- Player21(Away Team) has been given a red card.
+
+**Step-by-step Analysis:**
+
+1. **Initialize Counts:**
+   - Shots = 0
+   - Goals = 0
+   - Assists = 0
+   - Free Kicks = 0
+   - Fouls = 0
+   - Yellow Cards = 0
+   - Red Cards = 0
+   - Offsides = 0
+
+2. **Snippet 1: "Player21(Away Team) attempts a through ball, but Player24(Away Team) is offside for the Away Team."**
+   - This snippet describes Player21 attempting a through ball, and Player24 being offside. Player21's through ball does not explicitly lead to a goal. Offsides is for another player so no increment. Thus, no counts are incremented.
+
+3. **Snippet 2: "Player21(Away Team) has given away a penalty with a foul in the box."**
+   - Player21 is explicitly stated as committing a foul by giving away a penalty. Increment Fouls by 1. Fouls = 1
+
+4. **Snippet 3: "Player21(Away Team) has been given a red card."**
+   - Player21 is explicitly stated as receiving a red card. Increment Red Cards by 1. Red Cards = 1
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 0     | 0     | 0       | 0          | 1     | 0            | 1         | 0        |
+```

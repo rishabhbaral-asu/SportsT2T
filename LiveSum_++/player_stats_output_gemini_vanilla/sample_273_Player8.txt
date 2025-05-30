@@ -1,0 +1,22 @@
+Okay, let's analyze the commentary snippets for Player8 and compile the statistics.
+
+**Player Name:** Player8
+
+**Commentary Snippets:**
+
+*   "Player8(Home Team) attempts a through ball, but Player5(Home Team) is caught offside." - No event for Player8. Player5 is offside, not Player8.
+*   "Player8(Home Team) earns a free kick in the opponent's half." - Player8 earns a free kick. Increment Free Kicks by 1.
+*   "Player8(Home Team) tried to score from outside the box with his left foot but missed the target on the left side." - Player8 attempts a shot. Increment Shots by 1.
+*   "Player8(Home Team) scores with a right-footed shot to the bottom left corner from the penalty spot." - Player8 scores a goal. Increment Goals by 1 and Shots by 1. This also counts as a free kick. Increment Free Kicks by 1
+*   "Player8(Home Team)'s shot from outside the box is blocked with Player10(Home Team)'s assistance." - Player8 takes a shot. Increment Shots by 1. No assist for Player8.
+*   "Player8(Home Team) is currently sidelined due to an injury, causing a delay in the match." - No event for Player8.
+*   "Player8(Home Team) commits a foul." - Player8 commits a foul. Increment Fouls by 1.
+*   "Player8(Home Team) receives a yellow card." - Player8 receives a yellow card. Increment Yellow Cards by 1.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 3     | 1     | 0       | 2          | 1     | 1            | 0         | 0        |
+```

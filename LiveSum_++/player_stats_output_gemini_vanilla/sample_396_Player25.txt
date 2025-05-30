@@ -1,0 +1,43 @@
+Okay, let's start by identifying the target player and initializing the counts.
+
+Target Player: Player25
+
+Initial Counts:
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player25(Away Team) attempts a through ball, but Player28(Away Team) is offside for the Away Team."
+This snippet mentions Player25 attempting a through ball, which results in Player28 being offside. This does not increment any of our counters, as a through ball doesn't inherently mean a shot, goal, assist, free kick or foul. Also, the offside is attributed to Player28, not Player25.
+
+Snippet 2: "Player25(Away Team) commits a foul."
+This snippet explicitly states Player25 committed a foul.
+Increment Fouls: Fouls = 0 + 1 = 1
+
+Snippet 3: "Player25(Away Team) commits a foul."
+This snippet explicitly states Player25 committed a foul.
+Increment Fouls: Fouls = 1 + 1 = 2
+
+Final Counts:
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 2
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 0     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

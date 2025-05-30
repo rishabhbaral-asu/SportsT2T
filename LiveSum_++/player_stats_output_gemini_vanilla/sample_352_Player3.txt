@@ -1,0 +1,46 @@
+Okay, let's analyze the commentary snippets for Player3.
+
+**1. Initialization:**
+
+*   Player Name: Player3
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**2. Snippet Analysis:**
+
+*   **Snippet 1:** "Player3(Home Team) scores with a header from the center of the box to the bottom left corner, assisted by Player6(Home Team) with a cross after a corner kick, The score is now tied at 1-1 between the Home Team and the Away Team."
+    *   The snippet explicitly states "Player3 scores".
+    *   Increment Goals: Goals = 1
+    *   The snippet mentions Player3 scoring with a header, therefore it is a shot.
+    *   Increment Shots: Shots = 1
+    *   The snippet also indicates that Player3 was assisted by Player6. Player3 is not the one providing the assist.
+*   **Snippet 2:** "Player3(Home Team) receives a yellow card for celebrating too much."
+    *   The snippet explicitly states "Player3 receives a yellow card".
+    *   Increment Yellow Cards: Yellow Cards = 1
+*   **Snippet 3:** "Player3(Home Team) earns a free kick in their own half."
+    *   The snippet explicitly states "Player3 earns a free kick".
+    *   Increment Free Kicks: Free Kicks = 1
+
+**3. Final Count:**
+
+*   Shots = 1
+*   Goals = 1
+*   Assists = 0
+*   Free Kicks = 1
+*   Fouls = 0
+*   Yellow Cards = 1
+*   Red Cards = 0
+*   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 1     | 1     | 0       | 1          | 0     | 1            | 0         | 0        |
+```

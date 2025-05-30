@@ -1,0 +1,28 @@
+Okay, let's process the input according to the instructions.
+
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
+
+**Input:**
+* **Player Name:** The name of the single player to track.
+    <PLAYER_NAME>
+    Player20
+    </PLAYER_NAME>
+* **Commentary Snippets:** A list of commentary text snippets potentially mentioning the player.
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player20(Away Team) fouls Player11(Home Team), who wins a free kick in their defensive half.
+    </PLAYER_COMMENTARY_SNIPPETS>
+
+1. **Identify the target player name:** The target player is Player20.
+2. **Initialize event counts to 0:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3. **Analyze each snippet:**
+    * Snippet 1: "Player20(Away Team) fouls Player11(Home Team), who wins a free kick in their defensive half."
+        * Player20 commits a foul. Increment Fouls count. Fouls = 1. Player20 does not win a free kick, Player11 does.
+
+4. **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

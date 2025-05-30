@@ -1,0 +1,50 @@
+Okay, let's process the input and generate the requested markdown table.
+
+**Player Name:** Player36
+
+**Commentary Snippets:**
+- Player36(Away Team) scores with a right-footed shot from the right side of the box, assisted by Player28(Away Team), The score is now tied at 1-1 between the Home Team and the Away Team.
+- Player36(Away Team) commits a hand ball, resulting in Player7(Home Team) winning a free kick in the attacking half, .
+- Player36(Away Team)'s shot from the center of the box is saved by the goalkeeper after a headed pass from Player30(Away Team).
+
+**Reasoning:**
+
+1.  **Shots:**
+    *   Snippet 1: "Player36(Away Team) scores with a right-footed shot..." - Explicitly mentions a shot and a goal, so increment Shots by 1.
+    *   Snippet 3: "Player36(Away Team)'s shot from the center of the box is saved..." - Explicitly mentions a shot, so increment Shots by 1.
+    *   Total Shots: 1 + 1 = 2
+
+2.  **Goals:**
+    *   Snippet 1: "Player36(Away Team) scores with a right-footed shot..." - Explicitly mentions a goal, so increment Goals by 1.
+    *   Total Goals: 1
+
+3.  **Assists:**
+    *   Snippet 1: "...assisted by Player28(Away Team)..." - This means Player36 was assisted, not that Player36 provided an assist. No increment.
+    *   Total Assists: 0
+
+4.  **Free Kicks:**
+    * Snippet 2: Player36(Away Team) commits a hand ball, resulting in Player7(Home Team) winning a free kick in the attacking half, . The snippet states Player36 committed the handball which resulted in player7 winning a free kick, thus Player36 does not take the free kick, it counts as a foul.
+    * Total Free Kicks: 0
+
+5.  **Fouls:**
+    *   Snippet 2: "Player36(Away Team) commits a hand ball..." - Explicitly mentions Player36 committing a foul (hand ball), so increment Fouls by 1.
+    *   Total Fouls: 1
+
+6.  **Yellow Cards:**
+    *   No snippets mention Player36 receiving a yellow card.
+    *   Total Yellow Cards: 0
+
+7.  **Red Cards:**
+    *   No snippets mention Player36 receiving a red card.
+    *   Total Red Cards: 0
+
+8.  **Offsides:**
+    *   No snippets mention Player36 being offsides.
+    *   Total Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player36 | 2     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

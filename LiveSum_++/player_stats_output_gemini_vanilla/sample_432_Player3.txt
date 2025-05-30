@@ -1,0 +1,48 @@
+Okay, let's analyze the commentary snippets for Player3.
+
+**1. Player Name:**
+The target player is Player3.
+
+**2. Initialization:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player3(Home Team) misses the header to the left from the center of the box after a cross from Player7(Home Team) following a corner."
+    *   The snippet mentions Player3 attempting a header, which is an attempt on goal. Increment Shots.
+    *   Shots = 1
+
+*   **Snippet 2:** "Player3(Home Team) is currently sidelined due to an injury, causing a delay in the match."
+    *   This snippet doesn't describe any of the tracked events.
+
+*   **Snippet 3:** "Player3(Home Team)'s right footed shot from outside the box is also blocked."
+    *   The snippet mentions Player3 taking a shot that was blocked. Increment Shots.
+    *   Shots = 2
+
+*   **Snippet 4:** "Player3(Home Team) is fouled in the box."
+    *   The snippet explicitly states Player3 was fouled. Increment Free Kicks.
+    *   Free Kicks = 1
+
+**4. Final Counts:**
+Shots = 2
+Goals = 0
+Assists = 0
+Free Kicks = 1
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 2     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

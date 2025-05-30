@@ -1,0 +1,25 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player11 and generate the final summary table.
+
+1.  **Identify Player Name:** The target player is Player11.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player11(Home Team)'s right-footed shot from the center of the box into the bottom right corner."
+        *   This snippet explicitly states Player11 took a shot and scored a goal.
+        *   Increment Shots: Shots = 1
+        *   Increment Goals: Goals = 1
+    *   **Snippet 2:** "Player11(Home Team)'s header from the center of the box is saved in the top left corner after a cross from Player5(Home Team)."
+        *   This snippet explicitly states Player11 took a shot (header).
+        *   Increment Shots: Shots = 2
+    *   **Snippet 3:** "Player11(Home Team) earns a free kick in their own half."
+        *   This snippet explicitly states Player11 earned a free kick.
+        *   Increment Free Kicks: Free Kicks = 1
+
+4.  **Compile Results:** Shots = 2, Goals = 1, Assists = 0, Free Kicks = 1, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

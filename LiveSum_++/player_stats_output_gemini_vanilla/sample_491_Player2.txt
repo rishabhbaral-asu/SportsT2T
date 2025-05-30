@@ -1,0 +1,40 @@
+Okay, let's start by identifying the target player and initializing the event counts.
+
+Target Player: Player2
+
+Initialized counts:
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player2(Home Team) misses the goal with a right footed shot from outside the box, assisted by Player6(Home Team)."
+- Shots: Player2 misses a shot. Increment Shots to 1.
+- Goals: Player2 did not score. Goals remains 0.
+- Assists: Player2 was assisted, so assists remains 0.
+
+Snippet 2: "Player2(Home Team) is currently delayed in the match due to an injury."
+- This snippet doesn't mention any of the tracked events for Player2.
+
+Final Counts:
+Shots: 1
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

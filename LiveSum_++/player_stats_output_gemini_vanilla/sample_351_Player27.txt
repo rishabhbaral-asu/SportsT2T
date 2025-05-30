@@ -1,0 +1,50 @@
+Okay, let's analyze the commentary snippets for Player27 and generate the final summary table.
+
+1.  **Identify the target player:** Player27
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player27(Away Team)'s shot from outside the box is saved in the top left corner."
+        *   Explicitly mentions Player27 taking a shot.
+        *   Increment Shots: Shots = 1
+
+    *   **Snippet 2:** "Player27(Away Team)'s shot from the center of the box is blocked with the help of Player22(Away Team)."
+        *   Explicitly mentions Player27 taking a shot.
+        *   Increment Shots: Shots = 2
+
+    *   **Snippet 3:** "Player27(Away Team) of the Away Team attempts a through ball to Player33(Away Team), but Player33(Away Team) is offside."
+        *   Explicitly mentions Player27 attempting a through ball that leads to Player33 being offside.
+        *   Increment Offsides: Offsides = 0. This does not count as an assist because no goal was scored.
+
+    *   **Snippet 4:** "Player27(Away Team) just missed a left-footed shot from outside the box to the left, with an assist from Player33(Away Team)."
+        * Explicitly mentions Player27 taking a shot that missed.
+        * Increment Shots: Shots = 3.
+        * No assists are counted, as Player27 was *assisted by* someone else.
+
+4.  **Final Counts:**
+
+    *   Shots: 3
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 3     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

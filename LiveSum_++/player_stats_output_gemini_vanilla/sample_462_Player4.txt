@@ -1,0 +1,37 @@
+Okay, let's start by identifying the target player and initializing the event counts.
+
+Target Player: Player4
+
+Initial Counts:
+* Shots: 0
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 0
+* Yellow Cards: 0
+* Red Cards: 0
+* Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player4(Home Team)'s dangerous play results in Player27(Away Team) winning a free kick in the attacking half, This could be a scoring opportunity for Player27(Away Team)'s team."
+
+*   This snippet mentions "Player4(Home Team)'s dangerous play". This implies Player4 committed a foul.
+*   This snippet also says that this dangerous play resulted in Player27(Away Team) winning a free kick, but Player4 did not win or take a free kick, Player27 did. Therefore, we don't count a free kick for Player4.
+
+Updated Counts:
+* Shots: 0
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 1
+* Yellow Cards: 0
+* Red Cards: 0
+* Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

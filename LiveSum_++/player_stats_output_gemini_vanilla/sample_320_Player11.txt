@@ -1,0 +1,49 @@
+Okay, let's break down the task step by step.
+
+1.  **Identify the target player:**
+    The target player is Player11.
+
+2.  **Initialize Counts:**
+    Shots = 0
+    Goals = 0
+    Assists = 0
+    Free Kicks = 0
+    Fouls = 0
+    Yellow Cards = 0
+    Red Cards = 0
+    Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player11(Home Team)'s header from the center of the box hits the left post after being assisted by Player10(Home Team)'s cross."
+        *   Player11 took a shot (header). Increment Shots.
+        * Shots = 1
+    *   **Snippet 2:** "Player11(Home Team) has committed a hand ball."
+        *   Player11 committed a foul (hand ball). Increment Fouls.
+        * Fouls = 1
+    *   **Snippet 3:** "Player11(Home Team)'s header from the center of the box, assisted by Player2(Home Team) with a cross, is blocked by a foul from Player8(Home Team)."
+        *   Player11 took a shot (header blocked). Increment Shots.
+        * Shots = 2
+    *   **Snippet 4:** "Player11(Home Team) strikes the left post with a left-footed shot from the middle of the box, set up by Player5(Home Team)'s cross."
+        * Player11 took a shot. Increment Shots.
+        * Shots = 3
+    *   **Snippet 5:** "Player11(Home Team)'s shot from the center of the box is blocked after being set up by Player10(Home Team)."
+        * Player11 took a shot that was blocked. Increment Shots.
+        * Shots = 4
+
+4.  **Final Counts:**
+    Shots = 4
+    Goals = 0
+    Assists = 0
+    Free Kicks = 0
+    Fouls = 1
+    Yellow Cards = 0
+    Red Cards = 0
+    Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 4     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

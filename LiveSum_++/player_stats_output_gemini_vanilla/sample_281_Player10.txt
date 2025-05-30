@@ -1,0 +1,52 @@
+Okay, let's break this down step by step.
+
+1.  **Identify Target Player:** The target player is Player10.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player10(Home Team) earns a free kick in their own half after being fouled by Player27(Away Team)."
+        *   Player10 earns a free kick. Increment Free Kicks. Free Kicks = 1
+
+    *   **Snippet 2:** "Player10(Home Team) commits a foul."
+        *   Player10 commits a foul. Increment Fouls. Fouls = 1
+
+    *   **Snippet 3:** "Player10(Home Team) commits a foul."
+        *   Player10 commits a foul. Increment Fouls. Fouls = 2
+
+    *   **Snippet 4:** "Player10(Home Team) commits a foul, resulting in Player20(Away Team) winning a free kick in their own defensive half."
+        *   Player10 commits a foul. Increment Fouls. Fouls = 3
+
+    *   **Snippet 5:** "Player10(Home Team) receives a yellow card for a harsh tackle."
+        *   Player10 receives a yellow card. Increment Yellow Cards. Yellow Cards = 1
+        *   Player10 commits a foul because of the tackle. Increment Fouls. Fouls = 4
+
+    *   **Snippet 6:** "Player10(Home Team) is being delayed in the match due to an injury."
+        *   No relevant events to count.
+
+4.  **Consolidate Counts:**
+
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 5
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 0     | 0     | 0       | 1          | 5     | 1            | 0         | 0        |
+```

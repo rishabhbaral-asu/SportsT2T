@@ -1,0 +1,41 @@
+Okay, let's analyze the commentary snippets for Player27 and compile the statistics.
+
+**Player Name:** Player27
+
+**Commentary Snippets:**
+
+*   "Player27(Away Team) earns a free kick in their own half."
+*   "Player27(Away Team) commits a foul, resulting in Player6(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player6(Home Team)'s team."
+*   "Player27(Away Team) commits a foul, resulting in Player11(Home Team) earning a free kick in the opponent's half."
+
+**Step-by-step Analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1: "Player27(Away Team) earns a free kick in their own half."**
+    *   This snippet explicitly states Player27 earned a free kick.
+    *   Increment Free Kicks: Free Kicks = 1
+
+3.  **Snippet 2: "Player27(Away Team) commits a foul, resulting in Player6(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player6(Home Team)'s team."**
+    *   This snippet explicitly states Player27 committed a foul.
+    *   Increment Fouls: Fouls = 1
+
+4.  **Snippet 3: "Player27(Away Team) commits a foul, resulting in Player11(Home Team) earning a free kick in the opponent's half."**
+    *   This snippet explicitly states Player27 committed a foul.
+    *   Increment Fouls: Fouls = 2
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 0     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

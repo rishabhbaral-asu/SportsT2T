@@ -1,0 +1,31 @@
+Okay, let's break down the process step by step.
+
+1.  **Identify Target Player:** The target player is Player4.
+
+2.  **Initialize Counts:** We start with all event counts for Player4 set to 0.
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player4(Home Team) earns a free kick in their own half."
+        *   This snippet explicitly states that Player4 earned a free kick. This implies they were fouled, won a free kick. Thus, increment `Free Kicks` by 1.
+        *   Shots, Goals, Assists, Fouls, Yellow Cards, Red Cards, and Offsides are not mentioned, so they remain at 0.
+
+    *   **Snippet 2:** "Player4(Home Team) is currently sidelined due to an injury, causing a delay in the match."
+        *   This snippet does not mention any of the tracked events.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

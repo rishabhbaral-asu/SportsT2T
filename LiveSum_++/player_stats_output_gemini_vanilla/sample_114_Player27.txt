@@ -1,0 +1,55 @@
+Okay, let's analyze the commentary snippets for Player27 and compile the statistics.
+
+**Player Name:** Player27
+
+**Commentary Snippets:**
+- Player27(Away Team) commits a foul.
+- Player27(Away Team) strikes the right post with a right-footed shot from the center of the box after receiving a through ball from Player29(Away Team).
+- Player27(Away Team) earns a free kick on the left wing after being fouled by Player8(Home Team).
+- Player27(Away Team) earns a free kick in the attacking half after a foul by Player8(Home Team), .
+- Player27(Away Team)'s shot from the center of the box was off target, with Player29(Away Team) providing the assist.
+- Player27(Away Team) scores with a close-range left-footed shot, assisted by Player29(Away Team), Home Team 0, Away Team 3.
+
+**Reasoning:**
+
+*   **Shots:**
+    *   Snippet 2: "Player27(Away Team) strikes the right post with a right-footed shot..." - This is a shot, so increment Shots by 1.
+    *   Snippet 5: "Player27(Away Team)'s shot from the center of the box was off target..." - This is a shot, so increment Shots by 1.
+    *   Snippet 6: "Player27(Away Team) scores with a close-range left-footed shot..." - This is a shot (and a goal), so increment Shots by 1.
+    Total Shots: 3
+
+*   **Goals:**
+    *   Snippet 6: "Player27(Away Team) scores with a close-range left-footed shot..." - This is a goal, so increment Goals by 1.
+    Total Goals: 1
+
+*   **Assists:**
+    *  No assist provided by Player27 in any of the snippets. Snippets 2, 5, and 6 describe Player27 being assisted by Player29, which do not count towards Player27's assists.
+    Total Assists: 0
+
+*   **Free Kicks (Taken):**
+    *   Snippet 3: "Player27(Away Team) earns a free kick on the left wing after being fouled by Player8(Home Team)." - This indicates Player27 wins a free kick. Increment Free Kicks by 1.
+    *   Snippet 4: "Player27(Away Team) earns a free kick in the attacking half after a foul by Player8(Home Team)" - This indicates Player27 wins a free kick. Increment Free Kicks by 1.
+    Total Free Kicks: 2
+
+*   **Fouls (Committed):**
+    *   Snippet 1: "Player27(Away Team) commits a foul." - This indicates Player27 committed a foul. Increment Fouls by 1.
+    Total Fouls: 1
+
+*   **Yellow Cards:**
+    *   No mention of Player27 receiving a yellow card.
+    Total Yellow Cards: 0
+
+*   **Red Cards:**
+    *   No mention of Player27 receiving a red card.
+    Total Red Cards: 0
+
+*   **Offsides:**
+    *   No mention of Player27 being offside.
+    Total Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 3     | 1     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

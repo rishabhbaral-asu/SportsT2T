@@ -1,0 +1,30 @@
+Okay, let's analyze the commentary snippets for Player8 and create the summary table.
+
+**1. Player Name:**
+The target player is Player8.
+
+**2. Initialize Counts:**
+Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+**3. Analyze Snippets:**
+
+*   **Snippet 1:** "Player8(Home Team) commits a foul."
+    *   This snippet explicitly states Player8 committed a foul.
+    *   Increment Fouls: Fouls = 1
+*   **Snippet 2:** "Player8(Home Team) and Player24(Away Team) are both causing delays in the match due to injuries."
+    * This snippet mentions Player8 but does not explicitly mention any action relevant to the statistics.
+*   **Snippet 3:** "Player8(Home Team) attempts a through ball to Player11(Home Team), but he is caught offside by Player27(Away Team)."
+    * This snippet explicitly states Player8 attempted a through ball. It does not count as a shot, goal, assist, free kick, foul, or card. It *does* explicitly state a teammate was offside as a result of Player8's pass. However, it only asks to count Player8's offsides.
+*   **Snippet 4:** "Player8(Home Team) earns a free kick in their own half."
+    * This snippet explicitly states Player8 earned a free kick.
+    * Increment Free Kicks: Free Kicks = 1
+
+**4. Final Counts:**
+Shots = 0, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

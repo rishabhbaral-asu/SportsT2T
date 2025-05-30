@@ -1,0 +1,28 @@
+Okay, let's analyze the commentary snippets for Player26 and generate the statistics table.
+
+**Player Name:** Player26
+
+**Commentary Snippets:**
+
+*   Player26(Away Team) commits a foul.
+*   Player26(Away Team) commits a foul.
+*   Player26(Away Team) attempts a through ball, but Player27(Away Team) is caught offside.
+*   Player26(Away Team) fouls Player9(Home Team), who earns a free kick in their own defensive half.
+
+**Event Tracking:**
+
+*   **Shots:** No explicit mention of shots taken by Player26. Count: 0
+*   **Goals:** No explicit mention of goals scored by Player26. Count: 0
+*   **Assists:** No explicit mention of assists by Player26. Count: 0
+*   **Free Kicks:** The fourth snippet mentions Player26 fouling Player9, who *earns a free kick*. This does NOT count as a Free Kick taken by Player26. Count: 0.
+*   **Fouls:** The first snippet explicitly states "Player26(Away Team) commits a foul." Count: 1. The second snippet explicitly states "Player26(Away Team) commits a foul." Count: 2. The fourth snippet says, "Player26(Away Team) fouls Player9(Home Team)...". Count: 3
+*   **Yellow Cards:** No explicit mention of Player26 receiving a yellow card. Count: 0
+*   **Red Cards:** No explicit mention of Player26 receiving a red card. Count: 0
+*   **Offsides:** The third snippet mentions "Player27(Away Team) is caught offside." so we don't increment offsides for Player26. Count: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 0     | 0     | 0       | 0          | 3     | 0            | 0         | 0        |
+```

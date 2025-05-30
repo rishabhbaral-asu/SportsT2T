@@ -1,0 +1,43 @@
+Okay, let's start by identifying the player and initializing the counts.
+
+Player Name: Player31
+
+Counts:
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Now, let's analyze the commentary snippets.
+
+Snippet 1: "Player31(Away Team) attempts a through ball to Player29(Away Team), who is caught offside, resulting in a free kick for Player11(Home Team) on the right wing."
+
+*   Player31 attempts a through ball to Player29, who is caught offside. This implies Player31 made a pass that led to Player29 being offside. There's nothing in this snippet to suggest it was an attempt on goal. Offsides count increments by 1 for Player31.
+*   Player11 is awarded a free kick but this does not mean Player31 committed a foul or earned a free kick.
+
+Snippet 2: "Player31(Away Team)'s left footed shot from outside the box, assisted by Player32(Away Team), is blocked, with Player11(Home Team) winning a free kick in the defensive half."
+
+*   Player31 takes a shot, so the Shots count increments by 1.
+*   The shot is blocked, so it's not a goal.
+* Player31 was assisted by Player32, so the assist count does not increment.
+
+Updated Counts:
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 1
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player31 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 1        |
+```

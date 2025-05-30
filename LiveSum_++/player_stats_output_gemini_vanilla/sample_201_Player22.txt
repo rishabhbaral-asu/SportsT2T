@@ -1,0 +1,27 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player22 and compile the statistics in a markdown table.
+
+**Player Name:** Player22
+
+**Commentary Snippets:**
+- Player22(Away Team)  commits a foul.
+- Player22(Away Team) from the Home Team scored an own goal, giving Away Team the lead with a score of 2-1.
+- Player22(Away Team)  has given away a penalty in the penalty area after committing a foul.
+- Player22(Away Team) from Away Team has been given a yellow card for a rough tackle.
+
+**Reasoning:**
+
+1.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+2.  **Analyze Snippets:**
+    *   **Snippet 1:** "Player22(Away Team) commits a foul." - Increment Fouls by 1.
+    *   **Snippet 2:** "Player22(Away Team) from the Home Team scored an own goal, giving Away Team the lead with a score of 2-1." - This is an own goal, so it does not count as a goal for the player. Shots = 0, Goals = 0.
+    *   **Snippet 3:** "Player22(Away Team) has given away a penalty in the penalty area after committing a foul." - Increment Fouls by 1.
+    *   **Snippet 4:** "Player22(Away Team) from Away Team has been given a yellow card for a rough tackle." - Increment Yellow Cards by 1.
+
+**Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 2, Yellow Cards = 1, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 0     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

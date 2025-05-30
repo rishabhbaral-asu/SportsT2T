@@ -1,0 +1,51 @@
+Okay, let's analyze the commentary snippets for Player23 step-by-step and create the final summary table.
+
+**1. Identify Target Player:**
+The target player is Player23.
+
+**2. Initialize Counts:**
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player23(Away Team) from the Away Team accidentally scores a goal in their own net, The Home Team is now leading 1-0."
+    *   Goal: Increment by 1 (Player23 scored an own goal, which still counts as a goal.)
+    *   Shot: Increment by 1 (Scoring a goal also counts as a shot.)
+
+*   **Snippet 2:** "Player23(Away Team) commits a foul."
+    *   Fouls: Increment by 1
+
+*   **Snippet 3:** "Player23(Away Team) commits a foul on Player9(Home Team), who earns a free kick in the attacking half, ."
+    *   Fouls: Increment by 1
+    *   Free Kicks: Increment by 1 (Player23 committed a foul that resulted in the opponent earning a free kick)
+
+*   **Snippet 4:** "Player23(Away Team) receives a yellow card for a rough challenge."
+    *   Yellow Cards: Increment by 1
+
+*   **Snippet 5:** "Player23(Away Team) earns a free kick in their own half."
+    *   Free Kicks: Increment by 1
+
+**4. Final Counts:**
+Shots: 1
+Goals: 1
+Assists: 0
+Free Kicks: 2
+Fouls: 2
+Yellow Cards: 1
+Red Cards: 0
+Offsides: 0
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 1     | 1     | 0       | 2          | 2     | 1            | 0         | 0        |
+```

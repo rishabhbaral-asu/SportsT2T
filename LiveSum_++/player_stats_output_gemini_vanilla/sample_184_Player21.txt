@@ -1,0 +1,35 @@
+Okay, I will analyze the commentary snippets for the specified player and compile the statistics in a markdown table according to the provided instructions.
+
+**Player Name:**
+Player21
+
+**Commentary Snippets:**
+- Player21(Away Team) attempts a pass to Player29(Away Team), but Player29(Away Team) is offside.
+- Player21(Away Team) commits a foul.
+- Player21(Away Team) is currently delayed in the match due to an injury.
+
+**Reasoning:**
+
+1.  **Player Name Identification:** The target player is Player21.
+2.  **Initialization:** Initialize all event counts to 0: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet Analysis:**
+    *   **Snippet 1:** "Player21(Away Team) attempts a pass to Player29(Away Team), but Player29(Away Team) is offside." - This mentions Player21 attempting a pass, but it does not explicitly mention an assist, shot, goal, free kick or foul. Player29 is offside, not Player21. So, Offsides = 0.
+    *   **Snippet 2:** "Player21(Away Team) commits a foul." - This explicitly states that Player21 committed a foul. Fouls = 1.
+    *   **Snippet 3:** "Player21(Away Team) is currently delayed in the match due to an injury." - This does not indicate any of the tracked events performed by the player.
+
+4. **Final Counts:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 1
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

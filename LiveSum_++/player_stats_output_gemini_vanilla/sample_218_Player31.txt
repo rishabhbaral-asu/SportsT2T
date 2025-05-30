@@ -1,0 +1,34 @@
+Okay, let's start by identifying the player name and initializing the counts.
+
+Player Name: Player31
+
+Now, let's analyze the commentary snippets one by one, applying the strict counting rules.
+
+Snippet 1: "Player31(Away Team) commits a hand ball."
+*   This snippet explicitly states that Player31 committed a hand ball, which is a foul.
+*   Increment Fouls: Fouls = 1
+
+Snippet 2: "Player31(Away Team)'s left footed shot from outside the box is blocked with an assist from Player29(Away Team)."
+*   This snippet explicitly states Player31 took a shot which was blocked. It also mentions Player29 provided an assist *to* Player31, which does not count as an assist for Player31.
+*   Increment Shots: Shots = 1
+
+Snippet 3: "Player31(Away Team) misses the target with a high right-footed shot from outside the box, assisted by Player32(Away Team) from a direct free kick."
+*   This snippet explicitly states Player31 took a shot which missed. It also mentions Player32 provided an assist *to* Player31, which does not count as an assist for Player31.
+*   Increment Shots: Shots = 2
+
+Final Counts:
+*   Shots: 2
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player31 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

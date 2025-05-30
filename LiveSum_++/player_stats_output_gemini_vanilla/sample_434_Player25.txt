@@ -1,0 +1,28 @@
+Okay, let's analyze the commentary snippets for Player25 and compile the statistics.
+
+**Player Name:**
+Player25
+
+**Commentary Snippets:**
+- Player25(Away Team) earns a free kick in the opponent's half.
+- Player25(Away Team)'s header from the center of the box is saved in the middle of the goal after being assisted by Player26(Away Team).
+- Player25(Away Team) earns a free kick in their own half.
+- Player25(Away Team) commits a foul, resulting in Player6(Home Team) winning a free kick in their own defensive half, The foul was committed by Player25(Away Team), leading to Player6(Home Team) being awarded a free kick in their defensive half.
+
+**Analysis:**
+
+*   **Shots:** The second snippet mentions "Player25(Away Team)'s header from the center of the box is saved". This is an attempt on goal (a shot), so we increment the shots count by 1.
+*   **Goals:** No snippets explicitly state that Player25 scored a goal.
+*   **Assists:** No snippets indicate Player25 provided an assist (assisted another player to score). The second snippet indicates Player25 was *assisted by* another player; therefore no assist will be awarded.
+*   **Free Kicks:** The first snippet states "Player25(Away Team) earns a free kick in the opponent's half.". This means Player25 won a free kick, so we increment the free kicks count by 1. The third snippet states "Player25(Away Team) earns a free kick in their own half.", which means Player25 won a free kick, so we increment the free kicks count by 1.
+*   **Fouls:** The fourth snippet states "Player25(Away Team) commits a foul". This increments the fouls count by 1.The fourth snippet also repeats "The foul was committed by Player25(Away Team)". This does not mean we need to increment the foul count by two - it is referring to the same foul.
+*   **Yellow Cards:** No snippets mention Player25 receiving a yellow card.
+*   **Red Cards:** No snippets mention Player25 receiving a red card.
+*   **Offsides:** No snippets mention Player25 being offsides.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 0     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

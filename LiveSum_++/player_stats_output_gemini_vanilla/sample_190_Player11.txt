@@ -1,0 +1,39 @@
+Okay, I will follow the instructions to analyze the commentary snippets for the specified player and generate the final summary table.
+**Step-by-step breakdown:**
+1.  **Identify Target Player:**
+    *   The target player is Player11.
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+3.  **Analyze Snippets:**
+    *   **Snippet 1:** "Player11(Home Team) scores with a right-footed shot from the right side of the box, assisted by Player6(Home Team), Home Team leads 2-0 against Away Team."
+        *   Player11 scores, so increment Goals by 1.
+        *   Player11 scores, so increment Shots by 1.
+        *   Player11 was *assisted by* Player6. Thus, no assist for Player11.
+    *   **Snippet 2:** "Player11(Home Team) commits a foul."
+        *   Player11 commits a foul, so increment Fouls by 1.
+    *   **Snippet 3:** "Player11(Home Team) commits a foul, resulting in Player23(Away Team) being awarded a free kick in their own defensive half."
+        *   Player11 commits a foul, so increment Fouls by 1.
+    *   **Snippet 4:** "Player11(Home Team) misses the target with a high shot from outside the box."
+        *   Player11 misses a shot, so increment Shots by 1.
+4.  **Compile Final Counts:**
+    *   Shots = 2
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 2
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 1     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

@@ -1,0 +1,21 @@
+Okay, let's start by extracting the player name.
+Player Name: Player9
+
+Now, let's initialize the counts for all events to 0.
+
+Now we iterate through the commentary snippets and count the events for Player9.
+
+Snippet 1: "Player9(Home Team) is being held up due to an injury."
+This snippet doesn't contain any explicit events, so the counts remain unchanged.
+
+Snippet 2: "Player9(Home Team)'s attempt from outside the box is blocked by the defense."
+This snippet mentions "attempt" and "blocked", which are indicators of a shot. Increment shots by 1.
+
+Now, let's compile the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,46 @@
+Okay, I'm ready to process the player statistics.
+
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
+
+**Input:**
+* **Player Name:** The name of the single player to track.
+    <PLAYER_NAME>
+    Player12
+    </PLAYER_NAME>
+* **Commentary Snippets:** A list of commentary text snippets potentially mentioning the player.
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player12(Home Team) misses the goal with a right-footed shot from a tough angle on the left after a set piece.
+    </PLAYER_COMMENTARY_SNIPPETS>
+
+Here's the breakdown of the analysis:
+
+1.  **Player Name:** The target player is Player12.
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+3.  **Snippet Analysis:**
+    *   Snippet 1: "Player12(Home Team) misses the goal with a right-footed shot from a tough angle on the left after a set piece."
+        *   The snippet explicitly states "Player12 misses the goal with a right-footed shot". This clearly attributes a shot to Player12. Therefore, increment Shots by 1.
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player12 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,26 @@
+Okay, let's break down the commentary snippets for Player29 and compile the statistics.
+
+**Player Name:** Player29
+
+**Commentary Snippets:**
+
+*   "Player29(Away Team)'s header from the center of the box is blocked by the defense after being assisted by Player23(Away Team), while Player15(Home Team)'s left-footed shot from the right side is saved in the bottom right corner."
+*   "Player29(Away Team) fouls Player6(Home Team), resulting in a free kick for the defensive team."
+
+**Analysis:**
+
+*   **Shots:** The first snippet states "Player29(Away Team)'s header from the center of the box is blocked by the defense". This indicates an attempt on goal, so we increment Shots by 1.
+*   **Goals:** The snippets do not indicate that Player29 scored a goal. Goals remains 0.
+*   **Assists:** The first snippet states that Player29 was *assisted by* Player23. Since the target player *received* the assist, this does not count as an assist for Player29. Assists remains 0.
+*   **Free Kicks:** The second snippet says Player29 committed a foul, which resulted in a free kick *for the opposing team*. Therefore, this doesn't count as a free kick *taken* by Player29. Free Kicks remains 0.
+*   **Fouls:** The second snippet explicitly states "Player29(Away Team) fouls Player6(Home Team)". Fouls is incremented by 1.
+*   **Yellow Cards:** The snippets do not mention Player29 receiving a yellow card. Yellow Cards remains 0.
+*   **Red Cards:** The snippets do not mention Player29 receiving a red card. Red Cards remains 0.
+*   **Offsides:** The snippets do not mention Player29 being offside. Offsides remains 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

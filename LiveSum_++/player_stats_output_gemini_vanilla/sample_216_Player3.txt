@@ -1,0 +1,41 @@
+Okay, I am ready to process the player commentary snippets and generate the final summary table.
+
+**Player Name:** Player3
+
+**Commentary Snippets:**
+
+*   Player3(Home Team) commits a foul.
+*   Player3(Home Team) misses the header to the right after being assisted by Player7(Home Team) with a cross during a set piece.
+*   Player3(Home Team) misses the target with a high shot from the center of the box, after receiving a headed pass from Player5(Home Team) during a set piece.
+
+**Step-by-step analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1:** "Player3(Home Team) commits a foul."
+    *   The snippet explicitly states Player3 committed a foul.
+    *   Increment Fouls: Fouls = 1
+
+3.  **Snippet 2:** "Player3(Home Team) misses the header to the right after being assisted by Player7(Home Team) with a cross during a set piece."
+    *   The snippet explicitly states Player3 missed a header, which counts as a shot.
+    *   Increment Shots: Shots = 1
+
+4.  **Snippet 3:** "Player3(Home Team) misses the target with a high shot from the center of the box, after receiving a headed pass from Player5(Home Team) during a set piece."
+    *   The snippet explicitly states Player3 missed a shot.
+    *   Increment Shots: Shots = 2
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

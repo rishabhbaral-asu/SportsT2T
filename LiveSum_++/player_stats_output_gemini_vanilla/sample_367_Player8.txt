@@ -1,0 +1,46 @@
+Okay, I'm ready to process the player commentary snippets and generate the final summary table.
+
+**1. Identify Target Player:**
+
+The target player is Player8.
+
+**2. Initialize Event Counts:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player8(Home Team)'s header from the center of the box was saved in the top center of the goal, with an assist from Player5(Home Team)."
+    *   The snippet explicitly mentions "Player8's header" which counts as a "Shot".
+    *   The snippet also explicitly states "saved", this is part of the action for a shot.
+    *   The snippet specifies "with an assist from Player5", therefore Player8 did *not* provide the assist, thus, Player8 does not receive an assist.
+
+*   **Snippet 2:** "Player8(Home Team)'s shot from the center of the box goes high and wide to the right, missing the goal."
+    *   The snippet explicitly mentions "Player8's shot" and that the shot "missed the goal", therefore this counts as a "Shot".
+
+**4. Final Counts:**
+
+*   Shots: 2
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**5. Final Summary Table:**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

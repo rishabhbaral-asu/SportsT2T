@@ -1,0 +1,44 @@
+Okay, I will follow the instructions to analyze the commentary snippets and generate the final summary table for the specified player.
+
+**Objective:** Analyze commentary snippets for Player23 and count explicit occurrences of defined events.
+
+1.  **Identify Target Player:**
+    *   `<PLAYER_NAME>`: Player23
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player23(Away Team) fouls Player8(Home Team), who wins a free kick in their defensive half."
+        *   Fouls: Player23 commits a foul. Increment Fouls count by 1.
+        *   Free Kicks: Player23 fouls Player8(Home Team), who wins a free kick. This does not count as Player23 taking a free kick, so Free Kicks remains 0.
+    *   Snippet 2: "Player23(Away Team) commits a foul."
+        *   Fouls: Player23 commits a foul. Increment Fouls count by 1.
+    *   Snippet 3: "Player23(Away Team) fouls Player9(Home Team) on the right wing, resulting in a free kick being awarded."
+        *   Fouls: Player23 commits a foul. Increment Fouls count by 1.
+        *   Free Kicks: Player23 fouls Player9(Home Team), resulting in a free kick. This does not count as Player23 taking a free kick, so Free Kicks remains 0.
+
+4.  **Compile Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 3
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 0     | 0     | 0       | 0          | 3     | 0            | 0         | 0        |
+```

@@ -1,0 +1,30 @@
+Okay, let's start by identifying the player and initializing the counts.
+
+Player Name: Player7
+
+Now, let's analyze the commentary snippets and increment the counts accordingly.
+
+Commentary Snippet 1: "Player7(Home Team) receives a yellow card for a rough tackle."
+*   Yellow Cards: The snippet explicitly states "Player7 receives a yellow card". Increment Yellow Cards by 1.
+*   Fouls: The snippet mentions "rough tackle" which is considered a foul committed by Player7. Increment Fouls by 1.
+
+Commentary Snippet 2: "Player7(Home Team) commits a foul, allowing Player27(Away Team) to win a free kick on the right wing, ."
+*   Fouls: The snippet explicitly states "Player7 commits a foul". Increment Fouls by 1.
+*   Free Kicks: The snippet explicitly states "Player7(Home Team) commits a foul, allowing Player27(Away Team) to win a free kick". Since Player7 caused Player27 to win a free kick, Player7 committed a foul, and therefore does not earn a free kick. Do not increment.
+
+Final Counts:
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 2
+*   Yellow Cards: 1
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 0     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

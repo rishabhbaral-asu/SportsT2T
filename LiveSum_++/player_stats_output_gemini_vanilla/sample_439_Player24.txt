@@ -1,0 +1,56 @@
+Okay, let's break down the task. I need to extract the player name, then analyze the commentary snippets to count specific events attributed to that player. I will be very strict in attributing actions only when the commentary explicitly states the target player performed them.
+
+**Player Name:** Player24
+
+**Commentary Snippets:**
+- Player24(Away Team)'s left footed shot from outside the box was saved in the bottom right corner with an assist from Player25(Away Team).
+- Player24(Away Team)'s left footed shot from the left side of the box goes wide to the right, with an assist from Player28(Away Team).
+
+**Event Counting:**
+
+*   **Shots:**
+    *   Snippet 1: "Player24(Away Team)'s left footed shot from outside the box was saved..." - Explicitly states Player24 took a shot. Count +1.
+    *   Snippet 2: "Player24(Away Team)'s left footed shot from the left side of the box goes wide to the right..." - Explicitly states Player24 took a shot. Count +1.
+    Total Shots: 2
+
+*   **Goals:**
+    *   Snippet 1: No mention of a goal scored by Player24.
+    *   Snippet 2: No mention of a goal scored by Player24.
+    Total Goals: 0
+
+*   **Assists:**
+    *   Snippet 1: "...with an assist from Player25(Away Team)." - This does NOT count as an assist for Player24, because Player25 provided the assist.
+    *   Snippet 2: "...with an assist from Player28(Away Team)." - This does NOT count as an assist for Player24, because Player28 provided the assist.
+    Total Assists: 0
+
+*   **Free Kicks:**
+    *   Snippet 1: No mention of Player24 taking a free kick or winning one.
+    *   Snippet 2: No mention of Player24 taking a free kick or winning one.
+    Total Free Kicks: 0
+
+*   **Fouls:**
+    *   Snippet 1: No mention of Player24 committing a foul.
+    *   Snippet 2: No mention of Player24 committing a foul.
+    Total Fouls: 0
+
+*   **Yellow Cards:**
+    *   Snippet 1: No mention of Player24 receiving a yellow card.
+    *   Snippet 2: No mention of Player24 receiving a yellow card.
+    Total Yellow Cards: 0
+
+*   **Red Cards:**
+    *   Snippet 1: No mention of Player24 receiving a red card.
+    *   Snippet 2: No mention of Player24 receiving a red card.
+    Total Red Cards: 0
+
+*   **Offsides:**
+    *   Snippet 1: No mention of Player24 being offside.
+    *   Snippet 2: No mention of Player24 being offside.
+    Total Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

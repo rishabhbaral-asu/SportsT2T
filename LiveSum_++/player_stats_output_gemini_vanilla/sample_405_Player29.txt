@@ -1,0 +1,63 @@
+Okay, I'm ready to analyze the commentary snippets and compile the player statistics.
+
+**Player Name:** Player29
+
+**Commentary Snippets:**
+
+*   Player29(Away Team)'s shot from the right side of the six yard box was saved in the top right corner after being assisted by Player26(Away Team) with a cross.
+*   Player29(Away Team) has committed a hand ball.
+*   Player29(Away Team) has earned a free kick in the opponent's territory.
+*   Player29(Away Team)'s shot from outside the box is blocked by the defense after being set up by Player28(Away Team).
+*   Player29(Away Team) has committed a hand ball.
+*   Player29(Away Team) just missed a shot with their left foot from the center of the box, assisted by Player32(Away Team).
+
+**Step-by-step analysis:**
+
+1.  **Player Name:** Player29
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player29(Away Team)'s shot from the right side of the six yard box was saved in the top right corner after being assisted by Player26(Away Team) with a cross."
+        *   "shot" attributed to Player29: Shots = 1
+
+    *   Snippet 2: "Player29(Away Team) has committed a hand ball."
+        *   "hand ball" (committed) attributed to Player29: Fouls = 1
+
+    *   Snippet 3: "Player29(Away Team) has earned a free kick in the opponent's territory."
+        *   "free kick" (earned) attributed to Player29: Free Kicks = 1
+
+    *   Snippet 4: "Player29(Away Team)'s shot from outside the box is blocked by the defense after being set up by Player28(Away Team)."
+        *   "shot" attributed to Player29: Shots = 2
+
+    *   Snippet 5: "Player29(Away Team) has committed a hand ball."
+        *   "hand ball" (committed) attributed to Player29: Fouls = 2
+
+    *   Snippet 6: "Player29(Away Team) just missed a shot with their left foot from the center of the box, assisted by Player32(Away Team)."
+        *   "shot" attributed to Player29: Shots = 3
+
+4.  **Final Counts:**
+    *   Shots = 3
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 2
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 3     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

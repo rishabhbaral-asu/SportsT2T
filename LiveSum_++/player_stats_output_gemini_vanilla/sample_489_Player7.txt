@@ -1,0 +1,33 @@
+Okay, let's analyze the commentary snippets for Player7 and generate the summary table.
+
+**Step-by-step analysis:**
+
+1.  **Player Name:** Player7
+
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player7(Home Team) commits a foul, resulting in Player27(Away Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player27(Away Team)'s team."
+        *   Fouls: Player7 commits a foul. Increment Fouls by 1. Fouls = 1
+        *   Free Kicks: Player7 committed a foul resulting in a free kick, so does not count as Player7 being awarded the free kick.
+    *   Snippet 2: "Player7(Home Team) earns a free kick in their own half."
+        *   Free Kicks: Player7 earns a free kick. Increment Free Kicks by 1. Free Kicks = 1
+    *   Snippet 3: "Player7(Home Team) earns a free kick in their own half."
+        *   Free Kicks: Player7 earns a free kick. Increment Free Kicks by 1. Free Kicks = 2
+    *   Snippet 4: "Player7(Home Team) commits a foul."
+        *   Fouls: Player7 commits a foul. Increment Fouls by 1. Fouls = 2
+    *   Snippet 5: "Player7(Home Team) commits a foul, resulting in Player24(Away Team) winning a free kick in the attacking half, ."
+        *   Fouls: Player7 commits a foul. Increment Fouls by 1. Fouls = 3
+        *   Free Kicks: Player7 committed a foul resulting in a free kick, so does not count as Player7 being awarded the free kick.
+    *   Snippet 6: "Player7(Home Team) commits a foul."
+        *   Fouls: Player7 commits a foul. Increment Fouls by 1. Fouls = 4
+
+4.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 2, Fouls = 4, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 0     | 0     | 0       | 2          | 4     | 0            | 0         | 0        |
+```

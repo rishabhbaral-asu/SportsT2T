@@ -1,0 +1,40 @@
+Okay, let's analyze the commentary snippets for Player28 and generate the final summary table.
+
+**Player Name:** Player28
+
+**Commentary Snippets:**
+
+*   Player28(Away Team) missed the goal with a left-footed shot from the center of the box, assisted by Player24(Away Team).
+*   Player28(Away Team) scores a goal for the Home Team with a penalty kick to tie the game 1-1.
+*   Player28(Away Team)'s left footed shot from outside the box is blocked after an attempted through ball to Player26(Away Team), who is caught offside.
+
+**Step-by-step Analysis:**
+
+1.  **Shots:**
+    *   Snippet 1: "Player28(Away Team) missed the goal with a left-footed shot..." - This explicitly states Player28 took a shot. Increment Shots to 1.
+    *   Snippet 2: "Player28(Away Team) scores a goal for the Home Team with a penalty kick..." - This explicitly states Player28 scored a goal, therefore it's also a shot. Increment Shots to 2.
+    *   Snippet 3: "Player28(Away Team)'s left footed shot from outside the box is blocked..." - This explicitly states Player28 took a shot. Increment Shots to 3.
+2.  **Goals:**
+    *   Snippet 2: "Player28(Away Team) scores a goal..." - This explicitly states Player28 scored a goal. Increment Goals to 1.
+3.  **Assists:**
+    *   Snippet 1: "...assisted by Player24(Away Team)." - Player28 was assisted, so it does not count as an assist for Player28.
+    *   Snippet 3: "...attempted through ball to Player26(Away Team), who is caught offside." - No goal was scored, hence no assist is counted.
+    Therefore, Player28 has no assists.
+4.  **Free Kicks (Taken):**
+    *   Snippet 2: "Player28(Away Team) scores a goal for the Home Team with a penalty kick..." - Scoring from a penalty counts as a Free Kick. Increment Free Kicks to 1.
+5.  **Fouls (Committed):**
+    *   No snippets mention Player28 committing a foul. Fouls remain at 0.
+6.  **Yellow Cards:**
+    *   No snippets mention Player28 receiving a yellow card. Yellow Cards remain at 0.
+7.  **Red Cards:**
+    *   No snippets mention Player28 receiving a red card. Red Cards remain at 0.
+8.  **Offsides:**
+    *   Snippet 3: "...Player26(Away Team), who is caught offside." - Player28 did not commit the offside.
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 3     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

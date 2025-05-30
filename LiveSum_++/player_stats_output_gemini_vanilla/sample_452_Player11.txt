@@ -1,0 +1,31 @@
+Okay, let's analyze the commentary snippets for Player11 and compile the statistics.
+
+1.  **Identify the target player name:** Player11
+
+2.  **Initialize counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+3.  **Analyze each snippet:**
+
+    *   **Snippet 1:** "Player11(Home Team)'s left-footed shot from the left side of the box is saved by the goalkeeper in the bottom left corner, after a through ball from Player8(Home Team)."
+        *   The snippet explicitly states "Player11's shot". Increment Shots: Shots = 1
+
+    *   **Snippet 2:** "Player11(Home Team) scores with a left-footed shot from the right side of the box, assisted by Player14(Home Team) after a corner kick, Home Team leads 3-0 against Away Team."
+        *   The snippet explicitly states "Player11 scores". Increment Goals: Goals = 1
+        *   The snippet explicitly states "Player11 shot". Increment Shots: Shots = 2
+
+4.  **Compile Final Statistics**
+    *   Shots: 2
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

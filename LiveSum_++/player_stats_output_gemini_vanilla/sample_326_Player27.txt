@@ -1,0 +1,46 @@
+Okay, let's analyze the commentary snippets for Player27 and generate the final summary table.
+
+1.  **Identify Target Player:** The target player is Player27.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player27(Away Team) misses a close-range shot with their right foot, just wide of the right post."
+        *   Explicitly states Player27 misses a shot. Increment Shots by 1.
+        *   Shots = 1
+
+    *   Snippet 2: "Player27(Away Team) commits a foul."
+        *   Explicitly states Player27 commits a foul. Increment Fouls by 1.
+        *   Fouls = 1
+
+    *   Snippet 3: "Player27(Away Team)'s shot from outside the box is blocked with Player25(Away Team)'s assistance."
+        *   Explicitly states Player27 took a shot. Increment Shots by 1.
+        *   The snippet also mentions Player25's assistance, however, this does not influence any assist count for Player27.
+        *   Shots = 2
+
+4.  **Final Counts:**
+
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

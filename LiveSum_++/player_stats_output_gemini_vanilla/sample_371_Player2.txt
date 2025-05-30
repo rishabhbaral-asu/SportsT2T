@@ -1,0 +1,27 @@
+Okay, let's start by identifying the player name and initializing the counts.
+
+Player Name: Player2
+
+Now, let's analyze the commentary snippets and update the counts accordingly, following the rules.
+
+*   **Snippet 1:** "Player2(Home Team) receives a yellow card for a rough tackle."
+
+    *   Yellow Cards: The player receives a yellow card. Increment Yellow Cards to 1.
+    *   Fouls: The player commits a rough tackle, which is a foul. Increment Fouls to 1.
+
+*   **Snippet 2:** "Player2(Home Team)'s shot from the right side is blocked after being assisted by Player13(Home Team)."
+
+    *   Shots: The player takes a shot that is blocked. Increment Shots to 1.
+
+*   **Snippet 3:** "Player2(Home Team) attempts a through ball, but Player6(Home Team) is caught offside."
+
+    *   Offsides: The snippet does not mention Player2 being offside. It states Player6 is offside, so there are no changes to Player2's statistics.
+
+Now, let's compile the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 1     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

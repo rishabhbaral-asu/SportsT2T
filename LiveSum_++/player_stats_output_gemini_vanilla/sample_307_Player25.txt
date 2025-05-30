@@ -1,0 +1,28 @@
+Okay, let's analyze the commentary snippets for Player25 and compile the statistics.
+
+**Player Name:** Player25
+
+**Commentary Snippets:**
+- Player25(Away Team) earns a free kick on the left side of the field.
+- Player25(Away Team)'s shot from outside the box was saved in the top right corner, with an assist from Player27(Away Team).
+- Player25(Away Team) commits a foul in the defensive half, resulting in Player10(Home Team) winning a free kick.
+- Player25(Away Team) receives a yellow card for a rough tackle.
+
+**Analysis:**
+
+*   **Free Kicks (Taken):** The first snippet states "Player25(Away Team) earns a free kick on the left side of the field." This clearly indicates Player25 won a free kick, meaning they are the player who will take the subsequent free kick or penalty, therefore we increment the Free Kicks stat.
+*   **Shots:** The second snippet states "Player25(Away Team)'s shot from outside the box was saved in the top right corner". This indicates Player25 took a shot. Increment Shots.
+*   **Goals:** The second snippet describes the shot as "saved" so no goal was scored.
+*   **Assists:** The second snippet states "with an assist from Player27(Away Team)". Since the assist was not made *by* Player25, we do not increment the assists count for Player25.
+*   **Fouls (Committed):** The third snippet states "Player25(Away Team) commits a foul in the defensive half". This indicates Player25 committed a foul. Increment Fouls.
+*   **Yellow Cards:** The fourth snippet states "Player25(Away Team) receives a yellow card for a rough tackle." This indicates Player25 received a yellow card. Increment Yellow Cards.
+*   **Red Cards:** No mention of a red card for Player25.
+*   **Offsides:** No mention of offsides for Player25.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 0     | 0       | 1          | 1     | 1            | 0         | 0        |
+```

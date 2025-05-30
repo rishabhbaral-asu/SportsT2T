@@ -1,0 +1,48 @@
+Okay, let's break down the task. I need to analyze the provided commentary snippets, identify mentions of "Player2", and count specific soccer events (Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, and Offsides) *only* when they are explicitly and unambiguously attributed to "Player2". I will strictly adhere to the provided keywords and definitions and avoid making any inferences or assumptions.
+
+Here's the step-by-step breakdown:
+
+1. **Identify Target Player:** The target player is "Player2".
+
+2. **Initialize Counts:**
+   * Shots = 0
+   * Goals = 0
+   * Assists = 0
+   * Free Kicks = 0
+   * Fouls = 0
+   * Yellow Cards = 0
+   * Red Cards = 0
+   * Offsides = 0
+
+3. **Analyze Snippets:**
+
+   * **Snippet 1:** "Player2(Home Team) misses the goal with a right footed shot from the right side of the box."
+      * This snippet explicitly states that Player2 missed a shot.
+      * Increment Shots: Shots = 0 + 1 = 1
+
+   * **Snippet 2:** "Player2(Home Team) attempted a through ball, but Player11(Home Team) was caught offside for the Home Team."
+      * This snippet states Player2 attempted a through ball. Since it doesn't explicitly say it resulted in a goal, it's not an assist.
+      * There are no keywords present for Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, or Red Cards. The fact that Player11 was offside does not affect Player2's stats.
+
+   * **Snippet 3:** "Player2(Home Team)'s shot from the right side of the box is saved in the top centre of the goal after a through ball from Player14(Home Team)."
+      * This snippet explicitly states Player2 took a shot that was saved.
+      * Increment Shots: Shots = 1 + 1 = 2
+      * This snippet also mentions a through ball from Player14, meaning Player2 did not assist.
+
+4. **Final Counts:**
+
+   * Shots = 2
+   * Goals = 0
+   * Assists = 0
+   * Free Kicks = 0
+   * Fouls = 0
+   * Yellow Cards = 0
+   * Red Cards = 0
+   * Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,25 @@
+Okay, I'm ready to analyze the commentary snippets for Player26 and generate the statistics table.
+
+**Player Name:**
+Player26
+
+**Commentary Snippets:**
+- Player26(Away Team) earns a free kick in their own end.
+
+Reasoning:
+
+1.  The player name is Player26.
+2.  I initialize Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, and Offsides to 0.
+3.  I analyze the first and only snippet: "Player26(Away Team) earns a free kick in their own end."
+    *   The snippet explicitly states "Player26 earns a free kick".
+    *   "earns a free kick" is a keyword for Free Kicks (taken).
+    *   Therefore, I increment the Free Kicks count by 1.
+4.  All other event counts remain at 0.
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

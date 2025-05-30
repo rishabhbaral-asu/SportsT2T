@@ -1,0 +1,40 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
+
+**Input:**
+* **Player Name:**
+```xml
+<PLAYER_NAME>
+Player9
+</PLAYER_NAME>
+```
+* **Commentary Snippets:**
+```xml
+<PLAYER_COMMENTARY_SNIPPETS>
+- Player9(Home Team) misses the goal with a right-footed shot from the right side of the box, assisted by Player8(Home Team).
+- Player9(Home Team)'s challenging right-footed shot from the left side, as it was heading towards the bottom right corner.
+</PLAYER_COMMENTARY_SNIPPETS>
+```
+
+1. **Identify Target Player:** The target player is Player9.
+2. **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3. **Analyze Snippets:**
+
+   * Snippet 1: "Player9(Home Team) misses the goal with a right-footed shot from the right side of the box, assisted by Player8(Home Team)."
+      * Player9 is explicitly mentioned.
+      * "misses the goal with a ... shot" indicates a shot. Shots += 1.
+      * Player9 was assisted by Player8, meaning Player9 did *not* provide an assist. Assists remains 0.
+
+   * Snippet 2: "Player9(Home Team)'s challenging right-footed shot from the left side, as it was heading towards the bottom right corner."
+      * Player9 is explicitly mentioned.
+      * "right-footed shot" indicates a shot. Shots += 1.
+
+4. **Final Counts:** Shots = 2, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,46 @@
+Okay, let's process the input and generate the summary table for Player8.
+
+**1. Player Identification:**
+The target player is Player8.
+
+**2. Initialization:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Commentary Analysis:**
+
+*   **Snippet 1:** "Player8(Home Team) earns a free kick in their own half."
+    *   This snippet indicates that Player8 earned a free kick. This means they were fouled.
+    *   Free Kicks = 1
+
+*   **Snippet 2:** "Player8(Home Team)'s left footed shot from the left side of the box is blocked with an assist from Player11(Home Team)."
+    *   This snippet indicates Player8 took a shot that was blocked.
+    *   Shots = 1
+
+*   **Snippet 3:** "Player8(Home Team) scores for the Home Team, making it 2-0 with a close-range right-footed shot assisted by Player11(Home Team)'s cross."
+    *   This snippet indicates Player8 scored a goal and took a shot.
+    *   Goals = 1
+    *   Shots = Shots + 1 = 2
+
+**4. Final Counts:**
+Shots = 2
+Goals = 1
+Assists = 0
+Free Kicks = 1
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**5. Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 2     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

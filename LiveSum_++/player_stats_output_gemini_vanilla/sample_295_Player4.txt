@@ -1,0 +1,33 @@
+Okay, let's process the input and generate the player statistics table.
+
+**Player Name:** Player4
+
+**Commentary Snippets:**
+- Player4(Home Team) commits a foul, resulting in Player29(Away Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player29(Away Team)'s team.
+- Player4(Home Team) of the Home Team as Player9(Home Team) attempted a through ball.
+
+**Analysis:**
+
+*   **Snippet 1:** "Player4(Home Team) commits a foul, resulting in Player29(Away Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player29(Away Team)'s team."
+    *   This snippet explicitly states "Player4 commits a foul". Thus, Fouls count increments by 1.
+
+*   **Snippet 2:** "Player4(Home Team) of the Home Team as Player9(Home Team) attempted a through ball."
+    *   This snippet does not contain any of the defined keywords related to shots, goals, assists, free kicks, fouls, yellow cards, red cards, or offsides relating to Player4 performing the action.
+
+**Final Count:**
+
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

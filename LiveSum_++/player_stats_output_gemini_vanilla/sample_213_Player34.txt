@@ -1,0 +1,57 @@
+Okay, let's start.
+
+1.  **Player Name:** The target player is Player34.
+
+2.  **Initialization:** We initialize all event counts to 0 for Player34.
+
+3.  **Commentary Snippet Analysis:**
+
+    *   **Snippet 1:** "Player34(Away Team)'s shot from the center of the box is saved in the center of the goal."
+        *   This snippet explicitly mentions "shot" by Player34.
+        *   Shots: Increment to 1.
+        *   Goals: No goal is mentioned.
+        *   Assists: No assist is mentioned.
+        *   Free Kicks: No free kick is mentioned.
+        *   Fouls: No foul is mentioned.
+        *   Yellow Cards: No yellow card is mentioned.
+        *   Red Cards: No red card is mentioned.
+        *   Offsides: No offside is mentioned.
+
+    *   **Snippet 2:** "Player34(Away Team) attempts a through ball to Player29(Away Team) who is caught offside."
+        *   This snippet describes Player34 attempting a through ball that results in Player29 being offside. This does *not* count as an offside for Player34.
+        *   Shots: No shot is mentioned.
+        *   Goals: No goal is mentioned.
+        *   Assists: No assist is mentioned.
+        *   Free Kicks: No free kick is mentioned.
+        *   Fouls: No foul is mentioned.
+        *   Yellow Cards: No yellow card is mentioned.
+        *   Red Cards: No red card is mentioned.
+        *   Offsides: Increment to 0.
+
+    *   **Snippet 3:** "Player34(Away Team)'s shot from the right side of the box is saved in the bottom left corner with an assist from Player27(Away Team)."
+        *   This snippet explicitly mentions "shot" by Player34.
+        *   Shots: Increment to 2.
+        *   Goals: No goal is mentioned.
+        *   Assists: No assist for Player34, as Player27 provided the assist, not Player34.
+        *   Free Kicks: No free kick is mentioned.
+        *   Fouls: No foul is mentioned.
+        *   Yellow Cards: No yellow card is mentioned.
+        *   Red Cards: No red card is mentioned.
+        *   Offsides: No offside is mentioned.
+
+4.  **Final Counts:**
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player34 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

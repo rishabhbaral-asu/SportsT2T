@@ -1,0 +1,56 @@
+Okay, let's analyze the commentary snippets for Player11 and generate the summary table.
+
+1.  **Player Name:** Player11
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player11(Home Team)'s left footed shot from outside the box goes over the goal."
+        *   Shots: Increment to 1 (explicitly mentions a shot)
+
+    *   Snippet 2: "Player11(Home Team) earns a free kick from the left side."
+        *   Free Kicks: Increment to 1 (explicitly mentions earning a free kick)
+
+    *   Snippet 3: "Player11(Home Team) earns a free kick on the right side of the field."
+        *   Free Kicks: Increment to 2 (explicitly mentions earning a free kick)
+
+    *   Snippet 4: "Player11(Home Team) with their left foot from the center of the box is blocked."
+        *   Shots: Increment to 2 (explicitly mentions a shot being blocked)
+
+    *   Snippet 5: "Player11(Home Team) commits a foul, resulting in Player26(Away Team) winning a free kick in their own defensive half, ."
+        *   Fouls: Increment to 1 (explicitly mentions committing a foul)
+
+    *   Snippet 6: "Player11(Home Team) commits a foul."
+        *   Fouls: Increment to 2 (explicitly mentions committing a foul)
+
+    *   Snippet 7: "Player11(Home Team)'s shot from the center of the box is blocked with the help of Player8(Home Team)."
+        *   Shots: Increment to 3 (explicitly mentions a shot being blocked)
+
+    *   Snippet 8: "Player11(Home Team)'s header from the center of the box goes over the goal, despite the assist from Player8(Home Team) with a cross."
+        *   Shots: Increment to 4 (explicitly mentions a header going over the goal which is a shot attempt)
+
+4.  **Final Counts:**
+    *   Shots: 4
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 2
+    *   Fouls: 2
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 4     | 0     | 0       | 2          | 2     | 0            | 0         | 0        |
+```

@@ -1,0 +1,54 @@
+Okay, let's start by identifying the target player and initializing the event counts.
+
+Target Player: Player23
+
+Initialized Counts:
+* Shots: 0
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 0
+* Yellow Cards: 0
+* Red Cards: 0
+* Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player23(Away Team)'s shot from outside the box is blocked after being assisted by Player31(Away Team)."
+
+*   Shots: The snippet explicitly states "Player23's shot". Increment Shots by 1.
+*   Goals: No goal is mentioned.
+*   Assists: Player23 was *assisted by* another player, so do not increment assists for Player23.
+*   Free Kicks: No free kick related events are mentioned.
+*   Fouls: No foul is mentioned.
+*   Yellow Cards: No yellow card is mentioned.
+*   Red Cards: No red card is mentioned.
+*   Offsides: No offside is mentioned.
+
+Snippet 2: "Player23(Away Team)'s left footed shot from outside the box goes high and wide to the left with an assist from Player25(Away Team)."
+
+*   Shots: The snippet explicitly states "Player23's left footed shot". Increment Shots by 1.
+*   Goals: No goal is mentioned.
+*   Assists: Player23 was *assisted by* another player, so do not increment assists for Player23.
+*   Free Kicks: No free kick related events are mentioned.
+*   Fouls: No foul is mentioned.
+*   Yellow Cards: No yellow card is mentioned.
+*   Red Cards: No red card is mentioned.
+*   Offsides: No offside is mentioned.
+
+Final Counts:
+* Shots: 2
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 0
+* Yellow Cards: 0
+* Red Cards: 0
+* Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

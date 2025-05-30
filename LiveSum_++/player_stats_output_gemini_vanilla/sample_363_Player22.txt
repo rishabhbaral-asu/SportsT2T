@@ -1,0 +1,37 @@
+Okay, let's analyze the commentary snippets for Player22 and create the summary table.
+
+**Player Name:** Player22
+
+**Commentary Snippets:**
+
+*   Player22(Away Team) fouls Player11(Home Team), resulting in a free kick being awarded on the right wing.
+*   Player22(Away Team)'s header from the center of the box was saved in the middle of the goal after an assist from Player24(Away Team).
+
+**Step-by-step Analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1 Analysis:** "Player22(Away Team) fouls Player11(Home Team), resulting in a free kick being awarded on the right wing."
+    *   Fouls: The snippet explicitly states "Player22 fouls Player11". Increment Fouls by 1. Fouls = 1.
+    *   Free Kicks: The snippet mentions that the foul resulted in a free kick being awarded. Because Player22 committed the foul, they didn't take a free kick. Free Kicks = 0.
+
+3.  **Snippet 2 Analysis:** "Player22(Away Team)'s header from the center of the box was saved in the middle of the goal after an assist from Player24(Away Team)."
+    *   Shots: The snippet explicitly states "Player22's header from the center of the box was saved". This counts as a shot. Increment Shots by 1. Shots = 1.
+    *   Goals: The shot was saved, so it was not a goal. Goals = 0.
+    *   Assists: The snippet states that Player22 was assisted by Player24. This means Player22 did *not* provide an assist. Assists = 0.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

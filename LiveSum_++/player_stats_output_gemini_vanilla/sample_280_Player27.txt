@@ -1,0 +1,36 @@
+Okay, let's analyze the commentary snippets for Player27 and create the final summary table.
+
+**Step 1: Identify Target Player**
+The target player is Player27.
+
+**Step 2: Initialize Counts**
+Shots: 0, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+**Step 3: Analyze Commentary Snippets**
+
+*   **Snippet 1:** "Player27(Away Team) attempts a through ball, but Player26(Away Team) is offside."
+    *   No explicit mention of Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, or Red Cards. The snippet mentions Player27 attempting a pass, but since Player26 is offside, the action does not meet the strict definition of an assist (pass leading DIRECTLY to a goal). Player26 is offsides, not player 27, so no change to Offsides.
+    * No relevant counts incremented.
+
+*   **Snippet 2:** "Player27(Away Team) earns a free kick on the left side of the field."
+    *   "earns a free kick" increments the Free Kicks count by 1.
+    *   Free Kicks: 1
+
+*   **Snippet 3:** "Player27(Away Team) scores with a left-footed shot from the center of the box, assisted by Player26(Away Team), Home Team 0, Away Team 1."
+    *   "scores" increments the Goals count by 1.
+    *   "shot" increments the Shots count by 1.
+    *   Goals: 1
+    *   Shots: 1
+    * The snippet mentions Player27 was *assisted by* Player26, so this doesn't count as an assist *for* Player27.
+
+**Step 4: Final Counts**
+Shots: 1, Goals: 1, Assists: 0, Free Kicks: 1, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+**Step 5: Create Final Summary Table**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 1     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

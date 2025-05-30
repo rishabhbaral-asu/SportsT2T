@@ -1,0 +1,22 @@
+Okay, let's analyze the commentary snippets for Player4 and generate the summary table.
+
+1.  **Player Name:** The target player is Player4.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player4(Home Team) fouls Player27(Away Team), who wins a free kick in their defensive half."
+        *   Fouls: Player4 commits a foul. Increment Fouls by 1.
+        *   Free Kicks: Player4 committed a foul which means the other team wins a free kick, but Player4 does not take a free kick.
+
+    *   Snippet 2: "Player4(Home Team) receives a yellow card for a rough tackle."
+        *   Yellow Cards: Player4 receives a yellow card. Increment Yellow Cards by 1.
+        * Fouls: Although the yellow card was for a rough tackle, a foul was not previously counted for the tackle.
+
+4.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 1, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 0     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

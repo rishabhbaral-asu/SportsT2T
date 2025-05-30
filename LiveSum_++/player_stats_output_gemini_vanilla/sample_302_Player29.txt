@@ -1,0 +1,36 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player29 and generate the final summary table.
+
+**Player Name:** Player29
+
+**Commentary Snippets:**
+- Player29(Away Team) commits a foul.
+- Player29(Away Team)'s right footed shot from outside the box is blocked after being assisted by Player28(Away Team), resulting in a corner kick for the Away Team.
+- Player29(Away Team)'s shot from outside the box is blocked with the help of Player24(Away Team).
+- Player29(Away Team)'s shot from the left side of the box is blocked with Player22(Away Team)'s assistance.
+- Player29(Away Team) scores a penalty with a right-footed shot to the center of the goal, making it Home Team 2, Away Team 1.
+
+**Analysis:**
+
+*   **Snippet 1:** "Player29(Away Team) commits a foul." - This explicitly states Player29 committed a foul. Increment Fouls by 1.
+*   **Snippet 2:** "Player29(Away Team)'s right footed shot from outside the box is blocked after being assisted by Player28(Away Team), resulting in a corner kick for the Away Team." - This explicitly states Player29 took a shot. Increment Shots by 1. Since the player was assisted, this counts as ZERO assists for Player29.
+*   **Snippet 3:** "Player29(Away Team)'s shot from outside the box is blocked with the help of Player24(Away Team)." - This explicitly states Player29 took a shot. Increment Shots by 1. Since the player was assisted, this counts as ZERO assists for Player29.
+*   **Snippet 4:** "Player29(Away Team)'s shot from the left side of the box is blocked with Player22(Away Team)'s assistance." - This explicitly states Player29 took a shot. Increment Shots by 1. Since the player was assisted, this counts as ZERO assists for Player29.
+*   **Snippet 5:** "Player29(Away Team) scores a penalty with a right-footed shot to the center of the goal, making it Home Team 2, Away Team 1." - This explicitly states Player29 scored a goal and took a penalty. Increment Goals by 1, Shots by 1, and Free Kicks by 1.
+
+**Final Counts:**
+
+*   Shots: 4
+*   Goals: 1
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 4     | 1     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

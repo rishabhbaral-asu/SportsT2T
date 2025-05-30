@@ -1,0 +1,64 @@
+Okay, let's start by identifying the target player and initializing the event counts.
+
+Target Player: Player2
+
+Initialized Counts:
+* Shots: 0
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 0
+* Yellow Cards: 0
+* Red Cards: 0
+* Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player2(Home Team)'s shot from a tough angle on the right is saved in the center of the goal after an assist from Player7(Home Team)."
+
+*   Shots: The snippet explicitly states "Player2(Home Team)'s shot". Increment Shots by 1.
+*   Goals: The shot was saved, so no goal.
+*   Assists: The snippet mentions "after an assist from Player7(Home Team)". This does not count as Player2 providing an assist.
+*   Free Kicks: Not explicitly mentioned.
+*   Fouls: Not explicitly mentioned.
+*   Yellow Cards: Not explicitly mentioned.
+*   Red Cards: Not explicitly mentioned.
+*   Offsides: Not explicitly mentioned.
+
+Updated Counts after Snippet 1:
+* Shots: 1
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 0
+* Yellow Cards: 0
+* Red Cards: 0
+* Offsides: 0
+
+Snippet 2: "Player2(Home Team) receives a yellow card for a rough tackle."
+
+*   Shots: Not explicitly mentioned.
+*   Goals: Not explicitly mentioned.
+*   Assists: Not explicitly mentioned.
+*   Free Kicks: Not explicitly mentioned.
+*   Fouls: The snippet explicitly states "rough tackle," implying a foul committed by Player2. Increment Fouls by 1.
+*   Yellow Cards: The snippet explicitly states "Player2(Home Team) receives a yellow card". Increment Yellow Cards by 1.
+*   Red Cards: Not explicitly mentioned.
+*   Offsides: Not explicitly mentioned.
+
+Updated Counts after Snippet 2:
+* Shots: 1
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 1
+* Yellow Cards: 1
+* Red Cards: 0
+* Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 1     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

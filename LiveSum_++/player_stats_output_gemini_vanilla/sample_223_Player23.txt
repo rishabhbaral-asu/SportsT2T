@@ -1,0 +1,27 @@
+Okay, let's analyze the commentary snippets for Player23.
+
+**Player Name:** Player23
+
+**Commentary Snippets:**
+- Player23(Away Team) attempts a pass to Player28(Away Team), but he is offside.
+- Player23(Away Team) and Player6(Home Team) both commit fouls.
+
+**Step-by-step analysis:**
+
+1.  **Initialization:** We start with Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+2.  **Snippet 1:** "Player23(Away Team) attempts a pass to Player28(Away Team), but he is offside."
+    *   This snippet indicates Player23 made a pass, and Player28 was offside. This means Player23 was in possession of the ball when the pass was made and Player28 went offside, not Player23. There is no mention of a shot, goal, assist, free kick, foul, or card for Player23. It explicitly says player 28 is offside, not Player23.
+    *   The event we should record here is offside which applies to Player28 so we will skip this event for Player23. No events attributed to Player23 in this snippet, except for attempting a pass. This is not tracked.
+
+3.  **Snippet 2:** "Player23(Away Team) and Player6(Home Team) both commit fouls."
+    *   This snippet explicitly states "Player23...commit fouls". Therefore, Player23 committed a foul.
+    *   Increment Fouls: Fouls = 1.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

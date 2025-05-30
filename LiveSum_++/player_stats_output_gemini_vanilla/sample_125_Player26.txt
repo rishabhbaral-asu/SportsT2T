@@ -1,0 +1,30 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
+
+**Input:**
+* **Player Name:**
+    <PLAYER_NAME>
+    Player26
+    </PLAYER_NAME>
+* **Commentary Snippets:**
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player26(Away Team) earns a free kick in the opponent's half.
+    </PLAYER_COMMENTARY_SNIPPETS>
+
+**Reasoning:**
+
+1.  **Player Identification:** The target player is Player26.
+2.  **Initialization:** Initialize Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet Analysis:**
+    *   Snippet 1: "Player26(Away Team) earns a free kick in the opponent's half."
+        *   This snippet explicitly states that Player26 earns a free kick. Thus, Free Kicks is incremented.
+        *   Shots = 0, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+4.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

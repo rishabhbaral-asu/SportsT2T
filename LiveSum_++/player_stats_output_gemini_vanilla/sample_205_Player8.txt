@@ -1,0 +1,32 @@
+Okay, let's start by identifying the player name and initializing the counts.
+
+Player Name: Player8
+
+Now, let's initialize the counts for the player-specific events to 0.
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Now we will proceed to analyze the commentary snippets and increment the counts based on the instructions.
+
+Commentary Snippets:
+- Player8(Home Team)'s shot from the center of the box is blocked.
+
+The snippet mentions "Player8's shot from the center of the box is blocked." This clearly indicates that Player8 took a shot. Therefore, we increment the shots count.
+
+Shots = 1
+
+All other counts remain at 0 because the snippet only mentions a blocked shot.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

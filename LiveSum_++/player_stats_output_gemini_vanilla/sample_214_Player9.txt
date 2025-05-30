@@ -1,0 +1,58 @@
+Okay, let's process the commentary snippets for Player9.
+
+**1. Player Name:**
+The target player is Player9.
+
+**2. Initialization:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player9(Home Team)'s attempt from outside the box with his right foot was off target."
+    *   Mentions an attempt/shot by Player9. Increment Shots.
+    *   Shots = 1
+
+*   **Snippet 2:** "Player9(Home Team)'s shot from outside the box is blocked."
+    *   Mentions a shot by Player9. Increment Shots.
+    *   Shots = 2
+
+*   **Snippet 3:** "Player9(Home Team)'s right footed shot from the right side of the box is saved in the top right corner after a corner kick by the Home Team, assisted by Player5(Home Team)."
+    *   Mentions a shot by Player9. Increment Shots.
+    *   Assisted by Player5, so no assist for Player9
+    *   Shots = 3
+
+*   **Snippet 4:** "Player9(Home Team) commits a foul, causing a delay in the match as Player20(Away Team) is injured."
+    *   Explicitly states Player9 commits a foul. Increment Fouls.
+    *   Fouls = 1
+
+*   **Snippet 5:** "Player9(Home Team) earns a free kick in their own half."
+    *   Explicitly states Player9 earns a free kick. Increment Free Kicks.
+    *   Free Kicks = 1
+
+*   **Snippet 6:** "Player9(Home Team) commits a foul."
+    *   Explicitly states Player9 commits a foul. Increment Fouls.
+    *   Fouls = 2
+
+**4. Final Counts:**
+Shots = 3
+Goals = 0
+Assists = 0
+Free Kicks = 1
+Fouls = 2
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 3     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

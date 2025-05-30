@@ -1,0 +1,52 @@
+Okay, let's analyze the commentary snippets for Player11 and generate the final summary table.
+
+**1. Player Identification:**
+The target player is Player11.
+
+**2. Initialization:**
+We initialize the counts for Player11 as follows:
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+**3. Snippet Analysis and Counting:**
+
+*   **Snippet 1:** "Player11(Home Team) commits a foul, allowing Player20(Away Team) to win a free kick in their own defensive half."
+    *   Fouls: Player11 commits a foul. Increment Fouls to 1.
+    *   Free Kicks: Player11 commits a foul allowing another player to win a free kick. So no free kick is awarded to Player11.
+
+*   **Snippet 2:** "Player11(Home Team) earns a free kick in their own half after being fouled by Player27(Away Team)."
+    *   Free Kicks: Player11 earns a free kick after being fouled. Increment Free Kicks to 1.
+
+*   **Snippet 3:** "Player11(Home Team)'s header from the center of the box was blocked after being assisted by Player8(Home Team) with a cross, due to a foul committed by Player7(Home Team)."
+    * Shots: The snippet mentions "Player11's header," which implies a shot attempt. The shot was blocked. Increment Shots to 1.
+    * Fouls: Foul committed by Player7, so not related to Player11.
+    * Assists: Player11 was assisted by another player. So no assist is awarded to Player11.
+
+*   **Snippet 4:** "Player11(Home Team)'s shot from the center of the box is blocked with the help of Player10(Home Team)."
+    *   Shots: Player11's shot is blocked. Increment Shots to 2.
+
+*   **Snippet 5:** "Player11(Home Team) commits a foul, resulting in Player21(Away Team) being awarded a free kick in their own defensive half."
+    *   Fouls: Player11 commits a foul. Increment Fouls to 2.
+
+**4. Final Counts:**
+*   Shots: 2
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 2
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 0     | 0       | 1          | 2     | 0            | 0         | 0        |
+```

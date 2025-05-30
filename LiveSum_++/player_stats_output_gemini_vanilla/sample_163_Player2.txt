@@ -1,0 +1,42 @@
+Okay, let's analyze the commentary snippets for Player2 and generate the summary table.
+
+1.  **Player Name:** The target player is Player2.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player2(Home Team)'s header from the right side of the six-yard box finds the top right corner, assisted by Player7(Home Team)'s cross after a set piece."
+        *   This snippet explicitly states that Player2 scored a goal with a header. This counts as a shot and a goal.
+        *   Shots = 0 + 1 = 1
+        *   Goals = 0 + 1 = 1
+        *   The snippet mentions Player2 was assisted by Player7, so we do *not* increment Player2's assists.
+
+    *   **Snippet 2:** "Player2(Home Team) commits a foul."
+        *   This snippet explicitly states that Player2 committed a foul.
+        *   Fouls = 0 + 1 = 1
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 1     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

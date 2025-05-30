@@ -1,0 +1,48 @@
+Okay, let's analyze the provided commentary snippets for Player25 and compile the statistics.
+
+**Player Name:** Player25
+
+**Commentary Snippets:**
+
+*   Player25(Away Team) earns a free kick in their own half.
+*   Player25(Away Team) attempts a through ball, but Player23(Away Team) is offside for the Away Team.
+*   Player25(Away Team) earns a free kick on the left side of the field.
+*   Player25(Away Team) earns a free kick in the opponent's half.
+*   Player25(Away Team) earns a free kick in their own half.
+
+**Step-by-step Analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player25(Away Team) earns a free kick in their own half." - Player25 *earns* a free kick. This means Player25 won a free kick as a result of an opponent's action. This should increment Free Kicks. Free Kicks = 1
+    *   **Snippet 2:** "Player25(Away Team) attempts a through ball, but Player23(Away Team) is offside for the Away Team." - Player25 attempted a through ball. Player23 is offside. This does not count as Player25 being offside.
+    *   **Snippet 3:** "Player25(Away Team) earns a free kick on the left side of the field." - Player25 *earns* a free kick. This means Player25 won a free kick as a result of an opponent's action. This should increment Free Kicks. Free Kicks = 2
+    *   **Snippet 4:** "Player25(Away Team) earns a free kick in the opponent's half." - Player25 *earns* a free kick. This means Player25 won a free kick as a result of an opponent's action. This should increment Free Kicks. Free Kicks = 3
+    *   **Snippet 5:** "Player25(Away Team) earns a free kick in their own half." - Player25 *earns* a free kick. This means Player25 won a free kick as a result of an opponent's action. This should increment Free Kicks. Free Kicks = 4
+
+3.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 4
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 0     | 0     | 0       | 4          | 0     | 0            | 0         | 0        |
+```

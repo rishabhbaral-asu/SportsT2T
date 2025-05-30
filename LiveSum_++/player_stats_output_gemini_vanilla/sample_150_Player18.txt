@@ -1,0 +1,26 @@
+Okay, let's analyze the commentary snippets for Player18 and compile the statistics.
+
+**Player Name:** Player18
+
+**Commentary Snippets:**
+- Player18(Home Team)'s shot from outside the box is blocked after an assist from Player9(Home Team).
+- Player18(Home Team) fouls Player32(Away Team), awarding a free kick in the defensive half.
+- Player18(Home Team) has been given a yellow card for a rough tackle.
+
+**Reasoning:**
+
+*   **Shots:** The first snippet says "Player18(Home Team)'s shot from outside the box is blocked...". This explicitly mentions a shot by Player18, so we increment the Shots count by 1.
+*   **Goals:** No snippet explicitly states Player18 scored a goal.
+*   **Assists:** The first snippet describes Player18's shot being assisted by Player9, not Player18 assisting. So, we do not increment the Assists count.
+*   **Free Kicks:** The second snippet mentions Player18 committing a foul. It does not suggest he took a free kick. So, we don't increment Free Kicks.
+*   **Fouls:** The second snippet says "Player18(Home Team) fouls Player32(Away Team)...". This explicitly states Player18 committed a foul, so we increment the Fouls count by 1.
+*   **Yellow Cards:** The third snippet says "Player18(Home Team) has been given a yellow card...". This explicitly states Player18 received a yellow card, so we increment the Yellow Cards count by 1.
+*   **Red Cards:** No snippet mentions Player18 receiving a red card.
+*   **Offsides:** No snippet mentions Player18 being offsides.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player18 | 1     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

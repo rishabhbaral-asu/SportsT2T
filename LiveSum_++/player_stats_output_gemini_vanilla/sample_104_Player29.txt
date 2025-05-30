@@ -1,0 +1,21 @@
+Okay, let's start by identifying the player name and initializing the event counts.
+
+Player Name: Player29
+
+Initial Event Counts:
+Shots: 0, Goals: 0, Assists: 0, Free Kicks: 0, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+Commentary Snippet 1: "Player29(Away Team) receives a free kick in their own half."
+*   This snippet indicates Player29 received a free kick, meaning an opponent must have committed a foul on him resulting in free kick. This falls under `wins a free kick` meaning Player29 has taken a free kick. Increment Free Kicks by 1.
+
+Updated Event Counts:
+Shots: 0, Goals: 0, Assists: 0, Free Kicks: 1, Fouls: 0, Yellow Cards: 0, Red Cards: 0, Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,25 @@
+Okay, let's analyze the commentary snippets for Player16 and compile the statistics.
+
+**Player Name:** Player16
+
+**Commentary Snippets:**
+- Player16(Home Team)'s left footed shot from outside the box is saved in the center of the goal after an assist from Player5(Home Team), following a foul by Player26(Away Team).
+
+**Step-by-step analysis:**
+
+1.  **Shots:** The snippet states "Player16(Home Team)'s left footed shot from outside the box is saved". This explicitly indicates a shot by Player16. Therefore, increment Shots by 1.
+2.  **Goals:** The snippet does not explicitly state Player16 scored a goal. Therefore, Goals remains 0.
+3.  **Assists:** The snippet says "after an assist from Player5(Home Team)", meaning Player5 provided the assist, not Player16. Therefore, Assists remains 0.
+4.  **Free Kicks:** The snippet contains "following a foul by Player26(Away Team)". This suggests Player16 won a free kick as a result of being fouled by Player26. Therefore, increment Free Kicks by 1.
+5.  **Fouls:** The snippet does not state Player16 committed a foul. Player26 committed a foul. Therefore, Fouls remains 0.
+6.  **Yellow Cards:** The snippet does not mention Player16 receiving a yellow card. Therefore, Yellow Cards remains 0.
+7.  **Red Cards:** The snippet does not mention Player16 receiving a red card. Therefore, Red Cards remains 0.
+8.  **Offsides:** The snippet does not mention Player16 being offsides. Therefore, Offsides remains 0.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player16 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

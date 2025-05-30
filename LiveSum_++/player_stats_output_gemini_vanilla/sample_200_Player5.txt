@@ -1,0 +1,44 @@
+Okay, let's analyze the commentary snippets for Player5.
+
+1.  **Player Name:** Player5
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player5(Home Team) attempts a through ball, but Player11(Home Team) is offside for the Home Team."
+        *   Mentions "attempts a through ball," however that does not count as a shot.
+        *   Offsides is attributed to Player11, not Player5, so Offsides remains 0.
+        *   No Goals, Assists, Free Kicks, Fouls, Yellow Cards, or Red Cards are explicitly mentioned for Player5.
+
+    *   **Snippet 2:** "Player5(Home Team) scores a goal for the Home Team from a tough angle on the left, assisted by Player11(Home Team), The score is now 1-0 in favor of the Home Team."
+        *   Mentions "scores a goal" for Player5.
+        *   Increment Goals: Goals = 1.
+        *   Increment Shots (since a goal is a shot): Shots = 1
+        *   Assisted by Player11, therefore Player5 did not provide an assist.
+        *   No Free Kicks, Fouls, Yellow Cards, or Red Cards are explicitly mentioned for Player5.
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 1     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

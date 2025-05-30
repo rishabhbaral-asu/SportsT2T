@@ -1,0 +1,49 @@
+Okay, I'm ready to analyze the commentary snippets and generate the player statistics table.
+
+**1. Identify Target Player:**
+
+The target player is Player11.
+
+**2. Initialize Counts:**
+
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   **Snippet 1:** "Player11(Home Team) misses the target with a right-footed shot from outside the box, with an assist from Player8(Home Team)."
+    *   Shots: Player11 misses a shot, so Shots = 1.
+    *   Assists: Player11 received an assist, so this does *not* count as an assist for Player11.
+
+*   **Snippet 2:** "Player11(Home Team)'s right footed shot from the center of the box hits the left post, with an assist from Player7(Home Team)."
+    *   Shots: Player11 hits the post with a shot, so Shots = 2.
+    *   Assists: Player11 received an assist, so this does *not* count as an assist for Player11.
+
+*   **Snippet 3:** "Player11(Home Team)'s right footed shot from the right side of the box, assisted by Player8(Home Team)."
+    *   Shots: Player11 takes a shot, so Shots = 3.
+    *   Assists: Player11 received an assist, so this does *not* count as an assist for Player11.
+
+**4. Final Counts:**
+
+Shots = 3
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 3     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

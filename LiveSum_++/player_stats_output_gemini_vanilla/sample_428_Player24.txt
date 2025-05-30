@@ -1,0 +1,22 @@
+Okay, let's analyze the commentary snippets for Player24 and generate the summary table.
+
+1.  **Player Name:** The target player is Player24.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player24(Away Team)'s shot from outside the box is saved in the center of the goal with the help of Player26(Away Team)."
+        *   This snippet explicitly states "Player24's shot". Thus, Shots += 1.
+        *   It does not explicitly say that the shot resulted in a goal. Goals remains 0.
+
+    *   **Snippet 2:** "Player24(Away Team) attempts a through ball, but Player31(Away Team) is offside for the Away Team."
+        *   This snippet describes Player24 attempting a through ball, but it doesn't say Player24's pass directly led to a goal so this is not an assist. Assists remains 0. The offside is attributed to Player31, not Player24, so Offsides remains 0.
+
+4.  **Final Counts:** Shots = 1, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,43 @@
+Okay, let's break this down step by step.
+
+1.  **Identify Target Player:** The target player is Player21.
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player21(Away Team) commits a foul."
+        *   Fouls: Increment to 1 (explicitly states Player21 commits a foul).
+    *   **Snippet 2:** "Player21(Away Team) attempts a through ball, but Player29(Away Team) is flagged offside."
+        *   Offsides: No increment. Player21 attempts a through ball, Player29 is offside.
+    *   **Snippet 3:** "Player21(Away Team) misses the target with a high and wide shot from outside the box, with an assist from Player30(Away Team)."
+        *   Shots: Increment to 1 (explicitly states Player21 misses a shot).
+        *   Assists: No increment. Player21 was assisted, not assisting.
+    *   **Snippet 4:** "Player21(Away Team)'s header from the right side of the box goes high and wide to the left after being assisted by Player34(Away Team) with a cross, Shot missed."
+        *   Shots: Increment to 2 (explicitly states Player21's header was a shot, and missed).
+        *   Assists: No increment. Player21 was assisted, not assisting.
+
+4.  **Compile Final Counts:**
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

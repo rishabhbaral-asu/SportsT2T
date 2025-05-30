@@ -1,0 +1,43 @@
+Okay, let's analyze the commentary snippets for Player3.
+
+1.  **Identify Target Player:** The target player is Player3.
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player3(Home Team) commits a foul."
+        *   The snippet explicitly states Player3 committed a foul.
+        *   Increment Fouls: Fouls = 1
+
+    *   Snippet 2: "Player3(Home Team)'s close-range header is blocked after a cross from Player13(Home Team)."
+        *   The snippet explicitly states Player3's header was blocked. This is an attempt on goal.
+        *   Increment Shots: Shots = 1
+
+    *   Snippet 3: "Player3(Home Team) just missed a high right footed shot from the left side of the six yard box, after being assisted by Player13(Home Team) with a cross."
+        *   The snippet explicitly states Player3 missed a shot.
+        *   Increment Shots: Shots = 2
+
+4.  **Final Counts:**
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 2     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

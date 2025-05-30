@@ -1,0 +1,37 @@
+Okay, let's start by identifying the target player.
+
+The target player is Player30.
+
+Now, let's initialize the counts for Player30: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Next, we analyze each commentary snippet:
+
+Snippet 1: "Player30(Away Team) misses the target with a high right-footed shot from outside the box, assisted by Player25(Away Team)."
+
+*   Shots: The snippet explicitly states "Player30 misses the target with a...shot". So, Shots = 1.
+*   Goals: The snippet does not mention a goal. So, Goals = 0.
+*   Assists: The snippet states Player30 was *assisted by* another player. Player30 did not *provide* an assist. So, Assists = 0.
+*   Free Kicks: No mention of a free kick or penalty. So, Free Kicks = 0.
+*   Fouls: No mention of a foul. So, Fouls = 0.
+*   Yellow Cards: No mention of a yellow card. So, Yellow Cards = 0.
+*   Red Cards: No mention of a red card. So, Red Cards = 0.
+*   Offsides: No mention of offsides. So, Offsides = 0.
+
+Snippet 2: "Player30(Away Team)'s shot from outside the box is blocked."
+
+*   Shots: The snippet explicitly states "Player30's shot...is blocked". So, Shots = 1 + 1 = 2.
+*   Goals: The snippet does not mention a goal. So, Goals = 0.
+*   Assists: The snippet does not mention an assist. So, Assists = 0.
+*   Free Kicks: No mention of a free kick or penalty. So, Free Kicks = 0.
+*   Fouls: No mention of a foul. So, Fouls = 0.
+*   Yellow Cards: No mention of a yellow card. So, Yellow Cards = 0.
+*   Red Cards: No mention of a red card. So, Red Cards = 0.
+*   Offsides: No mention of offsides. So, Offsides = 0.
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player30 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

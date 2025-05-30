@@ -1,0 +1,37 @@
+Okay, let's break this down step by step.
+
+1. **Player Identification:** The target player is Player25.
+
+2. **Initialization:** We start with all counts at zero: Shots=0, Goals=0, Assists=0, Free Kicks=0, Fouls=0, Yellow Cards=0, Red Cards=0, Offsides=0.
+
+3. **Snippet Analysis:**
+
+   * **Snippet 1:** "Player25(Away Team) scores with a left-footed shot from the middle of the box, assisted by Player26(Away Team)."
+     *   Player25 scores: Increment Goals by 1.
+     *   Player25 scores: Increment Shots by 1.
+     *   Assisted by Player26: Do NOT increment Player25's Assists.
+
+   * **Snippet 2:** "Player25(Away Team) misses the target with a right-footed shot from outside the box, assisted by Player23(Away Team)."
+     * Player25 misses a shot: Increment Shots by 1.
+     * Assisted by Player23: Do NOT increment Player25's Assists.
+
+   * **Snippet 3:** "Player25(Away Team) narrowly misses with a right-footed shot from outside the box, while Player20(Away Team)'s through ball to Player29(Away Team) is thwarted by an offside call for Away Team."
+     * Player25 misses a shot: Increment Shots by 1.
+     * Away Team offside involving Player20 and Player29: Player25 isn't mentioned in the offside, so Offsides remains 0.
+
+4. **Final Counts:**
+   * Shots: 1 (from snippet 1) + 1 (from snippet 2) + 1 (from snippet 3) = 3
+   * Goals: 1 (from snippet 1)
+   * Assists: 0
+   * Free Kicks: 0
+   * Fouls: 0
+   * Yellow Cards: 0
+   * Red Cards: 0
+   * Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 3     | 1     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

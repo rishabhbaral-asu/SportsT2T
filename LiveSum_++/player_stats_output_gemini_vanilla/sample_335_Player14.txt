@@ -1,0 +1,28 @@
+Okay, let's analyze the commentary snippets for Player14 and compile the statistics.
+
+1.  **Player Name:** The target player is Player14.
+
+2.  **Initialize Counts:** We start with all event counts at 0 for Player14.
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player14(Home Team) commits a foul on Player27(Away Team), who earns a free kick on the left wing, This results in Player27(Away Team) winning a free kick on the left wing due to the foul committed by Player14(Home Team)."
+        *   **Fouls (Committed):** The snippet explicitly states "Player14(Home Team) commits a foul". This is a clear foul committed by the target player, so we increment the 'Fouls' count by 1.
+        *   **Free Kicks (Taken):** The snippet explicitly states that Player27 "wins a free kick...due to the foul committed by Player14". However this refers to the opposing player earning the free kick. Therefore, this does not count as a free kick taken by Player14.
+
+4. **Final Count:**
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 1
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player14 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

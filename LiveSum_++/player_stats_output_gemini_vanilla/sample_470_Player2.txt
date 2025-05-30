@@ -1,0 +1,41 @@
+Okay, let's analyze the commentary snippets for Player2 and generate the summary table.
+
+1.  **Player Name:** The target player is Player2.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player2(Home Team)'s left footed shot from outside the box is saved in the top centre of the goal, with an assist from Player5(Home Team)."
+        *   Shots: Player2 takes a shot. Increment Shots to 1.
+        *   Goals: No goal scored.
+        *   Assists: Player2 received an assist, not provided one, so Assist = 0.
+
+    *   **Snippet 2:** "Player2(Home Team) receives a yellow card for a rough tackle."
+        *   Yellow Cards: Player2 receives a yellow card. Increment Yellow Cards to 1.
+        *   Fouls: Player2 committed a foul (rough tackle). Increment Fouls to 1.
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 1     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

@@ -1,0 +1,46 @@
+Okay, I'm ready to process the player commentary snippets and generate the summary table.
+
+**Step 1: Identify Target Player**
+The target player is Player9.
+
+**Step 2: Initialize Counters**
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**Step 3: Analyze Commentary Snippets**
+
+*   **Snippet 1:** "Player9(Home Team) scores with a left-footed shot from the center of the box, assisted by Player8(Home Team) with a cross, Home Team leads 2-0 against Away Team."
+    *   Goal: Player9 scores, so increment Goals by 1.
+    *   Shot: Player9 scores with a shot, so increment Shots by 1.
+
+*   **Snippet 2:** "Player9(Home Team) earns a free kick in the opponent's half."
+    *   Free Kick: Player9 earns a free kick, so increment Free Kicks by 1.
+
+*   **Snippet 3:** "Player9(Home Team)'s shot from outside the box just missed to the left, with an assist from Player15(Home Team)."
+    *   Shot: Player9's shot missed, so increment Shots by 1.
+
+**Step 4: Compile Final Counts**
+
+Shots: 2
+Goals: 1
+Assists: 0
+Free Kicks: 1
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+**Step 5: Create Final Summary Table**
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player9 | 2     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

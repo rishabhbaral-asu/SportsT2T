@@ -1,0 +1,53 @@
+Okay, let's break down the process step by step.
+
+1.  **Identify the target player:** The target player is Player8.
+
+2.  **Initialize the event counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze each commentary snippet and increment counts accordingly:**
+
+    *   Snippet 1: "Player8(Home Team) earns a free kick in the opponent's half."
+        *   Free Kicks: Increment by 1 (Player earned a free kick).
+
+    *   Snippet 2: "Player8(Home Team)'s left footed shot from outside the box was blocked after being assisted by Player2(Home Team), with the attempt blocked due to a foul committed by Player28(Away Team)."
+        *   Shots: Increment by 1 (Player8's shot was blocked).
+        *   Assists: No increment, because Player8 was assisted by Player2, not the other way around.
+
+    *   Snippet 3: "Player8(Home Team) is fouled in the box."
+        *   Free Kicks: Increment by 1 (Player was fouled in the box which results in a penalty which counts as a free kick)
+
+    *   Snippet 4: "Player8(Home Team) commits a foul."
+        *   Fouls: Increment by 1 (Player8 committed a foul).
+
+    *   Snippet 5: "Player8(Home Team) receives a yellow card for a rough tackle."
+        *   Yellow Cards: Increment by 1 (Player8 received a yellow card).
+
+    *   Snippet 6: "Player8(Home Team)'s shot with his left foot from the center of the box is saved by the goalkeeper, with an assist from Player2(Home Team)."
+        *   Shots: Increment by 1 (Player8's shot was saved).
+        *   Assists: No increment, because Player8 was assisted by Player2, not the other way around.
+
+4.  **Compile the final counts:**
+
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 2
+    *   Fouls: 1
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 2     | 0     | 0       | 2          | 1     | 1            | 0         | 0        |
+```

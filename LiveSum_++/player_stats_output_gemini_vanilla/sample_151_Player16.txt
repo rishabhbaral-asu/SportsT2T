@@ -1,0 +1,51 @@
+Okay, I'm ready to analyze the commentary snippets and compile the player statistics.
+
+**Player Name:** Player16
+
+**Commentary Snippets:**
+- Player16(Home Team)'s attempt was saved by the goalkeeper in the bottom left corner, after being assisted by Player7(Home Team), following a foul by Player5(Home Team).
+- Player16(Home Team)'s right-footed shot from outside the box is saved in the center of the goal, resulting in a corner kick for the Away Team.
+
+**Reasoning:**
+
+1.  **Shots:**
+    *   Snippet 1: "Player16(Home Team)'s attempt was saved..." - This is an attempt on goal, so increment Shots by 1.
+    *   Snippet 2: "Player16(Home Team)'s right-footed shot from outside the box is saved..." - This is a shot, so increment Shots by 1.
+    Total Shots = 2
+
+2.  **Goals:**
+    *   Neither snippet mentions Player16 scoring a goal.
+    Total Goals = 0
+
+3.  **Assists:**
+    *   Snippet 1: "...after being assisted by Player7(Home Team)..." - This means Player16 was *assisted by* Player7, not the other way around. No assist for Player16.
+    *   Snippet 2: No mention of an assist.
+    Total Assists = 0
+
+4.  **Free Kicks (Taken):**
+    *   Neither snippet explicitly mentions Player16 taking a free kick or penalty. Although in the first snippet, Player16's attempt was saved "following a foul by Player5(Home Team)". This does not mean Player16 won or took the free kick.
+    Total Free Kicks = 0
+
+5.  **Fouls (Committed):**
+    *   Snippet 1: "...following a foul by Player5(Home Team)." The foul was by Player5, not Player16.
+    *   Snippet 2: No mention of a foul by Player16.
+    Total Fouls = 0
+
+6.  **Yellow Cards:**
+    *   Neither snippet mentions Player16 receiving a yellow card.
+    Total Yellow Cards = 0
+
+7.  **Red Cards:**
+    *   Neither snippet mentions Player16 receiving a red card.
+    Total Red Cards = 0
+
+8.  **Offsides:**
+    *   Neither snippet mentions Player16 being offsides.
+    Total Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player16 | 2     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,19 @@
+Okay, let's start.
+
+1.  **Identify the target player name:** The target player name is Player22.
+2.  **Initialize counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze commentary snippets:**
+    *   Snippet 1: "Player22(Away Team) commits a foul on Player11(Home Team), awarding a free kick to Player11(Home Team) on the left wing."
+        *   The snippet explicitly states "Player22 commits a foul".
+        *   Increment Fouls: Fouls = 0 + 1 = 1.
+    *   Snippet 2: "Player22(Away Team) receives a yellow card for a rough tackle."
+        *   The snippet explicitly states "Player22 receives a yellow card".
+        *   Increment Yellow Cards: Yellow Cards = 0 + 1 = 1.
+
+4.  **Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 0     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

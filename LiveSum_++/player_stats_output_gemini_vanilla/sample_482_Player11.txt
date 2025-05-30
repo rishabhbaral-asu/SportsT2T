@@ -1,0 +1,70 @@
+Okay, let's analyze the commentary snippets for Player11 and compile the statistics.
+
+1.  **Player Name:** The target player is Player11.
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player11(Home Team)'s shot from the right side of the box is blocked by the defense, resulting in a corner kick for the Home Team after an assist from Player9(Home Team)."
+        *   Shots: Player11's shot is blocked. Increment Shots by 1. Shots = 1
+        *   Goals: No goal scored.
+        *   Assists: Player11 received an assist from Player9, so Player11 did not provide an assist.
+        *   Free Kicks: No free kick taken or won.
+        *   Fouls: No foul committed.
+        *   Offsides: No offside mentioned.
+
+    *   **Snippet 2:** "Player11(Home Team) of the Home Team is caught offside after Player2(Home Team) attempts a through ball."
+        *   Shots: No shot.
+        *   Goals: No goal.
+        *   Assists: No assist.
+        *   Free Kicks: No free kick.
+        *   Fouls: No foul committed.
+        *   Offsides: Player11 is caught offside. Increment Offsides by 1. Offsides = 1
+
+    *   **Snippet 3:** "Player11(Home Team)'s close-range header is blocked with an assist from Player17(Home Team), and Player6(Home Team)'s subsequent header from a corner is narrowly too high."
+        *   Shots: Player11's header is blocked. Increment Shots by 1. Shots = 2
+        *   Goals: No goal scored.
+        *   Assists: Player11 received an assist from Player17.
+        *   Free Kicks: No free kick.
+        *   Fouls: No foul.
+        *   Offsides: No offside.
+
+    *   **Snippet 4:** "Player11(Home Team) earns a free kick in the opponent's half."
+        *   Shots: No shot.
+        *   Goals: No goal.
+        *   Assists: No assist.
+        *   Free Kicks: Player11 earns a free kick. Increment Free Kicks by 1. Free Kicks = 1
+        *   Fouls: No foul.
+        *   Offsides: No offside.
+
+   *   **Snippet 5:** "Player11(Home Team)'s shot from outside the box is blocked."
+        *   Shots: Player11's shot is blocked. Increment Shots by 1. Shots = 3
+        *   Goals: No goal scored.
+        *   Assists: No assist.
+        *   Free Kicks: No free kick.
+        *   Fouls: No foul.
+        *   Offsides: No offside.
+
+    *   **Snippet 6:** "Player11(Home Team) commits a foul, leading to Player20(Away Team) being awarded a free kick in their own defensive half."
+        *   Shots: No shot.
+        *   Goals: No goal.
+        *   Assists: No assist.
+        *   Free Kicks: No free kick.
+        *   Fouls: Player11 commits a foul. Increment Fouls by 1. Fouls = 1
+        *   Offsides: No offside.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 3     | 0     | 0       | 1          | 1     | 0            | 0         | 1        |
+```

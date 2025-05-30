@@ -1,0 +1,48 @@
+Okay, I will follow the instructions to analyze the commentary snippets for the specified player and create the final summary table.
+
+1.  **Identify the target player:**
+    The target player is Player21.
+
+2.  **Initialize event counts:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+3.  **Analyze commentary snippets:**
+
+    *   Snippet 1: "Player21(Away Team) fouls Player11(Home Team), winning a free kick in their defensive half."
+        *   Fouls: Player21 commits a foul, so Fouls = 1.
+        *   Free Kicks: Player21 wins a free kick, so Free Kicks = 1
+
+    *   Snippet 2: "Player21(Away Team) with a great play."
+        *   No relevant events to count.
+
+    *   Snippet 3: "Player21(Away Team) receives a yellow card."
+        *   Yellow Cards: Player21 receives a yellow card, so Yellow Cards = 1.
+
+    *   Snippet 4: "Player21(Away Team) receives his second yellow card for a reckless foul."
+        *   Yellow Cards: Since the player receives a *second* yellow card it will be counted as a red card instead, therefore Yellow Cards remains at 1
+        *   Red Cards: Player21 receives a second yellow card, which results in a red card, so Red Cards = 1.
+        *   Fouls: Player21 commits a reckless foul, so Fouls = Fouls + 1 = 2.
+
+4.  **Final Counts:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 1
+    * Fouls = 2
+    * Yellow Cards = 1
+    * Red Cards = 1
+    * Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 0     | 0     | 0       | 1          | 2     | 1            | 1         | 0        |
+```

@@ -1,0 +1,34 @@
+Okay, let's analyze the commentary snippets for Player22.
+
+1.  **Player Name:** The target player is Player22.
+2.  **Initialization:** We initialize the counts for Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, and Offsides to 0.
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player22(Away Team) earns a free kick in their own half after being fouled by Player11(Home Team)."
+        *   This snippet indicates Player22 *earned* a free kick. Therefore, Free Kicks is incremented by 1.
+
+    *   **Snippet 2:** "Player22(Away Team) commits a foul."
+        *   This snippet clearly states Player22 committed a foul. Therefore, Fouls is incremented by 1.
+
+    *   **Snippet 3:** "Player22(Away Team) receives a yellow card."
+        *   This snippet states Player22 received a yellow card. Therefore, Yellow Cards is incremented by 1.
+
+    *   **Snippet 4:** "Player22(Away Team) is causing a delay in the match due to an injury."
+        * This snippet does not contain any countable events.
+
+4. **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 1
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 0     | 0     | 0       | 1          | 1     | 1            | 0         | 0        |
+```

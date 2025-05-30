@@ -1,0 +1,26 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player27 and compile the statistics.
+
+1.  **Identify the target player:** The target player is Player27.
+
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player27(Away Team) commits a foul." - This explicitly states Player27 committed a foul. Fouls = 1.
+
+    *   Snippet 2: "Player27(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team." - This says Player27 *attempted* a pass (through ball). This does not count as an assist because it didn't lead to a goal. Player29 is offside, not Player27. Offsides = 0.
+
+    *   Snippet 3: "Player27(Away Team)'s right footed shot from outside the box is saved in the center of the goal, assisted by Player25(Away Team), as Player9(Home Team) wins a free kick on the right wing." - This mentions Player27 took a shot that was saved. Shots = 1. It also mentions that Player27 was *assisted by* Player25. This does *not* give Player27 an assist, but does note that Player27 took a shot.
+
+    *   Snippet 4: "Player27(Away Team) scores with a right-footed shot from the center of the box, assisted by Player28(Away Team), making the score Home Team 1, Away Team 2." - Player27 scored a goal. Goals = 1. Shots = 2. This is because the player is explicity stated to have scored from a shot. The snippet also states Player27 was *assisted by* Player28, so Player27 doesn't get an assist.
+
+    *   Snippet 5: "Player27(Away Team)'s shot from the left side of the box is blocked after receiving a through ball from Player33(Away Team)." - This mentions Player27 took a shot that was blocked. Shots = 3.
+
+4. **Final Counts:** Shots = 3, Goals = 1, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 3     | 1     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

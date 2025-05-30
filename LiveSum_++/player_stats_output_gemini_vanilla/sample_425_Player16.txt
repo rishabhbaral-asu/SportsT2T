@@ -1,0 +1,48 @@
+Okay, let's analyze the commentary snippets for Player16 and compile the statistics.
+
+**Player Name:** Player16
+
+**Commentary Snippets:**
+- Player16(Home Team) commits a foul, giving Player20(Away Team) a free kick on the right wing, .
+- Player16(Home Team) committed a foul.
+
+**Step 1: Initialization**
+
+*   Player: Player16
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**Step 2: Snippet Analysis**
+
+*   **Snippet 1:** "Player16(Home Team) commits a foul, giving Player20(Away Team) a free kick on the right wing, ."
+    *   "commits a foul" - This explicitly states Player16 committed a foul. Fouls count incremented by 1.
+    * The awarding of the free kick to the opposition is a consequence of the foul committed by Player16, it does not mean Player16 took a free kick, so the "Free Kicks" count remains 0
+    * Updated: Fouls = 1
+
+*   **Snippet 2:** "Player16(Home Team) committed a foul."
+    *   "committed a foul" - This explicitly states Player16 committed a foul. Fouls count incremented by 1.
+    *   Updated: Fouls = 2
+
+**Step 3: Final Tally**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 2
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player16 | 0     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

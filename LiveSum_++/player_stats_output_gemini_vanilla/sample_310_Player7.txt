@@ -1,0 +1,30 @@
+Okay, let's analyze the commentary snippets for Player7.
+
+**Player Name:** Player7
+
+**Commentary Snippets:**
+- Player7(Home Team)'s left footed shot from the right side of the box was blocked with an assist from Player2(Home Team).
+- Player7(Home Team) attempts a through ball to Player9(Home Team), but Player9(Home Team) is offside.
+
+**Analysis:**
+
+*   **Snippet 1:** "Player7(Home Team)'s left footed shot from the right side of the box was blocked with an assist from Player2(Home Team)." This snippet explicitly mentions "shot" by Player7, so Shots is incremented by 1. It also notes an assist from Player2, which does not affect Player7's assist count.
+*   **Snippet 2:** "Player7(Home Team) attempts a through ball to Player9(Home Team), but Player9(Home Team) is offside." This snippet mentions Player7 attempting a through ball that results in an offside. This does not count as an assist, shot, or any other defined event for Player7. It does increment offsides by one because player 9 was offside. However, this is for player 9, not the target player.
+
+**Final Counts:**
+
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

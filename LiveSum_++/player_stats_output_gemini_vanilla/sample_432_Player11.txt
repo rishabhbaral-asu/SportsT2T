@@ -1,0 +1,53 @@
+Okay, let's analyze the commentary snippets for Player11 and compile the statistics.
+
+**1. Identify the target player:**
+The target player is Player11.
+
+**2. Initialize event counts:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze each snippet:**
+
+*   **Snippet 1:** "Player11(Home Team) earns a free kick on the left side of the field."
+    *   Player11 earns a free kick. Increment Free Kicks.
+    *   Free Kicks = 1
+
+*   **Snippet 2:** "Player11(Home Team) misses the shot with their left foot from outside the box, shooting high and wide to the left, with an assist from Player9(Home Team)."
+    *   Player11 misses a shot. Increment Shots.
+    *   Shots = 1
+
+*   **Snippet 3:** "Player11(Home Team) commits a foul."
+    *   Player11 commits a foul. Increment Fouls.
+    *   Fouls = 1
+
+*   **Snippet 4:** "Player11(Home Team)'s left footed shot from the center of the box narrowly missed to the left, with an assist from Player8(Home Team)."
+    *   Player11 took a shot. Increment Shots.
+    *   Shots = 2
+
+*   **Snippet 5:** "Player11(Home Team) of the Home Team is offside after Player8(Home Team) attempts a through ball."
+    * Player11 is offside. Increment Offsides.
+    * Offsides = 1
+
+**4. Final event counts:**
+Shots = 2
+Goals = 0
+Assists = 0
+Free Kicks = 1
+Fouls = 1
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 1
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 1        |
+```

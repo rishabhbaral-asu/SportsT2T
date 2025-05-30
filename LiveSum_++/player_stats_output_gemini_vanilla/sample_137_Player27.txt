@@ -1,0 +1,47 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player27 and generate the summary table.
+
+1.  **Identify Target Player:** The target player is Player27.
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player27(Away Team) commits a foul."
+        *   Fouls: Increment by 1. Fouls = 1
+
+    *   Snippet 2: "Player27(Away Team) receives a yellow card for a rough tackle."
+        *   Yellow Cards: Increment by 1. Yellow Cards = 1
+
+    *   Snippet 3: "Player27(Away Team) commits a foul, resulting in Player2(Home Team) winning a free kick in their own defensive half."
+        *   Fouls: Increment by 1. Fouls = 2
+
+    *   Snippet 4: "Player27(Away Team) commits a hand ball, resulting in a corner kick for the Home Team, ."
+        *   Fouls: Increment by 1. Fouls = 3
+
+    *   Snippet 5: "Player27(Away Team) scores with a header from the middle of the box to the top left corner, making it Home Team 2, Away Team 1, Goal!."
+        *   Shots: Increment by 1. Shots = 1
+        *   Goals: Increment by 1. Goals = 1
+
+4.  **Compile Final Counts:**
+    *   Shots = 1
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 3
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 1     | 1     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

@@ -1,0 +1,84 @@
+Okay, let's start by identifying the target player and initializing the event counts.
+
+1.  **Target Player:** Player10
+
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Now, let's analyze each commentary snippet and increment the counts accordingly, following the strict counting rules:
+
+*   **Snippet 1:** "Player10(Home Team) misses the target with a high right-footed shot from long range."
+    *   Shots: Increment by 1 (explicitly mentions "shot").
+    *   Goals: No change.
+    *   Assists: No change.
+    *   Free Kicks: No change.
+    *   Fouls: No change.
+    *   Yellow Cards: No change.
+    *   Red Cards: No change.
+    *   Offsides: No change.
+
+*   **Snippet 2:** "Player10(Home Team) misses the target with a high and wide shot from outside the box, assisted by Player11(Home Team)."
+    *   Shots: Increment by 1 (explicitly mentions "shot").
+    *   Goals: No change.
+    *   Assists: No change (Player10 was *assisted by* someone else).
+    *   Free Kicks: No change.
+    *   Fouls: No change.
+    *   Yellow Cards: No change.
+    *   Red Cards: No change.
+    *   Offsides: No change.
+
+*   **Snippet 3:** "Player10(Home Team) unsuccessfully attempts a shot from outside the box with their right foot, with assistance from Player9(Home Team)."
+    *   Shots: Increment by 1 (explicitly mentions "shot" and "attempts").
+    *   Goals: No change.
+    *   Assists: No change (Player10 was *assisted by* someone else).
+    *   Free Kicks: No change.
+    *   Fouls: No change.
+    *   Yellow Cards: No change.
+    *   Red Cards: No change.
+    *   Offsides: No change.
+
+*   **Snippet 4:** "Player10(Home Team) wins a free kick in the attacking half after a foul by Player20(Away Team), ."
+    *   Shots: No change.
+    *   Goals: No change.
+    *   Assists: No change.
+    *   Free Kicks: Increment by 1 (explicitly mentions "wins a free kick").
+    *   Fouls: No change.
+    *   Yellow Cards: No change.
+    *   Red Cards: No change.
+    *   Offsides: No change.
+
+*   **Snippet 5:** "Player10(Home Team) attempts a through ball, but Player11(Home Team) is flagged offsides."
+    *   Shots: No change.
+    *   Goals: No change.
+    *   Assists: No change.
+    *   Free Kicks: No change.
+    *   Fouls: No change.
+    *   Yellow Cards: No change.
+    *   Red Cards: No change.
+    *   Offsides: No change.
+
+**Final Counts:**
+
+*   Shots: 3
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 1
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 3     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

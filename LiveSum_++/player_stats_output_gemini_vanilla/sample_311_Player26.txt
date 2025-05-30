@@ -1,0 +1,34 @@
+Okay, let's analyze the commentary snippets for Player26 and compile the statistics.
+
+**Player Name:** Player26
+
+**Commentary Snippets:**
+- Player26(Away Team) commits a foul on Player9(Home Team), who earns a free kick on the left wing, .
+- Player26(Away Team) is holding up the game due to injury.
+
+**Analysis:**
+
+1.  **Player Identification:** The target player is Player26.
+2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+3.  **Snippet 1 Analysis:** "Player26(Away Team) commits a foul on Player9(Home Team), who earns a free kick on the left wing, ."
+    *   Fouls: The snippet explicitly states "Player26 commits a foul". Increment Fouls by 1.
+    *   Free Kicks: The snippet says Player9 "earns a free kick", but Player26 committed the foul that led to it. This action of Player26 committing the foul does not count as Player26 taking a free kick, as it was conceded. So Free Kicks remains 0 for Player26.
+4.  **Snippet 2 Analysis:** "Player26(Away Team) is holding up the game due to injury."
+    *   This snippet doesn't describe any of the events we are tracking (Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, Offsides).
+
+**Final Count:**
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 1
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

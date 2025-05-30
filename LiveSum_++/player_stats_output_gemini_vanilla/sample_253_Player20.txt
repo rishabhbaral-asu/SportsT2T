@@ -1,0 +1,44 @@
+Okay, let's start by identifying the target player and initializing the statistics.
+
+Target Player: Player20
+
+Initial Statistics:
+Shots: 0
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 0
+Yellow Cards: 0
+Red Cards: 0
+Offsides: 0
+
+Now, let's analyze the commentary snippets:
+
+Snippet 1: "Player20(Away Team) commits a foul."
+*   Fouls: The snippet explicitly states Player20 commits a foul. Increment Fouls by 1.
+    Fouls = 1
+
+Snippet 2: "Player20(Away Team) receives a yellow card for a rough tackle."
+*   Yellow Cards: The snippet explicitly states Player20 receives a yellow card. Increment Yellow Cards by 1.
+    Yellow Cards = 1
+
+Snippet 3: "Player20(Away Team)'s attempt from outside the box is blocked by the defense, with an assist from Player25(Away Team), resulting in a corner kick for the Away Team."
+*   Shots: The snippet mentions Player20's attempt. Increment Shots by 1.
+    Shots = 1
+
+Final Statistics:
+Shots: 1
+Goals: 0
+Assists: 0
+Free Kicks: 0
+Fouls: 1
+Yellow Cards: 1
+Red Cards: 0
+Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 1     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

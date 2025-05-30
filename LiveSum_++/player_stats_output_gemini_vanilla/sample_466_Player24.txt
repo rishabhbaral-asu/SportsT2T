@@ -1,0 +1,26 @@
+Okay, let's start by identifying the player and initializing the counts.
+
+Player Name: Player24
+
+Now, let's go through each commentary snippet and increment the counts accordingly, adhering to the strict rules.
+
+*   **Snippet 1:** "Player24(Away Team) has earned a free kick in their own half."
+    *   This snippet indicates Player24 *earned* a free kick, which means they *won* a free kick. This increments the `Free Kicks` count.
+
+*   **Snippet 2:** "Player24(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team."
+    *   This snippet does not tell us whether Player24 was offside or not. Player29 was offside. Do not increment offsides.
+
+*   **Snippet 3:** "Player24(Away Team) commits a foul."
+    *   This snippet explicitly states Player24 committed a foul. Increment the `Fouls` count.
+
+*   **Snippet 4:** "Player24(Away Team) receives a yellow card for a foul."
+    *   This snippet explicitly states Player24 received a yellow card. Increment the `Yellow Cards` count.
+
+Now, let's compile the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 0     | 0     | 0       | 1          | 1     | 1            | 0         | 0        |
+```

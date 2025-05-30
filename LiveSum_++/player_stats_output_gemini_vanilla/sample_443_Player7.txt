@@ -1,0 +1,29 @@
+Okay, let's start.
+
+**Objective:** Analyze commentary snippets for Player7 and count explicit occurrences of defined events.
+
+1.  **Identify Target Player:**
+    The target player is Player7.
+
+2.  **Initialize Counts:**
+    Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player7(Home Team) earns a free kick on the left side."
+        *   This snippet explicitly states Player7 earned a free kick. This counts as a Free Kick (taken).
+        *   Free Kicks = 1
+
+    *   Snippet 2: "Player7(Home Team) fouls Player32(Away Team), resulting in a free kick in the defensive half."
+        *   This snippet explicitly states Player7 committed a foul.
+        *   Fouls = 1
+
+4.  **Final Counts:**
+    Shots = 0, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

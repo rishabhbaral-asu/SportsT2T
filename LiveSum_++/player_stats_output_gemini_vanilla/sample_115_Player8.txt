@@ -1,0 +1,48 @@
+Okay, let's break down the commentary snippets and compile the stats for Player8.
+
+**1. Player Identification:**
+
+The target player is Player8.
+
+**2. Initialization:**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**3. Snippet Analysis and Event Counting:**
+
+*   **Snippet 1: `Player8(Home Team).`** - No explicit actions, so no counts are incremented.
+*   **Snippet 2: `Player8(Home Team) has fallen to the ground, but it looks like they took a dive.`** - This does not explicitly state a foul or winning of a free kick. No counts are incremented.
+*   **Snippet 3: `Player8(Home Team) receives a yellow card.`** - Explicitly states a yellow card.
+    *   Yellow Cards = 1
+*   **Snippet 4: `Player8(Home Team)'s attempt from outside the box with his right foot is saved in the bottom left corner, assisted by Player7(Home Team), while Player18(Home Team) earns a free kick on the left wing.`** - Explicitly states an attempt (shot). Note that Player8 was assisted by Player7, so there is no assist to count for Player7 in this case.
+    *   Shots = 1
+*   **Snippet 5: `Player8(Home Team) commits a foul, resulting in Player31(Away Team) winning a free kick in their own defensive half.`** - Explicitly states a foul was committed.
+    *   Fouls = 1
+*   **Snippet 6: `Player8(Home Team) earns a free kick in their own half.`** - Explicitly states that Player8 earns a free kick.
+    *   Free Kicks = 1
+
+**4. Final Counts:**
+
+*   Shots = 1
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 1
+*   Fouls = 1
+*   Yellow Cards = 1
+*   Red Cards = 0
+*   Offsides = 0
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player8 | 1     | 0     | 0       | 1          | 1     | 1            | 0         | 0        |
+```

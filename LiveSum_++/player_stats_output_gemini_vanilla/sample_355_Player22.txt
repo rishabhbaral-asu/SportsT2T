@@ -1,0 +1,50 @@
+Okay, let's analyze the commentary snippets for Player22.
+
+1.  **Player Name:** Player22
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player22(Away Team)'s header from close range, assisted by Player24(Away Team) following a set piece, narrowly misses the goal, as Player25(Away Team) wins a free kick in their defensive half."
+        *   Player22: Header (shot) - Shots + 1
+        *   Player22: Assisted by Player24. - No assist counted because Player22 is the shooter, not the assister.
+    *   Snippet 2: "Player22(Away Team) earns a free kick in their own half."
+        *   Player22: Wins a free kick - Free Kicks + 1
+    *   Snippet 3: "Player22(Away Team) earns a free kick in their own half after being fouled by Player10(Home Team)."
+        *   Player22: Wins a free kick - Free Kicks + 1
+    *   Snippet 4: "Player22(Away Team) commits a foul on Player10(Home Team), resulting in a free kick being awarded to Player10(Home Team) on the right wing."
+        *   Player22: Commits a foul - Fouls + 1
+    *   Snippet 5: "Player22(Away Team) commits a foul, resulting in Player11(Home Team) winning a free kick in their defensive half, This foul gives Player11(Home Team) a free kick in their own half."
+        *   Player22: Commits a foul - Fouls + 1
+    *   Snippet 6: "Player22(Away Team)'s header from the center of the box, assisted by Player26(Away Team) with a cross, is blocked after the Away Team obtains a corner kick."
+        *   Player22: Header (shot) - Shots + 1
+        *   Player22: Assisted by Player26. - No assist counted because Player22 is the shooter, not the assister.
+    *   Snippet 7: "Player22(Away Team)'s header from the left side of the six yard box is saved in the top left corner after a cross from Player26(Away Team)."
+        *   Player22: Header (shot) saved - Shots + 1
+        *   Player22: Assisted by Player26. - No assist counted because Player22 is the shooter, not the assister.
+
+4.  **Final Counts:**
+    *   Shots: 3
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 2
+    *   Fouls: 2
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 3     | 0     | 0       | 2          | 2     | 0            | 0         | 0        |
+```

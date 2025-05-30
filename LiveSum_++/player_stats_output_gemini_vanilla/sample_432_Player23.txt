@@ -1,0 +1,26 @@
+Okay, let's start by identifying the player name and initializing the counts.
+
+Player Name: Player23
+
+Now I will iterate through each commentary snippet, identify if the target player is mentioned, and increment the appropriate counters based on the instructions.
+
+Commentary Snippet 1: "Player23(Away Team) commits a foul."
+
+*   Player23 is explicitly mentioned.
+*   The snippet states Player23 committed a foul.
+*   Increment Fouls by 1.
+
+Commentary Snippet 2: "Player23(Away Team) misses the goal with a left-footed shot from outside the box to the right, assisted by Player26(Away Team) after a set piece."
+
+*   Player23 is explicitly mentioned.
+*   The snippet states Player23 missed a shot.
+*   Increment Shots by 1.
+
+Now, I will generate the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player23 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

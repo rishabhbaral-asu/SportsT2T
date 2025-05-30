@@ -1,0 +1,28 @@
+Okay, let's analyze the commentary snippets for Player13.
+
+*   **Player Name:** Player13
+*   **Initial Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Now, let's process each snippet:
+
+*   **Snippet 1:** "Player13(Home Team) scores with a close-range header to the bottom right corner, assisted by Player10(Home Team) with a headed pass from a corner kick."
+    *   `Scores`: Goal +1, Shot +1.
+    *   Current counts: Shots = 1, Goals = 1, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+*   **Snippet 2:** "Player13(Home Team) scores with a header from the left side of the six yard box, assisted by Player8(Home Team) with a cross after a corner kick, Home Team leads 2-1 against Away Team."
+    *   `Scores`: Goal +1, Shot +1
+    *   Current counts: Shots = 2, Goals = 2, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+*   **Snippet 3:** "Player13(Home Team) wins a free kick in the attacking half, but Player8(Home Team)'s left-footed shot from outside the box, assisted by Player13(Home Team), misses to the right."
+    *   `wins a free kick`: Free Kicks +1
+    *   `assisted by`: Assist +1
+    *   Current counts: Shots = 2, Goals = 2, Assists = 1, Free Kicks = 1, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+*   **Snippet 4:** "Player13(Home Team) fouls Player28(Away Team), leading to a free kick in the attacking half."
+    *   `fouls`: Fouls +1
+    *   Current counts: Shots = 2, Goals = 2, Assists = 1, Free Kicks = 1, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player13 | 2     | 2     | 1       | 1          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,41 @@
+Okay, let's analyze the commentary snippets for Player5.
+
+1.  **Player Name:** Player5
+2.  **Initial Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player5(Home Team) attempts a through ball to Player10(Home Team), who is caught offside, resulting in a free kick for the Home Team on the left wing."
+        *   No Shots, Goals, Assists, Fouls, Yellow Cards, or Red Cards are mentioned.
+        *   The snippet mentions "Player5 attempts a through ball" leading to an offside. This does not qualify for any of our defined event types to be incremented.
+        *   No direct free kick action is attributed to Player5, so Free Kicks remains 0.
+        *   Offsides: There is no offside committed by Player5.
+    *   Snippet 2: "Player5(Home Team) commits a foul, resulting in Player20(Away Team) winning a free kick in their defensive half."
+        *   Fouls: Player5 is explicitly stated to have committed a foul. Increment Fouls by 1.
+        *   No Shots, Goals, Assists, Yellow Cards, or Red Cards are mentioned.
+        *   Free Kicks: This does not apply to a Free Kick taken by Player5.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

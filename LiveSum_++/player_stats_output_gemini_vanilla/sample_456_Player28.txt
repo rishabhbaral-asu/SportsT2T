@@ -1,0 +1,102 @@
+Okay, let's start by identifying the target player and initializing the counts.
+
+Target Player: Player28
+
+Initial Counts:
+* Shots: 0
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 0
+* Yellow Cards: 0
+* Red Cards: 0
+* Offsides: 0
+
+Now, let's analyze each commentary snippet:
+
+1.  "Player28(Away Team) earns a free kick from the left side." - Player28 earns a free kick. Increment Free Kicks by 1.
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+2.  "Player28(Away Team)'s shot from outside the box is blocked with the help of Player23(Away Team)." - Player28 takes a shot. Increment Shots by 1.
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  "Player28(Away Team)'s attempt from outside the box is blocked with the help of Player26(Away Team)." - Player28 attempts a shot. Increment Shots by 1.
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+4.  "Player28(Away Team)'s shot from outside the box is blocked with the help of Player27(Away Team)." - Player28 takes a shot. Increment Shots by 1.
+    *   Shots: 3
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+5.  "Player28(Away Team)'s long-range shot is saved by the goalkeeper after being set up by Player27(Away Team)." - Player28 takes a shot. Increment Shots by 1.
+    *   Shots: 4
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+6.  "Player28(Away Team)'s attempt from outside the box is blocked by Player27(Away Team), leading to Player5(Home Team) winning a free kick in their own half." - Player28 attempts a shot. Increment Shots by 1.
+    *   Shots: 5
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+7.  "Player28(Away Team) scores with a header from the center of the box, assisted by Player26(Away Team) with a cross after a set piece, Home Team leads 4-1 against Away Team." - Player28 scores a goal. Increment Goals by 1 and Shots by 1.
+    *   Shots: 6
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+8.  "Player28(Away Team) commits a foul." - Player28 commits a foul. Increment Fouls by 1.
+    *   Shots: 6
+    *   Goals: 1
+    *   Assists: 0
+    *   Free Kicks: 1
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 6     | 1     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

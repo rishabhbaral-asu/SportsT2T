@@ -1,0 +1,58 @@
+Okay, let's analyze the commentary snippets for Player24 and generate the final summary table.
+
+**Player Name:** Player24
+
+**Commentary Snippets:**
+
+- Player24(Away Team) has committed a hand ball.
+- Player24(Away Team) earns a free kick in their own half.
+- Player24(Away Team) missed a header from the right side of the box with an assist from Player27(Away Team) after a corner.
+- Player24(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player7(Home Team)'s team.
+- Player24(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick in their own defensive half, .
+- Player24(Away Team)'s shot from outside the box is saved in the bottom right corner with the help of Player27(Away Team).
+
+**Step-by-step Analysis:**
+
+1.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player24(Away Team) has committed a hand ball."
+        *   Fouls: Increment by 1 (explicitly states Player24 committed a hand ball)
+    *   **Snippet 2:** "Player24(Away Team) earns a free kick in their own half."
+        *   Free Kicks: Increment by 1 (explicitly states Player24 earned a free kick).
+    *   **Snippet 3:** "Player24(Away Team) missed a header from the right side of the box with an assist from Player27(Away Team) after a corner."
+        *   Shots: Increment by 1 (explicitly states Player24 missed a header, which is an attempt on goal).
+        *   Assists: Do not increment, because it states Player24 received an assist.
+    *   **Snippet 4:** "Player24(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick in the attacking half, This leads to a set piece opportunity for Player7(Home Team)'s team."
+        *   Fouls: Increment by 1 (explicitly states Player24 commits a foul).
+    *   **Snippet 5:** "Player24(Away Team) commits a foul, resulting in Player7(Home Team) winning a free kick in their own defensive half, ."
+        *   Fouls: Increment by 1 (explicitly states Player24 commits a foul).
+    *   **Snippet 6:** "Player24(Away Team)'s shot from outside the box is saved in the bottom right corner with the help of Player27(Away Team)."
+        *   Shots: Increment by 1 (explicitly mentions Player24's shot).
+
+3.  **Final Counts:**
+
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 3
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 2     | 0     | 0       | 1          | 3     | 0            | 0         | 0        |
+```

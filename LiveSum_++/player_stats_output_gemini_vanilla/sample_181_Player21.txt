@@ -1,0 +1,20 @@
+Okay, let's start by identifying the player name and initializing the counts.
+
+Player Name: Player21
+
+Now, I will analyze each commentary snippet and increment the counts accordingly, following all the rules.
+
+Commentary Snippet 1: "Player21(Away Team) commits a foul."
+- Fouls: The snippet explicitly states "Player21 commits a foul." Therefore, Fouls count is incremented by 1.
+
+Commentary Snippet 2: "Player21(Away Team) misses the header to the right from the center of the box after being assisted by Player27(Away Team) with a cross during a set piece."
+- Shots: The snippet explicitly mentions "Player21 misses the header." Since a header can be an attempt on goal, and Player21 missed the header, the Shots count is incremented by 1.
+- Goals: The snippet explicitly mentions Player21 misses, which means a goal was not scored, so no increment is needed for goals.
+- Assists: The snippet says Player21 was assisted by Player27. Player21 was *not* providing an assist to another player to score a goal. Therefore, no increment is needed for assists.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player21 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

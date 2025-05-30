@@ -1,0 +1,33 @@
+Okay, let's break down the commentary and extract the player statistics for Player15.
+
+**1. Identify Target Player:**
+
+The target player is Player15.
+
+**2. Initialize Counts:**
+
+*   Shots = 0
+*   Goals = 0
+*   Assists = 0
+*   Free Kicks = 0
+*   Fouls = 0
+*   Yellow Cards = 0
+*   Red Cards = 0
+*   Offsides = 0
+
+**3. Analyze Commentary Snippets:**
+
+*   Snippet 1: "Player15(Home Team) of the Home Team as Player11(Home Team) is caught offside from the through ball."
+    *   This snippet explicitly states that Player11 is caught offside. Player15 is mentioned in conjunction, but it's not attributed to any action performed *by* Player15, hence, there are no shots, goals, assists, free kicks, fouls, yellow cards, or red cards. It *DOES* explicitly state that Player15 is offside, therefore we increment the 'Offsides' counter.
+
+**4. Update Counts:**
+
+*   Offsides = 1
+
+**5. Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player15 | 0     | 0     | 0       | 0          | 0     | 0            | 0         | 1        |
+```

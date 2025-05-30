@@ -1,0 +1,23 @@
+Okay, let's start by identifying the target player.
+
+*   **Player Name:** Player10
+
+Now, I will read each commentary snippet and count the events for Player10.
+
+*   **Commentary Snippets:**
+    *   "Player10(Home Team) commits a foul." - This is a foul committed by Player10. Fouls = 1
+    *   "Player10(Home Team) receives a yellow card for a harsh tackle." - Player10 receives a yellow card. Yellow Cards = 1
+    *   "Player10(Home Team) commits a foul." - This is another foul committed by Player10. Fouls = 2
+    *   "Player10(Home Team) earns a free kick in his own half." - Player10 earns a free kick. Free Kicks = 1
+    *   "Player10(Home Team) misses the header to the right after a cross from Player7(Home Team) following a corner." - Player10 attempts a shot (header). Shots = 1, but because of "misses," no goal.
+    *   "Player10(Home Team)'s left-footed shot from outside the box just misses to the right with an assist from Player2(Home Team)." - Player10 takes a shot. Shots = 2, but because of "misses," no goal.
+    *   "Player10(Home Team) attempts a through ball, but Player8(Home Team) is caught in an offside position." - Player10 attempts a pass that leads to offside by another player. No assist or offside is attributed to Player10.
+
+Now, let's create the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 2     | 0     | 0       | 1          | 2     | 1            | 0         | 0        |
+```

@@ -1,0 +1,52 @@
+Okay, let's analyze the commentary snippets for Player28 and compile the statistics.
+
+1.  **Player Name:** The target player is Player28.
+
+2.  **Initialization:** We start with all event counts set to 0 for Player28.
+
+3.  **Snippet Analysis:** We will now go through each snippet and increment the counts based on the instructions.
+
+    *   **Snippet 1:** "Player28(Away Team)'s attempt with his right foot from outside the box is blocked."
+        *   Shots: The phrase "attempt...is blocked" indicates a shot. Increment Shots to 1.
+
+    *   **Snippet 2:** "Player28(Away Team)'s shot from outside the box is saved by the goalkeeper, with an assist from Player29(Away Team)."
+        *   Shots: The phrase "shot...is saved" indicates a shot. Increment Shots to 2.
+        *   Assists: The snippet explicitly states Player28 was *assisted by* Player29, so Player28's assist count remains at 0.
+
+    *   **Snippet 3:** "Player28(Away Team)'s shot from the left side of the box is blocked with Player23(Away Team)'s assistance."
+        *   Shots: The phrase "shot...is blocked" indicates a shot. Increment Shots to 3.
+        *   Assists: The snippet explicitly states Player28 was *assisted by* Player23, so Player28's assist count remains at 0.
+
+    *   **Snippet 4:** "Player28(Away Team)'s shot from the left side of the box was blocked after a through ball from Player25(Away Team)."
+        *   Shots: The phrase "shot...was blocked" indicates a shot. Increment Shots to 4.
+        *   Assists: The snippet explicitly states Player28 was given a through ball by Player25, so Player28's assist count remains at 0.
+
+    *   **Snippet 5:** "Player28(Away Team) misses a close-range shot with his right foot, going just wide to the left."
+        *   Shots: The phrase "misses a ... shot" indicates a shot. Increment Shots to 5.
+
+    *   **Snippet 6:** "Player28(Away Team) misses a header to the left from the centre of the box after being assisted by Player36(Away Team) with a cross, resulting in Player6(Home Team) winning a free kick on the right wing."
+        *   Shots: The phrase "misses a header" indicates a shot (header attempt). Increment Shots to 6.
+        *   Assists: The snippet explicitly states Player28 was *assisted by* Player36, so Player28's assist count remains at 0.
+        *   Free Kicks: This statement "resulting in Player6(Home Team) winning a free kick on the right wing" does not imply a free kick taken or won by Player28.
+
+    *   **Snippet 7:** "Player28(Away Team)'s shot from outside the box is saved in the center of the goal after an assist from Player27(Away Team)."
+        *   Shots: The phrase "shot...is saved" indicates a shot. Increment Shots to 7.
+        *   Assists: The snippet explicitly states Player28 was *assisted by* Player27, so Player28's assist count remains at 0.
+
+4.  **Final Counts:**
+
+    *   Shots: 7
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 7     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,26 @@
+Okay, let's analyze the commentary snippets for Player24.
+
+1.  **Player Name:** Player24
+
+2.  **Initial Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player24(Away Team) earns a free kick on the left side of the field."
+        *   Player24 earns a free kick. This increments Free Kicks by 1.
+        *   Shots = 0, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+    *   Snippet 2: "Player24(Away Team) earns a free kick on the left wing after being fouled by Player10(Home Team)."
+        *   Player24 earns a free kick. This increments Free Kicks by 1.
+        *   Shots = 0, Goals = 0, Assists = 0, Free Kicks = 2, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+    *   Snippet 3: "Player24(Away Team) from the Away Team scored an own goal, making the score Home Team 4, Away Team 2."
+        *   Player24 scored a goal. This increments Goals by 1 and Shots by 1
+        *   Shots = 1, Goals = 1, Assists = 0, Free Kicks = 2, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player24 | 1     | 1     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

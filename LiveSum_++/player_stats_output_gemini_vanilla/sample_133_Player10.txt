@@ -1,0 +1,35 @@
+Okay, let's break down the commentary snippets and tally the events for Player10.
+
+**Player Name:** Player10
+
+**Commentary Snippets Analysis:**
+
+*   **Snippet 1:** "Player10(Home Team)'s shot from the center of the box is blocked after a cross from Player2(Home Team)."
+    *   Shots: Increment by 1 (explicitly states "shot").
+
+*   **Snippet 2:** "Player10(Home Team) attempts a through ball, but Player3(Home Team) is caught offside."
+    *   Offsides: No increment. Player10 did not get caught offside, rather Player3 was offside after Player10's attempted pass.
+    * Assists: No increment. Player10 did not provide an assist because the play ended in an offside.
+
+*   **Snippet 3:** "Player10(Home Team) earns a free kick in their own half."
+    *   Free Kicks: Increment by 1 (explicitly states "earns a free kick").
+
+*   **Snippet 4:** "Player10(Home Team) misses the target with a high shot from the center of the box, after receiving a headed pass from Player9(Home Team)."
+    *   Shots: Increment by 1 (explicitly states "misses the target with a high shot").
+
+*   **Snippet 5:** "Player10(Home Team) commits a foul, resulting in Player26(Away Team) winning a free kick on the right wing, ."
+    * Fouls: Increment by 1 (explicitly states "commits a foul").
+
+*   **Snippet 6:** "Player10(Home Team)'s right footed shot from the centre of the box narrowly misses to the left after being assisted by Player7(Home Team) with a cross during a fast break, while Player27(Away Team)'s shot from the left side of the box is blocked with an assist from Player34(Away Team)."
+    *   Shots: Increment by 1 (explicitly states "right footed shot").
+
+*   **Snippet 7:** "Player10(Home Team)'s right footed shot from outside the box is saved in the bottom right corner after being assisted by Player2(Home Team), resulting in a corner kick for the Home Team."
+    *   Shots: Increment by 1 (explicitly states "right footed shot is saved").
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 4     | 0     | 0       | 1          | 1     | 0              | 0         | 0        |
+```

@@ -1,0 +1,41 @@
+Okay, let's analyze the commentary snippets for Player14 and generate the summary table.
+
+**1. Player Identification:**
+The target player is Player14.
+
+**2. Initialization:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player14(Home Team) of the Home Team attempts to pass the ball to Player2(Home Team), but Player2(Home Team) is ruled offside."
+    *   This snippet mentions Player14 attempting a pass that resulted in an offside. This does not count as a shot, goal, assist, free kick, foul, or card. It DOES count as one offside for Player2. The keywords related to goals or assists (assist, assisted by, sets up, pass leads to goal) are not triggered for Player14.
+    *   Offsides remains 0 for Player14.
+
+*   **Snippet 2:** "Player14(Home Team) earns a free kick in their own half."
+    *   This snippet explicitly states Player14 earned a free kick. This is a Free Kick (Taken) event for Player14.
+    *   Free Kicks = 1
+
+**4. Final Count:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 1
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player14 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

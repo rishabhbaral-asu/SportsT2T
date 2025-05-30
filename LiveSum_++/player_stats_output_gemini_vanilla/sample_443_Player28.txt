@@ -1,0 +1,28 @@
+Okay, let's analyze the commentary snippets for Player28 and compile the statistics.
+
+**Player Name:** Player28
+
+**Commentary Snippets:**
+
+*   "Player28(Away Team) commits a foul, resulting in Player2(Home Team) winning a free kick on the right wing, ."
+*   "Player28(Away Team) attempts a through ball but Player29(Away Team) is offside."
+*   "Player28(Away Team)'s header from the center of the box is blocked by an assist from Player20(Away Team), followed by a left-footed shot hitting the bar from the left side of the six-yard box."
+
+**Reasoning:**
+
+1.  **Fouls:** The first snippet states "Player28(Away Team) commits a foul...". This is a direct and unambiguous attribution of a foul. Increment Fouls by 1.
+2.  **Offsides:** The second snippet mentions "Player28(Away Team) attempts a through ball but Player29(Away Team) is offside.". Since Player28 is only attempting the pass, and Player29 is the one offsides, we do not increment Player28's Offsides.
+3.  **Shots:** The third snippet states "Player28(Away Team)'s header from the center of the box is blocked...". This is a direct and unambiguous mention of a shot (header). Therefore, increment Shots by 1.
+4.  **Goals:** No goals are mentioned for Player28.
+5.  **Assists:** No assists are mentioned for Player28. The snippet explicitly mentions Player20 provided the assist, not Player28.
+6.  **Free Kicks:** The first snippet says Player28 committed a foul, resulting in a free kick. This does *not* mean Player28 took a free kick, or won a free kick. Free Kicks remains at 0.
+7.  **Yellow Cards:** No yellow cards are mentioned for Player28.
+8.  **Red Cards:** No red cards are mentioned for Player28.
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 1     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

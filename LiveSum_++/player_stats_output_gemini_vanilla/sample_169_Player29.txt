@@ -1,0 +1,46 @@
+Okay, let's analyze the commentary snippets for Player29.
+
+1.  **Player Name:** `Player29`
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player29(Away Team) earns a free kick in the opponent's half."
+        *   The player `earns a free kick`. This is a `Free Kick`.
+        *   Free Kicks = 1
+    *   Snippet 2: "Player29(Away Team)'s shot from outside the box with his right foot narrowly misses to the left on a direct free kick."
+        *   The player takes a `shot`.
+        *   Shots = 1
+        *   Player29 took a direct free kick as part of the shot.
+    *   Snippet 3: "Player29(Away Team) commits a foul."
+        *   The player `commits a foul`.
+        *   Fouls = 1
+    *   Snippet 4: "Player29(Away Team)'s shot from outside the box is blocked after being assisted by Player30(Away Team)."
+        *   The player takes a `shot`.
+        *   Shots = 2
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player29 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,47 @@
+Okay, let's analyze the commentary snippets for Player26 and generate the requested markdown table.
+
+1.  **Identify Target Player:** The target player is Player26.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   **Snippet 1:** "Player26(Away Team)'s left footed shot from outside the box just misses to the left with an assist from Player20(Away Team)."
+        *   Shots: Player26 takes a shot. Shots = 1
+        *   Goals: No goal is mentioned. Goals = 0
+        *   Assists: Player20 provided the assist, not Player26. Assists = 0
+
+    *   **Snippet 2:** "Player26(Away Team) commits a foul."
+        *   Fouls: Player26 commits a foul. Fouls = 1
+
+    *   **Snippet 3:** "Player26(Away Team) commits a foul."
+        *   Fouls: Player26 commits a foul. Fouls = 2
+
+    *   **Snippet 4:** "Player26(Away Team) has been cautioned with a yellow card for a foul."
+        *   Yellow Cards: Player26 receives a yellow card. Yellow Cards = 1
+        *   Fouls: A foul was mentioned as part of the reason for the yellow card. Increment Fouls count. Fouls = 3
+
+4.  **Final Counts:**
+    *   Shots = 1
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 3
+    *   Yellow Cards = 1
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 1     | 0     | 0       | 0          | 3     | 1            | 0         | 0        |
+```

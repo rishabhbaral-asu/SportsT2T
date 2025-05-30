@@ -1,0 +1,33 @@
+Okay, let's start.
+
+1.  **Identify Target Player:** The target player is Player27.
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+3.  **Analyze Commentary Snippets:**
+    *   Snippet 1: "Player27(Away Team) commits a foul on Player5(Home Team), who then wins a free kick in their own defensive half."
+        *   The snippet explicitly states that Player27 commits a foul. Therefore, increment Fouls by 1.
+        *   The snippet does not explicitly state Player27 took a free kick, or that Player27 won the free kick, only that Player5 wins a free kick after being fouled by Player27.
+
+4.  **Compile Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,46 @@
+Okay, let's analyze the commentary snippets for Player5.
+
+**1. Player Name:**
+The target player is Player5.
+
+**2. Initialize Counts:**
+Shots = 0
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 0
+Yellow Cards = 0
+Red Cards = 0
+Offsides = 0
+
+**3. Analyze Snippets:**
+
+*   **Snippet 1:** "Player5(Home Team)'s shot from outside the box with his left foot is saved in the center of the goal, with an assist from Player10(Home Team)."
+    *   Player5 took a shot. Increment Shots to 1.
+    *   The snippet mentions an assist *from* Player10 *to* Player5, NOT an assist by Player5. Do not increment Assists.
+
+*   **Snippet 2:** "Player5(Home Team) commits a foul, resulting in Player26(Away Team) earning a free kick on the right wing, ."
+    *   Player5 committed a foul. Increment Fouls to 1.
+
+*   **Snippet 3:** "Player5(Home Team) commits a foul."
+    *   Player5 committed a foul. Increment Fouls to 2.
+
+*   **Snippet 4:** "Player5(Home Team) receives a yellow card for a rough tackle."
+    *   Player5 received a yellow card. Increment Yellow Cards to 1.
+
+**4. Final Counts:**
+Shots = 1
+Goals = 0
+Assists = 0
+Free Kicks = 0
+Fouls = 2
+Yellow Cards = 1
+Red Cards = 0
+Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 1     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

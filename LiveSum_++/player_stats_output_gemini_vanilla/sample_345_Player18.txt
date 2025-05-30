@@ -1,0 +1,48 @@
+Okay, let's analyze the commentary snippets for Player18.
+
+1.  **Player Name:** Player18
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   Snippet 1: "Player18(Home Team) is fouled in the box."
+        *   Player18 is fouled, so Free Kicks + 1.
+        *   Free Kicks = 1
+
+    *   Snippet 2: "Player18(Home Team) commits a foul, resulting in Player21(Away Team) winning a free kick in their own defensive half."
+        *   Player18 commits a foul, so Fouls + 1.
+        *   Fouls = 1
+
+    *   Snippet 3: "Player18(Home Team)'s header from the center of the box is saved in the top left corner after a cross from Player3(Home Team)."
+        *   Player18's header is saved, so Shots + 1.
+        *   Shots = 1
+
+    *   Snippet 4: "Player18(Home Team)'s shot from the center of the box is saved by the goalkeeper after a through ball from Player9(Home Team)."
+        *   Player18's shot is saved, so Shots + 1.
+        *   Shots = 2
+
+4.  **Final Counts:**
+    *   Shots = 2
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player18 | 2     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

@@ -1,0 +1,24 @@
+Okay, let's start by identifying the player and initializing the counts.
+
+Player Name: Player5
+
+Now, let's initialize the event counts to 0: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Now we need to analyze the commentary snippets.
+
+Snippet 1: "Player5(Home Team) missing a left-footed shot from outside the box by shooting too high."
+- Shots: The snippet explicitly states "missing a ... shot," so Shots is incremented to 1.
+- Goals: The snippet mentions "missing a shot", not scoring, so Goals remains 0.
+- Assists: No mention of an assist, so Assists remains 0.
+- Free Kicks: No mention of a free kick, so Free Kicks remains 0.
+- Fouls: No mention of a foul, so Fouls remains 0.
+- Yellow Cards: No mention of a yellow card, so Yellow Cards remains 0.
+- Red Cards: No mention of a red card, so Red Cards remains 0.
+- Offsides: No mention of offsides, so Offsides remains 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 1     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```

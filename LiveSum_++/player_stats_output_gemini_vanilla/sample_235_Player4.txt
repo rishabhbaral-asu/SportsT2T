@@ -1,0 +1,36 @@
+Okay, let's analyze the commentary snippets for Player4.
+
+1.  **Player Name:** Player4
+
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player4(Home Team) of the Home Team attempts a through ball, but Player15(Home Team) is offside." - This indicates Player4 attempted a through ball. It does not mention a shot, goal, assist, free kick, foul, or card. It does involve an offside, but attributed to Player15 and not Player4. Therefore, no count is incremented.
+
+    *   **Snippet 2:** "Player4(Home Team) commits a foul, resulting in Player33(Away Team) winning a free kick on the right wing, This leads to a set piece opportunity for Player33(Away Team)." - This snippet explicitly states Player4 committed a foul. Therefore, the 'Fouls' count is incremented by 1.
+
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 1
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player4 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

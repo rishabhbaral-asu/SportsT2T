@@ -1,0 +1,39 @@
+Okay, I'm ready to process the player statistics.
+
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
+
+**Input:**
+* **Player Name:**
+```
+<PLAYER_NAME>
+Player7
+</PLAYER_NAME>
+```
+* **Commentary Snippets:**
+```
+<PLAYER_COMMENTARY_SNIPPETS>
+- Player7(Home Team) commits a foul on Player25(Away Team), who earns a free kick in their own defensive half.
+- Player7(Home Team) misses the target with a high and wide shot from the center of the box, assisted by Player10(Home Team).
+- Player7(Home Team) scores from a free kick with a right-footed shot to the bottom right corner, making it Home Team 4, Away Team 0.
+- Player7(Home Team) attempts a through ball, but Player11(Home Team) is offside for the Home Team.
+</PLAYER_COMMENTARY_SNIPPETS>
+```
+
+**Reasoning:**
+
+1.  **Player Name:** The target player is Player7.
+2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet Analysis:**
+    *   **Snippet 1:** "Player7(Home Team) commits a foul on Player25(Away Team), who earns a free kick in their own defensive half." Player7 commits a foul. Therefore, Fouls += 1.
+    *   **Snippet 2:** "Player7(Home Team) misses the target with a high and wide shot from the center of the box, assisted by Player10(Home Team)." Player7 takes a shot. Therefore, Shots += 1.
+    *   **Snippet 3:** "Player7(Home Team) scores from a free kick with a right-footed shot to the bottom right corner, making it Home Team 4, Away Team 0." Player7 scores a goal (and therefore takes a shot) from a free kick. Therefore, Shots += 1, Goals += 1, Free Kicks += 1.
+    *   **Snippet 4:** "Player7(Home Team) attempts a through ball, but Player11(Home Team) is offside for the Home Team." Player7 attempts a through ball, which leads to another player being offside. This does not correspond to any tracked event for Player7 in this context. Offsides are not attributed to the passer, only to the player who is offside.
+
+**Final Counts:** Shots = 2, Goals = 1, Assists = 0, Free Kicks = 1, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player7 | 2     | 1     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

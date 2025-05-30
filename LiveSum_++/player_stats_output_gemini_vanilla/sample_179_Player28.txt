@@ -1,0 +1,32 @@
+Okay, I will follow the instructions to analyze the commentary snippets and generate the player statistics table.
+
+**Player Name:** Player28
+
+**Commentary Snippets:**
+- Player28(Away Team) scores with a header from the center of the box, assisted by Player26(Away Team) after a set piece, Home Team leads 2-1 against Away Team.
+- Player28(Away Team) committed a foul.
+- Player28(Away Team) receives a yellow card for a rough tackle.
+
+**Reasoning:**
+
+1.  **Player Identification:** The target player is Player28.
+2.  **Initialization:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Snippet Analysis:**
+
+    *   **Snippet 1:** "Player28(Away Team) scores with a header from the center of the box, assisted by Player26(Away Team) after a set piece, Home Team leads 2-1 against Away Team."
+        *   "scores" indicates a goal. Goals += 1.
+        *   "header" and "scores" together indicate a shot. Shots += 1.
+        *   Player28 was assisted by Player26, so there is no assist to add for Player28.
+    *   **Snippet 2:** "Player28(Away Team) committed a foul."
+        *   "foul" indicates a foul committed. Fouls += 1.
+    *   **Snippet 3:** "Player28(Away Team) receives a yellow card for a rough tackle."
+        *   "yellow card" indicates a yellow card. Yellow Cards += 1.
+
+4.  **Final Counts:** Shots = 1, Goals = 1, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 1, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 1     | 1     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

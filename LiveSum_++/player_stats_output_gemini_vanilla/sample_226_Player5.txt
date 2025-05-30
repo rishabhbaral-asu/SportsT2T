@@ -1,0 +1,52 @@
+Okay, let's start by identifying the target player and initializing the counts.
+
+Target Player: Player5
+
+Initial Counts:
+* Shots: 0
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 0
+* Yellow Cards: 0
+* Red Cards: 0
+* Offsides: 0
+
+Now, let's analyze each commentary snippet and increment the counts accordingly.
+
+Snippet 1: "Player5(Home Team) fouls Player24(Away Team), who wins a free kick on the right wing."
+
+*   Fouls: The snippet explicitly states "Player5(Home Team) fouls Player24(Away Team)". Increment Fouls by 1.
+*   Free Kicks: The snippet states Player5 committed a foul on Player24 and because of this, Player24 wins a free kick. This does NOT count as Player5 taking a free kick, so no increment here.
+
+Updated Counts:
+* Shots: 0
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 1
+* Yellow Cards: 0
+* Red Cards: 0
+* Offsides: 0
+
+Snippet 2: "Player5(Home Team) fouls Player24(Away Team), who earns a free kick on the right wing."
+
+*   Fouls: The snippet explicitly states "Player5(Home Team) fouls Player24(Away Team)". Increment Fouls by 1.
+*   Free Kicks: The snippet states Player5 committed a foul on Player24 and because of this, Player24 earns a free kick. This does NOT count as Player5 taking a free kick, so no increment here.
+
+Updated Counts:
+* Shots: 0
+* Goals: 0
+* Assists: 0
+* Free Kicks: 0
+* Fouls: 2
+* Yellow Cards: 0
+* Red Cards: 0
+* Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 0     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

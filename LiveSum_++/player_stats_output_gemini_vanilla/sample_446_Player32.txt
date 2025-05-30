@@ -1,0 +1,48 @@
+Okay, let's break down the process step-by-step.
+
+1.  **Identify Target Player:** The target player is Player32.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player32(Away Team) scores with a right-footed shot from the left side of the six-yard box into the bottom left corner."
+        *   Goal: Increment Goals by 1.
+        *   Shot: Increment Shots by 1.
+
+    *   Snippet 2: "Player32(Away Team) commits a foul, resulting in Player10(Home Team) winning a free kick in their own defensive half, ."
+        *   Foul: Increment Fouls by 1.
+
+    *   Snippet 3: "Player32(Away Team) commits a foul."
+        *   Foul: Increment Fouls by 1.
+
+    *   Snippet 4: "Player32(Away Team) commits a foul, resulting in Player2(Home Team) being awarded a free kick in their own defensive half."
+        *   Foul: Increment Fouls by 1.
+
+    *   Snippet 5: "Player32(Away Team) from the Away Team draws a foul in the penalty area, resulting in a penalty conceded by Player15(Home Team)."
+        *   Free Kick: Increment Free Kicks by 1.
+
+4.  **Compile Final Counts:**
+    *   Shots = 1
+    *   Goals = 1
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 3
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player32 | 1     | 1     | 0       | 1          | 3     | 0            | 0         | 0        |
+```

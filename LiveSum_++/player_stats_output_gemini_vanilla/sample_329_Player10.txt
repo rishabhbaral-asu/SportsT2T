@@ -1,0 +1,56 @@
+Okay, let's process the commentary snippets for Player10.
+
+**Player Name:** Player10
+
+**Commentary Snippets:**
+- Player10(Home Team)'s shot from the left side of the box with his right foot is saved in the bottom right corner, assisted by Player5(Home Team), resulting in a corner kick for the home team.
+- Player10(Home Team) takes a right-footed shot from the left side of the box and buries it in the bottom left corner, with an assist from Player6(Home Team), The score now stands at Home Team 2, Away Team 0.
+- Player10(Home Team) earns a free kick in their own half.
+- Player10(Home Team) scores with a right-footed free kick to the bottom left corner, making it Home Team 3, Away Team 0.
+- Player10(Home Team) misses the target with a high shot from outside the box.
+
+**Reasoning:**
+
+1.  **Shots:**
+    *   Snippet 1: "Player10(Home Team)'s shot from the left side of the box with his right foot is saved..." - This is a shot, so increment Shots.
+    *   Snippet 2: "Player10(Home Team) takes a right-footed shot from the left side of the box and buries it in the bottom left corner..." - This is a shot, so increment Shots.
+    *   Snippet 5: "Player10(Home Team) misses the target with a high shot from outside the box." - This is a shot, so increment Shots.
+    * Total shots: 3
+
+2.  **Goals:**
+    *   Snippet 2: "Player10(Home Team) takes a right-footed shot from the left side of the box and buries it in the bottom left corner..." - This is a goal, so increment Goals.
+    *   Snippet 4: "Player10(Home Team) scores with a right-footed free kick to the bottom left corner..." - This is a goal, so increment Goals.
+    * Total goals: 2
+
+3.  **Assists:**
+    *   Snippet 1: "...assisted by Player5(Home Team)..." - Player10 received the assist, so no assist to count.
+    *   Snippet 2: "...with an assist from Player6(Home Team)..." - Player10 received the assist, so no assist to count.
+    * Total assists: 0
+
+4.  **Free Kicks (Taken):**
+    * Snippet 3: "Player10(Home Team) earns a free kick in their own half." - The snippet explicitly states that Player10 *earns* a free kick.
+    * Snippet 4: "Player10(Home Team) scores with a right-footed free kick to the bottom left corner..." Player10 scores from a free kick.
+    * Total Free Kicks: 2
+
+5.  **Fouls (Committed):**
+    *   No snippets explicitly state Player10 committed a foul.
+    * Total fouls: 0
+
+6.  **Yellow Cards:**
+    *   No snippets explicitly state Player10 received a yellow card.
+    * Total yellow cards: 0
+
+7.  **Red Cards:**
+    *   No snippets explicitly state Player10 received a red card.
+    * Total red cards: 0
+
+8.  **Offsides:**
+    *   No snippets mention Player10 being offside.
+    * Total offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 3     | 2     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

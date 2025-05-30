@@ -1,0 +1,23 @@
+Okay, let's analyze the commentary snippets for Player26 and compile the statistics.
+
+**Player Name:** Player26
+
+**Commentary Snippets:**
+
+*   "Player26(Away Team) commits a foul on Player4(Home Team), who wins a free kick in their defensive half."
+*   "Player26(Away Team) earns a free kick in the opponent's half."
+*   "Player26(Away Team)'s shot from outside the box on a direct free kick goes high."
+
+**Analysis:**
+
+1.  **Fouls:** The first snippet explicitly states "Player26(Away Team) commits a foul". So, the "Fouls" count increments by 1.
+2.  **Free Kicks:** The first snippet explicitly states Player26 commits a foul, and Player4 wins a free kick, this is a Foul, but doesn't mean Player26 took a free kick. The second snippet states "Player26(Away Team) earns a free kick". This means that the player won the free kick. The third snippet states "Player26(Away Team)'s shot from outside the box on a direct free kick goes high.". Therefore, the Free Kicks count increments by 2,
+3.  **Shots:** The third snippet mentions "Player26(Away Team)'s shot from outside the box on a direct free kick goes high". The Shots count increments by 1.
+4.  **Goals, Assists, Yellow Cards, Red Cards, Offsides:** There are no explicit mentions of Player26 scoring goals, providing assists, receiving yellow cards, receiving red cards, or being offside. These counts remain at 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player26 | 1     | 0     | 0       | 2          | 1     | 0            | 0         | 0        |
+```

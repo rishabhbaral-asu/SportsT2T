@@ -1,0 +1,20 @@
+Okay, let's analyze the commentary snippets for Player5 and generate the statistics table.
+
+1.  **Player Name:** The target player is Player5.
+2.  **Initialization:** Initialize all counters to 0: Shots=0, Goals=0, Assists=0, Free Kicks=0, Fouls=0, Yellow Cards=0, Red Cards=0, Offsides=0.
+3.  **Snippet Analysis (applying strict counting):**
+    *   Snippet 1: "Player5(Home Team) of the Home Team attempts a through ball, but Player11(Home Team) is flagged for being offside." - No events to count.
+    *   Snippet 2: "Player5(Home Team) of the Home Team attempts a through ball, but Player11(Home Team) is offside." - No events to count.
+    *   Snippet 3: "Player5(Home Team) commits a foul." - Foul count increments by 1. Fouls = 1
+    *   Snippet 4: "Player5(Home Team)'s left footed shot from outside the box is saved in the center of the goal, assisted by Player8(Home Team), after Player26(Away Team) wins a free kick on the right wing." - Shot count increments by 1. Shots = 1. The assist is given *to* Player5, not *by* Player5, so it doesn't count as an assist for Player5.
+    *   Snippet 5: "Player5(Home Team) commits a foul." - Foul count increments by 1. Fouls = 2.
+    *   Snippet 6: "Player5(Home Team) attempts a pass to Player10(Home Team), but Player10(Home Team) is offside." - No events to count.
+
+4.  **Final Counts:** Shots=1, Goals=0, Assists=0, Free Kicks=0, Fouls=2, Yellow Cards=0, Red Cards=0, Offsides=0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player5 | 1     | 0     | 0       | 0          | 2     | 0            | 0         | 0        |
+```

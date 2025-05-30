@@ -1,0 +1,26 @@
+Okay, let's start.
+
+1.  **Player Name:** The target player is Player35.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Commentary Snippets:**
+
+*   Snippet 1: "Player35(Away Team) earns a free kick on the left side of the field."
+    *   This indicates Player35 *earned* a free kick, implying they were fouled. This increments the 'Free Kicks' count.
+    *   Free Kicks = 1
+*   Snippet 2: "Player35(Away Team)'s shot from the right side of the box is saved by the goalkeeper, with an assist from Player26(Away Team), leading to a corner kick for the Away Team."
+    *   This explicitly states Player35 took a shot. Increment the 'Shots' count.
+    *   Shots = 1
+    *   This snippet describes Player35 being *assisted by* another player, and NOT Player35 giving an assist.
+*   Snippet 3: "Player35(Away Team) attempts a through ball to Player28(Away Team), who is caught in an offside position."
+    *   This explicitly states Player35 attempted a pass, which resulted in another player being caught offside, so there is no goal and no assist. It also does not explicitly say Player35 was offside.
+*   Snippet 4: "Player35(Away Team) attempts a through ball, but Player33(Away Team) is offside for the Away Team."
+    *   This explicitly states Player35 attempted a pass, which resulted in another player being caught offside, so there is no goal and no assist. It also does not explicitly say Player35 was offside.
+
+4.  **Final Counts:** Shots = 1, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player35 | 1     | 0     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

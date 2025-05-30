@@ -1,0 +1,30 @@
+Okay, I will follow the instructions to analyze the commentary snippets for the specified player and generate the markdown table with the counts of each event.
+
+**Objective:** Analyze commentary snippets for a specific player and count explicit occurrences of defined events for that player.
+
+**Input:**
+* **Player Name:**
+    <PLAYER_NAME>
+    Player3
+    </PLAYER_NAME>
+* **Commentary Snippets:**
+    <PLAYER_COMMENTARY_SNIPPETS>
+    - Player3(Home Team) earns a free kick in their own half.
+- Player3(Home Team) commits a foul.
+    </PLAYER_COMMENTARY_SNIPPETS>
+
+**Reasoning:**
+
+1.  **Identify Player:** The target player is Player3.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze Snippets:**
+    *   Snippet 1: "Player3(Home Team) earns a free kick in their own half." - This means Player3 wins a free kick. Increment Free Kicks count by 1.
+    *   Snippet 2: "Player3(Home Team) commits a foul." - This means Player3 committed a foul. Increment Fouls count by 1.
+4.  **Final Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 1, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+**Final Summary Table:**
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player3 | 0     | 0     | 0       | 1          | 1     | 0            | 0         | 0        |
+```

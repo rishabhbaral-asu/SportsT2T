@@ -1,0 +1,40 @@
+Okay, let's analyze the commentary snippets for Player27 step-by-step and generate the final summary table.
+
+1.  **Player Name:** The target player is Player27.
+
+2.  **Initialization:** We initialize all event counts to 0 for Player27: Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+3.  **Snippet Analysis:** We go through each snippet and increment the counts based on explicit mentions of Player27 performing specific actions.
+
+    *   **Snippet 1:** "Player27(Away Team) commits a foul."
+        *   Fouls: Increment by 1. Fouls = 1.
+
+    *   **Snippet 2:** "Player27(Away Team) attempts a shot with his right foot from the left side of the box, but it narrowly misses to the left."
+        *   Shots: Increment by 1. Shots = 1.
+
+    *   **Snippet 3:** "Player27(Away Team) commits a foul."
+        *   Fouls: Increment by 1. Fouls = 2.
+
+    *   **Snippet 4:** "Player27(Away Team) misses the target with a left-footed shot from the left side of the box, with an assist from Player35(Away Team)."
+        *   Shots: Increment by 1. Shots = 2.
+        *   Assists: No increment. Player27 was assisted by Player35, not the other way around.
+
+    *   **Snippet 5:** "Player27(Away Team) commits a foul."
+        *   Fouls: Increment by 1. Fouls = 3.
+
+    *   **Snippet 6:** "Player27(Away Team) receives a yellow card for a rough tackle."
+        *   Yellow Cards: Increment by 1. Yellow Cards = 1.
+
+    *   **Snippet 7:** "Player27(Away Team) earns a free kick in their own defensive half after Player9(Home Team) commits a foul."
+        *   Free Kicks: Increment by 1. Free Kicks = 1.
+
+    *   **Snippet 8:** "Player27(Away Team) earns a free kick in the attacking half for Player31(Away Team)."
+        *   Free Kicks: No increment. Player27 is earning a free kick for Player31; Player27 is not taking the kick.
+4.  **Final Counts:** Shots = 2, Goals = 0, Assists = 0, Free Kicks = 1, Fouls = 3, Yellow Cards = 1, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 2     | 0     | 0       | 1          | 3     | 1            | 0         | 0        |
+```

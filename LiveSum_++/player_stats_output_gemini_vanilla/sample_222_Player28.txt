@@ -1,0 +1,32 @@
+Okay, let's start.
+
+First, I identify the target player: Player28
+
+Then, I initialize the counts for Shots, Goals, Assists, Free Kicks, Fouls, Yellow Cards, Red Cards, and Offsides to 0.
+
+Now, I'll analyze each commentary snippet and increment the counts accordingly.
+
+*   **Snippet 1:** "Player28(Away Team) earns a free kick in their own half." - This indicates Player28 won a free kick. Therefore, Free Kicks is incremented by 1.
+*   **Snippet 2:** "Player28(Away Team)'s shot from the center of the box is saved by the goalkeeper, with an assist from Player24(Away Team)." - This indicates Player28 took a shot. Therefore, Shots is incremented by 1.
+*   **Snippet 3:** "Player28(Away Team) earns a free kick on the left side of the field." - This indicates Player28 won a free kick. Therefore, Free Kicks is incremented by 1.
+*   **Snippet 4:** "Player28(Away Team) commits a foul, resulting in Player2(Home Team) winning a free kick on the right wing, ." - This indicates Player28 committed a foul. Therefore, Fouls is incremented by 1.
+*   **Snippet 5:** "Player28(Away Team) attempts a through ball, but Player29(Away Team) is offside for the Away Team." - This indicates Player29 was offside and Player28 played the ball, but doesn't specifically say Player28 was offside. Therefore, Offsides remains 0.
+*   **Snippet 6:** "Player28(Away Team) has committed a hand ball." - This indicates Player28 committed a foul by handling the ball. Therefore, Fouls is incremented by 1.
+
+Now I'll compile the final counts:
+
+*   Shots: 1
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 2
+*   Fouls: 2
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player28 | 1     | 0     | 0       | 2          | 2     | 0            | 0         | 0        |
+```

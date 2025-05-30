@@ -1,0 +1,22 @@
+Okay, I will follow the instructions to analyze the commentary snippets for Player25 and create the final summary table.
+
+1.  **Identify the target player:** The target player is Player25.
+2.  **Initialize counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+3.  **Analyze each snippet:**
+    *   Snippet 1: "Player25(Away Team) scores with a right-footed shot from the center of the box, assisted by Player26(Away Team) with a cross, Home Team 0, Away Team 1."
+        *   Goal: The snippet explicitly states "Player25 scores", so increment Goals by 1.
+        *   Shot: Since Player25 scored a goal, it also counts as a shot, so increment Shots by 1.
+        *   Assist: Player25 was assisted by another player, so no assist is counted.
+    *   Snippet 2: "Player25(Away Team) commits a foul."
+        *   Fouls: The snippet explicitly states "Player25 commits a foul", so increment Fouls by 1.
+    *   Snippet 3: "Player25(Away Team) receives a yellow card for a reckless challenge."
+        *   Yellow Cards: The snippet explicitly states "Player25 receives a yellow card", so increment Yellow Cards by 1.
+
+4.  **Compile the final counts:** Shots = 1, Goals = 1, Assists = 0, Free Kicks = 0, Fouls = 1, Yellow Cards = 1, Red Cards = 0, Offsides = 0.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 1     | 1     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

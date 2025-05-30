@@ -1,0 +1,59 @@
+Okay, let's process the player commentary snippets for Player11.
+
+Here's the step-by-step breakdown:
+
+1.  **Player Name:** Player11
+
+2.  **Initialize Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 0
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+3.  **Analyze Commentary Snippets:**
+
+    *   Snippet 1: "Player11(Home Team) receives a yellow card for a rough tackle."
+        *   Yellow Cards: Increment to 1 (explicitly mentioned)
+        *   Fouls: Increment to 1 (rough tackle explicitly stated, implying a foul)
+
+    *   Snippet 2: "Player11(Home Team) earns a free kick in their own half."
+        *   Free Kicks: Increment to 1 (explicitly stated that the player earned a free kick)
+
+    *   Snippet 3: "Player11(Home Team) earns a free kick on the left side of the field."
+        *   Free Kicks: Increment to 2 (explicitly stated that the player earned a free kick)
+
+    *   Snippet 4: "Player11(Home Team) earns a free kick in the opponent's half."
+        *   Free Kicks: Increment to 3 (explicitly stated that the player earned a free kick)
+
+    *   Snippet 5: "Player11(Home Team)'s attempt from the center of the box, assisted by Player9(Home Team) with a cross, is blocked after the Home Team obtains a corner kick."
+        *   Shots: Increment to 1 (explicitly mentioned "attempt")
+
+    *   Snippet 6: "Player11(Home Team) commits a foul."
+        *   Fouls: Increment to 2 (explicitly stated that the player committed a foul)
+
+    *   Snippet 7: "Player11(Home Team) has been shown a second yellow card for a reckless challenge."
+        *   Yellow Cards: Increment to 2 (explicitly mentioned "second yellow card")
+        *   Red Cards: Increment to 1 (explicitly mentioned "second yellow card" implies a red card)
+        *   Fouls: Increment to 3 (explicitly mentioned "reckless challenge" implies a foul)
+        
+
+4.  **Final Counts:**
+    *   Shots: 1
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 3
+    *   Fouls: 3
+    *   Yellow Cards: 2
+    *   Red Cards: 1
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player11 | 1     | 0     | 0       | 3          | 3     | 2            | 1         | 0        |
+```

@@ -1,0 +1,38 @@
+Okay, let's analyze the commentary snippets for Player2 and compile the statistics.
+
+**1. Player Name:**
+
+The target player is Player2.
+
+**2. Initialization:**
+
+We initialize the counts for all events to 0 for Player2.
+
+**3. Snippet Analysis:**
+
+*   **Snippet 1:** "Player2(Home Team) has earned a free kick in their own half."
+    *   Player2 earned a free kick. This counts as a Free Kick (taken). Free Kicks = 1
+*   **Snippet 2:** "Player2(Home Team) earns a free kick in their own half."
+    *   Player2 earned a free kick. This counts as a Free Kick (taken). Free Kicks = 2
+*   **Snippet 3:** "Player2(Home Team) from the Home Team just scored an own goal, leveling the score at 2-2 against the Away Team."
+    *   Player2 scored an own goal. This counts as a Goal and a Shot. Goals = 1, Shots = 1.
+*   **Snippet 4:** "Player2(Home Team) attempts a through ball, but Player10(Home Team) is offside for the Home Team."
+    *   Player2 attempts a through ball, but it leads to offside for Player10. This does not explicitly state an assist, therefore assists remains at 0. No other events are explicitly mentioned.
+
+**4. Final Counts:**
+
+*   Shots: 1
+*   Goals: 1
+*   Assists: 0
+*   Free Kicks: 2
+*   Fouls: 0
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 1     | 1     | 0       | 2          | 0     | 0            | 0         | 0        |
+```

@@ -1,0 +1,34 @@
+Okay, let's start by identifying the player and initializing the counts.
+
+1.  **Player Name:** The target player is Player27.
+2.  **Initialize Counts:**
+    * Shots = 0
+    * Goals = 0
+    * Assists = 0
+    * Free Kicks = 0
+    * Fouls = 0
+    * Yellow Cards = 0
+    * Red Cards = 0
+    * Offsides = 0
+
+Now, let's analyze the commentary snippets:
+
+*   **Snippet 1:** "Player27(Away Team) earns a free kick in their own half."
+    *   This snippet explicitly states that Player27 "earns a free kick". This means Player27 won the free kick as a result of being fouled, so it increments the "Free Kicks" count.
+    *   Free Kicks = 1
+
+*   **Snippet 2:** "Player27(Away Team) scores with a right footed shot from a tough angle on the left, assisted by Player26(Away Team) with a through ball, Home Team 0, Away Team 1."
+    *   This snippet explicitly states that Player27 "scores". This increments the "Goals" count.
+    *   Goals = 1
+    *   It also explicitly states that Player27 took a "shot" and scored, therefore the "Shots" count is incremented.
+    *   Shots = 1
+    *   The phrase "assisted by Player26" indicates that another player, and not Player27, made the assist; therefore "Assists" is not incremented.
+
+Now, let's construct the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player27 | 1     | 1     | 0       | 1          | 0     | 0            | 0         | 0        |
+```

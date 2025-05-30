@@ -1,0 +1,39 @@
+Okay, let's analyze the commentary snippets for Player2 and generate the summary table.
+
+1.  **Identify Target Player:** The target player is Player2.
+
+2.  **Initialize Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+3.  **Analyze Snippets:**
+
+    *   Snippet 1: "Player2(Home Team) earns a free kick on the right side of the field."
+        *   This snippet explicitly states Player2 earned a free kick.
+        *   Increment Free Kicks: Free Kicks = 0 + 1 = 1
+    *   Snippet 2: "Player2(Home Team) attempts a pass to Player11(Home Team), who is caught offside."
+        * This snippet states Player2 attempts a pass that results in Player11 being offside, which does not count as an assist.
+        * Increment Offsides: Offsides = 0 + 1 = 1
+
+4.  **Final Counts:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 1
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 1
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player2 | 0     | 0     | 0       | 1          | 0     | 0            | 0         | 1        |
+```

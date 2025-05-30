@@ -1,0 +1,31 @@
+Okay, let's start by identifying the target player and initializing the event counts.
+
+1.  **Player Name:** The target player is Player22.
+2.  **Initialize Counts:** Shots = 0, Goals = 0, Assists = 0, Free Kicks = 0, Fouls = 0, Yellow Cards = 0, Red Cards = 0, Offsides = 0.
+
+Now, let's analyze each commentary snippet and increment the counts accordingly, based on the rules of strict counting and unambiguous attribution.
+
+*   **Snippet 1:** "Player22(Away Team) is awarded a free kick in their own half."
+    *   This snippet explicitly states Player22 is awarded a free kick. This implies the player wins a free kick, so increment Free Kicks by 1.
+    *   Free Kicks = 1
+
+*   **Snippet 2:** "Player22(Away Team) commits a foul, resulting in Player11(Home Team) being awarded a free kick in the attacking half."
+    *   This snippet explicitly states Player22 commits a foul. So, increment Fouls by 1.
+    *   Fouls = 1
+
+*   **Snippet 3:** "Player22(Away Team) commits a foul."
+    *   This snippet explicitly states Player22 commits a foul. So, increment Fouls by 1.
+    *   Fouls = 2
+
+*   **Snippet 4:** "Player22(Away Team) earns a free kick in their own half after a foul by Player11(Home Team), ."
+    *   This snippet explicitly states Player22 earns a free kick, meaning they win a free kick. So, increment Free Kicks by 1.
+    *   Free Kicks = 2
+
+Now, let's create the final summary table.
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player22 | 0     | 0     | 0       | 2          | 2     | 0            | 0         | 0        |
+```

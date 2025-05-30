@@ -1,0 +1,50 @@
+Okay, let's analyze the commentary snippets for Player25 and compile the statistics.
+
+**Player Name:** Player25
+
+**Commentary Snippets:**
+
+*   Player25(Away Team) receives a yellow card.
+*   Player25(Away Team)'s shot from the center of the box is blocked after being assisted by Player26(Away Team).
+*   Player25(Away Team) commits a foul.
+*   Player25(Away Team)'s left footed shot from close range hits the bar after a cross from Player33(Away Team).
+
+**Step-by-step Analysis:**
+
+1.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+
+2.  **Snippet 1: "Player25(Away Team) receives a yellow card."**
+    *   Explicitly states Player25 received a yellow card.
+    *   Yellow Cards = 1
+
+3.  **Snippet 2: "Player25(Away Team)'s shot from the center of the box is blocked after being assisted by Player26(Away Team)."**
+    *   Explicitly states Player25 took a shot.
+    *   Shots = 1
+    *   Explicitly states Player25 was assisted, thus no assist for Player25.
+    *   Assists = 0
+
+4.  **Snippet 3: "Player25(Away Team) commits a foul."**
+    *   Explicitly states Player25 committed a foul.
+    *   Fouls = 1
+
+5.  **Snippet 4: "Player25(Away Team)'s left footed shot from close range hits the bar after a cross from Player33(Away Team)."**
+    *   Explicitly states Player25 took a shot.
+    *   Shots = 2
+    *   Explicitly states Player25 was assisted, thus no assist for Player25.
+    *   Assists = 0
+
+**Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 2     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

@@ -1,0 +1,24 @@
+Okay, let's analyze the commentary snippets for Player6 and generate the statistics table.
+
+1.  **Player Name:** The target player is Player6.
+2.  **Initialization:** Initialize all event counts for Player6 to 0.
+3.  **Snippet Analysis:**
+    *   Snippet 1: "Player6(Home Team) commits a foul, resulting in Player26(Away Team) winning a free kick in their own half."
+        *   Fouls: The snippet explicitly states "Player6 commits a foul". Increment Fouls by 1.
+        *   Free Kicks: The snippet explicitly states Player6 commits a foul that results in Player26 winning a free kick. Since Player6 did not take the free kick but rather caused the free kick to be awarded to another player, increment Fouls by 1.
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player6 | 0     | 0     | 0       | 0          | 1     | 0            | 0         | 0        |
+```

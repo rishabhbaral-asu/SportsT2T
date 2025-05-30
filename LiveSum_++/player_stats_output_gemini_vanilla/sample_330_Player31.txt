@@ -1,0 +1,37 @@
+Okay, let's break down the process step-by-step and create the final summary table.
+
+1.  **Identify Player Name:** The target player is Player31.
+
+2.  **Initialize Counts:** We start with all event counts set to 0 for Player31.
+
+3.  **Analyze Commentary Snippets:**
+
+    *   **Snippet 1:** "Player31(Away Team) is currently sidelined due to an injury, causing a delay in the match."
+        *   No relevant events are mentioned for Player31.
+
+    *   **Snippet 2:** "Player31(Away Team) commits a foul, resulting in Player8(Home Team) winning a free kick in their defensive half, This results in a free kick for Player8(Home Team) in their defensive half."
+        *   "commits a foul" - This explicitly states Player31 committed a foul, so increment Fouls by 1.
+        *   Player8 wins a free kick as a *result* of Player31's foul. Player31 does not take a free kick.
+
+    *   **Snippet 3:** "Player31(Away Team) receives a yellow card for a rough tackle."
+        *   "receives a yellow card" - This explicitly states Player31 received a yellow card, so increment Yellow Cards by 1.
+        *   The snippet mentions "rough tackle," further supporting that a foul was committed. Since it was already counted in snippet 2, there is no need to count it again here.
+
+4.  **Compile Final Counts:**
+
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 1
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+5.  **Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player31 | 0     | 0     | 0       | 0          | 1     | 1            | 0         | 0        |
+```

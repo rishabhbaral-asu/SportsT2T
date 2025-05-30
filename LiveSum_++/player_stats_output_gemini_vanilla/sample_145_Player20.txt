@@ -1,0 +1,34 @@
+Okay, let's break this down step by step.
+
+1.  **Player Identification:** The target player is Player20.
+
+2.  **Initialization:** We initialize all event counts to 0 for Player20.
+
+3.  **Snippet Analysis:** We go through each snippet and apply the counting rules:
+
+    *   **Snippet 1:** "Player20(Away Team) commits a foul."
+        *   Fouls: The snippet explicitly states "commits a foul", attributed to Player20. Increment Fouls by 1.
+
+    *   **Snippet 2:** "Player20(Away Team) receives a yellow card for a hard tackle."
+        *   Yellow Cards: The snippet explicitly states "receives a yellow card", attributed to Player20. Increment Yellow Cards by 1.
+        *   The Snippet does not explicitly state the player committed a foul.
+
+    *   **Snippet 3:** "Player20(Away Team) commits a foul."
+        *   Fouls: The snippet explicitly states "commits a foul", attributed to Player20. Increment Fouls by 1.
+
+4.  **Final Counts:**
+    *   Shots: 0
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 0
+    *   Fouls: 2
+    *   Yellow Cards: 1
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player20 | 0     | 0     | 0       | 0          | 2     | 1            | 0         | 0        |
+```

@@ -1,0 +1,40 @@
+Okay, let's break down the commentary snippets and compile the statistics for Player25.
+
+**1. Player Identification:**
+The target player is Player25.
+
+**2. Initialization:**
+We initialize all event counts to 0 for Player25.
+
+**3. Commentary Analysis:**
+
+*   **Snippet 1:** "Player25(Away Team) commits a foul, resulting in Player6(Home Team) winning a free kick in the attacking half, This leads to a set-piece opportunity for Player6(Home Team)'s team."
+    *   Fouls: The snippet explicitly states "Player25(Away Team) commits a foul". Increment Fouls by 1.
+    *   Free Kicks: Player6 winning a free kick does not imply Player25 taking a free kick, so this does not increment Free Kicks.
+
+*   **Snippet 2:** "Player25(Away Team) is causing a delay in the match due to an injury."
+    *   No events are explicitly mentioned or unambiguously attributed to Player25 in terms of shots, goals, assists, free kicks, fouls, or cards.
+
+*   **Snippet 3:** "Player25(Away Team) commits a foul on Player9(Home Team), resulting in a free kick being awarded on the right wing."
+    *   Fouls: The snippet explicitly states "Player25(Away Team) commits a foul". Increment Fouls by 1.
+        *   Free Kicks: Player9 winning a free kick does not imply Player25 taking a free kick, so this does not increment Free Kicks.
+
+*   **Snippet 4:** "Player25(Away Team) commits a foul."
+    *   Fouls: The snippet explicitly states "Player25(Away Team) commits a foul". Increment Fouls by 1.
+
+**4. Final Counts:**
+*   Shots: 0
+*   Goals: 0
+*   Assists: 0
+*   Free Kicks: 0
+*   Fouls: 3
+*   Yellow Cards: 0
+*   Red Cards: 0
+*   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player25 | 0     | 0     | 0       | 0          | 3     | 0            | 0         | 0        |
+```

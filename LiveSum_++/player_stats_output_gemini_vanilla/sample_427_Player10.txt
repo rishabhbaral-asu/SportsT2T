@@ -1,0 +1,39 @@
+Okay, let's break this down step-by-step.
+
+1.  **Player Name:** The target player is Player10.
+
+2.  **Initialization:** We initialize all event counts to 0 for Player10.
+
+3.  **Commentary Snippet Analysis (Applying Strict Counting):**
+
+    *   **Snippet 1:** "Player10(Home Team) earns a free kick in the opponent's half." - Contains "earns a free kick". This implies Player10 won a free kick. Free Kicks (Taken) count increments by 1.
+
+    *   **Snippet 2:** "Player10(Home Team) earns a free kick in the opponent's half." - Contains "earns a free kick". This implies Player10 won a free kick. Free Kicks (Taken) count increments by 1.
+
+    *   **Snippet 3:** "Player10(Home Team)'s right-footed shot from outside the box is blocked after being assisted by Player5(Home Team), resulting in a corner kick for the Home Team." - Contains "shot". Shots count increments by 1.
+
+    *   **Snippet 4:** "Player10(Home Team) earns a free kick in their own half." - Contains "earns a free kick". This implies Player10 won a free kick. Free Kicks (Taken) count increments by 1.
+
+    *   **Snippet 5:** "Player10(Home Team) commits a foul." - Contains "commits a foul". Fouls count increments by 1.
+
+    *   **Snippet 6:** "Player10(Home Team) misses the goal with a right-footed shot from the left side of the box, assisted by Player6(Home Team)." - Contains "shot". Shots count increments by 1.
+
+    *   **Snippet 7:** "Player10(Home Team) earns a free kick on the left side of the field." - Contains "earns a free kick". This implies Player10 won a free kick. Free Kicks (Taken) count increments by 1.
+
+4.  **Final Counts:**
+
+    *   Shots: 2
+    *   Goals: 0
+    *   Assists: 0
+    *   Free Kicks: 4
+    *   Fouls: 1
+    *   Yellow Cards: 0
+    *   Red Cards: 0
+    *   Offsides: 0
+
+Final Summary Table:
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player10 | 2     | 0     | 0       | 4          | 1     | 0            | 0         | 0        |
+```

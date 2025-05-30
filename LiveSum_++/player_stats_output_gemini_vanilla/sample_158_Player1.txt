@@ -1,0 +1,23 @@
+Okay, let's process the input.
+
+1.  **Player Name:** The target player is Player1.
+2.  **Initialization:**
+    *   Shots = 0
+    *   Goals = 0
+    *   Assists = 0
+    *   Free Kicks = 0
+    *   Fouls = 0
+    *   Yellow Cards = 0
+    *   Red Cards = 0
+    *   Offsides = 0
+3.  **Commentary Analysis:**
+    *   Snippet 1: "Player1(Home Team) attempts a through ball, but Player11(Home Team) is caught offside."
+        *   The snippet states "Player1 attempts a through ball". There's no shot, goal, assist, free kick, foul, or card mentioned. However, Player1 is mentioned as making an attempt, and Player11 is caught offside. The offside event is attributed to Player11, not Player1, so Player1's offside count remains 0. Therefore, no events are incremented for Player1 in this snippet.
+
+4.  **Final Summary Table:**
+
+```markdown
+| Player   | Shots | Goals | Assists | Free Kicks | Fouls | Yellow Cards | Red Cards | Offsides |
+|----------|-------|-------|---------|------------|-------|--------------|-----------|----------|
+| Player1 | 0     | 0     | 0       | 0          | 0     | 0            | 0         | 0        |
+```
