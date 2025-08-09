@@ -1,0 +1,1694 @@
+--- Query ID: 1 ---
+Name: Analysis: Aggressive Start (Second Half)
+Query: Who came out of the tunnel fired up? Show the foul count for each team in the first five minutes of the second half.
+SQL: 
+        SELECT Team_s, COUNT(*) as foul_count 
+        FROM parsed_commentary_25513272
+        WHERE half = 'Second Half' AND match_minute 
+        BETWEEN 45 AND 50 AND Event_Type = 'Foul' 
+        GROUP BY Team_s 
+        ORDER BY foul_count DESC;
+        
+Difficulty: Medium
+Headers: ['Team_s', 'foul_count']
+Result: No Results Found.
+
+--- Query ID: 2 ---
+Name: Analysis: Back-to-Back Corners
+Query: Did any team build pressure with corners? Show me if a team won two or more in a row.
+SQL: 
+        WITH AllEventsWithRowID AS (SELECT *, ROW_NUMBER() OVER(ORDER BY match_minute, injury_time_minutes, Time) as row_id FROM parsed_commentary_25513272),
+        EventSequence AS (SELECT Team_s, Event_Type, LAG(Event_Type, 1) OVER (ORDER BY row_id) as prev_event, LAG(Team_s, 1) OVER (ORDER BY row_id) as prev_team FROM AllEventsWithRowID)
+        SELECT Team_s, COUNT(*) as consecutive_corners FROM EventSequence WHERE Event_Type = 'Corner' AND prev_event = 'Corner' AND Team_s = prev_team GROUP BY Team_s;
+        
+Difficulty: Hard
+Headers: ['Team_s', 'consecutive_corners']
+Result: No Results Found.
+
+--- Query ID: 3 ---
+Name: Analysis: Corner Effectiveness
+Query: How good were Stoke City's corners? Show me the percentage that led to a shot within the next three events.
+SQL: 
+        WITH AllEventsWithRowID AS (SELECT *, ROW_NUMBER() OVER(ORDER BY match_minute, injury_time_minutes, Time) as row_id FROM parsed_commentary_25513272),
+        TeamCorners AS (SELECT row_id FROM AllEventsWithRowID WHERE Event_Type = 'Corner' AND Team_s = 'Stoke City'),
+        SuccessfulCorners AS (SELECT COUNT(*) as success_count FROM TeamCorners tc 
+        WHERE EXISTS (SELECT 1 FROM AllEventsWithRowID s WHERE s.Team_s = 'Stoke City' AND s.Event_Type IN ('Shot', 'Goal') AND s.row_id BETWEEN tc.row_id + 1 AND tc.row_id + 3))
+        SELECT CAST((SELECT success_count FROM SuccessfulCorners) AS REAL) * 100.0 / COUNT(*) FROM TeamCorners;
+        
+Difficulty: Hard
+Headers: []
+Result:
+  (None,)
+
+--- Query ID: 4 ---
+Name: Analysis: Early Goal Check (First 5 Mins)
+Query: Was there a flying start to the match? Show me any goals scored in the first five minutes.
+SQL: 
+        SELECT Time, Player_s, Team_s, Score FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Goal' AND match_minute < 5;
+        
+Difficulty: Easy
+Headers: ['Time', 'Player_s', 'Team_s', 'Score']
+Result: No Results Found.
+
+--- Query ID: 5 ---
+Name: Analysis: Final Minutes Goals (First Half)
+Query: Any late drama before the break? Show me goals from the last 22 minutes of the first half: who scored, when, and the commentary description.
+SQL: 
+        SELECT Time, Player_s, Team_s, Score, Description FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Goal' AND half = 'First Half' AND match_minute >= 45 - 22;
+        
+Difficulty: Easy
+Headers: ['Time', 'Player_s', 'Team_s', 'Score', 'Description']
+Result: No Results Found.
+
+--- Query ID: 6 ---
+Name: Analysis: First Card of the Match
+Query: Who was the first player to have their name taken? Show the full details of the first yellow card.
+SQL: 
+        SELECT Time, Player_s, Team_s, Description FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Yellow Card' 
+        ORDER BY match_minute ASC, injury_time_minutes ASC, Time ASC 
+        LIMIT 1;
+        
+Difficulty: Easy
+Headers: ['Time', 'Player_s', 'Team_s', 'Description']
+Result:
+  ('57', 'Ryan Shawcross', 'Stoke City', "Yellow card. Ryan Shawcross (Stoke City) goes into the referee's book after a bad challenge.")
+
+--- Query ID: 7 ---
+Name: Analysis: First Event of Match
+Query: How did the action get started? Show me the very first recorded event after the opening kick-off.
+SQL: 
+        SELECT Time, Event_Type, Player_s, Team_s, Description 
+        FROM parsed_commentary_25513272 WHERE Event_Type != 'Match Start' 
+        ORDER BY match_minute ASC, injury_time_minutes ASC, Time ASC 
+        LIMIT 1;
+        
+Difficulty: Easy
+Headers: ['Time', 'Event_Type', 'Player_s', 'Team_s', 'Description']
+Result:
+  ('1', 'Build-up Play', None, None, "The first half has started.\nAndre Marriner will referee today's match.\nShow lineups\nThe starting lineups for this match have been revealed.\nGood afternoon, ladies and gentleman! Welcome to our live text commentary, where we will provide you with instant updates of everything that happens in the match.")
+
+--- Query ID: 8 ---
+Name: Analysis: First Foul of the Match
+Query: Who set the physical tone early? Show me the details of the very first foul of the game.
+SQL: 
+        SELECT Time, Player_s, Team_s 
+        FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Foul' 
+        ORDER BY match_minute ASC, injury_time_minutes ASC, Time ASC 
+        LIMIT 1;
+        
+Difficulty: Easy
+Headers: ['Time', 'Player_s', 'Team_s']
+Result:
+  ('15', "Steven N'Zonzi", 'Stoke City')
+
+--- Query ID: 9 ---
+Name: Analysis: First Scorer Wins?
+Query: Did the team that opened the scoring go on to win? Just give me a 'Yes' or 'No'.
+SQL: 
+        WITH Goals AS (SELECT * FROM parsed_commentary_25513272 p WHERE p.Event_Type = 'Goal'), 
+        FinalScore AS (SELECT Team_s, COUNT(Team_s) AS total_goals FROM Goals GROUP BY Team_s),
+        MatchResult AS (SELECT MAX(CASE WHEN A.total_goals > B.total_goals THEN A.Team_s ELSE B.Team_s END) AS WinningTeam, MIN(A.total_goals) AS LoserScore FROM FinalScore AS A, FinalScore AS B WHERE A.Team_s <> B.Team_s),
+        OrderedGoals AS (SELECT *, ROW_NUMBER() OVER (ORDER BY match_minute ASC) as goal_order FROM Goals),
+        FirstGoalScorer AS (SELECT Team_s FROM parsed_commentary_25513272 p WHERE p.Event_Type = 'Goal' ORDER BY match_minute ASC LIMIT 1)
+        SELECT CASE WHEN (SELECT Team_s FROM FirstGoalScorer) = (SELECT WinningTeam FROM MatchResult) Then 'Yes' ELSE 'No' END AS First_Scorer_Won;
+        
+Difficulty: Hard
+Headers: ['First_Scorer_Won']
+Result:
+  ('Yes',)
+
+--- Query ID: 10 ---
+Name: Analysis: Free-Kick Shots
+Query: Any dangerous free-kicks? Show me a list of all shots taken directly from a free-kick.
+SQL: 
+        SELECT Time, Player_s, Team_s, Description FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Shot' 
+        AND Description LIKE '%from the free-kick%';
+        
+Difficulty: Medium
+Headers: ['Time', 'Player_s', 'Team_s', 'Description']
+Result: No Results Found.
+
+--- Query ID: 11 ---
+Name: Analysis: Goals from Deflections
+Query: Any lucky goals today? Show me a list of all goals that took a deflection.
+SQL: 
+        SELECT Time, Player_s, Team_s, Score, Description 
+        FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Goal' 
+        AND Description LIKE '%deflection%';
+        
+Difficulty: Medium
+Headers: ['Time', 'Player_s', 'Team_s', 'Score', 'Description']
+Result: No Results Found.
+
+--- Query ID: 12 ---
+Name: Analysis: Goalscorer Substituted Off
+Query: Were any goalscorers taken off? Show me players who scored a goal and were later subbed out.
+SQL: 
+        SELECT g.Time as Goal_Time, s.Time as Sub_Time, g.Player_s, g.Team_s
+        FROM parsed_commentary_25513272 g JOIN parsed_commentary_25513272 s ON g.Player_s = s.Player_Out AND g.Team_s = s.Team_s
+        WHERE g.Event_Type = 'Goal' AND s.Event_Type = 'Substitution' AND s.match_minute > g.match_minute;
+        
+Difficulty: Easy
+Headers: ['Goal_Time', 'Sub_Time', 'Player_s', 'Team_s']
+Result: No Results Found.
+
+--- Query ID: 13 ---
+Name: Analysis: Injury Forced Sub
+Query: Show me the subs that were forced by an injury. I need a list of players injured and then immediately subbed off.
+SQL: 
+        WITH AllEventsWithRowID AS (SELECT *, ROW_NUMBER() OVER(ORDER BY match_minute, injury_time_minutes, Time) as row_id FROM parsed_commentary_25513272)
+        SELECT i.Time, i.Player_s, i.Team_s FROM AllEventsWithRowID i
+        JOIN AllEventsWithRowID s ON i.Player_s = s.Player_Out AND i.Team_s = s.Team_s
+        WHERE i.Event_Type = 'Injury' AND s.Event_Type = 'Substitution' AND s.row_id BETWEEN i.row_id + 1 AND i.row_id + 3;
+        
+Difficulty: Hard
+Headers: ['Time', 'Player_s', 'Team_s']
+Result: No Results Found.
+
+--- Query ID: 14 ---
+Name: Analysis: Late Game Activity by Team
+Query: Which team finished stronger? Show me who had more actions in the final 22 minutes and what their total was.
+SQL: 
+        SELECT Team_s, COUNT(*) AS actions 
+        FROM parsed_commentary_25513272 
+        WHERE match_minute >= 90 - 22 
+        GROUP BY Team_s 
+        ORDER BY actions DESC 
+        LIMIT 1;
+        
+Difficulty: Easy
+Headers: ['Team_s', 'actions']
+Result:
+  ('Everton', 11)
+
+--- Query ID: 15 ---
+Name: Analysis: Lead Changes Count
+Query: How many times did the lead swing back and forth? Give me the moments when the lead changed.
+SQL: 
+        WITH Goals AS (SELECT * FROM parsed_commentary_25513272 p WHERE p.Event_Type = 'Goal'), 
+        FinalScore AS (SELECT Team_s, COUNT(Team_s) AS total_goals FROM Goals GROUP BY Team_s),
+        OrderedGoals AS (SELECT *, ROW_NUMBER() OVER (ORDER BY match_minute ASC) AS goal_order FROM Goals),
+        CumulativeScore AS (SELECT goal_order, match_minute, Team_s, Player_s, Score, Time,
+            SUM(CASE WHEN Team_s = (SELECT Team_s FROM FinalScore LIMIT 1 OFFSET 0) THEN 1 ELSE 0 END)
+                OVER (ORDER BY goal_order) AS team1_goals,
+            SUM(CASE WHEN Team_s = (SELECT Team_s FROM FinalScore LIMIT 1 OFFSET 1) THEN 1 ELSE 0 END)
+                OVER (ORDER BY goal_order) AS team2_goals
+        FROM OrderedGoals),
+        TiedMoments AS (SELECT 0 AS goal_order UNION SELECT goal_order FROM CumulativeScore WHERE team1_goals = team2_goals),
+        NextGoals AS (SELECT MIN(cs.goal_order) AS goal_order_after_tie FROM TiedMoments tm JOIN CumulativeScore cs ON cs.goal_order > tm.goal_order GROUP BY tm.goal_order),
+        Final AS (SELECT cs.* FROM CumulativeScore cs JOIN NextGoals ng ON cs.goal_order = ng.goal_order_after_tie)
+        SELECT Time, Player_s, Team_s, Score
+        FROM Final
+        ORDER BY goal_order;
+        
+Difficulty: Hard
+Headers: ['Time', 'Player_s', 'Team_s', 'Score']
+Result:
+  ('49', 'Oussama Assaidi', 'Stoke City', '1 - 0')
+
+--- Query ID: 16 ---
+Name: Analysis: Longest Period without a Foul
+Query: What was the cleanest spell of the match? Show the two fouls that bookend the longest period without one.
+SQL: 
+        WITH AllEventsWithRowID AS (SELECT *, ROW_NUMBER() OVER(ORDER BY match_minute, injury_time_minutes, Time) as row_id FROM parsed_commentary_25513272),
+        FoulTimes AS (SELECT row_id, match_minute, LAG(row_id, 1) OVER (ORDER BY row_id) as prev_foul_row_id, (match_minute - LAG(match_minute, 1, 0) OVER (ORDER BY row_id)) as gap FROM AllEventsWithRowID WHERE Event_Type = 'Foul'),
+        MaxGap AS (SELECT MAX(gap) as max_gap FROM FoulTimes)
+        SELECT p.Time, p.Event_Type, p.Player_s FROM AllEventsWithRowID p JOIN FoulTimes ft ON p.row_id = ft.row_id OR p.row_id = ft.prev_foul_row_id WHERE ft.gap = (SELECT max_gap FROM MaxGap);
+        
+Difficulty: Hard
+Headers: ['Time', 'Event_Type', 'Player_s']
+Result:
+  ('51', 'Foul', 'Geoff Cameron')
+  ('90', 'Foul', 'Jermaine Pennant')
+
+--- Query ID: 17 ---
+Name: Analysis: Post-Sub Concession
+Query: Did a sub backfire for Stoke City? Show me any goals they conceded within 5 minutes of making a change.
+SQL: 
+        WITH SubTimes AS (SELECT match_minute as sub_minute FROM parsed_commentary_25513272 WHERE Event_Type = 'Substitution' AND Team_s = 'Stoke City')
+        SELECT g.Time, g.Player_s, g.Score FROM SubTimes st
+        JOIN parsed_commentary_25513272 g ON g.Event_Type = 'Goal' AND g.Team_s != 'Stoke City'
+        WHERE g.match_minute BETWEEN st.sub_minute AND st.sub_minute + 5;
+        
+Difficulty: Hard
+Headers: ['Time', 'Player_s', 'Score']
+Result: No Results Found.
+
+--- Query ID: 18 ---
+Name: Analysis: Red Card Impact
+Query: What was the score when the red card came out, and how did it finish? Show both scorelines.
+SQL: 
+        WITH RedCardEvent AS (SELECT Score FROM parsed_commentary_25513272 WHERE Event_Type = 'Red Card' ORDER BY match_minute, injury_time_minutes, Time LIMIT 1)
+        SELECT r.Score as score_at_red_card, f.Score as final_score 
+        FROM RedCardEvent r, (SELECT Score FROM parsed_commentary_25513272 WHERE Event_Type = 'Full Time' LIMIT 1) f;
+        
+Difficulty: Hard
+Headers: ['score_at_red_card', 'final_score']
+Result: No Results Found.
+
+--- Query ID: 19 ---
+Name: Analysis: Score at Halftime
+Query: What was the story at the break? Just show me the halftime score.
+SQL: 
+        SELECT Score 
+        FROM parsed_commentary_25513272
+        WHERE Event_Type = 'Half Time' 
+        LIMIT 1;
+        
+Difficulty: Easy
+Headers: ['Score']
+Result: No Results Found.
+
+--- Query ID: 20 ---
+Name: Analysis: Shortest Time Between Goals
+Query: What was the quickest one-two punch of the game? Show me the two goals scored closest together.
+SQL: 
+        WITH AllEventsWithRowID AS (SELECT *, ROW_NUMBER() OVER (ORDER BY match_minute, injury_time_minutes, Time) as row_id FROM parsed_commentary_25513272),
+        GoalTimes AS (SELECT row_id, match_minute, LAG(row_id, 1) OVER (ORDER BY row_id) as prev_goal_row_id, (match_minute - LAG(match_minute, 1, -99) OVER (ORDER BY row_id)) as gap FROM AllEventsWithRowID WHERE Event_Type = 'Goal'),
+        MinGap AS (SELECT MIN(gap) as min_gap FROM GoalTimes WHERE gap >= 0)
+        SELECT p.Time, p.Player_s, p.Team_s, p.Score FROM AllEventsWithRowID p JOIN GoalTimes gt ON p.row_id = gt.row_id OR p.row_id = gt.prev_goal_row_id WHERE gt.gap = (SELECT min_gap FROM MinGap);
+        
+Difficulty: Hard
+Headers: ['Time', 'Player_s', 'Team_s', 'Score']
+Result:
+  ('49', 'Oussama Assaidi', 'Stoke City', '1 - 0')
+  ('90+2', 'Leighton Baines', 'Everton', '1 - 1')
+
+--- Query ID: 21 ---
+Name: Analysis: Shot to Goal Kick Ratio
+Query: Show me the ratio of poor shots. How many times did a shot or goal event lead directly to a goal kick in the logs?
+SQL: 
+        WITH AllEventsWithRowID AS (SELECT *, ROW_NUMBER() OVER(ORDER BY match_minute, injury_time_minutes, Time) as row_id FROM parsed_commentary_25513272),
+        EventSequence AS (SELECT Event_Type, LEAD(Event_Type, 1) OVER (ORDER BY row_id) as next_event FROM AllEventsWithRowID)
+        SELECT COUNT(*) FROM EventSequence WHERE Event_Type IN ('Shot', 'Goal') AND next_event = 'Goal kick';
+        
+Difficulty: Hard
+Headers: ['*']
+Result:
+  (0,)
+
+--- Query ID: 22 ---
+Name: Analysis: Stoppage Time Cards
+Query: Did things get heated in added time? Show me all the cards dished out in stoppage time in either half.
+SQL: 
+        SELECT half, Time, Player_s, Team_s, Description 
+        FROM parsed_commentary_25513272 
+        WHERE Event_Type IN ('Yellow Card', 'Red Card') 
+        AND injury_time_minutes > 0;
+        
+Difficulty: Easy
+Headers: ['half', 'Time', 'Player_s', 'Team_s', 'Description']
+Result:
+  ('Second Half', '90+2', 'Jermaine Pennant', 'Stoke City', "Jermaine Pennant (Stoke City) violates the rules and gets a yellow card. It's a penalty! Will we witness a change on the scoreline?")
+
+--- Query ID: 23 ---
+Name: Analysis: Sub Creating a Chance
+Query: Did any sub set up a teammate quickly? Show me shots created by a sub for another player within 10 minutes of coming on.
+SQL: 
+        WITH AllEventsWithRowID AS (SELECT *, ROW_NUMBER() OVER(ORDER BY match_minute, injury_time_minutes, Time) as row_id FROM parsed_commentary_25513272),
+        SubEvents AS (SELECT Player_In, Team_s, match_minute AS sub_minute FROM AllEventsWithRowID WHERE Event_Type = 'Substitution')
+        SELECT s.Time, s.Player_s, s.Team_s, s.Description FROM AllEventsWithRowID s
+        JOIN SubEvents sub ON s.Team_s = sub.Team_s
+        WHERE s.Event_Type = 'Shot' AND s.match_minute BETWEEN sub.sub_minute AND sub.sub_minute + 10
+        AND s.Player_s != sub.Player_In AND EXISTS (SELECT 1 FROM AllEventsWithRowID p WHERE p.Player_s = sub.Player_In AND p.row_id = s.row_id - 1);
+        
+Difficulty: Hard
+Headers: ['Time', 'Player_s', 'Team_s', 'Description']
+Result:
+  ('82', 'Kevin Mirallas', 'Everton', 'What a great touch by Kevin Mirallas (Everton) as he controls a fine pass into the box and takes a shot to the bottom left corner, but an opposing player makes a clearance. Great defending.')
+
+--- Query ID: 24 ---
+Name: Analysis: Team Reaction to Conceding
+Query: How did Stoke City respond to going behind? Show me all the shots they had in the 10 minutes after conceding.
+SQL: 
+        WITH GoalConceded AS (SELECT match_minute FROM parsed_commentary_25513272 WHERE Event_Type = 'Goal' AND Team_s != 'Stoke City' ORDER BY match_minute ASC LIMIT 1)
+        SELECT c.Time, c.Player_s, c.Description FROM parsed_commentary_25513272 AS c, GoalConceded AS gc
+        WHERE c.Team_s = 'Stoke City' AND c.Event_Type = 'Shot' AND c.match_minute > gc.match_minute AND c.match_minute <= gc.match_minute + 10;
+        
+Difficulty: Hard
+Headers: ['Time', 'Player_s', 'Description']
+Result: No Results Found.
+
+--- Query ID: 25 ---
+Name: Analysis: Wasted Shots
+Query: Show me the poor finishing. I need a count for each team of shots that went 'high and wide' or 'well over'.
+SQL: 
+        SELECT Team_s, COUNT(*) as wasted_shots 
+        FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Shot' 
+        AND (Description LIKE '%well over%' OR Description LIKE '%high and wide%') 
+        GROUP BY Team_s 
+        ORDER BY wasted_shots DESC;
+        
+Difficulty: Medium
+Headers: ['Team_s', 'wasted_shots']
+Result: No Results Found.
+
+--- Query ID: 26 ---
+Name: Analysis: Yellow Card Tactical Sub
+Query: Which managers played it safe? Show me players who were booked and then later taken off.
+SQL: 
+        SELECT T1.Player_s, T1.Team_s, T1.Time AS Card_Time, T2.Time AS Sub_Time FROM parsed_commentary_25513272 T1 
+        JOIN parsed_commentary_25513272 T2 ON T1.Player_s = T2.Player_Out
+        WHERE T1.Event_Type = 'Yellow Card' 
+        AND T2.Event_Type = 'Substitution' 
+        AND T2.match_minute > T1.match_minute;
+        
+Difficulty: Easy
+Headers: ['Player_s', 'Team_s', 'Card_Time', 'Sub_Time']
+Result: No Results Found.
+
+--- Query ID: 27 ---
+Name: Between Goals: All Events (Both Teams)
+Query: For any team that scored more than once, what happened between their first and second goals? Show me the full timeline for BOTH teams during these periods.
+SQL: 
+        WITH AllEventsWithRowID AS (
+            SELECT *, ROW_NUMBER() OVER (ORDER BY match_minute, injury_time_minutes, Time) as row_id FROM parsed_commentary_25513272
+        ), RankedGoals AS (
+            SELECT Team_s, row_id, ROW_NUMBER() OVER(PARTITION BY Team_s ORDER BY row_id ASC) as goal_num FROM AllEventsWithRowID WHERE Event_Type = 'Goal' AND Team_s IS NOT NULL
+        ), TeamGoalIntervals AS (
+            SELECT Team_s, MIN(CASE WHEN goal_num = 1 THEN row_id END) AS first_goal_row_id, MIN(CASE WHEN goal_num = 2 THEN row_id END) AS second_goal_row_id FROM RankedGoals GROUP BY Team_s HAVING COUNT(Team_s) >= 2
+        )
+        SELECT DISTINCT c.Time, c.Player_s, c.Team_s, c.Event_Type, c.Description
+        FROM AllEventsWithRowID AS c
+        JOIN TeamGoalIntervals AS tgi ON c.row_id BETWEEN tgi.first_goal_row_id AND tgi.second_goal_row_id
+        ORDER BY c.row_id;
+        
+Difficulty: Hard
+Headers: ['Time', 'Player_s', 'Team_s', 'Event_Type', 'Description']
+Result: No Results Found.
+
+--- Query ID: 28 ---
+Name: Comparison: First Half vs Second Half Dominance
+Query: Who dominated each half? Show the total event count for both teams, broken down by half.
+SQL: 
+        SELECT half, Team_s, COUNT(*) as event_count 
+        FROM parsed_commentary_25513272 
+        WHERE Team_s IS NOT NULL 
+        GROUP BY half, Team_s 
+        ORDER BY half, event_count DESC;
+        
+Difficulty: Easy
+Headers: ['half', 'Team_s', 'event_count']
+Result:
+  ('First Half', 'Everton', 11)
+  ('First Half', 'Stoke City', 7)
+  ('Second Half', 'Everton', 17)
+  ('Second Half', 'Stoke City', 11)
+
+--- Query ID: 29 ---
+Name: Comparison: Goalkeeper Activity
+Query: Which keeper was the busier of the two? Show a breakdown of saves, punches, and catches for each.
+SQL: 
+        SELECT Player_s, Team_s, COUNT(*) as keeper_actions 
+        FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Save' OR Description LIKE '%keeper%' OR Description LIKE '%goalkeeper%' 
+        GROUP BY Player_s, Team_s 
+        ORDER BY keeper_actions DESC;
+        
+Difficulty: Medium
+Headers: ['Player_s', 'Team_s', 'keeper_actions']
+Result:
+  ('Leighton Baines', 'Everton', 1)
+  ('Oussama Assaidi', 'Stoke City', 1)
+  ('Ross Barkley', 'Everton', 1)
+
+--- Query ID: 30 ---
+Name: Comparison: Goals Per Half
+Query: Was it a game of two halves for goalscoring? Show me which half had the most goals and the count.
+SQL: 
+        SELECT half, COUNT(*) AS goals 
+        FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Goal' 
+        GROUP BY half 
+        ORDER BY goals DESC 
+        LIMIT 1;
+        
+Difficulty: Easy
+Headers: ['half', 'goals']
+Result:
+  ('Second Half', 2)
+
+--- Query ID: 31 ---
+Name: Comparison: Offside Trap Success
+Query: Who had the better-organised back line? Show me the offside count for both teams.
+SQL: 
+        SELECT Team_s, COUNT(*) AS offside_count 
+        FROM parsed_commentary_25513272 WHERE Event_Type = 'Offside' AND Team_s IS NOT NULL 
+        GROUP BY Team_s 
+        ORDER BY offside_count DESC;
+        
+Difficulty: Easy
+Headers: ['Team_s', 'offside_count']
+Result:
+  ('Stoke City', 1)
+
+--- Query ID: 32 ---
+Name: Comparison: Shots Per Half
+Query: Let's compare the attacking intent. Show me the shot count for both teams, split by first and second half.
+SQL: 
+        SELECT half, Team_s, COUNT(*) AS shot_count 
+        FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Shot' AND Team_s IS NOT NULL 
+        GROUP BY half, Team_s 
+        ORDER BY half, shot_count DESC;
+        
+Difficulty: Easy
+Headers: ['half', 'Team_s', 'shot_count']
+Result:
+  ('First Half', 'Stoke City', 1)
+  ('First Half', 'Everton', 1)
+  ('Second Half', 'Everton', 3)
+
+--- Query ID: 33 ---
+Name: IL - Injury List
+Query: Who had to receive treatment? List all the players who got injured, when it happened, and which team they play for.
+SQL: 
+        SELECT Time, Player_s, Team_s 
+        FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Injury';
+        
+Difficulty: Easy
+Headers: ['Time', 'Player_s', 'Team_s']
+Result:
+  ('33', 'Jonathan Walters', 'Stoke City')
+
+--- Query ID: 34 ---
+Name: List: All Yellow Cards
+Query: Who went into the ref's book? Give me a list of all the yellow cards, who got them, when, and what it was for.
+SQL: 
+        SELECT Time, Player_s, Team_s, Description 
+        FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Yellow Card';
+        
+Difficulty: Easy
+Headers: ['Time', 'Player_s', 'Team_s', 'Description']
+Result:
+  ('90+2', 'Jermaine Pennant', 'Stoke City', "Jermaine Pennant (Stoke City) violates the rules and gets a yellow card. It's a penalty! Will we witness a change on the scoreline?")
+  ('67', 'Kevin Mirallas', 'Everton', 'Kevin Mirallas (Everton) picks up a yellow card.')
+  ('64', 'Glenn Whelan', 'Stoke City', 'It must be a yellow card. It is. Glenn Whelan (Stoke City) receives the caution after an awful tackle.')
+  ('57', 'Ryan Shawcross', 'Stoke City', "Yellow card. Ryan Shawcross (Stoke City) goes into the referee's book after a bad challenge.")
+
+--- Query ID: 35 ---
+Name: List: Team Roster for Match
+Query: Who featured for Stoke City today? Give me a complete list of their players involved, including subs.
+SQL: 
+        SELECT Player_s FROM (SELECT Player_s FROM parsed_commentary_25513272 WHERE Team_s = 'Stoke City' 
+        UNION 
+        SELECT Player_In FROM parsed_commentary_25513272 WHERE Team_s = 'Stoke City') WHERE Player_s IS NOT NULL 
+        GROUP BY Player_s;
+        
+Difficulty: Medium
+Headers: ['Player_s']
+Result:
+  ('Charles Graham Adam',)
+  ('Charlie Adam',)
+  ('Geoff Cameron',)
+  ('Glenn Whelan',)
+  ('Jack Butland',)
+  ('Jermaine Pennant',)
+  ('Jonathan Walters',)
+  ('Oussama Assaidi',)
+  ('Peter Crouch',)
+  ('Ryan Shawcross',)
+  ("Steven N'Zonzi",)
+  ('Wilson Palacios',)
+
+--- Query ID: 36 ---
+Name: Player Focus: Brace Scorer
+Query: Did anyone bag a brace today? Show me any player who scored exactly two goals.
+SQL: 
+        SELECT Player_s, Team_s
+        FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Goal' AND Player_s IS NOT NULL 
+        GROUP BY Player_s, Team_s 
+        HAVING COUNT(*) = 2;
+        
+Difficulty: Medium
+Headers: ['Player_s', 'Team_s']
+Result: No Results Found.
+
+--- Query ID: 39 ---
+Name: Player Focus: Final Shot of the Match
+Query: Who had the last crack at goal? Show me the details of the final shot of the game.
+SQL: 
+        SELECT Time, Player_s, Team_s, Description 
+        FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Shot' 
+        ORDER BY match_minute DESC, injury_time_minutes DESC, Time DESC 
+        LIMIT 1;
+        
+Difficulty: Easy
+Headers: ['Time', 'Player_s', 'Team_s', 'Description']
+Result:
+  ('82', 'Kevin Mirallas', 'Everton', 'What a great touch by Kevin Mirallas (Everton) as he controls a fine pass into the box and takes a shot to the bottom left corner, but an opposing player makes a clearance. Great defending.')
+
+--- Query ID: 42 ---
+Name: Player Focus: Getting Carded for a Foul
+Query: Show me the fouls that were straight-up yellow cards. List players who got booked for a foul they committed in the same minute.
+SQL: 
+        SELECT f.Player_s, f.Team_s FROM parsed_commentary_25513272 f
+        JOIN parsed_commentary_25513272 c ON f.Player_s = c.Player_s AND f.match_minute = c.match_minute
+        WHERE f.Event_Type = 'Foul' AND c.Event_Type = 'Yellow Card';
+        
+Difficulty: Easy
+Headers: ['Player_s', 'Team_s']
+Result:
+  ('Jermaine Pennant', 'Stoke City')
+
+--- Query ID: 47 ---
+Name: Player Focus: Sub Foul Rate
+Query: Which substitute was the biggest nuisance? Show me the sub who committed the most fouls.
+SQL: 
+        SELECT Player_s, COUNT(*) as foul_count FROM parsed_commentary_25513272
+        WHERE Event_Type = 'Foul' AND Player_s IN (SELECT Player_In FROM parsed_commentary_25513272 WHERE Event_Type = 'Substitution')
+        GROUP BY Player_s 
+        ORDER BY foul_count DESC LIMIT 1;
+        
+Difficulty: Medium
+Headers: ['Player_s', 'foul_count']
+Result: No Results Found.
+
+--- Query ID: 48 ---
+Name: Player Focus: The 'Complete' Game
+Query: Did any player have an eventful day? List anyone who scored, got booked, and was also subbed off.
+SQL: 
+        SELECT p1.Player_s FROM parsed_commentary_25513272 p1
+        WHERE p1.Event_Type = 'Goal' AND EXISTS (
+            SELECT 1 FROM parsed_commentary_25513272 p2 WHERE p2.Player_s = p1.Player_s AND p2.Event_Type IN ('Yellow Card', 'Red Card')
+        ) AND EXISTS (
+            SELECT 1 FROM parsed_commentary_25513272 p3 WHERE p3.Player_Out = p1.Player_s AND p3.Event_Type = 'Substitution'
+        ) GROUP BY p1.Player_s;
+        
+Difficulty: Easy
+Headers: ['Player_s']
+Result: No Results Found.
+
+--- Query ID: 49 ---
+Name: Player Focus: Unsuccessful Shots
+Query: Which players from Stoke City had their shooting boots on but couldn't find the net? List their players who shot but didn't score.
+SQL: 
+        SELECT DISTINCT Player_s 
+        FROM parsed_commentary_25513272 
+        WHERE Team_s = 'Stoke City' 
+        AND Event_Type = 'Shot' 
+        AND Player_s NOT IN (SELECT DISTINCT Player_s FROM parsed_commentary_25513272 WHERE Team_s = 'Stoke City' AND Event_Type = 'Goal');
+        
+Difficulty: Medium
+Headers: ['Player_s']
+Result: No Results Found.
+
+--- Query ID: 50 ---
+Name: Scoring Summary
+Query: Let's get the full story of the goals. Pull up every scorer, the minute they scored, their team, and what the new scoreline was.
+SQL: 
+        SELECT Time, Player_s, Team_s, Score 
+        FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Goal';
+        
+Difficulty: Easy
+Headers: ['Time', 'Player_s', 'Team_s', 'Score']
+Result:
+  ('90+2', 'Leighton Baines', 'Everton', '1 - 1')
+  ('49', 'Oussama Assaidi', 'Stoke City', '1 - 0')
+
+--- Query ID: 51 ---
+Name: Stat: Final Action of First Half
+Query: What was the last kick of the first half? Show me the details of the final event before the halftime whistle.
+SQL: 
+        SELECT Time, Event_Type, Player_s, Team_s, Description 
+        FROM parsed_commentary_25513272 WHERE Event_Type != 'Half Time' AND half = 'First Half' 
+        ORDER BY match_minute DESC, injury_time_minutes DESC, Time DESC 
+        LIMIT 1;
+        
+Difficulty: Easy
+Headers: ['Time', 'Event_Type', 'Player_s', 'Team_s', 'Description']
+Result:
+  ('45+2', 'Build-up Play', None, None, "The first half of today's match has just finished.")
+
+--- Query ID: 52 ---
+Name: Stat: First Goal of the Match
+Query: Who broke the initial deadlock? I need the player, team, time, and score for the opening goal.
+SQL: 
+        SELECT Player_s, Team_s, Time, Score 
+        FROM parsed_commentary_25513272 WHERE Event_Type = 'Goal' 
+        ORDER BY match_minute ASC, injury_time_minutes ASC, Time ASC 
+        LIMIT 1;
+        
+Difficulty: Easy
+Headers: ['Player_s', 'Team_s', 'Time', 'Score']
+Result:
+  ('Oussama Assaidi', 'Stoke City', '49', '1 - 0')
+
+--- Query ID: 53 ---
+Name: Stat: First Half Shots on Target
+Query: How many times did Stoke City test the keeper in the first half? Show me all their shots on target before the break.
+SQL: 
+        SELECT Time, Player_s, Description 
+        FROM parsed_commentary_25513272 WHERE Team_s = 'Stoke City' 
+        AND Event_Type = 'Shot' 
+        AND half = 'First Half' 
+        AND Description LIKE '%on target%';
+        
+Difficulty: Medium
+Headers: ['Time', 'Player_s', 'Description']
+Result: No Results Found.
+
+--- Query ID: 54 ---
+Name: Stat: Hat-trick Check
+Query: Did anyone take the match ball home? Show me any player who scored three or more, their team, and the goal count.
+SQL: 
+        SELECT Player_s, Team_s, COUNT(*) AS goals 
+        FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Goal' GROUP BY Player_s, Team_s 
+        HAVING goals >= 3;
+        
+Difficulty: Medium
+Headers: ['Player_s', 'Team_s', 'goals']
+Result: No Results Found.
+
+--- Query ID: 55 ---
+Name: Stat: Last Goal of the Match
+Query: Who had the final say in the scoring? Show me the details of the last goal.
+SQL: 
+        SELECT Time, Player_s, Team_s, Score 
+        FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Goal' 
+        ORDER BY match_minute DESC, injury_time_minutes DESC, Time DESC 
+        LIMIT 1;
+        
+Difficulty: Easy
+Headers: ['Time', 'Player_s', 'Team_s', 'Score']
+Result:
+  ('90+2', 'Leighton Baines', 'Everton', '1 - 1')
+
+--- Query ID: 56 ---
+Name: Stat: Player with Most Fouls
+Query: Who was the biggest offender on the pitch? Show me the player who committed the most fouls and their total.
+SQL: 
+        SELECT Player_s, Team_s, COUNT(*) AS fouls_committed 
+        FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Foul' AND Player_s IS NOT NULL 
+        GROUP BY Player_s, Team_s 
+        ORDER BY fouls_committed DESC 
+        LIMIT 1;
+        
+Difficulty: Easy
+Headers: ['Player_s', 'Team_s', 'fouls_committed']
+Result:
+  ("Steven N'Zonzi", 'Stoke City', 2)
+
+--- Query ID: 57 ---
+Name: Stat: Player with Multiple Cards
+Query: Did any player lose their head? Show me anyone who got more than one card and how many they received.
+SQL: 
+        SELECT Player_s, Team_s, COUNT(*) AS card_count 
+        FROM parsed_commentary_25513272 
+        WHERE Event_Type IN ('Yellow Card', 'Red Card') 
+        GROUP BY Player_s, Team_s HAVING card_count > 1;
+        
+Difficulty: Medium
+Headers: ['Player_s', 'Team_s', 'card_count']
+Result: No Results Found.
+
+--- Query ID: 58 ---
+Name: Stat: Second Half Corners
+Query: How many corners did Stoke City get after halftime? List them all with the time and the player who took it.
+SQL: 
+        SELECT Time, Player_s 
+        FROM parsed_commentary_25513272 
+        WHERE Team_s = 'Stoke City' AND Event_Type = 'Corner' 
+        AND half = 'Second Half';
+        
+Difficulty: Easy
+Headers: ['Time', 'Player_s']
+Result: No Results Found.
+
+--- Query ID: 59 ---
+Name: Stat: Team with Most Corners
+Query: Which team was earning more set pieces? Show me the team with the most corners and their total.
+SQL: 
+        SELECT Team_s, COUNT(*) as corner_count 
+        FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Corner' AND Team_s IS NOT NULL 
+        GROUP BY Team_s 
+        ORDER BY corner_count DESC 
+        LIMIT 1;
+        
+Difficulty: Easy
+Headers: ['Team_s', 'corner_count']
+Result: No Results Found.
+
+--- Query ID: 60 ---
+Name: Stat: Team with Most Fouls
+Query: Which side was putting themselves about more? Show me the team that committed the most fouls and the total number.
+SQL: 
+        SELECT Team_s, COUNT(*) AS foul_count 
+        FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Foul' AND Team_s IS NOT NULL 
+        GROUP BY Team_s 
+        ORDER BY foul_count DESC 
+        LIMIT 1;
+        
+Difficulty: Easy
+Headers: ['Team_s', 'foul_count']
+Result:
+  ('Stoke City', 5)
+
+--- Query ID: 61 ---
+Name: Stat: Total Injury Time Played
+Query: What was the total injury time awarded across the entire match?
+SQL: 
+        SELECT SUM(max_stoppage) as total_stoppage_time 
+        FROM (SELECT half, MAX(injury_time_minutes) as max_stoppage FROM parsed_commentary_25513272 GROUP BY half);
+        
+Difficulty: Medium
+Headers: ['total_stoppage_time']
+Result:
+  (7,)
+
+--- Query ID: 62 ---
+Name: Stat: Total Red Cards
+Query: What was the final red card tally for the match?
+SQL: 
+        SELECT COUNT(*) 
+        FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Red Card';
+        
+Difficulty: Easy
+Headers: ['*']
+Result:
+  (0,)
+
+--- Query ID: 63 ---
+Name: The '90th Minute Heroics'
+Query: Give me all the drama from the death. Show me every goal, card, and shot in the 90th minute and stoppage time.
+SQL: 
+        SELECT Time, Event_Type, Player_s, Team_s, Description FROM parsed_commentary_25513272
+        WHERE match_minute >= 90 AND half = 'Second Half' AND Event_Type IN ('Goal', 'Shot', 'Yellow Card', 'Red Card')
+        ORDER BY match_minute, injury_time_minutes;
+        
+Difficulty: Easy
+Headers: ['Time', 'Event_Type', 'Player_s', 'Team_s', 'Description']
+Result:
+  ('90+2', 'Goal', 'Leighton Baines', 'Everton', '1 - 1\nLeighton Baines (Everton) converts the penalty with ease by slotting the ball into the bottom left corner of the goal after the goalkeeper guesses wrong and dives the opposite way!')
+  ('90+2', 'Yellow Card', 'Jermaine Pennant', 'Stoke City', "Jermaine Pennant (Stoke City) violates the rules and gets a yellow card. It's a penalty! Will we witness a change on the scoreline?")
+
+--- Query ID: 64 ---
+Name: The 'Afters' Stat
+Query: Did tempers flare after the final whistle? Show me any cards that were shown after the match ended.
+SQL: 
+        WITH AllEventsWithRowID AS (SELECT *, ROW_NUMBER() OVER(ORDER BY match_minute, injury_time_minutes, Time) as row_id FROM parsed_commentary_25513272),
+        FinalWhistle AS (SELECT row_id FROM AllEventsWithRowID WHERE Event_Type = 'Full Time' LIMIT 1)
+        SELECT aewr.Time, aewr.Player_s, aewr.Team_s, aewr.Description
+        FROM AllEventsWithRowID AS aewr, FinalWhistle AS fw
+        WHERE aewr.row_id > fw.row_id AND aewr.Event_Type IN ('Yellow Card', 'Red Card');
+        
+Difficulty: Hard
+Headers: ['Time', 'Player_s', 'Team_s', 'Description']
+Result: No Results Found.
+
+--- Query ID: 65 ---
+Name: The 'Aggressor's Timeline'
+Query: Who was the main enforcer? For the player with the most fouls, show me a timeline of all their fouls and cards.
+SQL: 
+        WITH TopFouler AS (SELECT Player_s FROM parsed_commentary_25513272 WHERE Event_Type = 'Foul' AND Player_s IS NOT NULL GROUP BY Player_s ORDER BY COUNT(*) DESC LIMIT 1)
+        SELECT Time, Event_Type, Description FROM parsed_commentary_25513272
+        WHERE Player_s = (SELECT Player_s FROM TopFouler) AND Event_Type IN ('Foul', 'Yellow Card', 'Red Card') ORDER BY match_minute;
+        
+Difficulty: Hard
+Headers: ['Time', 'Event_Type', 'Description']
+Result:
+  ('15', 'Foul', "Andre Marriner blows his whistle for a foul after Steven N'Zonzi (Stoke City) hacks down one of his opponents. Everton will take a free kick.")
+  ('45', 'Foul', "Steven N'Zonzi (Stoke City) manages to dispossess his opponent of the ball, but he commits a foul in the process and the referee blows his whistle. A free kick is awarded to Everton.")
+
+--- Query ID: 66 ---
+Name: The 'Build-up Play' Timeline
+Query: Let's break down the goals. For every goal scored, show me the two actions that came right before it.
+SQL: 
+        WITH AllEventsWithRowID AS (SELECT *, ROW_NUMBER() OVER(ORDER BY match_minute, injury_time_minutes, Time) as row_id FROM parsed_commentary_25513272),
+        GoalRowIDs AS (SELECT row_id FROM AllEventsWithRowID WHERE Event_Type = 'Goal')
+        SELECT p.Time, p.Event_Type, p.Player_s, p.Team_s, p.Description FROM AllEventsWithRowID p
+        JOIN GoalRowIDs g ON p.row_id BETWEEN g.row_id - 2 AND g.row_id
+        ORDER BY g.row_id, p.row_id;
+        
+Difficulty: Hard
+Headers: ['Time', 'Event_Type', 'Player_s', 'Team_s', 'Description']
+Result:
+  ('46', 'Match Start', None, None, 'The second half gets underway.')
+  ('47', 'Build-up Play', None, None, 'Everton enjoy a period of possession as they are exchanging some passes and waiting for an opportunity to strike.')
+  ('49', 'Goal', 'Oussama Assaidi', 'Stoke City', '1 - 0\nWonderful finish from Oussama Assaidi (Stoke City). He drills a low shot precisely into the bottom left corner. No chance for the goalkeeper.')
+  ('89', 'Build-up Play', 'Steven Naismith', 'Everton', 'Steven Naismith (Everton) plants a goal-bound header towards the middle of the target after a nice cross inside the box, but one of the defenders manages to deflect it away.')
+  ('90', 'Foul', 'Jermaine Pennant', 'Stoke City', 'Jermaine Pennant (Stoke City) tackles a bit over-zealously and Andre Marriner blows for a foul. Everton are awarded a free kick.')
+  ('90+2', 'Goal', 'Leighton Baines', 'Everton', '1 - 1\nLeighton Baines (Everton) converts the penalty with ease by slotting the ball into the bottom left corner of the goal after the goalkeeper guesses wrong and dives the opposite way!')
+
+--- Query ID: 67 ---
+Name: The 'Busiest Player' Index
+Query: Who was at the heart of everything? Show me the player with the most actions recorded in the whole match.
+SQL: 
+        SELECT Player_s, Team_s, COUNT(*) as total_events FROM parsed_commentary_25513272
+        WHERE Player_s IS NOT NULL GROUP BY Player_s, Team_s ORDER BY total_events DESC LIMIT 1;
+        
+Difficulty: Easy
+Headers: ['Player_s', 'Team_s', 'total_events']
+Result:
+  ('Kevin Mirallas', 'Everton', 7)
+
+--- Query ID: 68 ---
+Name: The 'Calamity Sub' Stat
+Query: Did any sub have a disastrous start? Show me a substitute who gave away a foul that led to a shot within 5 minutes of coming on.
+SQL: 
+        WITH SubTimes AS (SELECT Player_In, match_minute AS sub_minute FROM parsed_commentary_25513272 WHERE Event_Type = 'Substitution')
+        SELECT f.Time, f.Player_s, f.Description FROM SubTimes st
+        JOIN parsed_commentary_25513272 f ON st.Player_In = f.Player_s
+        WHERE f.Event_Type = 'Foul' AND f.match_minute BETWEEN st.sub_minute AND st.sub_minute + 5
+        AND EXISTS (SELECT 1 FROM parsed_commentary_25513272 s WHERE s.Event_Type = 'Shot' AND s.Team_s != f.Team_s AND s.match_minute BETWEEN f.match_minute AND f.match_minute + 1);
+        
+Difficulty: Hard
+Headers: ['Time', 'Player_s', 'Description']
+Result: No Results Found.
+
+--- Query ID: 70 ---
+Name: The 'Cautionary Tale' Foul Rate
+Query: How did the first booking affect Stoke City's discipline? Show me their foul rate before that card versus their foul rate after.
+SQL: 
+        WITH FirstCardMinute AS (SELECT MIN(match_minute) as card_minute FROM parsed_commentary_25513272 WHERE Event_Type = 'Yellow Card' AND Team_s = 'Stoke City')
+        SELECT 'Fouls per minute before card' as metric, CAST(COUNT(*) AS REAL) / (SELECT card_minute FROM FirstCardMinute) as rate
+        FROM parsed_commentary_25513272 WHERE Event_Type = 'Foul' AND Team_s = 'Stoke City' AND match_minute < (SELECT card_minute FROM FirstCardMinute)
+        UNION ALL
+        SELECT 'Fouls per minute after card' as metric, CAST(COUNT(*) AS REAL) / (90 - (SELECT card_minute FROM FirstCardMinute)) as rate
+        FROM parsed_commentary_25513272 WHERE Event_Type = 'Foul' AND Team_s = 'Stoke City' AND match_minute >= (SELECT card_minute FROM FirstCardMinute);
+        
+Difficulty: Hard
+Headers: []
+Result:
+  ('Fouls per minute before card', 0.07017543859649122)
+  ('Fouls per minute after card', 0.030303030303030304)
+
+--- Query ID: 71 ---
+Name: The 'Commentator's xG'
+Query: Which team created the golden opportunities? Show me all the shots the commentary called 'one-on-one' or 'point-blank'.
+SQL: 
+        SELECT Time, Player_s, Team_s, Description FROM parsed_commentary_25513272 WHERE Event_Type IN ('Shot', 'Goal')
+        AND (Description LIKE '%one-on-one%' OR Description LIKE '%point-blank%' OR Description LIKE '%open goal%');
+        
+Difficulty: Medium
+Headers: ['Time', 'Player_s', 'Team_s', 'Description']
+Result: No Results Found.
+
+--- Query ID: 72 ---
+Name: The 'Consolation Goal' Finder
+Query: Were there any late, meaningless goals? Show me goals scored by a team that was already down by two or more.
+SQL: 
+        WITH AllEventsWithRowID AS (SELECT *, ROW_NUMBER() OVER (ORDER BY match_minute, injury_time_minutes, Time) as row_id FROM parsed_commentary_25513272),
+        GoalEventsWithPrevScore AS (
+            SELECT Time, Player_s, Team_s, Score, LAG(Score, 1, '0 - 0') OVER (ORDER BY row_id) as score_before_this_goal
+            FROM AllEventsWithRowID WHERE Event_Type = 'Goal'
+        )
+        SELECT Time, Player_s, Team_s, Score FROM GoalEventsWithPrevScore
+        WHERE (
+            SELECT
+                (CASE
+                    WHEN Team_s = (SELECT T.Team_s FROM parsed_commentary_25513272 T WHERE T.Team_s IS NOT NULL ORDER BY Time LIMIT 1)
+                    THEN CAST(SUBSTR(score_before_this_goal, 1, INSTR(score_before_this_goal, ' - ') - 1) AS INTEGER) - CAST(SUBSTR(score_before_this_goal, INSTR(score_before_this_goal, ' - ') + 3) AS INTEGER)
+                    ELSE CAST(SUBSTR(score_before_this_goal, INSTR(score_before_this_goal, ' - ') + 3) AS INTEGER) - CAST(SUBSTR(score_before_this_goal, 1, INSTR(score_before_this_goal, ' - ') - 1) AS INTEGER)
+                END) <= -2
+        );
+        
+Difficulty: Hard
+Headers: ['Time', 'Player_s', 'Team_s', 'Score']
+Result: No Results Found.
+
+--- Query ID: 73 ---
+Name: The 'Desperation' Sub
+Query: Which manager made the last desperate change? Show me the details of the final sub of the game.
+SQL: 
+        SELECT Time, Team_s, Player_In, Player_Out FROM parsed_commentary_25513272 WHERE Event_Type = 'Substitution' ORDER BY match_minute DESC, injury_time_minutes DESC, Time DESC LIMIT 1;
+        
+Difficulty: Easy
+Headers: ['Time', 'Team_s', 'Player_In', 'Player_Out']
+Result:
+  ('82', 'Stoke City', 'Wilson Palacios', 'Charles Graham Adam')
+
+--- Query ID: 74 ---
+Name: The 'Dirty Tackle' Log
+Query: Show me the really bad challenges. List any fouls the commentary called 'nasty', 'late', or 'reckless'.
+SQL: 
+        SELECT Time, Player_s, Team_s, Description FROM parsed_commentary_25513272 WHERE Event_Type = 'Foul' AND (Description LIKE '%nasty%' OR Description LIKE '%late%' OR Description LIKE '%reckless%');
+        
+Difficulty: Medium
+Headers: ['Time', 'Player_s', 'Team_s', 'Description']
+Result: No Results Found.
+
+--- Query ID: 75 ---
+Name: The 'Discipline Decay' Analysis
+Query: Show me the card count for each team, broken down by half, so we can see if things got worse after the break.
+SQL: 
+        SELECT Team_s, SUM(CASE WHEN half = 'First Half' THEN 1 ELSE 0 END) as first_half_cards, SUM(CASE WHEN half = 'Second Half' THEN 1 ELSE 0 END) as second_half_cards
+        FROM parsed_commentary_25513272 WHERE Event_Type IN ('Yellow Card', 'Red Card') AND Team_s IS NOT NULL GROUP BY Team_s;
+        
+Difficulty: Easy
+Headers: ['Team_s', 'first_half_cards', 'second_half_cards']
+Result:
+  ('Everton', 0, 1)
+  ('Stoke City', 0, 3)
+
+--- Query ID: 76 ---
+Name: The 'Early Hook' Tactical Sub
+Query: Who was the first player hooked for tactical reasons? Show me the first sub who wasn't injured in the five minutes prior.
+SQL: 
+        SELECT s.Time, s.Player_Out, s.Team_s FROM parsed_commentary_25513272 s
+        WHERE s.Event_Type = 'Substitution' AND s.Player_Out IS NOT NULL AND NOT EXISTS (
+            SELECT 1 FROM parsed_commentary_25513272 i WHERE i.Event_Type = 'Injury' AND i.Player_s = s.Player_Out AND i.match_minute BETWEEN s.match_minute - 5 AND s.match_minute
+        ) ORDER BY s.match_minute ASC, s.Time ASC LIMIT 1;
+        
+Difficulty: Medium
+Headers: ['Time', 'Player_Out', 'Team_s']
+Result:
+  ('72', 'Steven Pienaar', 'Everton')
+
+--- Query ID: 78 ---
+Name: The 'Final 10 Frenzy' Subs
+Query: Who rolled the dice at the end? Show the number of subs each team made in the last ten minutes of normal time.
+SQL: 
+        SELECT Team_s, COUNT(*) as late_substitutions
+        FROM parsed_commentary_25513272 WHERE Event_Type = 'Substitution' AND match_minute >= 80 AND Team_s IS NOT NULL GROUP BY Team_s;
+        
+Difficulty: Easy
+Headers: ['Team_s', 'late_substitutions']
+Result:
+  ('Everton', 1)
+  ('Stoke City', 1)
+
+--- Query ID: 79 ---
+Name: The 'Foul Magnet' Award
+Query: Who was on the receiving end all day? Show me the player who was fouled the most.
+SQL: 
+        SELECT Player_s, Team_s, COUNT(*) as fouls_won FROM parsed_commentary_25513272
+        WHERE Event_Type = 'Foul' AND Description LIKE '%wins a free kick%'
+        GROUP BY Player_s, Team_s ORDER BY fouls_won DESC LIMIT 1;
+        
+Difficulty: Medium
+Headers: ['Player_s', 'Team_s', 'fouls_won']
+Result: No Results Found.
+
+--- Query ID: 80 ---
+Name: The 'Game Reset' Stat
+Query: How did the game change after the red card? Show me the very next major event after the sending-off.
+SQL: 
+        WITH AllEventsWithRowID AS (SELECT *, ROW_NUMBER() OVER(ORDER BY match_minute, injury_time_minutes, Time) as row_id FROM parsed_commentary_25513272),
+        RedCardTime AS (SELECT row_id FROM AllEventsWithRowID WHERE Event_Type = 'Red Card' ORDER BY row_id DESC LIMIT 1)
+        SELECT aewr.Time, aewr.Event_Type, aewr.Player_s, aewr.Team_s
+        FROM AllEventsWithRowID AS aewr, RedCardTime AS rct
+        WHERE aewr.row_id > rct.row_id AND aewr.Event_Type IN ('Goal', 'Shot', 'Corner', 'Yellow Card', 'Red Card')
+        ORDER BY aewr.row_id ASC LIMIT 1;
+        
+Difficulty: Hard
+Headers: ['Time', 'Event_Type', 'Player_s', 'Team_s']
+Result: No Results Found.
+
+--- Query ID: 81 ---
+Name: The 'Gegenpress' Foul
+Query: Who was doing the pressing from the front? Show me the player who committed the most fouls in the opposition's half.
+SQL: 
+        SELECT Player_s, Team_s, COUNT(*) as high_fouls FROM parsed_commentary_25513272
+        WHERE Event_Type = 'Foul' AND Description LIKE '%attacking half%'
+        GROUP BY Player_s, Team_s ORDER BY high_fouls DESC LIMIT 1;
+        
+Difficulty: Medium
+Headers: ['Player_s', 'Team_s', 'high_fouls']
+Result: No Results Found.
+
+--- Query ID: 82 ---
+Name: The 'Go-Ahead Goal' Specialist
+Query: Who was the player for the big moment? Show me all the goals that put a team ahead when the scores were level.
+SQL: 
+        WITH Goals AS (SELECT * FROM parsed_commentary_25513272 p WHERE p.Event_Type = 'Goal'), 
+        FinalScore AS (SELECT Team_s, COUNT(Team_s) AS total_goals FROM Goals GROUP BY Team_s),
+        OrderedGoals AS (SELECT *, ROW_NUMBER() OVER (ORDER BY match_minute ASC) AS goal_order FROM Goals),
+        CumulativeScore AS (SELECT 
+        goal_order, 
+        match_minute, 
+        Team_s, 
+        Player_s, 
+        Score, 
+        Time,
+        SUM(CASE WHEN Team_s = (SELECT Team_s FROM FinalScore LIMIT 1 OFFSET 0) THEN 1 ELSE 0 END)
+            OVER (ORDER BY goal_order) AS team1_goals,
+        SUM(CASE WHEN Team_s = (SELECT Team_s FROM FinalScore LIMIT 1 OFFSET 1) THEN 1 ELSE 0 END)
+            OVER (ORDER BY goal_order) AS team2_goals
+        FROM OrderedGoals),
+        TiedMoments AS (SELECT 0 AS goal_order UNION SELECT goal_order FROM CumulativeScore WHERE team1_goals = team2_goals),
+        NextGoals AS (SELECT MIN(cs.goal_order) AS goal_order_after_tie FROM TiedMoments tm JOIN CumulativeScore cs ON cs.goal_order > tm.goal_order GROUP BY tm.goal_order),
+        Final AS (SELECT cs.* FROM CumulativeScore cs JOIN NextGoals ng ON cs.goal_order = ng.goal_order_after_tie)
+        SELECT Time, Player_s, Team_s, Score
+        FROM Final
+        ORDER BY goal_order;
+        
+Difficulty: Hard
+Headers: ['Time', 'Player_s', 'Team_s', 'Score']
+Result:
+  ('49', 'Oussama Assaidi', 'Stoke City', '1 - 0')
+
+--- Query ID: 83 ---
+Name: The 'Goal & Assist' Combo (Proxy)
+Query: Who set up the goals? For each scorer, show me the player from their team who made the action right before.
+SQL: 
+        WITH AllEventsWithRowID AS (SELECT *, ROW_NUMBER() OVER(ORDER BY match_minute, injury_time_minutes, Time) as row_id FROM parsed_commentary_25513272),
+        GoalEvents AS (SELECT row_id, Team_s, Player_s as goalscorer FROM AllEventsWithRowID WHERE Event_Type = 'Goal')
+        SELECT g.goalscorer, p.Player_s as provider, p.Event_Type as preceding_event FROM GoalEvents g
+        JOIN AllEventsWithRowID p ON p.row_id = g.row_id - 1
+        WHERE p.Team_s = g.Team_s;
+        
+Difficulty: Hard
+Headers: ['goalscorer', 'provider', 'preceding_event']
+Result: No Results Found.
+
+--- Query ID: 84 ---
+Name: The 'Goal from Nothing' Stat
+Query: Any moments of individual brilliance? Show me goals where the action before wasn't a pass, cross, or shot.
+SQL: 
+        WITH AllEventsWithRowID AS (SELECT *, ROW_NUMBER() OVER(ORDER BY match_minute, injury_time_minutes, Time) as row_id FROM parsed_commentary_25513272),
+        GoalEvents AS (SELECT row_id, Player_s, Team_s, Score, Description FROM AllEventsWithRowID WHERE Event_Type = 'Goal')
+        SELECT g.Player_s, g.Team_s, g.Score, g.Description FROM GoalEvents g
+        JOIN AllEventsWithRowID p ON p.row_id = g.row_id - 1
+        WHERE p.Event_Type NOT IN ('Shot', 'Pass', 'Cross', 'Corner', 'Free-kick');
+        
+Difficulty: Hard
+Headers: ['Player_s', 'Team_s', 'Score', 'Description']
+Result:
+  ('Oussama Assaidi', 'Stoke City', '1 - 0', '1 - 0\nWonderful finish from Oussama Assaidi (Stoke City). He drills a low shot precisely into the bottom left corner. No chance for the goalkeeper.')
+  ('Leighton Baines', 'Everton', '1 - 1', '1 - 1\nLeighton Baines (Everton) converts the penalty with ease by slotting the ball into the bottom left corner of the goal after the goalkeeper guesses wrong and dives the opposite way!')
+
+--- Query ID: 85 ---
+Name: The 'Header Specialist' Goal
+Query: For every headed goal, what was the delivery? Show me the event that happened right before any goal scored with a header.
+SQL: 
+        WITH AllEventsWithRowID AS (SELECT *, ROW_NUMBER() OVER (ORDER BY match_minute, injury_time_minutes, Time) as row_id FROM parsed_commentary_25513272),
+        HeaderGoals AS (
+            SELECT Time, Player_s, Team_s, row_id,
+            LAG(Event_Type, 1) OVER (ORDER BY row_id) as preceding_event_type,
+            LAG(Player_s, 1) OVER (ORDER BY row_id) as preceding_player
+            FROM AllEventsWithRowID WHERE Event_Type = 'Goal' AND Description LIKE '%header%'
+        )
+        SELECT Player_s, Team_s, preceding_event_type, preceding_player FROM HeaderGoals;
+        
+Difficulty: Hard
+Headers: ['Player_s', 'Team_s', 'preceding_event_type', 'preceding_player']
+Result: No Results Found.
+
+--- Query ID: 86 ---
+Name: The 'Heated Rivalry' Index
+Query: When did tempers flare the most? Show me the two fouls that happened closest together in time.
+SQL: 
+        WITH AllEventsWithRowID AS (SELECT *, ROW_NUMBER() OVER(ORDER BY match_minute, injury_time_minutes, Time) as row_id FROM parsed_commentary_25513272),
+        FoulTimes AS (SELECT row_id, match_minute, LAG(row_id, 1) OVER (ORDER BY row_id) as prev_foul_row_id, (match_minute - LAG(match_minute, 1, -99) OVER (ORDER BY row_id)) as gap FROM AllEventsWithRowID WHERE Event_Type = 'Foul'),
+        MinGap AS (SELECT MIN(gap) as min_gap FROM FoulTimes WHERE gap >= 0)
+        SELECT p.Time, p.Event_Type, p.Player_s, p.Team_s, p.Description FROM AllEventsWithRowID p JOIN FoulTimes ft ON p.row_id = ft.row_id OR p.row_id = ft.prev_foul_row_id WHERE ft.gap = (SELECT min_gap FROM MinGap);
+        
+Difficulty: Hard
+Headers: ['Time', 'Event_Type', 'Player_s', 'Team_s', 'Description']
+Result:
+  ('20', 'Foul', 'Charlie Adam', 'Stoke City', 'Charlie Adam (Stoke City) was holding his opponent and concedes a free kick for a foul. A free kick has been awarded to Everton.')
+  ('23', 'Foul', 'Leighton Baines', 'Everton', 'Leighton Baines (Everton) makes a slide tackle, but referee Andre Marriner blows for a foul. Stoke are awarded a free kick.')
+
+--- Query ID: 87 ---
+Name: The 'Hot-Headed Sub' Card
+Query: Which substitute got themselves into trouble the fastest? Show me the player and how many minutes it took for them to get booked after coming on.
+SQL: 
+        WITH SubTimes AS (SELECT Player_In, match_minute AS sub_minute FROM parsed_commentary_25513272 WHERE Event_Type = 'Substitution' AND Player_In IS NOT NULL),
+        CardTimes AS (SELECT Player_s, MIN(match_minute) AS card_minute FROM parsed_commentary_25513272 WHERE Event_Type = 'Yellow Card' GROUP BY Player_s)
+        SELECT st.Player_In, ct.card_minute - st.sub_minute AS minutes_to_card FROM SubTimes st JOIN CardTimes ct ON st.Player_In = ct.Player_s
+        WHERE ct.card_minute >= st.sub_minute ORDER BY minutes_to_card ASC LIMIT 1;
+        
+Difficulty: Hard
+Headers: ['Player_In', 'minutes_to_card']
+Result: No Results Found.
+
+--- Query ID: 88 ---
+Name: The 'Impact Sub's' First Action
+Query: How quickly did subs get involved? For each one, show me their first action and how long it took them to do it.
+SQL: 
+        WITH SubEvents AS (SELECT Player_In, match_minute as sub_minute FROM parsed_commentary_25513272 WHERE Event_Type = 'Substitution' AND Player_In IS NOT NULL)
+        SELECT se.Player_In,
+          (SELECT pa.Event_Type FROM parsed_commentary_25513272 pa WHERE pa.Event_Type != 'Substitution' AND pa.Player_s = se.Player_In AND pa.match_minute >= se.sub_minute ORDER BY pa.match_minute, pa.Time ASC LIMIT 1) as first_action,
+          (SELECT MIN(pa.match_minute) FROM parsed_commentary_25513272 pa WHERE pa.Player_s = se.Player_In AND pa.match_minute >= se.sub_minute) - se.sub_minute as minutes_to_first_action
+        FROM SubEvents se;
+        
+Difficulty: Hard
+Headers: ['Player_In', 'first_action', 'minutes_to_first_action']
+Result:
+  ('Wilson Palacios', None, 0)
+  ('Steven Naismith', 'Build-up Play', 0)
+  ('Nikica Jelavic', None, 0)
+  ('Leon Osman', None, 0)
+  ('Jack Butland', None, 0)
+
+--- Query ID: 89 ---
+Name: The 'Injury Prone' Half
+Query: Which half was more brutal? Show a count of injuries for the first half versus the second.
+SQL: 
+        SELECT half, COUNT(*) as injury_count FROM parsed_commentary_25513272
+        WHERE Event_Type = 'Injury' GROUP BY half ORDER BY injury_count DESC;
+        
+Difficulty: Easy
+Headers: ['half', 'injury_count']
+Result:
+  ('First Half', 1)
+
+--- Query ID: 90 ---
+Name: The 'Keeper Sweeper' Action
+Query: Was the keeper for Stoke City playing off his line? Show me any of his actions described as 'outside of his area'.
+SQL: 
+        SELECT Time, Description 
+        FROM parsed_commentary_25513272 
+        WHERE Team_s = 'Stoke City' 
+        AND Event_Type = 'Save' 
+        AND Description LIKE '%outside%';
+        
+Difficulty: Medium
+Headers: ['Time', 'Description']
+Result: No Results Found.
+
+--- Query ID: 91 ---
+Name: The 'Last Chance Saloon' Sub
+Query: Who was the final throw of the dice? Show me the last sub of the match and how much time was left.
+SQL: 
+        SELECT Time, Player_In, Team_s, 90 - match_minute as minutes_left FROM parsed_commentary_25513272
+        WHERE Event_Type = 'Substitution' ORDER BY match_minute DESC, injury_time_minutes DESC, Time DESC LIMIT 1;
+        
+Difficulty: Easy
+Headers: ['Time', 'Player_In', 'Team_s', 'minutes_left']
+Result:
+  ('82', 'Wilson Palacios', 'Stoke City', 8)
+
+--- Query ID: 92 ---
+Name: The 'Last-Gasp Defender' Stat
+Query: In added time, who was the busiest defender? Show the player and their count of tackles, blocks, and clearances.
+SQL: 
+        SELECT Player_s, Team_s, COUNT(*) as defensive_actions FROM parsed_commentary_25513272
+        WHERE half = 'Second Half' AND injury_time_minutes > 0 AND (Event_Type = 'Tackle' OR Description LIKE '%clearance%' OR Description LIKE '%block%') AND Player_s IS NOT NULL
+        GROUP BY Player_s, Team_s ORDER BY defensive_actions DESC;
+        
+Difficulty: Medium
+Headers: ['Player_s', 'Team_s', 'defensive_actions']
+Result: No Results Found.
+
+--- Query ID: 93 ---
+Name: The 'Lead Durability' Test
+Query: When Stoke City got their noses in front, how long did they hold on? Show me how many minutes their lead lasted.
+SQL: 
+        WITH AllEventsWithRowID AS (SELECT *, ROW_NUMBER() OVER (ORDER BY match_minute, injury_time_minutes, Time) as row_id FROM parsed_commentary_25513272),
+        GoalScores AS (
+            SELECT match_minute, Team_s,
+            (SELECT T.Team_s FROM AllEventsWithRowID T WHERE T.Team_s IS NOT NULL ORDER BY row_id LIMIT 1) as team1_name,
+            SUM(CASE WHEN Team_s = (SELECT T.Team_s FROM AllEventsWithRowID T WHERE T.Team_s IS NOT NULL ORDER BY row_id LIMIT 1) THEN 1 ELSE 0 END) OVER (ORDER BY row_id) as team1_score,
+            SUM(CASE WHEN Team_s != (SELECT T.Team_s FROM AllEventsWithRowID T WHERE T.Team_s IS NOT NULL ORDER BY row_id LIMIT 1) THEN 1 ELSE 0 END) OVER (ORDER BY row_id) as team2_score
+            FROM AllEventsWithRowID WHERE Event_Type = 'Goal'
+        ), LeadTime AS (
+            SELECT MIN(match_minute) AS minute_took_lead FROM GoalScores
+            WHERE ('Stoke City' = team1_name AND team1_score > team2_score AND (team1_score - 1) <= team2_score) OR ('Stoke City' != team1_name AND team2_score > team1_score AND (team2_score - 1) <= team1_score)
+        ), EqualizerTime AS (
+            SELECT MIN(match_minute) AS minute_conceded_equalizer FROM GoalScores WHERE match_minute > (SELECT minute_took_lead FROM LeadTime) AND team1_score = team2_score
+        )
+        SELECT COALESCE((SELECT minute_conceded_equalizer FROM EqualizerTime), 90) - (SELECT minute_took_lead FROM LeadTime) AS minutes_lead_lasted;
+        
+Difficulty: Hard
+Headers: ['minutes_lead_lasted']
+Result:
+  (41,)
+
+--- Query ID: 94 ---
+Name: The 'Long-Range Threat' Team
+Query: Who was trying their luck from distance? Show which team had more shots from outside the box.
+SQL: 
+        SELECT Team_s, COUNT(*) as long_range_shots FROM parsed_commentary_25513272
+        WHERE Event_Type = 'Shot' AND (Description LIKE '%outside the box%' OR Description LIKE '%from distance%')
+        GROUP BY Team_s ORDER BY long_range_shots DESC;
+        
+Difficulty: Medium
+Headers: ['Team_s', 'long_range_shots']
+Result: No Results Found.
+
+--- Query ID: 95 ---
+Name: The 'Loss of Composure' Index
+Query: After Stoke City conceded, who was the first of their players to give away a foul?
+SQL: 
+        WITH ConcededTime AS (SELECT MIN(match_minute) as minute_conceded FROM parsed_commentary_25513272 WHERE Event_Type = 'Goal' AND Team_s != 'Stoke City')
+        SELECT f.Time, f.Player_s, f.Description FROM parsed_commentary_25513272 f, ConcededTime ct
+        WHERE f.Team_s = 'Stoke City' AND f.Event_Type = 'Foul' AND f.match_minute > ct.minute_conceded
+        ORDER BY f.match_minute ASC, f.Time ASC LIMIT 1;
+        
+Difficulty: Hard
+Headers: ['Time', 'Player_s', 'Description']
+Result: No Results Found.
+
+--- Query ID: 96 ---
+Name: The 'Manager's Plan B' First Sub
+Query: What was the first roll of the dice from each manager? Show me the first sub for each team.
+SQL: 
+        SELECT Team_s, Time, Player_In, Player_Out FROM (
+            SELECT *, ROW_NUMBER() OVER (PARTITION BY Team_s ORDER BY match_minute, injury_time_minutes, Time) as sub_rank
+            FROM parsed_commentary_25513272 WHERE Event_Type = 'Substitution'
+        ) WHERE sub_rank = 1;
+        
+Difficulty: Hard
+Headers: ['Team_s', 'Time', 'Player_In', 'Player_Out']
+Result:
+  ('Everton', '72', 'Nikica Jelavic', None)
+  ('Stoke City', '46', 'Jack Butland', None)
+
+--- Query ID: 97 ---
+Name: The 'One-Man Wrecking Crew'
+Query: Was there an all-action player? Show me anyone who scored, committed a foul, and won a foul, all in the same half.
+SQL: 
+        SELECT p1.Player_s FROM parsed_commentary_25513272 p1
+        WHERE p1.Event_Type = 'Goal' AND EXISTS (
+            SELECT 1 FROM parsed_commentary_25513272 p2
+            WHERE p2.Player_s = p1.Player_s AND p2.half = p1.half AND p2.Event_Type = 'Foul' AND p2.Description NOT LIKE '%wins a free kick%'
+        ) AND EXISTS (
+            SELECT 1 FROM parsed_commentary_25513272 p3
+            WHERE p3.Player_s = p1.Player_s AND p3.half = p1.half AND p3.Event_Type = 'Foul' AND p3.Description LIKE '%wins a free kick%'
+        ) GROUP BY p1.Player_s;
+        
+Difficulty: Medium
+Headers: ['Player_s']
+Result: No Results Found.
+
+--- Query ID: 98 ---
+Name: The 'Panic Stations' Double Sub
+Query: Show me when a manager hit the panic button. Any instances of a team making two subs in a five-minute window?
+SQL: 
+        WITH SubsWithRowID AS (SELECT Time, Player_In, Team_s, match_minute, ROW_NUMBER() OVER (ORDER BY match_minute, injury_time_minutes, Time) as row_id FROM parsed_commentary_25513272 WHERE Event_Type = 'Substitution')
+        SELECT s1.Time as First_Sub_Time, s1.Player_In as First_Player_In, s1.Team_s, s2.Time as Second_Sub_Time, s2.Player_In as Second_Player_In
+        FROM SubsWithRowID s1 JOIN SubsWithRowID s2 ON s1.Team_s = s2.Team_s AND s2.row_id > s1.row_id WHERE s2.match_minute - s1.match_minute <= 5;
+        
+Difficulty: Hard
+Headers: ['First_Sub_Time', 'First_Player_In', 'Team_s', 'Second_Sub_Time', 'Second_Player_In']
+Result:
+  ('72', 'Nikica Jelavic', 'Everton', '72', 'Leon Osman')
+
+--- Query ID: 99 ---
+Name: The 'Poacher vs. Worker' Index
+Query: For every player who scored, were they just a goal threat or involved all over? Show their goal count next to a count of their other actions.
+SQL: 
+        SELECT Player_s, SUM(CASE WHEN Event_Type = 'Goal' THEN 1 ELSE 0 END) as goals, SUM(CASE WHEN Event_Type != 'Goal' THEN 1 ELSE 0 END) as other_actions
+        FROM parsed_commentary_25513272 WHERE Player_s IN (SELECT DISTINCT Player_s FROM parsed_commentary_25513272 WHERE Event_Type = 'Goal')
+        GROUP BY Player_s;
+        
+Difficulty: Medium
+Headers: ['Player_s', 'goals', 'other_actions']
+Result:
+  ('Leighton Baines', 1, 6)
+  ('Oussama Assaidi', 1, 1)
+
+--- Query ID: 100 ---
+Name: The 'Possession Without Penetration' Index
+Query: All possession and no punch. Show me the timeline of Stoke City's longest spell with the ball that didn't create a single shot.
+SQL: 
+        WITH AllEventsWithRowID AS (SELECT *, ROW_NUMBER() OVER(ORDER BY match_minute, injury_time_minutes, Time) as row_id FROM parsed_commentary_25513272),
+        Streaks AS (
+            SELECT *, (row_id - ROW_NUMBER() OVER (PARTITION BY Team_s ORDER BY row_id)) as streak_id
+            FROM AllEventsWithRowID WHERE Team_s IS NOT NULL
+        ), StreakSummary AS (
+            SELECT Team_s, streak_id, COUNT(*) as streak_length, MIN(row_id) as start_row_id, MAX(row_id) as end_row_id, SUM(CASE WHEN Event_Type IN ('Shot', 'Goal') THEN 1 ELSE 0 END) as shots_in_streak
+            FROM Streaks GROUP BY Team_s, streak_id
+        ), LongestShotless AS (
+            SELECT start_row_id, end_row_id FROM StreakSummary WHERE Team_s = 'Stoke City' AND shots_in_streak = 0 ORDER BY streak_length DESC LIMIT 1
+        )
+        SELECT p.Time, p.Event_Type, p.Player_s, p.Team_s, p.Description FROM AllEventsWithRowID p JOIN LongestShotless l ON p.row_id BETWEEN l.start_row_id AND l.end_row_id ORDER BY p.row_id;
+        
+Difficulty: Hard
+Headers: ['Time', 'Event_Type', 'Player_s', 'Team_s', 'Description']
+Result:
+  ('19', 'Penalty Miss/Saved', 'Peter Crouch', 'Stoke City', 'What a chance! Peter Crouch (Stoke City) squanders a promising opportunity as he latches on to a perfect cross from the wing. He produces a bullet header from around the penalty spot which goes just wide of the right post!')
+  ('20', 'Foul', 'Charlie Adam', 'Stoke City', 'Charlie Adam (Stoke City) was holding his opponent and concedes a free kick for a foul. A free kick has been awarded to Everton.')
+
+--- Query ID: 101 ---
+Name: The 'Post-Goal Momentum Swing'
+Query: After each goal, who took control? Show which team had more events in the five minutes that followed.
+SQL: 
+        WITH GoalMinutes AS (SELECT DISTINCT match_minute as goal_minute FROM parsed_commentary_25513272 WHERE Event_Type = 'Goal')
+        SELECT gm.goal_minute as post_goal_period_start, p.Team_s, COUNT(*) as event_count
+        FROM parsed_commentary_25513272 p, GoalMinutes gm
+        WHERE p.match_minute > gm.goal_minute AND p.match_minute <= gm.goal_minute + 5 AND p.Team_s IS NOT NULL
+        GROUP BY gm.goal_minute, p.Team_s ORDER BY gm.goal_minute, event_count DESC;
+        
+Difficulty: Hard
+Headers: ['post_goal_period_start', 'Team_s', 'event_count']
+Result:
+  (49, 'Stoke City', 1)
+  (49, 'Everton', 1)
+
+--- Query ID: 102 ---
+Name: The 'Pressure Cooker' Foul
+Query: Show me the fouls that were immediately punished. List any foul that led to a goal from a free-kick or penalty in the same minute.
+SQL: 
+        SELECT f.Time, f.Player_s, f.Team_s, f.Description
+        FROM parsed_commentary_25513272 f WHERE f.Event_Type = 'Foul' AND EXISTS (
+            SELECT 1 FROM parsed_commentary_25513272 g
+            WHERE g.Event_Type = 'Goal' AND g.Team_s != f.Team_s AND g.match_minute = f.match_minute AND (g.Description LIKE '%free-kick%' OR g.Description LIKE '%penalty%')
+        );
+        
+Difficulty: Medium
+Headers: ['Time', 'Player_s', 'Team_s', 'Description']
+Result:
+  ('90', 'Jermaine Pennant', 'Stoke City', 'Jermaine Pennant (Stoke City) tackles a bit over-zealously and Andre Marriner blows for a foul. Everton are awarded a free kick.')
+
+--- Query ID: 103 ---
+Name: The 'Professional Foul' Log
+Query: Show me the 'dark arts'. List any fouls that the commentary called 'cynical' or 'professional'.
+SQL: 
+        SELECT Time, Player_s, Team_s, Description FROM parsed_commentary_25513272
+        WHERE Event_Type = 'Foul' AND (Description LIKE '%cynical%' OR Description LIKE '%professional%');
+        
+Difficulty: Medium
+Headers: ['Time', 'Player_s', 'Team_s', 'Description']
+Result: No Results Found.
+
+--- Query ID: 104 ---
+Name: The 'Quickfire Double' Brace
+Query: Did any player hit them with a quick one-two? Show me anyone who scored twice in 15 minutes or less.
+SQL: 
+        WITH PlayerGoals AS (
+            SELECT Player_s, match_minute, LAG(match_minute, 1) OVER (PARTITION BY Player_s ORDER BY match_minute, Time) as prev_goal_minute
+            FROM parsed_commentary_25513272 WHERE Event_Type = 'Goal' AND Player_s IS NOT NULL
+        )
+        SELECT Player_s, prev_goal_minute, match_minute 
+        FROM PlayerGoals 
+        WHERE match_minute - prev_goal_minute <= 15;
+        
+Difficulty: Hard
+Headers: ['Player_s', 'prev_goal_minute', 'match_minute']
+Result: No Results Found.
+
+--- Query ID: 105 ---
+Name: The 'Referee's Patience' Index
+Query: Did the ref let more go as the game wore on, or less? Show a simple count of fouls in the first half vs the second.
+SQL: 
+        SELECT half, COUNT(*) as foul_count 
+        FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Foul' 
+        GROUP BY half;
+        
+Difficulty: Easy
+Headers: ['half', 'foul_count']
+Result:
+  ('First Half', 5)
+  ('Second Half', 2)
+
+--- Query ID: 106 ---
+Name: The 'Scoring Method' Breakdown
+Query: How were the goals scored? Give me a simple breakdown: how many headers versus how many with the feet.
+SQL: 
+        SELECT
+            SUM(CASE WHEN Description LIKE '%header%' THEN 1 ELSE 0 END) as header_goals,
+            SUM(CASE WHEN Description NOT LIKE '%header%' THEN 1 ELSE 0 END) as foot_or_other_goals
+        FROM parsed_commentary_25513272 WHERE Event_Type = 'Goal';
+        
+Difficulty: Medium
+Headers: ['header_goals', 'foot_or_other_goals']
+Result:
+  (0, 2)
+
+--- Query ID: 107 ---
+Name: The 'Scrappy Period' Analysis
+Query: Pinpoint the most chaotic spell of the match. I want the 10-minute period with the highest number of cards and fouls.
+SQL: 
+        SELECT (CAST(match_minute / 10 AS INT) * 10) || '-' || (CAST(match_minute / 10 AS INT) * 10 + 10) || ' mins' AS time_window, COUNT(*) AS incidents
+        FROM parsed_commentary_25513272 WHERE Event_Type IN ('Foul', 'Yellow Card', 'Red Card')
+        GROUP BY 1 ORDER BY incidents DESC LIMIT 1;
+        
+Difficulty: Medium
+Headers: ['time_window', 'incidents']
+Result:
+  ('90-100 mins', 2)
+
+--- Query ID: 108 ---
+Name: The 'Set-Piece Battle'
+Query: How dangerous were the set-pieces? Show me how many shots each team generated within a minute of a corner or direct free-kick.
+SQL: 
+        WITH DeadBalls AS (SELECT Team_s, match_minute FROM parsed_commentary_25513272 WHERE Event_Type = 'Corner' OR Description LIKE '%direct free kick%')
+        SELECT db.Team_s, COUNT(s.Time) as shots_from_set_pieces FROM DeadBalls db
+        JOIN parsed_commentary_25513272 s ON db.Team_s = s.Team_s
+        WHERE s.Event_Type IN ('Shot', 'Goal') AND s.match_minute >= db.match_minute AND s.match_minute <= db.match_minute + 1
+        GROUP BY db.Team_s;
+        
+Difficulty: Hard
+Headers: ['Team_s', 'shots_from_set_pieces']
+Result: No Results Found.
+
+--- Query ID: 109 ---
+Name: The 'Shooting Gallery' Period
+Query: When was the game at its most end-to-end? Find the 5-minute spell with the most shots.
+SQL: 
+        SELECT (CAST(match_minute / 5 AS INT) * 5) || '-' || (CAST(match_minute / 5 AS INT) * 5 + 5) || ' mins' AS time_window, COUNT(*) as shot_count
+        FROM parsed_commentary_25513272 WHERE Event_Type IN ('Shot', 'Goal')
+        GROUP BY 1 ORDER BY shot_count DESC LIMIT 1;
+        
+Difficulty: Medium
+Headers: ['time_window', 'shot_count']
+Result:
+  ('90-95 mins', 1)
+
+--- Query ID: 110 ---
+Name: The 'Starter vs. Sub' Goals
+Query: Where did the goals come from, the starters or the bench? Show me a count for each.
+SQL: 
+        WITH AllEventsWithRowID AS (SELECT *, ROW_NUMBER() OVER (ORDER BY match_minute, injury_time_minutes, Time) as row_id FROM parsed_commentary_25513272),
+        Starters AS (SELECT Player_s FROM AllEventsWithRowID WHERE row_id < 23 AND Player_s IS NOT NULL GROUP BY Player_s)
+        SELECT
+            SUM(CASE WHEN Player_s IN (SELECT Player_s FROM Starters) THEN 1 ELSE 0 END) as starter_goals,
+            SUM(CASE WHEN Player_s NOT IN (SELECT Player_s FROM Starters) THEN 1 ELSE 0 END) as substitute_goals
+        FROM parsed_commentary_25513272 WHERE Event_Type = 'Goal';
+        
+Difficulty: Hard
+Headers: ['starter_goals', 'substitute_goals']
+Result:
+  (1, 1)
+
+--- Query ID: 111 ---
+Name: The 'Sub-on-Sub-off' Anomaly
+Query: Did anyone have a nightmare cameo? Show me any player who came on as a sub and then got subbed off himself.
+SQL: 
+        SELECT s_on.Time, s_on.Player_In, s_on.Team_s FROM parsed_commentary_25513272 s_on
+        WHERE s_on.Event_Type = 'Substitution' AND EXISTS (
+            SELECT 1 FROM parsed_commentary_25513272 s_off
+            WHERE s_off.Event_Type = 'Substitution'
+            AND s_on.Player_In = s_off.Player_Out AND s_off.match_minute > s_on.match_minute
+        );
+        
+Difficulty: Easy
+Headers: ['Time', 'Player_In', 'Team_s']
+Result: No Results Found.
+
+--- Query ID: 112 ---
+Name: The 'Subbed to Save' Pattern
+Query: Which players on a yellow were quickly hooked? Show me anyone subbed off within 15 minutes of being booked.
+SQL: 
+        SELECT c.Time as card_time, s.Time as sub_time, c.Player_s, c.Team_s 
+        FROM parsed_commentary_25513272 c
+        JOIN parsed_commentary_25513272 s ON c.Player_s = s.Player_Out AND c.Team_s = s.Team_s
+        WHERE c.Event_Type = 'Yellow Card'
+        AND s.Event_Type = 'Substitution' 
+        AND s.match_minute > c.match_minute 
+        AND s.match_minute - c.match_minute <= 15;
+        
+Difficulty: Easy
+Headers: ['card_time', 'sub_time', 'Player_s', 'Team_s']
+Result: No Results Found.
+
+--- Query ID: 113 ---
+Name: The 'Super Sub' Goal
+Query: Did any substitute make an instant impact? Show me any player who scored after coming off the bench.
+SQL: 
+        SELECT g.Time, g.Player_s, g.Team_s, g.Score 
+        FROM parsed_commentary_25513272 g 
+        WHERE g.Event_Type = 'Goal' 
+        AND g.Player_s IN (SELECT Player_In FROM parsed_commentary_25513272 WHERE Event_Type = 'Substitution');
+        
+Difficulty: Medium
+Headers: ['Time', 'Player_s', 'Team_s', 'Score']
+Result: No Results Found.
+
+--- Query ID: 114 ---
+Name: The 'Tired Legs' Theory
+Query: Let's test the 'tired legs' theory. Show me each team's foul count before the 75th minute and their foul count after.
+SQL: 
+        SELECT Team_s, SUM(CASE WHEN match_minute < 75 THEN 1 ELSE 0 END) AS fouls_first_75, SUM(CASE WHEN match_minute >= 75 THEN 1 ELSE 0 END) AS fouls_last_15_plus
+        FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Foul' 
+        AND Team_s IS NOT NULL 
+        GROUP BY Team_s;
+        
+Difficulty: Easy
+Headers: ['Team_s', 'fouls_first_75', 'fouls_last_15_plus']
+Result:
+  ('Everton', 2, 0)
+  ('Stoke City', 4, 1)
+
+--- Query ID: 115 ---
+Name: The 'Turning Point' Goal
+Query: Let's pinpoint the decisive moment. I want the details of the goal that ultimately won the match: the one that put the winning team ahead for good.
+SQL: 
+        WITH Goals AS (SELECT * FROM parsed_commentary_25513272 p WHERE p.Event_Type = 'Goal'), 
+        FinalScore AS (SELECT Team_s, COUNT(Team_s) AS total_goals FROM Goals GROUP BY Team_s),
+        MatchResult AS (SELECT MAX(CASE WHEN A.total_goals > B.total_goals THEN A.Team_s ELSE B.Team_s END) AS WinningTeam, MIN(A.total_goals) AS LoserScore FROM FinalScore AS A, FinalScore AS B WHERE A.Team_s <> B.Team_s),
+        OrderedGoals AS (SELECT *, ROW_NUMBER() OVER (ORDER BY match_minute ASC) as goal_order FROM Goals),
+        CumulativeScore AS (SELECT goal_order, match_minute, Team_s, Player_s, Score, Time, SUM(CASE WHEN Team_s = (SELECT Team_s FROM FinalScore LIMIT 1 OFFSET 0) THEN 1 ELSE 0 END) OVER (ORDER BY goal_order) AS team1_goals, SUM(CASE WHEN Team_s = (SELECT Team_s FROM FinalScore LIMIT 1 OFFSET 1) THEN 1 ELSE 0 END) OVER (ORDER BY goal_order) AS team2_goals FROM OrderedGoals),
+        TiedMoments AS (SELECT goal_order FROM CumulativeScore WHERE team1_goals = team2_goals),
+        LastTie AS (SELECT MAX(goal_order) AS last_tie_order FROM TiedMoments),
+        FinalLeadGoal AS (SELECT * FROM CumulativeScore 
+                          WHERE goal_order > (SELECT last_tie_order FROM LastTie) 
+                          AND Team_s = (SELECT WinningTeam FROM MatchResult)
+                          ORDER BY goal_order LIMIT 1)
+        SELECT Time, Player_s, Team_s, Score 
+        FROM FinalLeadGoal;
+        
+Difficulty: Hard
+Headers: ['Time', 'Player_s', 'Team_s', 'Score']
+Result: No Results Found.
+
+--- Query ID: 116 ---
+Name: The 'Turnover Cost' Analysis
+Query: Which player was most guilty of giving the ball away in dangerous areas? Show a count of who lost possession leading to a shot within a minute.
+SQL: 
+        WITH Turnovers AS (SELECT p.Player_s, p.Team_s, p.match_minute FROM parsed_commentary_25513272 p WHERE p.Description LIKE '%loses possession%')
+        SELECT t.Player_s, COUNT(*) AS costly_turnovers FROM Turnovers t
+        WHERE EXISTS (SELECT 1 FROM parsed_commentary_25513272 s WHERE s.Event_Type IN ('Shot', 'Goal') AND s.Team_s != t.Team_s AND s.match_minute > t.match_minute AND s.match_minute <= t.match_minute + 1)
+        GROUP BY t.Player_s 
+        ORDER BY costly_turnovers DESC;
+        
+Difficulty: Hard
+Headers: ['Player_s', 'costly_turnovers']
+Result: No Results Found.
+
+--- Query ID: 117 ---
+Name: The 'Unluckiest Player' Award
+Query: Who was denied by the woodwork most often? Show the player and how many times they hit the post or bar.
+SQL: 
+        SELECT Player_s, Team_s, COUNT(*) as woodwork_hits FROM parsed_commentary_25513272
+        WHERE Event_Type = 'Shot' AND Description LIKE '%hits the woodwork%'
+        GROUP BY Player_s, Team_s 
+        ORDER BY woodwork_hits DESC 
+        LIMIT 1;
+        
+Difficulty: Medium
+Headers: ['Player_s', 'Team_s', 'woodwork_hits']
+Result: No Results Found.
+
+--- Query ID: 118 ---
+Name: The 'Walking Wounded' Stat
+Query: Which players were toughing it out? Show me anyone who got treatment but stayed on the pitch.
+SQL: 
+        SELECT Player_s, Team_s 
+        FROM parsed_commentary_25513272 
+        WHERE Event_Type = 'Injury' 
+        AND Player_s IS NOT NULL 
+        AND Player_s NOT IN (SELECT Player_Out FROM parsed_commentary_25513272 WHERE Event_Type = 'Substitution') 
+        GROUP BY Player_s, Team_s;
+        
+Difficulty: Medium
+Headers: ['Player_s', 'Team_s']
+Result: No Results Found.
+
+--- Query ID: 119 ---
+Name: The 'Wasted Dominance' Events
+Query: Show me the best example of possession without end product. Find the longest spell a team had the ball that didn't even lead to a shot.
+SQL: 
+        WITH AllEventsWithRowID AS (SELECT *, ROW_NUMBER() OVER (ORDER BY match_minute, injury_time_minutes, Time) as row_id FROM parsed_commentary_25513272),
+        Streaks AS (
+            SELECT *, (row_id - ROW_NUMBER() OVER (PARTITION BY Team_s ORDER BY row_id)) as streak_id
+            FROM AllEventsWithRowID WHERE Team_s IS NOT NULL
+        ), StreakSummary AS (
+            SELECT streak_id, Team_s, COUNT(*) as streak_length, MIN(row_id) as start_row_id, MAX(row_id) as end_row_id, SUM(CASE WHEN Event_Type IN ('Shot', 'Goal') THEN 1 ELSE 0 END) as shots_in_streak
+            FROM Streaks GROUP BY Team_s, streak_id
+        ), LongestShotless AS (
+            SELECT start_row_id, end_row_id FROM StreakSummary WHERE shots_in_streak = 0 ORDER BY streak_length DESC LIMIT 1
+        )
+        SELECT p.Time, p.Event_Type, p.Player_s, p.Team_s, p.Description FROM AllEventsWithRowID p JOIN LongestShotless l ON p.row_id = l.start_row_id OR p.row_id = l.end_row_id ORDER BY p.row_id;
+        
+Difficulty: Hard
+Headers: ['Time', 'Event_Type', 'Player_s', 'Team_s', 'Description']
+Result:
+  ('9', 'Build-up Play', 'Leighton Baines', 'Everton', 'Leighton Baines (Everton) takes a cheeky throw-in and sets up a counter-attack for his team.')
+  ('15', 'Build-up Play', 'Antolin Alcaraz', 'Everton', "A more precise finish was all that was needed for this set play to have been a success. Antolin Alcaraz (Everton) received the ball far out and fired a projectile which went yards wide of the left post. It's a goal kick.")
+
+--- Query ID: 120 ---
+Name: Timeline: Longest Lull in Play
+Query: When did the game go quiet? Show me the start and end of the longest period without a shot, goal, card, or sub.
+SQL: 
+        WITH AllEventsWithRowID AS (SELECT *, ROW_NUMBER() OVER (ORDER BY match_minute, injury_time_minutes, Time) as row_id FROM parsed_commentary_25513272),
+        GameEvents AS (SELECT row_id, match_minute FROM AllEventsWithRowID WHERE Event_Type IN ('Shot', 'Goal', 'Yellow Card', 'Red Card', 'Substitution')),
+        EventLulls AS (SELECT (match_minute - LAG(match_minute, 1, 0) OVER (ORDER BY row_id)) as lull_duration, LAG(row_id, 1) OVER (ORDER BY row_id) as start_event_row_id, row_id as end_event_row_id FROM GameEvents),
+        MaxLull AS (SELECT start_event_row_id, end_event_row_id FROM EventLulls ORDER BY lull_duration DESC LIMIT 1)
+        SELECT p.Time, p.Event_Type, p.Player_s, p.Team_s, p.Description 
+        FROM AllEventsWithRowID p JOIN MaxLull ml ON p.row_id = ml.start_event_row_id OR p.row_id = ml.end_event_row_id 
+        ORDER BY p.row_id;
+        
+Difficulty: Hard
+Headers: ['Time', 'Event_Type', 'Player_s', 'Team_s', 'Description']
+Result:
+  ('34', 'Shot', 'Oussama Assaidi', 'Stoke City', 'Oussama Assaidi (Stoke City) takes a good touch to control a cross on the edge of the box and fires a low shot towards the left post, but one of the defenders reacts brilliantly to block his effort. It will be a corner kick for Stoke.')
+
+--- Query ID: 121 ---
+Name: Timeline: Post-First Goal Momentum
+Query: What was the reaction to the opening goal? Show me a timeline of everything that happened in the ten minutes after it.
+SQL: 
+        WITH FirstGoal AS (SELECT match_minute FROM parsed_commentary_25513272 WHERE Event_Type = 'Goal' ORDER BY match_minute ASC LIMIT 1)
+        SELECT c.Time, c.Event_Type, c.Player_s, c.Team_s, c.Description 
+        FROM parsed_commentary_25513272 c, FirstGoal fg
+        WHERE c.match_minute > fg.match_minute 
+        AND c.match_minute <= fg.match_minute + 10 
+        ORDER BY c.match_minute ASC;
+        
+Difficulty: Hard
+Headers: ['Time', 'Event_Type', 'Player_s', 'Team_s', 'Description']
+Result:
+  ('51', 'Foul', 'Geoff Cameron', 'Stoke City', "Today's referee Andre Marriner rightly decides to book Geoff Cameron (Stoke City) for his harsh tackle.")
+  ('52', 'Build-up Play', 'Kevin Mirallas', 'Everton', 'Kevin Mirallas (Everton) prepares to take a corner kick.')
+  ('52', 'Corner', None, None, 'The free kick from long range, taken by Everton, is intercepted by one of the defenders. The ball goes out of play. Everton are awarded a corner kick.')
+  ('55', 'Build-up Play', None, None, 'The free kick from long range, taken by Stoke, is intercepted by one of the defenders.')
+  ('55', 'Build-up Play', 'Gareth Barry', 'Everton', 'Gareth Barry (Everton) makes an unfair challenge by holding his opponent to prevent him from getting the ball. Stoke have been awarded a free kick.')
+  ('55', 'Build-up Play', 'Gareth Barry', 'Everton', 'Gareth Barry (Everton) makes an unfair challenge by holding his opponent to prevent him from getting the ball. Stoke have been awarded a free kick.')
+  ('55', 'Build-up Play', 'Gareth Barry', 'Everton', 'Gareth Barry (Everton) makes an unfair challenge by holding his opponent to prevent him from getting the ball. Stoke have been awarded a free kick.')
+  ('55', 'Build-up Play', 'Gareth Barry', 'Everton', 'Gareth Barry (Everton) makes an unfair challenge by holding his opponent to prevent him from getting the ball. Stoke have been awarded a free kick.')
+  ('56', 'Build-up Play', 'Charles Graham Adam', 'Stoke City', "Tim Howard blocks Charles Graham Adam (Stoke City)'s effort from the edge of the box.")
+  ('57', 'Yellow Card', 'Ryan Shawcross', 'Stoke City', "Yellow card. Ryan Shawcross (Stoke City) goes into the referee's book after a bad challenge.")
+
+--- Query ID: 122 ---
+Name: Timeline: Second Half Stoppage Time Summary
+Query: Give me the highlights from the frantic finish. What was the key action in second-half stoppage time?
+SQL: 
+        SELECT Time, Event_Type, Player_s, Team_s, Description 
+        FROM parsed_commentary_25513272 
+        WHERE half = 'Second Half' 
+        AND injury_time_minutes > 0
+        AND Event_Type IN ('Goal', 'Yellow Card', 'Red Card', 'Substitution') 
+        ORDER BY Time;
+        
+Difficulty: Easy
+Headers: ['Time', 'Event_Type', 'Player_s', 'Team_s', 'Description']
+Result:
+  ('90+2', 'Goal', 'Leighton Baines', 'Everton', '1 - 1\nLeighton Baines (Everton) converts the penalty with ease by slotting the ball into the bottom left corner of the goal after the goalkeeper guesses wrong and dives the opposite way!')
+  ('90+2', 'Yellow Card', 'Jermaine Pennant', 'Stoke City', "Jermaine Pennant (Stoke City) violates the rules and gets a yellow card. It's a penalty! Will we witness a change on the scoreline?")
+
+--- Query ID: 123 ---
+Name: Timeline: Shot in Minute Window
+Query: Let's focus on a key period. Show me all the shots on goal that occurred between Minutes 22 and 71.
+SQL: 
+        SELECT Time, Team_s, Player_s, Description FROM parsed_commentary_25513272 WHERE Event_Type = 'Shot' AND match_minute >= 22 AND match_minute < 71;
+        
+Difficulty: Easy
+Headers: ['Time', 'Team_s', 'Player_s', 'Description']
+Result:
+  ('68', 'Everton', 'Kevin Mirallas', 'Kevin Mirallas (Everton) picks up a pass inside the box and finds some space for a shot before unleashing a low drive goalwards, but one of the defending players blocks his effort.')
+  ('41', 'Everton', 'Ross Barkley', 'An accurate pass to the edge of the box is well taken by Ross Barkley (Everton), whose instinctive shot towards goal flashes inches over the top. It is going to be a goal kick.')
+  ('34', 'Stoke City', 'Oussama Assaidi', 'Oussama Assaidi (Stoke City) takes a good touch to control a cross on the edge of the box and fires a low shot towards the left post, but one of the defenders reacts brilliantly to block his effort. It will be a corner kick for Stoke.')
+

@@ -1,0 +1,224 @@
+Query: Analysis: Goalscorer Substituted Off
+Query Number: 12
+Difficulty: Easy
+Reasoning:
+The only goal recorded in the commentary is by Saido Berahino (West Brom) at the 87th minute.
+Upon reviewing the substitution events, Saido Berahino was brought *on* as a substitute at the 46th minute (replacing Billy Jones). There is no mention of Saido Berahino being substituted *off* at any point after scoring or before the end of the match.
+Therefore, no goalscorers were later taken off.
+
+Tuple: ()
+Query: The 'Subbed to Save' Pattern
+Query Number: 112
+Difficulty: Easy
+Based on the provided commentary, there are no instances of players receiving a yellow card. The only disciplinary action mentioned is Mathieu Debuchy being "sent off" (which implies a red card, not a yellow) at 62 minutes. Since no players were booked with a yellow card, it's impossible to identify anyone who was subbed off within 15 minutes of being booked on a yellow.
+
+Tuple: ()
+Query: The '90th Minute Heroics'
+Query Number: 63
+Difficulty: Easy
+To answer your question, I have analyzed the provided minute-by-minute commentary to identify all goals, cards, and shots occurring specifically in the 90th minute and any subsequent stoppage time.
+
+Upon review, the match concluded in the 90+5 minute.
+- There were no goals scored in the 90th minute or stoppage time. The only goal mentioned occurred at 87 minutes.
+- There were no cards (yellow or red) issued in the 90th minute or stoppage time.
+- There were two shots attempted during this period.
+
+Here are the identified events:
+
+Tuple: (('90+5', 'Shot', 'Yohan Cabaye', 'Newcastle Utd', 'Receives a low pass, unleashes a fine strike towards the middle of the goal, saved by Ben Foster.'), ('90+2', 'Shot', 'Massadio Haidara', 'Newcastle Utd', 'Receives a good pass, unleashes a strike from a promising position, but the shot is blocked by the defender.'))
+Query: Player Focus: Early Substitution Check
+Query Number: 38
+Difficulty: Easy
+Shola Ameobi was not an early change. He started the match and was not substituted on at any point. He was substituted off at the 76th minute.
+
+Reasoning: The commentary indicates that Shola Ameobi played from the start of the match and was replaced by Massadio Haidara at the 76th minute. There is no record of him being subbed on. The tuple provides the details of the only substitution event involving Shola Ameobi, where he was the player taken off.
+Tuple: (76, 'Shola Ameobi')
+Query: Stat: Team with Most Corners
+Query Number: 59
+Difficulty: Easy
+Reasoning:
+I went through the commentary and counted every instance where a corner kick was awarded to either team.
+For Newcastle Utd:
+1.  90+2: "Newcastle win a corner kick."
+2.  55: "The resulting set piece, sent into the penalty area by Yohan Cabaye (Newcastle Utd)" - Given Cabaye is a frequent corner taker and it's a "set piece," this is counted as a corner.
+3.  42: "Newcastle have been awarded a corner kick."
+4.  26: "Newcastle Utd will have a chance to score from a corner."
+5.  17: "Newcastle Utd are awarded a corner kick."
+Total for Newcastle Utd: 5 corners.
+
+For West Brom:
+1.  60: "West Brom have been awarded a corner kick."
+2.  29: "Morgan Amalfitano (West Brom) prepares to take a corner kick." - This indicates a corner was awarded.
+3.  16: "West Brom are awarded a corner kick."
+Total for West Brom: 3 corners.
+
+Newcastle Utd earned more set pieces (specifically, corners) with a total of 5 corners.
+
+Tuple: ('Newcastle Utd', 5)
+Query: Player Focus: Early Match Involvement
+Query Number: 37
+Difficulty: Easy
+Shola Ameobi started the game with a few notable involvements, including fouls, offside calls, and an attacking play that led to a corner for his team.
+
+Tuple: ((2, 'Foul', 'Shola Ameobi (Newcastle Utd) dispossess an opponent, but the referee blows his whistle, and a free kick is given.'), (5, 'Offside', 'The linesman raises his flag for offside before Shola Ameobi (Newcastle Utd) heads on.'), (12, 'Offside', 'Shola Ameobi (Newcastle Utd) is caught offside, but it was a really close call.'), (17, 'Cross/Corner', 'Shola Ameobi (Newcastle Utd) swings in a cross, but the ball is cleared to safety by one of the defending players. The referee blows his whistle, Newcastle Utd are awarded a corner kick.'))
+Query: Analysis: Final Minutes Goals (First Half)
+Query Number: 5
+Difficulty: Easy
+Reasoning:
+I have scanned the commentary for any goal-scoring events that occurred within the first half of the match. The first half concludes at 45+2 minutes. After reviewing all events from minute 1 to 45+2, there were no mentions of any goals being scored by either team during this period. All scoring attempts were either saved, went wide, or were blocked. The only goal mentioned in the entire commentary occurred at minute 87, which is in the second half. Therefore, there was no late drama in the form of goals before the break.
+
+Tuple: ()
+Query: Analysis: Wasted Shots
+Query Number: 25
+Difficulty: Medium
+Let's go through the commentary to identify shots described as 'high and wide' or 'well over' for each team.
+
+**Newcastle Utd:**
+*   **27' Yohan Cabaye**: "slices a shot that goes a whisker wide of the left post." (Counts as 'wide')
+*   **58' Loic Remy**: "his strike from the penalty spot wasn't accurate enough and the ball went a few inches wide of the right post." (Counts as 'wide')
+*   **90+5' Yohan Cabaye**: "unleashes a fine strike towards the middle of the goal. Ben Foster pulls off a reflexive save to block his effort." (This was a save, not high/wide)
+
+**Newcastle Utd wasted shots count: 2**
+
+**West Brom:**
+*   **15' Morgan Amalfitano**: "miskicks his shot and the ball goes high over the bar. Poor effort!" (Counts as 'high over')
+*   **30' Chris Brunt**: "He outjumped the defence and produced a decent header which went a whisker wide of the left post." (Counts as 'wide')
+*   **44' Nicolas Anelka**: "His effort goes inches over the crossbar." (Counts as 'well over')
+*   **64' Saido Berahino**: "fired a decent shot in from close range. Unfortunately for him, it sailed narrowly wide of the left post!" (Counts as 'wide')
+*   **82' Liam Ridgewell**: "takes a shot that goes just wide of the right post." (Counts as 'wide')
+
+**West Brom wasted shots count: 5**
+
+Tuple: (('Newcastle Utd', 2), ('West Brom', 5))
+Query: The 'Last-Gasp Defender' Stat
+Query Number: 92
+Difficulty: Medium
+In added time (90+ minutes), the commentary mentions several defensive actions, including clearances and blocks. However, none of these actions are attributed to a specific named defender. The commentary uses generic terms such as "one of the defenders," "the defender," "the defence," or "the opponent's defence." Therefore, it is impossible to identify a specific "busiest defender" by name based on the provided minute-by-minute commentary for the requested defensive actions in added time.
+
+Tuple: (N/A, N/A, 0)
+Query: The 'Scoring Method' Breakdown
+Query Number: 106
+Difficulty: Medium
+Here's the breakdown of how the goals were scored:
+
+One goal was scored, and it was a penalty kick, which is taken with the foot.
+
+Tuple: (0, 1)
+Query: The 'Gegenpress' Foul
+Query Number: 81
+Difficulty: Medium
+Reasoning:
+To determine who was doing the pressing from the front and who committed the most fouls in the opposition's half, I analyzed each foul event in the commentary, looking for clues about its location.
+
+1.  **Shola Ameobi (Newcastle Utd) at 61'**: The commentary states he "fouls an opponent during an attacking move." This explicitly indicates the foul occurred in the opposition's half. (Count for Ameobi: 1)
+2.  **Youssouf Mulumbu (West Brom) at 54'**: He "gives away a free kick" and "Newcastle Utd are awarded a free kick." The subsequent action at 55' describes "The resulting set piece, sent into the penalty area by Yohan Cabaye (Newcastle Utd)". For a free kick to be sent into the penalty area as an attacking opportunity, the foul must have occurred in Newcastle's attacking half, which is West Brom's half. (Count for Mulumbu: 1)
+3.  **Youssouf Mulumbu (West Brom) at 41'**: He commits a foul, and "Newcastle will take a free kick." The very next comment at 42' states that "Yohan Cabaye (Newcastle Utd) unleashes a powerful shot towards goal from a mid-range free kick". A "mid-range free kick towards goal" strongly implies the foul occurred in an attacking zone for Newcastle, meaning West Brom's half. (Count for Mulumbu: 2)
+4.  **Youssouf Mulumbu (West Brom) at 40'**: He "clearly holds his opponent to prevent him from getting the ball and the referee blows his whistle for a foul." This foul occurs immediately before the foul at 41' by the same player, which was confirmed to be in the opposition half. Given the close proximity in time and the nature of the foul (preventing an opponent from getting the ball, often done high up the pitch to break play), it is highly probable this foul also occurred in the opposition's half. (Count for Mulumbu: 3)
+
+Comparing the confirmed and highly probable fouls in the opposition's half:
+*   Youssouf Mulumbu (West Brom): 3 fouls (at 54', 41', 40')
+*   Shola Ameobi (Newcastle Utd): 1 foul (at 61')
+
+Youssouf Mulumbu committed the most fouls in the opposition's half. Committing multiple fouls high up the pitch is a strong indicator of "pressing from the front" as players attempt to win the ball back in advanced positions.
+
+Tuple: ('Youssouf Mulumbu', 'West Brom', 3)
+Query: Player Focus: Brace Scorer
+Query Number: 36
+Difficulty: Medium
+Based on the commentary, only one goal was scored in the entire match by Saido Berahino (West Brom) at the 87th minute. No other goals were mentioned, and the final score appears to be 1-0. Therefore, no player scored exactly two goals (a brace).
+
+Tuple: ()
+Query: The 'Poacher vs. Worker' Index
+Query Number: 99
+Difficulty: Medium
+Reasoning:
+To identify players who scored and their involvement, I scanned the commentary for goal-scoring events and then for any other actions attributed to those players.
+
+Only one player, Saido Berahino of West Brom, scored a goal in this commentary.
+- **Goals for Saido Berahino**: He scored 1 goal (a penalty at 87 minutes).
+- **Other Actions for Saido Berahino**: He was involved in 6 other distinct actions:
+    1.  Being brought down to win the penalty (implied by the sequence leading to his goal at 87 minutes).
+    2.  Producing a promising shot towards the bottom left corner which was saved (75 minutes).
+    3.  Wasting a huge opportunity by firing a shot narrowly wide of the left post (64 minutes).
+    4.  Having an effort inside the box brilliantly blocked (57 minutes).
+    5.  Committing a foul by hacking down an opponent (52 minutes).
+    6.  Being substituted into the match at the start of the second half (46 minutes).
+
+Based on these observations, Saido Berahino was significantly involved in the match beyond just his goal-scoring moment.
+
+Tuple: ('Saido Berahino', 1, 6)
+Query: The 'Dirty Tackle' Log
+Query Number: 74
+Difficulty: Medium
+Based on the specific criteria provided, which defines "really bad challenges" as fouls explicitly called 'nasty', 'late', or 'reckless' by the commentary, none of the fouls in the provided text meet this exact description. Although some fouls were described with strong terms like "terrible tackle" (resulting in a sending off) or "strong tackle" (resulting in a penalty), they do not use the specific keywords requested.
+
+Tuple: ()
+Query: Analysis: Shortest Time Between Goals
+Query Number: 20
+Difficulty: Hard
+Upon reviewing the minute-by-minute commentary, only one goal was scored during the entire match, which occurred at the 87th minute. Therefore, it is not possible to identify 'the quickest one-two punch' or 'the two goals scored closest together' as there is only one goal event to consider. Below is the information for the only goal scored.
+
+Tuple: (87, 'Saido Berahino', 'West Brom', '1 - 0')
+Query: Between Goals: All Events (Both Teams)
+Query Number: 27
+Difficulty: Hard
+Only one goal was scored in the match by West Brom at 87 minutes. No team scored more than once, therefore there are no events between a first and second goal to list.
+
+Tuple: ()
+Query: The 'Aggressor's Timeline'
+Query Number: 65
+Difficulty: Hard
+The main enforcers, tied for the most fouls with 3 each, are Shola Ameobi (Newcastle Utd) and Youssouf Mulumbu (West Brom). For the purpose of providing a timeline, Shola Ameobi's events are detailed below.
+
+Tuple: ((2, 'Foul', 'Shola Ameobi (Newcastle Utd) dispossess an opponent, but the referee blows his whistle, and a free kick is given.'), (47, 'Foul', 'Shola Ameobi (Newcastle Utd) performs a sliding tackle but catches his opponent\'s legs. The referee blows his whistle for an infringement.'), (61, 'Foul', 'Shola Ameobi (Newcastle Utd) fouls an opponent during an attacking move.'))
+Query: The 'Goal from Nothing' Stat
+Query Number: 84
+Difficulty: Hard
+Reasoning: The only goal in the commentary occurs at 87 minutes, scored by Saido Berahino (West Brom) from a penalty. The action immediately preceding this goal was a "strong tackle" by Tim Krul (Newcastle Utd) resulting in the penalty, which is not a pass, cross, or shot.
+
+Tuple: (('Saido Berahino', 'West Brom', '1 - 0', 'Scores from the penalty spot after Tim Krul commits a strong tackle resulting in a penalty.'))
+Query: The 'Cautionary Tale' Foul Rate
+Query Number: 70
+Difficulty: Hard
+The first booking for Newcastle Utd was a red card issued to Mathieu Debuchy in the 62nd minute.
+
+To determine the foul rate before the card, we count Newcastle Utd fouls from minute 1 to minute 61:
+*   2' Shola Ameobi
+*   8' Moussa Sissoko
+*   40' Loic Remy
+*   43' Loic Remy
+*   47' Shola Ameobi
+Total fouls before the card: 5 fouls.
+Duration of play before the card: 61 minutes.
+Foul Rate Before Card: 5 fouls / 61 minutes ≈ 0.082 fouls per minute.
+
+To determine the foul rate after the card, we count Newcastle Utd fouls from minute 62 to minute 90+5 (which is 95 minutes):
+*   85' Mapou Yanga-Mbiwa
+*   87' Tim Krul
+Total fouls after the card: 2 fouls.
+Duration of play after the card: (95 - 62 + 1) = 34 minutes.
+Foul Rate After Card: 2 fouls / 34 minutes ≈ 0.059 fouls per minute.
+
+The foul rate for Newcastle Utd decreased after the first booking (red card), suggesting an improvement in discipline or increased caution due to playing with 10 men.
+
+Tuple: (62, 5, 61, 0.082, 2, 34, 0.059)
+Query: The 'Post-Goal Momentum Swing'
+Query Number: 101
+Difficulty: Hard
+Reasoning:
+1.  **Identify Goals:** The commentary shows only one goal: `87 1 - 0 Saido Berahino (West Brom) scores from the penalty spot.` This goal was scored by West Brom at the 87th minute.
+2.  **Define Post-Goal Period:** The period to analyze is the five minutes *after* the goal. Since the goal was at minute 87, the period covers minutes 88, 89, 90, 90+1, 90+2, 90+3, 90+4, 90+5 (as these fall within the effective 5-minute window for injury time). The `post_goal_period_start` is 88.
+3.  **Count Events for Each Team in the Period (88 - 90+5):**
+    *   `88 Zoltan Gera (West Brom)`: Substitution (West Brom: 1 event)
+    *   `90+1 Hatem Ben Arfa (Newcastle Utd)`: Cross (Newcastle Utd: 1 event)
+    *   `90+2 Davide Santon (Newcastle Utd)`: Cross (Newcastle Utd: 2 events)
+    *   `90+2 Massadio Haidara (Newcastle Utd)`: Shot blocked, corner (Newcastle Utd: 3 events)
+    *   `90+3 Hatem Ben Arfa (Newcastle Utd)`: Corner (Newcastle Utd: 4 events)
+    *   `90+5 Yohan Cabaye (Newcastle Utd)`: Shot on target (Newcastle Utd: 5 events)
+    *   `90+5 Lee Mason ends this match`: Not a team event.
+4.  **Determine Control:**
+    *   Newcastle Utd events: 5
+    *   West Brom events: 1
+    *   Newcastle Utd had more events in the five minutes following West Brom's goal.
+
+Tuple: (88, 'Newcastle Utd', 5)

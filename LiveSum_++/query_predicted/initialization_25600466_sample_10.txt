@@ -1,0 +1,219 @@
+Query: The 'Discipline Decay' Analysis
+Query Number: 75
+Difficulty: Easy
+To determine the card count for each team, broken down by half, I have scanned the commentary for mentions of cards.
+
+*   **First Half Cards:**
+    *   At 45+2 minutes, Wilfried Bony (Swansea) received a yellow card.
+    *   At 37 minutes, Angel Rangel (Swansea) was cautioned (yellow card).
+    *   Manchester United received no cards in the first half.
+
+*   **Second Half Cards:**
+    *   Neither Swansea nor Manchester United received any cards in the second half.
+
+Therefore:
+*   **Swansea:** 2 cards in the first half, 0 cards in the second half.
+*   **Manchester United:** 0 cards in the first half, 0 cards in the second half.
+
+Tuple: ('Swansea', 2, 0), ('Manchester United', 0, 0)
+Query: Analysis: Final Minutes Goals (First Half)
+Query Number: 5
+Difficulty: Easy
+No, there were no goals scored in the last 13 minutes of the first half. The first goal of the match was scored by Antonio Valencia (Manchester United) at 47 minutes, which is after the first half concluded at 45+3 minutes.
+
+Tuple: ()
+Query: Stat: Last Goal of the Match
+Query Number: 55
+Difficulty: Easy
+Let's think step by step.
+To find who had the final say in the scoring, we need to look for the last goal scored in the match. The commentary is presented in reverse chronological order.
+Scanning the commentary from the beginning (latest time) downwards, we find the following goal entries:
+
+*   **59**: 2 - 0 Danny Welbeck (Manchester United) scores.
+*   **47**: Goal! Antonio Valencia (Manchester United) fires the rebound... The score is 1:0.
+
+The last goal scored, which set the final score, was at 59 minutes by Danny Welbeck for Manchester United, making the score 2-0.
+
+Tuple: ('59', 'Danny Welbeck', 'Manchester United', '2 - 0')
+Query: Analysis: First Event of Match
+Query Number: 7
+Difficulty: Easy
+The very first recorded event after the opening kick-off is a powerful volley from Jonjo Shelvey of Swansea which was saved by the goalkeeper.
+
+Tuple: (5, 'Shot on Target (Saved)', 'Jonjo Shelvey', 'Swansea', 'was waiting for the ball on the edge of the box and produced a powerful volley directed to the top of the net, but the goalkeeper made an amazing save to deny him.')
+Query: Player Focus: Early Substitution Check
+Query Number: 38
+Difficulty: Easy
+**Question 1:** Chicharito was not an early change. He was subbed on in the 85th minute, which is well after the hour mark (60 minutes).
+
+**Tuple:**
+(17, 'Jose Canas (Swansea)', 63, 'Jonjo Shelvey', 79, 'Patrice Evra', 85, 'Danny Welbeck')
+Query: Analysis: First Card of the Match
+Query Number: 6
+Difficulty: Easy
+Angel Rangel was the first player to be cautioned, which means he received the first yellow card.
+
+Tuple: (37, 'Angel Rangel', 'Swansea', 'is cautioned by the referee.')
+Query: Timeline: Second Half Stoppage Time Summary
+Query Number: 122
+Difficulty: Easy
+The frantic finish revolved around a dangerous free-kick opportunity for Swansea. The key action in second-half stoppage time was Nemanja Vidic's foul on a Swansea player, which resulted in a free kick from a promising position, followed by Wilfried Bony's powerful strike from that free kick which agonizingly went just over the crossbar. The referee then blew the final whistle shortly after.
+
+Tuple: ('90+2', 'Foul', 'Nemanja Vidic', 'Manchester United', 'Nemanja Vidic (Manchester United) hacks down one of his opponents. Swansea win a free kick. It\'s a promising situation for a direct shot.'), ('90+2', 'Shot on Goal', 'Wilfried Bony', 'Swansea', 'Wilfried Bony (Swansea) receives the ball from the resulting free kick and unleashes a strike from the edge of the box, but his effort goes just over the crossbar! That will be a goal kick.')
+Query: The 'Pressure Cooker' Foul
+Query Number: 102
+Difficulty: Medium
+Reasoning:
+I have identified all instances where a foul was immediately punished, considering "immediately punished" to mean that a direct consequence (like a card, a free-kick that led to a direct shot attempt, or a clearly stated promising free-kick situation) was mentioned in the same or immediately following minute in the commentary. I also specifically checked for any fouls that led to a goal from a free-kick or penalty in the same minute; no such instances were found in the provided commentary.
+
+Tuple: (('90+2', 'Nemanja Vidic', 'Manchester United', 'Fouled an opponent, leading to a promising free-kick for Swansea, from which Wilfried Bony shot just over the crossbar.'), ('81', 'Ben Davies', 'Swansea', 'Held an opponent, leading to a free-kick for Manchester United, from which Adnan Januzaj shot wide.'), ('45+2', 'Wilfried Bony', 'Swansea', 'Received a yellow card.'), ('40', 'Shinji Kagawa', 'Manchester United', 'Committed a minor foul, resulting in a warning and a free kick for Swansea.'), ('37', 'Angel Rangel', 'Swansea', 'Cautioned by the referee.'), ('11', 'Unspecified Opponent', 'Swansea', 'Foul leading to a promising free-kick for Manchester United, which Adnan Januzaj shot off the crossbar at 12\'.'), ('7', 'Jonjo Shelvey', 'Swansea', 'Made a slide tackle, leading to a free kick for Manchester United, from which Nemanja Vidic took a shot at 8\'.'))
+Query: The 'Dirty Tackle' Log
+Query Number: 74
+Difficulty: Medium
+Reasoning: I have scanned the minute-by-minute commentary for descriptions of fouls, specifically looking for the keywords 'nasty', 'late', or 'reckless' as requested. Only one instance met this criterion, which was a "very late tackle" at the 8th minute.
+
+Tuple: (8, 'Patrice Evra', 'Manchester United', 'brings down his opponent with a very late tackle.')
+Query: List: Team Roster for Match
+Query Number: 35
+Difficulty: Medium
+Reasoning: To identify all Manchester United players, I scanned the entire minute-by-minute commentary and extracted every player name explicitly followed by "(Manchester United)". This includes both players who started and those who came on as substitutes.
+
+Tuple: ('Adnan Januzaj', 'Alexander Buttner', 'Antonio Valencia', 'Chicharito', 'Chris Smalling', 'Danny Welbeck', 'Darren Fletcher', 'Nemanja Vidic', 'Patrice Evra', 'Shinji Kagawa')
+Query: Stat: Total Injury Time Played
+Query Number: 61
+Difficulty: Medium
+Let's think step by step.
+To find the total injury time, we need to look at the time added at the end of the first half and the end of the second half.
+1.  For the first half, the commentary states: "45+3 That is it for the first half...". This means 3 minutes of injury time were added to the first half.
+2.  For the second half, the commentary states: "90+4 The referee checks his watch and blows his whistle to signal the end of this match.". This means 4 minutes of injury time were added to the second half.
+3.  Total injury time = Injury time in first half + Injury time in second half = 3 minutes + 4 minutes = 7 minutes.
+
+Tuple: (7,)
+Query: The 'Super Sub' Goal
+Query Number: 113
+Difficulty: Medium
+Reasoning: I have reviewed all substitutions in the provided commentary. The substitutes were:
+- Jose Manuel Flores Moreno (Swansea) came on at 17 minutes.
+- Alvaro Vazquez (Swansea) came on at 63 minutes.
+- Alexander Buttner (Manchester United) came on at 79 minutes.
+- Chicharito (Manchester United) came on at 85 minutes.
+
+I then checked the subsequent commentary for each of these players to see if they scored a goal after entering the game.
+- Jose Manuel Flores Moreno: No goal mentioned.
+- Alvaro Vazquez: Mentioned at 64 minutes for a cross, but no goal.
+- Alexander Buttner: No goal mentioned.
+- Chicharito: Mentioned at 87 minutes for an offside, but no goal.
+
+The only goals scored were by Antonio Valencia (47 min) and Danny Welbeck (59 min), neither of whom were substitutes entering the game at the time of their goal. Therefore, no substitute made an instant impact by scoring a goal in this match.
+
+Tuple: ()
+Query: The 'Keeper Sweeper' Action
+Query Number: 90
+Difficulty: Medium
+Reasoning: The provided commentary was thoroughly reviewed for any descriptions of the Manchester United goalkeeper playing off his line or performing actions outside of his area. While there are instances of the Manchester United goalkeeper making saves (e.g., at 70', 36', and 5'), none of these descriptions indicate that he was playing off his line or outside of his designated penalty area. Therefore, no actions matching the requested criteria were found.
+
+Tuple: ()
+Query: The 'One-Man Wrecking Crew'
+Query Number: 97
+Difficulty: Medium
+Let's analyze the commentary step by step to find if any player fits the criteria of an "all-action player" (scored, committed a foul, and won a foul in the same half).
+
+**First Half (1' - 45+3'):**
+*   **Goals Scored:** There were no goals scored in the first half.
+Since no player scored in the first half, no one can be an all-action player in this half.
+
+**Second Half (46' - 90+4'):**
+*   **Goals Scored:**
+    *   47' Antonio Valencia (Manchester United) - Score: 1:0
+    *   59' Danny Welbeck (Manchester United) - Score: 2:0
+
+Now let's check these two players for committed fouls and won fouls in the second half:
+
+*   **Antonio Valencia (Manchester United):**
+    *   Scored: Yes (47').
+    *   Committed a foul: No mention of Antonio Valencia committing any fouls in the second half.
+    *   Won a foul: No explicit mention of Antonio Valencia winning a foul in the second half.
+
+*   **Danny Welbeck (Manchester United):**
+    *   Scored: Yes (59').
+    *   Committed a foul: No mention of Danny Welbeck committing any fouls in the second half.
+    *   Won a foul: No explicit mention of Danny Welbeck winning a foul in the second half.
+
+Since neither Antonio Valencia nor Danny Welbeck (the only goal scorers) committed a foul and won a foul in the same half they scored, and there are no other goal scorers, there is no "all-action player" as defined by the criteria in this match commentary.
+
+Tuple: ()
+Query: The 'Consolation Goal' Finder
+Query Number: 72
+Difficulty: Hard
+Reasoning:
+I will go through the match commentary chronologically, keeping track of the score at each point. A "late, meaningless goal" is defined as a goal scored by a team that was already down by two or more goals.
+
+1.  **Initial Score:** 0-0
+2.  **47': Goal! Antonio Valencia (Manchester United)** makes the score 1:0. Manchester United was not down by two or more goals.
+    *   Current Score: Manchester United 1 - 0 Swansea
+3.  **59': Danny Welbeck (Manchester United)** scores to make it 2 - 0. Manchester United was not down by two or more goals.
+    *   Current Score: Manchester United 2 - 0 Swansea
+
+No other goals are mentioned in the provided commentary. Therefore, there were no goals scored by a team that was already down by two or more.
+
+Tuple: ()
+Query: The 'Heated Rivalry' Index
+Query Number: 86
+Difficulty: Hard
+The two fouls that happened closest together in time, indicating when tempers flared the most, occurred in the 40th minute. Shinji Kagawa committed a foul, and immediately after, Jordi Amat also committed a foul.
+
+Tuple: ('40', 'Foul', 'Shinji Kagawa', 'Manchester United', 'commits a minor foul to interrupt the attacking move of his opponent and is warned by the referee that he will get a yellow card if he does it again. Swansea win a free kick.'), ('40', 'Foul', 'Jordi Amat', 'Swansea', 'gives away a free kick for tripping his opponent. Even though he is protesting that first he hit the ball, the referee is sure about his call.')
+Query: The 'Go-Ahead Goal' Specialist
+Query Number: 82
+Difficulty: Hard
+The player for the big moment was Antonio Valencia, as his goal was the one that broke the level score and put his team ahead.
+
+Tuple: (('47', 'Antonio Valencia', 'Manchester United', '1-0'))
+Query: The 'Starter vs. Sub' Goals
+Query Number: 110
+Difficulty: Hard
+Let's break down the goals and the players involved:
+
+1.  **Minute 47: Goal! Antonio Valencia (Manchester United) fires the rebound... The score is 1:0.**
+    *   Antonio Valencia is mentioned as playing throughout the match, including at minute 81. There is no mention of him being substituted *on*. Therefore, he is considered a **starter**.
+
+2.  **Minute 59: 2 - 0 Danny Welbeck (Manchester United) scores...**
+    *   Danny Welbeck is mentioned scoring at minute 59. At minute 85, it is stated: "Here's the change. Danny Welbeck leaves the pitch and Chicharito (Manchester United) comes on as a substitute." This confirms Welbeck was on the field from the start and was later substituted *off*. Therefore, he is considered a **starter**.
+
+Based on the provided commentary, neither goal was scored by a player who was introduced as a substitute during the match. Both goal scorers were presumed to be part of the starting lineup.
+
+*   Goals by starters: 2
+*   Goals by substitutes: 0
+
+Tuple: (2, 0)
+Query: Analysis: Back-to-Back Corners
+Query Number: 2
+Difficulty: Hard
+Upon reviewing the commentary, Swansea demonstrated a period of sustained pressure by winning multiple consecutive corners.
+Specifically:
+- At minute 76, Alejandro Pozuelo (Swansea) took a corner.
+- At minute 78, Alejandro Pozuelo (Swansea) took another dangerous corner.
+- At minute 79, the commentary states "launches an inaccurate corner kick into the penalty area." Given the immediate preceding two corners were for Swansea and there is no mention of a change of possession or a corner for Manchester United in between, it is highly probable this corner also belonged to Swansea.
+
+Therefore, Swansea had at least two (76 and 78) and very likely three (76, 78, and 79) consecutive corners, indicating they built pressure. Manchester United did not have two or more consecutive corners.
+
+Tuple: ('Swansea', 3)
+Query: The 'Build-up Play' Timeline
+Query Number: 66
+Difficulty: Hard
+Let's think step by step.
+The provided commentary is in reverse chronological order, meaning later events appear higher in the list. To find the two actions that came *right before* a goal (chronologically earlier), I identified each goal event and then extracted the details from the two lines *immediately below* it in the commentary list.
+
+Here's the breakdown for each goal:
+
+**Goal 1:** Antonio Valencia (Manchester United) scores at 47 minutes (score 1:0).
+*   The line for the goal is: `47	Goal! Antonio Valencia (Manchester United) fires the rebound into the bottom left corner after the ball breaks to him in the box. The score is 1:0.`
+*   The event immediately preceding it chronologically (the line below in the commentary) is: `46	Everything is set for the start of the second half.`
+*   The second event immediately preceding it chronologically (the line two below in the commentary) is: `45+3	That is it for the first half after the referee blows his whistle and the players head to their respective dressing rooms.`
+
+**Goal 2:** Danny Welbeck (Manchester United) scores at 59 minutes (score 2:0).
+*   The line for the goal is: `59	2 - 0 Danny Welbeck (Manchester United) scores as he latches on to a pass inside the penalty box and fires a perfect low strike that goes inside the right post. What a clinical goal!`
+*   The event immediately preceding it chronologically (the line below in the commentary) is: `59	Adnan Januzaj (Manchester United) takes the corner and sends it into the penalty area, but the opposition's defence is ready and makes a good clearance.`
+*   The second event immediately preceding it chronologically (the line two below in the commentary) is: `58	Manchester Utd are playing possession football and controlling the game at present. They are exchanging inch-perfect passes from player to player, making it difficult for the opposition to win the ball.`
+
+Tuple: (('46', 'Kick-off/Restart', None, None, 'Everything is set for the start of the second half.'), ('45+3', 'Whistle/Half-Time', None, None, 'That is it for the first half after the referee blows his whistle and the players head to their respective dressing rooms.'), ('59', 'Corner Kick', 'Adnan Januzaj', 'Manchester United', 'Adnan Januzaj (Manchester United) takes the corner and sends it into the penalty area, but the opposition\'s defence is ready and makes a good clearance.'), ('58', 'Possession', None, 'Manchester Utd', 'Manchester Utd are playing possession football and controlling the game at present. They are exchanging inch-perfect passes from player to player, making it difficult for the opposition to win the ball.'))

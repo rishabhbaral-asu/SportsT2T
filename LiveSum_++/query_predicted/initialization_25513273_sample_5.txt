@@ -1,0 +1,267 @@
+Query: Stat: Team with Most Fouls
+Query Number: 60
+Difficulty: Easy
+Let's count the fouls committed by each team:
+
+*   **Manchester City Fouls:**
+    *   90+3: James Milner (booked) - 1
+    *   86: Pablo Zabaleta (yellow card for tackle) - 2
+    *   81: Yaya Toure (commits a foul) - 3
+    *   55: Fernandinho (slide tackle, foul) - 4
+    *   54: Vincent Kompany (yellow card) - 5
+    *   49: Matija Nastasic (bad challenge, foul) - 6
+    *   37: Edin Dzeko (booked) - 7
+    *   26: Samir Nasri (commits a foul, yellow card) - 8
+    *   2: Yaya Toure (commits a foul) - 9
+    *   **Total Manchester City Fouls: 9**
+
+*   **Swansea Fouls:**
+    *   78: Jose Canas (brings opponent down with tackle, foul) - 1
+    *   45+3: Jonjo Shelvey (booked) - 2
+    *   37: Jose Canas (yellow card) - 3
+    *   32: Jose Manuel Flores Moreno (trips opposition player, foul) - 4
+    *   1: Jonjo Shelvey (commits a foul) - 5
+    *   **Total Swansea Fouls: 5**
+
+Manchester City committed more fouls.
+
+Tuple: ("Manchester City", 9)
+Query: The 'Busiest Player' Index
+Query Number: 67
+Difficulty: Easy
+Let's think step by step.
+To determine the player with the most actions, I will go through the commentary and count every explicit mention of a player performing an action or being directly involved in a play (e.g., scoring, shooting, passing, receiving a pass, being fouled, committing a foul, being substituted, taking a set piece, being caught offside, getting a card, etc.). If multiple mentions occur for the same event at the same timestamp (e.g., a rephrasing of a corner kick), I will count it as one action.
+
+Here's the tally of actions for each player:
+
+*   **Jonathan de Guzman (Swansea)**:
+    *   70: launches inaccurate corner kick
+    *   61: takes corner (cleared away)
+    *   56: unleashes a shot from a mid-range free kick
+    *   51: is flagged for offside
+    *   45+2: sends a precise lofted pass (assist)
+    *   42: lifts the ball into the box from the corner
+    *   35: sends over a poor, overhit cross from the corner kick
+    *   27: attempted to curl the ball over the defensive wall from the free kick
+    *   25: connected with a pass, aimed and shot
+    *   17: nothing comes of the resulting corner (implied taker)
+    *   **Total: 10 actions**
+
+*   **Samir Nasri (Manchester City)**:
+    *   70: leaves the pitch (substitution)
+    *   57: puts a cross into the box from the corner
+    *   45: fires a volley towards goal
+    *   33: tries to take the opposition by surprise with a quick free kick
+    *   31: launches the ball from the resulting corner
+    *   30: swings in the corner kick
+    *   26: commits a foul and is shown a yellow card
+    *   21: decides to speed play up with a short corner kick
+    *   19: ball is whipped in from the corner by Samir Nasri
+    *   14: looks like he will be the one to try and deliver a quality ball into the penalty box from the corner kick (implied involvement in corner)
+    *   **Total: 10 actions**
+
+*   **Edin Dzeko (Manchester City)**:
+    *   81: deemed to be in an offside position
+    *   78: lines up a shot from the edge of the box and goes for goal (blocked)
+    *   42: can't control an accurate defence-splitting pass, robbed of the ball
+    *   37: booking goes to Edin Dzeko
+    *   32: rises for a cross and unleashes a poor header (missed opportunity)
+    *   30: collects a pass and unleashes a shot (blocked, leads to corner)
+    *   21: sends an inaccurate final pass into the box (blocked, wasted opportunity)
+    *   11: receives a sweet pass inside the box
+    *   3: shoots after receiving a good pass
+    *   **Total: 9 actions**
+
+*   **Wayne Routledge (Swansea)**:
+    *   85: bursts into the box, latches on to a pin-point long through ball
+    *   63: fine lofted pass into the box (sent by him)
+    *   45+1: serves in a nice cross
+    *   41: attempts to find his teammate with a pass from outside the box
+    *   36: works the corner short
+    *   36: whips a promising cross into the box
+    *   34: delivers a fine lofted cross into the penalty area
+    *   34: dangerous cross, sent by Wayne Routledge (rephrasing of previous action at 34)
+    *   **Total: 8 actions**
+
+*   **Pablo Zabaleta (Manchester City)**:
+    *   86: awarded a yellow card for his tackle
+    *   58: sends the ball (pass for goal to Toure)
+    *   56: crosses the ball into the box
+    *   56: (cross leads to corner, mentioned again but same action)
+    *   40: latches on to a precise pass and produces a shot
+    *   13: whips the ball into the penalty area
+    *   11: sweet pass inside the box to Edin Dzeko
+    *   **Total: 7 actions**
+
+*   **Wilfried Bony (Swansea)**:
+    *   90+1: Goal! fires the ball into the bottom right corner.
+    *   72: produced a shot from the edge of the box (saved by Joe Hart)
+    *   45+2: Goal! heads it straight into the bottom right corner.
+    *   44: instinctive shot towards goal flashes inches wide
+    *   18: fails to beat the offside trap
+    *   6: gets into a shooting position, cannonball of a shot (crashes against post)
+    *   **Total: 6 actions**
+
+Both Jonathan de Guzman and Samir Nasri are tied for the most actions with 10 each. As the question asks for "the player", I will choose Jonathan de Guzman as he is mentioned first alphabetically.
+
+Tuple: ('Jonathan de Guzman', 'Swansea', 10)
+Query: The 'Desperation' Sub
+Query Number: 73
+Difficulty: Easy
+The last desperate change was made by the Manchester City manager.
+
+Tuple: (90, 'Manchester City', 'Jack Rodwell', 'Jesus Navas')
+Query: The 'Subbed to Save' Pattern
+Query Number: 112
+Difficulty: Easy
+Let's break this down to find players who received a yellow card and were substituted within 15 minutes.
+
+1.  **List all yellow cards and their times:**
+    *   Samir Nasri (Manchester City): 26'
+    *   Jose Canas (Swansea): 37'
+    *   Edin Dzeko (Manchester City): 37'
+    *   Jonjo Shelvey (Swansea): 45+3' (approx. 48')
+    *   Vincent Kompany (Manchester City): 54'
+    *   Pablo Zabaleta (Manchester City): 86'
+    *   James Milner (Manchester City): 90+3'
+
+2.  **List all substitutions and their times:**
+    *   10': Roland Lamah (Swansea) replaces Pablo Hernandez (Swansea) - Hernandez was injured, not booked.
+    *   60': Javi Garcia (Manchester City) replaces Alvaro Negredo.
+    *   70': James Milner (Manchester City) replaces Samir Nasri.
+    *   81': Alejandro Pozuelo (Swansea) replaces Jonjo Shelvey.
+    *   90': Jack Rodwell (Manchester City) replaces Jesus Navas.
+
+3.  **Check booked players for substitutions within 15 minutes:**
+    *   **Samir Nasri (Manchester City):** Booked at 26'. Substituted at 70'. Time difference: 70 - 26 = 44 minutes. (Greater than 15 mins).
+    *   **Jose Canas (Swansea):** Booked at 37'. Not substituted.
+    *   **Edin Dzeko (Manchester City):** Booked at 37'. Not substituted.
+    *   **Jonjo Shelvey (Swansea):** Booked at 45+3' (approx. 48'). Substituted at 81'. Time difference: 81 - 48 = 33 minutes. (Greater than 15 mins).
+    *   **Vincent Kompany (Manchester City):** Booked at 54'. Not substituted.
+    *   **Pablo Zabaleta (Manchester City):** Booked at 86'. Not substituted.
+    *   **James Milner (Manchester City):** Booked at 90+3'. Match ended at 90+4', no further substitutions.
+
+Based on the analysis, no player who received a yellow card was substituted off within 15 minutes of being booked.
+
+Tuple: ()
+Query: Comparison: Goals Per Half
+Query Number: 30
+Difficulty: Easy
+Yes, it was a game of two halves for goalscoring. The second half had the most goals with 3, compared to 2 goals in the first half.
+
+Tuple: ('First Half', 2, 'Second Half', 3)
+Query: Timeline: Second Half Stoppage Time Summary
+Query Number: 122
+Difficulty: Easy
+The frantic finish saw a crucial goal from Wilfried Bony in the 90+1 minute, bringing the score to 2-3. Following this, James Milner was booked in the 90+3 minute, and the match concluded with the full-time whistle at 90+4.
+
+The key action in second-half stoppage time was Wilfried Bony's goal for Swansea, assisted by Alejandro Pozuelo, which narrowed Manchester City's lead to 2-3.
+
+Tuple: ('90+1', 'Goal', 'Wilfried Bony, Alejandro Pozuelo', 'Swansea', 'Alejandro Pozuelo tees up Wilfried Bony (Swansea) on the edge of the box and he fires the ball into the bottom right corner. 2:3.')
+Query: Player Focus: Final Shot of the Match
+Query Number: 39
+Difficulty: Easy
+The last crack at goal was by Wilfried Bony (Swansea) at 90+1 minutes, which resulted in a goal.
+
+Tuple: ('90+1', 'Wilfried Bony', 'Swansea', 'Goal! Alejandro Pozuelo tees up Wilfried Bony (Swansea) on the edge of the box and he fires the ball into the bottom right corner. 2:3.')
+Query: The 'Foul Magnet' Award
+Query Number: 79
+Difficulty: Medium
+The commentary consistently identifies the player who *commits* a foul but does not explicitly name the player who *is fouled* (the one on the receiving end). All instances refer to "his opponent", "an opposition player", or "the attacker" without specifying a name. Therefore, it is not possible to determine which specific player was fouled the most from this commentary.
+
+Tuple: ('Not specified in commentary', 'N/A', 0)
+Query: The 'Super Sub' Goal
+Query Number: 113
+Difficulty: Medium
+No, no substitute player scored a goal in this match. Alejandro Pozuelo (Swansea), who came on as a substitute at 81', made an impact by *assisting* Wilfried Bony's goal at 90+1', but he did not score it himself. Wilfried Bony was not a substitute.
+
+Tuple: ()
+Query: The 'Unluckiest Player' Award
+Query Number: 117
+Difficulty: Medium
+Reasoning: I scanned the commentary for mentions of shots hitting the 'post' or 'bar'. Only one instance was found where Wilfried Bony hit the left post at 6 minutes. No other players or instances of hitting the woodwork were mentioned.
+
+Tuple: ('Wilfried Bony', 'Swansea', 1)
+Query: The 'Commentator's xG'
+Query Number: 71
+Difficulty: Medium
+Upon reviewing the provided commentary, I searched for instances where shots were explicitly described as "one-on-one" or "point-blank". I found no occurrences of these specific phrases being used to categorize any shot attempts. Therefore, based on the strict criteria given, no such "golden opportunities" were explicitly called out in the commentary.
+
+Tuple: ()
+Query: Analysis: Free-Kick Shots
+Query Number: 10
+Difficulty: Medium
+Here's a list of all shots taken directly from a free-kick:
+Tuple: ((56, 'Jonathan de Guzman', 'Swansea', 'unleashes a shot from a mid-range free kick that goes high over the bar. High, wide and not at all pretty.'), (27, 'Jonathan de Guzman', 'Swansea', 'attempted to curl the ball over the defensive wall from the free kick, but with no success.'))
+Query: Analysis: Aggressive Start (Second Half)
+Query Number: 1
+Difficulty: Medium
+Manchester City came out of the tunnel fired up. Manchester City had 1 foul, while Swansea had 0 fouls, indicating Manchester City came out more aggressively.
+Tuple: (('Manchester City', 1), ('Swansea', 0))
+Query: The 'Scoring Method' Breakdown
+Query Number: 106
+Difficulty: Medium
+There were a total of 5 goals scored in the match.
+*   1 goal was scored with a header.
+*   4 goals were scored with the feet or other means.
+
+Tuple: (1, 4)
+Query: The 'Panic Stations' Double Sub
+Query Number: 98
+Difficulty: Hard
+There are no instances in the commentary where a team made two substitutions within a five-minute window.
+
+Tuple: ()
+Query: The 'Turning Point' Goal
+Query Number: 115
+Difficulty: Hard
+The decisive moment was the goal scored by Yaya Toure at 58 minutes, which put Manchester City ahead 1-2, a lead they maintained until the end of the match.
+
+Tuple: (58, 'Yaya Toure', 'Manchester City', '1 - 2')
+Query: The 'Heated Rivalry' Index
+Query Number: 86
+Difficulty: Hard
+The two fouls that happened closest together in time occurred at the 37th minute. At this point, two players from opposing teams, Jose Canas (Swansea) and Edin Dzeko (Manchester City), both received yellow cards, indicating a period of increased tension and fouls occurring in rapid succession.
+
+Tuple: (
+    (37, 'Yellow Card', 'Jose Canas', 'Swansea', 'Jose Canas (Swansea) sees a yellow card. He should be more careful because one more challenge like that could result in a red card.'),
+    (37, 'Yellow Card', 'Edin Dzeko', 'Manchester City', 'The booking goes to Edin Dzeko (Manchester City).')
+)
+Query: The 'Aggressor's Timeline'
+Query Number: 65
+Difficulty: Hard
+Jonjo Shelvey, Jose Canas, and Yaya Toure are tied for the most fouls, each committing 2 fouls. I will provide the timeline for Jonjo Shelvey as his first foul occurred earliest in the match (1st minute).
+
+Tuple: (('1', 'Foul', 'Jonjo Shelvey (Swansea) commits a foul on his opponent and it looks like it should be the other way around at first glance, but the referee makes the right decision in awarding a free kick to the other team.'), ('45+3', 'Yellow Card', 'Is that a yellow card in the referee\'s hand? It is! Jonjo Shelvey (Swansea) gets booked.'))
+Query: Player Focus: Late Game Heroics
+Query Number: 43
+Difficulty: Hard
+Jonjo Shelvey was substituted off at the 81st minute (81 That's the end of the game for Jonjo Shelvey, who is replaced by Alejandro Pozuelo (Swansea).). The "last 10 minutes" of the match refers to the period from approximately the 84th minute until the final whistle at 90+4. Since Jonjo Shelvey was not on the pitch during this specified period, he could not have been involved in any goals or proxy assists in the last 10 minutes of the match.
+
+Tuple: ("Jonjo Shelvey", False, False, "Substituted off at 81 minutes, before the last 10 minutes of play.")
+Query: The 'Build-up Play' Timeline
+Query Number: 66
+Difficulty: Hard
+Here's a breakdown of each goal and the two actions that came right before it:
+
+Goal 1 (0-1): Fernandinho (Manchester City) at 14'
+    Preceding Action 1: At 14 minutes, Samir Nasri (Manchester City) was preparing to deliver a corner kick.
+    Preceding Action 2: At 13 minutes, Pablo Zabaleta (Manchester City) had whipped a ball into the penalty area, which was cleared by the opposition's defence, leading to a corner for Manchester City.
+
+Goal 2 (1-1): Wilfried Bony (Swansea) at 45+2'
+    Preceding Action 1: At 45+1 minutes, Wayne Routledge (Swansea) served in a cross which was cleared by the defence.
+    Preceding Action 2: At 45 minutes, Samir Nasri (Manchester City) fired a volley towards goal from the edge of the penalty box, but it went wide of the left post.
+
+Goal 3 (1-2): Yaya Toure (Manchester City) at 58'
+    Preceding Action 1: At 57 minutes, Alvaro Negredo (Manchester City) struck the ball towards goal, but it was blocked by a defender.
+    Preceding Action 2: At 57 minutes, Samir Nasri (Manchester City) put a cross into the box from a corner, which was easily cleared by the opposition.
+
+Goal 4 (1-3): Aleksandar Kolarov (Manchester City) at 66'
+    Preceding Action 1: At 64 minutes, Swansea was enjoying a period of possession, exchanging precise passes.
+    Preceding Action 2: At 63 minutes, a lofted pass by Wayne Routledge (Swansea) into the box was intercepted by the opposition's defence.
+
+Goal 5 (2-3): Wilfried Bony (Swansea) at 90+1'
+    Preceding Action 1: At 90+1 minutes, the latest ball possession ratio was 52:48.
+    Preceding Action 2: At 90 minutes, Jack Rodwell (Manchester City) was substituted on for Jesus Navas (Manchester City).
+
+Tuple: (14, 'Corner Kick', 'Samir Nasri', 'Manchester City', 'Samir Nasri (Manchester City) looks like he will be the one to try and deliver a quality ball into the penalty box from the corner kick.', 13, 'Cross, Corner Awarded', 'Pablo Zabaleta', 'Manchester City', 'Pablo Zabaleta (Manchester City) whips the ball into the penalty area, but one of the opposition\'s defenders makes a quick reaction and spanks it away. The main referee points to the corner flag, Manchester City will take a corner.', 45+1, 'Cross', 'Wayne Routledge', 'Swansea', 'Wayne Routledge (Swansea) serves in a nice cross, but the defence clear the danger.', 45, 'Shot Wide', 'Samir Nasri', 'Manchester City', 'Samir Nasri (Manchester City) fires a volley towards goal from the edge of the penalty box, but his effort goes well wide of the left post.', 57, 'Shot Blocked', 'Alvaro Negredo', 'Manchester City', 'Alvaro Negredo (Manchester City) strikes the ball towards goal, but it fails to reach the target after being well blocked by one of the defenders.', 57, 'Corner Kick', 'Samir Nasri', 'Manchester City', 'Samir Nasri (Manchester City) puts a cross into the box from the corner but there is no panic from the opposition and they easily clear.', 64, 'Possession', 'N/A', 'Swansea', 'Swansea are bossing possession at the moment by exchanging some precise passes from player to player.', 63, 'Pass Intercepted', 'Wayne Routledge', 'Swansea', 'A fine lofted pass into the box, sent by Wayne Routledge (Swansea), is intercepted by the opposition\'s defence.', 90+1, 'Ball Possession', 'N/A', 'N/A', '52:48 – the latest ball possession ratio.', 90, 'Substitution', 'Jack Rodwell, Jesus Navas', 'Manchester City', 'Jack Rodwell (Manchester City) receives a signal from the referee and is now allowed to enter the pitch as Jesus Navas walks off.')

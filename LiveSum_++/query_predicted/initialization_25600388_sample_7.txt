@@ -1,0 +1,375 @@
+Query: Analysis: First Foul of the Match
+Query Number: 8
+Difficulty: Easy
+Nicolas Anelka set the physical tone early by committing the very first foul of the game for West Brom. He made a slide tackle that the referee deemed a foul, resulting in a dangerous free kick for Southampton.
+
+Tuple: (7, 'Nicolas Anelka', 'West Brom')
+Query: Analysis: First Card of the Match
+Query Number: 6
+Difficulty: Easy
+Let's think step by step.
+The first player to have their name taken and receive a yellow card was Dejan Lovren of Southampton.
+
+Tuple: (27, 'Dejan Lovren', 'Southampton', 'makes it easy for the referee to show him a yellow card.')
+Query: Player Focus: The 'Complete' Game
+Query Number: 48
+Difficulty: Easy
+Let's go through the commentary to identify players who scored, got booked (yellow or red card), and were substituted off.
+
+1.  **Scored:** Adam Lallana (Southampton) scored at 66 minutes.
+2.  **Got Booked:**
+    *   Shane Long (West Brom) received a yellow card at 58 minutes.
+    *   Jonas Olsson (West Brom) received a yellow card at 72 minutes.
+    *   Dejan Lovren (Southampton) received a yellow card at 27 minutes.
+    *   Nicolas Anelka (West Brom) received a warning at 65 minutes, which is not a booking (yellow/red card).
+3.  **Was Substituted Off:**
+    *   Jay Rodriguez (Southampton) was subbed off at 90+1 minutes.
+    *   Morgan Amalfitano (West Brom) was subbed off at 87 minutes.
+    *   Adam Lallana (Southampton) was subbed off at 84 minutes.
+    *   Gareth McAuley (West Brom) was subbed off at 81 minutes.
+    *   Nicolas Anelka (West Brom) was subbed off at 77 minutes.
+    *   Jack Cork (Southampton) was subbed off at 62 minutes.
+
+Now let's check for any player who meets *all three* criteria:
+
+*   **Adam Lallana (Southampton)**: Scored (Yes), Booked (No), Subbed Off (Yes). He was not booked.
+*   **Shane Long (West Brom)**: Scored (No), Booked (Yes), Subbed Off (No).
+*   **Jonas Olsson (West Brom)**: Scored (No), Booked (Yes), Subbed Off (No).
+*   **Dejan Lovren (Southampton)**: Scored (No), Booked (Yes), Subbed Off (No).
+*   **Jay Rodriguez (Southampton)**: Scored (No), Booked (No), Subbed Off (Yes).
+*   **Nicolas Anelka (West Brom)**: Scored (No), Booked (No - only a warning), Subbed Off (Yes).
+*   **Morgan Amalfitano (West Brom)**: Scored (No), Booked (No), Subbed Off (Yes).
+*   **Gareth McAuley (West Brom)**: Scored (No), Booked (No), Subbed Off (Yes).
+*   **Jack Cork (Southampton)**: Scored (No), Booked (No), Subbed Off (Yes).
+
+Based on the analysis, no player in the commentary scored, got booked, AND was substituted off.
+
+Tuple: ()
+Query: The 'Last Chance Saloon' Sub
+Query Number: 91
+Difficulty: Easy
+Reasoning: To find the final 'throw of the dice' (last substitution), I scanned the commentary from the end of the match backwards to identify the highest minute at which a substitution occurred. The last substitution took place at 90+1 minutes when Guly Do Prado came on for Southampton. The match concluded at 90+4 minutes, meaning there were 3 minutes left after this substitution.
+
+Tuple: (90+1, 'Guly Do Prado', 'Southampton', 3)
+Query: Timeline: Shot in Minute Window
+Query Number: 123
+Difficulty: Easy
+Here's a step-by-step process to identify all shots on goal between Minutes 10 and 87:
+1.  **Define "Shot on Goal":** A "shot on goal" includes attempts that are on target (saved by the goalkeeper, hit the post/crossbar, or result in a goal) and also attempts that go just wide or over the bar, clearly intended as a scoring effort. Blocked shots are also considered as they were goal-bound attempts.
+2.  **Scan Commentary:** I will go through the provided commentary chronologically, starting from Minute 10 up to Minute 87.
+3.  **Identify Shot Events:** For each minute, I will look for descriptions indicating a shot, strike, attempt at goal, or a direct effort towards the net.
+4.  **Extract Details:** Once a shot event is identified, I will extract the 'Time', 'Team', 'Player', and the 'Description' of the action.
+
+Based on this process, here are the identified shots on goal:
+
+Tuple: ((10, 'Southampton', 'Rickie Lambert', 'gets to the rebound inside the box and smashes the ball just wide of the right post.'), (14, 'Southampton', 'Steven Davis', 'drives another shot towards goal - this time from further out, but it couldn\'t have been worse if he had shot blindfolded. The ball goes into the stands.'), (28, 'West Brom', 'Steven Reid', 'wins the ball from the resulting free kick and unleashes a shot which sails just over the crossbar!'), (29, 'West Brom', 'Chris Brunt', 'The resulting free kick from Chris Brunt (West Brom) ends up in the gloves of the keeper.'), (35, 'Southampton', 'Rickie Lambert', 'unleashes a shot from the edge of the box, but it goes straight at Ben Foster.'), (38, 'Southampton', 'Rickie Lambert', 'unleashes a bullet of a shot that is blocked by a defender.'), (44, 'Southampton', 'Rickie Lambert', 'meets a cross from the flank and pulls the trigger from the edge of the box, but the ball flies high over the bar.'), (45+1, 'Southampton', 'Jay Rodriguez', 'latches on to a precise pass on the edge of the box, but miskicks his shot and the ball goes high over the bar.'), (52, 'Southampton', 'Jay Rodriguez', 'creates a good chance for himself and goes for goal from mid-range, but he misses the right post by a whisker.'), (53, 'Southampton', 'Steven Davis', 'unleashed a monstrous piledriver. He controlled a pass, glanced up at goal and shot from the edge of the box. It could have been a difficult one for the keeper, but the ball fortunately hit one of the defenders and ball bounced away.'), (66, 'Southampton', 'Adam Lallana', 'produces an accurate strike low behind the goalkeeper.'), (67, 'Southampton', 'Gaston Ramirez', 'produces a good strike, that sails towards the right post, but the goalkeeper shows great reflexes and dives to keep the effort from hitting the net.'), (83, 'Southampton', 'Gaston Ramirez', 'his poorly placed shot sails well over the bar.'))
+Query: Comparison: First Half vs Second Half Dominance
+Query Number: 28
+Difficulty: Easy
+Let's break down the commentary to count the events for each team in each half. An "event" is considered any described action or key moment initiated by a specific team or one of its players (e.g., a shot, a pass, a foul, a corner, a substitution, an offside, a card received). Referee actions like blowing whistles for start/end of half are excluded.
+
+**First Half (Minutes 1 - 45+2):**
+
+**Southampton Events:**
+1.  5' Jay Rodriguez (Southampton) superbly chipped...
+2.  8' Adam Lallana (Southampton) ...unleashes a shot
+3.  8' Southampton are showing great team chemistry. (Possession/Team Play)
+4.  10' Rickie Lambert (Southampton) ...smashes the ball just wide
+5.  14' Steven Davis (Southampton) drives another shot
+6.  15' Southampton are showcasing great team work by keeping possession... (Possession/Team Play)
+7.  16' Jay Rodriguez (Southampton) attempts to set up his teammate
+8.  17' Luke Shaw (Southampton) produces a cross... Adam Lallana (Southampton) corner
+9.  21' Steven Davis (Southampton) corner
+10. 21' Steven Davis (Southampton) takes the corner kick
+11. 24' Southampton seem to be finding their feet as they enjoy some possession. (Possession/Team Play)
+12. 26' Nathaniel Clyne (Southampton) delivers a promising cross
+13. 26' Morgan Schneiderlin (Southampton) fouls an opponent.
+14. 27' Dejan Lovren (Southampton) receives a yellow card.
+15. 30' Rickie Lambert (Southampton) commits a rough foul.
+16. 32' Morgan Schneiderlin (Southampton) hacks down one of his opponents. (Foul)
+17. 32' Luke Shaw (Southampton) produces a lovely ball
+18. 34' Wonderful movement by Southampton. The players are holding possession. (Possession/Team Play)
+19. 35' Rickie Lambert (Southampton) unleashes a shot
+20. 37' Adam Lallana (Southampton) produces a dangerous low pass
+21. 38' Rickie Lambert (Southampton) unleashes a bullet of a shot
+22. 40' Steven Davis (Southampton) sends in a lofted cross from a free kick
+23. 42' Steven Davis (Southampton) delivers a fine lofted cross... prepares to take a corner kick.
+24. 43' Steven Davis (Southampton) launches the ball from the resulting corner
+25. 44' Rickie Lambert (Southampton) meets a cross... pulls the trigger
+26. 45' Dejan Lovren (Southampton) sends an accurate pass to Jay Rodriguez (Southampton)... Jay Rodriguez (Southampton) flights in the cross
+27. 45+1' Jay Rodriguez (Southampton) ...miskicks his shot
+
+**West Brom Events:**
+1.  1' Chris Brunt (West Brom) swings in a cross
+2.  7' Nicolas Anelka (West Brom) ...commits a foul.
+3.  11' Chris Brunt (West Brom) takes the resulting corner
+4.  27' Steven Reid (West Brom) takes a direct free kick.
+5.  28' Steven Reid (West Brom) ...unleashes a shot
+6.  29' Chris Brunt (West Brom) will take the free kick.
+7.  29' The resulting free kick from Chris Brunt (West Brom) ends up in the gloves of the keeper.
+8.  31' Chris Brunt (West Brom) attempts to find one of his teammates with a ball from a free kick
+9.  33' Shane Long (West Brom) ...commits a foul
+10. 37' A player from West Brom brings down an opponent and commits a foul.
+11. 40' Steven Reid (West Brom) was too aggressive in his challenge. (Foul)
+12. 42' Shane Long (West Brom) offside.
+13. 45+1' Nicolas Anelka (West Brom) commits a foul
+
+**First Half Totals:**
+*   Southampton: 27 events
+*   West Brom: 13 events
+
+---
+
+**Second Half (Minutes 46 - 90+4):**
+
+**Southampton Events:**
+1.  48' Southampton slow the tempo of the game down by exchanging a combination of one or two touch passes. (Possession/Team Play)
+2.  50' Luke Shaw (Southampton) sends a cross in and finds Jay Rodriguez (Southampton)
+3.  52' Jay Rodriguez (Southampton) ...goes for goal
+4.  53' Morgan Schneiderlin (Southampton) and Steven Davis combine well... Steven Davis (Southampton) unleashed a monstrous piledriver.
+5.  56' Jack Cork (Southampton) fails to deliver a decent cross from a long-range free kick.
+6.  58' Southampton are showing great team chemistry. (Possession/Team Play)
+7.  62' Jack Cork (Southampton) is replaced by Gaston Ramirez (Southampton). (Substitution)
+8.  64' Southampton seem to be finding their feet as they enjoy some possession. (Possession/Team Play)
+9.  64' Nathaniel Clyne (Southampton) sends a beautiful cross
+10. 66' Adam Lallana (Southampton) meets a perfect cross from Gaston Ramirez... He produces an accurate strike (Goal)
+11. 67' Gaston Ramirez (Southampton) produces a good strike
+12. 70' Adam Lallana (Southampton) and Gaston Ramirez (Southampton) show their ability... Rickie Lambert (Southampton) received a sweet pass
+13. 74' Gaston Ramirez (Southampton) whips in the corner
+14. 77' Steven Davis (Southampton) ...commits a foul
+15. 81' Jay Rodriguez (Southampton) is offside.
+16. 83' Southampton are showing great team chemistry. (Possession/Team Play)
+17. 83' Gaston Ramirez (Southampton)... his poorly placed shot sails well over the bar.
+18. 84' James Ward-Prowse (Southampton) on for Adam Lallana. (Substitution)
+19. 90+1' Jay Rodriguez (Southampton) is coming on to help his team. (Substitution)
+20. 90+4' Luke Shaw (Southampton) was too forceful with his tackle. (Foul)
+
+**West Brom Events:**
+1.  55' Nicolas Anelka (West Brom) brings an opponent down. (Foul)
+2.  57' Nicolas Anelka (West Brom) fails to beat the offside trap. (Offside)
+3.  58' Shane Long (West Brom) picks up a yellow card.
+4.  61' Chris Brunt (West Brom) is offside.
+5.  65' Nicolas Anelka (West Brom) trips an opponent. (Foul)
+6.  69' Long pass, produced by Jonas Olsson (West Brom), missed precision.
+7.  72' Jonas Olsson (West Brom) receives a yellow card.
+8.  77' Nicolas Anelka goes off... Saido Berahino (West Brom) comes on. (Substitution)
+9.  77' Steven Reid (West Brom) attempts to find a head of one of his teammates with a promising cross.
+10. 81' Gareth McAuley... will be replaced by Zoltan Gera (West Brom). (Substitution)
+11. 82' Chris Brunt (West Brom) dinks a cross.
+12. 84' Chris Brunt (West Brom) produces a quality pass into the box... (leading to corner)
+13. 84' The resulting corner from Morgan Amalfitano (West Brom) is cleared.
+14. 86' Liam Ridgewell (West Brom) crosses the ball.
+15. 87' Morgan Amalfitano leaves the pitch and Matej Vydra (West Brom) comes on. (Substitution)
+16. 88' Matej Vydra (West Brom) quickly takes the corner kick.
+17. 89' James Morrison (West Brom) receives a precise pass and threatens the keeper with a long-range shot.
+18. 90' Matej Vydra (West Brom) and Liam Ridgewell combine well.
+19. 90+1' Shane Long (West Brom) collects a great pass... misses a golden opportunity.
+20. 90+4' Chris Brunt (West Brom) takes the ball and sets it for the free kick.
+21. 90+4' The free kick is delivered by Chris Brunt (West Brom).
+22. 90+4' The corner by Chris Brunt (West Brom) lacks accuracy.
+
+**Second Half Totals:**
+*   Southampton: 20 events
+*   West Brom: 22 events
+
+---
+
+**Summary and Domination:**
+
+*   **First Half:**
+    *   Southampton: 27 events
+    *   West Brom: 13 events
+    *   **Domination:** Southampton (significantly more events)
+
+*   **Second Half:**
+    *   Southampton: 20 events
+    *   West Brom: 22 events
+    *   **Domination:** West Brom (slightly more events)
+
+Tuple:
+(
+    ('1st Half', 'Southampton', 27),
+    ('1st Half', 'West Brom', 13),
+    ('2nd Half', 'West Brom', 22),
+    ('2nd Half', 'Southampton', 20)
+)
+Query: The 'Desperation' Sub
+Query Number: 73
+Difficulty: Easy
+The manager of **Southampton** made the last desperate change. The final substitution occurred at 90+1 minutes.
+
+Tuple: ('90+1', 'Southampton', 'Guly Do Prado', 'Jay Rodriguez')
+Query: Player Focus: Brace Scorer
+Query Number: 36
+Difficulty: Medium
+I scanned the commentary for any instances of goals being scored.
+At minute 66, Adam Lallana (Southampton) scored a goal, making the score 1-0. This is the only goal explicitly described in the commentary. Since only one goal was scored in the entire match, no player managed to score exactly two goals (a brace).
+
+Tuple: ()
+Query: Analysis: Free-Kick Shots
+Query Number: 10
+Difficulty: Medium
+Based on the commentary, there were two instances of shots taken directly from a free-kick.
+
+1.  At 29 minutes, Chris Brunt's free-kick was a shot on target as it went directly into the keeper's gloves.
+2.  At 28 minutes, Steven Reid took a direct free-kick, and the description states he "unleashes a shot which sails just over the crossbar," indicating it was a direct shot at goal.
+
+Tuple: (('29', 'Chris Brunt', 'West Brom', 'The resulting free kick from Chris Brunt (West Brom) ends up in the gloves of the keeper.'), ('28', 'Steven Reid', 'West Brom', 'Steven Reid (West Brom) takes a direct free kick and unleashes a shot which sails just over the crossbar.'))
+Query: The 'Scrappy Period' Analysis
+Query Number: 107
+Difficulty: Medium
+To pinpoint the most chaotic spell, I will identify all incidents that are either a card or a foul and then count them within every possible 10-minute window.
+
+Here's a list of all identified incidents (fouls and cards) with their approximate minute:
+1.  **Min 7:** Nicolas Anelka (West Brom) foul.
+2.  **Min 26:** Morgan Schneiderlin (Southampton) fouls an opponent.
+3.  **Min 27:** Dejan Lovren (Southampton) receives a yellow card.
+4.  **Min 30:** Rickie Lambert (Southampton) commits a rough foul.
+5.  **Min 32:** Morgan Schneiderlin (Southampton) hacks down an opponent.
+6.  **Min 33:** Shane Long (West Brom) commits a foul.
+7.  **Min 37:** A player from West Brom brings down an opponent (foul).
+8.  **Min 40:** Steven Reid (West Brom) too aggressive in his challenge (foul).
+9.  **Min 45+1 (approx. Min 45):** Nicolas Anelka (West Brom) commits a foul.
+10. **Min 55:** Nicolas Anelka (West Brom) brings an opponent down (foul).
+11. **Min 58:** Shane Long (West Brom) picks up a yellow card.
+12. **Min 65:** Nicolas Anelka (West Brom) trips an opponent (foul).
+13. **Min 72:** Jonas Olsson (West Brom) receives a yellow card.
+14. **Min 77:** Steven Davis (Southampton) commits a foul.
+15. **Min 90+4 (approx. Min 90):** Luke Shaw (Southampton) too forceful with his tackle (foul).
+
+Now, let's analyze 10-minute windows (e.g., minutes X to X+9):
+
+*   **Window [7, 16]:** 1 incident (Min 7)
+*   **Window [26, 35]:** 5 incidents (Min 26, 27, 30, 32, 33)
+*   **Window [27, 36]:** 4 incidents (Min 27, 30, 32, 33)
+*   **Window [30, 39]:** 4 incidents (Min 30, 32, 33, 37)
+*   **Window [32, 41]:** 4 incidents (Min 32, 33, 37, 40)
+*   **Window [33, 42]:** 3 incidents (Min 33, 37, 40)
+*   **Window [37, 46]:** 3 incidents (Min 37, 40, 45)
+*   **Window [40, 49]:** 2 incidents (Min 40, 45)
+*   **Window [45, 54]:** 1 incident (Min 45)
+*   **Window [55, 64]:** 2 incidents (Min 55, 58)
+*   **Window [58, 67]:** 2 incidents (Min 58, 65)
+*   **Window [65, 74]:** 2 incidents (Min 65, 72)
+*   **Window [72, 81]:** 2 incidents (Min 72, 77)
+*   **Window [77, 86]:** 1 incident (Min 77)
+*   **Window [90, 99]:** 1 incident (Min 90)
+
+The 10-minute period with the highest number of cards and fouls is the window from **minute 26 to minute 35**, with a total of **5 incidents**.
+
+Tuple: ("26-35 minutes", 5)
+Query: The 'Foul Magnet' Award
+Query Number: 79
+Difficulty: Medium
+To determine the player who was fouled the most, I will go through the commentary and identify all instances where a player is explicitly stated to have been fouled or to have won a free kick.
+
+Here's the analysis:
+*   **90+4:** "Luke Shaw (Southampton) was too forceful with his tackle and Howard Webb interrupted the game to signal a free kick. West Brom have a free kick." - A West Brom player was fouled, but not named.
+*   **65:** "Nicolas Anelka (West Brom) trips an opponent... Southampton are awarded a free kick..." - A Southampton player was fouled, but not named.
+*   **55:** "Nicolas Anelka (West Brom) brings an opponent down... Southampton win a free kick..." - A Southampton player was fouled, but not named.
+*   **40:** "Steven Reid (West Brom) was too aggressive in his challenge. A free kick has been awarded to Southampton." - A Southampton player was fouled, but not named.
+*   **37:** "A player from West Brom brings down an opponent... a direct free kick for Southampton." - A Southampton player was fouled, but not named.
+*   **32:** "Morgan Schneiderlin (Southampton) hacks down one of his opponents." - A West Brom player was fouled, but not named.
+*   **27:** "Dejan Lovren (Southampton) makes it easy for the referee to show him a yellow card. Steven Reid (West Brom) takes a direct free kick." - This sequence strongly implies that Steven Reid was fouled by Dejan Lovren, leading to the free kick and yellow card. **Steven Reid (West Brom) wins 1 foul.**
+*   **26:** "Morgan Schneiderlin (Southampton) fouls an opponent... West Brom earn a free kick." - A West Brom player was fouled, but not named.
+*   **7:** "Nicolas Anelka (West Brom) does well to dispossess the attacker with a slide tackle, but the referee blows his whistle for a foul. It's a free kick to Southampton in a dangerous position." - A Southampton player was fouled, but not named.
+
+In all other instances of fouls, either a player committed a foul (e.g., Jay Rodriguez, Nicolas Anelka, Steven Davis, Shane Long, Rickie Lambert, Morgan Schneiderlin), or the commentary did not specify the exact player who was fouled, only the team that was awarded the free kick.
+
+Based on the explicit mentions, Steven Reid is the only player whose name is directly associated with being fouled.
+
+Tuple: ('Steven Reid', 'West Brom', 1)
+Query: The 'Early Hook' Tactical Sub
+Query Number: 76
+Difficulty: Medium
+The first substitution in the commentary occurs at the 62-minute mark when Jack Cork is replaced by Gaston Ramirez for Southampton. Examining the commentary from minute 57 to 62, there is no mention of any injury or incident involving Jack Cork that would necessitate his removal from the game due to injury. Therefore, this substitution is considered to be for tactical reasons.
+
+Tuple: (62, 'Jack Cork', 'Southampton')
+Query: The 'Long-Range Threat' Team
+Query Number: 94
+Difficulty: Medium
+Reasoning:
+To determine which team had more shots from outside the box, I identified all instances in the commentary where a shot was explicitly described as being from "long-range," "mid-range," "the edge of the box," "outside the box," or "from further out."
+
+Here's the breakdown for each team:
+
+**West Brom:**
+*   **89' James Morrison:** "threatens the keeper with a long-range shot." (1 shot)
+
+**Southampton:**
+*   **83' Gaston Ramirez:** "makes a yard for himself on the edge of the box, but his poorly placed shot sails well over the bar." (1 shot)
+*   **53' Steven Davis:** "shot from the edge of the box." (2 shots)
+*   **52' Jay Rodriguez:** "goes for goal from mid-range." (3 shots)
+*   **45+1 Jay Rodriguez:** "latches on to a precise pass on the edge of the box, but miskicks his shot." (4 shots)
+*   **44' Rickie Lambert:** "pulls the trigger from the edge of the box." (5 shots)
+*   **35' Rickie Lambert:** "unleashes a shot from the edge of the box." (6 shots)
+*   **14' Steven Davis:** "drives another shot towards goal - this time from further out." (7 shots)
+*   **8' Adam Lallana:** "unleashes a shot from just outside of the box." (8 shots)
+
+West Brom had 1 shot from outside the box.
+Southampton had 8 shots from outside the box.
+
+Therefore, Southampton had more shots from outside the box.
+
+Tuple: ('Southampton', 8)
+Query: The 'Pressure Cooker' Foul
+Query Number: 102
+Difficulty: Medium
+Reasoning:
+I have analyzed the provided minute-by-minute commentary to identify all instances where a foul was committed and immediately punished by the referee awarding a free-kick or penalty to the opposing team. This includes instances where a foul was called and a free-kick was explicitly mentioned as the immediate consequence. I also checked if any of these fouls directly led to a goal from the resulting free-kick or penalty within the same minute; no such instances were found in the commentary.
+
+Tuple: ((90+4, 'Luke Shaw', 'Southampton', 'Too forceful tackle, free kick awarded to West Brom'), (77, 'Steven Davis', 'Southampton', 'Commits a foul, free kick awarded to West Brom'), (65, 'Nicolas Anelka', 'West Brom', 'Trips opponent with slide tackle, free kick awarded to Southampton'), (55, 'Nicolas Anelka', 'West Brom', 'Brings opponent down, free kick awarded to Southampton'), (45+1, 'Nicolas Anelka', 'West Brom', 'Commits a foul, free kick immediately signaled'), (40, 'Steven Reid', 'West Brom', 'Too aggressive in challenge, free kick awarded to Southampton'), (37, 'A player', 'West Brom', 'Brings down an opponent, direct free kick awarded to Southampton'), (33, 'Shane Long', 'West Brom', 'Commits a foul, referee stops play'), (32, 'Morgan Schneiderlin', 'Southampton', 'Hacks down opponent, foul called'), (30, 'Rickie Lambert', 'Southampton', 'Commits a rough foul, free kick awarded to West Brom'), (27, 'Dejan Lovren', 'Southampton', 'Foul leading to yellow card and direct free kick for West Brom'), (26, 'Morgan Schneiderlin', 'Southampton', 'Fouls an opponent, free kick awarded to West Brom'), (7, 'Nicolas Anelka', 'West Brom', 'Slide tackle, foul called, free kick awarded to Southampton'))
+Query: Between Goals: All Events (Both Teams)
+Query Number: 27
+Difficulty: Hard
+No team scored more than once in this match. Southampton scored one goal at the 66th minute, and West Brom did not score. Therefore, there is no period between a first and second goal for any team to analyze.
+Query: The 'Equalizer' Events
+Query Number: 77
+Difficulty: Hard
+The commentary indicates only one goal, scored by Adam Lallana (Southampton) at 66 minutes, making the score 1-0. As the game would have started at 0-0, this goal takes the lead and does not level the scores. No other goals are mentioned that would bring the score to a tied position after being untied. Therefore, there are no equalizer goals to list.
+
+Tuple: ()
+Query: The 'Post-Goal Momentum Swing'
+Query Number: 101
+Difficulty: Hard
+Only one goal was scored in the match at minute 66 by Adam Lallana of Southampton. The five-minute period immediately following this goal is from minute 66 to minute 70. During this period, the events were:
+
+*   **Minute 66:** Adam Lallana (Southampton) scores. (Southampton event)
+*   **Minute 67:** Gaston Ramirez (Southampton) produces a good strike, saved by the goalkeeper. (Southampton event)
+*   **Minute 69:** Jonas Olsson (West Brom) produces a long pass that misses precision. (West Brom event)
+*   **Minute 70:** Adam Lallana (Southampton), Gaston Ramirez (Southampton), and Rickie Lambert (Southampton) combine in an attack. (Southampton event)
+
+Counting the events for each team in this period:
+*   Southampton: 3 events
+*   West Brom: 1 event
+
+Southampton had more events in the five minutes following the goal.
+
+Tuple: (66, 'Southampton', 3)
+Query: The 'Afters' Stat
+Query Number: 64
+Difficulty: Hard
+**1. Reasoning:**
+The commentary indicates the referee blows for the end of the match at "90+4 The referee blows for the end of today's match." There are no further events or time stamps listed after this specific entry. All other "90+4" events occur *before* or *at the exact moment* the whistle is blown, not after. Upon reviewing the entire commentary, no cards are mentioned as being shown at or after the 90+4 minute mark, specifically after the final whistle.
+
+**2. Answer:**
+No, tempers did not flare after the final whistle, as no cards were shown after the match ended.
+
+Tuple: ()
+Query: Analysis: Team Reaction to Conceding
+Query Number: 24
+Difficulty: Hard
+After conceding at the 66th minute, West Brom did not register any shots on goal in the subsequent 10 minutes (from 66:00 to 75:59).
+
+Tuple: ()
+Query: The 'Turning Point' Goal
+Query Number: 115
+Difficulty: Hard
+Let's think step by step.
+1.  I have scanned the entire match commentary for any score updates or goals.
+2.  At minute 66, the commentary explicitly states "1 - 0" followed by a description of a goal: "Adam Lallana (Southampton) meets a perfect cross from Gaston Ramirez on the edge of the penalty area and controls it with a nice first touch. He produces an accurate strike low behind the goalkeeper."
+3.  Despite a confusing "It's 0:0" at the very end of that specific goal description, the "1 - 0" directly preceding it indicates the score changed to 1-0.
+4.  No other goals are mentioned throughout the commentary, and the match concludes.
+5.  Therefore, the goal scored by Adam Lallana at 66 minutes, making the score 1-0, is the only goal and thus the decisive one that won the match for Southampton.
+
+Tuple: (66, 'Adam Lallana', 'Southampton', '1 - 0')

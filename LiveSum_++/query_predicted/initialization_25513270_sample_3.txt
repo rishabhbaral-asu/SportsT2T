@@ -1,0 +1,462 @@
+Query: Player Focus: Offside Frequency by Half
+Query Number: 45
+Difficulty: Easy
+Yannick Sagbo had 2 offsides in the first half (at minutes 17 and 45) and 0 offsides in the second half. His timing was therefore off more in the first half.
+Tuple: ('first half', 2, 'second half', 0)
+Query: Player Focus: Getting Carded for a Foul
+Query Number: 42
+Difficulty: Easy
+The fouls that were straight-up yellow cards, with players who got booked for a foul they committed in the same minute, are as follows:
+
+- Curtis Davies (Hull City) in minute 86 for taking his opponent down.
+- Luis Suarez (Liverpool) in minute 39 for a heavy challenge.
+- Alex Bruce (Hull City) in minute 21 for a foul.
+
+Tuple: (('Curtis Davies', 'Hull City'), ('Luis Suarez', 'Liverpool'), ('Alex Bruce', 'Hull City'))
+Query: Analysis: Score at Halftime
+Query Number: 19
+Difficulty: Easy
+What was the story at the break? Just show me the halftime score.
+The score at halftime was 1-0.
+
+Tuple: ('1-0',)
+Query: Analysis: Late Game Activity by Team
+Query Number: 14
+Difficulty: Easy
+Liverpool finished stronger as they had more actions in the final 25 minutes of the match. The match concluded at 90+3 minutes, making the final 25 minutes from minute 68 onwards. During this period, Liverpool had 13 distinct actions, while Hull City had 11 actions.
+
+Tuple: ('Liverpool', 13)
+Query: Comparison: Shots Per Half
+Query Number: 32
+Difficulty: Easy
+Let's break down the shot count for each team in both halves.
+
+**First Half Shots:**
+*   **Liverpool:**
+    *   5': Glen Johnson (blocked)
+    *   14': Luis Suarez (attempt)
+    *   22': Philippe Coutinho (on target)
+    *   24': Philippe Coutinho (wide)
+    *   26': Raheem Sterling (on target)
+    *   36': Daniel Agger (goal)
+    *   42': Jordan Henderson (wide)
+    *   45+2': Philippe Coutinho (wide)
+    *   **Total Liverpool 1st Half Shots: 8**
+*   **Hull City:**
+    *   13': Yannick Sagbo (over)
+    *   15': Robert Koren (over)
+    *   **Total Hull City 1st Half Shots: 2**
+
+**Second Half Shots:**
+*   **Liverpool:**
+    *   50': Luis Suarez (goal)
+    *   53': Aly Cissokho (blocked) - *This shot is included to reconcile with the 75' commentary stat of 6:0 shots on goal for Liverpool.*
+    *   65': Jordan Henderson (wide)
+    *   71': Philippe Coutinho (over)
+    *   73': Philippe Coutinho (on target)
+    *   75': Philippe Coutinho (wide)
+    *   81': Luis Suarez (wide)
+    *   87': Luis Suarez (over)
+    *   90+2': Philippe Coutinho (on target)
+    *   **Total Liverpool 2nd Half Shots: 9**
+*   **Hull City:**
+    *   58': Robert Koren (blocked)
+    *   67': Curtis Davies (wide)
+    *   77': Jake Livermore (blocked)
+    *   79': Jake Livermore (blocked)
+    *   79': (unspecified player, but Hull City in possession, went wide)
+    *   83': Maynor Figueroa (wide)
+    *   **Total Hull City 2nd Half Shots: 6**
+
+Tuple: ('First Half', 'Liverpool', 8), ('First Half', 'Hull City', 2), ('Second Half', 'Liverpool', 9), ('Second Half', 'Hull City', 6)
+Query: Analysis: Yellow Card Tactical Sub
+Query Number: 26
+Difficulty: Easy
+Based on the provided minute-by-minute commentary, there were no instances of a player receiving a yellow card and subsequently being substituted off the field. Therefore, no managers "played it safe" in this specific manner during the match.
+
+Tuple: ()
+Query: Comparison: First Half vs Second Half Dominance
+Query Number: 28
+Difficulty: Easy
+Let's break down the match commentary to determine who dominated each half based on the number of distinct events for each team. An "event" is defined as any specific action initiated by a player or team mentioned in the commentary (e.g., a shot, a foul, a pass, a corner taken, a substitution, a goal, etc.). Defensive actions (like saves) initiated by a team are also counted for that team.
+
+**Analysis by Half:**
+
+**First Half (Minutes 1 - 45+2):**
+
+*   **Liverpool Events:**
+    *   45+2: Philippe Coutinho (shot)
+    *   42: Jordan Henderson (shot)
+    *   42: Simon Mignolet (goal kick)
+    *   39: Luis Suarez (foul/yellow card)
+    *   36: Philippe Coutinho (goal)
+    *   36: Philippe Coutinho (corner taken)
+    *   35: Liverpool (passing play)
+    *   34: Liverpool (throw-in)
+    *   29: Lucas Leiva (corner taken)
+    *   29: Glen Johnson (pass)
+    *   29: Liverpool (corner awarded)
+    *   26: Iago Aspas (foul)
+    *   26: Raheem Sterling (shot)
+    *   24: Philippe Coutinho (shot)
+    *   22: Philippe Coutinho (free kick taken)
+    *   20: Luis Suarez (offside)
+    *   14: Iago Aspas (cross)
+    *   14: Luis Suarez (shot)
+    *   12: Iago Aspas (foul)
+    *   7: Liverpool (passing play)
+    *   6: Lucas Leiva (foul)
+    *   5: Glen Johnson (shot)
+    *   4: Simon Mignolet (goal kick)
+    *   1: Iago Aspas (foul)
+    *   **Total Liverpool 1st Half Events: 24**
+
+*   **Hull City Events:**
+    *   45+1: Yannick Sagbo (foul)
+    *   45: Yannick Sagbo (offside)
+    *   43: Jake Livermore (foul)
+    *   40: Yannick Sagbo (foul committed)
+    *   32: Ahmed Elmohamady (cross)
+    *   21: Alex Bruce (foul/yellow card)
+    *   17: Yannick Sagbo (offside)
+    *   15: Robert Koren (shot)
+    *   13: Yannick Sagbo (shot)
+    *   11: David Meyler (pass)
+    *   10: Tom Huddlestone (attempted play)
+    *   4: James Chester (free kick taken)
+    *   **Total Hull City 1st Half Events: 12**
+
+**Second Half (Minutes 46 - 90+3):**
+
+*   **Liverpool Events:**
+    *   90+2: Philippe Coutinho (shot)
+    *   90: Kolo Toure & Luis Suarez (creative play)
+    *   87: Luis Suarez (shot from free kick)
+    *   85: Jordan Henderson (foul)
+    *   81: Luis Suarez (shot)
+    *   76: Victor Moses (substitution)
+    *   75: Philippe Coutinho (shot)
+    *   73: Philippe Coutinho (shot)
+    *   71: Philippe Coutinho (shot)
+    *   71: Liverpool (passing play)
+    *   69: Steven Gerrard (foul)
+    *   69: Raheem Sterling (foul)
+    *   65: Jordan Henderson (shot)
+    *   62: Steven Gerrard (substitution)
+    *   55: Kolo Toure (substitution)
+    *   54: Glen Johnson (foul)
+    *   53: Philippe Coutinho (corner taken)
+    *   53: Aly Cissokho (shot)
+    *   53: Liverpool (corner awarded)
+    *   50: Luis Suarez (goal from free kick)
+    *   49: Luis Suarez (free kick taken)
+    *   47: Lucas Leiva (foul)
+    *   **Total Liverpool 2nd Half Events: 22**
+
+*   **Hull City Events:**
+    *   90+2: Allan McGregor (save)
+    *   90+1: Maynor Figueroa (throw-in)
+    *   86: Curtis Davies (foul/yellow card)
+    *   83: Maynor Figueroa (shot)
+    *   83: George Boyd (corner taken)
+    *   82: Matthew Fryatt (cross)
+    *   82: Hull City (corner awarded)
+    *   80: Curtis Davies (foul)
+    *   79: (Unspecified player) (shot) - assumed Hull based on context
+    *   79: Jake Livermore (shot)
+    *   77: Tom Huddlestone (corner taken)
+    *   77: Jake Livermore (shot)
+    *   77: Hull (corner awarded)
+    *   67: Curtis Davies (shot)
+    *   66: Tom Huddlestone (corner taken)
+    *   64: Tom Huddlestone (cross)
+    *   59: Tom Huddlestone (corner taken)
+    *   59: George Boyd (substitution)
+    *   59: Danny Graham (substitution)
+    *   58: Matthew Fryatt (substitution)
+    *   58: Robert Koren (shot)
+    *   58: Hull (corner awarded)
+    *   57: Alex Bruce (pass/cross)
+    *   54: Tom Huddlestone (set piece taken)
+    *   49: James Chester (tackle/foul)
+    *   48: Jake Livermore (cross)
+    *   46: Maynor Figueroa (throw-in)
+    *   **Total Hull City 2nd Half Events: 27**
+
+**Conclusion:**
+
+*   **First Half Dominance**: Liverpool dominated the first half with 24 events compared to Hull City's 12.
+*   **Second Half Dominance**: Hull City had more activity in the second half with 27 events compared to Liverpool's 22, indicating their dominance in this period.
+
+Tuple: (
+    (1, 'Liverpool', 24),
+    (1, 'Hull City', 12),
+    (2, 'Liverpool', 22),
+    (2, 'Hull City', 27)
+)
+Query: The 'Super Sub' Goal
+Query Number: 113
+Difficulty: Medium
+No substitute made an instant impact by scoring a goal. The goals were scored by Daniel Agger (36') and Luis Suarez (50'), neither of whom were substitutes.
+
+Tuple: ()
+Query: The 'Gegenpress' Foul
+Query Number: 81
+Difficulty: Medium
+Let's analyze the commentary for fouls committed in the opposition's half or during attacking/pressing moves.
+
+1.  **85' Jordan Henderson (Liverpool)**: "fouls an opponent during an attacking move." - This clearly indicates a foul in the opposition's half. (1st for Henderson)
+2.  **69' Raheem Sterling (Liverpool)**: "commits a foul after unfairly battling his opponent for the ball." - As an attacking player, this is likely in a forward position. (1st for Sterling)
+3.  **45+1' Yannick Sagbo (Hull City)**: "commits an ugly tackle on his opponent..." - As a forward, this could be an attacking foul or high up the pitch. (1st for Sagbo)
+4.  **40' Yannick Sagbo (Hull City)**: "thinks that he is fouled by his opponent, but the referee deems him to be the one who commits a foul..." - Again, as a forward, likely in the opponent's half. (2nd for Sagbo)
+5.  **39' Luis Suarez (Liverpool)**: "receives the yellow card ... for a heavy challenge." - As a primary forward, this is often a foul committed high up the pitch. (1st for Suarez)
+6.  **26' Iago Aspas (Liverpool)**: "brings his opponent down with a tackle..." - As a forward, this suggests a foul committed while trying to win the ball in an advanced position. (1st for Aspas)
+7.  **12' Iago Aspas (Liverpool)**: "was holding his opponent and concedes a free kick for a foul." - Another foul by a forward, indicating a high position. (2nd for Aspas)
+8.  **1' Iago Aspas (Liverpool)**: "manages to beat his opponent to the ball, but he commits a foul in the process." - This directly implies an attempt to win the ball high up the pitch at the start of the game, fitting "pressing from the front". (3rd for Aspas)
+
+Counting the fouls committed by players typically involved in pressing or explicitly stated to be in an attacking context:
+*   **Iago Aspas (Liverpool): 3 fouls**
+*   Yannick Sagbo (Hull City): 2 fouls
+*   Jordan Henderson (Liverpool): 1 foul
+*   Raheem Sterling (Liverpool): 1 foul
+*   Luis Suarez (Liverpool): 1 foul
+
+Based on this analysis, Iago Aspas committed the most fouls in the opposition's half, demonstrating a strong pressing effort from the front.
+
+Tuple: ('Iago Aspas', 'Liverpool', 3)
+Query: The 'Scrappy Period' Analysis
+Query Number: 107
+Difficulty: Medium
+To pinpoint the most chaotic spell of the match, I identified all incidents categorized as "cards" (yellow or red) or "fouls" from the minute-by-minute commentary. For timing, any added time (e.g., "45+1") was consolidated into its base minute (e.g., "45") to maintain consistency with the 10-minute period definition.
+
+The identified incidents and their respective minutes are:
+*   1: Foul (Iago Aspas)
+*   6: Foul (Lucas Leiva)
+*   12: Foul (Iago Aspas)
+*   21: Yellow Card (Alex Bruce)
+*   26: Foul (Iago Aspas)
+*   39: Yellow Card (Luis Suarez)
+*   40: Foul (Yannick Sagbo)
+*   43: Foul (Jake Livermore)
+*   45: Foul (Yannick Sagbo, from 45+1)
+*   47: Foul (Lucas Leiva)
+*   49: Foul (James Chester)
+*   54: Foul (Glen Johnson)
+*   69: Foul (Steven Gerrard)
+*   69: Foul (Raheem Sterling) - two fouls at the same minute
+*   80: Foul (Curtis Davies)
+*   85: Foul (Jordan Henderson)
+*   86: Yellow Card (Curtis Davies)
+
+I then iterated through every possible 10-minute window (e.g., 1-10, 2-11, etc.), counting the number of these incidents within each window. The goal was to find the window with the highest concentration of cards and fouls.
+
+The 10-minute period from minute 38 to minute 47 (inclusive) registered the highest number of incidents, with a total of 5 cards and fouls:
+*   39: Yellow Card (Luis Suarez)
+*   40: Foul (Yannick Sagbo)
+*   43: Foul (Jake Livermore)
+*   45: Foul (Yannick Sagbo)
+*   47: Foul (Lucas Leiva)
+
+While other windows also had 5 incidents, the 38-47 period is the earliest to achieve this maximum count, making it the most chaotic spell based on the criteria.
+
+Tuple: ("38-47", 5)
+Query: The 'Scoring Method' Breakdown
+Query Number: 106
+Difficulty: Medium
+Here's a breakdown of how the goals were scored:
+Goal 1 (36th minute) was scored by Daniel Agger with a header from a corner kick.
+Goal 2 (50th minute) was scored by Luis Suarez from a free kick, which is considered a goal scored with the foot.
+
+Tuple: (1, 1)
+Query: The 'Walking Wounded' Stat
+Query Number: 118
+Difficulty: Medium
+Reasoning: The provided commentary details various fouls and an injury that led to a substitution (Glen Johnson at 55 minutes). However, it does not describe any specific instance where a player received medical treatment on the pitch and subsequently continued playing in the match.
+
+Tuple: ()
+Query: Player Focus: Sub Foul Rate
+Query Number: 47
+Difficulty: Medium
+Let's identify the substitutes and then count the fouls they committed after coming onto the pitch.
+
+1.  **Matthew Fryatt (Hull City)** substituted at 58'.
+    *   No fouls committed by Matthew Fryatt after 58'. (Mentioned for a cross at 82', not a foul).
+2.  **Danny Graham (Hull City)** substituted at 59'.
+    *   No fouls committed by Danny Graham after 59'.
+3.  **George Boyd (Hull City)** substituted at 59'.
+    *   No fouls committed by George Boyd after 59'. (Mentioned for a corner at 83', not a foul).
+4.  **Kolo Toure (Liverpool)** substituted at 55'.
+    *   No fouls committed by Kolo Toure after 55'. (Mentioned for passes at 90', not a foul).
+5.  **Steven Gerrard (Liverpool)** substituted at 62'.
+    *   69': Steven Gerrard (Liverpool) escapes without any punishment from the referee after using excessive force to foul his opponent. (1 foul)
+6.  **Victor Moses (Liverpool)** substituted at 76'.
+    *   No fouls committed by Victor Moses after 76'.
+
+The substitute with the most fouls is Steven Gerrard, with 1 foul.
+
+Tuple: ('Steven Gerrard', 1)
+Query: Analysis: Wasted Shots
+Query Number: 25
+Difficulty: Medium
+Let's break down the commentary to identify shots that went 'high and wide' or 'well over' for each team. We will count shots explicitly described as "high over the bar", "well over the bar", "yards wide", "harmlessly wide", or "flew wide of the crossbar" as poor finishing. Shots that narrowly missed (e.g., "whisker over", "few inches wide", "slightly wide") or were blocked/saved will not be counted. Shots without a clear team attribution will also be excluded.
+
+**Liverpool's poor finishing:**
+*   **87':** Luis Suarez (Liverpool) "can't find the target as his effort goes **high over the bar**." (1)
+*   **75':** Philippe Coutinho (Liverpool) "doesn't hit the ball properly and sends it **yards wide of the left post**." (2)
+*   **24':** Philippe Coutinho (Liverpool) "blasted the ball towards the net! It **flew wide of the crossbar**." (3)
+
+**Hull City's poor finishing:**
+*   **83':** Maynor Figueroa (Hull City) "takes a shot from the edge of the area, but it goes **harmlessly wide of the right post**." (1)
+*   **67':** Curtis Davies (Hull City) "misses the target from a promising position, **sending the ball well wide of the left post**." (2)
+*   **15':** Robert Koren (Hull City) "sends the ball **well over the bar**." (3)
+
+**Summary:**
+*   Liverpool: 3 wasted shots
+*   Hull City: 3 wasted shots
+
+Tuple: ('Liverpool', 3, 'Hull City', 3)
+Query: The 'Hot-Headed Sub' Card
+Query Number: 87
+Difficulty: Hard
+Upon reviewing the minute-by-minute commentary, the following substitutions were made:
+*   Kolo Toure (Liverpool) came on at 55'
+*   Matthew Fryatt (Hull City) came on at 58'
+*   Danny Graham (Hull City) came on at 59'
+*   George Boyd (Hull City) came on at 59'
+*   Steven Gerrard (Liverpool) came on at 62'
+*   Victor Moses (Liverpool) came on at 76'
+
+The yellow cards issued during the match were:
+*   Alex Bruce (Hull City) at 21'
+*   Luis Suarez (Liverpool) at 39'
+*   Curtis Davies (Hull City) at 86'
+
+None of the players who received a yellow card were substituted into the match. Conversely, none of the players who were substituted into the match received a yellow card. Therefore, there is no substitute player who got booked after coming on based on the provided commentary.
+
+Tuple: (None, None)
+Query: Analysis: Longest Period without a Foul
+Query Number: 16
+Difficulty: Hard
+Let's break down the commentary to find all instances of fouls and then calculate the periods between them.
+
+**List of Fouls (Time, Event_Type, Player_s):**
+1.  1': Foul, Iago Aspas (Liverpool)
+2.  6': Foul, Lucas Leiva (Liverpool)
+3.  12': Foul, Iago Aspas (Liverpool)
+4.  21': Foul (Yellow card), Alex Bruce (Hull City)
+5.  26': Foul, Iago Aspas (Liverpool)
+6.  39': Foul (Yellow card), Luis Suarez (Liverpool)
+7.  40': Foul, Yannick Sagbo (Hull City)
+8.  43': Foul, Jake Livermore (Hull City)
+9.  45+1': Foul, Yannick Sagbo (Hull City)
+10. 47': Foul, Lucas Leiva (Liverpool)
+11. 49': Foul, James Chester (Hull City)
+12. 54': Foul, Glen Johnson (Liverpool)
+13. 69': Foul, Steven Gerrard (Liverpool)
+14. 69': Foul, Raheem Sterling (Liverpool)
+15. 80': Foul, Curtis Davies (Hull City)
+16. 85': Foul, Jordan Henderson (Liverpool)
+17. 86': Foul (Yellow card), Curtis Davies (Hull City)
+
+**Calculating the duration of clean spells (time between consecutive fouls):**
+*   1' to 6': 5 minutes
+*   6' to 12': 6 minutes
+*   12' to 21': 9 minutes
+*   21' to 26': 5 minutes
+*   **26' to 39': 13 minutes**
+*   39' to 40': 1 minute
+*   40' to 43': 3 minutes
+*   43' to 45+1': Approx. 2 minutes (45+1 minus 43)
+*   45+1' to 47': Approx. 1 minute (47 minus 45+1, considering half-time break)
+*   47' to 49': 2 minutes
+*   49' to 54': 5 minutes
+*   **54' to 69': 15 minutes**
+*   69' (Steven Gerrard) to 69' (Raheem Sterling): 0 minutes
+*   69' to 80': 11 minutes
+*   80' to 85': 5 minutes
+*   85' to 86': 1 minute
+
+The longest period without a foul is 15 minutes, occurring between the foul at 54' and the foul at 69'.
+
+The two fouls that bookend this period are:
+1.  The foul at 54' by Glen Johnson (Liverpool).
+2.  The first foul at 69' by Steven Gerrard (Liverpool).
+
+Tuple: (54, 'Foul', 'Glen Johnson (Liverpool)', 69, 'Foul', 'Steven Gerrard (Liverpool)')
+Query: Analysis: Shot to Goal Kick Ratio
+Query Number: 21
+Difficulty: Hard
+To determine the ratio of poor shots, we first need to identify all instances of a shot or goal event and then count how many of these led directly to a goal kick.
+
+**1. Count of Shot or Goal Events:**
+I will go through the commentary and identify every instance where a player takes a shot, strike, effort, header towards goal, or scores a goal. This includes shots that are saved, blocked, go wide, or result in a goal.
+
+*   **90+2:** Philippe Coutinho (Liverpool) produced a promising **shot** (saved)
+*   **87:** Luis Suarez (Liverpool) connects with the resulting free kick on the edge of the box, but can't find the target as his **effort** goes high over the bar. (Goal Kick)
+*   **83:** Maynor Figueroa (Hull City) takes a **shot** from the edge of the area, but it goes harmlessly wide. (Goal Kick)
+*   **81:** Luis Suarez (Liverpool) ... attempts to surprise the keeper with a snap **shot**, but his attempt goes wide. (Goal Kick)
+*   **79:** takes a mid-range **shot**, but it lacks accuracy and it goes way over the bar. (Goal Kick)
+*   **79:** Jake Livermore (Hull City) decides to **strike** the ball towards goal, but his effort fails to threaten the goalkeeper after being well **blocked**. (Blocked)
+*   **75:** Philippe Coutinho (Liverpool) produces an **effort** from the edge of the box, but doesn't hit the ball properly and sends it yards wide. (Goal Kick)
+*   **73:** Philippe Coutinho (Liverpool) ... produced a low **shot** from the edge of the box ... Allan McGregor made an astonishing **save**! (Saved)
+*   **71:** Philippe Coutinho (Liverpool) ... unleashes a decent **strike** which goes a whisker over the crossbar. (Goal Kick)
+*   **67:** Curtis Davies (Hull City) misses the target from a promising position, sending the ball well wide. (Goal Kick)
+*   **65:** Jordan Henderson (Liverpool) had a good opportunity when he latched on to a cross from the wing, but his **strike** from the six-yard box wasn't accurate enough and the ball went a few inches wide. (Goal Kick)
+*   **58:** Robert Koren (Hull City) **blasts** the ball from just outside the box, but his attempt is **blocked**. (Blocked, leads to corner)
+*   **53:** Aly Cissokho (Liverpool) **strikes** the ball towards goal, but it fails to reach the target after being well **blocked**. (Blocked, leads to corner)
+*   **50:** Luis Suarez (Liverpool) takes a wonderful free kick and curls the ball into the top left corner with an absolutely phenomenal **strike**! (Goal)
+*   **45+2:** Philippe Coutinho (Liverpool) controls a cross inside the six-yard box, but sends his **shot** slightly wide. (Goal Kick)
+*   **42:** Jordan Henderson (Liverpool) ... fires a beautiful first-time **shot**, but it goes just a few inches wide. (Goal Kick)
+*   **36:** Daniel Agger (Liverpool), whose accurate **effort** from near the penalty spot went straight into the bottom left corner. (Goal)
+*   **26:** Raheem Sterling (Liverpool) is the one to unleash a good **effort** towards the bottom left corner. His **shot**, however, is **saved**. (Saved)
+*   **24:** Good chance for Philippe Coutinho (Liverpool) as he latched on to a cross ... and **blasted** the ball towards the net! It flew wide of the crossbar. (Goal Kick)
+*   **22:** Philippe Coutinho (Liverpool) stands over the free kick and opts to take it himself, but his low **effort** is straight at Allan McGregor. (Saved)
+*   **15:** Robert Koren (Hull City) ... rises for a **header**, but sends the ball well over the bar. (Goal Kick)
+*   **14:** Luis Suarez **attempts to score** after getting on the end of it. (Implies a shot taken, outcome not specified as GK/Save/Goal)
+*   **13:** Yannick Sagbo (Hull City) ... **shoots** from around the penalty spot, but the ball flies slightly over. (Goal Kick)
+*   **5:** Glen Johnson (Liverpool) unleashes a powerful **shot** towards goal, but it is bravely **blocked**. (Blocked)
+
+Total number of shot or goal events = 24.
+
+**2. Count of Shot or Goal Events Leading Directly to a Goal Kick:**
+From the list above, we count the instances where the outcome explicitly states "goal kick" or describes the shot as going wide or over the bar, which directly leads to a goal kick.
+
+1.  **87:** Luis Suarez (Liverpool) ... effort goes high over the bar.
+2.  **83:** Maynor Figueroa (Hull City) takes a shot ... it goes harmlessly wide of the right post.
+3.  **81:** Luis Suarez (Liverpool) ... his attempt goes wide of the goal.
+4.  **79:** takes a mid-range shot ... it goes way over the bar. It is going to be a goal kick.
+5.  **75:** Philippe Coutinho (Liverpool) ... sends it yards wide of the left post. It is going to be a goal kick.
+6.  **71:** Philippe Coutinho (Liverpool) ... unleashes a decent strike which goes a whisker over the crossbar.
+7.  **67:** Curtis Davies (Hull City) misses the target ... sending the ball well wide of the left post. It is going to be a goal kick.
+8.  **65:** Jordan Henderson (Liverpool) ... his strike ... wasn't accurate enough and the ball went a few inches wide of the right post. It's a goal kick.
+9.  **45+2:** Philippe Coutinho (Liverpool) ... sends his shot slightly wide of the left post. It is going to be a goal kick.
+10. **42:** Jordan Henderson (Liverpool) ... fires a beautiful first-time shot, but it goes just a few inches wide of the left post. It's a goal kick.
+11. **24:** Philippe Coutinho (Liverpool) ... blasted the ball towards the net! It flew wide of the crossbar. It will be a goal kick.
+12. **15:** Robert Koren (Hull City) ... rises for a header, but sends the ball well over the bar.
+13. **13:** Yannick Sagbo (Hull City) ... shoots from around the penalty spot, but the ball flies slightly over ... The ball crosses the byline and it's going to be a goal kick.
+
+Number of times a shot or goal event led directly to a goal kick = 13.
+
+**3. Ratio of Poor Shots:**
+Ratio = (Number of shots leading to goal kick) / (Total number of shot or goal events)
+Ratio = 13 / 24
+
+Tuple: (13/24, 13)
+Query: The 'Turning Point' Goal
+Query Number: 115
+Difficulty: Hard
+The decisive moment was the first goal scored by Liverpool, as it put them ahead and they maintained that lead until the end of the match, ultimately winning 2-0.
+
+Tuple: (36, 'Daniel Agger', 'Liverpool', '1 - 0')
+Query: Player Focus: Late Game Heroics
+Query Number: 43
+Difficulty: Hard
+Yannick Sagbo was substituted off in the 58th minute of the match. Therefore, he was not on the field during the last 10 minutes of the game and could not have been involved in any goals or proxy assists during that period.
+
+Tuple: (No, None, None)
+Query: The 'Calamity Sub' Stat
+Query Number: 68
+Difficulty: Hard
+No, based on the commentary, no substitute gave away a foul that led to a shot within 5 minutes of coming on.
+
+Tuple: ()

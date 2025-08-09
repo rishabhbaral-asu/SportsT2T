@@ -1,0 +1,419 @@
+Query: Analysis: Score at Halftime
+Query Number: 19
+Difficulty: Easy
+The halftime score was 1-0.
+Tuple: (1-0,)
+Query: Analysis: Stoppage Time Cards
+Query Number: 22
+Difficulty: Easy
+Things did get heated in added time, with one player receiving a yellow card.
+
+Tuple: ('2nd', '90', 'Sebastien Bassong', 'Norwich', 'receives a yellow card')
+Query: Stat: Last Goal of the Match
+Query Number: 55
+Difficulty: Easy
+Let's think step by step.
+To determine who had the final say in the scoring, I will scan the commentary for goal events, starting from the end of the match and moving backwards in time until the last goal is found.
+
+Scanning the commentary:
+- The match ends at 90+5 minutes.
+- The latest goal mentioned is at 59 minutes: "59 2 - 0 Kevin Mirallas (Everton) takes the free kick and beats the goalkeeper with a shot which goes inside the left post. Simply stunning!"
+- Before that, the only other goal mentioned is at 23 minutes: "23 1 - 0 Goal! Romelu Lukaku tees up Gareth Barry (Everton) on the edge of the box and he fires the ball into the right side of the goal. 1:0."
+
+Therefore, the final goal was scored at the 59th minute by Kevin Mirallas of Everton, making the score 2-0.
+
+The final say in the scoring was by Kevin Mirallas (Everton).
+Details of the last goal: At 59 minutes, Kevin Mirallas (Everton) scored from a free kick, sending the ball inside the left post, making the score 2-0.
+
+Tuple: (59, 'Kevin Mirallas', 'Everton', '2 - 0')
+Query: List: All Yellow Cards
+Query Number: 34
+Difficulty: Easy
+Tuple: ((90, 'Sebastien Bassong', 'Norwich', 'protests to the referee'), (63, 'Ryan Bennett', 'Norwich', 'commits a foul'), (45, 'John Stones', 'Everton', 'for a foul that he committed a little earlier'))
+Query: Player Focus: Getting Carded for a Foul
+Query Number: 42
+Difficulty: Easy
+I have reviewed the commentary to identify instances where a yellow card was issued directly for a foul committed within the same minute as the booking.
+
+1.  At 63 minutes: "Ryan Bennett (Norwich) commits a foul and is shown a yellow card without any hesitation from the referee." This clearly indicates a foul directly resulting in a yellow card in the same minute.
+2.  At 45 minutes: "John Stones (Everton) is cautioned by the referee for a foul that he committed a little earlier." Although it states "a little earlier," the timestamp for the foul and the caution is the same (45 minutes), meaning the booking occurred within the same minute as the foul for which he was cautioned.
+3.  At 90 minutes: "Sebastien Bassong (Norwich) protests to the referee and receives a yellow card." This yellow card was given for protesting, not for a foul, and thus is excluded.
+4.  At 38 minutes: "Romelu Lukaku (Everton) commits a minor foul... and is warned by the referee that he will get a yellow card if he does it again." This was a warning, not an actual yellow card, and therefore is excluded.
+
+Tuple: (("Ryan Bennett", "Norwich"), ("John Stones", "Everton"))
+Query: Analysis: Final Minutes Goals (First Half)
+Query Number: 5
+Difficulty: Easy
+The first half ends at 45+2 minutes. The last 25 minutes of the first half would therefore span from minute 20 (45-25=20) up to 45+2. I will scan the commentary within this time frame to identify any goals scored.
+
+The only goal scored within the last 25 minutes of the first half is:
+- At 23 minutes, Gareth Barry (Everton) scored, making the score 1-0. The description is "Goal! Romelu Lukaku tees up Gareth Barry (Everton) on the edge of the box and he fires the ball into the right side of the goal."
+
+Tuple: (('23', 'Gareth Barry', 'Everton', '1 - 0', 'Goal! Romelu Lukaku tees up Gareth Barry (Everton) on the edge of the box and he fires the ball into the right side of the goal.'))
+Query: The 'Discipline Decay' Analysis
+Query Number: 75
+Difficulty: Easy
+To determine the card count for each team, broken down by half, I will go through the commentary and note every yellow or red card. The first half concludes at 45+2 minutes, and the second half begins at 46 minutes.
+
+**Card Incidents Analysis:**
+*   **First Half (before or at 45+2 min):**
+    *   **45 min:** John Stones (Everton) is cautioned and receives a yellow card.
+    *   *No cards for Norwich in the first half.*
+*   **Second Half (after 45+2 min):**
+    *   **63 min:** Ryan Bennett (Norwich) receives a yellow card.
+    *   **90 min:** Sebastien Bassong (Norwich) receives a yellow card.
+    *   *No cards for Everton in the second half.*
+
+**Summary of Card Counts:**
+*   **Norwich:**
+    *   First Half: 0 cards
+    *   Second Half: 2 cards (Ryan Bennett, Sebastien Bassong)
+*   **Everton:**
+    *   First Half: 1 card (John Stones)
+    *   Second Half: 0 cards
+
+Tuple: (('Norwich', 0, 2), ('Everton', 1, 0))
+Query: Player Focus: Sub Foul Rate
+Query Number: 47
+Difficulty: Medium
+Upon reviewing the minute-by-minute commentary, the following players were introduced as substitutes:
+*   Nathan Redmond (Norwich) at 66 minutes.
+*   Johnny Heitinga (Everton) at 69 minutes.
+*   Steven Naismith (Everton) at 71 minutes.
+*   Josh Murphy (Norwich) at 88 minutes.
+
+After carefully examining all actions attributed to these players following their substitutions, none of them are mentioned as having committed any fouls. Therefore, all substitutes committed 0 fouls, meaning no specific substitute can be identified as "the biggest nuisance" based on foul count, as they all share the same (zero) foul count.
+
+Tuple: ("No Substitute", 0)
+Query: The 'Shooting Gallery' Period
+Query Number: 109
+Difficulty: Medium
+To determine the 5-minute spell with the most shots, I first went through the commentary to identify every instance where a shot on goal was attempted. This includes goals, shots saved by the goalkeeper, shots that were blocked by defenders, and shots that missed the target. For injury time minutes like 45+2, they are counted as part of the 45th minute for the purpose of window calculation.
+
+Here is a list of all identified shots and their corresponding minutes:
+*   **1 min**: Bradley Johnson (Norwich) - shot saved
+*   **4 min**: Seamus Coleman (Everton) - shot saved
+*   **9 min**: Romelu Lukaku (Everton) - shot miss
+*   **13 min**: Romelu Lukaku (Everton) - header miss
+*   **21 min**: Kevin Mirallas (Everton) - shot blocked
+*   **23 min**: Gareth Barry (Everton) - goal
+*   **28 min**: Ricky van Wolfswinkel (Norwich) - shot saved
+*   **36 min**: Seamus Coleman (Everton) - shot miss
+*   **45 min** (at 45+2): Leon Osman (Everton) - shot miss
+*   **48 min**: Phil Jagielka (Everton) - shot miss
+*   **49 min**: Seamus Coleman (Everton) - header saved
+*   **55 min**: James McCarthy (Everton) - shot blocked
+*   **56 min**: Kevin Mirallas (Everton) - shot miss
+*   **57 min**: Ricky van Wolfswinkel (Norwich) - shot miss
+*   **59 min**: Kevin Mirallas (Everton) - goal
+*   **63 min**: Romelu Lukaku (Everton) - shot saved
+*   **69 min**: Kevin Mirallas (Everton) - shot blocked
+*   **69 min**: Seamus Coleman (Everton) - shot miss
+*   **75 min**: Nathan Redmond (Norwich) - shot saved
+*   **77 min**: Bradley Johnson (Norwich) - shot miss
+*   **78 min**: Bradley Johnson (Norwich) - shot miss
+*   **79 min**: Robert Snodgrass (Norwich) - shot blocked
+*   **86 min**: Ricky van Wolfswinkel (Norwich) - shot miss
+
+Next, I calculated the number of shots within every possible 5-minute sliding window (e.g., 1-5, 2-6, 3-7, and so on, up to the end of the match).
+
+Upon evaluating these windows, two periods emerged with the highest number of shots (4 shots each):
+*   **Window 55-59**: This spell includes shots at minutes 55 (McCarthy), 56 (Mirallas), 57 (Van Wolfswinkel), and 59 (Mirallas goal).
+*   **Window 75-79**: This spell includes shots at minutes 75 (Redmond), 77 (Johnson), 78 (Johnson), and 79 (Snodgrass).
+
+Since the question asks for "the" spell, I will provide the chronologically first one identified.
+
+Tuple: ('55-59', 4)
+Query: The 'Scrappy Period' Analysis
+Query Number: 107
+Difficulty: Medium
+To pinpoint the most chaotic spell, I need to identify all incidents of cards and fouls, then determine the 10-minute period that contains the highest combined count of these incidents.
+
+Here's a breakdown of cards and fouls and their respective minutes, counting a yellow card for a foul as 1 card and 1 foul (total 2 incidents for that minute):
+
+1.  **15th minute**: Steven Pienaar (Everton) commits a foul. (1 incident: 1 Foul)
+2.  **34th minute**: Robert Snodgrass (Norwich) commits a foul. (1 incident: 1 Foul)
+3.  **38th minute**: Romelu Lukaku (Everton) commits a foul. (1 incident: 1 Foul)
+4.  **45th minute**: John Stones (Everton) is cautioned for a foul. (2 incidents: 1 Yellow Card, 1 Foul)
+5.  **53rd minute**: Seamus Coleman (Everton) commits a foul. (1 incident: 1 Foul)
+6.  **58th minute**: Ryan Bennett (Norwich) commits a foul. (1 incident: 1 Foul)
+7.  **63rd minute**: Ryan Bennett (Norwich) commits a foul and receives a yellow card. (2 incidents: 1 Yellow Card, 1 Foul)
+8.  **90th minute**: Sebastien Bassong (Norwich) receives a yellow card for protesting (dissent is a foul). (2 incidents: 1 Yellow Card, 1 Foul)
+
+Now, let's identify 10-minute windows (e.g., [Minute X, Minute X+9]) and sum the incidents within each:
+
+*   **Window [36-45]**:
+    *   38th minute (1 incident)
+    *   45th minute (2 incidents)
+    *   Total: 1 + 2 = 3 incidents.
+
+*   **Window [37-46]**:
+    *   38th minute (1 incident)
+    *   45th minute (2 incidents)
+    *   Total: 1 + 2 = 3 incidents.
+
+*   **Window [38-47]**:
+    *   38th minute (1 incident)
+    *   45th minute (2 incidents)
+    *   Total: 1 + 2 = 3 incidents.
+
+*   **Window [44-53]**:
+    *   45th minute (2 incidents)
+    *   53rd minute (1 incident)
+    *   Total: 2 + 1 = 3 incidents.
+
+*   **Window [45-54]**:
+    *   45th minute (2 incidents)
+    *   53rd minute (1 incident)
+    *   Total: 2 + 1 = 3 incidents.
+
+*   **Window [54-63]**:
+    *   58th minute (1 incident)
+    *   63rd minute (2 incidents)
+    *   Total: 1 + 2 = 3 incidents.
+
+*   **Window [55-64]**:
+    *   58th minute (1 incident)
+    *   63rd minute (2 incidents)
+    *   Total: 1 + 2 = 3 incidents.
+
+*   **Window [56-65]**:
+    *   58th minute (1 incident)
+    *   63rd minute (2 incidents)
+    *   Total: 1 + 2 = 3 incidents.
+
+*   **Window [57-66]**:
+    *   58th minute (1 incident)
+    *   63rd minute (2 incidents)
+    *   Total: 1 + 2 = 3 incidents.
+
+*   **Window [58-67]**:
+    *   58th minute (1 incident)
+    *   63rd minute (2 incidents)
+    *   Total: 1 + 2 = 3 incidents.
+
+All of the windows listed above have the highest count of 3 incidents. I will select the window `54-63` minutes, as it contains a foul that directly led to a goal, followed quickly by another foul from the same player resulting in a yellow card, which indicates a particularly intense and chaotic spell.
+
+Tuple: ('54-63', 3)
+Query: The 'Foul Magnet' Award
+Query Number: 79
+Difficulty: Medium
+The provided commentary describes instances where fouls occurred, leading to free kicks for either Norwich or Everton. However, in every such instance (minutes 15, 34, 38, 53, 58), the player who was fouled is referred to in a general sense (e.g., "an opposition player," "his opponent") rather than by their specific name. As a result, it is impossible to identify any individual player who was fouled, and consequently, to determine who was fouled the most based on this commentary.
+
+Tuple: ("Not specified", "N/A", "N/A")
+Query: Stat: Total Injury Time Played
+Query Number: 61
+Difficulty: Medium
+Let's think step by step.
+1.  Identify the end of the first half: `45+2 The match has reached half-time.` This indicates 2 minutes of added time.
+2.  Identify the end of the second half: `90+5 The referee blows for the end of today's match.` This indicates 5 minutes of added time.
+3.  Sum the added times: 2 minutes + 5 minutes = 7 minutes.
+
+Tuple: (7,)
+Query: The 'Pressure Cooker' Foul
+Query Number: 102
+Difficulty: Medium
+The fouls that were immediately punished by a yellow card or a free kick (as a direct consequence in the same minute) are listed below. No fouls led to a goal from a free-kick or penalty in the same minute.
+
+Tuple: (('90', 'Sebastien Bassong', 'Norwich', 'protests to the referee and receives a yellow card.'), ('63', 'Ryan Bennett', 'Norwich', 'commits a foul and is shown a yellow card.'), ('58', 'Ryan Bennett', 'Norwich', 'tripped an opposition player and a free kick is given.'), ('53', 'Seamus Coleman', 'Everton', 'gives away a free kick for tripping his opponent.'), ('45', 'John Stones', 'Everton', 'is cautioned by the referee for a foul.'), ('38', 'Romelu Lukaku', 'Everton', 'commits a minor foul to interrupt the attacking move of his opponent and Norwich win a free kick.'), ('34', 'Robert Snodgrass', 'Norwich', 'is penalised after knocking an opponent down.'), ('15', 'Steven Pienaar', 'Everton', 'makes a slide tackle and a free kick is awarded to Norwich.'))
+Query: Player Focus: Brace Scorer
+Query Number: 36
+Difficulty: Medium
+Reasoning:
+I have reviewed the entire match commentary for goal-scoring events.
+- At 23 minutes, Gareth Barry (Everton) scored the first goal (1-0).
+- At 59 minutes, Kevin Mirallas (Everton) scored the second goal (2-0).
+No other goals were mentioned in the commentary.
+Based on this, no single player scored exactly two goals. Gareth Barry scored one goal, and Kevin Mirallas scored one goal. Therefore, no player bagged a brace.
+
+Tuple: ()
+Query: Player Focus: Late Game Heroics
+Query Number: 43
+Difficulty: Hard
+Sebastien Bassong did not "step up" in the last 10 minutes in terms of positive offensive contributions. He received a yellow card for protesting.
+
+Tuple: (No, None)
+Query: Analysis: Longest Period without a Foul
+Query Number: 16
+Difficulty: Hard
+To determine the cleanest spell of the match, we need to identify all instances of fouls and then find the largest time interval between them. A "foul" is considered any action that results in a free kick, penalty, or a yellow/red card (including dissent).
+
+Let's list all fouls chronologically:
+1.  **15**: Steven Pienaar (Everton) makes a slide tackle, referee blows for a foul.
+2.  **34**: Robert Snodgrass (Norwich) is penalised after knocking an opponent down.
+3.  **38**: Romelu Lukaku (Everton) commits a minor foul.
+4.  **45**: John Stones (Everton) is cautioned for a foul.
+5.  **53**: Seamus Coleman (Everton) gives away a free kick for tripping his opponent.
+6.  **58**: Ryan Bennett (Norwich) tripped an opposition player and a free kick is given.
+7.  **63**: Ryan Bennett (Norwich) commits a foul and is shown a yellow card.
+8.  **90**: Sebastien Bassong (Norwich) protests to the referee and receives a yellow card (dissent is a foul).
+
+Now, let's calculate the duration between consecutive fouls:
+*   Between 15 and 34: 34 - 15 = 19 minutes
+*   Between 34 and 38: 38 - 34 = 4 minutes
+*   Between 38 and 45: 45 - 38 = 7 minutes
+*   Between 45 and 53: 53 - 45 = 8 minutes
+*   Between 53 and 58: 58 - 53 = 5 minutes
+*   Between 58 and 63: 63 - 58 = 5 minutes
+*   Between 63 and 90: 90 - 63 = 27 minutes
+
+The longest period without a foul is 27 minutes, occurring between the foul at the 63rd minute and the foul at the 90th minute.
+
+The two fouls that bookend this period are:
+1.  The foul at 63 minutes: Ryan Bennett (Norwich) commits a foul.
+2.  The foul at 90 minutes: Sebastien Bassong (Norwich) receives a yellow card for protesting.
+
+Tuple: ((63, 'Foul', 'Ryan Bennett (Norwich)'), (90, 'Yellow Card', 'Sebastien Bassong (Norwich)'))
+Query: The 'Equalizer' Events
+Query Number: 77
+Difficulty: Hard
+Let's think step by step.
+I need to identify goals that specifically brought the score to a level (e.g., 1-1, 2-2).
+I will go through the commentary chronologically and track the score:
+
+*   **Start:** Score 0-0.
+*   **23 min:** Gareth Barry (Everton) scores. Score becomes 1-0 to Everton. This is the first goal, not an equalizer.
+*   **59 min:** Kevin Mirallas (Everton) scores. Score becomes 2-0 to Everton. This extends the lead, not an equalizer.
+
+There are no other goals mentioned in the commentary. Norwich did not score any goals.
+Therefore, there were no goals that levelled the scores in this match.
+
+Tuple: ()
+Query: Analysis: Shot to Goal Kick Ratio
+Query Number: 21
+Difficulty: Hard
+Let's think step by step.
+First, I will identify all events that involve a shot on goal or an attempt at goal. Then I will categorize them to answer the questions.
+
+**Identifying Shots/Attempts:**
+1.  **1 min:** Bradley Johnson (Norwich) - shot on target, saved.
+2.  **4 min:** Seamus Coleman (Everton) - shot on target, saved.
+3.  **9 min:** Romelu Lukaku (Everton) - effort on goal, misses right.
+4.  **13 min:** Romelu Lukaku (Everton) - header, sails narrowly wide.
+5.  **21 min:** Kevin Mirallas (Everton) - powerful shot, blocked, leads to corner.
+6.  **23 min:** Gareth Barry (Everton) - **GOAL**.
+7.  **28 min:** Ricky van Wolfswinkel (Norwich) - shot on target, saved, leads to corner.
+8.  **36 min:** Seamus Coleman (Everton) - shot flew just over the bar, **goal kick**.
+9.  **45+2 min:** Leon Osman (Everton) - effort at goal, blazes just over crossbar, leads to corner.
+10. **48 min:** Phil Jagielka (Everton) - miskick, goes into stands, **goal kick**.
+11. **49 min:** Seamus Coleman (Everton) - header on target, saved.
+12. **55 min:** James McCarthy (Everton) - first-time shot, blocked, leads to corner.
+13. **56 min:** Kevin Mirallas (Everton) - poor effort, sails high over the bar, **goal kick**.
+14. **57 min:** Ricky van Wolfswinkel (Norwich) - strike from six-yard box, inches over the bar, **goal kick**.
+15. **59 min:** Kevin Mirallas (Everton) - **GOAL** (free kick).
+16. **63 min:** Romelu Lukaku (Everton) - low shot to bottom left, saved.
+17. **69 min:** Kevin Mirallas (Everton) - strike towards goal, blocked.
+18. **69 min:** Seamus Coleman (Everton) - long-range shot, high over the crossbar, **goal kick**.
+19. **75 min:** Nathan Redmond (Norwich) - shot in front of keeper, saved.
+20. **77 min:** Bradley Johnson (Norwich) - shoots from penalty spot, flies totally wide of left post, **goal kick**.
+21. **78 min:** Bradley Johnson (Norwich) - long-range shot, not accurate enough, goes wide of right post, **goal kick**.
+22. **79 min:** Robert Snodgrass (Norwich) - tries luck from edge of box, well blocked, leads to corner.
+23. **86 min:** Ricky van Wolfswinkel (Norwich) - effort on goal, goes well wide of right post, "A really poor shot", **goal kick**.
+
+**Task 1: Ratio of poor shots.**
+A "poor shot" is defined by explicit mention or by shots that are significantly off target leading directly to a goal kick.
+From the list above, the shots identified as "poor" are:
+*   36 min: Seamus Coleman (just over the bar, leads to goal kick)
+*   48 min: Phil Jagielka (miskick, leads to goal kick)
+*   56 min: Kevin Mirallas (poor effort, sails high, leads to goal kick)
+*   57 min: Ricky van Wolfswinkel (not accurate enough, inches over, leads to goal kick)
+*   69 min: Seamus Coleman (not accurate enough, high over, leads to goal kick)
+*   77 min: Bradley Johnson (flies totally wide, leads to goal kick)
+*   78 min: Bradley Johnson (not accurate enough, wide, leads to goal kick)
+*   86 min: Ricky van Wolfswinkel (well wide, "really poor shot", leads to goal kick)
+
+Number of poor shots = 8.
+Total number of shot attempts (as listed above) = 23.
+Ratio of poor shots = 8/23.
+
+**Task 2: How many times did a shot or goal event lead directly to a goal kick in the logs?**
+Looking at the shot list, I'll count how many times the *direct* outcome of a shot/goal event is a "goal kick".
+*   36 min: Seamus Coleman -> Goal kick. (1)
+*   48 min: Phil Jagielka -> Goal kick. (2)
+*   56 min: Kevin Mirallas -> Goal kick. (3)
+*   57 min: Ricky van Wolfswinkel -> Goal kick. (4)
+*   69 min: Seamus Coleman -> Goal kick. (5)
+*   77 min: Bradley Johnson -> Goal kick. (6)
+*   78 min: Bradley Johnson -> Goal kick. (7)
+*   86 min: Ricky van Wolfswinkel -> Goal kick. (8)
+
+The number of times a shot or goal event led directly to a goal kick is 8.
+
+Tuple: (8/23, 8)
+Query: Analysis: Corner Effectiveness
+Query Number: 3
+Difficulty: Hard
+To determine the percentage of Norwich's corners that led to a shot within the next three events, we first need to identify all instances where Norwich took a corner kick and then examine the subsequent three events to see if a shot by a Norwich player occurred. The commentary is in reverse chronological order, so we will read it from the bottom up to understand the flow of play.
+
+Let's list Norwich's corner kicks and their outcomes:
+
+1.  **26' Norwich Corner:** "Norwich have been awarded a corner kick. The corner kick from Robert Snodgrass (Norwich) is headed out of the penalty area by one of the defenders."
+    *   **Event C (Corner Taken):** 26' Snodgrass corner cleared.
+    *   **Subsequent Events (chronological):**
+        *   C+1 (28'): Ricky van Wolfswinkel (Norwich) "strikes the ball towards the right post... Norwich earn a corner." This shot was from a "neat pass" and *led to a new corner*, rather than being a direct result of the 26' corner. It's a separate attacking phase.
+    *   **Outcome:** No shot directly led to by this corner within the next three events.
+
+2.  **29' Norwich Corner (resulting from 28' shot):** "There's an opportunity for Robert Snodgrass (Norwich) to deliver the ball into the box from a corner."
+    *   **Event C (Corner Taken):** 29' Snodgrass takes the corner (implied).
+    *   **Subsequent Events (chronological):** The events following are all related to Everton (30' Everton corners, 34' Everton free kick/corner). No Norwich shots are described as a result of this corner.
+    *   **Outcome:** No shot directly led to by this corner within the next three events.
+
+3.  **72' Norwich Corner:** "A goal-scoring opportunity from a corner for Norwich. The corner from Robert Snodgrass (Norwich) is cleared away by the defence."
+    *   **Event C (Corner Taken):** 72' Snodgrass corner cleared.
+    *   **Subsequent Events (chronological):**
+        *   C+1 (71'): Steven Pienaar (Everton) substitution.
+        *   C+2 (69'): Leon Osman (Everton) substitution.
+        *   C+3 (69'): Kevin Mirallas (Everton) strike blocked.
+    *   **Outcome:** No shot by Norwich within the next three events.
+
+4.  **81' Norwich Corner:** "Robert Snodgrass (Norwich) takes the corner kick and sends the ball among a huddle of players inside the penalty area, but one of the defenders clears it to safety."
+    *   **Event C (Corner Taken):** 81' Snodgrass corner cleared.
+    *   **Subsequent Events (chronological):**
+        *   C+1 (86'): Ricky van Wolfswinkel (Norwich) "latches on to a cross on the edge of the box, but his effort on goal goes well wide." While a Norwich shot, it's described as coming from a "cross on the edge of the box" and occurs 5 minutes after the corner, indicating a new attacking phase rather than being directly led to by the corner.
+        *   C+2 (88'): Substitution.
+        *   C+3 (88'): Everton passes.
+    *   **Outcome:** No shot directly led to by this corner within the next three events.
+
+5.  **90' Norwich Corner:** "It will be a corner kick for Norwich. Robert Snodgrass (Norwich) puts a cross into the box from the corner but there is no panic from the opposition and they easily clear."
+    *   **Event C (Corner Taken):** 90' Snodgrass corner cleared.
+    *   **Subsequent Events (chronological):**
+        *   C+1 (90'): Sebastien Bassong (Norwich) receives a yellow card.
+        *   C+2 (90+5'): Match ends.
+    *   **Outcome:** No shot by Norwich within the next three events.
+
+**Summary:**
+*   Total Norwich corners identified: 5
+*   Norwich corners that led to a shot by a Norwich player within the next three events: 0
+
+**Percentage calculation:**
+(0 / 5) * 100 = 0%
+
+Tuple: (0.0,)
+Query: The 'Hot-Headed Sub' Card
+Query Number: 87
+Difficulty: Hard
+Let's break this down step-by-step to identify any substitute players who received a yellow card and how quickly.
+
+First, I will list all player substitutions and the minute they occurred:
+*   66 min: Nathan Redmond (Norwich) came on.
+*   69 min: Johnny Heitinga (Everton) came on.
+*   71 min: Steven Naismith (Everton) came on.
+*   88 min: Josh Murphy (Norwich) came on.
+
+Next, I will list all yellow cards issued and the minute they occurred:
+*   45 min: John Stones (Everton) received a yellow card.
+*   63 min: Ryan Bennett (Norwich) received a yellow card.
+*   90 min: Sebastien Bassong (Norwich) received a yellow card.
+
+Now, I will check if any of the players who came on as substitutes (Redmond, Heitinga, Naismith, Murphy) subsequently received a yellow card according to the commentary.
+
+*   Nathan Redmond came on at 66 minutes, but no yellow card is mentioned for him.
+*   Johnny Heitinga came on at 69 minutes, but no yellow card is mentioned for him.
+*   Steven Naismith came on at 71 minutes, but no yellow card is mentioned for him.
+*   Josh Murphy came on at 88 minutes, but no yellow card is mentioned for him.
+
+The players who received yellow cards (John Stones, Ryan Bennett, Sebastien Bassong) were all on the field prior to or at the time of their booking and were not noted as having been substituted into the game based on the provided commentary.
+
+Therefore, no substitute player received a yellow card in this match.
+
+Tuple: ()

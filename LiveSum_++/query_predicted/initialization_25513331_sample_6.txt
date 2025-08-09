@@ -1,0 +1,288 @@
+Query: Player Focus: Offside Count
+Query Number: 44
+Difficulty: Easy
+Dimitar Berbatov was caught straying on two occasions.
+
+Tuple: (4, 6)
+Query: Analysis: Goalscorer Substituted Off
+Query Number: 12
+Difficulty: Easy
+Reasoning:
+1.  **Mohamed Diame (West Ham)** scored a goal at the 7th minute. He was later substituted at the 56th minute, being replaced by Stewart Downing.
+2.  **Steve Sidwell (Fulham)** scored a goal at the 32nd minute. He was not mentioned as being substituted out during the match commentary.
+3.  **Dimitar Berbatov (Fulham)** scored a goal at the 66th minute. He was not mentioned as being substituted out during the match commentary.
+
+Based on the analysis, only Mohamed Diame scored and was subsequently substituted.
+
+Tuple: (7, 56, 'Mohamed Diame', 'West Ham')
+Query: Analysis: Late Game Activity by Team
+Query Number: 14
+Difficulty: Easy
+To determine which team finished stronger, we count the number of significant actions for each team in the final 13 minutes of the match. The match commentary runs until 90+5 minutes, so the final 13 minutes span from minute 77 (90-13) until the end.
+
+**West Ham actions from minute 77 to 90+5:**
+1.  **77**: Awarded a mid-range free kick.
+2.  **78**: Alou Diarra's header over the bar.
+3.  **80**: Showing great team chemistry and passing.
+4.  **85**: Holding the ball and displaying nice passing.
+5.  **90+2**: Stewart Downing's strike from outside the box, leading to a corner kick.
+6.  **90+3**: Awarded another direct free kick.
+7.  **90+3**: Unsuccessful set piece from West Ham.
+8.  **90+4**: Stewart Downing's shot just past the right post.
+9.  **90+4**: Ball goes behind for a corner.
+**Total West Ham actions: 9**
+
+**Fulham actions from minute 77 to 90+5:**
+1.  **78**: Pajtim Kasami joins as a substitute.
+2.  **85**: Slowing the tempo by exchanging passes.
+3.  **88**: Winning and taking a short corner kick.
+4.  **89**: Taking a short corner kick.
+5.  **90**: Quickly taking a corner kick.
+6.  **90+3**: Philippe Senderos commits a rough challenge (foul).
+**Total Fulham actions: 6**
+
+West Ham had 9 actions, while Fulham had 6 actions in the final 13 minutes. Therefore, West Ham finished stronger.
+
+Tuple: ('West Ham', 9)
+Query: Comparison: Offside Trap Success
+Query Number: 31
+Difficulty: Easy
+West Ham's back line was better organised at setting the offside trap, as they successfully caught Fulham players offside 4 times. Fulham's back line caught West Ham players offside 3 times. A higher count of opponent offsides indicates a more effective and organised offside trap.
+
+Tuple: ('West Ham', 3, 'Fulham', 4)
+Query: The 'Discipline Decay' Analysis
+Query Number: 75
+Difficulty: Easy
+I scanned the commentary for mentions of yellow and red cards. Kevin Nolan's red card for West Ham occurred in the 44th minute, placing it in the first half. For Fulham, Dimitar Berbatov received a yellow card in the 70th minute and Fernando Amorebieta received a yellow card in the 76th minute, both occurring in the second half.
+
+Tuple: (('West Ham', 1, 0), ('Fulham', 0, 2))
+Query: The 'Final 10 Frenzy' Subs
+Query Number: 78
+Difficulty: Easy
+West Ham rolled the dice at the end due to their sustained offensive pressure and multiple attempts on goal in the final minutes and added time (e.g., shots and corners at 90+2, 90+4). Fulham, conversely, was noted for slowing the tempo down at 85 minutes, suggesting a more defensive or time-wasting approach rather than a "dice-rolling" push.
+
+Regarding substitutions in the last ten minutes of normal time (minutes 81-90): A review of the commentary shows no substitutions were made by either West Ham or Fulham between the 81st and 90th minute. The latest substitution recorded before this period was at 78 minutes. Therefore, both teams made 0 substitutions in this specific timeframe.
+
+Tuple: ('West Ham', 0, 'Fulham', 0)
+Query: Comparison: Shots Per Half
+Query Number: 32
+Difficulty: Easy
+To determine the shot count for both teams, split by first and second half, I will meticulously go through the minute-by-minute commentary and identify every instance where a shot, effort, strike, attempt, or header towards goal is mentioned. Goals are also counted as shots. I will then categorize these by team and half.
+
+**First Half (minutes 1 - 45+3):**
+
+**West Ham Shots in First Half:**
+1.  **1'**: Modibo Maiga (West Ham) attempted to surprise the goalkeeper with a shot from long distance (miss).
+2.  **5'**: Kevin Nolan (West Ham) unleashed a low drive towards the middle of the goal (saved).
+3.  **7'**: Mohamed Diame (West Ham) produced an accurate shot from just outside the penalty area (goal).
+4.  **23'**: Kevin Nolan (West Ham) directed his header to the middle of the goal (saved).
+*   **Total West Ham First Half Shots: 4**
+
+**Fulham Shots in First Half:**
+1.  **17'**: Adel Taarabt (Fulham) found himself in a good position to strike, but his attempt was blocked.
+2.  **17'**: Scott Parker (Fulham) dragged his shot just wide of the right post.
+3.  **25'**: Adel Taarabt (Fulham) shot from the edge of the penalty area (saved).
+4.  **26'**: Dimitar Berbatov (Fulham) struck the ball towards the bottom left corner (saved).
+5.  **28'**: Fernando Amorebieta (Fulham) attempted to steer a fine header (blocked).
+6.  **32'**: Steve Sidwell (Fulham) scored with a header into the roof of the net (goal).
+7.  **39'**: Adel Taarabt (Fulham) decided to strike the ball towards goal, but his effort was blocked.
+8.  **40'**: Fernando Amorebieta (Fulham) struck from the edge of the box, but his attempt hit one of the defenders.
+*   **Total Fulham First Half Shots: 8**
+
+**Second Half (minutes 46 - 90+5):**
+
+**West Ham Shots in Second Half:**
+1.  **76'**: Matthew Taylor (West Ham) aimed and shot low towards the middle of the target (saved).
+2.  **78'**: Alou Diarra (West Ham) connected with a free kick, but his header sailed high over the bar (miss).
+3.  **90+2'**: Stewart Downing (West Ham) fired in from outside the box (went out of play, resulted in a corner).
+4.  **90+4'**: Stewart Downing (West Ham) fired in from the penalty spot, but his effort zoomed just past the right post (miss).
+*   **Total West Ham Second Half Shots: 4**
+
+**Fulham Shots in Second Half:**
+1.  **48'**: John Arne Riise (Fulham) drilled the ball towards the left post (saved).
+2.  **50'**: Scott Parker (Fulham) tried his luck with a long-range effort (saved).
+3.  **53'**: Adel Taarabt (Fulham) fired a shot from the edge of the box which went a whisker wide of the right post (miss).
+4.  **54'**: Damien Duff (Fulham) had an effort on goal that flew inches high over the bar (miss).
+5.  **58'**: Damien Duff (Fulham) connected with a pass and his attempt went towards the middle of the target (saved).
+6.  **62'**: Steve Sidwell (Fulham) unleashed a shot which was blocked by a defender.
+7.  **63'**: Adel Taarabt (Fulham) planted a strong header towards the right side of the goal (saved onto post).
+8.  **65'**: John Arne Riise (Fulham) unleashed a bullet of a shot that was blocked by a defender.
+9.  **66'**: Steve Sidwell (Fulham) unleashed an unsuccessful long-range effort (saved).
+10. **66'**: Dimitar Berbatov (Fulham) shot from close range into the bottom right corner (goal).
+11. **72'**: Darren Bent (Fulham) produced a low drive directed towards the middle of the goal (saved).
+12. **75'**: Damien Duff (Fulham) took a shot from the edge of the box, but it was blocked.
+*   **Total Fulham Second Half Shots: 12**
+
+Tuple: ('Half 1', 'West Ham', 4), ('Half 1', 'Fulham', 8), ('Half 2', 'West Ham', 4), ('Half 2', 'Fulham', 12)
+Query: The 'Shooting Gallery' Period
+Query Number: 109
+Difficulty: Medium
+To determine the 5-minute spell with the most shots, I first identified all instances of shots on goal (including blocked shots, shots off target, and goals) and their corresponding minutes from the commentary. I then iterated through all possible 5-minute rolling windows (e.g., Min 1-5, Min 2-6, Min 3-7, etc.) and counted the number of shots within each window.
+
+Here's the breakdown of shots by minute (minutes exceeding 90 are adjusted for calculation, e.g., 90+2 becomes minute 92):
+1, 5, 7, 17, 17, 23, 25, 26, 28, 32, 39, 40, 48, 50, 53, 54, 58, 62, 63, 65, 66, 66, 72, 75, 76, 78, 92, 94.
+
+By analyzing each 5-minute window, the period with the highest concentration of shots is:
+
+**Minutes 62-66:**
+*   62: Steve Sidwell (Fulham) unleashes a shot.
+*   63: Adel Taarabt (Fulham) plants a strong header.
+*   65: John Arne Riise (Fulham) unleashes a bullet of a shot.
+*   66: Dimitar Berbatov (Fulham) shot from close range (Goal).
+*   66: Steve Sidwell (Fulham) unsuccessful long-range effort.
+
+This window contains **5 shots**, which is the highest count found among all 5-minute spells in the commentary.
+
+Tuple: ('62nd-66th minute', 5)
+Query: The 'Foul Magnet' Award
+Query Number: 79
+Difficulty: Medium
+Reasoning: The provided minute-by-minute commentary details instances where fouls were committed and which team was awarded a free kick. However, it consistently names the player who *committed* the foul (e.g., Steve Sidwell, Matthew Taylor, Razvan Rat, Damien Duff, Philippe Senderos) or the team that *won* the free kick (e.g., West Ham, Fulham), but it *never* specifies which individual player was the victim of the foul. Therefore, it is impossible to identify the player who was fouled the most from the given text.
+
+Tuple: (None, None, None)
+Query: Comparison: Goalkeeper Activity
+Query Number: 29
+Difficulty: Medium
+Jussi Jaaskelainen (West Ham) was the busier of the two keepers, having made 7 saves compared to David Stockdale (Fulham) who made 3 saves. The commentary did not explicitly mention any punches or distinct catches for either goalkeeper, so those actions are counted as zero based on the provided text.
+
+Tuple: (('Jussi Jaaskelainen', 'West Ham', {'saves': 7, 'punches': 0, 'catches': 0}), ('David Stockdale', 'Fulham', {'saves': 3, 'punches': 0, 'catches': 0}))
+Query: The 'Pressure Cooker' Foul
+Query Number: 102
+Difficulty: Medium
+Reasoning:
+I have identified all instances where a foul was explicitly mentioned and immediately resulted in a direct punishment such as a free kick, yellow card, or red card. For the second part of the question regarding fouls leading to goals from free-kicks or penalties in the same minute, no such foul was described in the commentary. While a goal was scored from a free-kick at 7 minutes, the specific foul that led to that free-kick was not detailed in the provided text. Therefore, the list below only includes fouls that were immediately punished as described.
+
+Tuple: (
+(90+3, 'Philippe Senderos', 'Fulham', "Committed a rough challenge, resulting in a direct free kick for West Ham."),
+(76, 'Fernando Amorebieta', 'Fulham', "Received a yellow card for an infringement."),
+(71, 'Damien Duff', 'Fulham', "Committed a rough tackle, resulting in the referee blowing his whistle."),
+(70, 'Dimitar Berbatov', 'Fulham', "Received a yellow card for an infringement."),
+(63, 'Razvan Rat', 'West Ham', "Penalised for knocking an opponent down, resulting in a direct free kick for Fulham."),
+(44, 'Kevin Nolan', 'West Ham', "Received a red card for a horror tackle."),
+(40, 'Matthew Taylor', 'West Ham', "Violated the rules in battle for the ball, resulting in a free kick for Fulham."),
+(38, 'Steve Sidwell', 'Fulham', "Committed an unfair challenge, resulting in a free kick for West Ham."),
+(15, 'A player', 'West Ham', "Took an opponent down, resulting in a direct free kick for Fulham.")
+)
+Query: The 'Scrappy Period' Analysis
+Query Number: 107
+Difficulty: Medium
+Upon reviewing the minute-by-minute commentary, I tallied all fouls and card incidents and then evaluated them across 10-minute sliding windows.
+The window from 63 to 72 minutes had 4 incidents (3 fouls, 1 card).
+The window from 70 to 79 minutes also had 4 incidents (2 fouls, 2 cards).
+While both periods had the same total number of incidents, the 70-79 minute window contained a higher number of cards (two yellow cards), which are typically indicative of more significant disruption or chaos in a match compared to general fouls. Therefore, this period is identified as the most chaotic.
+
+Tuple: ('70-79 minutes', 'Two yellow cards (Dimitar Berbatov at 70\', Fernando Amorebieta at 76\') and two fouls (Damien Duff at 71\', a foul leading to West Ham free kick at 77\').')
+Query: Player Focus: Unsuccessful Shots
+Query Number: 49
+Difficulty: Medium
+To answer the question, I will go through the commentary minute-by-minute and identify every instance where a Fulham player took a shot or attempted to score. Then, I will check the outcome of that attempt to ensure it was *not* a goal. Finally, I will compile a unique list of these players.
+
+1.  **Dimitar Berbatov (Fulham)** (26') - Struck the ball towards goal, but the goalkeeper made an incredible save.
+2.  **Adel Taarabt (Fulham)** (25') - Shot from the edge of the penalty area, but the goalkeeper easily dealt with the threat.
+3.  **Fernando Amorebieta (Fulham)** (28') - Attempted to steer a fine header, but it was blocked by a defender.
+4.  **Scott Parker (Fulham)** (17') - Dragged his shot just wide of the right post.
+5.  **Adel Taarabt (Fulham)** (17') - Attempt was blocked. (Already listed Adel Taarabt)
+6.  **Fernando Amorebieta (Fulham)** (40') - Struck from the edge of the box, but his attempt hit one of the defenders. (Already listed Fernando Amorebieta)
+7.  **Adel Taarabt (Fulham)** (39') - Effort failed to threaten the goalkeeper after being blocked. (Already listed Adel Taarabt)
+8.  **John Arne Riise (Fulham)** (48') - Drilled it towards the left post, but the goalkeeper made a great save.
+9.  **Scott Parker (Fulham)** (50') - Long-range effort, but the goalkeeper made a comfortable save. (Already listed Scott Parker)
+10. **Adel Taarabt (Fulham)** (53') - Fired a shot which went a whisker wide of the right post. (Already listed Adel Taarabt)
+11. **Damien Duff (Fulham)** (54') - Had an effort on goal, but his strike flew inches high over the bar.
+12. **Damien Duff (Fulham)** (58') - Aimed and shot, but the goalkeeper was alert and saved it. (Already listed Damien Duff)
+13. **Steve Sidwell (Fulham)** (62') - Unleashed a shot which was brilliantly blocked by a defender.
+14. **Adel Taarabt (Fulham)** (63') - Planted a strong header towards the right side of the goal, but the keeper made a decent save to deflect the ball onto the post. (Already listed Adel Taarabt)
+15. **John Arne Riise (Fulham)** (65') - Unleashed a bullet of a shot that was blocked by a defender. (Already listed John Arne Riise)
+16. **Steve Sidwell (Fulham)** (66') - Unleashed a daisy-cutter, but the goalkeeper made an easy save. (Already listed Steve Sidwell)
+17. **Darren Bent (Fulham)** (72') - Produced a low drive towards the middle of the goal, but the goalkeeper made a decent save.
+18. **Damien Duff (Fulham)** (75') - Took a shot from the edge of the box, but it was blocked. (Already listed Damien Duff)
+
+The players from Fulham who shot but couldn't find the net are:
+Adel Taarabt, Damien Duff, Darren Bent, Dimitar Berbatov, Fernando Amorebieta, John Arne Riise, Scott Parker, Steve Sidwell.
+
+Tuple: (Adel Taarabt, Damien Duff, Darren Bent, Dimitar Berbatov, Fernando Amorebieta, John Arne Riise, Scott Parker, Steve Sidwell)
+Query: The 'Long-Range Threat' Team
+Query Number: 94
+Difficulty: Medium
+Here's the analysis of the commentary:
+
+**Players who were trying their luck from distance (outside the box/long-range efforts):**
+
+*   **West Ham:**
+    *   Stewart Downing (90+2)
+    *   Modibo Maiga (1)
+*   **Fulham:**
+    *   Damien Duff (75, 58, 54)
+    *   Steve Sidwell (66)
+    *   Adel Taarabt (53, 25, 17)
+    *   Scott Parker (50, 17)
+    *   Fernando Amorebieta (40)
+
+**Team comparison for shots from outside the box:**
+
+*   **West Ham:** Had 2 shots from outside the box.
+*   **Fulham:** Had 10 shots from outside the box.
+
+Therefore, Fulham had more shots from outside the box.
+
+Tuple: Fulham had 10 shots from outside the box, while West Ham had 2. Fulham clearly had more shots from distance.
+('Fulham', 10)
+Query: The 'Game Reset' Stat
+Query Number: 80
+Difficulty: Hard
+The red card for Kevin Nolan (West Ham) occurred at the 44th minute, which meant West Ham would play with 10 men. Following this, the very next major event recorded in the commentary, chronologically in the match, was the injury to Fernando Amorebieta of Fulham at the 45th minute. This event signifies a stop in play and a concern for a player's well-being, thus qualifying as a major event. The game then went to half-time shortly after.
+
+Tuple: (45, 'Injury', 'Fernando Amorebieta', 'Fulham')
+Query: Analysis: Lead Changes Count
+Query Number: 15
+Difficulty: Hard
+The lead swung back and forth 1 time. The moment the lead changed was when Fulham took the lead from a drawn score, after West Ham had previously held the lead.
+
+Tuple: (66, 'Dimitar Berbatov', 'Fulham', '2:1')
+Query: Analysis: Team Reaction to Conceding
+Query Number: 24
+Difficulty: Hard
+After conceding in the 7th minute, Fulham had two shots within the next 10 minutes, both occurring in the 17th minute.
+
+Tuple: (('17', 'Adel Taarabt (Fulham)', 'collects a pass and finds himself in a good position to strike from the edge of the box, but his attempt is blocked.'), ('17', 'Scott Parker (Fulham)', 'finds himself unmarked on the edge of the box, but he drags his shot just wide of the right post.'))
+Query: Player Focus: Late Game Heroics
+Query Number: 43
+Difficulty: Hard
+Dimitar Berbatov did not step up at the end as he was not involved in any goals or proxy assists during the last 10 minutes of the match (from minute 85 onwards). His only goal in the match occurred at the 66th minute, and his last mentioned action was receiving a yellow card at the 70th minute, neither of which falls within the final 10 minutes.
+
+Tuple: (False, "None")
+Query: The 'Hot-Headed Sub' Card
+Query Number: 87
+Difficulty: Hard
+Upon reviewing the minute-by-minute commentary, I have identified all substitutions and all instances of yellow and red cards.
+
+**Substitutions (Player In, Minute):**
+*   Razvan Rat (West Ham) - 32'
+*   Stewart Downing (West Ham) - 56'
+*   Alexander Kacaniklic (Fulham) - 56'
+*   Carlton Cole (West Ham) - 69'
+*   Darren Bent (Fulham) - 71'
+*   Pajtim Kasami (Fulham) - 78'
+
+**Yellow Cards (Player, Minute):**
+*   Dimitar Berbatov (Fulham) - 70'
+*   Fernando Amorebieta (Fulham) - 76'
+
+**Red Cards (Player, Minute):**
+*   Kevin Nolan (West Ham) - 44'
+
+Neither Dimitar Berbatov, Fernando Amorebieta, nor Kevin Nolan were substituted into the game; they were already on the pitch as starting players. No player who entered the game as a substitute received a yellow card (or any card) during the match according to the provided text. Therefore, I cannot identify a substitute who got booked and calculate the minutes it took for them to be carded from the given commentary.
+
+Tuple: (None, None)
+Query: The 'Header Specialist' Goal
+Query Number: 85
+Difficulty: Hard
+Let's go through the commentary to identify any headed goals and their preceding events.
+
+1.  **Minute 32 (1 - 1)**: "Steve Sidwell (Fulham) rises highest to meet the corner and his sweet header goes into the roof of the net."
+    *   This is a headed goal by Steve Sidwell for Fulham.
+    *   The commentary immediately before this states: "Corner kick. Damien Duff (Fulham) is ready to send the ball into the box."
+    *   Therefore, the preceding event type was a 'corner', and the preceding player was Damien Duff.
+
+No other goals in the commentary are explicitly described as headers.
+
+Tuple: ("Steve Sidwell", "Fulham", "corner", "Damien Duff")

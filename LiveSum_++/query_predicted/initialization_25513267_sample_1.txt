@@ -1,0 +1,302 @@
+Query: Analysis: Score at Halftime
+Query Number: 19
+Difficulty: Easy
+At halftime, the score was 0-1, with Tottenham leading Manchester United.
+
+Tuple: (0-1,)
+Query: Player Focus: Second Half Goal Check
+Query Number: 46
+Difficulty: Easy
+Chris Smalling did not score in the second half. He was substituted off at 61 minutes.
+Query: The 'Busiest Player' Index
+Query Number: 67
+Difficulty: Easy
+I have analyzed the provided minute-by-minute commentary to identify the player with the most recorded actions. I went through each entry, extracted the player's name and their team, and tallied the occurrences for each individual player mention. Non-player entities like referees or general team mentions (e.g., "Manchester Utd") were excluded from the count.
+
+After compiling the counts for all players, Wayne Rooney from Manchester United had the highest number of individual actions recorded throughout the match.
+
+Tuple: ('Wayne Rooney', 'Manchester United', 14)
+Query: The 'Injury Prone' Half
+Query Number: 89
+Difficulty: Easy
+Neither half was more brutal based on the count of injuries, as both the first and second halves recorded one injury each.
+
+**Reasoning:**
+1.  **First Half (minutes 1 - 45+3):**
+    *   At 7 minutes, Michael Dawson (Tottenham) picked up a knock and received medical attention. This accounts for 1 injury in the first half.
+2.  **Second Half (minutes 46 - 90+6):**
+    *   At 68 minutes, Emmanuel Adebayor (Tottenham) was injured and received medical treatment. This injury led to his substitution at 70 minutes. This accounts for 1 injury in the second half.
+
+Therefore, the injury count for the first half is 1, and for the second half is 1.
+
+Tuple: ('First Half', 1, 'Second Half', 1)
+Query: Stat: Team with Most Corners
+Query Number: 59
+Difficulty: Easy
+Based on the minute-by-minute commentary, I have counted the number of times each team was awarded or took a corner kick.
+
+For Manchester United:
+- 6': Awarded a corner (Smalling shot saved), Rooney takes. (1)
+- 19': Rooney takes a corner. (2)
+- 21': Januzaj takes a corner. (3)
+- 36': Rooney takes a corner. (4)
+- 37': Rooney takes a corner. (5)
+- 40': Awarded a corner (Valencia cross cleared), Rooney takes at 41'. (6)
+- 49': Awarded a corner (Valencia cross cleared), Rooney takes at 50'. (7)
+- 73': Januzaj takes a corner. (8)
+- 77': Rooney takes a corner. (9)
+- 90': Awarded a corner (Rooney shot saved), Rooney prepares at 90+1'. (10)
+- 90+1': Awarded a corner (Vidic save), Young takes at 90+1'. (11)
+- 90+2': Rooney takes a corner. (12)
+
+Re-evaluating the 90+1/90+2 minute sequence to be very precise:
+1. 90': Wayne Rooney shot saved, **Manchester Utd have been awarded a corner kick.** (Corner 1)
+2. 90+1': **Corner kick. Wayne Rooney (Manchester United) is ready to send the ball into the box.** (Implies taking Corner 1).
+3. 90+1': Nemanja Vidic meets *the* corner (i.e., Corner 1), goalkeeper pulls off an astonishing save, **Manchester Utd have been awarded a corner kick.** (Corner 2 awarded)
+4. 90+1': **Ashley Young (Manchester United) goes over to take the corner kick** (Implies taking Corner 2).
+5. 90+2': **Nothing comes of the resulting corner from Wayne Rooney (Manchester United).** (This implies a *third* distinct corner taken by Rooney, as the previous one was taken by Young).
+
+This brings the Manchester United count to:
+1. 6': Awarded + taken by Rooney.
+2. 19': Taken by Rooney.
+3. 21': Taken by Januzaj.
+4. 36': Taken by Rooney.
+5. 37': Taken by Rooney.
+6. 40': Awarded + taken by Rooney at 41'.
+7. 49': Awarded + taken by Rooney at 50'.
+8. 73': Taken by Januzaj.
+9. 77': Taken by Rooney.
+10. 90': Awarded + taken by Rooney at 90+1'.
+11. 90+1': Awarded (after Vidic save) + taken by Young at 90+1'.
+12. 90+2': Taken by Rooney.
+
+Total Manchester United corners: 12.
+
+For Tottenham:
+- 45': Christian Eriksen steps up to take the corner and overhits it. (1)
+
+Total Tottenham corners: 1.
+
+Manchester United was earning more set pieces (corners).
+
+Tuple: ('Manchester United', 12)
+Query: Scoring Summary
+Query Number: 50
+Difficulty: Easy
+Here's the full story of the goals from the match commentary:
+
+Tuple: ((34, 'Emmanuel Adebayor', 'Tottenham', '0 - 1'), (66, 'Christian Eriksen', 'Tottenham', '0 - 2'), (67, 'Danny Welbeck', 'Manchester United', '1 - 2'))
+Query: List: All Yellow Cards
+Query Number: 34
+Difficulty: Easy
+Tuple: (('89', 'Adnan Januzaj', 'Manchester United', 'picks up a yellow card'), ('81', 'Mousa Dembele', 'Tottenham', 'shouldn\'t be surprised it\'s a yellow from the ref, who cooled the situation down well'), ('42', 'Wayne Rooney', 'Manchester United', 'bad tackle on an opponent'))
+Query: Stat: First Half Shots on Target
+Query Number: 53
+Difficulty: Medium
+Let's go through the commentary for the first half, which concludes at 45+3. We are looking for instances where a Manchester United player took a shot that was saved by the opposing goalkeeper (Hugo Lloris).
+
+*   **6'**: Chris Smalling (Manchester United) unleashes a low shot to the middle of the goal, but the keeper pulls off a decent save! This is a shot on target for Manchester United.
+*   **10'**: Wayne Rooney (Manchester United) takes the free kick... but he balloons his effort high over the bar. This is not on target.
+*   **13'**: Adnan Januzaj (Manchester United) strikes the ball towards goal from long-range, but his effort is blocked by one of the defenders. This is not on target.
+*   **17'**: Antonio Valencia (Manchester United) strikes the ball towards goal, but it fails to reach the target after being well blocked by one of the defenders. This is not on target.
+*   **21'**: Nemanja Vidic (Manchester United) directs his header just a few inches wide of the left post. This is not on target.
+
+Based on the review, Manchester United tested the keeper only once in the first half.
+
+Tuple: (6, 'Chris Smalling', 'He immediately unleashes a low shot to the middle of the goal, but the keeper pulls off a decent save!')
+Query: The 'Pressure Cooker' Foul
+Query Number: 102
+Difficulty: Medium
+Here are the fouls that were immediately punished:
+
+Tuple: ((9, 'Etienne Capoue', 'Tottenham', 'too forceful with his tackle, leading to a direct free kick'), (39, 'Adnan Januzaj', 'Manchester United', 'played too fiercely and breached the rules with his tackle, leading to a free kick'), (42, 'Wayne Rooney', 'Manchester United', 'bad tackle on an opponent, receiving a yellow card'), (43, 'Chris Smalling', 'Manchester United', 'clear handball, leading to a free kick'), (81, 'Mousa Dembele', 'Tottenham', 'receives a yellow card'), (89, 'Adnan Januzaj', 'Manchester United', 'picks up a yellow card'))
+Query: The 'Super Sub' Goal
+Query Number: 113
+Difficulty: Medium
+No substitute player scored a goal in this commentary. Chicharito (Manchester United) had a great opportunity at 79 minutes, and Shinji Kagawa (Manchester United) also latched onto a pass at 76 minutes, but neither converted their chances into a goal. Therefore, no substitute made an instant impact by scoring.
+
+Tuple: ()
+Query: The 'Keeper Sweeper' Action
+Query Number: 90
+Difficulty: Medium
+No, the commentary does not describe any actions where David de Gea (Manchester United's keeper) was playing off his line or outside of his area. All his described actions are saves, which are standard goalkeeper actions within the goal/penalty area.
+
+Tuple: ()
+Query: The 'Commentator's xG'
+Query Number: 71
+Difficulty: Medium
+I have identified the "golden opportunities" by looking for direct mentions of "golden opportunity" and descriptive phrases that imply a 'one-on-one' or 'point-blank' situation, such as "great chance inside the six-yard box".
+
+Both Manchester United and Tottenham created golden opportunities.
+
+Tuple: (79, 'Chicharito', 'Manchester United', 'Collects a great pass inside the box and misses a golden opportunity. His low drive is headed for the bottom left corner, but the goalkeeper pulls off a marvellous diving save and denies him.'), (15, 'Aaron Lennon', 'Tottenham', 'Has a great chance inside the six-yard box, shoots low to the middle of the goal, but David de Gea pulls off an exquisite save to deny him.')
+Query: Analysis: Free-Kick Shots
+Query Number: 10
+Difficulty: Medium
+Here is the list of shots taken directly from a free-kick:
+
+Tuple: (('10', 'Wayne Rooney', 'Manchester United', 'takes the free kick from mid-range, but he balloons his effort high over the bar. What a miskick! The ball crosses the byline and it\'s going to be a goal kick.'),)
+Query: The 'Early Hook' Tactical Sub
+Query Number: 76
+Difficulty: Medium
+Reasoning:
+To identify the first player substituted for tactical reasons, I will go through the substitutions chronologically and check if the player leaving the field was injured in the five minutes prior to their substitution.
+
+1.  **61' Michael Carrick (Manchester United) replaced by Chicharito:** There is no mention of Michael Carrick being injured in the commentary between 56' and 61'. This appears to be a tactical substitution.
+2.  **61' Chris Smalling (Manchester United) replaced by Shinji Kagawa:** There is no mention of Chris Smalling being injured in the commentary between 56' and 61'. This also appears to be a tactical substitution.
+3.  **65' Etienne Capoue (Tottenham) replaced by Nabil Bentaleb:** No injury mentioned for Capoue between 60' and 65'. This is a tactical substitution.
+4.  **70' Emmanuel Adebayor (Tottenham) replaced by Nacer Chadli:** At 68', the commentary states "Emmanuel Adebayor (Tottenham) is writhing in pain and can now receive medical treatment". This is an injury-related substitution.
+5.  **75' Roberto Soldado (Tottenham) replaced by Harry Kane:** No injury mentioned for Soldado between 70' and 75'. This is a tactical substitution.
+6.  **84' Tom Cleverley (Manchester United) replaced by Ashley Young:** No injury mentioned for Cleverley between 79' and 84'. This is a tactical substitution.
+
+The first instances of substitutions not linked to an injury in the immediate preceding minutes occurred at 61 minutes. Michael Carrick's substitution is listed before Chris Smalling's at the same minute. Therefore, Michael Carrick was the first player hooked for tactical reasons.
+
+Tuple: (61, 'Michael Carrick', 'Manchester United')
+Query: The 'Aggressor's Timeline'
+Query Number: 65
+Difficulty: Hard
+Adnan Januzaj was the main enforcer, with 2 incidents (1 foul, 1 yellow card).
+Tuple: (('39', 'Foul', 'Played too fiercely and breached the rules with his tackle. Free kick awarded to Tottenham.'), ('89', 'Yellow Card', 'Picks up a yellow card.'))
+Query: The 'Turnover Cost' Analysis
+Query Number: 116
+Difficulty: Hard
+Here's a step-by-step analysis to determine which players were most guilty of giving the ball away in dangerous areas, leading to an opponent's shot within a minute:
+
+1.  **Define "costly turnover"**: A player loses possession (e.g., through a foul, intercepted pass, cleared cross, etc.), and within the subsequent minute, the opposing team takes a shot at goal.
+
+2.  **Chronological Review of Commentary and Turnovers**:
+
+    *   **39' Adnan Januzaj (Manchester United) foul**: Januzaj commits a foul, giving away possession.
+        *   **40' Roberto Soldado (Tottenham) shot**: Tottenham takes a shot within 1 minute of Januzaj's foul.
+        *   **Count: Adnan Januzaj = 1**
+
+    *   **65' Patrice Evra (Manchester United) cross cleared**: Evra sends a cross that is cleared by the defence, losing possession.
+        *   **66' Christian Eriksen (Tottenham) goal**: Tottenham scores (a shot) within 1 minute of Evra's lost possession.
+        *   **Count: Patrice Evra = 1**
+
+    *   All other instances of lost possession by Manchester United players were either not followed by an opponent's shot within the strict one-minute timeframe, or the subsequent shot by the opponent did not have a clearly attributable turnover by a specific Manchester United player in the commentary. For example, at 82'/83', Dembele's shot is blocked (MU gains possession), then Lennon immediately takes a shot. This implies MU lost possession quickly but no specific player is named for that turnover.
+
+3.  **Conclusion**: Based on the strict definition of a "costly turnover" (leading to an opponent's shot within a minute), Adnan Januzaj and Patrice Evra each had one such instance. Therefore, they are equally "most guilty" according to this metric.
+
+Tuple: (('Adnan Januzaj', 1), ('Patrice Evra', 1))
+Query: The 'Heated Rivalry' Index
+Query Number: 86
+Difficulty: Hard
+To determine when tempers flared the most, I looked for events related to fouls, free kicks resulting from fouls, and yellow cards, as these indicate disciplinary actions and potential heated moments. I then compared the timestamps of these events to find the two that occurred closest together in time.
+
+The relevant foul-related events are:
+- 43: Chris Smalling (Manchester United) commits a handball, resulting in a free kick.
+- 42: Wayne Rooney (Manchester United) receives a yellow card for a bad tackle.
+- 39: Adnan Januzaj (Manchester United) commits a foul, resulting in a free kick.
+- 9: Etienne Capoue (Tottenham) commits a forceful tackle, resulting in a free kick.
+- 81: Mousa Dembele (Tottenham) receives a yellow card.
+- 89: Adnan Januzaj (Manchester United) receives a yellow card.
+
+Comparing the timestamps, the two fouls that happened closest together in time occurred at minutes 43 and 42, with only a 1-minute difference.
+
+Tuple: (43, 'Foul', 'Chris Smalling', 'Manchester United', 'The game is interrupted, a clear handball by Chris Smalling (Manchester United). A free kick is awarded to Tottenham.', 42, 'Yellow Card', 'Wayne Rooney', 'Manchester United', 'Wayne Rooney (Manchester United) has to be very careful for the rest of the match after receiving a yellow card from the referee for a bad tackle on an opponent.')
+Query: The 'Calamity Sub' Stat
+Query Number: 68
+Difficulty: Hard
+After reviewing the minute-by-minute commentary, I have identified all substitutions and then examined the events occurring within 5 minutes of each substitute entering the match. I specifically looked for any fouls committed by the newly introduced player that directly led to a shot on goal by the opposing team.
+
+Here's the analysis:
+*   **Chicharito (Manchester United)** and **Shinji Kagawa (Manchester United)** came on at 61'. Between 61' and 66', there were no fouls committed by either player that led to an opposing shot.
+*   **Nabil Bentaleb (Tottenham)** came on at 65'. Between 65' and 70', there were no fouls committed by him that led to an opposing shot.
+*   **Nacer Chadli (Tottenham)** came on at 70'. Between 70' and 75', there was a free kick awarded to Manchester United at 71', but the commentary does not state that Chadli committed the foul, nor did it lead to a direct shot; it was intercepted.
+*   **Harry Kane (Tottenham)** came on at 75'. Between 75' and 80', there were no fouls committed by him that led to an opposing shot.
+*   **Ashley Young (Manchester United)** came on at 84'. Between 84' and 89', there were no fouls committed by him that led to an opposing shot.
+
+Based on this review, no substitute player in the provided commentary gave away a foul that led to a shot within 5 minutes of coming on.
+
+Tuple: ()
+Query: Analysis: Team Reaction to Conceding
+Query Number: 24
+Difficulty: Hard
+Manchester United conceded a goal at 34'. To understand their response, we examine all shot attempts by Manchester United players within the subsequent 10 minutes, specifically from 34' up to 44'. Upon reviewing the commentary in reverse chronological order from the 34th minute, no events describe a Manchester United player taking a shot (on target or off target). The actions recorded for Manchester United in this period include corners, crosses, fouls, and a yellow card, but no shot attempts.
+
+Tuple: ()
+Query: Analysis: Corner Effectiveness
+Query Number: 3
+Difficulty: Hard
+Let's break down Manchester United's corner kicks and their outcomes. The commentary is in reverse chronological order, so to find "next events" we need to look *up* the list (earlier in time). A "shot" includes any attempt towards goal, whether on target, off target, or blocked.
+
+Here's an analysis of each Manchester United corner kick:
+
+1.  **6th Minute Corner (Line 172):** "Wayne Rooney (Manchester United) takes the corner kick and sends the ball among a huddle of players inside the penalty area, but one of the defenders clears it to safety."
+    *   Next 3 events (chronologically):
+        *   7' (Line 170): Michael Dawson (Tottenham) picks up a knock. (No shot)
+        *   9' (Line 167): Etienne Capoue (Tottenham) foul, Manchester Utd free kick. (No shot from corner)
+        *   10' (Line 165): Wayne Rooney (Manchester United) takes the free kick... balloons his effort. (Shot, but from a free kick, not the corner).
+    *   **Outcome: No shot within 3 events.**
+
+2.  **19th Minute Corner (Line 146):** "Wayne Rooney (Manchester United) lifts the ball into the box from the corner, but one of the defending players gets there first to head it clear."
+    *   Next 3 events:
+        *   20' (Line 144): Danny Welbeck (Manchester United) receives a sweet cross... intercept the move. (No shot from corner)
+        *   21' (Line 142): Antonio Valencia (Manchester United) whips the ball into the penalty area... defends deals with it. (No shot from corner)
+        *   21' (Line 140): Adnan Januzaj (Manchester United) takes the corner. (This is a new corner, not a shot from the previous one).
+    *   **Outcome: No shot within 3 events.**
+
+3.  **21st Minute Corner (Line 140):** "Adnan Januzaj (Manchester United) takes the corner."
+    *   Next 3 events:
+        *   21' (Line 139): Nemanja Vidic (Manchester United) rises above the defence to meet a cross from the corner... directs his header just a few inches wide of the left post. (Explicit shot from the corner).
+        *   22' (Line 137): Emmanuel Adebayor (Tottenham) offside. (No shot)
+        *   23' (Line 135): Tottenham possession. (No shot)
+    *   **Outcome: Shot within 3 events.**
+
+4.  **36th Minute Corner (Line 106):** "The corner from Wayne Rooney (Manchester United) is cleared away by the defence." (Also Line 104, 37': "The corner from Wayne Rooney (Manchester United) is hurriedly cleared.")
+    *   Next 3 events:
+        *   37' (Line 105): Manchester Utd throw-in. (No shot)
+        *   38' (Line 103): Antonio Valencia (Manchester United) sends a beautiful cross... cleared to safety. (No shot)
+        *   39' (Line 101): Adnan Januzaj (Manchester United) foul. (No shot)
+    *   **Outcome: No shot within 3 events.**
+
+5.  **40th/41st Minute Corner (Awarded Line 97, Taken Line 95):** "Manchester United are awarded a corner kick." followed by "Wayne Rooney (Manchester United) takes the corner, but the opposition's defence is ready and clears the ball to safety."
+    *   Next 3 events:
+        *   42' (Line 93): Wayne Rooney (Manchester United) yellow card. (No shot)
+        *   42' (Line 91): Tottenham possession. (No shot)
+        *   43' (Line 89): Chris Smalling (Manchester United) handball. (No shot)
+    *   **Outcome: No shot within 3 events.**
+
+6.  **49th/50th Minute Corner (Awarded Line 78, Taken Line 76):** "It will be a corner kick for Manchester United." followed by "The resulting corner from Wayne Rooney (Manchester United) comes to nothing."
+    *   Next 3 events:
+        *   50' (Line 75): Patrice Evra (Manchester United) unsuccessful cross. (No shot)
+        *   50' (Line 73): Danny Welbeck (Manchester United) darts into the penalty area to latch on to a pass... unleashes a shot. (Shot, but described as from a "pass", not explicitly from the corner kick or its direct cross. Not counted as directly resulting from the corner for this analysis).
+        *   52' (Line 71): Tottenham players exchanging passes. (No shot)
+    *   **Outcome: No shot within 3 events.**
+
+7.  **73rd Minute Corner (Line 44):** "Adnan Januzaj (Manchester United) launches a powerful cross from the corner into the box, but the ball is intercepted by the defender."
+    *   Next 3 events:
+        *   73' (Line 43): Adnan Januzaj (Manchester United) attempts to find a head... defence manages to outjump. (No shot)
+        *   75' (Line 41): Substitution. (No shot)
+        *   76' (Line 39): Shinji Kagawa latches onto a perfect defence-splitting pass... heads towards goal. (Shot, but from a "defence-splitting pass", not explicitly the corner).
+    *   **Outcome: No shot within 3 events.**
+
+8.  **77th Minute Corner (Line 36):** "Wayne Rooney (Manchester United) quickly takes the corner kick with a short pass."
+    *   Next 3 events:
+        *   79' (Line 33): Chicharito (Manchester United) collects a great pass inside the box and misses a golden opportunity. His low drive is headed for the bottom left corner... goalkeeper pulls off a marvellous diving save. (Shot. Given the "short pass" corner and then "great pass" leading to a shot, this is highly likely to be a direct consequence of the corner routine).
+        *   81' (Line 31): Mousa Dembele (Tottenham) yellow card. (No shot)
+        *   82' (Line 29): Mousa Dembele (Tottenham) strikes the ball towards goal... blocked. (No shot from corner).
+    *   **Outcome: Shot within 3 events.**
+
+9.  **90th/90+1 Minute Corner (Awarded Line 24, Taken Line 22/20):** "Manchester Utd have been awarded a corner kick." (at 90') followed by "Corner kick. Wayne Rooney (Manchester United) is ready to send the ball into the box." (at 90+1) and "Ashley Young (Manchester United) goes over to take the corner kick..." (at 90+1).
+    *   Next 3 events:
+        *   90+1' (Line 18): Nemanja Vidic (Manchester United) comes close to scoring! He gets the ball inside the box from the resulting corner but his shot flies just over the crossbar. (Explicit shot from the corner).
+        *   90+2' (Line 16): Nothing comes of the resulting corner from Wayne Rooney (Manchester United). (A shot already happened, so this is counted as a success).
+        *   90+4' (Line 14): Shinji Kagawa (Manchester United) dinks a cross. (No shot).
+    *   **Outcome: Shot within 3 events.**
+
+10. **90+1 Minute Corner (Awarded Line 18):** "Nemanja Vidic (Manchester United) jumps inside the box to meet the corner... Manchester Utd have been awarded a corner kick." (The awarding of a new corner is the relevant part here for this last corner event).
+    *   Next 3 events:
+        *   90+2' (Line 16): Nothing comes of the resulting corner from Wayne Rooney (Manchester United). (No shot explicitly from this specific new corner).
+        *   90+4' (Line 14): Shinji Kagawa (Manchester United) dinks a cross. (No shot)
+        *   90+6' (Line 12): That's the end of the match. (No shot)
+    *   **Outcome: No shot within 3 events.**
+
+**Summary:**
+Total Manchester United corners: 10
+Corners leading to a shot within the next three events: 3 (from 21st min, 77th min, and 90th/90+1 min corners).
+
+Percentage = (3 / 10) * 100 = 30.0%
+
+Tuple: (30.0,)

@@ -1,0 +1,278 @@
+Query: Stat: Team with Most Corners
+Query Number: 59
+Difficulty: Easy
+Let's break down the corner counts for each team:
+
+We have a direct statistic at 36 minutes: "The statistic for corner kicks – 2:5." This means at 36 minutes, Stoke City had 2 corners and Everton had 5 corners.
+
+Now let's count corners awarded *after* the 36th minute mark:
+
+**Stoke City Corners:**
+*   90+5 Jermaine Pennant (Stoke City) takes the corner kick. (1 more corner)
+
+Stoke City's total corners: 2 (from 36 mins) + 1 = **3**
+
+**Everton Corners:**
+*   52 Kevin Mirallas (Everton) prepares to take a corner kick / Everton are awarded a corner kick. (These two adjacent lines at minute 52 likely refer to a single corner award). (1 more corner)
+*   71 Leighton Baines (Everton) goes over to take the corner kick. (1 more corner)
+*   71 The corner from Kevin Mirallas (Everton) is cleared away. (This implies a corner was taken, so it was awarded). (1 more corner)
+*   71 Ross Barkley (Everton) ... The ball goes behind for a corner. (1 more corner)
+
+Everton's total corners: 5 (from 36 mins) + 1 (from 52 mins) + 1 (from 71 mins Baines) + 1 (from 71 mins Mirallas) + 1 (from 71 mins Barkley) = 5 + 4 = **9**
+
+Comparing the totals: Stoke City (3 corners) vs. Everton (9 corners).
+Everton was earning more set pieces, specifically corners.
+
+Tuple: ('Everton', 9)
+Query: Timeline: Second Half Stoppage Time Summary
+Query Number: 122
+Difficulty: Easy
+The frantic finish to the match was dominated by a dramatic late equalizer. At the 90-minute mark, Jermaine Pennant (Stoke City) committed a foul, giving Everton a free kick. The most pivotal moment occurred at 90+2 minutes when Pennant again committed a foul inside the penalty area, receiving a yellow card and conceding a penalty to Everton. Leighton Baines (Everton) stepped up and calmly converted the penalty, slotting it into the bottom left corner to level the score at 1-1. Immediately after, at 90+5, Pennant took a final corner for Stoke, which was cleared, and the referee blew the final whistle, ending the match in a draw.
+
+The key action in second-half stoppage time was Jermaine Pennant's foul at 90+2 minutes, which led to a penalty kick for Everton, subsequently converted by Leighton Baines to equalize the score at 1-1.
+
+Tuple: (90+2, 'Goal (Penalty) & Yellow Card', 'Leighton Baines, Jermaine Pennant', 'Everton, Stoke City', 'Leighton Baines (Everton) converts a penalty to equalize the score at 1-1 after Jermaine Pennant (Stoke City) committed a foul and received a yellow card.')
+Query: Analysis: Yellow Card Tactical Sub
+Query Number: 26
+Difficulty: Easy
+Reasoning: To identify players who were booked and later substituted off, I first extracted all instances of yellow cards and the players who received them, along with the time. Then, I extracted all substitution events, noting which player was taken off and at what time. By comparing these two lists, I looked for any player who appeared in both lists, with the substitution occurring *after* the booking. My analysis of the provided commentary shows that none of the players who received a yellow card (Jermaine Pennant, Kevin Mirallas, Glenn Whelan, Ryan Shawcross, Geoff Cameron) were subsequently substituted out of the match. Therefore, no managers played it safe by taking off booked players.
+
+Tuple: ()
+Query: Analysis: Final Minutes Goals (First Half)
+Query Number: 5
+Difficulty: Easy
+The first half ended at 45+2 minutes. The last 22 minutes of the first half cover the period from minute 23 up to 45+2.
+Upon reviewing the commentary for this specific timeframe (minutes 23-45+2), there were no instances of goals being scored. Several attempts were made (e.g., Ross Barkley's shot at 41', Kevin Mirallas hitting the post at 45+1'), but none resulted in a score change.
+
+Tuple: ()
+Query: The 'Referee's Patience' Index
+Query Number: 105
+Difficulty: Easy
+Let's break down the fouls in each half to determine the referee's officiating style.
+
+**First Half Fouls (before 45+2):**
+*   23: Leighton Baines (Everton) makes a slide tackle, but referee Andre Marriner blows for a foul.
+*   20: Charlie Adam (Stoke City) was holding his opponent and concedes a free kick for a foul.
+*   15: Andre Marriner blows his whistle for a foul after Steven N'Zonzi (Stoke City) hacks down one of his opponents.
+*   38: Steven Pienaar (Everton) performs a sliding tackle but catches his opponent's legs. The referee blows his whistle for an infringement.
+*   45: Steven N'Zonzi (Stoke City) commits a foul in the process and the referee blows his whistle.
+
+Total First Half Fouls: 5
+
+**Second Half Fouls (from 46 onwards):**
+*   51: Andre Marriner rightly decides to book Geoff Cameron (Stoke City) for his harsh tackle. (Yellow card for foul)
+*   55: Gareth Barry (Everton) makes an unfair challenge by holding his opponent to prevent him from getting the ball. (Repeated 4 times, but typically counted as one incident for a single player being penalized/fouling in the same sequence/minute unless explicitly distinct actions - for consistency, I will count it as one sequence of fouling by Barry that leads to free kicks. However, the commentary lists it as 4 separate lines. To be precise, I will count it as 4 separate foul calls since it's listed distinctively.)
+    *   *Correction*: While listed four times, it describes the *same* foul and subsequent free kicks awarded. It's highly probable this is a copy-paste error in the commentary for a single foul event. Standard practice in match statistics counts a single infringement event as one foul. I will count this as 1 foul at 55, not 4.
+    *   *Re-evaluation*: Given the exact phrasing "Gareth Barry (Everton) makes an unfair challenge by holding his opponent to prevent him from getting the ball. Stoke have been awarded a free kick." repeated four times at the same minute mark, it's more likely emphasizing multiple instances of this foul by the same player or perhaps the same foul being called out multiple times by different observers/systems during data entry. For the sake of *counting distinct entries in the provided text*, and to adhere strictly to "simple count of fouls", if it appears as a distinct line, I will count it. If the goal is to count *events*, it would be one. Let's assume the provided commentary is literal for the simple count. So, 4 entries for Barry.
+        *   55: Gareth Barry (Everton) makes an unfair challenge... (1)
+        *   55: Gareth Barry (Everton) makes an unfair challenge... (2)
+        *   55: Gareth Barry (Everton) makes an unfair challenge... (3)
+        *   55: Gareth Barry (Everton) makes an unfair challenge... (4)
+*   57: Ryan Shawcross (Stoke City) goes into the referee's book after a bad challenge. (Yellow card for foul)
+*   64: Glenn Whelan (Stoke City) receives the caution after an awful tackle. (Yellow card for foul)
+*   67: Kevin Mirallas (Everton) picks up a yellow card. (Assume for a foul or unsporting conduct)
+*   90: Jermaine Pennant (Stoke City) tackles a bit over-zealously and Andre Marriner blows for a foul.
+*   90+2: Jermaine Pennant (Stoke City) violates the rules and gets a yellow card. It's a penalty! (Yellow card for foul, leading to penalty)
+
+Total Second Half Fouls: 1 + 4 + 1 + 1 + 1 + 1 + 1 = 10
+
+The referee called more fouls as the game wore on. In the first half, there were 5 fouls. In the second half, there were 10 fouls (counting each distinct line in the commentary as a distinct count for a "simple count"). This indicates the ref let *less* go as the game wore on.
+
+Tuple: (5, 10)
+Query: Stat: Team with Most Fouls
+Query Number: 60
+Difficulty: Easy
+Stoke City was putting themselves about more. They committed 8 fouls.
+
+Tuple: ('Stoke City', 8)
+Query: The 'Captain's Example' Check
+Query Number: 69
+Difficulty: Easy
+Steven N'Zonzi committed two fouls during the match (at 15' and 45'), but he did not receive any cards from the referee.
+
+Tuple: ()
+Query: Analysis: Goals from Deflections
+Query Number: 11
+Difficulty: Medium
+No goals in this commentary were described as taking a deflection.
+
+Tuple: ()
+Query: The 'Scoring Method' Breakdown
+Query Number: 106
+Difficulty: Medium
+Let's break down how the goals were scored:
+There were two goals in the match.
+1.  Oussama Assaidi (Stoke City) scored by drilling a low shot, which implies it was with his foot.
+2.  Leighton Baines (Everton) converted a penalty, which is also done with the foot.
+
+Therefore, no goals were scored by header, and both goals were scored with the feet.
+
+Tuple: (0, 2)
+Query: Stat: Player with Multiple Cards
+Query Number: 57
+Difficulty: Medium
+No player received more than one card in this match.
+
+Tuple: ()
+Query: The 'Long-Range Threat' Team
+Query Number: 94
+Difficulty: Medium
+To determine who was trying their luck from distance and which team had more shots from outside the box, I scanned the commentary for mentions of shots taken "from distance," "from the edge of the box," or "far out."
+
+The players who attempted shots from distance were:
+- For Stoke City: Charles Graham Adam (56') and Oussama Assaidi (34').
+- For Everton: Kevin Mirallas (45+1'), Ross Barkley (41'), and Antolin Alcaraz (15').
+
+Counting the shots from outside the box for each team:
+- Stoke City: 2 shots
+- Everton: 3 shots
+
+Therefore, Everton had more shots from outside the box.
+
+Tuple: ('Stoke City', 2, 'Everton', 3)
+Query: The 'Keeper Sweeper' Action
+Query Number: 90
+Difficulty: Medium
+Based on the provided minute-by-minute commentary:
+
+**Question:** Was the keeper for Stoke City playing off his line? Show me any of his actions described as 'outside of his area'.
+
+**Reasoning:** The commentary mentions the Stoke City goalkeeper in the context of the penalty kick (90+2) and the first goal (49), but it does not describe any of his actions as being "off his line" or "outside of his area". For the penalty, it states that "the goalkeeper guesses wrong and dives the opposite way," which describes his save attempt, not an illegal position. There are no other mentions of the Stoke City keeper's actions that suggest he was off his line or outside his area.
+
+Tuple: ()
+Query: The 'Dirty Tackle' Log
+Query Number: 74
+Difficulty: Medium
+No fouls were described using the exact terms 'nasty', 'late', or 'reckless' in the provided commentary. Therefore, the list of such challenges is empty.
+Tuple: ()
+Query: The 'Foul Magnet' Award
+Query Number: 79
+Difficulty: Medium
+Reasoning: The commentary rarely explicitly names the player who was fouled, often only stating which team was awarded a free kick or penalty. Therefore, it is impossible to definitively identify a single player who was fouled the most based solely on direct mentions in the text. However, a significant foul resulting in a penalty was committed by Jermaine Pennant (Stoke City) against an Everton player at 90+2 minutes. Leighton Baines (Everton) then converted this penalty. While not explicitly stated that Baines was the player who was fouled, it is a common practice for the fouled player to take the resulting penalty, making him the most plausible, albeit inferred, candidate for being on the receiving end of this key foul. As no other specific player is named as being fouled in the commentary, if we are to identify *a* player, Baines for the penalty incident is the strongest (and only inferable) candidate for a specific foul.
+
+Tuple: ('Leighton Baines', 'Everton', 1)
+Query: Analysis: Corner Effectiveness
+Query Number: 3
+Difficulty: Hard
+To determine the percentage of Stoke City's corners that led to a shot within the next three events, I will analyze the provided commentary in chronological order, identifying all instances where Stoke City took a corner kick and then examining the subsequent three gameplay events.
+
+1.  **Stoke City Corner 1 (at 34'):**
+    *   The commentary states: "34 Oussama Assaidi (Stoke City) ... It will be a corner kick for Stoke. 34 Charles Graham Adam (Stoke City) takes the corner kick."
+    *   **Event 1 (after the corner):** "34 Tim Howard leaps to intercept the corner kick from Charles Graham Adam (Stoke City)." (This is the clearance of the corner, not a shot by Stoke).
+    *   **Event 2 (next gameplay event):** "38 Steven Pienaar (Everton) performs a sliding tackle..." (This is an Everton foul, not a Stoke shot).
+    *   **Event 3 (next gameplay event):** "40 Everton are bossing possession..." (This is an Everton possession phase, not a Stoke shot).
+    *   Result: This corner did not lead to a shot by Stoke City within the next three events.
+
+2.  **Stoke City Corner 2 (at 90+5):**
+    *   The commentary states: "90+5 Jermaine Pennant (Stoke City) takes the corner kick and sends the ball among a huddle of players inside the penalty area, but one of the defenders clears it to safety."
+    *   **Event 1 (after the corner):** "90+5 The referee checks his watch and blows his whistle to signal the end of this match." (The match ended immediately after this corner).
+    *   Result: This corner did not lead to a shot by Stoke City within the next three events (as the game ended).
+
+**Summary:**
+*   Total Stoke City corners explicitly mentioned and taken: 2
+*   Stoke City corners that led to a shot within the next three events: 0
+
+**Calculation:**
+(Number of successful corners / Total corners) * 100 = (0 / 2) * 100 = 0%
+
+Reasoning: Stoke City took two corner kicks as explicitly described in the commentary. Neither of these corner kicks resulted in a shot by Stoke City within the immediate subsequent three gameplay events.
+
+Tuple: (0.0,)
+Query: Analysis: Shot to Goal Kick Ratio
+Query Number: 21
+Difficulty: Hard
+Let's break down the tasks:
+
+**1. Question: Show me the ratio of poor shots. How many times did a shot or goal event lead directly to a goal kick in the logs?**
+
+To determine the ratio of poor shots, we need to identify all shot attempts and count how many of them were considered "poor" (i.e., missed the target by going wide, over the bar, or hitting the post, without being saved by the keeper or blocked by a defender in a way that suggests good defending rather than a poor shot).
+
+Here's an analysis of shot/goal events:
+
+*   **Goals (not poor):**
+    *   90+2 Leighton Baines (Everton) converts penalty.
+    *   49 Oussama Assaidi (Stoke City) goal.
+*   **Shots on target/saved/blocked (not poor):**
+    *   89 Steven Naismith (Everton) header deflected.
+    *   82 Kevin Mirallas (Everton) shot blocked.
+    *   71 Ross Barkley (Everton) shot blocked, led to corner.
+    *   68 Kevin Mirallas (Everton) shot blocked.
+    *   56 Tim Howard blocks Charles Graham Adam (Stoke City)'s effort (saved).
+    *   34 Oussama Assaidi (Stoke City) shot blocked, led to corner.
+*   **Poor shots (missed target or hit post):**
+    *   45+1 Kevin Mirallas (Everton) produces a thunderbolt of a strike from distance, but his effort **rattles the left post!**
+    *   41 Ross Barkley (Everton), whose instinctive shot towards goal **flashes inches over the top.** (Leads to goal kick)
+    *   19 Peter Crouch (Stoke City) ...produces a bullet header from around the penalty spot which **goes just wide of the right post!**
+    *   15 Antolin Alcaraz (Everton) ...fired a projectile which **went yards wide of the left post.** (It's a goal kick)
+    *   12 Gareth Barry (Everton) ...steers his header **inches over the bar.** (It will be a goal kick)
+    *   2 The ball **goes wide of the goal** and out for a goal kick (Stoke's shot implied).
+
+**Total Shot/Goal Events:** 14
+(2 goals + 6 non-poor shots + 6 poor shots)
+
+**Number of Poor Shots:** 6
+
+**Ratio of Poor Shots:** 6 / 14 = **3/7**
+
+Now, let's identify how many times a shot or goal event led directly to a goal kick:
+
+*   41 Ross Barkley (Everton) shot flashes inches over the top. **It is going to be a goal kick.** (1st instance)
+*   15 Antolin Alcaraz (Everton) ...fired a projectile which went yards wide of the left post. **It's a goal kick.** (2nd instance)
+*   12 Gareth Barry (Everton) ...steers his header inches over the bar. **It will be a goal kick.** (3rd instance)
+*   2 The ball goes wide of the goal and out for a goal kick. (Stoke's shot implied). **It looks like Tim Howard (Everton) is going to take it.** (4th instance)
+
+There are **4** times a shot or goal event led directly to a goal kick in the logs.
+
+Tuple: (3/7, 4)
+Query: The 'Cautionary Tale' Foul Rate
+Query Number: 70
+Difficulty: Hard
+The first booking for Stoke City was a yellow card shown to Geoff Cameron at minute 51.
+
+To determine the effect on Stoke City's discipline, we compare their foul rate before minute 51 and after minute 51.
+
+**Foul Rate Before the First Booking (Min 1 - Min 50):**
+Fouls committed by Stoke City before minute 51:
+*   Min 15: Steven N'Zonzi (Stoke City) commits a foul.
+*   Min 20: Charlie Adam (Stoke City) commits a foul.
+Total fouls before Min 51: 2 fouls.
+Time period: 50 minutes (from minute 1 to minute 50).
+Foul rate before = 2 fouls / 50 minutes = 0.04 fouls/minute.
+
+**Foul Rate After the First Booking (Min 51 - Min 90+5):**
+Fouls committed by Stoke City from minute 51 onwards:
+*   Min 57: Ryan Shawcross (Stoke City) commits a bad challenge (yellow card).
+*   Min 64: Glenn Whelan (Stoke City) commits an awful tackle (yellow card).
+*   Min 90: Jermaine Pennant (Stoke City) commits a foul.
+*   Min 90+2: Jermaine Pennant (Stoke City) violates the rules (yellow card, penalty).
+Total fouls after Min 51: 4 fouls.
+Time period: 44 minutes (from minute 51 to the end of the match at 90+5, approximately 95 minutes in total, so 95 - 51 = 44 minutes).
+Foul rate after = 4 fouls / 44 minutes ≈ 0.091 fouls/minute.
+
+**Conclusion:**
+Stoke City's foul rate increased after their first booking. Before the booking, they committed fouls at a rate of 0.04 fouls/minute, which more than doubled to approximately 0.091 fouls/minute after the booking. This suggests that the first booking did not improve their discipline; in fact, their foul rate increased.
+
+Tuple: (0.04, 0.091, "increased foul rate")
+Query: Analysis: Team Reaction to Conceding
+Query Number: 24
+Difficulty: Hard
+Stoke City never "went behind" in this match. They scored first at 49 minutes to lead 1-0. Later, at 90+2 minutes, Everton scored an equalizer to make the score 1-1. Therefore, Stoke City was never in a trailing position.
+
+Regarding the shots Stoke City had in the 10 minutes after conceding the equalizer (at 90+2'): The match ended at 90+5 minutes. In this period, Stoke City had no shots on goal. The only attacking action from Stoke City was a corner kick at 90+5 minutes, which was cleared by the defence before a shot could be taken.
+
+Tuple: ()
+Query: The 'Impact Sub's' First Action
+Query Number: 88
+Difficulty: Hard
+Here's the analysis of how quickly the substituted players got involved:
+
+**Reasoning:**
+I have identified all substitutions in the commentary and then searched for the first explicit action attributed to each substitute player after they entered the game. The time taken is calculated by subtracting the substitution minute from the minute of their first recorded action. If no specific action was recorded for a player after their substitution, it is noted as "No explicit action recorded" and the time is marked as `None`.
+
+Tuple: (('Jack Butland', 'No explicit action recorded', None), ('Nikica Jelavic', 'No explicit action recorded', None), ('Leon Osman', 'No explicit action recorded', None), ('Steven Naismith', 'plants a goal-bound header', 8), ('Wilson Palacios', 'No explicit action recorded', None))
+Query: Analysis: Injury Forced Sub
+Query Number: 13
+Difficulty: Hard
+Based on the provided commentary, there were no substitutions explicitly stated as being forced by an injury. Jonathan Walters (Stoke City) was mentioned as having a minor injury, but the commentary stated he would be able to continue, and he was not immediately substituted.
+
+Tuple: ()
